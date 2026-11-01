@@ -187,6 +187,83 @@
    "lng": null
   }
  ],
- "plans": {},
+ "plans": {
+  "1": {
+   "name": "一日：北線笨港媽祖與民雄廣播",
+   "days": [
+    [
+     "shuixian-temple",
+     "fengtian-temple",
+     "daxing-temple",
+     "lin-clinic",
+     "fuxing-bridge",
+     "dashiye-temple",
+     "radio-museum",
+     "minxiong-guesthouse"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：北線媽祖廣播 ＋ 海線朴子與蒜頭糖廠",
+   "days": [
+    [
+     "shuixian-temple",
+     "fengtian-temple",
+     "daxing-temple",
+     "lin-clinic",
+     "fuxing-bridge",
+     "dashiye-temple",
+     "radio-museum",
+     "minxiong-guesthouse"
+    ],
+    [
+     "suantou-station",
+     "suantou-dorms",
+     "wang-delu-tomb",
+     "peitian-temple",
+     "puzi-water-tower",
+     "dongshi-office",
+     "dongshi-shrine",
+     "puzi-waterworks",
+     "puzi-school-hall"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：北線 ＋ 海線 ＋ 山線阿里山",
+   "days": [
+    [
+     "shuixian-temple",
+     "fengtian-temple",
+     "daxing-temple",
+     "lin-clinic",
+     "fuxing-bridge",
+     "dashiye-temple",
+     "radio-museum",
+     "minxiong-guesthouse"
+    ],
+    [
+     "suantou-station",
+     "suantou-dorms",
+     "wang-delu-tomb",
+     "peitian-temple",
+     "puzi-water-tower",
+     "dongshi-office",
+     "dongshi-shrine",
+     "puzi-waterworks",
+     "puzi-school-hall"
+    ],
+    [
+     "wufeng-temple",
+     "banten-ziyun",
+     "fenqihu-garage",
+     "tree-spirit-tower",
+     "kawai-stele",
+     "alishan-guesthouse",
+     "alishan-observatory"
+    ]
+   ]
+  }
+ },
  "food": []
 }

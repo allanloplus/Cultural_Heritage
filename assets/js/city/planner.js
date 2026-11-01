@@ -159,6 +159,7 @@
   function legEstimate(from, to, mode) {
     var M = MODES[mode], d = dkm(from, to);
     if (FAR[mode] && d > FAR[mode]) return { km: d * 1.35, min: d * 1.35 / TAXI_KMH * 60 + 5, far: true };
+    if ((mode === "car" || mode === "scooter") && d > 0.03 && d < 0.6) return { km: d * 1.25, min: d * 1.25 / WALK_KMH * 60, walkOnly: true, park: true };
     if (mode === "ubike") {
       if (d < 0.7) return { km: d * 1.25, min: d * 1.25 / WALK_KMH * 60, walkOnly: true };
       var b = A.nearestUbike(from[0], from[1], 1)[0], r = A.nearestUbike(to[0], to[1], 1)[0];
@@ -229,7 +230,7 @@
     var M = MODES[mode];
     if (leg.km < 0.03) return "";
     if (leg.far) return '<div class="leg">開車／計程車約 ' + Math.round(leg.min) + ' 分・' + A.km(leg.km * 1000) + '（直線估算）<span class="warn">' + (leg.noUbike ? "附近沒有 YouBike 站，" : "") + '這段距離比較遠，建議開車、搭計程車或公車。</span></div>';
-    if (leg.walkOnly) return '<div class="leg">步行約 ' + Math.round(leg.min) + ' 分（' + A.km(leg.km * 1000) + (leg.noUbike ? "，附近沒有 YouBike 站" : "，距離近建議步行") + '）</div>';
+    if (leg.walkOnly) return '<div class="leg">步行約 ' + Math.round(leg.min) + ' 分（' + A.km(leg.km * 1000) + (leg.noUbike ? "，附近沒有 YouBike 站" : leg.park ? "，距離近，車停著走過去就好" : "，距離近建議步行") + '）</div>';
     var h = '<div class="leg">' + M.name + ' 約 ' + Math.round(leg.min) + ' 分・' + A.km(leg.km * 1000) + (leg.osrm ? "（路線估算）" : "（直線估算）");
     if (leg.borrow) {
       h += '<span class="ub" data-b="' + leg.borrow.no + '" data-r="' + leg.ret.no + '"><i class="b">借</i>' + esc(leg.borrow.name) + '（步行 ' + A.km(leg.walk1 * 1000) + '）<span class="lb"></span></span>' +

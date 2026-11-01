@@ -5,7 +5,7 @@
 - 規劃設計：Allan Lo，2026/11/1
 - 使用 AI 工具：Claude Opus 5.5
 
-第一站是 **嘉義市**（`chiayi-city/`）。以後新增縣市時，每個縣市各有一個資料夾，例如 `tainan-city/`。
+目前開放 **嘉義市**（`chiayi-city/`）與 **嘉義縣**（`chiayi-county/`）。每個縣市各有一個資料夾，網頁程式全部共用；新增縣市只要準備資料（見下方「新增縣市」）。
 
 ## 網站內容
 
@@ -18,6 +18,7 @@
 | `chiayi-city/#plan` | 行程規劃，可選三個條件：天數（一日、二日、三日、不限）、交通（開車、機車、自行車、走路、YouBike）、景點選法（推薦行程、依主題、自選）。系統會自動排出順路的路線和時間，中午安排午餐。選 YouBike 時，每一段都會列出借車站與還車站，也能查即時可借、可還的數量。行程可以用 Google 地圖導航、複製或列印。 |
 | `chiayi-city/#games` | 知識遊戲：文資問答王、時光排序、猜猜我是誰、文資翻翻樂、桃城擲骰大冒險（和 Allan 一隊對戰阿拉蕾）。完成挑戰可以在文資護照上蓋章。 |
 | `chiayi-city/#about` | 資料來源、圖片授權清單、使用提醒。 |
+| `chiayi-county/` | 嘉義縣，功能與嘉義市相同。60 處有形文化資產（國定古蹟 2、縣定古蹟 23、歷史建築 31、考古遺址 1、文化景觀 3，含重要文化景觀「阿里山林業暨鐵道」），另有 23 項無形文化資產與 16 處展示點、23 件古物；地圖可依 18 個鄉鎮市篩選；時光地圖的日治時期另有 1916 年蕃地地形圖（阿里山山區）；推薦行程分北線（新港、民雄）、海線（朴子、蒜頭、六腳）、山線（中埔、番路、竹崎、阿里山）。景點分散，步行超過 3 公里、單車超過 12 公里或附近沒有 YouBike 站時，行程會建議改開車或搭車。 |
 
 ## 語音
 
@@ -26,7 +27,7 @@
 - Allan：`zh-TW-YunJheNeural`（台灣男聲）
 - 阿拉蕾：`zh-TW-HsiaoYuNeural`，音調調高（台灣小女生）
 
-每段對話合成一個 mp3，存在 `chiayi-city/audio/`。`cues.js` 記錄每句的起訖時間與內容雜湊。如果文字改了但語音還沒重新產生，播放器會自動改用瀏覽器內建語音。
+每段對話合成一個 mp3，存在各縣市的 `audio/`（例如 `chiayi-city/audio/`）。`cues.js` 記錄每句的起訖時間與內容雜湊。如果文字改了但語音還沒重新產生，播放器會自動改用瀏覽器內建語音。
 
 ## 修改內容與重新產生
 
@@ -44,18 +45,27 @@ python3 tools/gen_audio.py
 
 | 檔案 | 內容 |
 |---|---|
-| `chiayi-city/data/sites-official.json` | 文化部文化資產局開放資料：名稱、類別、地址、座標、官方連結 |
-| `chiayi-city/data/sites-content.json` | 每個景點的介紹、重點、冷知識、雙人對話、猜謎線索、測驗 |
-| `chiayi-city/data/eras.json` | 時光地圖各時期內容、地標座標、清代城牆推定範圍 |
-| `chiayi-city/data/ich.json` | 無形文化資產、民俗與古物，以及它們的公開展示地點 |
-| `chiayi-city/data/images.json` | Wikimedia Commons 照片與授權 |
-| `chiayi-city/data/ubike.json` | YouBike 2.0 嘉義市站點快照 |
-| `chiayi-city/data/extra.json` | 開場與說明對話、遊戲回饋語音、推薦行程、出發點 |
+| `<縣市>/data/config.json` | 縣市設定：地圖中心與縮放、類別、鄉鎮、YouBike 區碼、各時期要疊的老地圖、行程速度與提醒、頁面文字 |
+| `<縣市>/data/sites-official.json` | 文化部文化資產局開放資料：名稱、類別、鄉鎮、地址、座標、官方連結 |
+| `<縣市>/data/sites-content.json` | 每個景點的介紹、重點、冷知識、雙人對話、猜謎線索、測驗；`lat`/`lng` 為核對後的座標（官方座標有誤時會修正並在 `coordNote` 說明） |
+| `<縣市>/data/eras.json` | 時光地圖各時期內容、地標座標（嘉義市另有清代城牆推定範圍） |
+| `<縣市>/data/ich.json` | 無形文化資產、民俗與古物，以及它們的公開展示地點 |
+| `<縣市>/data/images.json` | Wikimedia Commons 照片與授權 |
+| `<縣市>/data/ubike.json` | YouBike 2.0 站點快照 |
+| `<縣市>/data/extra.json` | 開場與說明對話、遊戲回饋語音、推薦行程、出發點 |
 | `tools/portal.json` | 入口頁對話。這段文字也寫在 `index.html` 裡，兩邊要一致。 |
+| `tools/city_template.html` | 各縣市頁面的共用版型 |
+| `assets/js/city/`、`assets/css/city.css` | 各縣市共用的網頁程式與樣式 |
 
-改完 JSON 後，執行 `build_data.py` 會產生 `chiayi-city/js/data.js`（網頁實際讀取的檔案）和 `tools/script.json`（語音腳本）。
+改完 JSON 後，執行 `build_data.py` 會產生每個縣市的 `js/data.js` 與 `index.html`，以及 `tools/script.json`（語音腳本）。
 
-照片副本用 `python3 tools/fetch_images.py` 下載到 `chiayi-city/img/`。沒有下載到的照片，網頁會直接連結 Wikimedia Commons。
+照片副本用 `python3 tools/fetch_images.py <縣市資料夾>` 下載到該縣市的 `img/`。沒有下載到的照片，網頁會直接連結 Wikimedia Commons。
+
+### 新增縣市
+
+1. 建立資料夾（例如 `tainan-city/`），在 `data/` 放入上表的 JSON 檔（可參考 `chiayi-county/data/`）。
+2. 執行 `python3 tools/build_data.py` 與 `python3 tools/gen_audio.py`。
+3. 在 `index.html` 的城市清單把該縣市設為開放（`on: true`、`slug`）。
 
 ## 本機預覽與上線
 
@@ -71,7 +81,7 @@ python3 tools/serve.py
 
 ## 資料來源與授權
 
-- **文化資產資料**：[文化部文化資產局開放資料](https://data.boch.gov.tw/)、[國家文化資產網](https://nchdb.boch.gov.tw/)（政府資料開放授權條款）。另外與 [維基百科「嘉義市文化資產」](https://zh.wikipedia.org/zh-tw/%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2) 比對過清單。
+- **文化資產資料**：[文化部文化資產局開放資料](https://data.boch.gov.tw/)、[國家文化資產網](https://nchdb.boch.gov.tw/)（政府資料開放授權條款）。另外與維基百科「[嘉義市文化資產](https://zh.wikipedia.org/zh-tw/%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2)」「[嘉義縣文化資產](https://zh.wikipedia.org/zh-tw/%E5%98%89%E7%BE%A9%E7%B8%A3%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2)」比對過清單。座標另以 OpenStreetMap 核對，官方座標有誤者已修正。
 - **照片**：Wikimedia Commons 的自由授權照片（CC BY、CC BY-SA、公有領域、CC0）。網頁上都有標示作者、授權與原始頁面連結。沒有自由授權照片的景點，只用連結指向官方代表圖或搜尋結果。
 - **老地圖**：[中央研究院人社中心 臺灣百年歷史地圖](https://gis.sinica.edu.tw/tileserver/)。
 - **底圖**：內政部國土測繪中心（通用電子地圖、正射影像）、OpenStreetMap。

@@ -109,7 +109,7 @@
     { who: "A", text: "歡迎來到 Allan Lo 和你逛文化！我是導覽員 Allan。" },
     { who: "R", text: "我是 AI 小助手阿拉蕾！我們要帶你用地圖、故事和遊戲認識臺灣的文化資產。" },
     { who: "A", text: "每個城市都有一張文資地圖、一張時光地圖，還有幫你排好的旅遊行程。" },
-    { who: "R", text: "第一站是嘉義市！其他縣市也在準備中，敬請期待喔！" },
+    { who: "R", text: "目前開放嘉義市和嘉義縣！其他縣市也在準備中，敬請期待喔！" },
     { who: "A", text: "點一下城市卡片，我們就出發囉！" }
   ];
   new Voice.Player(document.getElementById("portalPlayer"), { track: "portal", lines: PORTAL, title: "Allan Lo 和你逛文化", audioBase: "audio/" });
@@ -119,7 +119,9 @@
     { slug: "chiayi-city", name: "嘉義市", nick: "桃城・木都・畫都", lat: 23.4805, lng: 120.4525, on: true,
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%E5%8C%97%E9%96%80%E9%A9%9B.JPG/500px-%E5%8C%97%E9%96%80%E9%A9%9B.JPG",
       credit: "北門驛／勤岸，CC BY-SA 3.0", desc: "54 處有形文化資產、16 項無形文化資產，阿里山林業鐵道從這裡出發。" },
-    { slug: "", name: "嘉義縣", nick: "阿里山・布袋・新港", lat: 23.45, lng: 120.57 },
+    { slug: "chiayi-county", name: "嘉義縣", nick: "山海之間：新港・朴子・阿里山", lat: 23.50, lng: 120.40, on: true,
+      img: "chiayi-county/img/fengtian-temple-0.webp",
+      credit: "新港奉天宮／Peellden，CC BY-SA 3.0", desc: "60 處有形文化資產、23 項無形文化資產，從布袋海岸到阿里山森林鐵道。" },
     { slug: "", name: "臺南市", nick: "府城四百年", lat: 22.99, lng: 120.20 },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
