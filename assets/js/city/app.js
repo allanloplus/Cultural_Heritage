@@ -368,13 +368,13 @@
           (it.url ? '<p style="margin-top:6px"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">文資局官方資料</a></p>' : "") + '</div>';
       }).join("") +
       ((v.antiquities || []).length ? '<div class="d-sec"><h3>收藏的古物</h3><ul>' + v.antiquities.map(function (a) { return '<li><b>' + esc(a.name) + '</b>' + (a.level ? '（' + esc(a.level) + '）' : "") + (a.note ? '：' + esc(a.note) : "") + '</li>'; }).join("") + '</ul></div>' : "") +
-      '<div class="d-actions"><a class="btn btn-sm btn-teal" href="https://www.google.com/maps/dir/?api=1&destination=' + v.lat + ',' + v.lng + '" target="_blank" rel="noopener">導航前往</a></div></div>';
+      '<div class="d-actions">' + (v.lat != null ? '<a class="btn btn-sm btn-teal" href="https://www.google.com/maps/dir/?api=1&destination=' + v.lat + ',' + v.lng + '" target="_blank" rel="noopener">導航前往</a>' : '<span class="hint">此地點座標未能核對，請依地址前往。</span>') + '</div></div>';
     $(".drawer-close", d).onclick = function () { location.hash = "#map"; };
     $$(".ich-player", d).forEach(function (el) {
       var it = items[+el.dataset.k];
       new V.Player(el, { track: it.id, lines: it.dialogue, title: it.name, audioBase: "audio/", compact: true });
     });
-    map.setView([v.lat, v.lng], Math.max(map.getZoom(), 16));
+    if (v.lat != null && v.lng != null) map.setView([v.lat, v.lng], Math.max(map.getZoom(), 16));
   }
 
   function closeDrawer() {
