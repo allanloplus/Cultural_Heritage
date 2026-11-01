@@ -10,6 +10,7 @@
   }
   var L1904 = sinica("JM20K_1904", "jpg", 18, { name: "1904 臺灣堡圖（明治版）" });
   var L1921 = sinica("JM25K_1921", "png", 18, { name: "1921 日治二萬五千分之一地形圖" });
+  var L1916 = sinica("JM50K_1916", "jpg", 16, { name: "1916 日治蕃地地形圖（山區）" });
   var L1944 = sinica("JM25K_1944", "png", 16, { name: "1944 日治地形圖（航照修正版）" });
   var L1945 = sinica("AMCityPlan_1945", "png", 18, { name: "1945 美軍繪製城市地圖（KAGI）" });
   var L1950 = sinica("TM25K_1950", "png", 17, { name: "1950 臺灣地形圖" });
@@ -18,7 +19,7 @@
   var L1989 = sinica("TM25K_1989", "jpg", 16, { name: "1989 經建一版地形圖（對照用）" });
   var LPHOTO = { name: "現今正射影像（國土測繪中心）", url: "https://wmts.nlsc.gov.tw/wmts/PHOTO2/default/GoogleMapsCompatible/{z}/{y}/{x}", maxNative: 19, attr: "&copy; 內政部國土測繪中心" };
 
-  var LAYERS = { "1904": L1904, "1921": L1921, "1944": L1944, "1945": L1945, "1950": L1950, "1966": L1966, corona: LCOR, "1989": L1989, photo: LPHOTO };
+  var LAYERS = { "1904": L1904, "1916": L1916, "1921": L1921, "1944": L1944, "1945": L1945, "1950": L1950, "1966": L1966, corona: LCOR, "1989": L1989, photo: LPHOTO };
   /* 各時期要疊的老地圖、時間範圍與說明在 config.json → eras */
   var CONF = {};
   Object.keys(A.CFG.eras || {}).forEach(function (k) {
