@@ -24,7 +24,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E7%90%B4%E5%B1%B1%E6%B2%B3%E5%90%88%E5%8D%9A%E5%A3%AB%E6%97%8C%E5%8A%9F%E7%A2%91.jpg",
    "artist": "Arlex66",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/kawai-stele-2.webp",
+   "small": "img/kawai-stele-2-s.webp"
   }
  ],
  "banten-ziyun": [
@@ -78,7 +80,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E9%87%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E6%A8%B9%E9%9D%88%E5%A1%94.jpg",
    "artist": "Rasputinemark",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/tree-spirit-tower-1.webp",
+   "small": "img/tree-spirit-tower-1-s.webp"
   }
  ],
  "wufeng-temple": [
@@ -98,7 +102,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%90%B3%E9%B3%B3%E5%BB%9F%E5%89%8D%E6%AE%BF.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/wufeng-temple-1.webp",
+   "small": "img/wufeng-temple-1-s.webp"
   }
  ],
  "dongshi-office": [
@@ -118,7 +124,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E7%9F%B3%E9%83%A1%E5%BD%B9%E6%89%80...BDS_3990.jpg",
    "artist": "顏錫沂2",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/dongshi-office-1.webp",
+   "small": "img/dongshi-office-1-s.webp"
   }
  ],
  "puzi-water-tower": [
@@ -138,7 +146,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B4%E5%AD%90%E6%B0%B4%E9%81%93%E9%85%8D%E6%B0%B4%E5%A1%94.jpg",
    "artist": "顏錫沂2",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/puzi-water-tower-1.webp",
+   "small": "img/puzi-water-tower-1-s.webp"
   }
  ],
  "peitian-temple": [
@@ -158,7 +168,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B4%E5%AD%90%E9%85%8D%E5%A4%A9%E5%AE%AE02.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/peitian-temple-1.webp",
+   "small": "img/peitian-temple-1-s.webp"
   },
   {
    "file": "朴子配天宮。鎮殿媽.jpg",
@@ -166,7 +178,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B4%E5%AD%90%E9%85%8D%E5%A4%A9%E5%AE%AE%E3%80%82%E9%8E%AE%E6%AE%BF%E5%AA%BD.jpg",
    "artist": "Ahao823",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/peitian-temple-2.webp",
+   "small": "img/peitian-temple-2-s.webp"
   }
  ],
  "wang-delu-tomb": [
@@ -186,7 +200,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:TheTombOfWangDeLu1.jpg",
    "artist": "Peellden",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/wang-delu-tomb-1.webp",
+   "small": "img/wang-delu-tomb-1-s.webp"
   },
   {
    "file": "王得祿墓園.jpg",
@@ -194,7 +210,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E5%BE%97%E7%A5%BF%E5%A2%93%E5%9C%92.jpg",
    "artist": "小三可",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/wang-delu-tomb-2.webp",
+   "small": "img/wang-delu-tomb-2-s.webp"
   }
  ],
  "shuixian-temple": [
@@ -214,7 +232,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E7%B8%A3%E5%9C%8B%E5%AE%9A%E5%8F%A4%E8%B9%9F%E7%AC%A8%E6%B8%AF%E6%B0%B4%E4%BB%99%E5%AE%AE.jpg",
    "artist": "Kobe8833",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/shuixian-temple-1.webp",
+   "small": "img/shuixian-temple-1-s.webp"
   },
   {
    "file": "笨港水仙宮 水仙尊王.jpg",
@@ -222,7 +242,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E7%AC%A8%E6%B8%AF%E6%B0%B4%E4%BB%99%E5%AE%AE_%E6%B0%B4%E4%BB%99%E5%B0%8A%E7%8E%8B.jpg",
    "artist": "蔡祐祐",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/shuixian-temple-2.webp",
+   "small": "img/shuixian-temple-2-s.webp"
   }
  ],
  "fengtian-temple": [
@@ -278,7 +300,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%B0%91%E9%9B%84%E5%A4%A7%E5%A3%AB%E7%88%BA%E5%BB%9F-%E6%AD%A3%E6%AE%BF.jpg",
    "artist": "Husky221",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/dashiye-temple-1.webp",
+   "small": "img/dashiye-temple-1-s.webp"
   },
   {
    "file": "嘉義縣 民雄大士爺廟 百年廟宇藝術.jpg",
@@ -286,7 +310,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E7%B8%A3_%E6%B0%91%E9%9B%84%E5%A4%A7%E5%A3%AB%E7%88%BA%E5%BB%9F_%E7%99%BE%E5%B9%B4%E5%BB%9F%E5%AE%87%E8%97%9D%E8%A1%93.jpg",
    "artist": "Guan Zhen Chen",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/dashiye-temple-2.webp",
+   "small": "img/dashiye-temple-2-s.webp"
   }
  ],
  "weng-house": [
@@ -462,7 +488,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:Radio_Taiwan_International,_Japanese-style_dormitory,_Mincyuan_Road,_Minsyong_(Taiwan).jpg",
    "artist": "Mk2010",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/minxiong-dorms-1.webp",
+   "small": "img/minxiong-dorms-1-s.webp"
   }
  ],
  "radio-museum": [
@@ -586,7 +614,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:Alishan_Taiwan_Alishan-Forest-Railway-02.jpg",
    "artist": "CEphoto, Uwe Aranas",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/alishan-landscape-1.webp",
+   "small": "img/alishan-landscape-1-s.webp"
   },
   {
    "file": "Alishan Taiwan Alishan-Forest-Railway-01.jpg",
@@ -594,7 +624,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:Alishan_Taiwan_Alishan-Forest-Railway-01.jpg",
    "artist": "CEphoto, Uwe Aranas",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/alishan-landscape-2.webp",
+   "small": "img/alishan-landscape-2-s.webp"
   }
  ],
  "alishan-guesthouse": [
@@ -604,7 +636,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E9%87%8C%E5%B1%B1%E8%B2%B4%E8%B3%93%E9%A4%A8%E6%AD%B7%E5%8F%B2%E9%A4%A8%E6%8B%9B%E5%BE%85%E5%A4%A7%E5%BB%B3.jpg",
    "artist": "Yanyiyi",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/alishan-guesthouse-0.webp",
+   "small": "img/alishan-guesthouse-0-s.webp"
   }
  ],
  "alishan-observatory": [
@@ -624,7 +658,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E7%B8%A3%E7%B8%A3%E5%AE%9A%E5%8F%A4%E8%B9%9F%E6%BA%AA%E5%8F%A3%E6%9B%BE%E6%B0%8F%E6%B4%8B%E6%A8%93.jpg",
    "artist": "Kobe8833",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zeng-mansion-0.webp",
+   "small": "img/zeng-mansion-0-s.webp"
   }
  ],
  "lucao-office": [
@@ -634,7 +670,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%B9%BF%E8%8D%89%E5%BA%84%E5%BD%B9%E5%A0%B4%E5%8C%97%E5%81%B4.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/lucao-office-0.webp",
+   "small": "img/lucao-office-0-s.webp"
   },
   {
    "file": "原鹿草庄役場大門.jpg",
@@ -642,7 +680,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%B9%BF%E8%8D%89%E5%BA%84%E5%BD%B9%E5%A0%B4%E5%A4%A7%E9%96%80.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/lucao-office-1.webp",
+   "small": "img/lucao-office-1-s.webp"
   }
  ],
  "puzi-waterworks": [
@@ -652,7 +692,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B4%E5%AD%90%E6%B0%B4%E9%81%93%E9%A0%AD.jpg",
    "artist": "Chang660614",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/puzi-waterworks-0.webp",
+   "small": "img/puzi-waterworks-0-s.webp"
   },
   {
    "file": "朴子水道頭1.jpg",
@@ -660,7 +702,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B4%E5%AD%90%E6%B0%B4%E9%81%93%E9%A0%AD1.jpg",
    "artist": "Chang660614",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/puzi-waterworks-1.webp",
+   "small": "img/puzi-waterworks-1-s.webp"
   }
  ],
  "suantou-dorms": [
@@ -670,7 +714,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E7%B8%A3%E6%AD%B7%E5%8F%B2%E5%BB%BA%E7%AF%89-%E8%92%9C%E9%A0%AD%E7%B3%96%E5%BB%A0%E6%97%A5%E5%BC%8F%E6%9C%A8%E9%80%A0%E5%AE%BF%E8%88%8D%E5%8D%80.jpg",
    "artist": "Yanyiyi",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/suantou-dorms-0.webp",
+   "small": "img/suantou-dorms-0-s.webp"
   },
   {
    "file": "嘉義縣歷史建築-蒜頭糖廠日式木造宿舍區含甘堂-宿舍正立面.jpg",
@@ -678,7 +724,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E7%B8%A3%E6%AD%B7%E5%8F%B2%E5%BB%BA%E7%AF%89-%E8%92%9C%E9%A0%AD%E7%B3%96%E5%BB%A0%E6%97%A5%E5%BC%8F%E6%9C%A8%E9%80%A0%E5%AE%BF%E8%88%8D%E5%8D%80%E5%90%AB%E7%94%98%E5%A0%82-%E5%AE%BF%E8%88%8D%E6%AD%A3%E7%AB%8B%E9%9D%A2.jpg",
    "artist": "Yanyiyi",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/suantou-dorms-1.webp",
+   "small": "img/suantou-dorms-1-s.webp"
   }
  ],
  "suantou-landscape": [
@@ -688,7 +736,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%92%9C%E9%A0%AD%E7%B3%96%E5%BB%A0%E8%A3%BD%E7%B3%96%E5%B7%A5%E5%BB%A0.jpg",
    "artist": "Koala0090",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/suantou-landscape-0.webp",
+   "small": "img/suantou-landscape-0-s.webp"
   }
  ]
 }
