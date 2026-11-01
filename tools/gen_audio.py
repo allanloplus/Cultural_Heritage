@@ -5,7 +5,7 @@ Allan：zh-TW-YunJheNeural（台灣男聲）
 阿拉蕾：zh-TW-HsiaoYuNeural 提高音調（台灣小女生）
 只會重新合成內容有變動的句子（快取於 tools/.tts-cache/，不進版控）。
 """
-import asyncio, hashlib, json, os, ssl, subprocess, sys, wave
+import asyncio, hashlib, json, os, random, ssl, subprocess, sys, wave
 
 import edge_tts
 import edge_tts.communicate as C
@@ -35,7 +35,7 @@ async def synth(who, text, sem):
         return path
     v = VOICE[who]
     async with sem:
-        for attempt in range(6):
+        for attempt in range(12):  # 語音服務偶爾回傳空白，多試幾次
             try:
                 mp3 = path[:-4] + ".mp3"
                 await edge_tts.Communicate(text, v["voice"], pitch=v["pitch"], rate=v["rate"],
@@ -46,7 +46,7 @@ async def synth(who, text, sem):
                 return path
             except Exception as e:  # 網路偶發錯誤重試
                 print("retry", attempt, text[:20], e, file=sys.stderr)
-                await asyncio.sleep(2 ** attempt)
+                await asyncio.sleep(min(30, 2 ** attempt) + random.random() * 3)
     raise RuntimeError("TTS failed: " + text[:40])
 
 
@@ -85,7 +85,7 @@ async def main():
     os.makedirs(CACHE, exist_ok=True)
     script = json.load(open(os.path.join(ROOT, "tools", "script.json"), encoding="utf-8"))
     only = set(sys.argv[1:])  # 可指定只產生某些 track
-    sem = asyncio.Semaphore(6)
+    sem = asyncio.Semaphore(3)
     for g in script["groups"]:
         out_dir = os.path.join(ROOT, g["dir"])
         os.makedirs(out_dir, exist_ok=True)
