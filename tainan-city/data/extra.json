@@ -187,6 +187,92 @@
    "lng": null
   }
  ],
- "plans": {},
+ "plans": {
+  "1": {
+   "name": "一日：府城經典古蹟 ＋ 安平",
+   "days": [
+    [
+     "zhongxi-chikanlou",
+     "zhongxi-sidianwumiao",
+     "zhongxi-datianhougong",
+     "zhongxi-kongzimiao",
+     "zhongxi-zhouting",
+     "zhongxi-difangfayuan",
+     "anping-relanzhebaoyigou",
+     "anping-yingshangdejiyang",
+     "anping-erkunshenpaotai"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：府城古蹟散步 ＋ 安平港街",
+   "days": [
+    [
+     "zhongxi-chikanlou",
+     "zhongxi-sidianwumiao",
+     "zhongxi-datianhougong",
+     "zhongxi-beijidian",
+     "zhongxi-kaijiwumiaoyuan",
+     "zhongxi-kongzimiao",
+     "zhongxi-zhouting",
+     "zhongxi-difangfayuan",
+     "zhongxi-cehousuo",
+     "zhongxi-taiwanfuchengcheng"
+    ],
+    [
+     "anping-relanzhebaoyigou",
+     "anping-haishanguan",
+     "anping-yanpingjiegujing",
+     "anping-yingshangdejiyang",
+     "anping-deshangdongxing",
+     "anping-taiwanzongdufu",
+     "anping-yunheanpinghaiguan",
+     "anping-xiaopaotai",
+     "anping-erkunshenpaotai"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：府城 ＋ 安平與府城廟埕 ＋ 溪北（烏山頭、麻豆、鹽水、後壁）",
+   "days": [
+    [
+     "zhongxi-chikanlou",
+     "zhongxi-sidianwumiao",
+     "zhongxi-datianhougong",
+     "zhongxi-beijidian",
+     "zhongxi-kaijiwumiaoyuan",
+     "zhongxi-kongzimiao",
+     "zhongxi-zhouting",
+     "zhongxi-difangfayuan",
+     "zhongxi-cehousuo",
+     "zhongxi-taiwanfuchengcheng"
+    ],
+    [
+     "anping-relanzhebaoyigou",
+     "anping-haishanguan",
+     "anping-yanpingjiegujing",
+     "anping-yingshangdejiyang",
+     "anping-deshangdongxing",
+     "anping-taiwanzongdufu",
+     "anping-yunheanpinghaiguan",
+     "anping-xiaopaotai",
+     "anping-erkunshenpaotai",
+     "zhongxi-taiwanfuchenghuang",
+     "zhongxi-shuixiangong",
+     "zhongxi-fengshenmiao"
+    ],
+    [
+     "wushantoushuikuji",
+     "guantian-batianyuyigujuqun",
+     "madou-zongyetangchang",
+     "yanshui-bajiaolou",
+     "yanshui-yuejingangjuboting",
+     "yanshui-yongchengxiyuan",
+     "houbi-jingliaojindexing",
+     "houbi-jingliaoguoxiaomu"
+    ]
+   ]
+  }
+ },
  "food": []
 }

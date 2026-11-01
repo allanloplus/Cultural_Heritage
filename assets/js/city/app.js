@@ -16,7 +16,7 @@
     "文化景觀": { c: "var(--c-landscape)", hex: "#3b7bbf", k: "景" },
     "無形文資": { c: "var(--c-ich)", hex: "#b8860b", k: "藝" }
   };
-  var ERA = { prehistoric: "史前時代", dutch: "荷蘭時期", zheng: "明鄭時期", qing: "清朝", japan: "日治時期", postwar: "戰後（1945–1980）", modern: "1981 年以後" };
+  var ERA = { unknown: "年代不詳", prehistoric: "史前時代", dutch: "荷蘭時期", zheng: "明鄭時期", qing: "清朝", japan: "日治時期", postwar: "戰後（1945–1980）", modern: "1981 年以後" };
   var CENTER = CFG.center;
 
   /* ---------- utils ---------- */
@@ -26,7 +26,7 @@
     var r = Math.PI / 180, x = (d - b) * r * Math.cos((a + c) / 2 * r), y = (c - a) * r;
     return Math.sqrt(x * x + y * y) * 6371000;
   }
-  function yearLabel(s) { return s.year < 0 ? "史前" : String(s.year); }
+  function yearLabel(s) { return s.yearUnknown ? "年代不詳" : s.year < 0 ? "史前" : String(s.year); }
   function km(m) { return m < 1000 ? Math.round(m) + " 公尺" : (m / 1000).toFixed(1) + " 公里"; }
   function img(url, w) { return url && /\/\d+px-/.test(url) ? url.replace(/\/\d+px-/, "/" + w + "px-") : url; }
   /* 照片：優先使用站內副本（chiayi-city/img），沒有才直接連結 Wikimedia Commons */

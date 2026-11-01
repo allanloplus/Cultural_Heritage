@@ -81,6 +81,7 @@ def build_city(slug):
             "address": cfg["name"] + addr,
             "announced": o.get("announced"), "url": o["url"], "officialImg": o.get("officialImg"),
             "year": c["year"], "yearText": c["yearText"], "era": c["era"], "themes": c["themes"],
+            "yearUnknown": bool(c.get("yearUnknown")),
             "summary": c["summary"], "intro": c["intro"], "highlights": c["highlights"],
             "funFact": c["funFact"], "photoSpot": c["photoSpot"], "visitMin": c["visitMin"],
             "openNote": c["openNote"], "dialogue": c["dialogue"], "clues": c["clues"], "quiz": c["quiz"],

@@ -60,7 +60,7 @@
 
   /* ---------- 2. 時光排序 ---------- */
   function timeline(el) {
-    var pool = A.shuffle(A.sites), pick = [], years = {};
+    var pool = A.shuffle(A.sites.filter(function (s) { return !s.yearUnknown; })), pick = [], years = {};
     for (var k = 0; k < pool.length && pick.length < 5; k++) { if (!years[pool[k].year]) { years[pool[k].year] = 1; pick.push(pool[k]); } }
     var placed = [];
     function card(s, showYear) {

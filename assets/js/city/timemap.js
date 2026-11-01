@@ -147,7 +147,7 @@
     });
     // 當時已存在、今天仍保存的文化資產
     siteLayer.clearLayers();
-    var exist = A.sites.filter(function (s) { return s.year <= conf.end; });
+    var exist = A.sites.filter(function (s) { return !s.yearUnknown && s.year <= conf.end; });
     exist.forEach(function (s) {
       L.circleMarker([s.lat, s.lng], { radius: 6, color: "#fff", weight: 2, fillColor: A.CAT[s.category].hex, fillOpacity: .9 })
         .bindTooltip(s.short + "（" + A.yearLabel(s) + "）", { className: "tip" }).on("click", function () { location.hash = "#map/" + s.id; }).addTo(siteLayer);
