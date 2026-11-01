@@ -48,19 +48,21 @@
     { k: "game-memory", n: "翻翻樂" }, { k: "game-board", n: "擲骰冒險" }, { k: "time-all", n: "時光旅人" },
     { k: "listen-10", n: "導覽達人" }, { k: "visit-5", n: "實地踏查" }, { k: "plan", n: "行程達人" }
   ];
-  function passport() { return store("cy.passport") || { stamps: {}, listened: {}, visited: {}, eras: {} }; }
+  /* 每個縣市各自的護照與紀錄（嘉義市沿用最早的鍵名，舊紀錄不會遺失） */
+  var KEY = CFG.slug === "chiayi-city" ? "cy." : "cy." + CFG.slug + ".";
+  function passport() { return store(KEY + "passport") || { stamps: {}, listened: {}, visited: {}, eras: {} }; }
   function stamp(k) {
     var p = passport();
     if (p.stamps[k]) return false;
     p.stamps[k] = new Date().toISOString().slice(0, 10);
-    store("cy.passport", p);
+    store(KEY + "passport", p);
     var s = STAMPS.filter(function (x) { return x.k === k; })[0];
     toast("蓋章成功：「" + (s ? s.n : k) + "」", "A", "wink");
     renderPassport();
     return true;
   }
   function track(kind, id) {
-    var p = passport(); p[kind] = p[kind] || {}; p[kind][id] = 1; store("cy.passport", p);
+    var p = passport(); p[kind] = p[kind] || {}; p[kind][id] = 1; store(KEY + "passport", p);
     if (kind === "listened" && Object.keys(p.listened).length >= 10) stamp("listen-10");
     if (kind === "visited" && Object.keys(p.visited).length >= 5) stamp("visit-5");
     if (kind === "eras" && CY.eras.length && Object.keys(p.eras).length >= CY.eras.length) stamp("time-all");
@@ -421,7 +423,7 @@
 
   /* ---------- export ---------- */
   window.App = { CY: CY, CFG: CFG, sites: SITES, byId: byId, CAT: CAT, ERA: ERA, CENTER: CENTER, $: $, $$: $$, dist: dist, km: km, img: img, shuffle: shuffle, store: store,
-    pic: pic, toast: toast, stamp: stamp, track: track, renderPassport: renderPassport, renderQuiz: renderQuiz, baseLayers: baseLayers, pinIcon: pinIcon,
+    pic: pic, KEY: KEY, passport: passport, toast: toast, stamp: stamp, track: track, renderPassport: renderPassport, renderQuiz: renderQuiz, baseLayers: baseLayers, pinIcon: pinIcon,
     nearestUbike: nearestUbike, ubikeLive: ubikeLive, register: register, route: route };
 
   document.addEventListener("DOMContentLoaded", function () { setTimeout(route, 0); });

@@ -24,7 +24,7 @@
   var THEMES = {}; A.sites.forEach(function (s) { s.themes.forEach(function (t) { THEMES[t] = 1; }); });
 
   var st = { days: "1", mode: "walk", pick: "rec", start: "station", pace: 1, time: "09:00", themes: {}, picks: {} };
-  (A.store("cy.picks") || []).forEach(function (id) { st.picks[id] = true; });
+  (A.store(A.KEY + "picks") || []).forEach(function (id) { st.picks[id] = true; });
   var pmap, layers, startLL = null, ubLayer, plan = null, inited = false;
 
   function minutes(hhmm) { var p = hhmm.split(":"); return (+p[0]) * 60 + (+p[1] || 0); }
@@ -70,7 +70,7 @@
     $("#pkNone").onclick = function () { st.picks = {}; savePicks(); renderPickBox(); };
     cnt();
   }
-  function savePicks() { A.store("cy.picks", Object.keys(st.picks).filter(function (k) { return st.picks[k]; })); }
+  function savePicks() { A.store(A.KEY + "picks", Object.keys(st.picks).filter(function (k) { return st.picks[k]; })); }
 
   function initUI() {
     new V.Player($("#planIntro"), { track: "plan-intro", lines: X.planIntro, title: "行程小幫手", audioBase: "audio/", compact: true });

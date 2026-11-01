@@ -279,7 +279,7 @@
     if (inited) return; inited = true;
     stage = $("#gameStage");
     new V.Player($("#gameIntro"), { track: "game-intro", lines: CY.extra.gameIntro, title: "遊戲說明", audioBase: "audio/", compact: true });
-    var p = A.store("cy.passport") || { stamps: {} };
+    var p = A.passport();
     $("#gameGrid").innerHTML = GAMES.map(function (g) {
       return '<button class="game-card" type="button" data-g="' + g.id + '"><span class="ico" aria-hidden="true">' + g.ico + '</span><h3>' + esc(g.name) + '</h3><p>' + esc(g.desc) + '</p>' +
         ((p.stamps || {})["game-" + g.id] ? '<span class="stamp-mini">✔ 已蓋章</span>' : "") + '</button>';
