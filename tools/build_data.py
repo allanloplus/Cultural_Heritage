@@ -110,7 +110,7 @@ def build_city(slug):
 
     # 頁面
     tpl = open(os.path.join(ROOT, "tools", "city_template.html"), encoding="utf-8").read()
-    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"])
+    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug)
     html = re.sub(r"\{\{(\w+)\}\}", lambda m: vals[m.group(1)], tpl)
     with open(os.path.join(city, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)

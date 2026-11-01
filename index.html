@@ -53,7 +53,7 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="./"><img src="assets/characters/allan-smile.webp" alt="" width="36" height="36"><span class="brand-name">Allan Lo <small>和你逛文化</small></span></a>
-    <nav class="nav" aria-label="主選單"><a href="#cities">選城市</a><a href="chiayi-city/">嘉義市</a><a href="chiayi-city/#games">知識遊戲</a></nav>
+    <nav class="nav" aria-label="主選單" id="portalNav"><a href="#cities">縣市地圖</a></nav>
   </div>
 </header>
 
@@ -97,6 +97,7 @@
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/cities.js"></script>
 <script src="assets/js/characters.js"></script>
 <script>Characters.setBase("assets/characters/");</script>
 <script src="assets/js/voice.js"></script>
@@ -115,23 +116,9 @@
   new Voice.Player(document.getElementById("portalPlayer"), { track: "portal", lines: PORTAL, title: "Allan Lo 和你逛文化", audioBase: "audio/" });
 
   /* 城市清單：新增縣市時在這裡加一筆，並建立同名資料夾 */
-  var CITIES = [
-    { slug: "chiayi-city", name: "嘉義市", nick: "桃城・木都・畫都", lat: 23.4805, lng: 120.4525, on: true,
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%E5%8C%97%E9%96%80%E9%A9%9B.JPG/500px-%E5%8C%97%E9%96%80%E9%A9%9B.JPG",
-      credit: "北門驛／勤岸，CC BY-SA 3.0", desc: "54 處有形文化資產、16 項無形文化資產，阿里山林業鐵道從這裡出發。" },
-    { slug: "chiayi-county", name: "嘉義縣", nick: "山海之間：新港・朴子・阿里山", lat: 23.50, lng: 120.40, on: true,
-      img: "chiayi-county/img/fengtian-temple-0.webp",
-      credit: "新港奉天宮／Peellden，CC BY-SA 3.0", desc: "60 處有形文化資產、23 項無形文化資產，從布袋海岸到阿里山森林鐵道。" },
-    { slug: "yunlin-county", name: "雲林縣", nick: "媽祖・糖廠・布袋戲：北港・虎尾・西螺", lat: 23.70, lng: 120.43, on: true,
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%E5%8C%97%E6%B8%AF%E6%9C%9D%E5%A4%A9%E5%AE%AE.JPG/500px-%E5%8C%97%E6%B8%AF%E6%9C%9D%E5%A4%A9%E5%AE%AE.JPG",
-      credit: "北港朝天宮／K44965，CC BY-SA 3.0", desc: "124 處有形文化資產：北港朝天宮、西螺大橋、虎尾糖廠與上百處日式建築；目前沒有 YouBike。" },
-    { slug: "", name: "臺南市", nick: "府城四百年", lat: 22.99, lng: 120.20 },
-    { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
-    { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
-    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 },
-    { slug: "", name: "高雄市", nick: "打狗・哈瑪星", lat: 22.62, lng: 120.28 },
-    { slug: "", name: "宜蘭縣", nick: "噶瑪蘭・頭城", lat: 24.75, lng: 121.75 }
-  ];
+  /* 縣市清單在 assets/js/cities.js（入口頁與各縣市頁共用） */
+  var CITIES = SiteCities.list;
+  SiteCities.portalNav(document.getElementById("portalNav"));
   document.getElementById("cityList").innerHTML = CITIES.map(function (c) {
     if (c.on) return '<a class="city on" href="' + c.slug + '/"><img src="' + esc(c.img) + '" alt="' + esc(c.name) + '" loading="lazy"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
     return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';

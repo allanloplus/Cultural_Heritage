@@ -18,10 +18,17 @@
 
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="../" title="回到 Allan Lo 和你逛文化 首頁"><img src="../assets/characters/allan-smile.webp" alt="" width="36" height="36"><span class="brand-name">Allan Lo <small>和你逛文化</small></span></a>
-    <span class="city-tag">雲林縣</span>
-    <nav class="nav" aria-label="主選單">
-      <a href="#home" data-view="home">首頁</a>
+    <a class="home-link" href="../" title="回到 Allan Lo 和你逛文化 全站首頁">
+      <img src="../assets/characters/allan-smile.webp" alt="" width="34" height="34">
+      <span class="home-text"><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 11h3v9h6v-6h2v6h6v-9h3z"/></svg>全站首頁</b><small>Allan Lo 和你逛文化</small></span>
+    </a>
+    <span class="crumb-sep" aria-hidden="true">›</span>
+    <details class="city-switch">
+      <summary title="目前所在縣市，點選可切換"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span class="sr-only">目前所在：</span>雲林縣<span class="caret" aria-hidden="true">▾</span></summary>
+      <div class="city-menu" id="cityMenu"></div>
+    </details>
+    <nav class="nav" aria-label="雲林縣選單">
+      <a href="#home" data-view="home">雲林縣總覽</a>
       <a href="#map" data-view="map">文資地圖</a>
       <a href="#time" data-view="time">時光地圖</a>
       <a href="#plan" data-view="plan">行程規劃</a>
@@ -161,6 +168,8 @@
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../assets/js/cities.js"></script>
+<script>SiteCities.cityMenu(document.getElementById("cityMenu"), "yunlin-county", "../");</script>
 <script src="../assets/js/characters.js"></script>
 <script>Characters.setBase("../assets/characters/");</script>
 <script src="../assets/js/voice.js"></script>
