@@ -66,7 +66,7 @@
     function card(s, showYear) {
       var im = s.images[0];
       return (im ? '<img src="' + esc(A.pic(im, true)) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' : '<div style="aspect-ratio:4/3;border-radius:8px;display:grid;place-items:center;background:' + A.CAT[s.category].hex + ';color:#fff;font-size:1.4rem">' + A.CAT[s.category].k + '</div>') +
-        '<div>' + esc(s.short) + '</div>' + (showYear ? '<div class="yr">' + esc(String(s.year)) + '</div>' : "");
+        '<div>' + esc(s.short) + '</div>' + (showYear ? '<div class="yr">' + esc(A.yearLabel(s)) + '</div>' : "");
     }
     function draw(check) {
       el.innerHTML = host("R", check ? "surprised" : "think", check ? "來對答案囉！綠色是放對的位置。" : "從最古老的開始，依序點選卡片排進時間軸！") +
@@ -78,7 +78,7 @@
         }).join("") + '</div>' +
         '<div class="tl-hand">' + pick.map(function (s) { return placed.indexOf(s) >= 0 ? "<div></div>" : '<button class="tl-card" type="button" data-id="' + s.id + '">' + card(s, false) + '</button>'; }).join("") + '</div>' +
         '<p style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="button" id="tlReset">重排</button>' + (check ? '<button class="btn btn-primary" type="button" id="tlNew">再抽 5 張</button>' : "") + '</p>' +
-        (check ? '<p class="hint">正確順序：' + sorted.map(function (s) { return esc(s.short) + "（" + s.year + "）"; }).join(" → ") + '</p>' : "");
+        (check ? '<p class="hint">正確順序：' + sorted.map(function (s) { return esc(s.short) + "（" + A.yearLabel(s) + "）"; }).join(" → ") + '</p>' : "");
       $$(".tl-hand .tl-card", el).forEach(function (b) { b.onclick = function () { placed.push(A.byId[b.dataset.id]); if (placed.length === 5) finish(); else draw(false); }; });
       $("#tlReset").onclick = function () { placed = []; draw(false); };
       var nb = $("#tlNew"); if (nb) nb.onclick = function () { timeline(el); };

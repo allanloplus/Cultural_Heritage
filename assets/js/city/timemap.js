@@ -150,7 +150,7 @@
     var exist = A.sites.filter(function (s) { return s.year <= conf.end; });
     exist.forEach(function (s) {
       L.circleMarker([s.lat, s.lng], { radius: 6, color: "#fff", weight: 2, fillColor: A.CAT[s.category].hex, fillOpacity: .9 })
-        .bindTooltip(s.short + "（" + s.year + "）", { className: "tip" }).on("click", function () { location.hash = "#map/" + s.id; }).addTo(siteLayer);
+        .bindTooltip(s.short + "（" + A.yearLabel(s) + "）", { className: "tip" }).on("click", function () { location.hash = "#map/" + s.id; }).addTo(siteLayer);
     });
 
     // 面板
@@ -169,7 +169,7 @@
       '<div><h3 style="margin-bottom:6px">大事記</h3><ul class="events">' + (e.events || []).map(function (ev) { return '<li><b>' + esc(ev.year) + '</b>' + esc(ev.text) + '</li>'; }).join("") + '</ul></div>' +
       ((e.landmarks || []).length ? '<div><h3 style="margin-bottom:6px">這個時期的地標</h3><ul class="lm-list">' + e.landmarks.map(function (m, k) { return '<li data-k="' + k + '"><b>' + esc(m.name) + (m.approx ? '（推定）' : "") + '</b>' + esc(m.note || "") + '</li>'; }).join("") + '</ul></div>' : "") +
       '<div><h3 style="margin-bottom:6px">這時已經出現、今天仍保存的文化資產：' + exist.length + ' / ' + A.sites.length + ' 處</h3><div class="grow-bar"><i style="width:' + (exist.length / A.sites.length * 100).toFixed(1) + '%"></i></div>' +
-      '<div class="chips" style="margin-top:8px">' + exist.slice().sort(function (a, b) { return a.year - b.year; }).map(function (s) { return '<a class="chip" href="#map/' + s.id + '">' + esc(s.short) + '・' + s.year + '</a>'; }).join("") + '</div></div>' +
+      '<div class="chips" style="margin-top:8px">' + exist.slice().sort(function (a, b) { return a.year - b.year; }).map(function (s) { return '<a class="chip" href="#map/' + s.id + '">' + esc(s.short) + '・' + A.yearLabel(s) + '</a>'; }).join("") + '</div></div>' +
       ((e.quiz || []).length ? '<div><h3 style="margin-bottom:6px">時光小測驗</h3><div id="eQuiz0"></div><div id="eQuiz1" style="margin-top:8px"></div></div>' : "") +
       '<div style="display:flex;gap:8px;justify-content:space-between">' + (i > 0 ? '<a class="btn btn-sm" href="#time/' + ERAS[i - 1].id + '">‹ ' + esc(ERAS[i - 1].name) + '</a>' : "<span></span>") + (i < ERAS.length - 1 ? '<a class="btn btn-sm btn-primary" href="#time/' + ERAS[i + 1].id + '">' + esc(ERAS[i + 1].name) + ' ›</a>' : "") + '</div>' +
       ((e.sources || []).length ? '<p class="sources">參考資料：' + e.sources.map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>'; }).join("、") + '</p>' : "");

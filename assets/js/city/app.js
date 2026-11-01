@@ -16,7 +16,7 @@
     "文化景觀": { c: "var(--c-landscape)", hex: "#3b7bbf", k: "景" },
     "無形文資": { c: "var(--c-ich)", hex: "#b8860b", k: "藝" }
   };
-  var ERA = { dutch: "荷蘭時期", zheng: "明鄭時期", qing: "清朝", japan: "日治時期", postwar: "戰後（1945–1980）", modern: "1981 年以後" };
+  var ERA = { prehistoric: "史前時代", dutch: "荷蘭時期", zheng: "明鄭時期", qing: "清朝", japan: "日治時期", postwar: "戰後（1945–1980）", modern: "1981 年以後" };
   var CENTER = CFG.center;
 
   /* ---------- utils ---------- */
@@ -26,6 +26,7 @@
     var r = Math.PI / 180, x = (d - b) * r * Math.cos((a + c) / 2 * r), y = (c - a) * r;
     return Math.sqrt(x * x + y * y) * 6371000;
   }
+  function yearLabel(s) { return s.year < 0 ? "史前" : String(s.year); }
   function km(m) { return m < 1000 ? Math.round(m) + " 公尺" : (m / 1000).toFixed(1) + " 公里"; }
   function img(url, w) { return url && /\/\d+px-/.test(url) ? url.replace(/\/\d+px-/, "/" + w + "px-") : url; }
   /* 照片：優先使用站內副本（chiayi-city/img），沒有才直接連結 Wikimedia Commons */
@@ -242,7 +243,7 @@
     $("#count").textContent = "顯示 " + list.length + " 處文化資產" + (venues.length ? "、" + venues.length + " 處無形文資／古物展示點" : "");
     $("#siteList").innerHTML = list.map(function (s) {
       var c = CAT[s.category], th = s.images[0] ? '<img class="thumb" src="' + esc(pic(s.images[0], true)) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' : '<span class="thumb" style="background:' + c.hex + '">' + c.k + '</span>';
-      return '<li class="site-item' + (s.id === openId ? " is-on" : "") + '" data-id="' + s.id + '" tabindex="0">' + th + '<div><h3>' + esc(s.name) + '</h3><p>' + esc(s.summary) + '</p><div class="meta"><span class="tag" style="color:' + c.hex + '">' + s.category + '</span><span class="tag">' + esc(String(s.year)) + '</span>' + (s.town ? '<span class="tag">' + esc(s.town) + '</span>' : "") + '</div></div></li>';
+      return '<li class="site-item' + (s.id === openId ? " is-on" : "") + '" data-id="' + s.id + '" tabindex="0">' + th + '<div><h3>' + esc(s.name) + '</h3><p>' + esc(s.summary) + '</p><div class="meta"><span class="tag" style="color:' + c.hex + '">' + s.category + '</span><span class="tag">' + esc(yearLabel(s)) + '</span>' + (s.town ? '<span class="tag">' + esc(s.town) + '</span>' : "") + '</div></div></li>';
     }).join("") + venues.map(function (v) {
       return '<li class="site-item' + (v.id === openId ? " is-on" : "") + '" data-id="' + v.id + '" tabindex="0"><span class="thumb" style="background:' + CAT["無形文資"].hex + '">藝</span><div><h3>' + esc(v.name) + '</h3><p>' + esc(venueSummary(v)) + '</p></div></li>';
     }).join("");
@@ -422,7 +423,7 @@
   }
 
   /* ---------- export ---------- */
-  window.App = { CY: CY, CFG: CFG, sites: SITES, byId: byId, CAT: CAT, ERA: ERA, CENTER: CENTER, $: $, $$: $$, dist: dist, km: km, img: img, shuffle: shuffle, store: store,
+  window.App = { CY: CY, CFG: CFG, sites: SITES, byId: byId, CAT: CAT, ERA: ERA, CENTER: CENTER, $: $, $$: $$, dist: dist, yearLabel: yearLabel, km: km, img: img, shuffle: shuffle, store: store,
     pic: pic, KEY: KEY, passport: passport, toast: toast, stamp: stamp, track: track, renderPassport: renderPassport, renderQuiz: renderQuiz, baseLayers: baseLayers, pinIcon: pinIcon,
     nearestUbike: nearestUbike, ubikeLive: ubikeLive, register: register, route: route };
 

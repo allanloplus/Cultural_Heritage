@@ -1,0 +1,1083 @@
+[
+ {
+  "id": "kawai-stele",
+  "name": "琴山河合博士旌功碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "阿里山鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2009-03-02",
+  "address": "阿里山鄉阿里山國家森林遊樂區內",
+  "lat": 23.5170083243848,
+  "lng": 120.808005843931,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090302000001",
+  "caseId": "20090302000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/207c3260-2df3-42d2-9e06-f765526e91fe/琴山河合博士旌功碑「代表圖像」.jpg"
+ },
+ {
+  "id": "banten-ziyun",
+  "name": "半天巖紫雲寺",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "番路鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "番路鄉民和村2鄰岩仔6號",
+  "lat": 23.4622703899777,
+  "lng": 120.595223191306,
+  "open": "5:00-21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000039",
+  "caseId": "19851127000039",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37698/photo/e00f58b6-9683-46da-8363-df0bf2952f6c.JPG"
+ },
+ {
+  "id": "meishan-stele",
+  "name": "嚴禁匠民越界私墾碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "梅山鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2014-01-21",
+  "address": "梅山鄉圳頭段194-914地號",
+  "lat": 23.566835,
+  "lng": 120.599672,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140121000001",
+  "caseId": "20140121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/d50c529c-915a-461b-9976-851ffb441166/嚴禁匠民越界私墾碑「代表圖片」2022.05.27.jpg"
+ },
+ {
+  "id": "zhuqi-station",
+  "name": "竹崎車站",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "竹崎鄉",
+  "types": [
+   "車站"
+  ],
+  "announced": "2009-03-04",
+  "address": "竹崎鄉竹崎村舊車站11號",
+  "lat": 23.525819985311,
+  "lng": 120.553589109658,
+  "open": "0800-1700",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090304000001",
+  "caseId": "20090304000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-16/97c9d187-631c-49ab-8b6a-6d51c917ba62/_DSC7601.jpg"
+ },
+ {
+  "id": "fenqihu-garage",
+  "name": "奮起湖車庫",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "竹崎鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-03-02",
+  "address": "竹崎鄉中和村奮起湖車站旁",
+  "lat": 23.5058639401394,
+  "lng": 120.695744337763,
+  "open": "8:00-17:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090302000002",
+  "caseId": "20090302000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37707/photo/ccfc4ed0-3da7-4043-b2de-09b2483bca33.JPG"
+ },
+ {
+  "id": "tree-spirit-tower",
+  "name": "樹靈塔",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "阿里山鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2009-03-02",
+  "address": "阿里山鄉阿里山國家森林遊樂區內",
+  "lat": 23.5174933837004,
+  "lng": 120.808351152056,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090302000003",
+  "caseId": "20090302000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-16/ce8acbe5-2386-4ffe-8fc2-d5e145155d1f/_DSC7906.jpg"
+ },
+ {
+  "id": "alishan-guesthouse",
+  "name": "阿里山貴賓館",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "阿里山鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-03-02",
+  "address": "阿里山鄉阿里山國家森林遊樂區內",
+  "lat": 23.5116843053552,
+  "lng": 120.811547249801,
+  "open": "規劃裝修中，暫不開放，後續開放消息請洽農業部林業及自然保育署嘉義分署。\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090302000004",
+  "caseId": "20090302000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-02/8c024505-1340-45b0-8f23-e07aeac0116d/林業保育署嘉義分署歷經8年多歷史調查、規劃設計及施工，今年完成「阿里山貴賓館」的修復_72495.jpg"
+ },
+ {
+  "id": "alishan-observatory",
+  "name": "原臺灣總督府氣象臺阿里山觀象所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "阿里山鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2013-04-11",
+  "address": "阿里山鄉中正村東阿里山73-1號",
+  "lat": 23.435467,
+  "lng": 120.780967,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20130411000001",
+  "caseId": "20130411000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-26/34581dad-c95c-4f70-9588-96035621292a/原臺灣總督府氣象台阿里山觀象所代表圖像1.jpg"
+ },
+ {
+  "id": "wufeng-temple",
+  "name": "吳鳳廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中埔鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中埔鄉社口村23鄰社口1號",
+  "lat": 23.4460047914066,
+  "lng": 120.54127644386,
+  "open": "早上5:00-下午17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000040",
+  "caseId": "19851127000040",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37776/photo/c0a1ef5c-b3fc-48cb-809a-edcf1f3d7b6b.JPG"
+ },
+ {
+  "id": "dongshi-office",
+  "name": "東石郡役所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "朴子市",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2006-07-27",
+  "address": "朴子市和里光復路33號",
+  "lat": 23.465189,
+  "lng": 120.246365,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140121000002",
+  "caseId": "20140121000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/52450451-eae9-48dd-abc4-c18b8c6d084f/東石郡役所「代表圖片」_2022.05.27.jpg"
+ },
+ {
+  "id": "puzi-water-tower",
+  "name": "朴子水道配水塔",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "朴子市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2012-03-19",
+  "address": "朴子市文明路28號",
+  "lat": 23.4684244569065,
+  "lng": 120.250369753716,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20141104000001",
+  "caseId": "20141104000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-05/48f75aae-7eef-47b5-bc73-aa2a76b49d16/水塔.jpg"
+ },
+ {
+  "id": "peitian-temple",
+  "name": "朴子配天宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "朴子市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2003-03-13",
+  "address": "朴子市開元路118號",
+  "lat": 23.4677003330846,
+  "lng": 120.245301299,
+  "open": "5:00-22:30\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030313000001",
+  "caseId": "20030313000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-10/6b2b889d-971c-4662-9706-7d79f25b97d1/254A3647.jpg"
+ },
+ {
+  "id": "wang-delu-tomb",
+  "name": "王得祿墓",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "六腳鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "1983-12-28",
+  "address": "六腳鄉嘉義縣六腳鄉雙涵村東北邊農地上",
+  "lat": 23.5218180468704,
+  "lng": 120.307365298723,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000006",
+  "caseId": "19831228000006",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37795/photo/938f33c6-e72e-468f-95fc-763414df23bc.JPG"
+ },
+ {
+  "id": "shuixian-temple",
+  "name": "笨港水仙宮",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "新港鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "新港鄉南港村3鄰舊南港58號",
+  "lat": 23.5618381485488,
+  "lng": 120.308895882919,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000041",
+  "caseId": "19851127000041",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38732/photo/L005嘉義縣新港水仙宮(二級)(1).JPG"
+ },
+ {
+  "id": "fengtian-temple",
+  "name": "新港奉天宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新港鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "新港鄉嘉義縣新港鄉大興村3鄰新民路53號",
+  "lat": 23.5565242507015,
+  "lng": 120.347854390585,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000066",
+  "caseId": "19850819000066",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-12/869b8b1a-3027-4833-85d0-806c5133ba62/新港奉天宮.jpg"
+ },
+ {
+  "id": "daxing-temple",
+  "name": "新港大興宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新港鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "新港鄉大興村12鄰中正路73號",
+  "lat": 23.5574354416717,
+  "lng": 120.346550572205,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000042",
+  "caseId": "19851127000042",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37798/photo/191e1c40-26fc-407a-bba1-26bf8f461ef6.jpg"
+ },
+ {
+  "id": "liuxing-temple",
+  "name": "六興宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新港鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "新港鄉溪北村9鄰溪北路65號",
+  "lat": 23.5105219974472,
+  "lng": 120.336398948714,
+  "open": "上午5:00至晚上9:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000043",
+  "caseId": "19851127000043",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38770/photo/L007嘉義縣六興宮(三級)(1).JPG"
+ },
+ {
+  "id": "dashiye-temple",
+  "name": "大士爺廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "民雄鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "民雄鄉中樂村中樂路81號",
+  "lat": 23.556156361065,
+  "lng": 120.429564947017,
+  "open": "6:30-21:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000044",
+  "caseId": "19851127000044",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37803/photo/3ad1f0c9-a70f-433e-8ba4-e58f034f85cb.jpg"
+ },
+ {
+  "id": "weng-house",
+  "name": "義竹翁清江宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "義竹鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-02-26",
+  "address": "義竹鄉六桂村六桂段261號",
+  "lat": 23.3341917913627,
+  "lng": 120.243563352839,
+  "open": "需預約",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080226000001",
+  "caseId": "20080226000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37805/photo/cff22079-8094-41cb-a0dd-22b17f668af2.JPG"
+ },
+ {
+  "id": "lin-clinic",
+  "name": "林開泰診療所舊宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新港鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-03-11",
+  "address": "新港鄉大興村大興路19號",
+  "lat": 23.557562,
+  "lng": 120.34724,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160311000003",
+  "caseId": "20160311000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/2304c15d-5907-4eed-b1d0-db90fe5dfaf5/林開泰診療所舊宅 「代表圖像」_20220527.jpg"
+ },
+ {
+  "id": "rixin-hospital",
+  "name": "日新醫院",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "朴子市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2015-03-17",
+  "address": "朴子市向榮路25號",
+  "lat": 23.46831712917387,
+  "lng": 120.24399309773774,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150317000001",
+  "caseId": "20150317000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/133411/photo/2日新醫院洋樓式外觀..JPG"
+ },
+ {
+  "id": "suantou-station",
+  "name": "蒜頭糖廠五分車站",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "六腳鄉",
+  "types": [
+   "車站"
+  ],
+  "announced": "2015-03-17",
+  "address": "六腳鄉工廠村1號",
+  "lat": 23.479672,
+  "lng": 120.299674,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150317000002",
+  "caseId": "20150317000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/7e8970d9-6e9e-4052-9253-2c4a80e8e9f8/蒜頭糖五分車站代表圖像.jpg"
+ },
+ {
+  "id": "zeng-mansion",
+  "name": "溪口曾氏洋樓",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "溪口鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-06-25",
+  "address": "溪口鄉溪西村中正路202號",
+  "lat": 23.6025304,
+  "lng": 120.39232300000003,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180927000001",
+  "caseId": "20180927000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-10/065627e5-d6cd-45d0-a93b-2810aa7ebe6d/溪口曾氏洋樓.jpg"
+ },
+ {
+  "id": "shande-hall",
+  "name": "水上善德堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "水上鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-11-25",
+  "address": "水上鄉柳仔林7號",
+  "lat": 23.433275,
+  "lng": 120.41788,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220812000001",
+  "caseId": "20220812000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-10/dfff0ba9-502d-4863-ac79-a0280215f385/水上善德堂.jpg"
+ },
+ {
+  "id": "bazhang-aqueduct",
+  "name": "嘉南大圳八掌溪渡槽橋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "水上鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2024-02-15",
+  "address": "水上鄉",
+  "lat": 23.429204117295875,
+  "lng": 120.41473024485757,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240409000003",
+  "caseId": "20240409000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-09/7a88d732-546f-4758-b1cc-8612772091be/1712652535205.jpg"
+ },
+ {
+  "id": "luo-shrine",
+  "name": "後寮羅氏宗祠",
+  "category": "歷史建築",
+  "level": null,
+  "town": "水上鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2009-07-06",
+  "address": "水上鄉南和村後寮9鄰2之1號旁",
+  "lat": 23.411256966519,
+  "lng": 120.362419581395,
+  "open": "須先行預約",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090706000002",
+  "caseId": "20090706000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-03/76c0141b-494f-4069-b5ff-6eb5069b36bb/後寮羅氏宗祠.jpg"
+ },
+ {
+  "id": "puzi-school-hall",
+  "name": "朴子國小舊禮堂",
+  "category": "歷史建築",
+  "level": null,
+  "town": "朴子市",
+  "types": [
+   "學校"
+  ],
+  "announced": "2014-01-21",
+  "address": "朴子市山通路11號",
+  "lat": 23.467142881977356,
+  "lng": 120.24818563581782,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140121000003",
+  "caseId": "20140121000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-20/1d459388-4373-45e1-85be-b0862a24c817/朴子國小舊禮堂.jpg"
+ },
+ {
+  "id": "jisheng-hospital",
+  "name": "牛挑灣吳杯初濟生病院",
+  "category": "歷史建築",
+  "level": null,
+  "town": "朴子市",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2014-01-21",
+  "address": "朴子市松華里牛桃灣300號",
+  "lat": 23.41074,
+  "lng": 120.25301,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140121000004",
+  "caseId": "20140121000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37789/photo/6bf1f99e-08e4-4241-aa55-b6aa32c66e0c.JPG"
+ },
+ {
+  "id": "niutiaowan-dorm",
+  "name": "原牛挑灣公學校校長宿舍",
+  "category": "歷史建築",
+  "level": null,
+  "town": "朴子市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-05-13",
+  "address": "朴子市松華里345號",
+  "lat": 23.410713,
+  "lng": 120.250959,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140513000001",
+  "caseId": "20140513000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/9eebc70c-9115-4832-9dc5-a6b78b6f8822/原牛桃灣公學校校長宿舍.jpg"
+ },
+ {
+  "id": "xingang-arts-house",
+  "name": "新港藝術高中傳統民宅",
+  "category": "歷史建築",
+  "level": null,
+  "town": "新港鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-03-12",
+  "address": "新港鄉宮後村20鄰藝高路1號",
+  "lat": 23.5603948535187,
+  "lng": 120.349027380202,
+  "open": "需預約",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080312000001",
+  "caseId": "20080312000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/2b506626-33b1-4844-9a83-7e10f7c26af4/新港藝術高中傳統民宅_網站原圖.jpg"
+ },
+ {
+  "id": "fuxing-bridge",
+  "name": "新港台糖復興鐵橋(原臺糖嘉北線五分仔鐵道暨北港溪鐵橋)",
+  "category": "歷史建築",
+  "level": null,
+  "town": "新港鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2001-11-28",
+  "address": "新港鄉公園段921號等",
+  "lat": 23.5696842777928,
+  "lng": 120.313472587168,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20011128000002",
+  "caseId": "20011128000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-06/35bdc3e7-c9f4-446b-8b3e-62dcc4929a05/_DSC6431.jpg"
+ },
+ {
+  "id": "minxiong-guesthouse",
+  "name": "中央廣播電臺民雄分臺日式招待所",
+  "category": "歷史建築",
+  "level": null,
+  "town": "民雄鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2001-11-28",
+  "address": "民雄鄉寮頂村民權路50號",
+  "lat": 23.5603386366534,
+  "lng": 120.430522720678,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20011128000003",
+  "caseId": "20011128000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-03/c3d91a3e-a624-485f-a800-21d7dd0fb0a3/日式招待所.jpg"
+ },
+ {
+  "id": "he-shrine",
+  "name": "民雄「何元英祠堂」",
+  "category": "歷史建築",
+  "level": null,
+  "town": "民雄鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2009-07-06",
+  "address": "民雄鄉嘉義縣民雄鄉平和村28號",
+  "lat": 23.5455499626526,
+  "lng": 120.392348838338,
+  "open": "需預約",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090706000003",
+  "caseId": "20090706000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37802/photo/f3785617-7439-4170-ab34-ad174ab4a468.JPG"
+ },
+ {
+  "id": "minxiong-dorms",
+  "name": "中央廣播電臺民雄分台日式宿舍區",
+  "category": "歷史建築",
+  "level": null,
+  "town": "民雄鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-07-06",
+  "address": "民雄鄉民權路50號",
+  "lat": 23.5605940590077,
+  "lng": 120.42992782111,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090706000004",
+  "caseId": "20090706000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38513/photo/L016嘉義縣中央廣播電台民雄分台日式宿舍區(歷建)01.JPG"
+ },
+ {
+  "id": "radio-museum",
+  "name": "中央廣播電臺民雄分臺廣播文物館",
+  "category": "歷史建築",
+  "level": null,
+  "town": "民雄鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2001-11-28",
+  "address": "民雄鄉寮頂村民權路74 號",
+  "lat": 23.5645797099452,
+  "lng": 120.429683926079,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20011128000004",
+  "caseId": "20011128000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-05/cb462962-2e49-4750-a7d3-0161d361601f/_DSC7101.jpg"
+ },
+ {
+  "id": "budai-landing-stele",
+  "name": "貞愛親王殿下御上陸紀念之碑",
+  "category": "歷史建築",
+  "level": null,
+  "town": "布袋鎮",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2008-01-09",
+  "address": "布袋鎮岑海里入船路8號",
+  "lat": 23.3780750174788,
+  "lng": 120.156850125265,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080109000001",
+  "caseId": "20080109000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-05/55493337-63cf-407e-8c12-2de5c45aab81/貞愛親王殿下御上陸紀念之碑.jpg"
+ },
+ {
+  "id": "suantou-dorms",
+  "name": "蒜頭糖廠木造宿舍區（含甘堂）",
+  "category": "歷史建築",
+  "level": null,
+  "town": "六腳鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-03-17",
+  "address": "六腳鄉工廠村15、16、17、18、21、22、23、28、29、30、31、32、33、33-1、34、35、36、37號",
+  "lat": 23.481143686155242,
+  "lng": 120.29859938637708,
+  "open": "全年開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150317000003",
+  "caseId": "20150317000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/08648416-0f50-4a56-8073-673216d569f1/蒜頭糖廠木造宿舍區_2022.04.29.jpg"
+ },
+ {
+  "id": "chen-gang-house",
+  "name": "六腳陳港宅第",
+  "category": "歷史建築",
+  "level": null,
+  "town": "六腳鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-10-05",
+  "address": "六腳鄉灣北村3鄰灣內297號",
+  "lat": 23.508628507573036,
+  "lng": 120.31054012670597,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171117000001",
+  "caseId": "20171117000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2017-11-17/cf9bdea2-0482-414b-a814-9ef7092b9bf2/IMG_7282.jpg"
+ },
+ {
+  "id": "zheng-house",
+  "name": "番路鄭家古厝",
+  "category": "歷史建築",
+  "level": null,
+  "town": "番路鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-09-22",
+  "address": "番路鄉觸口村10鄰埔尾16號",
+  "lat": 23.446094,
+  "lng": 120.60159799999997,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171117000002",
+  "caseId": "20171117000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-30/9e12c033-182a-409b-9736-a18b0bbb586b/DSC_0026.jpg"
+ },
+ {
+  "id": "wanguo-theater",
+  "name": "大林萬國戲院",
+  "category": "歷史建築",
+  "level": null,
+  "town": "大林鎮",
+  "types": [
+   "戲劇院"
+  ],
+  "announced": "2018-07-03",
+  "address": "大林鎮平和街21-7號",
+  "lat": 23.602452,
+  "lng": 120.45647120000001,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20181127000001",
+  "caseId": "20181127000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-11-27/e0fb5404-5a20-4747-91f2-cb2c73daad81/13346657_1088411537871758_1979429319942287818_n (1).jpg"
+ },
+ {
+  "id": "minhe-dorm",
+  "name": "番路民和國小日式宿舍",
+  "category": "歷史建築",
+  "level": null,
+  "town": "番路鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-09-26",
+  "address": "番路鄉下坑村菜公店90號",
+  "lat": 23.4645028,
+  "lng": 120.55419899999993,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190125000001",
+  "caseId": "20190125000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-01-25/a8c9316b-1b16-4e4d-838c-2d7d4174a0af/IMG_7901.jpg"
+ },
+ {
+  "id": "taibao-office",
+  "name": "原太保庄役場",
+  "category": "歷史建築",
+  "level": null,
+  "town": "太保市",
+  "types": [
+   "機關"
+  ],
+  "announced": "2020-01-16",
+  "address": "太保市太保里66號",
+  "lat": 23.458967,
+  "lng": 120.3323479,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200528000001",
+  "caseId": "20200528000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-05-28/c00ba8aa-913b-412e-9d66-967b3089c803/照片二.jpg"
+ },
+ {
+  "id": "yizhu-teacher-dorm",
+  "name": "原義竹圍分教場教師宿舍",
+  "category": "歷史建築",
+  "level": null,
+  "town": "義竹鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-12-24",
+  "address": "義竹鄉義竹村六桂段第14鄰239及240號",
+  "lat": 23.3353579,
+  "lng": 120.2555998,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200528000002",
+  "caseId": "20200528000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-05-28/ea00f7e9-0107-441d-9415-fd78a1016ef6/照片一.jpg"
+ },
+ {
+  "id": "ammo-depot",
+  "name": "番路陸軍第五彈藥儲備庫(第一分庫)H01、H03、H07 倉庫",
+  "category": "歷史建築",
+  "level": null,
+  "town": "番路鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-02-11",
+  "address": "番路鄉轆子腳段 141-3地號",
+  "lat": 23.457658,
+  "lng": 120.525978,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200608000001",
+  "caseId": "20200608000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-06-08/e8e4281c-5872-4fad-9778-c86779eee9d4/照片三.jpg"
+ },
+ {
+  "id": "dongshi-shrine",
+  "name": "朴子原東石神社",
+  "category": "歷史建築",
+  "level": null,
+  "town": "朴子市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-12-17",
+  "address": "朴子市山通路2之9號內",
+  "lat": 23.4644589,
+  "lng": 120.242475,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200618000002",
+  "caseId": "20200618000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-14/2ed9fc5e-3d84-48ba-8f96-4d1eb90233cf/P_20201120_102230.jpeg"
+ },
+ {
+  "id": "jiyang-shophouse",
+  "name": "大林濟陽衍派街屋",
+  "category": "歷史建築",
+  "level": null,
+  "town": "大林鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-07-28",
+  "address": "大林鎮中山路70號",
+  "lat": 23.602359,
+  "lng": 120.455153,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20201125000001",
+  "caseId": "20201125000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-05/6423fd8c-8a82-42a0-b67e-b811c5c5f827/大林濟陽衍派街屋.jpg"
+ },
+ {
+  "id": "nanjing-warehouses",
+  "name": "南靖糖廠倉庫群",
+  "category": "歷史建築",
+  "level": null,
+  "town": "水上鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-08-17",
+  "address": "水上鄉靖和村1號",
+  "lat": 23.4144935,
+  "lng": 120.3841976,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20201125000002",
+  "caseId": "20201125000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-25/8c3a1d6a-5609-4536-ad50-f14c9f29c98a/倉庫全貌.jpg"
+ },
+ {
+  "id": "cai-house",
+  "name": "布袋蔡家古厝",
+  "category": "歷史建築",
+  "level": null,
+  "town": "布袋鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-01-28",
+  "address": "布袋鎮九江段小段84、87、89地號",
+  "lat": 23.378447,
+  "lng": 120.159884,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210702000010",
+  "caseId": "20210702000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-10/6e84ee72-b7da-4ff4-9d44-daf686657e50/圖片3.jpg"
+ },
+ {
+  "id": "xu-house",
+  "name": "東石蔦松許宅",
+  "category": "歷史建築",
+  "level": null,
+  "town": "東石鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-07-12",
+  "address": "東石鄉湖底段湖底小段186號",
+  "lat": 23.456717,
+  "lng": 120.150555,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20211110000002",
+  "caseId": "20211110000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-16/c4ca47fb-a476-46da-842a-1e8d8a1c3901/IMG_5714.jpg"
+ },
+ {
+  "id": "nanjing-factory",
+  "name": "水上南靖糖廠製糖工場",
+  "category": "歷史建築",
+  "level": null,
+  "town": "水上鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2022-06-23",
+  "address": "水上鄉靖和村1號",
+  "lat": 23.411,
+  "lng": 120.379171,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20221109000001",
+  "caseId": "20221109000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-11-09/0eaf0a20-1d6f-48d4-be8b-d6e7d0e60289/IMG_7034.jpg"
+ },
+ {
+  "id": "nanjing-station",
+  "name": "南靖車站",
+  "category": "歷史建築",
+  "level": null,
+  "town": "水上鄉",
+  "types": [
+   "車站"
+  ],
+  "announced": "2022-08-25",
+  "address": "水上鄉三鎮路26號",
+  "lat": 23.412694,
+  "lng": 120.386944,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20221109000002",
+  "caseId": "20221109000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-11-09/977268ea-50cc-4fe8-9a51-82a7e9b3d13f/S__23805965.jpg"
+ },
+ {
+  "id": "shaohua-building",
+  "name": "水上機場少華樓",
+  "category": "歷史建築",
+  "level": null,
+  "town": "水上鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2023-06-01",
+  "address": "水上鄉榮典路1號",
+  "lat": 23.45483,
+  "lng": 120.4026,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240217000002",
+  "caseId": "20240217000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-17/14780677-3009-4ea2-a6f0-96b6043d3cf3/54b565be-4fbb-4cd1-97ff-5618d95c0915.jpg"
+ },
+ {
+  "id": "lucao-office",
+  "name": "原鹿草庄役場",
+  "category": "歷史建築",
+  "level": null,
+  "town": "鹿草鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2024-05-29",
+  "address": "鹿草鄉長壽路226巷3號",
+  "lat": 23.411297,
+  "lng": 120.308511,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240603000001",
+  "caseId": "20240603000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-03/8a0c6f0a-6335-454f-91ec-f1c2a4cfb51f/LINE_ALBUM_嘉義縣113年第一次文化資產審議會現勘_240327_20.jpg"
+ },
+ {
+  "id": "dalin-stationmaster",
+  "name": "臺鐵大林日式站長宿舍",
+  "category": "歷史建築",
+  "level": null,
+  "town": "大林鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2026-02-26",
+  "address": "大林鎮平和街10號",
+  "lat": 23.60172,
+  "lng": 120.4564,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260529000001",
+  "caseId": "20260529000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-29/46b6d844-7b05-4ab1-b52d-14ac844d1127/S__41811999_0.jpg"
+ },
+ {
+  "id": "huang-tomb",
+  "name": "太保解元黃奠邦墓",
+  "category": "歷史建築",
+  "level": null,
+  "town": "太保市",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2026-05-22",
+  "address": "太保市管事厝段港尾小段78地號",
+  "lat": 23.46843,
+  "lng": 120.36988,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260529000002",
+  "caseId": "20260529000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-29/15272842-ad43-44d1-8549-b8986eaf3355/490BB8B0-19AF-4DD7-B483-E8CE11C1576D_0.jpg"
+ },
+ {
+  "id": "daojiang-stele",
+  "name": "道將圳赤蘭溪導水路竣功記念碑",
+  "category": "歷史建築",
+  "level": null,
+  "town": "中埔鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2026-05-22",
+  "address": "中埔鄉富收段246地號",
+  "lat": 23.439935,
+  "lng": 120.483145,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260529000003",
+  "caseId": "20260529000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-29/c2d91525-8830-4bb4-8b98-274187b51ada/56A8B8D6-0F13-4A30-9321-8C02D5517796_0.jpg"
+ },
+ {
+  "id": "yuliao-site",
+  "name": "魚寮考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "太保市",
+  "types": [],
+  "announced": "2009-06-03",
+  "address": "太保市白鴿厝段白鴿厝小段160",
+  "lat": 23.481388,
+  "lng": 120.353611,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20090603000003",
+  "caseId": "20090603000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/37786/photo/90f1ac61-9e23-43ec-99a6-14454810bddd.JPG"
+ },
+ {
+  "id": "alishan-landscape",
+  "name": "阿里山林業暨鐵道文化景觀",
+  "category": "文化景觀",
+  "level": "重要文化景觀",
+  "town": "阿里山鄉",
+  "types": [
+   "工業地景",
+   "交通地景",
+   "歷史文化路徑",
+   "農林漁牧景觀"
+  ],
+  "announced": "2019-07-09",
+  "address": "阿里山鄉嘉義市及嘉義縣地區，嘉義車站、北門車站、鹿麻產車站、竹崎車站、木屐寮車站、獨立山車站、樟腦寮車站、梨園寮車站、交力坪車站、水社寮車站、奮起湖車站、多林車站、十字路車站、屏遮那、二萬平車站至祝山車站沿線",
+  "lat": 23.537737866654847,
+  "lng": 120.60805868061867,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20190715000001",
+  "caseId": "20190715000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-08-21/07944741-c8bd-45b2-b6f1-34c003caebe8/8-7獨立山(火車行駛為拍攝四次後合成展現獨立山盤山展線之特色).jpg"
+ },
+ {
+  "id": "suantou-landscape",
+  "name": "蒜頭糖廠文化景觀",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "六腳鄉",
+  "types": [
+   "工業地景"
+  ],
+  "announced": "2015-03-18",
+  "address": "六腳鄉工廠村1號",
+  "lat": 23.479459,
+  "lng": 120.29971,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20150318000001",
+  "caseId": "20150318000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/cultural_tourism/43559/photo/c998b393-89e6-4fed-88d4-e57e5845f6a1.JPG"
+ },
+ {
+  "id": "puzi-waterworks",
+  "name": "原朴子上水道頭文化景觀",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "朴子市",
+  "types": [
+   "其他場域"
+  ],
+  "announced": "2015-12-14",
+  "address": "朴子市文明路28號",
+  "lat": 23.4688283,
+  "lng": 120.24833119999994,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20160118000001",
+  "caseId": "20160118000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-05/1946ab4e-f91d-4693-b2f5-4c133d17293c/all view.jpg"
+ }
+]
