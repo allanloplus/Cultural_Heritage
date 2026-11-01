@@ -14,7 +14,7 @@
       desc: "124 處有形文化資產：北港朝天宮、西螺大橋、虎尾糖廠與上百處日式建築；目前沒有 YouBike。" },
     { slug: "tainan-city", name: "臺南市", nick: "府城四百年：赤崁・安平・鹽水", lat: 23.00, lng: 120.20, on: true,
       img: "tainan-city/img/zhongxi-kongzimiao-0.webp", credit: "臺南孔子廟／王彥翔，CC BY-SA 3.0",
-      desc: "246 處有形文化資產：赤崁樓、孔子廟、安平古堡、億載金城等 21 處國定古蹟，府城與安平可騎 YouBike 串遊。" },
+      desc: "246 處有形文化資產、99 項無形文化資產：赤崁樓、孔子廟、安平古堡、億載金城等 21 處國定古蹟，府城與安平可騎 YouBike 串遊。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 },
