@@ -292,3 +292,14 @@ details.lic summary { cursor: pointer; font-weight: 700; }
   .token { width: 18px; height: 18px; }
   .token.R { right: 22px; }
 }
+
+/* ---------- Print（列印行程） ---------- */
+@media print {
+  .topbar, .site-foot, .toast, .mapwrap, #planIntro, #planForm, .plan-actions, .side-toggle { display: none !important; }
+  body { background: #fff; }
+  .view-split, .view-plan { display: block !important; height: auto !important; }
+  .side, .plan-side { position: static !important; height: auto !important; border: 0 !important; box-shadow: none !important; overflow: visible !important; }
+  .plan-scroll { overflow: visible !important; padding: 0 !important; }
+  .day-card { break-inside: avoid; border: 1px solid #ccc; }
+  a { color: inherit; text-decoration: none; }
+}
