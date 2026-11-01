@@ -138,7 +138,8 @@ def main():
             continue
         groups.append(build_city(c))
     portal = load(os.path.join(ROOT, "tools", "portal.json"))
-    groups.append({"dir": "audio", "tracks": [{"id": "portal", "lines": portal["dialogue"]}]})
+    # 入口頁語音放最前面：它很短，又是所有人第一個聽到的
+    groups.insert(0, {"dir": "audio", "tracks": [{"id": "portal", "lines": fix_lines(portal["dialogue"])}]})
     for g in groups:
         for t in g["tracks"]:
             for l in t["lines"]:
