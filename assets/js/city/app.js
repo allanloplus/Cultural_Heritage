@@ -156,7 +156,7 @@
     var tiles = CY.categories.map(function (c) { return '<a class="stat" href="#map" style="--c:' + CAT[c].hex + '"><b>' + (counts[c] || 0) + '</b><span>' + c + '</span></a>'; });
     if (ichN) tiles.push('<a class="stat" href="#map" style="--c:' + CAT["無形文資"].hex + '"><b>' + ichN + '</b><span>無形文化資產</span></a>');
     if (antiN) tiles.push('<a class="stat" href="#map" style="--c:#8a6d3b"><b>' + antiN + '</b><span>古物（件組）</span></a>');
-    tiles.push('<a class="stat" href="#plan" style="--c:#f5b800"><b>' + UB.length + '</b><span>YouBike 2.0 站點</span></a>');
+    if (UB.length) tiles.push('<a class="stat" href="#plan" style="--c:#f5b800"><b>' + UB.length + '</b><span>YouBike 2.0 站點</span></a>');
     $("#stats").innerHTML = tiles.join("");
     var pool = SITES.filter(function (s) { return s.images.length; });
     var s = pool[Math.floor(Math.random() * pool.length)];
@@ -317,8 +317,8 @@
       '<button class="btn btn-sm" type="button" id="dVisit">我到過這裡</button>' +
       '<a class="btn btn-sm" href="' + esc(s.url) + '" target="_blank" rel="noopener">文資局官方資料</a>' +
       '</div>' +
-      '<div class="d-sec near-ub"><h3>附近的 YouBike 2.0</h3><ul>' + ub.map(function (u) { return '<li data-no="' + u.s.no + '"><b>' + esc(u.s.name) + '</b>（' + km(u.d) + '）<span class="live"></span></li>'; }).join("") + '</ul>' +
-      '<button class="btn btn-sm" type="button" id="dLive">查詢即時車輛</button></div>' +
+      (ub.length && ub[0].d < 3000 ? '<div class="d-sec near-ub"><h3>附近的 YouBike 2.0</h3><ul>' + ub.map(function (u) { return '<li data-no="' + u.s.no + '"><b>' + esc(u.s.name) + '</b>（' + km(u.d) + '）<span class="live"></span></li>'; }).join("") + '</ul>' +
+      '<button class="btn btn-sm" type="button" id="dLive">查詢即時車輛</button></div>' : "") +
       '<div class="d-sec"><h3>小測驗</h3><div id="dQuiz0"></div><div id="dQuiz1" style="margin-top:8px"></div></div>' +
       '<div class="d-sec"><h3>附近還有</h3><div class="chips">' + near.map(function (n) { return '<a class="chip" href="#map/' + n.x.id + '">' + esc(n.x.short) + '・' + km(n.d) + '</a>'; }).join("") + '</div></div>' +
       '</div>';
@@ -334,7 +334,7 @@
     s.quiz.forEach(function (q, i) { renderQuiz($("#dQuiz" + i, d), q); });
     $("#dAdd", d).onclick = function () { if (window.Planner) { window.Planner.addPick(s.id); toast("已加入自選行程：" + s.short + "（到行程規劃查看）", "R", "thumb"); } };
     $("#dVisit", d).onclick = function () { checkIn(s); };
-    $("#dLive", d).onclick = function () {
+    if ($("#dLive", d)) $("#dLive", d).onclick = function () {
       var b = this; b.disabled = true; b.textContent = "查詢中…";
       ubikeLive().then(function (m) {
         $$(".near-ub li", d).forEach(function (li) { var x = m[li.dataset.no]; $(".live", li).textContent = x ? "：可借 " + x.bikes + " 輛・可還 " + x.empty + " 位" : "：查無即時資料"; });

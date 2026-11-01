@@ -23,7 +23,7 @@
   var DAY_COLORS = ["#df6f57", "#1d6f73", "#6b5bb5", "#b8860b", "#3b7bbf", "#2f7d4f", "#b23a3a"];
   var THEMES = {}; A.sites.forEach(function (s) { s.themes.forEach(function (t) { THEMES[t] = 1; }); });
 
-  var st = { days: "1", mode: "walk", pick: "rec", start: "station", pace: 1, time: "09:00", themes: {}, picks: {} };
+  var st = { days: "1", mode: PC.defaultMode || "walk", pick: "rec", start: (X.starts[0] || {}).id || "station", pace: 1, time: "09:00", themes: {}, picks: {} };
   (A.store(A.KEY + "picks") || []).forEach(function (id) { st.picks[id] = true; });
   var pmap, layers, startLL = null, ubLayer, plan = null, inited = false;
 
@@ -75,7 +75,13 @@
   function initUI() {
     new V.Player($("#planIntro"), { track: "plan-intro", lines: X.planIntro, title: "行程小幫手", audioBase: "audio/", compact: true });
     chips($("#pDays"), [["1", "一日遊"], ["2", "二日遊"], ["3", "三日遊"], ["all", "不限天數"]], "days");
-    chips($("#pMode"), [["car", "開車"], ["scooter", "機車"], ["bike", "自行車"], ["walk", "走路"], ["ubike", "YouBike"]], "mode");
+    var hasUB = (CY.ubike.stations || []).length > 0;
+    chips($("#pMode"), [["car", "開車"], ["scooter", "機車"], ["bike", "自行車"], ["walk", "走路"], ["ubike", hasUB ? "YouBike" : "YouBike（無站點）"]], "mode");
+    if (!hasUB) {
+      var ubChip = $('#pMode .chip[data-v="ubike"]');
+      ubChip.setAttribute("aria-disabled", "true"); ubChip.style.opacity = ".5";
+      ubChip.onclick = function () { A.toast(A.CFG.name + "目前沒有 YouBike 2.0 站點，建議改開車、機車或自行車", "R", "sad"); };
+    }
     chips($("#pPick"), [["rec", "推薦行程"], ["theme", "依主題"], ["custom", "自選景點"]], "pick");
     $$("#pDays .chip").forEach(function (b) { b.addEventListener("click", function () { if (st.pick === "rec") renderPickBox(); }); });
     $("#pStart").innerHTML = X.starts.map(function (s) { return '<option value="' + s.id + '">' + esc(s.name) + '</option>'; }).join("");
