@@ -1,0 +1,4410 @@
+[
+ {
+  "id": "zhongxi-kongzimiao",
+  "name": "臺南孔子廟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1983-12-28",
+  "address": "中西區永慶里南門路2號",
+  "lat": 22.9902053720727,
+  "lng": 120.204102645892,
+  "open": "8:30~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000007",
+  "caseId": "19831228000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/e86743e4-ad40-4888-8c9c-2769c6598fd6/2.坊門上正面懸有「全臺首學」匾，背面額題「大成坊」.jpg"
+ },
+ {
+  "id": "zhongxi-chikanlou",
+  "name": "赤嵌樓",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "1983-12-28",
+  "address": "中西區赤崁里民族路2段212號（包括蓬壺書院）",
+  "lat": 22.9975160953868,
+  "lng": 120.202478426198,
+  "open": "8:00~21:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000008",
+  "caseId": "19831228000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-27/6cabc42c-b640-4089-9d02-b335bd7769f2/赤嵌樓.jpg"
+ },
+ {
+  "id": "zhongxi-beijidian",
+  "name": "北極殿",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區民權路二段八十九號",
+  "lat": 22.9944888429422,
+  "lng": 120.204712899725,
+  "open": "08:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000067",
+  "caseId": "19850819000067",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-23/c62142dd-fd6f-4dfe-8a0d-cf29a3473f83/P6180096.jpg"
+ },
+ {
+  "id": "zhongxi-taiwanfuchenghuang",
+  "name": "臺灣府城隍廟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區青年路133號",
+  "lat": 22.9920146045813,
+  "lng": 120.209075144836,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000057",
+  "caseId": "19851127000057",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-27/71752897-7298-42c2-a6e6-61c297093b99/台灣府城隍廟.jpg"
+ },
+ {
+  "id": "zhongxi-taiwanfuchengcheng",
+  "name": "臺灣府城城門及城垣殘蹟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "城郭"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區忠信里文賢路與信義街122巷交叉口",
+  "lat": 23.0007511428658,
+  "lng": 120.194367749974,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000058",
+  "caseId": "19851127000058",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/1ebe315b-e697-4dfe-b96f-1613914d4264/兌悅門.jpg"
+ },
+ {
+  "id": "zhongxi-difangfayuan",
+  "name": "臺南地方法院",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "1991-05-24",
+  "address": "中西區府前路1段307號",
+  "lat": 22.9895174873611,
+  "lng": 120.200988443081,
+  "open": "週二至週日(上午9時至下午5時)，每週一、農曆春節、清明節、端午節及中秋節等國定民俗節日暫停開放，其餘因其他因素暫停開放則另行公告。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19910419000001",
+  "caseId": "19910419000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-20/1f706df9-9e6f-4eb1-8135-6d28c96c05cd/DSC02473修.jpg"
+ },
+ {
+  "id": "zhongxi-cehousuo",
+  "name": "原臺南測候所",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-11-10",
+  "address": "中西區公園路21號",
+  "lat": 22.9936656751826,
+  "lng": 120.205062401583,
+  "open": "目前開放參觀，開放詳細間請洽交通部中央氣象局臺灣南區氣象中心。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20031110000001",
+  "caseId": "20031110000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-18/304849a8-8d9d-463f-b114-c211a8c648f9/3.原臺南測候所是目前碩果僅存的第一代測候所 .jpg"
+ },
+ {
+  "id": "zhongxi-zhouting",
+  "name": "原臺南州廳",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-11-10",
+  "address": "中西區中正路1號",
+  "lat": 22.9919624913814,
+  "lng": 120.204602057957,
+  "open": "開館日：週二至週日09:00-18:00\n館內各設施開放時間：\n兒童文學書房：09:00-18:00，並於12:00-13:00暫停開放。\n圖書室： 09:00-17:00。\n藝文商店： 10:00-18:00。 \n文學咖啡坊： 09:00-18:00。\n休館日：週一（逢國定假日照常休館）、農曆除夕及大年初一、政府公告之天然災害停止上班日、選舉日及本館另行公告之休館日。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20031110000002",
+  "caseId": "20031110000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-12/4f4f5584-628d-42ff-b32b-91bd39b973ae/IMG_0054.jpg"
+ },
+ {
+  "id": "zhongxi-sidianwumiao",
+  "name": "祀典武廟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1983-12-28",
+  "address": "中西區永福路二段二二九號",
+  "lat": 22.9965108376238,
+  "lng": 120.202214133514,
+  "open": "9:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000009",
+  "caseId": "19831228000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/81744a9c-c75f-436c-8575-400e77067f84/2.日治時期永福路開闢，祀典武廟左側被拆，使新建後的山牆緊鄰基地紅色的牆面及高低起伏的天際線格外突出.jpg"
+ },
+ {
+  "id": "zhongxi-wufeimiao",
+  "name": "五妃廟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1983-12-28",
+  "address": "中西區五妃街二０一號",
+  "lat": 22.9819492158294,
+  "lng": 120.204983140374,
+  "open": "8:30~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000010",
+  "caseId": "19831228000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-20/49e9f98c-1843-485a-9848-301bb6d97e2a/1.五妃廟坐西南朝東北，廟前拜亭與兩護室相接，正面開一門兩戶，上繪仕女門神 .jpg"
+ },
+ {
+  "id": "zhongxi-datianhougong",
+  "name": "大天后宮（寧靖王府邸）",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區永福路二段二二七巷十八號",
+  "lat": 22.9966165102096,
+  "lng": 120.201473163341,
+  "open": "8:00~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000072",
+  "caseId": "19850819000072",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/4aad5e27-f175-482a-9830-c55dd2ccfeaa/1.大天后宮前殿外觀 .jpg"
+ },
+ {
+  "id": "zhongxi-zhengshijiamiao",
+  "name": "臺南鄭氏家廟",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-19",
+  "address": "中西區忠義路二段三十六號",
+  "lat": 22.992583420875,
+  "lng": 120.203022696135,
+  "open": "08:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851119000001",
+  "caseId": "19851119000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/39006/photo/N046台南市臺南鄭氏家廟(三級)(1).JPG"
+ },
+ {
+  "id": "zhongxi-baoentang",
+  "name": "臺南報恩堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區忠義路二段三十八巷四號",
+  "lat": 22.9924779084656,
+  "lng": 120.203491095884,
+  "open": "請洽報恩堂",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000045",
+  "caseId": "19851127000045",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/b20a50ae-73a3-4015-86a2-7249ab70adf1/古016臺南報恩堂_P002.jpg"
+ },
+ {
+  "id": "zhongxi-zexiantang",
+  "name": "擇賢堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區永慶里中正路21巷15號",
+  "lat": 22.9913462674833,
+  "lng": 120.203236685383,
+  "open": "9:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000046",
+  "caseId": "19851127000046",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-10/61ab6aec-b834-4cff-a973-05739b942b40/古017擇賢堂_P002.jpg"
+ },
+ {
+  "id": "zhongxi-tiantan",
+  "name": "臺南天壇",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區忠義路二段八十四巷十六號",
+  "lat": 22.99382,
+  "lng": 120.20406,
+  "open": "06:00∼21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000047",
+  "caseId": "19851127000047",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/4a065af4-d89a-4838-9554-f01203b71d46/古018臺南天壇_P003.jpg"
+ },
+ {
+  "id": "zhongxi-chendejutang",
+  "name": "陳德聚堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區永福路2段152巷20號",
+  "lat": 22.9942102454649,
+  "lng": 120.202251662258,
+  "open": "星期二~星期日，10:00 – 16:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000048",
+  "caseId": "19851127000048",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/e8d0ac08-258c-495f-9bc1-266ca2f6ec06/古019陳德聚堂_P001.jpg"
+ },
+ {
+  "id": "zhongxi-kaijiwumiaoyuan",
+  "name": "開基武廟原正殿",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區新美街一一六號",
+  "lat": 22.9964081690362,
+  "lng": 120.200772903745,
+  "open": "週一~週日07:00~21:00 ",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000049",
+  "caseId": "19851127000049",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/7988c2ba-b9fe-48e6-9d94-c0fc52776434/古020開基武廟原正殿_P001.jpg"
+ },
+ {
+  "id": "zhongxi-wanfuanzhaoqiang",
+  "name": "萬福庵照牆",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區竹翠里民族路2段317巷5號",
+  "lat": 22.996192261235,
+  "lng": 120.202941538213,
+  "open": "星期日：06:00 – 20:00\n星期一：06:00 – 20:00\n星期二：06:00 – 20:00\n星期三：06:00 – 20:00\n星期四：06:00 – 20:00\n星期五：06:00 – 20:00\n星期六：06:00 – 20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000050",
+  "caseId": "19851127000050",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-22/b674f0e9-c1d4-4ea6-93bf-ea172f91c4e5/古021萬福庵照牆_P007.jpg"
+ },
+ {
+  "id": "zhongxi-dehuatang",
+  "name": "臺南德化堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區府前路1段178號",
+  "lat": 22.9891354792304,
+  "lng": 120.206133680052,
+  "open": "07:00~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000051",
+  "caseId": "19851127000051",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/39d1fb02-b210-466e-85e0-ef510c7e2c1d/古022臺南德化堂_P003.jpg"
+ },
+ {
+  "id": "zhongxi-zonggangong",
+  "name": "總趕宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區中南里中正路131巷13號",
+  "lat": 22.9919947290505,
+  "lng": 120.199725838829,
+  "open": "7:00~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000052",
+  "caseId": "19851127000052",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/1c0ed0bf-5955-4760-b7cc-5abc01dd7915/古023總趕宮_P001.jpg"
+ },
+ {
+  "id": "zhongxi-dongyuedian",
+  "name": "臺南東嶽殿",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區民權路1段110號",
+  "lat": 22.9905217922225,
+  "lng": 120.209357350273,
+  "open": "8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000053",
+  "caseId": "19851127000053",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-15/dfee4949-5026-4d91-8a09-0f936279fc1b/古024臺南東嶽殿_P001.jpg"
+ },
+ {
+  "id": "zhongxi-jingfuci",
+  "name": "臺南景福祠",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區普濟街四十四號",
+  "lat": 22.9977038639896,
+  "lng": 120.198430666844,
+  "open": "7:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000054",
+  "caseId": "19851127000054",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-15/f1804c8b-156e-4809-8667-ce5cd9fc3512/古025臺南景福祠_P001.jpg"
+ },
+ {
+  "id": "zhongxi-fengshenmiao",
+  "name": "風神廟",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區民權路三段143巷8號",
+  "lat": 22.9973174249699,
+  "lng": 120.195748536597,
+  "open": "6:35~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000055",
+  "caseId": "19851127000055",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-16/cefbb0e1-6ae0-4d07-815e-14e10117ea0f/古026風神廟_P001.jpg"
+ },
+ {
+  "id": "zhongxi-shuixiangong",
+  "name": "臺南水仙宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "中西區水仙里神農街1號",
+  "lat": 22.9966995335631,
+  "lng": 120.198179654163,
+  "open": "6:00~18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000056",
+  "caseId": "19851127000056",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-16/6ae03007-fd31-4cb1-9579-3648daa6715f/古027臺南水仙宮_P001.jpg"
+ },
+ {
+  "id": "zhongxi-fahuasi",
+  "name": "台南法華寺",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區法華街100號",
+  "lat": 22.9838854890759,
+  "lng": 120.209471341917,
+  "open": "8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000068",
+  "caseId": "19850819000068",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-07/f793366f-e7a7-4c14-a9f1-49f8f926fd24/台南法華寺_代表圖像.jpg"
+ },
+ {
+  "id": "zhongxi-kaijilingyougong",
+  "name": "台南開基靈祐宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區民族路2段208巷31號",
+  "lat": 22.9980735468475,
+  "lng": 120.203726045408,
+  "open": "6:00~22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000069",
+  "caseId": "19850819000069",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/7105c262-9f8d-4e04-ab26-6cb5f3476bcc/IMG_4486.jpg"
+ },
+ {
+  "id": "zhongxi-quantaiwushidazong",
+  "name": "全臺吳氏大宗祠",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1996-07-16",
+  "address": "中西區觀音里成功路175巷57號",
+  "lat": 22.9964994627148,
+  "lng": 120.205635163095,
+  "open": "星期一、三、四、五，AM11：30~PM5：00。\n星期六，AM11：00~PM12：00。\n星期日，PM2：00~PM3：00。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19920402000001",
+  "caseId": "19920402000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/f115d10f-407f-4589-aff5-90e2f0f0f8c5/古048全台吳氏大宗祠_P001.jpg"
+ },
+ {
+  "id": "zhongxi-jieguanting",
+  "name": "接官亭",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區民權路3段143巷7號前",
+  "lat": 22.9969841483738,
+  "lng": 120.195679816953,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000070",
+  "caseId": "19850819000070",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/e7f04730-e91d-4afe-b7a7-a7cfe05de7f2/古041接官亭_P003.jpg"
+ },
+ {
+  "id": "zhongxi-xiaoshijiexiaofang",
+  "name": "蕭氏節孝坊",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "1985-08-19",
+  "address": "中西區福安里府前路1段304巷3號",
+  "lat": 22.9905641060374,
+  "lng": 120.198930233091,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000071",
+  "caseId": "19850819000071",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/fef9a06c-e11c-44bf-86a4-7a2933d89b83/古042 蕭氏節孝坊_P003.jpg"
+ },
+ {
+  "id": "zhongxi-tainangonghuitang",
+  "name": "原台南公會堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區民權路2段30號",
+  "lat": 22.9943204282791,
+  "lng": 120.206103639415,
+  "open": "一樓史料室及地下展覽室（開展期間）每日10:00-17:00；一樓表演廳僅於廳內辦理活動時開放，時間依活動而定",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000001",
+  "caseId": "19980626000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/208c2112-83ac-459a-a5cc-ee34c005b9ac/古061原台南公會堂_P002.jpg"
+ },
+ {
+  "id": "zhongxi-tainanhetongting",
+  "name": "原台南合同廳舍",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區中正路二之一號",
+  "lat": 22.9925141496734,
+  "lng": 120.204356170994,
+  "open": "星期日：10:00-16:00星期一：休息\n星期二：10:00-16:00\n星期三：10:00-16:00\n星期四：10:00-16:00\n星期五：10:00-16:00\n星期六：10:00-16:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000002",
+  "caseId": "19980626000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/9ca098ee-559f-47ea-a420-7174fb2af524/古059原臺南合同廳舍_P001.jpg"
+ },
+ {
+  "id": "zhongxi-ribenquanyeyinxing",
+  "name": "原日本勸業銀行台南支店",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-25",
+  "address": "中西區中正路28號",
+  "lat": 22.9921330255418,
+  "lng": 120.203162204127,
+  "open": "週一至週五 9:00-15:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000003",
+  "caseId": "19980626000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/837631f3-6978-47eb-802f-48cee9b20e7a/古058原日本勸業銀行臺南支店_P002.jpg"
+ },
+ {
+  "id": "zhongxi-linbaihuodian",
+  "name": "原林百貨店",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區忠義路二段六十三號",
+  "lat": 22.9917843283073,
+  "lng": 120.202665136074,
+  "open": "週一至週日\n上午 11:00 至 晚上 9:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000004",
+  "caseId": "19980626000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/00507875-ce8d-42fa-936e-4f619ba8a024/古057原林百貨店_P002.jpg"
+ },
+ {
+  "id": "zhongxi-tainanwudedian",
+  "name": "原台南武德殿",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區忠義路二段二號",
+  "lat": 22.9904547392976,
+  "lng": 120.203473713305,
+  "open": "請洽台南市中西區忠義國小\n地址：70041台南市中西區忠義路二段二號 ■TEL：06-2222768",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000005",
+  "caseId": "19980626000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/efba0916-a860-4268-9645-37657c00ec0a/古056原台南武德殿_P001.jpg"
+ },
+ {
+  "id": "zhongxi-tainanjingchashu",
+  "name": "原台南警察署",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區南門路三十七號",
+  "lat": 22.9910970895044,
+  "lng": 120.20516478873,
+  "open": "週二至週日 10:00 -18:00\n週一休館(國定例假日若適逢星期一，照常開放)\n週六延長開放至21:00\n國定例假日照常開館，除夕、初一、初二休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000006",
+  "caseId": "19980626000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/4afdd97a-9329-4320-9d4e-78f701fbaa24/古054原台南警察署_P001.jpg"
+ },
+ {
+  "id": "zhongxi-jianandazhenzuhe",
+  "name": "原嘉南大圳組合事務所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-25",
+  "address": "中西區友愛街25號",
+  "lat": 22.9906769844359,
+  "lng": 120.205205653059,
+  "open": "請洽水利會\n星期日：休息\n星期一：08:30 – 17:00\n星期二：08:30 – 17:00\n星期三：08:30 – 17:00\n星期四：08:30 – 17:00\n星期五：08:30 – 17:00\n星期六：休息",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000007",
+  "caseId": "19980626000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/0ea51621-be43-4d28-abf9-ec4981a137d5/古053原嘉南大圳組合事務所_P001.jpg"
+ },
+ {
+  "id": "zhongxi-tainanaiguofuren",
+  "name": "原台南愛國婦人會館",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區府前路1段195號、197號",
+  "lat": 22.988921487047,
+  "lng": 120.204270009871,
+  "open": "09:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000008",
+  "caseId": "19980626000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/169ad4fb-4ebf-4b92-a7b9-1ad1ea094260/古052原台南愛國婦人會館_P001.jpg"
+ },
+ {
+  "id": "zhongxi-tainangaodengnvxue",
+  "name": "原台南高等女學校本館",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "中西區大埔街97號",
+  "lat": 22.9867393467379,
+  "lng": 120.20660731866,
+  "open": "請洽學校",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000009",
+  "caseId": "19980626000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/d217d176-3e50-4099-a0e8-34c825fd79fa/古051原臺南高等女學校本館_P001.jpg"
+ },
+ {
+  "id": "zhongxi-dajingtou",
+  "name": "大井頭",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1999-11-19",
+  "address": "中西區民權路二段225號前",
+  "lat": 22.9954326303159,
+  "lng": 120.201664317913,
+  "open": "全日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19991119000001",
+  "caseId": "19991119000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-24/a707b95c-5564-4447-b13e-db9c23f8d6ce/古062大井頭_P005.jpg"
+ },
+ {
+  "id": "zhongxi-shidingmeiguzhai",
+  "name": "台南石鼎美古宅",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "1997-04-02",
+  "address": "中西區西門路二段225巷4號",
+  "lat": 22.9955849665045,
+  "lng": 120.198988292532,
+  "open": "目前施工中。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19970402000001",
+  "caseId": "19970402000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-04/29817528-99f5-4f51-b726-0c0098ae23eb/直轄市定古蹟臺南石鼎美古宅修復工程03.jpg"
+ },
+ {
+  "id": "zhongxi-tainanfangsongju",
+  "name": "原台南放送局",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-07-16",
+  "address": "中西區南門路三十八號",
+  "lat": 22.9863185092228,
+  "lng": 120.203821748317,
+  "open": "每週一休館，每週二至週日上午10:00～12:30；13:30~17:30，\n\n如遇夜間放映，開放時間延長至放映結束後閉館。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20010716000001",
+  "caseId": "20010716000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/0a9ff226-ce6d-4130-93c8-9e8d867ccb1d/古066原台南放送局_P003.jpg"
+ },
+ {
+  "id": "zhongxi-tainanzhouqingguo",
+  "name": "原台南州青果同業組合香蕉倉庫",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "中西區西門路、中正路、正興街與國華街街廓內",
+  "lat": 22.993222062576,
+  "lng": 120.198389130373,
+  "open": "整修中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000001",
+  "caseId": "20030513000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-04/8fe4d241-32f3-42b8-bd5c-16409d866c27/香蕉倉庫.jpg"
+ },
+ {
+  "id": "zhongxi-xishichang",
+  "name": "西市場",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "中西區西門路、中正路、正興街與國華街街廓",
+  "lat": 22.993952587746,
+  "lng": 120.198210406685,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000002",
+  "caseId": "20030513000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-08/e692fc1a-b949-4989-b560-2536d1c0d39f/S__10453023.jpg"
+ },
+ {
+  "id": "zhongxi-tainanshensheshiwu",
+  "name": "原台南神社事務所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-07",
+  "address": "中西區永華里忠義路2段2號忠義國小內",
+  "lat": 22.9897185252144,
+  "lng": 120.202524309851,
+  "open": "請逕洽忠義國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040307000001",
+  "caseId": "20040307000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/b39ab7e3-48bc-45f8-bde0-374dbc6f94c9/古094原臺南神社事務所_P001.jpg"
+ },
+ {
+  "id": "zhongxi-tainandazhenggong",
+  "name": "原台南大正公園",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-04-30",
+  "address": "中西區中山、民生、公園、中正、南門、開山、青年路交會處",
+  "lat": 22.9925825654948,
+  "lng": 120.20505522025,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040430000001",
+  "caseId": "20040430000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/c9e8ec55-79fb-4a6e-8117-909ebca23acf/古095原臺南大正公園_P004.jpg"
+ },
+ {
+  "id": "zhongxi-shifanxuejiaoben",
+  "name": "原臺南師範學校本館",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-25",
+  "address": "中西區樹林街二段33號",
+  "lat": 22.984763,
+  "lng": 120.207808,
+  "open": "洽學校",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20020625000001",
+  "caseId": "20020625000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/1b960bc4-2637-4398-afc1-66e1cc812176/古068原臺南師範學校本館_P002.jpg"
+ },
+ {
+  "id": "zhongxi-tainanyunhehaiguan",
+  "name": "原台南運河海關",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-07-16",
+  "address": "中西區民生路2段257號",
+  "lat": 22.9963133322658,
+  "lng": 120.192638248757,
+  "open": "洽財政部關務署高雄關",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20010716000002",
+  "caseId": "20010716000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/9a8280f2-f754-4cbf-b583-0111bc88f4b5/古065原臺南運河海關_P001.jpg"
+ },
+ {
+  "id": "zhongxi-jinhuafu",
+  "name": "金華府",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2005-11-07",
+  "address": "中西區神農街71號",
+  "lat": 22.9973676497903,
+  "lng": 120.196543657966,
+  "open": "8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20051107000001",
+  "caseId": "20051107000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/dda2bf4c-e7b4-4855-8c3c-c75c102a5161/古083金華府_P001.jpg"
+ },
+ {
+  "id": "zhongxi-guangshenglou",
+  "name": "原廣陞樓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "中西區成功路285巷3號",
+  "lat": 22.9992812190819,
+  "lng": 120.201577668453,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000006",
+  "caseId": "20030513000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/36eb958a-57d0-458c-8468-50546ed305d8/古077原廣陞樓_P001.jpg"
+ },
+ {
+  "id": "zhongxi-guangangong",
+  "name": "廣安宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "中西區新美街172號",
+  "lat": 22.9974230139693,
+  "lng": 120.201673484908,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000007",
+  "caseId": "20030513000007",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/39276/photo/pic001.jpg"
+ },
+ {
+  "id": "zhongxi-shanlinshiwusuo",
+  "name": "原臺南山林事務所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "中西區中正路5巷1號",
+  "lat": 22.9909324596636,
+  "lng": 120.203742862207,
+  "open": "開館時間：週三至週日 09：00 - 17：00\n休館時間：每週一、二及除夕固定休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000008",
+  "caseId": "20030513000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/bb2d40df-e3c7-47e8-b65f-0e52fdf59acf/古090原臺南山林事務所_P003.jpg"
+ },
+ {
+  "id": "zhongxi-tainanzhouhui",
+  "name": "原台南州會",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-17",
+  "address": "中西區永華里中正路3號",
+  "lat": 22.9920565924829,
+  "lng": 120.203856505447,
+  "open": "每逢週一休館，週二～週五：1300～2100，週六、週日：1000～1900",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040317000001",
+  "caseId": "20040317000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-10/41de0a71-3b1f-4d4a-86e4-05c75127ae7f/20211123州會夜間全景照_211201_5.jpg"
+ },
+ {
+  "id": "zhongxi-chenshixingzhai",
+  "name": "陳世興宅",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-03-09",
+  "address": "中西區民族路二段317巷46號",
+  "lat": 22.996055,
+  "lng": 120.202884,
+  "open": "修復中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150309000001",
+  "caseId": "20150309000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38203/photo/97cff356-d5e9-4a3b-ab35-68b8cd8a1265.JPG"
+ },
+ {
+  "id": "zhongxi-chikandongjiechen",
+  "name": "赤崁東街陳宅",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "宅第",
+   "寺廟"
+  ],
+  "announced": "2022-12-19",
+  "address": "中西區赤崁東街56號",
+  "lat": 22.997508,
+  "lng": 120.203681,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230217000001",
+  "caseId": "20230217000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-17/4e103a5f-b2d2-4f68-962b-2fd24a234178/IMG_5070.jpg"
+ },
+ {
+  "id": "zhongxi-zhujizuzhaidi",
+  "name": "原住吉組宅邸（高家宅邸）",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-08-11",
+  "address": "中西區青年路173號",
+  "lat": 22.9920139,
+  "lng": 120.2100247,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20201026000001",
+  "caseId": "20201026000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-26/1eb429a0-3967-426a-aa18-8978afd1868e/住吉1.jpg"
+ },
+ {
+  "id": "zhongxi-xingwusuomuzaojian",
+  "name": "原臺南刑務所木造建築群",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-08-12",
+  "address": "中西區台南市中西區永福路一段233巷21,23,25,27,29,31,33,35,39,41,43,45,47,49,51,53,55號及和意路8,16,20,48,50號",
+  "lat": 22.9887356,
+  "lng": 120.1987391,
+  "open": "請洽臺南監獄",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20201124000001",
+  "caseId": "20201124000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-04/cffd2ffe-9f85-41d0-a9ba-9fff8ac89843/刑務所要道館(1)_0.jpg"
+ },
+ {
+  "id": "zhongxi-qingdaidaoshuyigou",
+  "name": "清代道署遺構",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "中西區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2021-02-17",
+  "address": "中西區永福路二段86號",
+  "lat": 22.99277,
+  "lng": 120.20203,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210415000001",
+  "caseId": "20210415000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-15/21f5224d-b194-49b1-91de-99bbfc47f49a/清代道署遺構.png"
+ },
+ {
+  "id": "zhongxi-zhongqingsi",
+  "name": "臺南重慶寺",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-04-26",
+  "address": "中西區臺南市中西區中正路5巷2號",
+  "lat": 22.9915840107805,
+  "lng": 120.203612198104,
+  "open": "0900～1800",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070426000001",
+  "caseId": "20070426000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-19/b2a7967c-e654-42bf-850a-45c089b7676e/歷006臺南重慶寺_P001.jpg"
+ },
+ {
+  "id": "zhongxi-yanpingjunwangci",
+  "name": "延平郡王祠（含鄭成功文物館）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2010-08-17",
+  "address": "中西區開山路152號",
+  "lat": 22.987679807197033,
+  "lng": 120.2079636043746,
+  "open": "鄭成功文物館週二至週日09：00-17：00\n延平郡王祠每日08：30至17：30\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100817000001",
+  "caseId": "20100817000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-04/4554e123-ed5f-43f9-b644-235ca9e89f59/歷007延平郡王祠(含鄭成功文物館)_P006CUT.jpg"
+ },
+ {
+  "id": "zhongxi-bajijingguanditing",
+  "name": "八吉境關帝廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2012-05-15",
+  "address": "中西區友愛街40巷11號",
+  "lat": 22.991449302318465,
+  "lng": 120.20109190468658,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120515000002",
+  "caseId": "20120515000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-11/04b75f6c-e7e2-4763-80cc-a5d9ef7f6b79/歷041八吉境關帝廳_P002.jpg"
+ },
+ {
+  "id": "zhongxi-nanmenxunchangxiao",
+  "name": "原南門尋常小學校舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-07-16",
+  "address": "中西區府前路一段239 號",
+  "lat": 22.988377915054134,
+  "lng": 120.20288080732024,
+  "open": "請洽建興國中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010716000004",
+  "caseId": "20010716000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-20/01bfe2c3-5b14-458b-a080-84f4a5b19187/歷001原南門尋常小學校舍_P001.jpg"
+ },
+ {
+  "id": "zhongxi-dagongtingrishizhu",
+  "name": "原臺南大宮町日式住宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-02-25",
+  "address": "中西區永福路二段77號",
+  "lat": 22.99308,
+  "lng": 120.200983,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160225000001",
+  "caseId": "20160225000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-10/12bfadb1-8509-423e-bd9b-c66b4fefb2d3/歷044臺南永福路孫宅_P001.jpg"
+ },
+ {
+  "id": "zhongxi-xidetang",
+  "name": "西德堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2016-05-03",
+  "address": "中西區文賢路36號 ",
+  "lat": 22.999877,
+  "lng": 120.194606,
+  "open": "每週二至週日，每日開放四個時段：9：30、10：30、14：00、15：00，每次參觀時間為三十分鐘。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160503000001",
+  "caseId": "20160503000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-10/a37ed458-7b2d-4846-9a03-68e687a6bcdd/歷046西德堂_P002.jpg"
+ },
+ {
+  "id": "zhongxi-chikandongjierishi",
+  "name": "赤崁東街日式宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-12-01",
+  "address": "中西區臺南市中西區忠義路二段233巷2、4、6、8號",
+  "lat": 22.998349,
+  "lng": 120.204004,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161201000001",
+  "caseId": "20161201000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/133745/photo/DSC01773.JPG"
+ },
+ {
+  "id": "zhongxi-qingshuisijielian",
+  "name": "臺南原清水寺街連棟街屋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-03-23",
+  "address": "中西區開山路3巷48、50、52、54號",
+  "lat": 22.9917745,
+  "lng": 120.20658300000002,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180703000002",
+  "caseId": "20180703000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-02/7f349a2d-4cf1-445b-b51e-25733365306a/歷059臺南原清水寺街連棟街屋_P009.jpg"
+ },
+ {
+  "id": "zhongxi-jidujiaotainanjin",
+  "name": "基督教臺南浸信會教堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2018-02-02",
+  "address": "中西區府前路一段235號",
+  "lat": 22.989237,
+  "lng": 120.20320530000004,
+  "open": "只開放參加教會禮拜活動\n主日崇拜：10:00~11:30\n兒童主日學：10:00~11:30\n週五禱告會：每月第一個週五19:30~21:00\n成人小組聚會：週二~週五不定時\n學青/社青小組聚會：禮拜六13:00/15:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180703000003",
+  "caseId": "20180703000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-04/dac5ff63-acc2-40f4-a0c5-860095047168/歷057基督教臺南浸信會教堂_P002.jpg"
+ },
+ {
+  "id": "zhongxi-difangfayuanyuan",
+  "name": "臺南地方法院院長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-09-21",
+  "address": "中西區府前路一段63號",
+  "lat": 22.988775166892484,
+  "lng": 120.20962752566173,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180919000002",
+  "caseId": "20180919000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-09-19/9736b41c-5c1c-4848-8911-500fa2f561a3/2727.jpg"
+ },
+ {
+  "id": "zhongxi-shuminxinyongzuhe",
+  "name": "原臺南庶民信用組合日式建物",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-01-31",
+  "address": "中西區中正路7號",
+  "lat": 22.9919376,
+  "lng": 120.203545,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200218000001",
+  "caseId": "20200218000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/ed8ec011-7804-4ed2-916d-d7b1ee7f22e7/歷068原臺南庶民信用組合日式建物_P002.jpg"
+ },
+ {
+  "id": "zhongxi-liyuanxiangaimen",
+  "name": "臺南市利源巷隘門",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-01-31",
+  "address": "中西區永福路二段197巷",
+  "lat": 22.9959416,
+  "lng": 120.2013926,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200218000002",
+  "caseId": "20200218000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/3b4b7d0a-4dce-477b-b17d-c820cd80b37f/歷069臺南市利源巷隘門_P005.jpg"
+ },
+ {
+  "id": "zhongxi-jishengyiyuan",
+  "name": "濟生醫院",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2021-03-25",
+  "address": "中西區民生路二段463巷",
+  "lat": 22.99811952737286,
+  "lng": 120.18795926014988,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210415000002",
+  "caseId": "20210415000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-15/125c04e3-8742-46e5-ba6f-56e66df88470/濟生醫院.png"
+ },
+ {
+  "id": "zhongxi-qingdaikaopengyi",
+  "name": "清代考棚遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2021-03-25",
+  "address": "中西區衛民街101號",
+  "lat": 22.993089,
+  "lng": 120.208686,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210415000003",
+  "caseId": "20210415000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-15/e5763552-e5f5-4273-94b8-dd31643ca5e9/清代考棚遺構.png"
+ },
+ {
+  "id": "zhongxi-taiwanlinputangshi",
+  "name": "臺灣臨濮堂施姓大宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2023-07-31",
+  "address": "中西區海安路二段79巷32號",
+  "lat": 22.9951,
+  "lng": 120.19591,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20231003000001",
+  "caseId": "20231003000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-03/ecb88911-a860-4895-b78e-c3fe1a7e318f/20220628施姓大宗祠_220628_10.jpg"
+ },
+ {
+  "id": "zhongxi-wufushangdian",
+  "name": "原五福商店",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中西區",
+  "types": [
+   "商店"
+  ],
+  "announced": "2026-04-17",
+  "address": "中西區中正路124號",
+  "lat": 22.99264,
+  "lng": 120.1998,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260521000001",
+  "caseId": "20260521000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-21/c07670c0-508e-477d-ac83-a2f879fce086/﹝全國文資網﹞代表圖像-原五福商店.jpg"
+ },
+ {
+  "id": "anping-erkunshenpaotai",
+  "name": "二鯤鯓礮臺(億載金城)",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "安平區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1983-12-28",
+  "address": "安平區光州路三號",
+  "lat": 22.9880337118747,
+  "lng": 120.159617907833,
+  "open": "8:00~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000011",
+  "caseId": "19831228000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-04/0d583b8a-6fd2-486f-9b49-7405fa20571c/二鯤鯓.jpg"
+ },
+ {
+  "id": "anping-relanzhebaoyigou",
+  "name": "熱蘭遮堡遺構",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "安平區",
+  "types": [
+   "城郭"
+  ],
+  "announced": "1983-12-28",
+  "address": "安平區國勝路82號及其周圍共39筆土地",
+  "lat": 23.00111,
+  "lng": 120.15952,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230901000001",
+  "caseId": "20230901000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-01/84dada88-9f74-45df-8833-a856dcc2c33d/EB1273BDDFC0DAE8E3375F2B9CCC2721EEB55276.jpeg"
+ },
+ {
+  "id": "anping-haishanguan",
+  "name": "海山館",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "安平區效忠街52巷7號",
+  "lat": 23.0013819714402,
+  "lng": 120.162602164479,
+  "open": "09:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000071",
+  "caseId": "19851127000071",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-17/72ee9a6b-7f4b-44c9-abb8-54a8b0061031/古031海山館_P001.jpg"
+ },
+ {
+  "id": "anping-xiaopaotai",
+  "name": "安平小砲臺",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-08-19",
+  "address": "安平區西門里安平小段1006-7地號",
+  "lat": 22.9994707545491,
+  "lng": 120.158532836031,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000077",
+  "caseId": "19850819000077",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/ed42e902-0764-4919-926f-357e7e4701e9/古036安平小砲臺_P005.jpg"
+ },
+ {
+  "id": "anping-miaoshougong",
+  "name": "妙壽宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "安平區國勝路26號",
+  "lat": 22.9996459543362,
+  "lng": 120.161681771239,
+  "open": "08：00~20：00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000078",
+  "caseId": "19850819000078",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-11/5e98906e-f436-4f5a-8bd3-663fde91343f/古015妙壽宮_P001.jpg"
+ },
+ {
+  "id": "anping-yanpingjiegujing",
+  "name": "臺南延平街古井",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "安平區文朱里延平街148巷3號",
+  "lat": 23.0008879018509,
+  "lng": 120.161498023572,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000072",
+  "caseId": "19851127000072",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/b72816b8-9f9a-4136-9d67-b12634d30865/古045臺南延平街古井_P002.jpg"
+ },
+ {
+  "id": "anping-yingshangdejiyang",
+  "name": "原英商德記洋行",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "安平區708台南市安平區古堡街108號",
+  "lat": 23.0034565767682,
+  "lng": 120.159774422806,
+  "open": "8:30~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000073",
+  "caseId": "19851127000073",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/3f860deb-d7c6-43c2-8b95-c1bfa9199905/古046原英商德記洋行_P001.jpg"
+ },
+ {
+  "id": "anping-deshangdongxing",
+  "name": "原德商東興洋行",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "安平區台南市安平區西門里安北路183巷19號",
+  "lat": 23.0017811492991,
+  "lng": 120.158937328811,
+  "open": "目前未開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000074",
+  "caseId": "19851127000074",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/9d7ef35b-ae85-411b-b7e8-76f88c9ec8f1/古047原德商東興洋行_P001.jpg"
+ },
+ {
+  "id": "anping-shizaijiehewangcuo",
+  "name": "安平市仔街何旺厝",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區延平街86號",
+  "lat": 23.0007701887484,
+  "lng": 120.162752002014,
+  "open": "請洽永豐餘集團",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000017",
+  "caseId": "20030513000017",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-07/5f97ba5d-2c7e-4725-b454-6b41e43c75ef/古081安平市仔街何旺厝_P001裁切.jpg"
+ },
+ {
+  "id": "anping-taiwanzongdufu",
+  "name": "原臺灣總督府專賣局臺南支局安平分室",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區古堡街196、198號",
+  "lat": 23.0023816421727,
+  "lng": 120.156381312166,
+  "open": "一: 1100 - 1900 五: 1100 - 1900 六 日: 10:00 - 2000",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000018",
+  "caseId": "20030513000018",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/db2e0428-98c5-4268-b8c9-e469d9d78cb3/古075原臺灣總督府專賣局臺南支局安平分室_P001.jpg"
+ },
+ {
+  "id": "anping-hehuiyaojifushu",
+  "name": "安平蚵灰窯暨附屬建築",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-08-07",
+  "address": "安平區安北路110-1號",
+  "lat": 23.0022541254376,
+  "lng": 120.16489245197,
+  "open": "週二~週日08:30-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060807000001",
+  "caseId": "20060807000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/546e821b-018f-40a8-8ca2-2fa79308c735/古098安平蚵灰窯暨附屬建築_P001.jpg"
+ },
+ {
+  "id": "anping-haitousheweizhai",
+  "name": "安平海頭社魏宅",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區安北路121巷16弄2號",
+  "lat": 23.0021212876988,
+  "lng": 120.162915238295,
+  "open": "請洽安平海頭社魏厝(886-6-2588193)\n採預約制",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000019",
+  "caseId": "20030513000019",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/8b8afcac-d91f-4c96-90ab-c5558270d485/古079安平海頭社魏宅_P001.jpg"
+ },
+ {
+  "id": "anping-lujingtangcuo",
+  "name": "安平盧經堂厝",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區安平路802號",
+  "lat": 23.00046,
+  "lng": 120.16008,
+  "open": "週一、週三〜週日，09:00~18:00\n每週二為休館日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000020",
+  "caseId": "20030513000020",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/fcf4e3ea-19c7-4577-9079-d77a34e0cc1a/古073安平盧經堂厝_P001.jpg"
+ },
+ {
+  "id": "anping-gangdaoliudinandi",
+  "name": "原安平港導流堤南堤",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "堤閘"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區漁光里海濱",
+  "lat": 22.986471988886,
+  "lng": 120.149380144184,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000021",
+  "caseId": "20030513000021",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37872/photo/cf3a5002-7f09-4a5b-a078-124e4539826f.jpg"
+ },
+ {
+  "id": "anping-yunheanpinghaiguan",
+  "name": "原臺南運河安平海關",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安平區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "安平區安平路97-15號",
+  "lat": 22.9985068915963,
+  "lng": 120.163940537269,
+  "open": "週六、日：0900～2200，週一～週五：0900～1800",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000022",
+  "caseId": "20030513000022",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-22/b183cd60-dbbf-4fd8-9455-2c8cedd9f18f/古091原臺南運河安平海關_P004.jpg"
+ },
+ {
+  "id": "anping-chenbaozhengcuo",
+  "name": "原安平陳保正厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "安平區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2006-07-05",
+  "address": "安平區臺南市安平區石門里延平街58號",
+  "lat": 23.0005641969171,
+  "lng": 120.163446111478,
+  "open": "採事先預約制",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060705000003",
+  "caseId": "20060705000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-20/0ab10dd5-a953-4293-a6f3-74ff80c4ba95/歷005原安平陳保正厝_P003.jpg"
+ },
+ {
+  "id": "bei-kaiyuansi",
+  "name": "開元寺",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "北區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "北區北園街八十九號",
+  "lat": 23.0112343246727,
+  "lng": 120.222555890561,
+  "open": "9:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000075",
+  "caseId": "19850819000075",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/39027/photo/N109台南市開元寺(二級)(1).JPG"
+ },
+ {
+  "id": "bei-sanshanguowangmiao",
+  "name": "臺南三山國王廟",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "北區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "北區西門路三段100號",
+  "lat": 23.0013216011428,
+  "lng": 120.20296557085,
+  "open": "目前工程施工中，暫不開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000076",
+  "caseId": "19850819000076",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-12/2875a8b9-85b2-40af-bb8f-b68af87cf4df/DSCN1595.jpg"
+ },
+ {
+  "id": "bei-kaijitianhougong",
+  "name": "開基天后宮",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "北區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區自強街十二號",
+  "lat": 22.9996296736991,
+  "lng": 120.202585761093,
+  "open": "08:00~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000067",
+  "caseId": "19851127000067",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/4b8c9d37-9ce8-47e0-bb4e-5d1c86c24cf4/開基天后宮.jpg"
+ },
+ {
+  "id": "bei-rijuntainanweishu",
+  "name": "原日軍台南衛戍病院",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-06-18",
+  "address": "北區小東路成功大學力行校區內",
+  "lat": 23.002347515951,
+  "lng": 120.215666252454,
+  "open": "請洽成功大學",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030618000001",
+  "caseId": "20030618000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/021e6fcf-81e4-4076-b72f-cfe38ec8241c/古078原日軍臺南衛戍病院_P001.jpg"
+ },
+ {
+  "id": "bei-rijunbubingdier",
+  "name": "原日軍步兵第二聯隊官舍群",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "北區公園路321巷",
+  "lat": 23.0041137491887,
+  "lng": 120.208431329396,
+  "open": "整修中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000012",
+  "caseId": "20030513000012",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-12/733a5cac-a92e-4075-83ed-e85895f34965/321代表圖片.jpg"
+ },
+ {
+  "id": "bei-baogongxuejiaoben",
+  "name": "原寶公學校本館",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "學校"
+  ],
+  "announced": "2003-05-13",
+  "address": "北區西門路三段41號",
+  "lat": 23.0008618379494,
+  "lng": 120.20168248739,
+  "open": "請洽立人國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000013",
+  "caseId": "20030513000013",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/d54904f6-56e1-442c-b988-4dd111fa6d5c/古087原寶公學校本館_P001.jpg"
+ },
+ {
+  "id": "bei-wangxingdazongci",
+  "name": "王姓大宗祠",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "北區佑民街41號",
+  "lat": 22.999096,
+  "lng": 120.205919,
+  "open": "請洽王姓大宗祠",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000014",
+  "caseId": "20030513000014",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-30/7ce3bf2e-7f4e-4bdf-8702-cf68042a871b/messageImage_1790756922075.jpg"
+ },
+ {
+  "id": "bei-gongyuanguanlisuo",
+  "name": "原臺南公園管理所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "北區臺南公園內",
+  "lat": 23.0031609195784,
+  "lng": 120.211518885728,
+  "open": "修復工程至2023年10月",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000015",
+  "caseId": "20030513000015",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-04/21163d56-a223-4b22-af97-a1c3311c1114/直轄市定古蹟原臺南公園管理所.jpg"
+ },
+ {
+  "id": "bei-zhongdaochongwen",
+  "name": "重道崇文坊",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區公園路356號",
+  "lat": 23.0020358624071,
+  "lng": 120.211641727874,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000065",
+  "caseId": "19851127000065",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/ae542755-b861-411e-9377-2fdb0b431e91/古043重道崇文坊_P001.jpg"
+ },
+ {
+  "id": "bei-wuguijing",
+  "name": "烏鬼井",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區城朔里自強街146巷10號",
+  "lat": 23.0017616271458,
+  "lng": 120.204025191448,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000066",
+  "caseId": "19851127000066",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/f0fa382b-1bf4-42d1-a589-0242c91fd523/古044烏鬼井_P003.jpg"
+ },
+ {
+  "id": "bei-tainanzhongxuexiao",
+  "name": "原台南中學校講堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "北區北門路2段125號",
+  "lat": 23.00547,
+  "lng": 120.21381,
+  "open": "請洽國立臺南第二高級中學",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000011",
+  "caseId": "19980626000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/ac985438-1dd4-4238-a57d-8608cb353084/古049原台南中學講堂_P001.jpg"
+ },
+ {
+  "id": "bei-daguanyinting",
+  "name": "大觀音亭",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區成功路86號",
+  "lat": 22.9984823952881,
+  "lng": 120.206149566012,
+  "open": "5:00~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000068",
+  "caseId": "19851127000068",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-16/e89f1e26-a184-47da-85bb-cba70c55734c/古028大觀音亭_P004.jpg"
+ },
+ {
+  "id": "bei-xingjigong",
+  "name": "臺南興濟宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區成功路86號",
+  "lat": 22.998409410305,
+  "lng": 120.206304767177,
+  "open": "7:00~21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000069",
+  "caseId": "19851127000069",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-17/420fe351-eb8e-4d91-a9e5-b17a637f38e7/古029台南興濟宮_P002.jpg"
+ },
+ {
+  "id": "bei-xihuatang",
+  "name": "西華堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "北區北忠街92號",
+  "lat": 22.9995947585467,
+  "lng": 120.210295756356,
+  "open": "8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000070",
+  "caseId": "19851127000070",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-17/b047da7b-579e-4348-824d-314eec49733a/古030西華堂_P001.jpg"
+ },
+ {
+  "id": "bei-huayuanxunchang",
+  "name": "原花園尋常小學校本館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-07-10",
+  "address": "北區公園路180號",
+  "lat": 23.0002531037354,
+  "lng": 120.209141044826,
+  "open": "請洽詢公園國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030710000001",
+  "caseId": "20030710000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-20/5e5167d4-5e98-4fb7-a1af-a0da444b9db3/歷002原花園尋常小學校本館_P002.jpg"
+ },
+ {
+  "id": "bei-ribenlujuntainan",
+  "name": "原日本陸軍臺南偕行社",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北區",
+  "types": [
+   "集會堂"
+  ],
+  "announced": "2007-09-11",
+  "address": "北區公園南路21號",
+  "lat": 22.9999526141185,
+  "lng": 120.212002180112,
+  "open": "修復中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070911000001",
+  "caseId": "20070911000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-04/1f90e9f0-fd5a-4552-8584-ff96b8d3f201/IMG_3123.jpg"
+ },
+ {
+  "id": "bei-sanfenzirijunsheji",
+  "name": "原三分子日軍射擊場靶溝遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-12-05",
+  "address": "北區林森路三段140巷67號東側",
+  "lat": 23.0037938,
+  "lng": 120.22603619999995,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190108000004",
+  "caseId": "20190108000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-28/7d8f3f4a-aa3f-4412-b324-c972ad671650/歷061原三分子日軍射擊場靶溝遺構_P002.jpg"
+ },
+ {
+  "id": "bei-sanfenzirijunsheji2",
+  "name": "三分子日軍射擊場遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "北區",
+  "types": [],
+  "announced": "2008-01-03",
+  "address": "北區臺南市北區重興里慈光十三村與自治新村之間",
+  "lat": 23.003882,
+  "lng": 120.22765,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20080103000002",
+  "caseId": "20080103000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/32585/photo/3bfcc6dc-b8d8-4ae6-a051-bc4a134881b5.jpg"
+ },
+ {
+  "id": "bei-gongyuan",
+  "name": "臺南公園",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "北區",
+  "types": [
+   "歷史名園"
+  ],
+  "announced": "2018-02-02",
+  "address": "北區臺南市北區公園南路89號",
+  "lat": 23.002036,
+  "lng": 120.211642,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20180917000001",
+  "caseId": "20180917000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-19/d1cece7e-21b8-4aff-b8e6-e2f8787196bf/文化景觀002臺南公園_P005.jpg"
+ },
+ {
+  "id": "dong-rijuntaiwanbubing",
+  "name": "原日軍臺灣步兵第二聯隊營舍",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "東區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2003-11-10",
+  "address": "東區大學路1號(成大光復校區內)",
+  "lat": 22.9997503161372,
+  "lng": 120.216058112806,
+  "open": "室內參觀時間以學校上班時間8:00至17:00為主。\n建築外觀參觀人數無限制。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20031110000003",
+  "caseId": "20031110000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-16/10717142-7756-451d-83da-698f4876cdbe/IMG_0460.jpg"
+ },
+ {
+  "id": "dong-huochezhan",
+  "name": "臺南火車站",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-12-18",
+  "address": "東區北門路2段4號",
+  "lat": 22.9972062216332,
+  "lng": 120.212369589515,
+  "open": "(1)開放範圍：火車站1樓\n(2)開放時間：車站營運時間\n(3)開放限制：無人數限制",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19981218000001",
+  "caseId": "19981218000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-24/14bbf3a6-de02-422b-b874-fa172c4e2d70/車站外觀.jpg"
+ },
+ {
+  "id": "dong-tainanzhoulinong",
+  "name": "原台南州立農事試驗場辦公廳舍",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-02-06",
+  "address": "東區龍山里林森路1段350號",
+  "lat": 22.9836421477506,
+  "lng": 120.221229794636,
+  "open": "尚未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040206000001",
+  "caseId": "20040206000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-04/c9d9b038-1cdc-494f-a140-af2a8139da13/直轄市定古蹟原臺南州立農事試驗場辦公廳舍(考種室)-戶外.png"
+ },
+ {
+  "id": "dong-tainanzhoulinong2",
+  "name": "原台南州立農事試驗場宿舍群",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-04-30",
+  "address": "東區龍山里府東街21巷2、14、16、18、20、23、25號；東門路2段158巷66、68、76、78號",
+  "lat": 22.9851397558886,
+  "lng": 120.220139948986,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040430000002",
+  "caseId": "20040430000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/ab89d511-0084-4274-92bf-2b862eecd79c/古096原臺南州立農事試驗場宿舍群_P011.jpg"
+ },
+ {
+  "id": "dong-taiwantangyeshiyan",
+  "name": "台灣糖業試驗所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "東區生產路54號",
+  "lat": 22.9637068626559,
+  "lng": 120.221043255043,
+  "open": "請洽台糖公司",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000009",
+  "caseId": "20030513000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/5cf3576a-bd0f-4a8f-a381-b1ea446d732d/古088臺灣糖業試驗所_P003.jpg"
+ },
+ {
+  "id": "dong-shenxuexiaoxiaoshe",
+  "name": "原臺南神學校校舍暨禮拜堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-25",
+  "address": "東區東門路1段17號",
+  "lat": 22.9890078056106,
+  "lng": 120.213894565491,
+  "open": "洽學校",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20020625000002",
+  "caseId": "20020625000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/dbf8d68c-69dd-44a7-9d49-2b1788fe1d16/古069原臺南神學校校舍暨禮拜堂_P001.jpg"
+ },
+ {
+  "id": "dong-tainanzhanglaojiao",
+  "name": "原台南長老教中學校講堂暨校長宿舍",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-25",
+  "address": "東區林森路2 段79 號",
+  "lat": 22.98875,
+  "lng": 120.22226,
+  "open": "洽學校",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20020625000003",
+  "caseId": "20020625000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/3bfa41e5-6252-468d-a6cc-a474fa66c7db/古070原臺南長老教中學校講堂暨校長宿舍_P007.jpg"
+ },
+ {
+  "id": "dong-tainanzhanglaojiao2",
+  "name": "原台南長老教女學校本館暨講堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-25",
+  "address": "東區長榮路2段135號",
+  "lat": 22.9917012674985,
+  "lng": 120.218751476836,
+  "open": "洽學校",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20020625000004",
+  "caseId": "20020625000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/aec74a0c-40d2-45de-97aa-1573818c25f6/古071原臺南長老教女學校本館暨講堂_P013.jpg"
+ },
+ {
+  "id": "dong-tainantingzhang",
+  "name": "原台南廳長官邸",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-07-16",
+  "address": "東區育樂街一九七巷二號",
+  "lat": 22.9933461162023,
+  "lng": 120.215061142254,
+  "open": "星期日：09:00 – 17:00\n星期一：休息\n星期二：休息\n星期三：休息\n星期四：休息\n星期五：09:00 – 17:00\n星期六：09:00 – 17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20010716000003",
+  "caseId": "20010716000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/9e4c5105-0869-425b-ab1d-d9a431e7b894/古067原臺南廳長官邸_P001.jpg"
+ },
+ {
+  "id": "dong-zhoulidierzhongxue",
+  "name": "原臺南州立第二中學校校舍本館暨講堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1999-11-19",
+  "address": "東區民族路一段1號",
+  "lat": 22.9941795420478,
+  "lng": 120.216210303786,
+  "open": "請洽臺南第一高級中學",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19991119000002",
+  "caseId": "19991119000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/6d60fd26-06d8-452c-90a6-044560829a75/古063原臺南州立第二中學校校舍本館暨講堂_P001.jpg"
+ },
+ {
+  "id": "dong-tainangaodenggong",
+  "name": "原台南高等工業學校校舍",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1999-11-19",
+  "address": "東區大學路1號(成大成功校區內)",
+  "lat": 22.9969902262949,
+  "lng": 120.219638321632,
+  "open": "請洽成功大學",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19991119000003",
+  "caseId": "19991119000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-25/6ce26682-20fe-49bb-bf6d-311093390c43/古064原台南高等工業學校校舍_P002.jpg"
+ },
+ {
+  "id": "dong-xianzhishiguandi",
+  "name": "原臺南縣知事官邸",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-06-26",
+  "address": "東區衛民街一號",
+  "lat": 22.9925959729392,
+  "lng": 120.213382194568,
+  "open": " 星期日：10:00 – 22:00\n星期一：10:00 – 22:00\n星期二：10:00 – 22:00\n星期三：10:00 – 22:00\n星期四：10:00 – 22:00\n星期五：10:00 – 22:00\n星期六：10:00 – 22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980626000010",
+  "caseId": "19980626000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/32d545f3-1c89-4f46-9b5c-9d0b9478ef19/古050原台南縣知事官邸_P001.jpg"
+ },
+ {
+  "id": "dong-taiwanzongdufu",
+  "name": "原臺灣總督府專賣局臺南出張所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "東區北門路2段10號",
+  "lat": 22.9989780444898,
+  "lng": 120.212831337846,
+  "open": "週一~週五 9:00~12:00 / 13:30~18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000016",
+  "caseId": "20030513000016",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/a34529c4-5dbf-4ce1-a45e-f848e6edad0a/古080原臺灣總督府專賣局臺南出張所_P002.jpg"
+ },
+ {
+  "id": "dong-xusongyanguju",
+  "name": "許嵩煙故居",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-07-26",
+  "address": "東區臺南市東區東門路二段95號",
+  "lat": 22.9859617,
+  "lng": 120.22143510000001,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180919000001",
+  "caseId": "20180919000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/d919121b-cd27-4900-9199-f401e58b5990/古123許嵩煙故居_P001.jpg"
+ },
+ {
+  "id": "dong-menzhanglaojiaohui",
+  "name": "臺南東門長老教會禮拜堂",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "東區",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2024-10-25",
+  "address": "東區東門路一段187號",
+  "lat": 22.987776,
+  "lng": 120.215603,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20250122000001",
+  "caseId": "20250122000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-22/aad43127-9ff9-409f-9fd2-f6b0948a5d85/﹝代表照片﹞臺南東門長老教會禮拜堂.jpg"
+ },
+ {
+  "id": "dong-shengliguominxue",
+  "name": "原勝利國民學校禮堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-06",
+  "address": "東區勝利路10號",
+  "lat": 22.9889775919843,
+  "lng": 120.219301418128,
+  "open": "請洽勝利國小辦理",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051006000001",
+  "caseId": "20051006000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-20/3b0cad5b-95ed-4ed0-b74a-5b55a2707373/歷004原勝利國民學校禮堂_P003.jpg"
+ },
+ {
+  "id": "dong-zhuyuantingtainan",
+  "name": "原竹園町臺南州職員宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-10-05",
+  "address": "東區臺南市東區前鋒路119巷12號",
+  "lat": 22.993447,
+  "lng": 120.212994,
+  "open": "週一　上午10:00 - 下午7:00\n週二　未營業\n週三　未營業\n週四　上午10:00 - 下午7:00\n週五　上午10:00 - 下午7:00\n週六　上午10:00 - 下午7:00\n週日　上午10:00 - 下午7:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161005000002",
+  "caseId": "20161005000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-09/d3064c0f-6e54-476a-9ace-d59ceec3bf0e/歷049原竹園町臺南州職員宿舍_P003.jpg"
+ },
+ {
+  "id": "dong-taiwanshenglicheng",
+  "name": "原臺灣省立成功大學總圖書館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-12-01",
+  "address": "東區臺南市東區大學路1號(勝利校區)",
+  "lat": 22.995595,
+  "lng": 120.219483,
+  "open": "週一至週五，上午08:00-18:00。\n週六、日公休。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161201000002",
+  "caseId": "20161201000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-09/89beb5fc-df73-42d1-8195-abfa8610c03a/歷052原臺灣省立成功大學總圖書館_P002.jpg"
+ },
+ {
+  "id": "dong-chenggongdaxuexiao",
+  "name": "原成功大學校門",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2021-06-04",
+  "address": "東區大學路1號",
+  "lat": 22.996252,
+  "lng": 120.218389,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210714000003",
+  "caseId": "20210714000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-14/57c20611-7c25-4ae4-bf37-832a3cf0c645/_DSC5037.jpg"
+ },
+ {
+  "id": "dong-menzhanglaojiaohui2",
+  "name": "臺南東門長老教會原主日學教室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東區",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2024-10-25",
+  "address": "東區東門路一段180號",
+  "lat": 22.987466,
+  "lng": 120.215597,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250122000002",
+  "caseId": "20250122000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-22/0790c985-400c-4987-a9db-8bcc0b73cf8c/DSC_0027.jpg"
+ },
+ {
+  "id": "nan-fanfucengcaierjimu",
+  "name": "藩府曾蔡二姬墓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-08-19",
+  "address": "南區桶盤淺段墓園內",
+  "lat": 22.9664112925845,
+  "lng": 120.201638954274,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000073",
+  "caseId": "19850819000073",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/bdb66ea8-f9b6-46b0-a87e-ba1b052f9f2f/古038藩府曾蔡二姬墓_P004.jpg"
+ },
+ {
+  "id": "nan-fanfuerzhenggongzi",
+  "name": "藩府二鄭公子墓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-08-19",
+  "address": "南區桶盤淺段墓園內",
+  "lat": 22.9535884370842,
+  "lng": 120.201406418833,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000074",
+  "caseId": "19850819000074",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-22/12ef3f75-11da-49dd-8b5e-a2056c991f50/古039藩府二鄭公子墓_P003.jpg"
+ },
+ {
+  "id": "nan-cengzhenyangmu",
+  "name": "曾振暘墓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "南區竹溪里桶盤淺段墓園內",
+  "lat": 22.965456313946,
+  "lng": 120.198058575768,
+  "open": "完全開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000064",
+  "caseId": "19851127000064",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-02-21/aacb8c78-875a-4337-a155-f44d78e852d6/曾振暘墓.jpg"
+ },
+ {
+  "id": "nan-taiwanzongdufu",
+  "name": "原臺灣總督府專賣局臺南支局",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "南區鹽埕路125號",
+  "lat": 22.9677197471298,
+  "lng": 120.187997381668,
+  "open": "星期日：11:00 – 19:00\n星期一：休息\n星期二：休息\n星期三：11:00 – 19:00\n星期四：11:00 – 19:00\n星期五：11:00 – 19:00\n星期六：11:00 – 19:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000010",
+  "caseId": "20030513000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/02d84ad8-00b5-4a16-8bd1-aa9a23fb44de/古072原臺灣總督府專賣局臺南支局_P004.jpg"
+ },
+ {
+  "id": "nan-shiqiongfangmu",
+  "name": "施瓊芳墓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "南區南山公墓內",
+  "lat": 22.9667851738768,
+  "lng": 120.202153183201,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000011",
+  "caseId": "20030513000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/d5cc1e51-f83a-43c5-b9cf-9ed54cb7731f/古089施瓊芳墓_P004.jpg"
+ },
+ {
+  "id": "nan-shuijiaoshesushe",
+  "name": "原水交社宿舍群",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-06-03",
+  "address": "南區興中街73、75、79、81號；興中街116巷1、3、9、11號；興中街120巷2、4、6、8、10、10-1、12號",
+  "lat": 22.97767,
+  "lng": 120.20135,
+  "open": "週三~週日\n09：00~17：00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040603000002",
+  "caseId": "20040603000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/148fc649-21f7-4791-9896-4db14633bbde/古097原水交社宿舍群_P002.jpg"
+ },
+ {
+  "id": "nan-zhonglingta",
+  "name": "忠靈塔（第三屆全省體育會紀念塔）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2022-02-15",
+  "address": "南區體育路（青少年極限運動場旁）",
+  "lat": 22.97817982455231,
+  "lng": 120.20799149563378,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220216000001",
+  "caseId": "20220216000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-16/189b5652-3dcd-47d6-9172-133121e6a690/忠靈塔.jpg"
+ },
+ {
+  "id": "nan-disanjiequansheng",
+  "name": "第三屆全省運動會牌坊",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2022-02-15",
+  "address": "南區臺南市南區體育路（與健康路一段交叉路口）",
+  "lat": 22.981222,
+  "lng": 120.207103,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220225000001",
+  "caseId": "20220225000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/afaa5638-6c17-4e14-bbb0-0818eeac8d2a/第三屆全省運動會牌坊.jpg"
+ },
+ {
+  "id": "annan-sicaopaotai",
+  "name": "四草礮臺(鎮海城)",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "安南區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-08-19",
+  "address": "安南區鎮海國民小學東側",
+  "lat": 23.0185904713358,
+  "lng": 120.134986487186,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000079",
+  "caseId": "19850819000079",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-12/a6c35642-592d-4b40-9c06-c1a552f5cf38/P3040046.jpg"
+ },
+ {
+  "id": "annan-anpingyantianchuan",
+  "name": "原安平鹽田船溜暨專賣局臺南支局安平出張所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-13",
+  "address": "安南區四草野生動物保護區安順鹽場內",
+  "lat": 23.025935128238,
+  "lng": 120.14361243379,
+  "open": "星期一\t08:00–17:00\n星期二\t08:00–17:00\n星期三\t08:00–17:00\n星期四\t08:00–17:00\n星期五\t08:00–17:00\n星期六\t08:00–17:00\n星期日\t08:00–17:00 \n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030513000023",
+  "caseId": "20030513000023",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-02/ced216e9-5126-4e55-b122-d20edaf9bc67/古082原安平鹽田船溜暨專賣局臺南支局安平出張所_P001.jpg"
+ },
+ {
+  "id": "annan-ribenzhongyuancao",
+  "name": "原日本鐘淵曹達株式會社臺南工場宿舍群",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "安南區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-11-17",
+  "address": "安南區北汕尾二路661巷23弄4、6、8、10、12、14、18、20、22、24、28、30、32、40、42、44、48、50、52、54號",
+  "lat": 23.035,
+  "lng": 120.125,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20141117000001",
+  "caseId": "20141117000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/ddfb1bcb-eafd-479a-b6c8-b45e76e20018/古121原日本鐘淵曹達株式會社臺南工場宿舍群_P016.jpg"
+ },
+ {
+  "id": "annan-ribenzhongyuancao2",
+  "name": "原日本鐘淵曹達株式會社臺南工場辦公廳舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "安南區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-06",
+  "address": "安南區北汕尾2路421號",
+  "lat": 23.0302490062045,
+  "lng": 120.123381334568,
+  "open": "請洽中國石油化學工業開發股份有限公司",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051006000002",
+  "caseId": "20051006000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-20/05771da7-b398-4f18-a3da-80eed332bff2/歷003原日本鐘淵曹達株式會社臺南工場辦公廳舍_P001.jpg"
+ },
+ {
+  "id": "yongkang-sankandiantang",
+  "name": "永康三崁店糖廠神社遺蹟",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "永康區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-05-27",
+  "address": "永康區臺南市永康區仁愛街與三民街交界",
+  "lat": 23.0545235401715,
+  "lng": 120.244921010646,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090527000001",
+  "caseId": "20090527000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-05/a504d12c-38ab-4685-b4be-d275415b0787/7714_0_0.jpg"
+ },
+ {
+  "id": "yongkang-sankandiantang2",
+  "name": "永康三崁店糖廠防空洞群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "永康區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-05-27",
+  "address": "永康區仁愛街與三民街交界",
+  "lat": 23.0547755219245,
+  "lng": 120.245015323984,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090527000002",
+  "caseId": "20090527000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-05/b9ad3b7e-d2b8-4ce4-9f31-a0e17b05c2e4/7710_0_0.jpg"
+ },
+ {
+  "id": "yongkang-tainannongxiaori",
+  "name": "原台南農校日式宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "永康區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-08-18",
+  "address": "永康區台南市永康區中山南路948號",
+  "lat": 23.02352708231,
+  "lng": 120.251354347021,
+  "open": "修復工程中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090818000001",
+  "caseId": "20090818000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37878/photo/15267a17-a081-41d0-9dab-8e312bfc71fd.jpg"
+ },
+ {
+  "id": "yongkang-feixingchangwuxian",
+  "name": "原永康飛行場無線羅針所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "永康區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-05-27",
+  "address": "永康區永康區六甲頂南台街135巷8號旁",
+  "lat": 23.0217237517444,
+  "lng": 120.220110086843,
+  "open": "整修中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090527000003",
+  "caseId": "20090527000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38543/photo/N121台南市永康飛雁新村傳原通訊所(歷建)(1).JPG"
+ },
+ {
+  "id": "yongkang-dawanxiejiagucuo",
+  "name": "大灣謝家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "永康區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-12-28",
+  "address": "永康區大灣五街39巷9號",
+  "lat": 23.00631,
+  "lng": 120.26576,
+  "open": "1.開放範圍：正廳及建築外圍可開放參觀。\n2.開放時間：目前採預約制參觀。\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190107000003",
+  "caseId": "20190107000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-28/b349fb6f-b11f-43b3-ad27-1d776befe888/歷062大灣謝家古厝_P001.jpg"
+ },
+ {
+  "id": "rende-baoanchezhan",
+  "name": "保安車站",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "仁德區",
+  "types": [
+   "車站"
+  ],
+  "announced": "2001-12-31",
+  "address": "仁德區臺南市仁德區保安村文賢路一段529巷10號",
+  "lat": 22.9329539990343,
+  "lng": 120.231629841511,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20011231000001",
+  "caseId": "20011231000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/cdaf8bd7-b85f-4d8e-b08c-462c82150d75/古110保安車站_P001.jpg"
+ },
+ {
+  "id": "rende-ercengxingxijiutie",
+  "name": "二層行溪舊鐵路橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "仁德區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2015-11-03",
+  "address": "仁德區臺南市仁德區跨高雄市湖內區二仁溪（舊稱二層行溪）上",
+  "lat": 22.89512,
+  "lng": 120.253595,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151103000001",
+  "caseId": "20151103000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/1112c686-0183-4554-8551-ca1cb0855252/古122二層行溪舊鐵路橋_P004.jpg"
+ },
+ {
+  "id": "rende-ercengxingxijiu",
+  "name": "二層行溪舊公路橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁德區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2016-02-25",
+  "address": "仁德區省道臺一線跨二仁溪旁",
+  "lat": 22.914886,
+  "lng": 120.224691,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160225000002",
+  "caseId": "20160225000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-10/777c440e-2980-4345-84fb-f252ad4925fb/歷045二層行溪舊公路橋_P005.jpg"
+ },
+ {
+  "id": "rende-erkongmaoyisicun",
+  "name": "仁德二空貿易四村興建碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁德區",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2016-08-05",
+  "address": "仁德區保仁路上兩座（鄰近空軍防空砲兵指揮部大門口）及二空路上兩座（鄰近二空郵局）",
+  "lat": 22.959841,
+  "lng": 120.220704,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160805000001",
+  "caseId": "20160805000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/132596/photo/IMG_0768.JPG"
+ },
+ {
+  "id": "rende-erkongfangkongdiao",
+  "name": "仁德二空防空碉堡",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁德區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-08-05",
+  "address": "仁德區仁和國小東側",
+  "lat": 22.959981,
+  "lng": 120.222799,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160805000002",
+  "caseId": "20160805000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-09/74fefec9-e4cb-416b-824e-19b54d7d2139/歷047仁德二空防空碉堡_P004.jpg"
+ },
+ {
+  "id": "rende-niuchouzikaoguyi",
+  "name": "牛稠子考古遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "仁德區",
+  "types": [],
+  "announced": "2025-07-08",
+  "address": "仁德區文華路二段與保生東路交叉口",
+  "lat": 22.953367,
+  "lng": 120.234301,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20250702000001",
+  "caseId": "20250702000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-07-02/3fe5909c-7939-4b86-abfd-345a19fce3f5/牛稠子遺址代表圖.jpg"
+ },
+ {
+  "id": "guiren-yingchuanjiamiao",
+  "name": "歸仁潁川家廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "歸仁區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2003-05-27",
+  "address": "歸仁區大廟里大廟一街28 巷46 號",
+  "lat": 22.9966940849782,
+  "lng": 120.274927815173,
+  "open": "洽潁川家廟管理委員會",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030527000001",
+  "caseId": "20030527000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-18/86498e69-bd4c-4a41-8332-1c3fc06356fb/歷011歸仁潁川家廟_P001.jpg"
+ },
+ {
+  "id": "guiren-baozhengzerengui",
+  "name": "原保證責任歸仁信用購買販賣利用組合",
+  "category": "歷史建築",
+  "level": "",
+  "town": "歸仁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-10-05",
+  "address": "歸仁區忠孝北路178號",
+  "lat": 22.970619,
+  "lng": 120.299898,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161005000001",
+  "caseId": "20161005000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-09/db5d955f-ef2d-4ec7-b370-e12e359dbfbc/歷050原保證責任歸仁信用購買販賣利用組合_P010.jpg"
+ },
+ {
+  "id": "guanmiao-baodongyaokaoguyi",
+  "name": "保東窯考古遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "關廟區",
+  "types": [],
+  "announced": "2025-06-27",
+  "address": "關廟區保順路一段",
+  "lat": 22.99095,
+  "lng": 120.3006,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20250702000002",
+  "caseId": "20250702000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-07-02/1d0a15d9-98d8-4721-a6ac-2efea4468df8/保東窯遺址指定公告用圖(文資局).jpg"
+ },
+ {
+  "id": "longqi-zhuangzhangguanshe",
+  "name": "原龍崎庄長官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "龍崎區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-12-01",
+  "address": "龍崎區臺南市龍崎區崎頂里6鄰新市子216號",
+  "lat": 22.965556,
+  "lng": 120.360128,
+  "open": "目前閒置中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161201000004",
+  "caseId": "20161201000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/133774/photo/歷史建築「原龍崎庄長官舍」.JPG"
+ },
+ {
+  "id": "xinhua-zhongjiagucuo",
+  "name": "新化鍾家古厝",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "新化區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-04-25",
+  "address": "新化區臺南市新化區中山路258巷3號",
+  "lat": 23.038748,
+  "lng": 120.31111,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20130425000001",
+  "caseId": "20130425000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/f3f3c463-2804-4668-91eb-af5aa8d8ba05/古118新化鍾家古厝_P001.jpg"
+ },
+ {
+  "id": "xinhua-shensheyigou",
+  "name": "新化神社遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2014-06-26",
+  "address": "新化區臺南市新化區虎頭埤風景區內",
+  "lat": 23.026783,
+  "lng": 120.336783,
+  "open": "虎頭埤風景區\n6:30~19:00\n全年無休",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140626000001",
+  "caseId": "20140626000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-10/032ab83e-54be-47dd-8adb-abbd21583696/歷043新化神社遺構_P002.jpg"
+ },
+ {
+  "id": "xinhua-jieyichang",
+  "name": "原新化街役場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-11-18",
+  "address": "新化區中正路500 號",
+  "lat": 23.0382515893148,
+  "lng": 120.307376607887,
+  "open": "11:00~22:00(周一公休，寒暑假無公休)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021118000001",
+  "caseId": "20021118000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-19/e5dbe1b1-dcea-40c8-9402-82702f04029a/歷008原新化街役場_P002.jpg"
+ },
+ {
+  "id": "xinhua-xunchangxiaoxue",
+  "name": "原新化尋常小學校「御真影奉安殿」",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-04-08",
+  "address": "新化區信義路142-1號",
+  "lat": 23.0367735887679,
+  "lng": 120.311201066211,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040408000001",
+  "caseId": "20040408000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-18/2633aad0-997f-4ebf-8bc2-aedeffdda79f/歷013原新化尋常小學校「御真影奉安殿」_P002.jpg"
+ },
+ {
+  "id": "xinhua-jungonghuitang",
+  "name": "原新化郡公會堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2008-06-10",
+  "address": "新化區新化區護國里6鄰中山路134號",
+  "lat": 23.0379543622543,
+  "lng": 120.310446991786,
+  "open": "請洽新化區公所",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080610000001",
+  "caseId": "20080610000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-16/c6bf55e5-2b7d-4958-9250-dafed3675fcf/歷025原新化郡公會堂_P001.jpg"
+ },
+ {
+  "id": "xinhua-wudedian",
+  "name": "新化武德殿",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-06-05",
+  "address": "新化區新化區東榮里和平街53號",
+  "lat": 23.0332626718158,
+  "lng": 120.308821327263,
+  "open": "星期日：09:00 – 12:00、13:30 – 17:00\n星期一：休息\n星期二：09:00 – 12:00、13:30 – 17:00\n星期三：09:00 – 12:00、13:30 – 17:00\n星期四：09:00 – 12:00、13:30 – 17:00\n星期五：09:00 – 12:00、13:30 – 17:00\n星期六：09:00 – 12:00、13:30 – 17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060605000001",
+  "caseId": "20060605000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-16/5659a01b-4e6c-436e-96f3-4b8cdb1c5e61/歷022新化武德殿_P001.jpg"
+ },
+ {
+  "id": "xinhua-huishengyuan",
+  "name": "原新化回生院",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新化區",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2020-05-04",
+  "address": "新化區健康路143號",
+  "lat": 23.034393,
+  "lng": 120.3050429,
+  "open": "星期一至星期五8:00-12:00、14:00-17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20201027000001",
+  "caseId": "20201027000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-27/cafa1255-441b-43cc-98c8-39c32ade327b/新化回生院.jpg"
+ },
+ {
+  "id": "nanxi-guidanshizaotudi",
+  "name": "楠西龜丹石造土地公廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "楠西區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2013-04-02",
+  "address": "楠西區龜丹里龜丹40-5號",
+  "lat": 23.133270090413145,
+  "lng": 120.49775379987756,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130402000003",
+  "caseId": "20130402000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-10/6a85fdd8-d4b7-4aa1-9e6e-5ebf6e62e44d/歷042楠西龜丹石造土地公廟_P001.jpg"
+ },
+ {
+  "id": "nanxi-lutaoyangjiangjia",
+  "name": "鹿陶洋江家宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "楠西區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2009-07-16",
+  "address": "楠西區鹿陶洋",
+  "lat": 23.1555175361831,
+  "lng": 120.490144825125,
+  "open": "星期一~日：24 小時營業",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090716000001",
+  "caseId": "20090716000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-19/ec63c627-1f48-4d94-a204-66eff162d272/鹿陶洋江家宗祠1.jpg"
+ },
+ {
+  "id": "nanxi-lutaoyangjiangjia2",
+  "name": "鹿陶洋江家聚落",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "楠西區",
+  "types": [
+   "其他"
+  ],
+  "announced": "2009-07-16",
+  "address": "楠西區楠西區鹿陶洋354地號",
+  "lat": 23.1555175361831,
+  "lng": 120.490144825125,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20090716000002",
+  "caseId": "20090716000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/community/222/photo/鹿陶洋江家聚落.JPG"
+ },
+ {
+  "id": "shanshang-shuidao",
+  "name": "原臺南水道",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "山上區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2005-09-29",
+  "address": "山上區臺南市山上區山上里16號",
+  "lat": 23.0992038218762,
+  "lng": 120.363149556141,
+  "open": "每日上午9:30到下午5:30，下午4:30以後停止售票。(每週二休園)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050929000001",
+  "caseId": "20050929000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/114390/photo/03f31a32-8120-4b1b-9cd5-d0c02db0923e.jpg"
+ },
+ {
+  "id": "danei-yangzhangligongcuo",
+  "name": "楊長利公厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "大內區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2021-03-29",
+  "address": "大內區內庄94號",
+  "lat": 23.11783,
+  "lng": 120.36182,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210714000002",
+  "caseId": "20210714000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-14/43b8fbac-d054-48c5-872b-1bf57b965a88/202058_200508_0051.jpg"
+ },
+ {
+  "id": "xinshi-dashezhangshizhong",
+  "name": "大社張氏中廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新市區",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2021-03-29",
+  "address": "新市區大社385號",
+  "lat": 23.09256867903126,
+  "lng": 120.31745039852954,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210714000001",
+  "caseId": "20210714000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-14/c817a459-0888-4d86-ad08-9b4cb451b2cf/_DSC4533.jpg"
+ },
+ {
+  "id": "xinshi-qigandiyizhi",
+  "name": "旗竿地遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2009-10-19",
+  "address": "新市區新市區豐華里.善化區南關里",
+  "lat": 23.103611,
+  "lng": 120.254722,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20091019000003",
+  "caseId": "20091019000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/32584/photo/8cf9d444-12b1-49e2-83ee-306699f5c967.jpg"
+ },
+ {
+  "id": "xinshi-daoyegumu",
+  "name": "道爺古墓",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2006-05-02",
+  "address": "新市區臺南市新市區",
+  "lat": 23.096983,
+  "lng": 120.277247,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060502000001",
+  "caseId": "20060502000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-23/55d9898d-6ba9-42dc-9365-252db8462ed8/考古遺址002道爺古墓遺址_P003.jpg"
+ },
+ {
+  "id": "xinshi-shoushayizhi",
+  "name": "瘦砂遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2009-10-19",
+  "address": "新市區臺南市新市區三舍里",
+  "lat": 23.099444,
+  "lng": 120.261388,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20091019000004",
+  "caseId": "20091019000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/37944/photo/57781cda-8f05-4903-ae26-336831a0d5a9.gif"
+ },
+ {
+  "id": "xinshi-wujiancuonanyizhi",
+  "name": "五間厝南遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2009-10-19",
+  "address": "新市區臺南市新市區三舍里",
+  "lat": 23.090555,
+  "lng": 120.270833,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20091019000005",
+  "caseId": "20091019000005",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/39469/photo/5555.jpg"
+ },
+ {
+  "id": "xinshi-mushanyizhi",
+  "name": "新市．木柵遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2009-10-19",
+  "address": "新市區臺南市新市區豐華里",
+  "lat": 23.106111,
+  "lng": 120.256388,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20091019000006",
+  "caseId": "20091019000006",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/37945/photo/2ceeb71d-f269-4f64-96d8-248de770a972.JPG"
+ },
+ {
+  "id": "xinshi-daoyenantangbuyi",
+  "name": "道爺南糖廍遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "新市區",
+  "types": [],
+  "announced": "2006-05-02",
+  "address": "新市區南部科學工業園區專35用地北側,位居南科三路、環西路一段交叉處之西側",
+  "lat": 23.097496,
+  "lng": 120.275058,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060502000003",
+  "caseId": "20060502000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/37946/photo/73be07e9-2e64-4f47-8964-c61708bfb57c.JPG"
+ },
+ {
+  "id": "shanhua-qingangong",
+  "name": "善化慶安宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "善化區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1997-04-02",
+  "address": "善化區東關里中山路470號",
+  "lat": 23.1330368715815,
+  "lng": 120.290144229186,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19970402000002",
+  "caseId": "19970402000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-06/e7c520f7-3bd7-45b4-90af-95e86735afde/古104善化慶安宮_P002.jpg"
+ },
+ {
+  "id": "shanhua-cengwenxitiedaojiu",
+  "name": "曾文溪鐵道舊橋遺蹟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "善化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2008-11-10",
+  "address": "善化區東勢寮段",
+  "lat": 23.1715427168183,
+  "lng": 120.321195293356,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20081110000002",
+  "caseId": "20081110000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-13/99b1d768-094e-4aaf-bc59-d3b257cea955/歷026曾文溪鐵道舊橋遺蹟_P003.jpg"
+ },
+ {
+  "id": "shanhua-jiabatianhougonggu",
+  "name": "善化茄拔天后宮古井",
+  "category": "歷史建築",
+  "level": "",
+  "town": "善化區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2010-07-30",
+  "address": "善化區台南市善化區嘉南里茄拔80號",
+  "lat": 23.135307817843497,
+  "lng": 120.32691264298435,
+  "open": "6:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100730000002",
+  "caseId": "20100730000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-11/ab4e42f7-e4f7-40cb-9d99-74ac5649fae8/歷039善化茄拔天后宮古井_P004.jpg"
+ },
+ {
+  "id": "shanhua-tangbulianzaoyigou",
+  "name": "糖廍連灶遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "善化區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2018-12-05",
+  "address": "善化區溪美里949-8號旁",
+  "lat": 23.14184,
+  "lng": 120.28896,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190108000005",
+  "caseId": "20190108000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-01-08/da64e08d-a050-4b04-b421-7ec9e9e76397/5. 漢人糖廍連灶遺構.png"
+ },
+ {
+  "id": "shanhua-nanguanlidongjiyou",
+  "name": "南關里東及右先方遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "善化區",
+  "types": [],
+  "announced": "2009-10-19",
+  "address": "善化區臺南市善化區南關里",
+  "lat": 23.116666,
+  "lng": 120.281111,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20091019000002",
+  "caseId": "20091019000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/43554/photo/f511ccc9-f9fe-4ca3-a638-dba7ec5c92cf.jpg"
+ },
+ {
+  "id": "xigang-liucuojingchaguan",
+  "name": "西港劉厝警察官吏派出所",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "西港區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2023-07-31",
+  "address": "西港區劉厝里劉厝63號",
+  "lat": 23.127947,
+  "lng": 120.180228,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20231003000002",
+  "caseId": "20231003000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-03/2ddaf54e-1861-4ac3-a541-a277568840ee/P5110002.jpg"
+ },
+ {
+  "id": "jiali-zhenxinggong",
+  "name": "佳里震興宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "佳里區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "佳里區禮化里佳里興325號",
+  "lat": 23.1909771512743,
+  "lng": 120.188427085371,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000075",
+  "caseId": "19851127000075",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/b0e6cc1c-40ef-4d8e-8d5e-8f8eecafe52a/古101佳里震興宮_P002.jpg"
+ },
+ {
+  "id": "jiali-jintangdian",
+  "name": "佳里金唐殿",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "佳里區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "佳里區建南里中山路289號",
+  "lat": 23.1611841236811,
+  "lng": 120.176538284139,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000076",
+  "caseId": "19851127000076",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/141cff9d-2db6-4dce-837f-94200085ddb7/古100佳里金唐殿_P002.jpg"
+ },
+ {
+  "id": "jiali-beijixuantiangong",
+  "name": "佳里北極玄天宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳里區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-27",
+  "address": "佳里區鎮山里仁愛路300 號",
+  "lat": 23.1539199017967,
+  "lng": 120.179297482166,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030527000002",
+  "caseId": "20030527000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-18/87532271-6de3-464d-bea1-971b6d1bcc2f/歷012佳里北極玄天宮_P003.jpg"
+ },
+ {
+  "id": "jiali-youbianju",
+  "name": "原佳里郵便局",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳里區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-12-01",
+  "address": "佳里區中山路425號",
+  "lat": 23.16516,
+  "lng": 120.177515,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161201000003",
+  "caseId": "20161201000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-06/c1fa6a5a-1c98-40a2-a2c4-ff5cf02fbbc4/歷054原佳里郵便局_P002.jpg"
+ },
+ {
+  "id": "jiali-daribenwudehuishe",
+  "name": "原大日本武德會社宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳里區",
+  "types": [
+   "祠堂",
+   "其他設施"
+  ],
+  "announced": "2021-06-04",
+  "address": "佳里區進學路193號",
+  "lat": 23.163917,
+  "lng": 120.176087,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210714000004",
+  "caseId": "20210714000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-14/78bdbea7-85f4-4d08-b446-8a4a2f3873fe/120736.jpg"
+ },
+ {
+  "id": "qigu-dingshanyanjing",
+  "name": "七股頂山鹽警槍樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "七股區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2009-08-24",
+  "address": "七股區頂山里東南郊",
+  "lat": 23.1782473841331,
+  "lng": 120.116814987143,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090824000001",
+  "caseId": "20090824000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-12/fd3568b9-16eb-47e5-8454-7c448acaaffa/歷034七股頂山鹽警槍樓_P007.jpg"
+ },
+ {
+  "id": "qigu-taiyanqigujicheku",
+  "name": "台鹽七股機車庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "七股區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-03-18",
+  "address": "七股區下山子寮段166地號",
+  "lat": 23.1520729135042,
+  "lng": 120.105653059317,
+  "open": "請洽台鹽",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050318000001",
+  "caseId": "20050318000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-17/23f6dfa2-ddc8-4785-a461-beca0e2ad2ce/歷017台鹽七股機車庫_P001.jpg"
+ },
+ {
+  "id": "jiangjun-qiguyanchangjianzi",
+  "name": "七股鹽場減資建物群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "將軍區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-08-24",
+  "address": "將軍區鯤鯓里253-286號",
+  "lat": 23.1782619559218,
+  "lng": 120.092588212247,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090824000003",
+  "caseId": "20090824000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-13/d304ae68-05e2-400c-8297-348c51bdeed5/歷031七股鹽場減資建物群_P002.jpg"
+ },
+ {
+  "id": "jiangjun-ouwangyuansuiyuan",
+  "name": "台南漚汪原遂園",
+  "category": "歷史建築",
+  "level": "",
+  "town": "將軍區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-07-30",
+  "address": "將軍區西華里1號",
+  "lat": 23.205494,
+  "lng": 120.101183,
+  "open": "週四～週日 上午9:00 -下午5:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100730000001",
+  "caseId": "20100730000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-11/fc576caa-af64-4ed2-ae32-8c4947311613/歷040台南漚汪原遂園_P003.jpg"
+ },
+ {
+  "id": "xuejia-cijigong",
+  "name": "學甲慈濟宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "學甲區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-08-19",
+  "address": "學甲區慈生里濟生路170號",
+  "lat": 23.233948891226,
+  "lng": 120.180491481631,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000080",
+  "caseId": "19850819000080",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-05/7a5edb86-7490-46eb-891b-d7c76ce8a956/古102學甲慈濟宮_P001.jpg"
+ },
+ {
+  "id": "xuejia-gongxuexiaoxiaoshe",
+  "name": "原學甲公學校校舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "學甲區",
+  "types": [
+   "學校"
+  ],
+  "announced": "2018-12-28",
+  "address": "學甲區天水路30號",
+  "lat": 23.23725,
+  "lng": 120.17969,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190107000004",
+  "caseId": "20190107000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-26/6582e01e-5954-4b93-9d9e-c90a4c1f19b6/歷063原學甲公學校校舍_P001.jpg"
+ },
+ {
+  "id": "beimen-nankunshendaitian",
+  "name": "南鯤鯓代天府",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "北門區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "北門區蚵寮里976號",
+  "lat": 23.2861318859851,
+  "lng": 120.143085840677,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000077",
+  "caseId": "19851127000077",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-16/e315bee7-c903-4343-9e78-38761061ef78/IMG_1065.jpg"
+ },
+ {
+  "id": "beimen-yanchangjianwuqun",
+  "name": "北門鹽場建物群及週邊古鹽田",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北門區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-08-24",
+  "address": "北門區北門區舊埕里105號；北門區北門里20鄰舊埕100、102、104、105、106、106之1號；北門區北門里21鄰舊埕(位於雲嘉南風管處旁)",
+  "lat": 23.2688396721949,
+  "lng": 120.124389980535,
+  "open": "北門出張所\n星期一~星期五：08:30–17:30星期六、日：休息\n北門鹽場\n星期一~星期日：09:00 – 17:00\n北門洗滌鹽觀光工場\n星期一~星期日：08:30 – 17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090824000004",
+  "caseId": "20090824000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-12/0dcc03d7-836a-4043-94ac-6a728f6a8aa1/歷032北門鹽場建物群及週邊古鹽田_P006.jpg"
+ },
+ {
+  "id": "beimen-jingzaijiaowapan",
+  "name": "北門井仔腳瓦盤鹽田",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北門區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-08-24",
+  "address": "北門區永華里西南郊",
+  "lat": 23.25956,
+  "lng": 120.10798,
+  "open": "09：30 – 17：30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090824000005",
+  "caseId": "20090824000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-12/a4613a7c-277b-4d57-88a0-48a27f82d740/歷033北門井仔腳瓦盤鹽田_P007.jpg"
+ },
+ {
+  "id": "beimen-yuchenjiagucuo",
+  "name": "北門嶼陳家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北門區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2022-08-31",
+  "address": "北門區北門里舊埕19號",
+  "lat": 23.26582,
+  "lng": 120.12552,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230209000001",
+  "caseId": "20230209000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-09/3ef99072-fa75-44f7-985f-ef4c9028c61b/歷史建築-北門嶼陳家古厝.jpg"
+ },
+ {
+  "id": "madou-zongyetangchang",
+  "name": "麻豆總爺糖廠",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "麻豆區",
+  "types": [
+   "產業"
+  ],
+  "announced": "1999-11-19",
+  "address": "麻豆區南勢里總爺5號、8號",
+  "lat": 23.1849450180035,
+  "lng": 120.267773548829,
+  "open": "週三至週日上午9時至下午5時(週六日中午無休)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19991119000004",
+  "caseId": "19991119000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-06/9a53cd35-ecbc-4301-99d1-4cb73f47c7a5/古108麻豆總爺糖廠_P023.jpg"
+ },
+ {
+  "id": "madou-linjiasanfangzucuo",
+  "name": "麻豆林家三房祖厝",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "麻豆區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-12-28",
+  "address": "麻豆區臺南市麻豆區三民路50號",
+  "lat": 23.181095,
+  "lng": 120.24535600000002,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190106000001",
+  "caseId": "20190106000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-01-06/c7ab8b8e-440b-46dc-9ad2-4e15d6d6471c/門廳前庭(右視).jpg"
+ },
+ {
+  "id": "madou-hujigong",
+  "name": "麻豆護濟宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "麻豆區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2018-12-28",
+  "address": "麻豆區臺南市麻豆區光復路106號",
+  "lat": 23.1845835,
+  "lng": 120.24612439999999,
+  "open": "星期日：07:00 – 19:00\n星期一：06:00 – 19:00\n星期二：06:00 – 19:00\n星期三：06:00 – 19:00\n星期四：06:00 – 19:00\n星期五：06:00 – 19:00\n星期六：07:00 – 19:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190106000002",
+  "caseId": "20190106000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-28/1bfe5b8a-77da-4b96-88d0-94b35ae75d4c/古125麻豆護濟宮_P044.jpg"
+ },
+ {
+  "id": "madou-dachengguojuren",
+  "name": "麻豆大埕郭舉人宅",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "麻豆區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-12-28",
+  "address": "麻豆區大埕里大埕9號",
+  "lat": 23.18645101279085,
+  "lng": 120.25032534450236,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220105000001",
+  "caseId": "20220105000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-05/0e40a15e-f6a9-4700-8d4b-8a19709fb3fa/指定為古蹟的「麻豆大埕郭舉人宅」.jpg"
+ },
+ {
+  "id": "madou-linjiasifangcuo",
+  "name": "麻豆林家四房厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "麻豆區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-04-09",
+  "address": "麻豆區和平路20號",
+  "lat": 23.1797109022685,
+  "lng": 120.244955947562,
+  "open": "現為私宅",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080409000002",
+  "caseId": "20080409000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-16/8124145d-9a90-4b4d-94fd-670c1dc2f74f/歷023麻豆林家四房厝_P004.jpg"
+ },
+ {
+  "id": "madou-dianjiguan",
+  "name": "原電姬館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "麻豆區",
+  "types": [
+   "戲劇院"
+  ],
+  "announced": "2018-11-13",
+  "address": "麻豆區中山路112號",
+  "lat": 23.18376,
+  "lng": 120.24492,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190108000002",
+  "caseId": "20190108000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-02/daba481e-155c-45ec-990c-0c56e9899178/歷060原電姬館_P001.jpg"
+ },
+ {
+  "id": "madou-shuikutouyizhi",
+  "name": "麻豆水堀頭遺址",
+  "category": "考古遺址",
+  "level": "直轄市定考古遺址",
+  "town": "麻豆區",
+  "types": [],
+  "announced": "2006-05-02",
+  "address": "麻豆區臺南市麻豆區溝子墘段40-2地號、麻豆段115-5地號",
+  "lat": 23.191059,
+  "lng": 120.26978,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060502000002",
+  "caseId": "20060502000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-23/e25a848a-69b3-4c0f-b4df-508621eb5b86/考古遺址001麻豆水堀頭遺址_P001.jpg"
+ },
+ {
+  "id": "guantian-jianandazhenduzai",
+  "name": "嘉南大圳渡仔頭溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "官田區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2014-05-21",
+  "address": "官田區省道臺1線渡頭溪橋旁",
+  "lat": 23.168809,
+  "lng": 120.339952,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140521000001",
+  "caseId": "20140521000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/67a13fd6-fc1b-47d8-801f-ba354fd9965e/古119嘉南大圳渡仔頭溪渡槽橋_P006.jpg"
+ },
+ {
+  "id": "guantian-jianandazhenguan",
+  "name": "嘉南大圳官田溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "官田區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2014-05-21",
+  "address": "官田區省道臺1線官田溪橋東南方",
+  "lat": 23.17797,
+  "lng": 120.339164,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140521000002",
+  "caseId": "20140521000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-07/a8dc311e-cade-4fc4-85d1-19733b8ec5e1/古120嘉南大圳官田溪渡槽橋_P012.jpg"
+ },
+ {
+  "id": "guantian-jianandazhenceng",
+  "name": "嘉南大圳曾文溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "官田區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2014-05-21",
+  "address": "官田區臺南市省道臺1線曾文溪橋旁",
+  "lat": 23.154906,
+  "lng": 120.338692,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140521000003",
+  "caseId": "20140521000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37899/photo/90f02ce0-bd47-41f7-bd29-35d02673ae5c.JPG"
+ },
+ {
+  "id": "guantian-yuansanxiaopigu",
+  "name": "官田原三筊埤古水道遺構",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "官田區",
+  "types": [
+   "堤閘"
+  ],
+  "announced": "2010-12-10",
+  "address": "官田區烏山頭水庫內",
+  "lat": 23.20824335068299,
+  "lng": 120.36593986727628,
+  "open": "\n\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20101210000001",
+  "caseId": "20101210000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/6ada7684-a46a-4eb1-b171-98b194caa367/古117官田原三筊埤古水道遺構_P004.jpg"
+ },
+ {
+  "id": "guantian-batianyuyigujuqun",
+  "name": "八田與一故居群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "官田區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-12-21",
+  "address": "官田區台南市官田區嘉南65、66號",
+  "lat": 23.2143238226036,
+  "lng": 120.364687571005,
+  "open": "113年9月24日起更改開放時間：\n(一) 園區開放時間：上午9點至下午5點\n(二) 室內展館開放時間：\n1.八田宅：上午9：00至下午4：30(遇下雨天不開放)\n2.動畫館：上午9：00至12：00，下午1：00至4：30\n(三) 取消【定時導覽解說】服務\n(四) 公休日：星期三休園(若遇國定假日則順延一天休園)\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20091221000001",
+  "caseId": "20091221000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-12/a084f351-15bb-4ebf-a18d-b7e8855d43fc/歷035八田與一故居群_P001.jpg"
+ },
+ {
+  "id": "guantian-taiyanlongtianchu",
+  "name": "台鹽隆田儲運站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "官田區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2004-09-21",
+  "address": "官田區隆田村新生街43、45、47號",
+  "lat": 23.1907051945849,
+  "lng": 120.319065427707,
+  "open": "周一至周日9：00—17：00，每週二、除夕休園",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040922000001",
+  "caseId": "20040922000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/39339/photo/pic046.png"
+ },
+ {
+  "id": "guantian-longtianhaoliang",
+  "name": "隆田10號糧倉",
+  "category": "歷史建築",
+  "level": "",
+  "town": "官田區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-04-09",
+  "address": "官田區中華路一段339號",
+  "lat": 23.1956995,
+  "lng": 120.32105030000002,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190415000002",
+  "caseId": "20190415000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-23/d99b4e3e-6409-437e-ab7c-f95503a8b636/歷066隆田10號糧倉_P001.jpg"
+ },
+ {
+  "id": "liujia-linfengyingchezhan",
+  "name": "林鳳營車站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "六甲區",
+  "types": [
+   "車站"
+  ],
+  "announced": "2005-03-18",
+  "address": "六甲區林鳳營16號",
+  "lat": 23.2426124493943,
+  "lng": 120.320966067377,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050318000003",
+  "caseId": "20050318000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-17/4155ea5b-2aa3-495f-97ca-14ef2ab2cbb9/歷018林鳳營車站_P001.jpg"
+ },
+ {
+  "id": "liuying-jianandazhengui",
+  "name": "嘉南大圳龜重溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "柳營區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2022-11-10",
+  "address": "柳營區嘉南大圳北幹線",
+  "lat": 23.288435,
+  "lng": 120.386989,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230209000002",
+  "caseId": "20230209000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-09/0c69b088-b46a-4a89-b81c-08524b08259f/古蹟-龜重溪渡槽橋.jpg"
+ },
+ {
+  "id": "liuying-chenyonghuamuyuan",
+  "name": "陳永華墓原址及墓碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "柳營區",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2009-05-11",
+  "address": "柳營區果毅後",
+  "lat": 23.2474186278858,
+  "lng": 120.371079110426,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090511000003",
+  "caseId": "20090511000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-13/f83c86c1-11a5-4f61-bf92-1283b1df497e/歷027陳永華墓原址及墓碑_P009.jpg"
+ },
+ {
+  "id": "liuying-wujinhuaiguju",
+  "name": "柳營吳晉淮故居",
+  "category": "歷史建築",
+  "level": "",
+  "town": "柳營區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2005-03-18",
+  "address": "柳營區柳營火燒店界和路158號",
+  "lat": 23.287038151722,
+  "lng": 120.301771418664,
+  "open": "早上1000~下午1700\n【公休】每週一、二",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050318000004",
+  "caseId": "20050318000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-17/9fd43161-5b43-4d66-bf47-19a7b3641b64/歷019柳營吳晉淮故居_P002.jpg"
+ },
+ {
+  "id": "liuying-taitangliuyingjiao",
+  "name": "台糖柳營酵母暨飼料工廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "柳營區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2019-04-09",
+  "address": "柳營區義士路五段690號",
+  "lat": 23.293656904544694,
+  "lng": 120.31515692355651,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190415000003",
+  "caseId": "20190415000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-21/df7dfbd8-d82f-418e-b45f-6aac26a8382e/歷067台糖柳營酵母曁飼料工廠_P001.jpg"
+ },
+ {
+  "id": "liuying-liujiadafanggucuo",
+  "name": "柳營劉家大房古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "柳營區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2024-02-21",
+  "address": "柳營區柳營31號、51號",
+  "lat": 23.277428,
+  "lng": 120.309017,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240326000001",
+  "caseId": "20240326000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-26/70d77352-296c-464a-a8f1-75c3bb6ffc50/DSC_0222.jpg"
+ },
+ {
+  "id": "yanshui-bajiaolou",
+  "name": "鹽水八角樓",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "鹽水區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-05-11",
+  "address": "鹽水區中境里中山路4 巷1 號",
+  "lat": 23.3200348577617,
+  "lng": 120.267327507981,
+  "open": "營業時間 星期日：08:00 – 17:00\n星期一：08:00 – 17:00\n星期二：08:00 – 17:00\n星期三：08:00 – 17:00\n星期四：08:00 – 17:00\n星期五：08:00 – 17:00\n星期六：08:00 – 17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20090511000001",
+  "caseId": "20090511000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-08/e495c23c-7a4e-4138-be63-db99d96a83ff/古113鹽水八角樓_P005.jpg"
+ },
+ {
+  "id": "yanshui-yuejingangjuboting",
+  "name": "月津港聚波亭",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "鹽水區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2001-11-14",
+  "address": "鹽水區中境里武廟路7號",
+  "lat": 23.3206299343775,
+  "lng": 120.263861689798,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20021114000001",
+  "caseId": "20021114000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/159819a6-a83f-4119-98b1-ea33450be396/古109月津港聚波亭_P003.jpg"
+ },
+ {
+  "id": "yanshui-guoxiaoshenshe",
+  "name": "鹽水國小神社",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽水區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-03-18",
+  "address": "鹽水區朝琴路137號鹽水國小內",
+  "lat": 23.3232016366424,
+  "lng": 120.271551404138,
+  "open": "不影響學校教學之日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050318000005",
+  "caseId": "20050318000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-17/c815258f-b143-4692-8bcc-da8513b04929/歷016鹽水國小神社_P001.jpg"
+ },
+ {
+  "id": "yanshui-huanyaguoxiaoyuan",
+  "name": "鹽水歡雅國小原大禮堂及時鐘座",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽水區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-09-22",
+  "address": "鹽水區台南市鹽水區歡雅里31號",
+  "lat": 23.2929869833551,
+  "lng": 120.24359419428,
+  "open": "洽歡雅國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040922000003",
+  "caseId": "20040922000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-09-30/5cfba432-1090-45c6-969a-29d88f1c8ad2/messageImage_1790747570058.jpg"
+ },
+ {
+  "id": "yanshui-zhupuguoxiaoshi",
+  "name": "鹽水竹埔國小時鐘座",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽水區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-05-11",
+  "address": "鹽水區竹埔里92之1號",
+  "lat": 23.2671186051659,
+  "lng": 120.246360251703,
+  "open": "請洽竹埔國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090511000004",
+  "caseId": "20090511000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-13/8e7b82ca-0f1b-4c6f-a08c-340c71b307ef/歷028鹽水竹埔國小時鐘座_P001.jpg"
+ },
+ {
+  "id": "yanshui-gangzhitangzhushi",
+  "name": "原鹽水港製糖株式會社岸內製糖所實驗室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽水區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2017-03-24",
+  "address": "鹽水區岸內",
+  "lat": 23.332221,
+  "lng": 120.261707,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170324000001",
+  "caseId": "20170324000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-06/c1b9faf8-5131-40c1-9d3e-439d874a32d4/歷055原鹽水港製糖株式會社岸內製糖所實驗室_P001.jpg"
+ },
+ {
+  "id": "yanshui-yongchengxiyuan",
+  "name": "永成戲院",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽水區",
+  "types": [
+   "戲劇院"
+  ],
+  "announced": "2019-04-09",
+  "address": "鹽水區臺南市鹽水區水正里過港21號",
+  "lat": 23.3190106,
+  "lng": 120.26835989999995,
+  "open": "▴週三~週五13:30-17:30\n▴週六~週日09:30-17:30\n▴每週一、二全天休館／民俗三大節日當日休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190415000001",
+  "caseId": "20190415000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-23/90f08a6b-1127-4a4d-9e48-ebcc2db1af71/歷065永成戲院_P001.jpg"
+ },
+ {
+  "id": "xinying-yanshuigangzhitang",
+  "name": "原鹽水港製糖株式會社總社辦公室",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "新營區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2010-01-25",
+  "address": "新營區台南市新營區中興路31巷48號",
+  "lat": 23.2982667745774,
+  "lng": 120.319158605461,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100125000001",
+  "caseId": "20100125000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37928/photo/57301c8a-f811-47e3-bea2-552e85a7a97d.jpg"
+ },
+ {
+  "id": "xinying-taizigong",
+  "name": "新營太子宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "新營區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1999-11-19",
+  "address": "新營區太北里45之2號",
+  "lat": 23.2949939424739,
+  "lng": 120.273807745709,
+  "open": "每日7:30至21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19991119000005",
+  "caseId": "19991119000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-06/398e2921-e7b9-4ce9-9cba-468fbbceed60/古107新營太子宮_P001.jpg"
+ },
+ {
+  "id": "xinying-tiexianqiaotongji",
+  "name": "鐵線橋通濟宮",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "新營區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-02-13",
+  "address": "新營區鐵線里鐵線橋40號",
+  "lat": 23.26466,
+  "lng": 120.27661,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980213000001",
+  "caseId": "19980213000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-06/3c1d3485-c95c-4c03-9206-87c44bdd0c6d/古106鐵線橋通濟宮_P001.jpg"
+ },
+ {
+  "id": "xinying-tangchangsujiao",
+  "name": "原新營糖廠塑膠工廠辦公室",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "新營區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2018-12-28",
+  "address": "新營區新營糖廠廠區內",
+  "lat": 23.297856,
+  "lng": 120.318964,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190107000001",
+  "caseId": "20190107000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-07/0ddff9fa-26e8-42b7-bfc3-36852d1f52ce/古126原新營糖廠塑膠工廠辦公室_P001.jpg"
+ },
+ {
+  "id": "xinying-xianfurishimuzao",
+  "name": "新營縣府日式木造官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新營區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-05-28",
+  "address": "新營區大同路39號",
+  "lat": 23.310295,
+  "lng": 120.322405,
+  "open": "星期一\t休息\n星期二\t休息\n星期三\t10:00–18:00\n星期四\t10:00–18:00\n星期五    10:00–18:00\n星期六    10:00–18:00\n星期日\t10:00–18:00\n\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100528000001",
+  "caseId": "20100528000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-11/2d03840d-5ede-4093-8657-b2d42dfa3a60/歷038新營縣府日式木造官舍_P001.jpg"
+ },
+ {
+  "id": "xinying-yanshuigangzhitang2",
+  "name": "原鹽水港製糖株式會社宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新營區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2010-01-25",
+  "address": "新營區台南市新營區中興路66巷4號；台南市新營區中興路31巷4號",
+  "lat": 23.2979605248672,
+  "lng": 120.315307257511,
+  "open": "僅於活動日開放參觀，其餘時段不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100125000002",
+  "caseId": "20100125000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-11/0fad9335-ddb8-44f2-811e-161999cec829/歷037台糖新營糖廠宿舍群_P013.jpg"
+ },
+ {
+  "id": "xinying-zhongxuexiaozhang",
+  "name": "原新營中學校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新營區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-02-02",
+  "address": "新營區臺南市新營區民權路101號",
+  "lat": 23.3083164,
+  "lng": 120.31203529999993,
+  "open": "請洽國立新營高級中學",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180702000001",
+  "caseId": "20180702000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-19/732950f9-c2bd-43bc-bb7e-3664c48dd559/歷058原新營中學校長宿舍_P001CUT.jpg"
+ },
+ {
+  "id": "xinying-tangchangyuangong",
+  "name": "原新營糖廠員工餐廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新營區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2018-12-28",
+  "address": "新營區中興路與中興路66巷交會處",
+  "lat": 23.2985,
+  "lng": 120.31606,
+  "open": "1. 開放範圍：新營廠區範圍內開放供遊客參觀。\n2. 開放時間：採預約方式，開放時間09：00~16：00。\n3. 解說導覽：採預約方式，解說導覽服務免費。\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190107000006",
+  "caseId": "20190107000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/ac7aa99a-7b21-441e-891b-bc98438b982b/歷064原新營糖廠員工餐廳_P001.jpg"
+ },
+ {
+  "id": "houbi-huangjiagucuo",
+  "name": "後壁黃家古厝",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "後壁區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-04-09",
+  "address": "後壁區後壁區後壁里40號",
+  "lat": 23.3650480517114,
+  "lng": 120.361667555681,
+  "open": "己不開放，僅於圍牆外觀賞",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080409000001",
+  "caseId": "20080409000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-09/e5341e13-7e94-4700-8914-91250139e904/古116後壁黃家古厝_P002.jpg"
+ },
+ {
+  "id": "houbi-jingliaojindexing",
+  "name": "菁寮金德興藥舖",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "後壁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-02-01",
+  "address": "後壁區墨林村4鄰菁寮191號",
+  "lat": 23.3792395639258,
+  "lng": 120.335939557646,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050201000001",
+  "caseId": "20050201000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/117436cc-3be6-4bb5-8882-a616b2e12034/古112菁寮金德興藥舖_P001.jpg"
+ },
+ {
+  "id": "houbi-jingliaoguoxiaomu",
+  "name": "菁寮國小木造禮堂、辦公室暨日治時期升旗臺",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-27",
+  "address": "後壁區墨林村282 號",
+  "lat": 23.37894,
+  "lng": 120.33963,
+  "open": "洽菁寮國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030527000003",
+  "caseId": "20030527000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-19/80430db4-6dad-4e40-bf09-04773a822a45/歷010菁寮國小木造禮堂、辦公室暨日治時期升旗台_P024.jpg"
+ },
+ {
+  "id": "houbi-chezhan",
+  "name": "後壁車站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-03-18",
+  "address": "後壁區後壁里77號",
+  "lat": 23.366246390209,
+  "lng": 120.360529119465,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050318000002",
+  "caseId": "20050318000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-17/aae085e2-aac6-4546-92c7-339584105e85/歷020後壁車站_P001.jpg"
+ },
+ {
+  "id": "houbi-anxiguoxiaoyuanban",
+  "name": "後壁安溪國小原辦公廳及禮堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-09-22",
+  "address": "後壁區長安村五號",
+  "lat": 23.3329253290723,
+  "lng": 120.360384264089,
+  "open": "洽安溪國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040922000002",
+  "caseId": "20040922000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-18/e58452dd-ff56-422d-8533-0c1f492bc5f8/歷014後壁安溪國小原辦公室及禮堂_P001.jpg"
+ },
+ {
+  "id": "houbi-houjingliaoyichang",
+  "name": "後菁寮義昌碾米廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2010-01-25",
+  "address": "後壁區台南市後壁區墨林里243號",
+  "lat": 23.3801249476968,
+  "lng": 120.336625145543,
+  "open": "周一上午9:00 - 下午5:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100125000003",
+  "caseId": "20100125000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-12/55f8140b-6338-4dd2-9945-0c495d849b74/歷036後菁寮義昌碾米廠_P003.jpg"
+ },
+ {
+  "id": "houbi-xindongguoxiaomu",
+  "name": "後壁新東國小木造辦公室及校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2008-06-10",
+  "address": "後壁區後壁區仕安里81號",
+  "lat": 23.3443861099082,
+  "lng": 120.316461011693,
+  "open": "請洽新東國小",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080610000002",
+  "caseId": "20080610000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-16/e2eb9ace-7f79-4615-a389-3c67d693101b/歷024後壁新東國小木造辦公室及校長宿舍_P003.jpg"
+ },
+ {
+  "id": "houbi-xiajiadongjing",
+  "name": "下茄苳旌忠廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "後壁區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2025-02-08",
+  "address": "後壁區下茄苳69號",
+  "lat": 23.351646576842526,
+  "lng": 120.36338886276992,
+  "open": "週一至週六上午6：00至下午9：00\n週日上午9：00至下午9：00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250211000001",
+  "caseId": "20250211000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-02-10/817e9cfc-2822-4d13-91b6-0c5d1ec8b73d/代表照片-後壁區-旌忠廟.jpg"
+ },
+ {
+  "id": "baihe-guanzilingbiyunsi",
+  "name": "關子嶺碧雲寺",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "白河區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1998-02-13",
+  "address": "白河區仙草里火山1號",
+  "lat": 23.3252381403116,
+  "lng": 120.480877374274,
+  "open": "日間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980213000002",
+  "caseId": "19980213000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-06/c2d2b466-ec04-4986-a1c5-81d3a811d84a/古105關子嶺碧雲寺_P001.jpg"
+ },
+ {
+  "id": "baihe-daxiansi",
+  "name": "白河大仙寺",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "白河區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "白河區仙草里岩前1號",
+  "lat": 23.3393784035325,
+  "lng": 120.474285575776,
+  "open": "星期日：06:00 – 17:00\n星期一：06:00 – 17:00\n星期二：06:00 – 17:00\n星期三：06:00 – 17:00\n星期四：06:00 – 17:00\n星期五：06:00 – 17:00\n星期六：06:00 – 17:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000078",
+  "caseId": "19851127000078",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37934/photo/cebcb223-c14d-46fa-8e11-fc2cea20a87c.JPG"
+ },
+ {
+  "id": "baihe-jianandazhenjishui",
+  "name": "嘉南大圳急水溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "白河區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2022-11-10",
+  "address": "白河區急水溪上方",
+  "lat": 23.336824,
+  "lng": 120.393769,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230210000001",
+  "caseId": "20230210000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-10/dfee4a6b-e8fc-44c0-a946-da94516ee314/古蹟-急水溪渡槽橋.jpg"
+ },
+ {
+  "id": "baihe-jianandazhenba",
+  "name": "嘉南大圳八掌溪渡槽橋",
+  "category": "市定古蹟",
+  "level": "直轄市定古蹟",
+  "town": "白河區",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2024-02-15",
+  "address": "白河區嘉南大圳北幹線八掌溪",
+  "lat": 23.4042273896975,
+  "lng": 120.38965694240015,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240409000004",
+  "caseId": "20240409000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-09/b0252108-5bce-453c-bd4b-7ca7d7d2163c/八掌溪渡槽橋2.jpg"
+ },
+ {
+  "id": "baihe-shenshizongci",
+  "name": "白河沈氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白河區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-01-22",
+  "address": "白河區昇安里三間厝81號",
+  "lat": 23.3640564883641,
+  "lng": 120.432780263444,
+  "open": "6:00-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030122000001",
+  "caseId": "20030122000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-19/f901818c-e2c0-4329-94a0-9f9e69605e65/歷009白河沈氏宗祠_P001.jpg"
+ },
+ {
+  "id": "dongshan-xiangnonghuirishi",
+  "name": "東山鄉農會日式碾米廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東山區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2005-09-05",
+  "address": "東山區東中村中興路1號",
+  "lat": 23.3218320088761,
+  "lng": 120.402849938322,
+  "open": "洽東山鄉農會",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050905000001",
+  "caseId": "20050905000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-16/4fe32a49-92c0-4a58-bbc7-38deeddf2a5f/歷021東山鄉農會日式碾米廠_P001.jpg"
+ },
+ {
+  "id": "dongshan-niurouqijingcha",
+  "name": "東山牛肉崎警察官吏派出所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東山區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2009-08-18",
+  "address": "東山區東山區水雲里12號",
+  "lat": 23.279523503801,
+  "lng": 120.415216796733,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090818000002",
+  "caseId": "20090818000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-11/998fd05d-dced-418b-ae26-d185d9884eaf/DSC07645.jpg"
+ },
+ {
+  "id": "wushantoushuikuji",
+  "name": "烏山頭水庫暨嘉南大圳水利系統",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "",
+  "types": [
+   "水利設施"
+  ],
+  "announced": "2009-10-05",
+  "address": "烏山頭水庫位於台南市官田區及六甲區，灌溉設施的主要輸水幹線位於官田區、六甲區、柳營區、東山區、後壁區、白河區等地，灌溉範圍可達雲嘉南地區。",
+  "lat": 23.205555,
+  "lng": 120.39,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20091005000001",
+  "caseId": "20091005000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-19/e4b43215-6a18-4205-8015-4e8be2f5c301/文化景觀001烏山頭水庫暨嘉南大圳水利系統_P001.jpg"
+ }
+]
