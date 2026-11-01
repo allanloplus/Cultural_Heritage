@@ -1,0 +1,869 @@
+[
+ {
+  "id": "renwu",
+  "name": "嘉義仁武宮",
+  "category": "市定古蹟",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1998-04-30",
+  "address": "東區仁武里8鄰北榮街54號",
+  "lat": 23.481521309412692,
+  "lng": 120.45083109561618,
+  "open": "上午6時至晚上9時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980430000001",
+  "caseId": "19980430000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-01/13bdb094-e508-467a-8142-00bb424e815a/P_20210319_144805.jpg"
+ },
+ {
+  "id": "ximen-church",
+  "name": "嘉義西門長老教會禮拜堂",
+  "category": "市定古蹟",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2005-03-08",
+  "address": "西區導民里15鄰垂楊路309號",
+  "lat": 23.4732069053089,
+  "lng": 120.447471812389,
+  "open": "週一休息；週二至六早上9時至下午6時；週日早上7時至下午2時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050308000001",
+  "caseId": "20050308000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/2fc8dabc-953c-4adb-9011-3b92ef688b15/P_20210319_155730.jpg"
+ },
+ {
+  "id": "station",
+  "name": "嘉義火車站",
+  "category": "市定古蹟",
+  "types": [
+   "車站"
+  ],
+  "announced": "1998-10-15",
+  "address": "西區中山路528號",
+  "lat": 23.4791122807799,
+  "lng": 120.441122689871,
+  "open": "凌晨4時50分至晚上11時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19981015000001",
+  "caseId": "19981015000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/1b2422ed-b523-464b-bdf5-6b71cae50d20/2021_5.7.19_210719.jpg"
+ },
+ {
+  "id": "art-museum",
+  "name": "菸酒公賣局嘉義分局",
+  "category": "市定古蹟",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2000-06-07",
+  "address": "西區書院里廣寧街101號(原中山路659號)",
+  "lat": 23.4768932504381,
+  "lng": 120.44051377230524,
+  "open": "開放時間為早上9時至下午5時（每週一休館，其餘休館時間依館方公告）",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000607000001",
+  "caseId": "20000607000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/f1c30049-e7d3-4d6a-9241-73d4f1900264/P_20210319_161820.jpg"
+ },
+ {
+  "id": "forest-club",
+  "name": "嘉義營林俱樂部",
+  "category": "市定古蹟",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "1998-04-30",
+  "address": "東區共和路370號",
+  "lat": 23.4856440170483,
+  "lng": 120.454769026118,
+  "open": "上午10時至下午5時（中午12時至1時休息暫不開放）。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980430000002",
+  "caseId": "19980430000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/48726f88-2417-4e45-96bd-1bd4ed2d37dc/2021_8.7.19_210719.jpg"
+ },
+ {
+  "id": "beimen",
+  "name": "阿里山鐵路北門驛",
+  "category": "市定古蹟",
+  "types": [
+   "車站"
+  ],
+  "announced": "1998-04-30",
+  "address": "東區共和路428號",
+  "lat": 23.4876424419476,
+  "lng": 120.454634303604,
+  "open": "週一至週五上午8時至下午5時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980430000003",
+  "caseId": "19980430000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-07/212927cc-fd52-4970-89ec-1777eb47849b/2021319_210320_1.jpg"
+ },
+ {
+  "id": "shrine",
+  "name": "原嘉義神社暨附屬館所(嘉義市史蹟資料館)",
+  "category": "市定古蹟",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-10-15",
+  "address": "東區公園街42號",
+  "lat": 23.481102200402745,
+  "lng": 120.46772701890114,
+  "open": "週二至週五 8:00-17:00、週六8:00-20:00、週日8:00-17:00，週一則為休館日。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19981015000002",
+  "caseId": "19981015000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/f2e03000-1355-4167-a766-1c7e6a2af50a/2021_13.7.19_210719.jpg"
+ },
+ {
+  "id": "wang-tomb",
+  "name": "王祖母許太夫人墓",
+  "category": "市定古蹟",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "1985-11-27",
+  "address": "東區大雅路一段366號1樓",
+  "lat": 23.4819483761996,
+  "lng": 120.496993044575,
+  "open": "24h",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000038",
+  "caseId": "19851127000038",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/c45b50ad-287f-4f3c-871d-9ff6fc312a44/IMG20210319133328.jpg"
+ },
+ {
+  "id": "ferry",
+  "name": "八獎溪義渡",
+  "category": "市定古蹟",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "1988-02-26",
+  "address": "東區短竹里彌陀路1號（彌陀寺前）",
+  "lat": 23.462722093480696,
+  "lng": 120.47056835546363,
+  "open": "24h",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19880226000002",
+  "caseId": "19880226000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/78c57030-7fcb-43a2-8d51-567e71b45124/2021.7.19_210719.jpg"
+ },
+ {
+  "id": "principal-house",
+  "name": "原嘉義農林學校校長官舍",
+  "category": "市定古蹟",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-01-19",
+  "address": "東區內安里8鄰忠孝路188號",
+  "lat": 23.4820642702384,
+  "lng": 120.454143175612,
+  "open": "開放時間為週一至週五早上9時至中午12時、下午2時至下午5時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070119000001",
+  "caseId": "20070119000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/76f4a25d-e3fc-4ab9-80b7-b4afdecd58e1/P_20210319_112148.jpg"
+ },
+ {
+  "id": "ye-tomb",
+  "name": "葉明邨墓",
+  "category": "市定古蹟",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2007-01-29",
+  "address": "東區嘉義市植物園後方",
+  "lat": 23.481435069749043,
+  "lng": 120.47127778793258,
+  "open": "08:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070129000003",
+  "caseId": "20070129000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-19/3c8677cb-6211-45f7-8bf4-fa79fefa0821/2021_24.7.19_210719.jpg"
+ },
+ {
+  "id": "suzhoulian",
+  "name": "嘉義蘇周連宗祠",
+  "category": "市定古蹟",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2000-06-07",
+  "address": "東區垂楊路326號",
+  "lat": 23.4743375255285,
+  "lng": 120.451589527005,
+  "open": "開放時間為：週一、二休館；週三至週五下午1時30分至晚上7時；週六、日早上9時至中午12時、下午1時30分至下午6時30分。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000607000002",
+  "caseId": "20000607000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-02/283ac2dd-42af-447f-8025-92b1ddbd3030/古蹟蘇周連宗祠.jpg"
+ },
+ {
+  "id": "prison",
+  "name": "嘉義舊監獄",
+  "category": "國定古蹟",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2005-05-26",
+  "address": "東區太平里4鄰維新路140（舊監獄）、142（舊看守所）號",
+  "lat": 23.4862289884992,
+  "lng": 120.45930285378,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050526000001",
+  "caseId": "20050526000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37691/photo/072127c4-09be-4c92-9182-f1fd0be7989f.jpg"
+ },
+ {
+  "id": "chenghuang",
+  "name": "嘉義城隍廟",
+  "category": "國定古蹟",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2015-05-05",
+  "address": "東區嘉義市東區民族里吳鳳北路168號",
+  "lat": 23.47838,
+  "lng": 120.45401,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150505000001",
+  "caseId": "20150505000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38243/photo/b829e52d-6d9c-45f9-ad84-4fd732c74b32.jpg"
+ },
+ {
+  "id": "rice-bridge",
+  "name": "道爺圳糯米橋",
+  "category": "市定古蹟",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2014-07-10",
+  "address": "東區嘉義市宣信街與立仁路口芳草橋下方",
+  "lat": 23.487145,
+  "lng": 120.471707,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190219000010",
+  "caseId": "20190219000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-17/47d50698-d720-4473-be57-5f9636ae0b63/396430.jpg"
+ },
+ {
+  "id": "tsumoto",
+  "name": "津本喫茶部食堂(黃文醫生故居)",
+  "category": "市定古蹟",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-09-18",
+  "address": "西區嘉義市西區民生北路226號",
+  "lat": 23.4800291,
+  "lng": 120.4463466,
+  "open": "暫不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20201021000001",
+  "caseId": "20201021000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-19/c3ab2566-f5e6-4ce4-b985-04fe8a27bdab/P_20210819_082600.jpg"
+ },
+ {
+  "id": "tenrikyo",
+  "name": "天理教嘉義東門教會",
+  "category": "市定古蹟",
+  "types": [
+   "集會堂"
+  ],
+  "announced": "2021-01-21",
+  "address": "東區東興里安和街106號",
+  "lat": 23.480600491772503,
+  "lng": 120.45800773212018,
+  "open": "周一至周五10:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210218000001",
+  "caseId": "20210218000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-18/a75b1e6d-cdda-45d2-a5b3-e3b39d5d8b0e/FLY_1862.jpg"
+ },
+ {
+  "id": "wang-clinic",
+  "name": "王天星醫生故居暨嘉星診療所",
+  "category": "市定古蹟",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2026-01-23",
+  "address": "東區吳鳳南路50號",
+  "lat": 23.470479,
+  "lng": 120.45405,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20260203000001",
+  "caseId": "20260203000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-02-03/be537919-f4cf-472e-ac33-0f7a4910e590/20250319_095201.jpg"
+ },
+ {
+  "id": "winery",
+  "name": "原嘉義酒廠",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2003-02-14",
+  "address": "西區中山路616 號",
+  "lat": 23.477176257317755,
+  "lng": 120.4400602358617,
+  "open": "園區服務時間：週二至週日早上10時至下午6時\n開放時間：戶外空間24小時開放\n其他一個活動／店家公告。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030214000001",
+  "caseId": "20030214000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/f7116377-c6af-4c90-ac7b-4bb9ca67054c/歷史展示室.jpg"
+ },
+ {
+  "id": "wang-shrine",
+  "name": "嘉義市北社尾王姓宗祠",
+  "category": "歷史建築",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2003-08-06",
+  "address": "西區北湖里北社尾路210 號",
+  "lat": 23.494631649252547,
+  "lng": 120.42384021230315,
+  "open": "預約開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030806000001",
+  "caseId": "20030806000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/4e79632b-d5b7-4ed2-b17d-c550d29aaa96/IMG_9419.jpg"
+ },
+ {
+  "id": "water-gate",
+  "name": "原嘉義郡水利組合之水閘門及水道",
+  "category": "歷史建築",
+  "types": [
+   "堤閘"
+  ],
+  "announced": "2005-10-26",
+  "address": "西區 嘉義市西區福安里姜安街12巷8號斜對面",
+  "lat": 23.480732,
+  "lng": 120.424874,
+  "open": "24h",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051026000001",
+  "caseId": "20051026000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/27e98c46-384d-43a1-81f0-35bad26559e2/(二)歷史建築-11原嘉義郡水利組合之水閘門及水道-右側圖.jpg"
+ },
+ {
+  "id": "lin-stage",
+  "name": "原嘉義城隍廟戲臺(林宅)",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-03-31",
+  "address": "東區台斗街124號",
+  "lat": 23.4940492244775,
+  "lng": 120.451277294047,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090331000001",
+  "caseId": "20090331000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/af8dc1fb-0893-470f-a604-530722c3dcf4/LINE_ALBUM_20210910林宅_210911_255.jpg"
+ },
+ {
+  "id": "dmv-dorm",
+  "name": "嘉義區監理所宿眷舍",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-10-05",
+  "address": "東區和平路136巷2號",
+  "lat": 23.477857,
+  "lng": 120.457706,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071005000001",
+  "caseId": "20071005000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/60fb3ab6-c37b-4593-8300-01706446b827/P_20210319_130433.jpg"
+ },
+ {
+  "id": "dongmen-police",
+  "name": "東門派出所",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2010-06-30",
+  "address": "東區嘉義市公明路236號",
+  "lat": 23.4802554357389,
+  "lng": 120.45550052003,
+  "open": "尚未整修完成 未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100630000002",
+  "caseId": "20100630000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/edfe3d42-9cad-4f9f-90af-6227e050fb30/P_20210319_113236.jpg"
+ },
+ {
+  "id": "lin-tomb",
+  "name": "林母郭孺人暨二子壽域墓",
+  "category": "歷史建築",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2013-08-07",
+  "address": "東區嘉義都會公園內",
+  "lat": 23.481494260459034,
+  "lng": 120.47127346424044,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130807000001",
+  "caseId": "20130807000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/dc73c74a-f939-41f8-b820-bb8416493cb9/IMG_4973.jpg"
+ },
+ {
+  "id": "yijiangshan",
+  "name": "一江山陣亡將士紀念碑",
+  "category": "歷史建築",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2015-03-24",
+  "address": "東區嘉義市啟明路264號(嘉義公園內)",
+  "lat": 23.482878600661028,
+  "lng": 120.46433674774265,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150324000001",
+  "caseId": "20150324000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-02/193d371e-0bd5-4ee6-a21f-c3ac87f533da/歷史建築一江山陣亡將士紀念碑.jpg"
+ },
+ {
+  "id": "st-odile",
+  "name": "聖奧德天主堂",
+  "category": "歷史建築",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2014-07-11",
+  "address": "東區嘉義市忠孝路505號",
+  "lat": 23.496939,
+  "lng": 120.45106,
+  "open": "週六、日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150324000002",
+  "caseId": "20150324000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/9f5c84eb-7a79-43a5-b5f5-20751bba7aa4/P_20210707_110647.jpg"
+ },
+ {
+  "id": "yushan-village",
+  "name": "玉山一二村",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-03-24",
+  "address": "東區玉山一村48–50木構造倉庫1棟及66號1棟;玉山二村1–2號1棟、5–6號1棟、9–10號1棟及17號1棟。",
+  "lat": 23.48648,
+  "lng": 120.44882,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150324000003",
+  "caseId": "20150324000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37682/photo/b6e22b12-456e-4154-a535-bdf535d2ae65.JPG"
+ },
+ {
+  "id": "justice-village",
+  "name": "嘉義第二司法新村",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-01-05",
+  "address": "東區嘉義市維新路136巷1號",
+  "lat": 23.48538,
+  "lng": 120.458631,
+  "open": "24h",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150324000004",
+  "caseId": "20150324000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/772177d9-36a2-407c-91d0-bb54ab053a64/IMG20210319113716.jpg"
+ },
+ {
+  "id": "water-meter",
+  "name": "水源地水錶室",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-08-06",
+  "address": "東區王田里民權路旁",
+  "lat": 23.4841103968688,
+  "lng": 120.470779490749,
+  "open": "全年開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020806000002",
+  "caseId": "20020806000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/8390e65b-c47a-4742-b39d-fdb5540b0453/IMG_4962.jpg"
+ },
+ {
+  "id": "sawmill",
+  "name": "原嘉義製材所(竹材工藝品加工廠)",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-08-06",
+  "address": "東區泰安里6 鄰林森西路4 號",
+  "lat": 23.4872492280768,
+  "lng": 120.450696129117,
+  "open": "每週三至週日上午9時至下午5時，周一、周二及除夕休園",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051026000002",
+  "caseId": "20051026000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/85008b44-7160-4ef0-98f4-9ec094256967/lin05.jpg"
+ },
+ {
+  "id": "agri-station",
+  "name": "嘉義農業試驗分所辦公室",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2002-08-06",
+  "address": "東區王田里民權路2 號",
+  "lat": 23.48434962272447,
+  "lng": 120.46798500984194,
+  "open": "採有條件式開放參觀，開放參觀對象僅限於農業研究及文化業務相關人員並以申請核准方式辦理",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020806000003",
+  "caseId": "20020806000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/51790cd8-a44a-42ba-b28e-6982bff2b549/IMG_4958.jpg"
+ },
+ {
+  "id": "telecom",
+  "name": "原嘉義電信局",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2004-11-01",
+  "address": "東區府路里6鄰光彩街269號",
+  "lat": 23.47817724318971,
+  "lng": 120.45128248685138,
+  "open": "開放時間為週一至週五早上8時30分至晚上8時，週六早上10時至晚上6時，周日休息。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041101000001",
+  "caseId": "20041101000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-19/a863f003-da64-41a0-9a0f-3a7a2c16b753/原嘉義電信局正面圖.jpg"
+ },
+ {
+  "id": "post-office",
+  "name": "原嘉義郵局",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2004-11-01",
+  "address": "東區府路里6鄰文化路134號",
+  "lat": 23.477870913871364,
+  "lng": 120.44995687542776,
+  "open": "現今（西元2021年）正進行外牆整修工程，暫不開放參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041101000002",
+  "caseId": "20041101000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/143d8013-32cb-4aac-88a2-6b420b139412/P_20210319_151530.jpg"
+ },
+ {
+  "id": "hinoki-village",
+  "name": "嘉義市共和路與北門街林管處國有宿眷舍",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2005-10-26",
+  "address": "東區共和街191巷1-12號199巷1-11號201巷2-5號243巷2.4-7號356巷2-8號378巷1-12號14-17號382.384.354.372號北門街1-3號19.19-1.21號共65戶",
+  "lat": 23.48615260929081,
+  "lng": 120.45400487883467,
+  "open": "早上10時至下午6時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051026000003",
+  "caseId": "20051026000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/1b3ee15a-d1fa-4e9a-9b0a-01d52e4daf5d/IMG_4882.jpg"
+ },
+ {
+  "id": "forestry-office",
+  "name": "嘉義林區管理處辦公區內木構造建築群",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2005-10-26",
+  "address": "東區林森西路1號",
+  "lat": 23.4852690704752,
+  "lng": 120.45316835985,
+  "open": "週一至週日，早上10時至下午6時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051026000004",
+  "caseId": "20051026000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/be750942-f286-47c8-952e-736483959fd4/IMG_4878.jpg"
+ },
+ {
+  "id": "east-market",
+  "name": "嘉義市東市場",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-10-06",
+  "address": "東區嘉義市忠孝路與中正路口",
+  "lat": 23.478859,
+  "lng": 120.453726,
+  "open": "(一)~(日)6:30-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151006000001",
+  "caseId": "20151006000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-19/c7fefdf6-82c2-4751-8032-ab3cd7b8c2d2/P_20210819_111240.jpg"
+ },
+ {
+  "id": "shuangzhong",
+  "name": "雙忠廟",
+  "category": "歷史建築",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2015-01-23",
+  "address": "東區嘉義市忠孝路88號",
+  "lat": 23.47874,
+  "lng": 120.454515,
+  "open": "06:00-19:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150123000002",
+  "caseId": "20150123000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/36ac95b5-e059-4305-9ee7-131dca56d1b9/P_20210319_13360.png"
+ },
+ {
+  "id": "old-city-hall",
+  "name": "舊嘉義市公所",
+  "category": "歷史建築",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2016-11-10",
+  "address": "東區嘉義市民生北路1號",
+  "lat": 23.474074848376876,
+  "lng": 120.44632550217807,
+  "open": "尚未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161110000001",
+  "caseId": "20161110000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-29/549717d2-847c-4591-9aa6-28f58f4f2f15/舊嘉義市公所整建落成照片-20261028.jpg"
+ },
+ {
+  "id": "filter-well",
+  "name": "水源地沉澱井暨濾過井",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-03-09",
+  "address": "東區嘉義市民權東路46號",
+  "lat": 23.48384,
+  "lng": 120.47708,
+  "open": "24h",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170929000004",
+  "caseId": "20170929000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/f9c2fff0-5d5e-475b-b250-948f15409edc/IMG_9052.jpg"
+ },
+ {
+  "id": "red-well",
+  "name": "紅毛井",
+  "category": "歷史建築",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2008-12-23",
+  "address": "西區嘉義市西區蘭井街83號前",
+  "lat": 23.47784753770696,
+  "lng": 120.45445309271207,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170929000005",
+  "caseId": "20170929000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-15/a4c51e5e-5b31-4221-8aeb-c1a08a9eda43/IMG_4915.jpg"
+ },
+ {
+  "id": "zhennan",
+  "name": "鎮南聖神宮",
+  "category": "歷史建築",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2019-07-04",
+  "address": "東區600嘉義市東區共和路118號",
+  "lat": 23.4776764,
+  "lng": 120.45580710000002,
+  "open": "每日早上6點至晚上9點，若於防疫期間為每日早上6點至晚上8點。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190805000002",
+  "caseId": "20190805000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-15/3d5e6e96-ddfe-4265-ab7a-8c24844ffd05/鎮南聖神宮_202308071655-6.jpg"
+ },
+ {
+  "id": "tobacco",
+  "name": "舊嘉義菸葉廠",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2019-12-05",
+  "address": "西區嘉義市北興街460號",
+  "lat": 23.488827222693207,
+  "lng": 120.43280890146126,
+  "open": "尚未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200121000002",
+  "caseId": "20200121000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/2c711f8a-8876-4897-ba64-de2129330d3b/公362號倉庫走廊.png"
+ },
+ {
+  "id": "dojo",
+  "name": "嘉義舊監獄演武場",
+  "category": "歷史建築",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-12-03",
+  "address": "東區嘉義市維新路130巷8號",
+  "lat": 23.485006421755585,
+  "lng": 120.45927413722085,
+  "open": "(二)~(日)9:30-11:00，13:30-15:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200122000001",
+  "caseId": "20200122000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-14/c74c03b5-7251-4db3-a373-ff9a2a96ad6a/演武場_190520093646.jpg"
+ },
+ {
+  "id": "ciji",
+  "name": "嘉義慈濟宮",
+  "category": "歷史建築",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-03-09",
+  "address": "西區國華街216巷1號",
+  "lat": 23.480434426314737,
+  "lng": 120.44894704306587,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210701000001",
+  "caseId": "20210701000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-01/b8755660-30ce-47cb-9a3a-13572e9f1038/298247.jpg"
+ },
+ {
+  "id": "uematsu",
+  "name": "原植松木行",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2020-07-27",
+  "address": "西區國華街355巷1、357、359號",
+  "lat": 23.48434,
+  "lng": 120.44743,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20211026000001",
+  "caseId": "20211026000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-10-26/95f055eb-e20a-42c4-9898-8e8a8763f698/1.png"
+ },
+ {
+  "id": "school-dorm",
+  "name": "原嘉義公學校宿舍",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-03-09",
+  "address": "東區吳鳳北路35巷11、13、15號",
+  "lat": 23.47496,
+  "lng": 120.4529,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20211026000002",
+  "caseId": "20211026000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-10-26/cedf3eeb-9042-41bd-a413-3bbf10863812/DSC01319.jpg"
+ },
+ {
+  "id": "rail-warehouse",
+  "name": "嘉義鐵道倉庫",
+  "category": "歷史建築",
+  "types": [
+   "產業"
+  ],
+  "announced": "2020-07-27",
+  "address": "西區北興街5號倉庫",
+  "lat": 23.48128,
+  "lng": 120.44161,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20211026000003",
+  "caseId": "20211026000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-10-26/a98d705a-65ab-44bd-bc3c-4d68ac4d14bc/111.jpg"
+ },
+ {
+  "id": "first-bank",
+  "name": "台灣第一商業銀行嘉義分行",
+  "category": "歷史建築",
+  "types": [
+   "銀行"
+  ],
+  "announced": "2022-05-31",
+  "address": "東區嘉義市中山路307號",
+  "lat": 23.48078,
+  "lng": 120.45302,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220531000001",
+  "caseId": "20220531000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-31/53652d72-b682-4e81-9104-748e3a54fead/DSC02840.jpg"
+ },
+ {
+  "id": "nanguo",
+  "name": "原南國運送店",
+  "category": "歷史建築",
+  "types": [
+   "商店"
+  ],
+  "announced": "2023-02-22",
+  "address": "西區北興街35號",
+  "lat": 23.483029623078682,
+  "lng": 120.44352718978037,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230509000004",
+  "caseId": "20230509000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-05-09/907a4019-1990-4763-aaf3-2ea0c2ad672d/IMG_20190701_144256.jpg"
+ },
+ {
+  "id": "zhang-house",
+  "name": "元町二丁目張宅",
+  "category": "歷史建築",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2025-04-01",
+  "address": "東區蘭井街76號",
+  "lat": 23.47813,
+  "lng": 120.45495,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250428000002",
+  "caseId": "20250428000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/3d76c89b-8760-4d91-9515-80fad60f22db/元町二丁目張宅.jpg"
+ },
+ {
+  "id": "prison-dorms",
+  "name": "嘉義舊監獄暨宿舍群",
+  "category": "聚落建築群",
+  "types": [
+   "近代宿舍"
+  ],
+  "announced": "2021-01-26",
+  "address": "東區維新路140號",
+  "lat": 23.487137,
+  "lng": 120.460093,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20210504000001",
+  "caseId": "20210504000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-27/456110b0-dd92-4edb-bbc4-89ccb1cb0885/S__13443100.jpg"
+ },
+ {
+  "id": "alishan-landscape",
+  "name": "阿里山林業暨鐵道文化景觀",
+  "category": "文化景觀",
+  "types": [
+   "交通地景",
+   "農林漁牧景觀",
+   "工業地景",
+   "歷史文化路徑"
+  ],
+  "announced": "2011-02-24",
+  "address": "東區嘉義市段鐵道由國營臺灣鐵路股份有限公司嘉義站阿里山窄軌鐵道起至崎頂平交道止，計4公里460公尺。",
+  "lat": 23.487179,
+  "lng": 120.454359,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20110216000001",
+  "caseId": "20110216000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-19/e15e1be2-3fbe-4aa9-8163-9cd693467b83/IMG_8975.jpg"
+ },
+ {
+  "id": "chiayi-park",
+  "name": "嘉義公園",
+  "category": "文化景觀",
+  "types": [
+   "歷史事件場所"
+  ],
+  "announced": "2011-02-16",
+  "address": "東區王田里啟明路264號",
+  "lat": 23.482848778580188,
+  "lng": 120.46363869103911,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20110216000002",
+  "caseId": "20110216000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-04-02/ae2c7490-39f4-4abb-8f46-82357ffcaabf/P_20210416_143721.jpg"
+ }
+]

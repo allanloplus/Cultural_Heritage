@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {"who": "A", "text": "嗨，我是 Allan Lo！歡迎來到 Allan Lo 和你逛文化，這一站，我們來到嘉義市。"},
+    {"who": "R", "text": "我是 AI 小助手阿拉蕾！嘉義不是只有雞肉飯嗎？"},
+    {"who": "A", "text": "雞肉飯當然要吃，不過嘉義還有桃城、木都，甚至畫都這幾個響亮的外號喔。"},
+    {"who": "R", "text": "哇，一個城市三個外號，比我的耳機還多功能！"},
+    {"who": "A", "text": "這裡有國定古蹟嘉義城隍廟和嘉義舊監獄，還有阿里山林業鐵道的起點北門驛，有形文化資產五十多處。"},
+    {"who": "R", "text": "那麼多！我們要從哪裡開始逛？"},
+    {"who": "A", "text": "打開文資地圖，點一下任何一個景點，我們兩個就會跳出來說故事給你聽。"},
+    {"who": "R", "text": "還有時光地圖！可以從荷蘭時期一路看到現在，看嘉義城怎麼長大。"},
+    {"who": "A", "text": "想出門走走，行程規劃幫你排好一日、二日、三日遊，開車、機車、單車、走路或 YouBike 都可以。"},
+    {"who": "R", "text": "最後別忘了來玩知識遊戲，答對題目就能把文資護照的印章集滿喔！"},
+    {"who": "A", "text": "準備好了嗎？跟著我們，出發逛文化囉！"}
+  ],
+  "timeIntro": [
+    {"who": "R", "text": "Allan，時光地圖是什麼？可以坐時光機嗎？"},
+    {"who": "A", "text": "差不多！上面的時間軸從荷蘭時期排到現在，點一下就能切換年代。"},
+    {"who": "A", "text": "清朝以後的年代，地圖上會疊上當年實際測繪的老地圖，例如1904年的臺灣堡圖。"},
+    {"who": "R", "text": "那我可以把老地圖調透明一點，對照現在的街道嗎？"},
+    {"who": "A", "text": "可以！拉動透明度，或打開左右對照，像刮刮樂一樣刮出古今的差別。"},
+    {"who": "R", "text": "好酷！我要先去找清朝嘉義城的城牆在哪裡！"}
+  ],
+  "planIntro": [
+    {"who": "A", "text": "想照著地圖出門走走嗎？先選要玩幾天，再選交通方式。"},
+    {"who": "R", "text": "選 YouBike 的話，我會告訴你在哪一站借車、哪一站還車喔！"},
+    {"who": "A", "text": "也可以自己勾選想去的景點，系統會排出比較順的路線，並估算每一站的時間。"},
+    {"who": "R", "text": "出發前記得看一下開放時間，有些古蹟只能欣賞外觀喔！"}
+  ],
+  "gameIntro": [
+    {"who": "R", "text": "遊戲時間到！有問答王、時光排序、猜猜我是誰、翻翻樂，還有桃城擲骰大冒險！"},
+    {"who": "A", "text": "每完成一個挑戰，就能在文資護照蓋一個章，看看你能不能全部集滿。"},
+    {"who": "R", "text": "Allan，擲骰子比賽你可不要輸給我喔！"},
+    {"who": "A", "text": "哈哈，放馬過來，我可是嘉義在地通！"}
+  ],
+  "reactions": [
+    {"who": "R", "text": "答對了！你根本就是嘉義通！"},
+    {"who": "A", "text": "正確答案！給你一個大大的讚。"},
+    {"who": "R", "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"},
+    {"who": "A", "text": "可惜！差一點點，下次一定行。"},
+    {"who": "R", "text": "換我擲骰子囉！看我的！"},
+    {"who": "A", "text": "恭喜你贏了！今天的雞肉飯算我的！"},
+    {"who": "R", "text": "耶！這一局是我贏了，要不要再來一局？"},
+    {"who": "A", "text": "平手！你們兩個都是文資高手。"},
+    {"who": "R", "text": "時光排序完成！你對嘉義的歷史好熟喔！"},
+    {"who": "A", "text": "恭喜集到新的護照印章！"},
+    {"who": "R", "text": "全部配對成功，記憶力滿分！"},
+    {"who": "A", "text": "嗯，這一題我們一起看看解說。"}
+  ],
+  "starts": [
+    {"id": "station", "name": "嘉義火車站（臺鐵）", "lat": 23.47911, "lng": 120.44112},
+    {"id": "hsr", "name": "高鐵嘉義站（搭 BRT 到嘉義火車站，約 30 分鐘）", "lat": 23.47911, "lng": 120.44112, "note": "高鐵嘉義站位於嘉義縣太保市，可搭乘嘉義 BRT 公車至嘉義火車站再出發。"},
+    {"id": "cityhall", "name": "嘉義市政府", "lat": 23.48163, "lng": 120.45375},
+    {"id": "gps", "name": "我的目前位置", "lat": null, "lng": null},
+    {"id": "pick", "name": "在地圖上點選出發點", "lat": null, "lng": null}
+  ],
+  "plans": {
+    "1": {"name": "一日精華：木都・監獄・城隍廟", "days": [
+      ["station", "beimen", "hinoki-village", "forest-club", "prison", "chiayi-park", "chenghuang", "east-market", "red-well"]
+    ]},
+    "2": {"name": "二日遊：木都鐵道 ＋ 公園老城", "days": [
+      ["station", "rail-warehouse", "sawmill", "beimen", "hinoki-village", "forest-club", "forestry-office", "prison", "dojo", "justice-village", "chenghuang"],
+      ["chiayi-park", "shrine", "yijiangshan", "water-meter", "rice-bridge", "dongmen-police", "shuangzhong", "red-well", "east-market", "art-museum"]
+    ]},
+    "3": {"name": "三日遊：木都鐵道 ＋ 老城信仰 ＋ 公園與西區藝術", "days": [
+      ["station", "rail-warehouse", "sawmill", "beimen", "hinoki-village", "forest-club", "forestry-office", "prison", "dojo", "justice-village", "prison-dorms"],
+      ["chenghuang", "east-market", "red-well", "zhang-house", "shuangzhong", "zhennan", "telecom", "post-office", "dongmen-police", "tenrikyo", "renwu", "ciji", "first-bank", "tsumoto"],
+      ["chiayi-park", "shrine", "yijiangshan", "agri-station", "water-meter", "rice-bridge", "suzhoulian", "ximen-church", "art-museum", "winery"]
+    ]}
+  },
+  "food": [
+    {"name": "文化路夜市", "lat": 23.47909, "lng": 120.44998, "note": "傍晚後最熱鬧，雞肉飯、砂鍋魚頭、豆花一次吃齊"},
+    {"name": "東市場", "lat": 23.47886, "lng": 120.45373, "note": "百年市場，早餐吃牛雜湯、粿仔湯配米糕"}
+  ]
+}

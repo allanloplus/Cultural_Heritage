@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Allan Lo 和你逛文化｜臺灣文化資產知性旅遊地圖</title>
+<meta name="description" content="Allan Lo 與 AI 小助手阿拉蕾用地圖、語音故事與遊戲，帶你逛臺灣各縣市的文化資產。第一站：嘉義市。">
+<link rel="icon" href="assets/characters/allan-smile.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/css/site.css">
+<style>
+  .p-hero { background: radial-gradient(900px 380px at 80% 10%, color-mix(in srgb, var(--mint) 75%, transparent), transparent 70%), radial-gradient(700px 320px at 0% 100%, color-mix(in srgb, var(--sun) 25%, transparent), transparent 70%), var(--paper); }
+  .p-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 24px; align-items: end; padding-top: 40px; }
+  .p-copy { padding-bottom: 48px; }
+  .p-copy h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); margin: 6px 0 12px; }
+  .p-copy h1 em { font-style: normal; color: var(--peach); }
+  .eyebrow { color: var(--hinoki); font-weight: 700; letter-spacing: .08em; }
+  .lede { color: var(--muted); font-size: 1.08rem; max-width: 34em; }
+  .cast { position: relative; height: 360px; }
+  .cast img { position: absolute; bottom: 0; filter: drop-shadow(0 10px 18px rgba(60,40,20,.18)); }
+  .cast .a { height: 350px; width: auto; right: 110px; }
+  .cast .r { height: 290px; width: auto; right: 0; }
+  .p-body { padding-bottom: 56px; }
+  h2.t { font-size: 1.5rem; margin: 36px 0 14px; }
+  .p-two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+  #twmap { height: 460px; border-radius: var(--r); border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .city { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; text-decoration: none; color: inherit; display: grid; gap: 4px; }
+  .city b { font-family: var(--f-display); font-size: 1.2rem; }
+  .city span { font-size: .82rem; color: var(--muted); }
+  .city.on { grid-column: 1 / -1; grid-template-columns: 180px 1fr; gap: 14px; align-items: center; box-shadow: var(--shadow); border-color: var(--peach); }
+  .city.on img { width: 180px; aspect-ratio: 4/3; object-fit: cover; border-radius: 10px; grid-row: 1 / 4; }
+  .city.soon { opacity: .7; }
+  .city .go { justify-self: start; }
+  .feat { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .feat div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .feat h3 { font-size: 1.1rem; margin-bottom: 4px; }
+  .feat p { font-size: .9rem; color: var(--muted); }
+  .pin { width: 26px; height: 26px; border-radius: 50% 50% 50% 0; background: var(--c, #999); transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); }
+  @media (max-width: 860px) {
+    .p-grid, .p-two { grid-template-columns: 1fr; }
+    .p-copy { padding-bottom: 0; }
+    .cast { height: 230px; } .cast .a { height: 220px; right: auto; left: 10%; } .cast .r { height: 190px; right: 10%; }
+    #twmap { height: 340px; }
+    .city.on { grid-template-columns: 1fr; } .city.on img { width: 100%; grid-row: auto; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./"><img src="assets/characters/allan-smile.webp" alt="" width="36" height="36">Allan Lo <small>和你逛文化</small></a>
+    <nav class="nav" aria-label="主選單"><a href="#cities">選城市</a><a href="chiayi-city/">嘉義市</a><a href="chiayi-city/#games">知識遊戲</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="p-hero">
+    <div class="wrap p-grid">
+      <div class="p-copy">
+        <p class="eyebrow">知性・旅遊・文化資產地圖</p>
+        <h1>Allan Lo<br><em>和你逛文化</em></h1>
+        <p class="lede">一座城市就是一本會說話的歷史書。導覽員 Allan 和 AI 小助手阿拉蕾，用地圖、雙人語音故事、老地圖時光機、行程規劃和遊戲，陪你把文化資產一處一處逛懂。</p>
+        <p style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-primary" href="chiayi-city/">出發：嘉義市</a><a class="btn" href="#cities">看看有哪些城市</a></p>
+      </div>
+      <div class="cast" aria-hidden="true"><img class="a" src="assets/characters/allan-wave.webp" alt="" width="560" height="657"><img class="r" src="assets/characters/arale-wave.webp" alt="" width="311" height="640"></div>
+    </div>
+  </section>
+
+  <div class="wrap p-body">
+    <div style="max-width:760px;margin-top:28px"><div id="portalPlayer"></div></div>
+
+    <h2 class="t" id="cities">選一座城市</h2>
+    <div class="p-two">
+      <div id="twmap" role="application" aria-label="臺灣城市地圖"></div>
+      <div class="cities" id="cityList"></div>
+    </div>
+
+    <h2 class="t">每座城市都有</h2>
+    <div class="feat">
+      <div><h3>文資地圖</h3><p>官方登錄的古蹟、歷史建築、文化景觀與無形文化資產，點開就有 Allan 和阿拉蕾的語音導覽。</p></div>
+      <div><h3>時光地圖</h3><p>疊上不同年代的老地圖，從荷蘭時期一路看到今天，城市怎麼長成現在的樣子。</p></div>
+      <div><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike 都能排，也能自選景點。</p></div>
+      <div><h3>知識遊戲</h3><p>問答、排序、猜謎、翻牌、擲骰對戰，玩完還能蓋文資護照。</p></div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>規劃設計：Allan Lo，2026/11/1　｜　使用 AI 工具：Claude Opus 5.5</span>
+    <span>底圖：內政部國土測繪中心・OpenStreetMap</span>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/characters.js"></script>
+<script>Characters.setBase("assets/characters/");</script>
+<script src="assets/js/voice.js"></script>
+<script src="audio/cues.js"></script>
+<script>
+(function () {
+  "use strict";
+  var esc = Voice.esc;
+  var PORTAL = [
+    { who: "A", text: "歡迎來到 Allan Lo 和你逛文化！我是導覽員 Allan。" },
+    { who: "R", text: "我是 AI 小助手阿拉蕾！我們要帶你用地圖、故事和遊戲認識臺灣的文化資產。" },
+    { who: "A", text: "每個城市都有一張文資地圖、一張時光地圖，還有幫你排好的旅遊行程。" },
+    { who: "R", text: "第一站是嘉義市！其他縣市也在準備中，敬請期待喔！" },
+    { who: "A", text: "點一下城市卡片，我們就出發囉！" }
+  ];
+  new Voice.Player(document.getElementById("portalPlayer"), { track: "portal", lines: PORTAL, title: "Allan Lo 和你逛文化", audioBase: "audio/" });
+
+  /* 城市清單：新增縣市時在這裡加一筆，並建立同名資料夾 */
+  var CITIES = [
+    { slug: "chiayi-city", name: "嘉義市", nick: "桃城・木都・畫都", lat: 23.4805, lng: 120.4525, on: true,
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%E5%8C%97%E9%96%80%E9%A9%9B.JPG/500px-%E5%8C%97%E9%96%80%E9%A9%9B.JPG",
+      credit: "北門驛／勤岸，CC BY-SA 3.0", desc: "54 處有形文化資產、16 項無形文化資產，阿里山林業鐵道從這裡出發。" },
+    { slug: "", name: "嘉義縣", nick: "阿里山・布袋・新港", lat: 23.45, lng: 120.57 },
+    { slug: "", name: "臺南市", nick: "府城四百年", lat: 22.99, lng: 120.20 },
+    { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
+    { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
+    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 },
+    { slug: "", name: "高雄市", nick: "打狗・哈瑪星", lat: 22.62, lng: 120.28 },
+    { slug: "", name: "宜蘭縣", nick: "噶瑪蘭・頭城", lat: 24.75, lng: 121.75 }
+  ];
+  document.getElementById("cityList").innerHTML = CITIES.map(function (c) {
+    if (c.on) return '<a class="city on" href="' + c.slug + '/"><img src="' + esc(c.img) + '" alt="' + esc(c.name) + '" loading="lazy"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
+    return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';
+  }).join("");
+
+  var map = L.map("twmap", { zoomControl: true, scrollWheelZoom: false }).setView([23.75, 120.95], 7);
+  L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 18, attribution: "&copy; 內政部國土測繪中心" }).addTo(map);
+  CITIES.forEach(function (c) {
+    var m = L.marker([c.lat, c.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })
+      .bindTooltip(c.name + (c.on ? "（點我出發）" : "（籌備中）"), { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
+    if (c.on) m.on("click", function () { location.href = c.slug + "/"; });
+  });
+})();
+</script>
+</body>
+</html>
