@@ -1,5 +1,5 @@
 /* 嘉義市篇 — 版面與元件 */
-.view { min-height: calc(100dvh - var(--hdr)); }
+.view { min-height: calc(100vh - var(--hdr)); min-height: calc(100dvh - var(--hdr)); }
 .muted { color: var(--muted); }
 .sec-title { font-size: 1.5rem; margin: 36px 0 14px; display: flex; align-items: center; gap: 10px; }
 .sec-title::before { content: ""; width: 12px; height: 22px; border-radius: 3px; background: linear-gradient(var(--peach), var(--sun)); flex: none; }
@@ -38,8 +38,9 @@
 .today h3 { font-size: 1.4rem; margin-bottom: 6px; }
 
 /* ---------- Split views (map / plan) ---------- */
-.view-split { display: grid; grid-template-columns: 360px 1fr; height: calc(100dvh - var(--hdr)); min-height: 480px; position: relative; }
+.view-split { display: grid; grid-template-columns: 360px 1fr; height: calc(100vh - var(--hdr)); height: calc(100dvh - var(--hdr)); min-height: 480px; position: relative; }
 .side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--paper); position: relative; z-index: 2; }
+.side-scroll { display: flex; flex-direction: column; flex: 1; min-height: 0; }
 .side-head { padding: 12px 14px 8px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
 .search input { width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); }
 .filter-row { display: flex; gap: 8px; font-size: .88rem; color: var(--muted); }
@@ -101,7 +102,7 @@
 .near-ub li { margin-bottom: 2px; }
 
 /* ---------- Time map ---------- */
-.view-time { height: calc(100dvh - var(--hdr)); min-height: 520px; display: flex; flex-direction: column; }
+.view-time { height: calc(100vh - var(--hdr)); height: calc(100dvh - var(--hdr)); min-height: 520px; display: flex; flex-direction: column; }
 .era-bar { display: flex; gap: 0; overflow-x: auto; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 12px 0; scrollbar-width: thin; position: relative; }
 .era-btn { flex: 1 0 120px; border: 0; background: none; cursor: pointer; padding: 6px 8px 12px; position: relative; text-align: center; color: var(--muted); }
 .era-btn::before { content: ""; position: absolute; left: 0; right: 0; bottom: 12px; height: 4px; background: var(--line); }
@@ -263,10 +264,19 @@ details.lic summary { cursor: pointer; font-weight: 700; }
   .games-head { grid-template-columns: 1fr; }
   .board-wrap { grid-template-columns: 1fr; }
 
-  .view-split { display: block; height: calc(100dvh - var(--hdr)); }
+  .view-split { display: block; height: calc(100vh - var(--hdr)); height: calc(100dvh - var(--hdr)); min-height: 420px; }
   .view-split .mapwrap { position: absolute; inset: 0; }
-  .view-split .side { position: absolute; left: 0; right: 0; bottom: 0; height: 46%; border-right: 0; border-top: 1px solid var(--line); border-radius: 18px 18px 0 0; box-shadow: 0 -8px 24px rgba(0,0,0,.15); z-index: 850; transition: height .25s ease; }
+  .view-split .side { position: absolute; left: 0; right: 0; bottom: 0; height: 50%; border-right: 0; border-top: 1px solid var(--line); border-radius: 18px 18px 0 0; box-shadow: 0 -8px 24px rgba(0,0,0,.15); z-index: 1050; transition: height .25s ease; }
   .view-split .side.is-min { height: 64px; }
+  #view-map .side-scroll { display: block; height: 100%; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; border-radius: 18px 18px 0 0; }
+  #view-map .site-list { overflow: visible; padding-bottom: 28px; }
+  .side.is-min .side-scroll { overflow: hidden; }
+  .side-head { padding: 10px 12px 6px; gap: 6px; }
+  .side-head .chip { font-size: .8rem; padding: 3px 9px; }
+  #view-map .leaflet-bottom { bottom: 50%; transition: bottom .25s ease; }
+  #view-map.sheet-min .leaflet-bottom { bottom: 64px; }
+  .view-plan .leaflet-bottom { bottom: 58%; }
+  body[data-view="map"] .site-foot, body[data-view="plan"] .site-foot { display: none; }
   .side-toggle { display: inline-flex; position: absolute; top: -44px; right: 12px; box-shadow: var(--shadow); }
   .side.is-min .side-head > :not(.search) { display: none; }
   .drawer { position: fixed; top: var(--hdr); left: 0; right: 0; bottom: 0; width: auto; border-radius: 18px 18px 0 0; z-index: 1100; }

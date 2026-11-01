@@ -828,7 +828,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E6%85%88%E6%BF%9F%E5%AE%AE%E6%96%9C%E7%85%A7.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/ciji-0.webp",
+   "small": "img/ciji-0-s.webp"
   },
   {
    "file": "嘉義慈濟宮三川殿.jpg",
@@ -836,7 +838,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E6%85%88%E6%BF%9F%E5%AE%AE%E4%B8%89%E5%B7%9D%E6%AE%BF.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/ciji-1.webp",
+   "small": "img/ciji-1-s.webp"
   }
  ],
  "school-dorm": [
@@ -846,7 +850,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%98%89%E7%BE%A9%E5%85%AC%E5%AD%B8%E6%A0%A1%E5%AE%BF%E8%88%8D.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/school-dorm-0.webp",
+   "small": "img/school-dorm-0-s.webp"
   }
  ],
  "rail-warehouse": [
@@ -856,7 +862,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E9%90%B5%E9%81%93%E8%97%9D%E8%A1%93%E6%9D%915%E8%99%9F%E5%80%89%E5%BA%AB.jpg",
    "artist": "Shouji Hasegawa",
    "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "local": "img/rail-warehouse-0.webp",
+   "small": "img/rail-warehouse-0-s.webp"
   },
   {
    "file": "嘉義鐵道藝術村1號倉庫.jpg",
@@ -864,7 +872,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E9%90%B5%E9%81%93%E8%97%9D%E8%A1%93%E6%9D%911%E8%99%9F%E5%80%89%E5%BA%AB.jpg",
    "artist": "Shouji Hasegawa",
    "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "local": "img/rail-warehouse-1.webp",
+   "small": "img/rail-warehouse-1-s.webp"
   }
  ],
  "first-bank": [
@@ -874,7 +884,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:First_Bank_Chiayi_Branch.jpg",
    "artist": "M940504",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/first-bank-0.webp",
+   "small": "img/first-bank-0-s.webp"
   }
  ],
  "nanguo": [
@@ -884,7 +896,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%8D%97%E5%9C%8B%E9%81%8B%E9%80%81%E5%BA%97_01.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/nanguo-0.webp",
+   "small": "img/nanguo-0-s.webp"
   },
   {
    "file": "原南國運送店 02.jpg",
@@ -892,7 +906,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%8D%97%E5%9C%8B%E9%81%8B%E9%80%81%E5%BA%97_02.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/nanguo-1.webp",
+   "small": "img/nanguo-1-s.webp"
   }
  ],
  "prison-dorms": [
@@ -902,7 +918,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E8%88%8A%E7%9B%A3%E7%8D%84%E6%99%AF%E8%A7%80-%E5%BC%B5%E5%88%A9%E8%81%B0.jpg",
    "artist": "Cpc3711",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/prison-dorms-0.webp",
+   "small": "img/prison-dorms-0-s.webp"
   },
   {
    "file": "嘉義舊監獄暨宿舍群1.jpg",
@@ -910,7 +928,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E8%88%8A%E7%9B%A3%E7%8D%84%E6%9A%A8%E5%AE%BF%E8%88%8D%E7%BE%A41.jpg",
    "artist": "Rasputinemark",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/prison-dorms-1.webp",
+   "small": "img/prison-dorms-1-s.webp"
   }
  ],
  "alishan-landscape": [
@@ -920,7 +940,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:Alishan_Forest_Railway_Diesel_locomotive_DL-33_near_Peimen_Station_(on_the_right),_Taiwan..jpg",
    "artist": "Mk2010",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/alishan-landscape-0.webp",
+   "small": "img/alishan-landscape-0-s.webp"
   }
  ],
  "chiayi-park": [
@@ -930,7 +952,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:TW_Chiayi_sun-shooting_tower_20051008.jpg",
    "artist": "\"User:Cloudcolors\"",
    "license": "CC BY 2.5",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "local": "img/chiayi-park-0.webp",
+   "small": "img/chiayi-park-0-s.webp"
   },
   {
    "file": "Chen Chengpo 1937 Jiayi Park.jpg",
@@ -946,7 +970,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%85%AC%E5%9C%921.jpg",
    "artist": "嘉義市役所",
    "license": "Public domain",
-   "licenseUrl": ""
+   "licenseUrl": "",
+   "local": "img/chiayi-park-2.webp",
+   "small": "img/chiayi-park-2-s.webp"
   }
  ],
  "ich-bajiajiang": [
@@ -956,7 +982,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E6%85%88%E6%BF%9F%E5%AE%AE%E5%A6%82%E6%84%8F%E6%8C%AF%E8%A3%95%E5%A0%82.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/ich-bajiajiang-0.webp",
+   "small": "img/ich-bajiajiang-0-s.webp"
   }
  ]
 }

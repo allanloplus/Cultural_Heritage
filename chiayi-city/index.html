@@ -76,6 +76,7 @@
   <!-- ============ 文資地圖 ============ -->
   <section id="view-map" class="view view-split" data-view="map" hidden>
     <aside class="side" id="mapSide" aria-label="文化資產清單">
+      <div class="side-scroll">
       <div class="side-head">
         <label class="search"><span class="sr-only">搜尋文化資產</span><input id="q" type="search" placeholder="搜尋名稱、地址、關鍵字…" autocomplete="off"></label>
         <div class="chips" id="catChips" role="group" aria-label="類別篩選"></div>
@@ -86,6 +87,7 @@
         <p class="count" id="count"></p>
       </div>
       <ol class="site-list" id="siteList"></ol>
+      </div>
       <button class="side-toggle btn btn-sm" id="sideToggle" type="button" aria-expanded="true">清單</button>
     </aside>
     <div class="mapwrap"><div id="smap" class="map" role="application" aria-label="嘉義市文化資產地圖"></div></div>

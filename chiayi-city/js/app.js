@@ -211,7 +211,7 @@
     $("#eraSel").onchange = function () { filt.era = this.value; applyFilter(); };
     $("#themeSel").onchange = function () { filt.theme = this.value; applyFilter(); };
     $("#q").oninput = function () { filt.q = this.value.trim(); applyFilter(); };
-    $("#sideToggle").onclick = function () { var s = $("#mapSide"); s.classList.toggle("is-min"); this.setAttribute("aria-expanded", String(!s.classList.contains("is-min"))); setTimeout(function () { map.invalidateSize(); }, 300); };
+    $("#sideToggle").onclick = function () { var s = $("#mapSide"), min = s.classList.toggle("is-min"); $("#view-map").classList.toggle("sheet-min", min); if (min) $("#mapSide .side-scroll").scrollTop = 0; this.setAttribute("aria-expanded", String(!min)); setTimeout(function () { map.invalidateSize(); }, 300); };
     applyFilter();
   }
 
