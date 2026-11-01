@@ -25,6 +25,20 @@ def load(path, default=None):
         return json.load(f)
 
 
+CJK = r"[\u4e00-\u9fff]"
+
+
+def fix_text(t):
+    """對話中對導覽員的稱呼一律用「Allan」（中英文之間加半形空格）。"""
+    t = re.sub("(" + CJK + ")羅顧問", r"\1 羅顧問", t)
+    t = re.sub("羅顧問(" + CJK + ")", r"Allan \1", t)
+    return t.replace("羅顧問", "Allan")
+
+
+def fix_lines(lines):
+    return [dict(l, text=fix_text(l["text"])) for l in (lines or [])]
+
+
 def cities():
     out = []
     for name in sorted(os.listdir(ROOT)):
@@ -45,6 +59,14 @@ def build_city(slug):
     ubike = load(os.path.join(D, "ubike.json"), {"meta": {}, "stations": []})
     extra = load(os.path.join(D, "extra.json"))
     cats = cfg["categories"]
+    for c in content.values():
+        c["dialogue"] = fix_lines(c["dialogue"])
+    for e in eras.get("eras", []):
+        e["dialogue"] = fix_lines(e.get("dialogue"))
+    for i in ich.get("items", []):
+        i["dialogue"] = fix_lines(i.get("dialogue"))
+    for k in ("intro", "timeIntro", "planIntro", "gameIntro", "reactions"):
+        extra[k] = fix_lines(extra.get(k))
 
     sites = []
     for o in official:
