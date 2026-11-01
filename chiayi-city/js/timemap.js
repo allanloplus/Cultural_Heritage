@@ -21,7 +21,7 @@
   var CONF = {
     dutch: { layers: [], paper: true, end: 1662, note: "荷蘭時期沒有實測地圖，底圖改成古紙風格，標示的是推定位置。" },
     zheng: { layers: [], paper: true, end: 1683, note: "明鄭時期沒有實測地圖，底圖改成古紙風格，標示的是推定位置。" },
-    qing: { layers: [L1904], end: 1895, wall: true, note: "1904 年的臺灣堡圖測繪於 1906 年梅山大地震之前，還看得到清代嘉義城的輪廓。" },
+    qing: { layers: [L1904], end: 1895, wall: true, note: "1904 年的臺灣堡圖測繪於 1906 年梅山大地震之前，還看得到清代嘉義城的輪廓。這張老地圖圖層本身比現代街道約偏東北 60 公尺，所以紅色虛線（已校正到今日位置）會看起來比圖上的城牆略偏西南。" },
     japan: { layers: [L1921, L1945, L1944], end: 1945, note: "比較 1921 與 1945：市區改正後的棋盤街道與圓環逐漸成形。" },
     "early-roc": { layers: [L1950, L1945], end: 1960, note: "1950 年的地形圖：戰後初期的嘉義市街。" },
     roc60: { layers: [L1966, LCOR], end: 1981, note: "1957–1969 地形圖與 1966 年 Corona 衛星影像：民國 60 年前後的嘉義。" },
@@ -61,7 +61,12 @@
     if (strong) gates().forEach(function (g) {
       if (g.lat == null) return;
       L.marker([g.lat, g.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:#7a2b2b"><b>門</b></div>', iconSize: [30, 30], iconAnchor: [4, 30] }) })
-        .bindPopup("<b>" + esc(g.name) + (g.gateName ? "（" + esc(g.gateName) + "）" : "") + "</b><br>" + esc(g.modernSpot || g.note || "")).addTo(wallLayer);
+        .bindPopup("<b>" + esc(g.name) + (g.gateName ? "（" + esc(g.gateName) + "）" : "") + "</b>" + (g.laterGateName ? "<br>後改稱：" + esc(g.laterGateName) : "") + "<br>" + esc(g.modernSpot || g.note || "")).addTo(wallLayer);
+    });
+    if (strong) ((CY.qingCity && CY.qingCity.batteries) || []).forEach(function (b) {
+      if (b.lat == null) return;
+      L.circleMarker([b.lat, b.lng], { radius: 7, color: "#7a2b2b", weight: 2, fillColor: "#f2b632", fillOpacity: .9 })
+        .bindTooltip("砲臺：" + b.spot, { className: "tip" }).addTo(wallLayer);
     });
   }
 
@@ -159,6 +164,8 @@
       '<p>' + esc(e.summary) + '</p>' +
       (e.population ? '<p class="funfact"><b>人口｜</b>' + esc(e.population) + '</p>' : "") +
       '<p class="hint">' + esc(conf.note || "") + '</p>' +
+      (conf.wall && CY.qingCity ? '<details class="card" style="padding:8px 12px"><summary style="cursor:pointer;font-weight:700">紅色虛線：' + esc(CY.qingCity.name || "清代嘉義城") + '（推定範圍）</summary><p style="margin-top:6px;font-size:.9rem">' + esc(CY.qingCity.represents || "") + '</p><p class="hint" style="margin-top:6px">怎麼畫的：' + esc(CY.qingCity.method || "") + '</p><p class="hint" style="margin-top:6px">可信度：' + esc(CY.qingCity.confidence || "") + '</p>' +
+        ((CY.qingCity.sources || []).length ? '<p class="sources" style="margin-top:6px">' + CY.qingCity.sources.map(function (x) { return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a>'; }).join("、") + '</p>' : "") + '</details>' : "") +
       '<div><h3 style="margin-bottom:6px">大事記</h3><ul class="events">' + (e.events || []).map(function (ev) { return '<li><b>' + esc(ev.year) + '</b>' + esc(ev.text) + '</li>'; }).join("") + '</ul></div>' +
       ((e.landmarks || []).length ? '<div><h3 style="margin-bottom:6px">這個時期的地標</h3><ul class="lm-list">' + e.landmarks.map(function (m, k) { return '<li data-k="' + k + '"><b>' + esc(m.name) + (m.approx ? '（推定）' : "") + '</b>' + esc(m.note || "") + '</li>'; }).join("") + '</ul></div>' : "") +
       '<div><h3 style="margin-bottom:6px">這時已經出現、今天仍保存的文化資產：' + exist.length + ' / ' + A.sites.length + ' 處</h3><div class="grow-bar"><i style="width:' + (exist.length / A.sites.length * 100).toFixed(1) + '%"></i></div>' +
@@ -173,8 +180,8 @@
 
     // 視野
     var pts = (e.landmarks || []).filter(function (m) { return m.lat != null; }).map(function (m) { return [m.lat, m.lng]; });
-    if (conf.wall && wallLatLngs()) pts = pts.concat(wallLatLngs());
-    if (pts.length >= 2) tmap.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 16 });
+    if (conf.wall && wallLatLngs()) tmap.fitBounds(L.latLngBounds(wallLatLngs()).pad(0.6), { maxZoom: 17 });
+    else if (pts.length >= 2) tmap.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 16 });
     else tmap.setView(A.CENTER, 15);
   }
 

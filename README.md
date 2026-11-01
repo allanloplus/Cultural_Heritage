@@ -62,10 +62,10 @@ python3 tools/gen_audio.py
 純靜態網站，不需要後端。
 
 ```bash
-python3 -m http.server 8000
+python3 tools/serve.py
 ```
 
-開啟 http://localhost:8000 即可預覽。
+開啟 http://localhost:8000 即可預覽。這個預覽伺服器支援 HTTP Range，語音可以跳句。Python 內建的 `python3 -m http.server` 不支援 Range，用它預覽時按「下一句」會從頭播放；GitHub Pages 沒有這個問題。
 
 上線用 GitHub Pages：Settings → Pages → Deploy from a branch，選要發布的分支與 `/ (root)`。
 

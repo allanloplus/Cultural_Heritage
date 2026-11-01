@@ -65,7 +65,7 @@
     var placed = [];
     function card(s, showYear) {
       var im = s.images[0];
-      return (im ? '<img src="' + esc(A.pic(im, true)) + '" alt="" loading="lazy">' : '<div style="aspect-ratio:4/3;border-radius:8px;display:grid;place-items:center;background:' + A.CAT[s.category].hex + ';color:#fff;font-size:1.4rem">' + A.CAT[s.category].k + '</div>') +
+      return (im ? '<img src="' + esc(A.pic(im, true)) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' : '<div style="aspect-ratio:4/3;border-radius:8px;display:grid;place-items:center;background:' + A.CAT[s.category].hex + ';color:#fff;font-size:1.4rem">' + A.CAT[s.category].k + '</div>') +
         '<div>' + esc(s.short) + '</div>' + (showYear ? '<div class="yr">' + esc(String(s.year)) + '</div>' : "");
     }
     function draw(check) {
@@ -137,7 +137,7 @@
     el.innerHTML = host("A", "smile", "把照片和名字配成一對！翻兩張，一樣的景點就配對成功。") + '<p class="score" id="mStat">步數 0</p><div class="mem-grid">' +
       cards.map(function (c, i) {
         return '<button class="mem" type="button" data-i="' + i + '" aria-label="翻牌"><div class="mem-in"><div class="mem-f">文</div><div class="mem-b">' +
-          (c.t === "img" ? '<img src="' + esc(A.pic(c.s.images[0], true)) + '" alt="' + esc(c.s.short) + '" loading="lazy">' : esc(c.s.short)) + '</div></div></button>';
+          (c.t === "img" ? '<img src="' + esc(A.pic(c.s.images[0], true)) + '" alt="' + esc(c.s.short) + '" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' : esc(c.s.short)) + '</div></div></button>';
       }).join("") + '</div>';
     $$(".mem", el).forEach(function (b) {
       b.onclick = function () {

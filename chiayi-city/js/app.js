@@ -155,7 +155,7 @@
     var pool = SITES.filter(function (s) { return s.images.length; });
     var s = pool[Math.floor(Math.random() * pool.length)];
     var im = s.images[0];
-    $("#todayPick").innerHTML = '<img src="' + esc(pic(im)) + '" alt="' + esc(s.name) + '" loading="lazy">' +
+    $("#todayPick").innerHTML = '<img src="' + esc(pic(im)) + '" alt="' + esc(s.name) + '" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' +
       '<div><p class="eyebrow">' + esc(s.category) + '・' + esc(s.yearText) + '</p><h3>' + esc(s.name) + '</h3><p class="d-sum">' + esc(s.summary) + '</p><p style="margin:8px 0 12px">' + esc(s.intro.slice(0, 120)) + '…</p>' +
       '<a class="btn btn-teal" href="#map/' + s.id + '">去地圖看看・聽導覽</a>' +
       '<p class="muted" style="font-size:.75rem;margin-top:8px">照片：' + esc(im.artist) + '，' + esc(im.license) + '，<a href="' + esc(im.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a></p></div>';
@@ -229,7 +229,7 @@
     var venues = (filt.cats["無形文資"] && !filt.era && !filt.theme) ? (CY.ich.venues || []).filter(function (v) { return !filt.q || (v.name + JSON.stringify(v.antiquities || [])).indexOf(filt.q) >= 0; }) : [];
     $("#count").textContent = "顯示 " + list.length + " 處文化資產" + (venues.length ? "、" + venues.length + " 處無形文資／古物展示點" : "");
     $("#siteList").innerHTML = list.map(function (s) {
-      var c = CAT[s.category], th = s.images[0] ? '<img class="thumb" src="' + esc(pic(s.images[0], true)) + '" alt="" loading="lazy">' : '<span class="thumb" style="background:' + c.hex + '">' + c.k + '</span>';
+      var c = CAT[s.category], th = s.images[0] ? '<img class="thumb" src="' + esc(pic(s.images[0], true)) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' : '<span class="thumb" style="background:' + c.hex + '">' + c.k + '</span>';
       return '<li class="site-item' + (s.id === openId ? " is-on" : "") + '" data-id="' + s.id + '" tabindex="0">' + th + '<div><h3>' + esc(s.name) + '</h3><p>' + esc(s.summary) + '</p><div class="meta"><span class="tag" style="color:' + c.hex + '">' + s.category + '</span><span class="tag">' + esc(String(s.year)) + '</span></div></div></li>';
     }).join("") + venues.map(function (v) {
       return '<li class="site-item' + (v.id === openId ? " is-on" : "") + '" data-id="' + v.id + '" tabindex="0"><span class="thumb" style="background:' + CAT["無形文資"].hex + '">藝</span><div><h3>' + esc(v.name) + '</h3><p>' + esc(venueSummary(v)) + '</p></div></li>';
@@ -252,13 +252,13 @@
         '<a class="chip" href="https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(s.name + " 嘉義") + '" target="_blank" rel="noopener">Google 圖片</a></div></div></div>';
     }
     var ims = s.images;
-    return '<figure class="gallery" data-i="0"><img src="' + esc(pic(ims[0])) + '" alt="' + esc(s.name) + '" width="960" height="720">' +
+    return '<figure class="gallery" data-i="0"><img src="' + esc(pic(ims[0])) + '" alt="' + esc(s.name) + '" width="960" height="720" onerror="this.onerror=null;this.src=\'../assets/img-fallback.svg\'">' +
       (ims.length > 1 ? '<button class="gal-nav gal-prev" type="button" aria-label="上一張">‹</button><button class="gal-nav gal-next" type="button" aria-label="下一張">›</button><span class="gal-count">1 / ' + ims.length + '</span>' : "") +
       '<figcaption></figcaption></figure>';
   }
   function setGal(el, s, i) {
     var im = s.images[i];
-    $("img", el).src = pic(im);
+    var gi = $("img", el); gi.onerror = function () { gi.onerror = null; gi.src = "../assets/img-fallback.svg"; }; gi.src = pic(im);
     $("figcaption", el).innerHTML = '照片：' + esc(im.artist || "佚名") + '・' + (im.licenseUrl ? '<a href="' + esc(im.licenseUrl) + '" target="_blank" rel="noopener">' + esc(im.license) + '</a>' : esc(im.license)) + '・<a href="' + esc(im.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' +
       (s.officialImg ? '・<a href="' + esc(s.officialImg) + '" target="_blank" rel="noopener">文資局代表圖</a>' : "");
     var c = $(".gal-count", el); if (c) c.textContent = (i + 1) + " / " + s.images.length;
