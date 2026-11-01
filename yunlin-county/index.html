@@ -1,0 +1,174 @@
+<!doctype html>
+<!-- 由 tools/build_data.py 依 tools/city_template.html 與 <city>/data/config.json 產生，請勿直接修改 -->
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>雲林縣｜Allan Lo 和你逛文化</title>
+<meta name="description" content="Allan Lo 與 AI 小助手阿拉蕾帶你逛雲林縣文化資產：北港朝天宮、西螺大橋、虎尾糖廠與上百處歷史建築，文資地圖、語音導覽、荷蘭時期到現在的時光地圖、行程規劃與知識遊戲。">
+<link rel="icon" href="../assets/characters/allan-smile.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="stylesheet" href="../assets/css/city.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../" title="回到 Allan Lo 和你逛文化 首頁"><img src="../assets/characters/allan-smile.webp" alt="" width="36" height="36"><span class="brand-name">Allan Lo <small>和你逛文化</small></span></a>
+    <span class="city-tag">雲林縣</span>
+    <nav class="nav" aria-label="主選單">
+      <a href="#home" data-view="home">首頁</a>
+      <a href="#map" data-view="map">文資地圖</a>
+      <a href="#time" data-view="time">時光地圖</a>
+      <a href="#plan" data-view="plan">行程規劃</a>
+      <a href="#games" data-view="games">知識遊戲</a>
+      <a href="#about" data-view="about">關於</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ============ 首頁 ============ -->
+  <section id="view-home" class="view" data-view="home" hidden>
+    <div class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">媽祖・糖廠・布袋戲　雲林縣文化資產導覽</p>
+          <h1>Allan Lo 和你逛文化<span>雲林縣篇</span></h1>
+          <p class="lede">從北港朝天宮的香火、西螺大橋的紅色鋼梁，到虎尾糖廠的五分車與斗六的日式宿舍。點開地圖，Allan 和阿拉蕾會用聲音帶你走一遍。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#map">打開文資地圖</a>
+            <a class="btn" href="#time">坐上時光機</a>
+            <a class="btn" href="#plan">幫我排行程</a>
+          </div>
+        </div>
+        <div class="hero-cast" aria-hidden="true">
+          <img class="cast-allan" src="../assets/characters/allan-wave.webp" alt="" width="560" height="657">
+          <img class="cast-arale" src="../assets/characters/arale-wave.webp" alt="" width="311" height="640">
+        </div>
+      </div>
+      <div class="rail" aria-hidden="true"></div>
+    </div>
+
+    <div class="wrap home-body">
+      <div class="home-intro">
+        <h2 class="sec-title">先聽我們聊聊雲林</h2>
+        <div id="introPlayer"></div>
+      </div>
+      <div class="stats" id="stats"></div>
+
+      <h2 class="sec-title">四種逛法</h2>
+      <div class="feature-grid">
+        <a class="feature" href="#map"><img src="../assets/characters/allan-point.webp" alt="" width="120" height="131" loading="lazy"><h3>文資地圖</h3><p>國定古蹟、縣定古蹟、歷史建築、聚落、考古遺址、文化景觀共一百多處，可依鄉鎮篩選；點景點就有雙人語音導覽、代表圖片與官方資料。</p></a>
+        <a class="feature" href="#time"><img src="../assets/characters/arale-surprised.webp" alt="" width="120" height="131" loading="lazy"><h3>時光地圖</h3><p>荷蘭、明鄭、清朝、日治、民國初年、民國60年到現在，疊上當年的老地圖，看濁水溪、糖廠鐵道與城鎮怎麼改變。</p></a>
+        <a class="feature" href="#plan"><img src="../assets/characters/allan-think.webp" alt="" width="120" height="131" loading="lazy"><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike（顯示借車與還車站），也能自選景點。</p></a>
+        <a class="feature" href="#games"><img src="../assets/characters/arale-fight.webp" alt="" width="120" height="131" loading="lazy"><h3>知識遊戲</h3><p>問答王、時光排序、猜猜我是誰、翻翻樂、雲林擲骰大冒險，集滿你的文資護照。</p></a>
+      </div>
+
+      <h2 class="sec-title">今天推薦你去</h2>
+      <div id="todayPick" class="today"></div>
+    </div>
+  </section>
+
+  <!-- ============ 文資地圖 ============ -->
+  <section id="view-map" class="view view-split" data-view="map" hidden>
+    <aside class="side" id="mapSide" aria-label="文化資產清單">
+      <div class="side-scroll">
+      <div class="side-head">
+        <label class="search"><span class="sr-only">搜尋文化資產</span><input id="q" type="search" placeholder="搜尋名稱、地址、關鍵字…" autocomplete="off"></label>
+        <div class="chips" id="catChips" role="group" aria-label="類別篩選"></div>
+        <div class="filter-row">
+          <label>時期 <select id="eraSel"><option value="">全部</option></select></label>
+          <label>主題 <select id="themeSel"><option value="">全部</option></select></label>
+        </div>
+        <div class="filter-row" id="townWrap" hidden><label>地區 <select id="townSel"><option value="">全部鄉鎮市</option></select></label></div>
+        <p class="count" id="count"></p>
+      </div>
+      <ol class="site-list" id="siteList"></ol>
+      </div>
+      <button class="side-toggle btn btn-sm" id="sideToggle" type="button" aria-expanded="true">清單</button>
+    </aside>
+    <div class="mapwrap"><div id="smap" class="map" role="application" aria-label="雲林縣文化資產地圖"></div></div>
+    <article class="drawer" id="drawer" aria-live="polite" hidden></article>
+  </section>
+
+  <!-- ============ 時光地圖 ============ -->
+  <section id="view-time" class="view view-time" data-view="time" hidden>
+    <div class="era-bar" id="eraBar" role="tablist" aria-label="時期"></div>
+    <div class="time-body">
+      <div class="mapwrap">
+        <div id="tmap" class="map" role="application" aria-label="雲林縣時光地圖"></div>
+        <div class="tm-tools card" id="tmTools"></div>
+        <div class="swipe" id="swipe" hidden><div class="swipe-line"></div><button class="swipe-knob" type="button" aria-label="拖曳左右對照">⇆</button></div>
+        <div class="tm-label" id="tmLabel"></div>
+      </div>
+      <aside class="era-panel" id="eraPanel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <!-- ============ 行程規劃 ============ -->
+  <section id="view-plan" class="view view-split view-plan" data-view="plan" hidden>
+    <aside class="side plan-side" id="planSide" aria-label="行程規劃">
+      <div class="plan-scroll">
+        <div id="planIntro"></div>
+        <form id="planForm" class="plan-form" onsubmit="return false">
+          <fieldset><legend><b>1</b> 玩幾天？</legend><div class="chips" id="pDays" role="radiogroup"></div></fieldset>
+          <fieldset><legend><b>2</b> 怎麼移動？</legend><div class="chips" id="pMode" role="radiogroup"></div><p class="hint" id="modeHint"></p></fieldset>
+          <fieldset><legend><b>3</b> 景點怎麼選？</legend><div class="chips" id="pPick" role="radiogroup"></div>
+            <div id="pickBox" class="pick-box" hidden></div></fieldset>
+          <fieldset><legend><b>4</b> 從哪裡出發？</legend><select id="pStart"></select>
+            <label class="inline">步調 <select id="pPace"><option value="0.75">快速</option><option value="1" selected>標準</option><option value="1.3">悠閒</option></select></label>
+            <label class="inline">出發時間 <input id="pTime" type="time" value="09:00"></label></fieldset>
+          <button class="btn btn-primary btn-block" id="pGo" type="button">產生行程</button>
+        </form>
+        <div id="planOut" class="plan-out"></div>
+      </div>
+    </aside>
+    <div class="mapwrap"><div id="pmap" class="map" role="application" aria-label="行程地圖"></div></div>
+  </section>
+
+  <!-- ============ 知識遊戲 ============ -->
+  <section id="view-games" class="view" data-view="games" hidden>
+    <div class="wrap games-wrap">
+      <div class="games-head">
+        <div><h2 class="sec-title">知識遊戲場</h2><p class="muted">玩遊戲蓋護照章，玩著玩著就把雲林的文化資產記起來了。</p></div>
+        <div id="gameIntro"></div>
+      </div>
+      <div class="game-grid" id="gameGrid"></div>
+      <div class="game-stage card" id="gameStage" hidden></div>
+      <h2 class="sec-title">我的文資護照</h2>
+      <div class="passport card" id="passport"></div>
+    </div>
+  </section>
+
+  <!-- ============ 關於 ============ -->
+  <section id="view-about" class="view" data-view="about" hidden>
+    <div class="wrap about" id="aboutBody"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>規劃設計：Allan Lo，2026/11/1　｜　使用 AI 工具：Claude Opus 5.5</span>
+    <span>資料來源：文化部文化資產局、雲林縣政府、中研院臺灣百年歷史地圖、Wikimedia Commons、YouBike — 詳見 <a href="#about">關於</a></span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../assets/js/characters.js"></script>
+<script>Characters.setBase("../assets/characters/");</script>
+<script src="../assets/js/voice.js"></script>
+<script src="js/data.js"></script>
+<script src="audio/cues.js"></script>
+<script src="../assets/js/city/app.js"></script>
+<script src="../assets/js/city/timemap.js"></script>
+<script src="../assets/js/city/planner.js"></script>
+<script src="../assets/js/city/games.js"></script>
+</body>
+</html>
