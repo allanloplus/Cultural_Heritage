@@ -97,6 +97,14 @@ async def main():
             index = json.loads(txt[start:txt.rindex(")")])
         keep = {t["id"] for t in g["tracks"]}
         index = {k: v for k, v in index.items() if k in keep}
+        def save():
+            # 每完成一段就寫回 cues.js：合成到一半中斷時，已完成的語音也能正常播放
+            tmp = cues_path + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                f.write("/* 由 tools/gen_audio.py 產生，請勿手動編修 */\nwindow.AUDIO_CUES = Object.assign(window.AUDIO_CUES || {}, ")
+                json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+                f.write(");\n")
+            os.replace(tmp, cues_path)
         for tr in g["tracks"]:
             name, lines = tr["id"], tr["lines"]
             if only and name not in only:
@@ -108,11 +116,9 @@ async def main():
             paths = await asyncio.gather(*[synth(l["who"], l["text"], sem) for l in lines])
             cues, total = pack(out_dir, name, lines, paths)
             index[name] = {"duration": total, "cues": cues}
+            save()
             print(g["dir"], name, len(lines), "句", total, "秒", flush=True)
-        with open(cues_path, "w", encoding="utf-8") as f:
-            f.write("/* 由 tools/gen_audio.py 產生，請勿手動編修 */\nwindow.AUDIO_CUES = Object.assign(window.AUDIO_CUES || {}, ")
-            json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(");\n")
+        save()
         # 清掉已不存在的 mp3
         for fn in os.listdir(out_dir):
             if fn.endswith(".mp3") and fn[:-4] not in keep:
