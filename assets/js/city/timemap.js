@@ -18,20 +18,19 @@
   var L1989 = sinica("TM25K_1989", "jpg", 16, { name: "1989 經建一版地形圖（對照用）" });
   var LPHOTO = { name: "現今正射影像（國土測繪中心）", url: "https://wmts.nlsc.gov.tw/wmts/PHOTO2/default/GoogleMapsCompatible/{z}/{y}/{x}", maxNative: 19, attr: "&copy; 內政部國土測繪中心" };
 
-  var CONF = {
-    dutch: { layers: [], paper: true, end: 1662, note: "荷蘭時期沒有實測地圖，底圖改成古紙風格，標示的是推定位置。" },
-    zheng: { layers: [], paper: true, end: 1683, note: "明鄭時期沒有實測地圖，底圖改成古紙風格，標示的是推定位置。" },
-    qing: { layers: [L1904], end: 1895, wall: true, note: "1904 年的臺灣堡圖測繪於 1906 年梅山大地震之前，還看得到清代嘉義城的輪廓。這張老地圖圖層本身比現代街道約偏東北 60 公尺，所以紅色虛線（已校正到今日位置）會看起來比圖上的城牆略偏西南。" },
-    japan: { layers: [L1921, L1945, L1944], end: 1945, note: "比較 1921 與 1945：市區改正後的棋盤街道與圓環逐漸成形。" },
-    "early-roc": { layers: [L1950, L1945], end: 1960, note: "1950 年的地形圖：戰後初期的嘉義市街。" },
-    roc60: { layers: [L1966, LCOR], end: 1981, note: "1957–1969 地形圖與 1966 年 Corona 衛星影像：民國 60 年前後的嘉義。" },
-    now: { layers: [LPHOTO, L1989], end: 2026, opacity: 0, note: "今天的嘉義市。可疊上正射影像或 1989 年的地形圖做對照。" }
-  };
+  var LAYERS = { "1904": L1904, "1921": L1921, "1944": L1944, "1945": L1945, "1950": L1950, "1966": L1966, corona: LCOR, "1989": L1989, photo: LPHOTO };
+  /* 各時期要疊的老地圖、時間範圍與說明在 config.json → eras */
+  var CONF = {};
+  Object.keys(A.CFG.eras || {}).forEach(function (k) {
+    var e = A.CFG.eras[k];
+    CONF[k] = Object.assign({}, e, { layers: (e.layers || []).map(function (id) { return LAYERS[id]; }).filter(Boolean) });
+  });
+
 
   var tmap, overlay = null, eraIdx = -1, swipeOn = false, swipeX = 0.5, lmLayer, siteLayer, wallLayer, ghostWall, panelPlayer = null, introDone = false;
 
   function initMap() {
-    tmap = L.map("tmap", { minZoom: 11, maxZoom: 19 }).setView(A.CENTER, 15);
+    tmap = L.map("tmap", { minZoom: A.CFG.minZoom, maxZoom: 19 }).setView(A.CENTER, A.CFG.timeZoom || 15);
     var bl = A.baseLayers();
     bl["通用電子地圖（國土測繪中心）"].addTo(tmap);
     L.control.layers(bl, null, { position: "topright" }).addTo(tmap);
@@ -57,7 +56,7 @@
     var pts = wallLatLngs();
     if (!pts) return;
     L.polygon(pts, strong ? { color: "#b23a3a", weight: 4, dashArray: "8 6", fillColor: "#b23a3a", fillOpacity: .06 } : { color: "#b23a3a", weight: 2, dashArray: "4 8", fill: false, opacity: .7 })
-      .bindTooltip("清代嘉義城（推定範圍）", { sticky: true, className: "tip" }).addTo(wallLayer);
+      .bindTooltip((CY.qingCity.name || "清代城牆") + "（推定範圍）", { sticky: true, className: "tip" }).addTo(wallLayer);
     if (strong) gates().forEach(function (g) {
       if (g.lat == null) return;
       L.marker([g.lat, g.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:#7a2b2b"><b>門</b></div>', iconSize: [30, 30], iconAnchor: [4, 30] }) })
@@ -119,7 +118,7 @@
       var i = sel ? +sel.value : -1, o = opEl ? +opEl.value : 0.85;
       if (i >= 0 && o === 0) { o = 0.85; opEl.value = o; }
       setOverlay(i >= 0 ? conf.layers[i] : null, o);
-      if (i < 0) $("#tmLabel").textContent = "現在的嘉義市";
+      if (i < 0) $("#tmLabel").textContent = "現在的" + A.CFG.name;
     };
     if (sel) { sel.onchange = apply; opEl.oninput = function () { if (overlay) overlay.setOpacity(+this.value); }; }
     if (swEl) swEl.onchange = function () { swipeOn = this.checked; $("#swipe").hidden = !swipeOn; if (swipeOn && opEl && +opEl.value < 1) { opEl.value = 1; if (overlay) overlay.setOpacity(1); } clip(); };
@@ -181,8 +180,9 @@
     // 視野
     var pts = (e.landmarks || []).filter(function (m) { return m.lat != null; }).map(function (m) { return [m.lat, m.lng]; });
     if (conf.wall && wallLatLngs()) tmap.fitBounds(L.latLngBounds(wallLatLngs()).pad(0.6), { maxZoom: 17 });
+    else if (e.view && e.view.lat != null) tmap.setView([e.view.lat, e.view.lng], e.view.zoom || A.CFG.timeZoom || 15);
     else if (pts.length >= 2) tmap.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 16 });
-    else tmap.setView(A.CENTER, 15);
+    else tmap.setView(A.CENTER, A.CFG.timeZoom || 15);
   }
 
   A.register("time", { show: function (args) {

@@ -1,48 +1,62 @@
-"""合併嘉義市資料 → chiayi-city/js/data.js，並產生語音腳本 tools/script.json
-用法：python3 tools/build_data.py && python3 tools/gen_audio.py
-資料來源（chiayi-city/data/）：
+"""合併各縣市資料 → <city>/js/data.js、<city>/index.html，並產生語音腳本 tools/script.json
+用法：python3 tools/build_data.py   # 建立所有縣市（有 <city>/data/config.json 的資料夾）
+接著：python3 tools/gen_audio.py
+
+每個縣市資料夾 <city>/data/：
+  config.json          縣市設定（地圖中心、YouBike 區碼、時光地圖圖層、行程設定、頁面文字）
   sites-official.json  文化部文化資產局開放資料（名稱、類別、地址、座標、官方連結）
-  sites-content.json   導覽文字、雙人對話、題目
+  sites-content.json   導覽文字、雙人對話、題目（可含 lat/lng 修正後座標）
   images.json          Wikimedia Commons 圖片與授權
   eras.json            時光地圖各時期內容
   ich.json             無形文化資產、古物與展示地點
-  ubike.json           YouBike 2.0 嘉義市站點
-  extra.json           開場對話、遊戲回饋、推薦行程
+  ubike.json           YouBike 2.0 站點
+  extra.json           開場對話、遊戲回饋、推薦行程、出發點
+網頁共用程式在 assets/js/city/，版面在 tools/city_template.html。
 """
-import json, os, re
+import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CITY = os.path.join(ROOT, "chiayi-city")
-D = os.path.join(CITY, "data")
 
 
-def load(name, default=None):
-    p = os.path.join(D, name)
-    if not os.path.exists(p):
+def load(path, default=None):
+    if not os.path.exists(path):
         return default
-    with open(p, encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-CAT_ORDER = ["國定古蹟", "市定古蹟", "歷史建築", "聚落建築群", "文化景觀"]
+def cities():
+    out = []
+    for name in sorted(os.listdir(ROOT)):
+        if os.path.exists(os.path.join(ROOT, name, "data", "config.json")):
+            out.append(name)
+    return out
 
 
-def main():
-    official = load("sites-official.json")
-    content = {c["id"]: c for c in load("sites-content.json")}
-    images = load("images.json", {})
-    eras = load("eras.json", {"eras": [], "qingCity": None})
-    ich = load("ich.json", {"items": [], "venues": []})
-    ubike = load("ubike.json")
-    extra = load("extra.json")
+def build_city(slug):
+    city = os.path.join(ROOT, slug)
+    D = os.path.join(city, "data")
+    cfg = load(os.path.join(D, "config.json"))
+    official = load(os.path.join(D, "sites-official.json"))
+    content = {c["id"]: c for c in load(os.path.join(D, "sites-content.json"))}
+    images = load(os.path.join(D, "images.json"), {})
+    eras = load(os.path.join(D, "eras.json"), {"eras": [], "qingCity": None})
+    ich = load(os.path.join(D, "ich.json"), {"items": [], "venues": []})
+    ubike = load(os.path.join(D, "ubike.json"), {"meta": {}, "stations": []})
+    extra = load(os.path.join(D, "extra.json"))
+    cats = cfg["categories"]
 
     sites = []
     for o in official:
         c = content[o["id"]]
+        lat = c.get("lat") if c.get("lat") is not None else o["lat"]
+        lng = c.get("lng") if c.get("lng") is not None else o["lng"]
+        addr = (o.get("address") or "").replace(cfg["name"], "")
         s = {
             "id": o["id"], "name": o["name"], "short": c["short"], "category": o["category"],
-            "types": o.get("types") or [], "lat": round(o["lat"], 6), "lng": round(o["lng"], 6),
-            "address": "嘉義市" + (o.get("address") or "").replace("嘉義市", ""),
+            "level": o.get("level") or "", "town": o.get("town") or "",
+            "types": o.get("types") or [], "lat": round(lat, 6), "lng": round(lng, 6),
+            "address": cfg["name"] + addr,
             "announced": o.get("announced"), "url": o["url"], "officialImg": o.get("officialImg"),
             "year": c["year"], "yearText": c["yearText"], "era": c["era"], "themes": c["themes"],
             "summary": c["summary"], "intro": c["intro"], "highlights": c["highlights"],
@@ -51,12 +65,14 @@ def main():
             "images": images.get(o["id"], []),
         }
         sites.append(s)
-    sites.sort(key=lambda s: (CAT_ORDER.index(s["category"]) if s["category"] in CAT_ORDER else 9, s["year"]))
+    sites.sort(key=lambda s: (cats.index(s["category"]) if s["category"] in cats else 9, s["year"]))
 
+    cfg_out = {k: v for k, v in cfg.items() if k != "html"}
     data = {
-        "meta": {"city": "嘉義市", "slug": "chiayi-city", "updated": "2026-11-01",
+        "meta": {"city": cfg["name"], "slug": slug, "updated": "2026-11-01",
                  "designer": "Allan Lo", "designed": "2026/11/1", "ai": "Claude Opus 5.5"},
-        "categories": CAT_ORDER,
+        "config": cfg_out,
+        "categories": cats,
         "sites": sites,
         "eras": eras.get("eras", []),
         "qingCity": eras.get("qingCity"),
@@ -64,13 +80,19 @@ def main():
         "ubike": ubike,
         "extra": extra,
     }
-    os.makedirs(os.path.join(CITY, "js"), exist_ok=True)
-    with open(os.path.join(CITY, "js", "data.js"), "w", encoding="utf-8") as f:
-        f.write("/* 由 tools/build_data.py 產生，請改 chiayi-city/data/*.json 後重新產生 */\nwindow.CY = ")
+    os.makedirs(os.path.join(city, "js"), exist_ok=True)
+    with open(os.path.join(city, "js", "data.js"), "w", encoding="utf-8") as f:
+        f.write("/* 由 tools/build_data.py 產生，請改 %s/data/*.json 後重新產生 */\nwindow.CY = " % slug)
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";\n")
 
-    # ---- 語音腳本 ----
+    # 頁面
+    tpl = open(os.path.join(ROOT, "tools", "city_template.html"), encoding="utf-8").read()
+    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"])
+    html = re.sub(r"\{\{(\w+)\}\}", lambda m: vals[m.group(1)], tpl)
+    with open(os.path.join(city, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
     tracks = [
         {"id": "intro", "lines": extra["intro"]},
         {"id": "time-intro", "lines": extra["timeIntro"]},
@@ -81,24 +103,28 @@ def main():
     tracks += [{"id": "site-" + s["id"], "lines": s["dialogue"]} for s in sites]
     tracks += [{"id": "era-" + e["id"], "lines": e["dialogue"]} for e in data["eras"] if e.get("dialogue")]
     tracks += [{"id": i["id"], "lines": i["dialogue"]} for i in ich.get("items", []) if i.get("dialogue")]
-    portal = json.load(open(os.path.join(ROOT, "tools", "portal.json"), encoding="utf-8"))
-    script = {"groups": [
-        {"dir": "chiayi-city/audio", "tracks": tracks},
-        {"dir": "audio", "tracks": [{"id": "portal", "lines": portal["dialogue"]}]},
-    ]}
-    bad = []
-    for g in script["groups"]:
+    print(slug, "sites", len(sites), "eras", len(data["eras"]), "ich", len(ich.get("items", [])),
+          "ubike", len(ubike.get("stations", [])), "tracks", len(tracks))
+    return {"dir": slug + "/audio", "tracks": tracks}
+
+
+def main():
+    groups = []
+    for c in cities():  # 每次都建所有縣市（很快），語音腳本才會完整
+        if not os.path.exists(os.path.join(ROOT, c, "data", "sites-content.json")):
+            print("skip", c, "(尚未有 sites-content.json)")
+            continue
+        groups.append(build_city(c))
+    portal = load(os.path.join(ROOT, "tools", "portal.json"))
+    groups.append({"dir": "audio", "tracks": [{"id": "portal", "lines": portal["dialogue"]}]})
+    for g in groups:
         for t in g["tracks"]:
             for l in t["lines"]:
                 if l["who"] not in ("A", "R") or not l["text"].strip():
-                    bad.append((t["id"], l))
-    if bad:
-        raise SystemExit("invalid lines: %r" % bad[:5])
+                    raise SystemExit("invalid line in %s/%s: %r" % (g["dir"], t["id"], l))
     with open(os.path.join(ROOT, "tools", "script.json"), "w", encoding="utf-8") as f:
-        json.dump(script, f, ensure_ascii=False, indent=1)
-    n = sum(len(t["lines"]) for g in script["groups"] for t in g["tracks"])
-    print("sites", len(sites), "eras", len(data["eras"]), "ich", len(ich.get("items", [])),
-          "tracks", sum(len(g["tracks"]) for g in script["groups"]), "lines", n)
+        json.dump({"groups": groups}, f, ensure_ascii=False, indent=1)
+    print("lines", sum(len(t["lines"]) for g in groups for t in g["tracks"]))
 
 
 if __name__ == "__main__":

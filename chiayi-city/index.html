@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- 由 tools/build_data.py 依 tools/city_template.html 與 <city>/data/config.json 產生，請勿直接修改 -->
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
@@ -11,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="../assets/css/site.css">
-<link rel="stylesheet" href="css/city.css">
+<link rel="stylesheet" href="../assets/css/city.css">
 </head>
 <body>
 
@@ -84,6 +85,7 @@
           <label>時期 <select id="eraSel"><option value="">全部</option></select></label>
           <label>主題 <select id="themeSel"><option value="">全部</option></select></label>
         </div>
+        <div class="filter-row" id="townWrap" hidden><label>地區 <select id="townSel"><option value="">全部鄉鎮市</option></select></label></div>
         <p class="count" id="count"></p>
       </div>
       <ol class="site-list" id="siteList"></ol>
@@ -164,9 +166,9 @@
 <script src="../assets/js/voice.js"></script>
 <script src="js/data.js"></script>
 <script src="audio/cues.js"></script>
-<script src="js/app.js"></script>
-<script src="js/timemap.js"></script>
-<script src="js/planner.js"></script>
-<script src="js/games.js"></script>
+<script src="../assets/js/city/app.js"></script>
+<script src="../assets/js/city/timemap.js"></script>
+<script src="../assets/js/city/planner.js"></script>
+<script src="../assets/js/city/games.js"></script>
 </body>
 </html>

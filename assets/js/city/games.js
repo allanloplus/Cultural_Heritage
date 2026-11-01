@@ -1,4 +1,4 @@
-/* 知識遊戲：問答王、時光排序、猜猜我是誰、翻翻樂、桃城擲骰大冒險（對戰阿拉蕾）＋文資護照 */
+/* 知識遊戲：問答王、時光排序、猜猜我是誰、翻翻樂、擲骰大冒險（對戰阿拉蕾）＋文資護照（各縣市共用） */
 (function () {
   "use strict";
   var A = window.App, CY = A.CY, V = window.Voice, C = window.Characters, esc = V.esc, $ = A.$, $$ = A.$$;
@@ -11,7 +11,7 @@
     { id: "timeline", ico: "⏳", name: "時光排序", desc: "抽 5 張文資卡，依興建年代由古到今點選排好。考驗你的歷史感！", run: timeline },
     { id: "guess", ico: "🕵️", name: "猜猜我是誰", desc: "線索一條一條打開，越早猜中分數越高。5 回合拿 9 分以上蓋章。", run: guess },
     { id: "memory", ico: "🃏", name: "文資翻翻樂", desc: "翻開照片和名字，把同一個景點配成一對。", run: memory },
-    { id: "board", ico: "🎲", name: "桃城擲骰大冒險", desc: "你和 Allan 一隊，對戰阿拉蕾！擲骰繞城，答對題目佔領景點，佔得多的贏。", run: board }
+    { id: "board", ico: "🎲", name: (A.CFG.board && A.CFG.board.name) || "擲骰大冒險", desc: "你和 Allan 一隊，對戰阿拉蕾！擲骰繞城，答對題目佔領景點，佔得多的贏。", run: board }
   ];
 
   var stage, cleanup = null;
@@ -42,7 +42,7 @@
     function next() {
       if (i >= qs.length) {
         var pass = score >= 7;
-        el.innerHTML = host(pass ? "A" : "R", pass ? "laugh" : "sad", pass ? "太厲害了！你答對 " + score + " 題，是桃城文資通！" : "答對 " + score + " 題，再挑戰一次一定可以！") +
+        el.innerHTML = host(pass ? "A" : "R", pass ? "laugh" : "sad", pass ? "太厲害了！你答對 " + score + " 題，是" + (A.CFG.quizTitle || "文資通") + "！" : "答對 " + score + " 題，再挑戰一次一定可以！") +
           '<p class="score">得分：' + score + ' / ' + qs.length + '</p><button class="btn btn-primary" type="button" id="qAgain">再玩一次</button>';
         if (pass) A.stamp("game-quiz");
         react(pass ? 5 : 3);
@@ -170,7 +170,7 @@
     for (c = 6; c >= 1; c--) POS.push([5, c]);
     for (r = 4; r >= 2; r--) POS.push([r, 1]);
     var SPECIAL = {
-      0: { n: "出發：嘉義火車站", t: "start" },
+      0: { n: (A.CFG.board && A.CFG.board.start) || "出發", t: "start" },
       4: { n: "阿里山小火車", t: "train", d: "搭上小火車，前進 3 格！" },
       9: { n: "雞肉飯補給站", t: "rice", d: "吃飽了有力氣，再擲一次！" },
       13: { n: "時光機", t: "time", d: "答對一題時光題，直接得 1 分！" },

@@ -3,20 +3,22 @@
 (function () {
   "use strict";
   var A = window.App, CY = A.CY, V = window.Voice, esc = V.esc, $ = A.$, $$ = A.$$;
-  var X = CY.extra;
+  var X = CY.extra, PC = A.CFG.planner || {}, SP = PC.speeds || {}, HINT = PC.hints || {};
 
   var MODES = {
-    car: { name: "開車", profile: "routed-car", kmh: 22, detour: 1.35, extra: 8, osrmFactor: 1.35, gm: "driving",
-      hint: "舊城區巷道窄、停車位有限，建議停在公有停車場後步行串聯鄰近景點；每站已預留約 8 分鐘停車時間。" },
-    scooter: { name: "機車", profile: "routed-car", kmh: 24, detour: 1.3, extra: 3, osrmFactor: 1.15, gm: "driving",
-      hint: "請停放在機車停車格，留意市區單行道與兩段式左轉。" },
-    bike: { name: "自行車", profile: "routed-bike", kmh: 13, detour: 1.3, extra: 2, osrmFactor: 1.1, gm: "bicycling",
-      hint: "嘉義市區地勢平坦，騎單車很適合；請走自行車道或慢車道並注意安全。" },
+    car: { name: "開車", profile: "routed-car", kmh: SP.car || 22, detour: 1.35, extra: 8, osrmFactor: 1.35, gm: "driving",
+      hint: HINT.car || "每站已預留約 8 分鐘停車時間。" },
+    scooter: { name: "機車", profile: "routed-car", kmh: SP.scooter || 24, detour: 1.3, extra: 3, osrmFactor: 1.15, gm: "driving",
+      hint: HINT.scooter || "請停放在機車停車格，留意單行道與兩段式左轉。" },
+    bike: { name: "自行車", profile: "routed-bike", kmh: SP.bike || 13, detour: 1.3, extra: 2, osrmFactor: 1.1, gm: "bicycling",
+      hint: HINT.bike || "請走自行車道或慢車道並注意安全。" },
     walk: { name: "走路", profile: "routed-foot", kmh: 4.5, detour: 1.25, extra: 0, osrmFactor: 1, gm: "walking",
-      hint: "步行單段超過 25 分鐘會提醒你改騎 YouBike 或搭計程車。" },
-    ubike: { name: "YouBike", profile: "routed-bike", kmh: 13, detour: 1.3, extra: 3, osrmFactor: 1.1, gm: "bicycling",
-      hint: "嘉義市使用 YouBike 2.0：每段會找離景點最近的借車站與還車站，可按「查詢即時車輛」看可借／可還數量。距離 700 公尺內建議直接步行。" }
+      hint: HINT.walk || "步行單段超過 25 分鐘會提醒你改騎 YouBike 或搭計程車。" },
+    ubike: { name: "YouBike", profile: "routed-bike", kmh: SP.ubike || 13, detour: 1.3, extra: 3, osrmFactor: 1.1, gm: "bicycling",
+      hint: HINT.ubike || "每段會找離景點最近的借車站與還車站，可按「查詢即時車輛」看可借／可還數量。距離 700 公尺內建議直接步行。" }
   };
+  /* 走路或騎車距離太遠（例如跨鄉鎮）時改以開車／計程車估算並提醒 */
+  var FAR = { walk: PC.walkMaxKm || 3, bike: PC.bikeMaxKm || 12, ubike: PC.bikeMaxKm || 12 }, UB_MAX = PC.ubikeStationMaxKm || 1.2, TAXI_KMH = SP.car || 22;
   var WALK_KMH = 4.5, DAY_END = 18 * 60, LUNCH = { from: 11 * 60 + 40, len: 60 };
   var DAY_COLORS = ["#df6f57", "#1d6f73", "#6b5bb5", "#b8860b", "#3b7bbf", "#2f7d4f", "#b23a3a"];
   var THEMES = {}; A.sites.forEach(function (s) { s.themes.forEach(function (t) { THEMES[t] = 1; }); });
@@ -86,7 +88,7 @@
   }
 
   function initMap() {
-    pmap = L.map("pmap", { minZoom: 11, maxZoom: 19 }).setView(A.CENTER, 14);
+    pmap = L.map("pmap", { minZoom: A.CFG.minZoom, maxZoom: 19 }).setView(A.CENTER, A.CFG.zoom);
     var bl = A.baseLayers();
     bl["通用電子地圖（國土測繪中心）"].addTo(pmap);
     L.control.layers(bl, null, { position: "topright" }).addTo(pmap);
@@ -112,12 +114,12 @@
   function setStart() {
     var s = X.starts.filter(function (x) { return x.id === st.start; })[0];
     if (s.id === "gps") {
-      if (!navigator.geolocation) { A.toast("此裝置無法定位，改用嘉義火車站", "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; drawStart(); return; }
+      if (!navigator.geolocation) { A.toast("此裝置無法定位，改用" + X.starts[0].name, "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; drawStart(); return; }
       navigator.geolocation.getCurrentPosition(function (p) {
         startLL = [p.coords.latitude, p.coords.longitude];
-        if (A.dist(startLL[0], startLL[1], A.CENTER[0], A.CENTER[1]) > 15000) { A.toast("你目前不在嘉義市附近，先以嘉義火車站當出發點", "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; }
+        if (A.dist(startLL[0], startLL[1], A.CENTER[0], A.CENTER[1]) > (PC.farKm || 15) * 1000) { A.toast("你目前不在" + A.CFG.name + "附近，先以" + X.starts[0].name + "當出發點", "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; }
         drawStart();
-      }, function () { A.toast("無法取得位置，改用嘉義火車站", "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; drawStart(); }, { timeout: 8000 });
+      }, function () { A.toast("無法取得位置，改用" + X.starts[0].name, "A", "scratch"); startLL = [X.starts[0].lat, X.starts[0].lng]; drawStart(); }, { timeout: 8000 });
       return;
     }
     if (s.id === "pick") { A.toast("請在右邊地圖上點一下，設定出發點", "R", "explain"); return; }
@@ -156,9 +158,14 @@
 
   function legEstimate(from, to, mode) {
     var M = MODES[mode], d = dkm(from, to);
+    if (FAR[mode] && d > FAR[mode]) return { km: d * 1.35, min: d * 1.35 / TAXI_KMH * 60 + 5, far: true };
     if (mode === "ubike") {
       if (d < 0.7) return { km: d * 1.25, min: d * 1.25 / WALK_KMH * 60, walkOnly: true };
       var b = A.nearestUbike(from[0], from[1], 1)[0], r = A.nearestUbike(to[0], to[1], 1)[0];
+      if (!b || !r || b.d / 1000 > UB_MAX || r.d / 1000 > UB_MAX) {
+        if (d < 2.5) return { km: d * 1.25, min: d * 1.25 / WALK_KMH * 60, walkOnly: true, noUbike: true };
+        return { km: d * 1.35, min: d * 1.35 / TAXI_KMH * 60 + 5, far: true, noUbike: true };
+      }
       var w1 = b.d / 1000 * 1.25, w2 = r.d / 1000 * 1.25, bk = dkm([b.s.lat, b.s.lng], [r.s.lat, r.s.lng]) * M.detour;
       if (b.s.no === r.s.no) return { km: d * 1.25, min: d * 1.25 / WALK_KMH * 60, walkOnly: true };
       return { km: w1 + bk + w2, min: (w1 + w2) / WALK_KMH * 60 + bk / M.kmh * 60 + M.extra, borrow: b.s, ret: r.s, walk1: w1, walk2: w2, bikeKm: bk };
@@ -221,7 +228,8 @@
   function legHtml(leg, mode) {
     var M = MODES[mode];
     if (leg.km < 0.03) return "";
-    if (leg.walkOnly) return '<div class="leg">步行約 ' + Math.round(leg.min) + ' 分（' + A.km(leg.km * 1000) + '，距離近建議步行）</div>';
+    if (leg.far) return '<div class="leg">開車／計程車約 ' + Math.round(leg.min) + ' 分・' + A.km(leg.km * 1000) + '（直線估算）<span class="warn">' + (leg.noUbike ? "附近沒有 YouBike 站，" : "") + '這段距離比較遠，建議開車、搭計程車或公車。</span></div>';
+    if (leg.walkOnly) return '<div class="leg">步行約 ' + Math.round(leg.min) + ' 分（' + A.km(leg.km * 1000) + (leg.noUbike ? "，附近沒有 YouBike 站" : "，距離近建議步行") + '）</div>';
     var h = '<div class="leg">' + M.name + ' 約 ' + Math.round(leg.min) + ' 分・' + A.km(leg.km * 1000) + (leg.osrm ? "（路線估算）" : "（直線估算）");
     if (leg.borrow) {
       h += '<span class="ub" data-b="' + leg.borrow.no + '" data-r="' + leg.ret.no + '"><i class="b">借</i>' + esc(leg.borrow.name) + '（步行 ' + A.km(leg.walk1 * 1000) + '）<span class="lb"></span></span>' +
@@ -246,10 +254,10 @@
         return '<div class="day-card" data-d="' + di + '" style="border-top:5px solid ' + DAY_COLORS[di % DAY_COLORS.length] + '"><h3>第 ' + (di + 1) + ' 天 <small>' + hm(minutes(st.time)) + '–' + hm(d.end) + '・' + d.stops.length + ' 站</small></h3><ol class="stops">' +
           d.stops.map(function (x, k) {
             return legHtml(x.leg, plan.mode) +
-              (x.lunch ? '<div class="leg" style="border-color:var(--sun)">午餐時間（約 1 小時）：東市場、文化路一帶的雞肉飯、砂鍋魚頭都很近</div>' : "") +
+              (x.lunch ? '<div class="leg" style="border-color:var(--sun)">午餐時間（約 1 小時）：' + esc(PC.lunchNote || "附近找間在地小吃") + '</div>' : "") +
               '<li class="stop"><span class="t">' + hm(x.arrive) + '</span><div><h4 data-id="' + x.s.id + '">' + (k + 1) + '. ' + esc(x.s.name) + '</h4><p>停留約 ' + Math.round(x.s.visitMin * st.pace) + ' 分・' + esc(x.s.openNote) + ' <a href="#map/' + x.s.id + '">詳情與語音</a></p></div></li>';
           }).join("") + '</ol>' +
-          '<p class="hint" style="margin-top:6px">晚上推薦：文化路夜市（雞肉飯、砂鍋魚頭、豆花）</p>' +
+          (PC.eveningNote ? '<p class="hint" style="margin-top:6px">' + esc(PC.eveningNote) + '</p>' : "") +
           '<div class="plan-actions" style="margin-top:6px">' + gmLinks(d, plan.mode).map(function (u, k, arr) { return '<a class="btn btn-sm" target="_blank" rel="noopener" href="' + esc(u) + '">Google 地圖導航' + (arr.length > 1 ? "（第 " + (k + 1) + " 段）" : "") + '</a>'; }).join("") +
           '<button class="btn btn-sm" type="button" data-fit="' + di + '">在地圖上看這天</button></div></div>';
       }).join("") +
@@ -322,7 +330,7 @@
       var segs = []; // 每段：{stop, kind}
       d.stops.forEach(function (x) {
         if (x.leg.borrow) { wps.push([x.leg.borrow.lat, x.leg.borrow.lng]); segs.push({ x: x, k: "w1" }); wps.push([x.leg.ret.lat, x.leg.ret.lng]); segs.push({ x: x, k: "bike" }); wps.push([x.s.lat, x.s.lng]); segs.push({ x: x, k: "w2" }); }
-        else { wps.push([x.s.lat, x.s.lng]); segs.push({ x: x, k: x.leg.walkOnly ? "walk" : "main" }); }
+        else { wps.push([x.s.lat, x.s.lng]); segs.push({ x: x, k: x.leg.far ? "far" : x.leg.walkOnly ? "walk" : "main" }); }
       });
       var url = "https://routing.openstreetmap.de/" + M.profile + "/route/v1/driving/" + wps.map(function (p) { return p[1].toFixed(6) + "," + p[0].toFixed(6); }).join(";") + "?overview=full&geometries=geojson";
       setTimeout(function () {
@@ -331,7 +339,7 @@
           var r = j.routes[0];
           var acc = {};
           r.legs.forEach(function (lg, i) {
-            var sg = segs[i]; if (!sg) return;
+            var sg = segs[i]; if (!sg || sg.k === "far") return;
             var a = acc[sg.x.s.id] = acc[sg.x.s.id] || { km: 0, min: 0 };
             a.km += lg.distance / 1000;
             if (sg.k === "w1" || sg.k === "w2" || sg.k === "walk") a.min += lg.distance / 1000 / WALK_KMH * 60;
@@ -340,7 +348,7 @@
           var t = minutes(st.time), lunch = false;
           d.stops.forEach(function (x) {
             var a = acc[x.s.id];
-            if (a) { x.leg.km = a.km; x.leg.min = a.min + (x.leg.walkOnly ? 0 : M.extra); x.leg.osrm = true; }
+            if (a && !x.leg.far) { x.leg.km = a.km; x.leg.min = a.min + (x.leg.walkOnly ? 0 : M.extra); x.leg.osrm = true; }
             var arrive = t + x.leg.min; x.lunch = false;
             if (!lunch && arrive >= LUNCH.from) { lunch = true; x.lunch = true; arrive += LUNCH.len; }
             x.arrive = arrive; x.leave = arrive + Math.round(x.s.visitMin * st.pace); t = x.leave;
