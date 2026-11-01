@@ -28,6 +28,14 @@ def get(url):
     return None
 
 
+def save(d):
+    # 每張都寫回：被限流或中斷時，已下載的照片不會白做
+    tmp = DATA + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, DATA)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     d = json.load(open(DATA, encoding="utf-8"))
@@ -46,9 +54,10 @@ def main():
             b = pic.copy(); b.thumbnail((960, 960)); b.save(os.path.join(OUT, big), "WEBP", quality=76, method=6)
             s = pic.copy(); s.thumbnail((320, 320)); s.save(os.path.join(OUT, small), "WEBP", quality=72, method=6)
             im["local"], im["small"] = "img/" + big, "img/" + small
+            save(d)
             print("ok", sid, n, flush=True)
             time.sleep(1.5)
-    json.dump(d, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    save(d)
 
 
 if __name__ == "__main__":

@@ -18,7 +18,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E5%8D%97%E5%8C%97%E6%A5%B5%E6%AE%BF.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/zhongxi-beijidian-0.webp",
+   "small": "img/zhongxi-beijidian-0-s.webp"
   }
  ],
  "zhongxi-taiwanfuchenghuang": [
@@ -288,7 +290,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E5%8D%97%E6%8E%A5%E5%AE%98%E4%BA%AD%E7%9F%B3%E5%9D%8A.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongxi-jieguanting-0.webp",
+   "small": "img/zhongxi-jieguanting-0-s.webp"
   }
  ],
  "zhongxi-xiaoshijiexiaofang": [
@@ -538,7 +542,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E5%8D%97%E5%BB%A3%E5%AE%89%E5%AE%AE.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/zhongxi-guangangong-0.webp",
+   "small": "img/zhongxi-guangangong-0-s.webp"
   }
  ],
  "zhongxi-shanlinshiwusuo": [
@@ -548,7 +554,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E8%87%BA%E5%8D%97%E5%B1%B1%E6%9E%97%E4%BA%8B%E5%8B%99%E6%89%80.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/zhongxi-shanlinshiwusuo-0.webp",
+   "small": "img/zhongxi-shanlinshiwusuo-0-s.webp"
   }
  ],
  "zhongxi-tainanzhouhui": [
@@ -784,7 +792,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%B9%B3%E5%B0%8F%E7%A0%B2%E8%87%BA.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/anping-xiaopaotai-0.webp",
+   "small": "img/anping-xiaopaotai-0-s.webp"
   }
  ],
  "anping-miaoshougong": [
@@ -914,7 +924,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E5%8D%97%E9%81%8B%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A4%A8.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/anping-yunheanpinghaiguan-0.webp",
+   "small": "img/anping-yunheanpinghaiguan-0-s.webp"
   }
  ],
  "anping-chenbaozhengcuo": [
@@ -1882,7 +1894,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%83%E8%82%A1%E9%A0%82%E5%B1%B1%E9%B9%BD%E8%AD%A6%E6%A7%8D%E6%A8%93.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/qigu-dingshanyanjing-0.webp",
+   "small": "img/qigu-dingshanyanjing-0-s.webp"
   }
  ],
  "qigu-taiyanqigujicheku": [
@@ -2306,7 +2320,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%8F%81%E5%AF%AE%E9%87%91%E5%BE%B7%E8%88%88%E8%97%A5%E8%88%96.JPG",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/houbi-jingliaojindexing-0.webp",
+   "small": "img/houbi-jingliaojindexing-0-s.webp"
   }
  ],
  "houbi-jingliaoguoxiaomu": [
@@ -2328,7 +2344,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:TRA_Houbi_Station_20070725.jpg",
    "artist": "SElefant",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "local": "img/houbi-chezhan-0.webp",
+   "small": "img/houbi-chezhan-0-s.webp"
   }
  ],
  "houbi-anxiguoxiaoyuanban": [
