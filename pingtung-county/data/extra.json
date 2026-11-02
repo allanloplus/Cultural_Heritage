@@ -1,0 +1,280 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！這一站，我們往南走到臺灣最南端的縣，屏東。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！屏東不就是墾丁、海灘和萬巒豬腳嗎？我已經準備好防曬乳了！"
+  },
+  {
+   "who": "A",
+   "text": "先別急著下水，屏東的文化資產可精彩了，北邊有阿猴城門，南邊有恆春古城和鵝鑾鼻燈塔。"
+  },
+  {
+   "who": "R",
+   "text": "那全部有多少處？"
+  },
+  {
+   "who": "A",
+   "text": "一共一百一十四處，國定古蹟有四處，還有縣定古蹟、歷史建築、聚落、考古遺址和文化景觀。"
+  },
+  {
+   "who": "R",
+   "text": "屏東這麼長，從屏東市到鵝鑾鼻要開好久的車吧？"
+  },
+  {
+   "who": "A",
+   "text": "對，所以文資地圖可以依鄉鎮市篩選，從六堆客家庄、排灣族和魯凱族的石板屋，到東港和小琉球都有。"
+  },
+  {
+   "who": "R",
+   "text": "時光地圖可以看清朝的恆春城，還有阿猴街怎麼變成今天的屏東市！"
+  },
+  {
+   "who": "A",
+   "text": "行程規劃建議開車跑遠程，屏東市區則可以騎 YouBike 逛日式宿舍和老街。"
+  },
+  {
+   "who": "R",
+   "text": "準備好了嗎？從阿猴城門出發，我們逛屏東囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，屏東的時光地圖要看什麼？"
+  },
+  {
+   "who": "A",
+   "text": "先看荷蘭時期的放索社和瑯嶠，那時候恆春半島還有瑯嶠十八社。"
+  },
+  {
+   "who": "A",
+   "text": "清朝以後會疊上當年實測的老地圖，可以拉透明度，或打開左右對照。"
+  },
+  {
+   "who": "R",
+   "text": "那我要去找恆春城的四座城門，看看今天是不是都還在！"
+  },
+  {
+   "who": "A",
+   "text": "好，滑過去對照看看，答案就在地圖上！"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "屏東縣南北很長，屏東市區的古蹟可以走路或騎 YouBike，六堆客家庄和恆春半島就要開車。"
+  },
+  {
+   "who": "R",
+   "text": "選 YouBike 的話，我會告訴你在哪一站借車、哪一站還車喔！"
+  },
+  {
+   "who": "A",
+   "text": "也可以依主題挑選，例如只看客家夥房、原住民部落，或是日式宿舍，也能自選景點。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給萬巒豬腳和東港海產！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "阿猴遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有阿猴擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從阿猴城門、六堆客家庄一路考到恆春古城和鵝鑾鼻燈塔，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從屏東火車站出發，比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是阿猴通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的萬巒豬腳算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！你從阿猴街一路排到今天的屏東，好厲害！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "station",
+   "name": "臺鐵屏東車站",
+   "lat": 22.66887,
+   "lng": 120.48639
+  },
+  {
+   "id": "hsr",
+   "name": "高鐵左營站（高雄）",
+   "lat": 22.68714,
+   "lng": 120.30769
+  },
+  {
+   "id": "chaozhou",
+   "name": "臺鐵潮州車站",
+   "lat": 22.54998,
+   "lng": 120.53606
+  },
+  {
+   "id": "hengchun",
+   "name": "恆春轉運站",
+   "lat": 22.00254,
+   "lng": 120.74537
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：屏東市區（阿猴城門、書院與日式宿舍）",
+   "days": [
+    [
+     "pingdong-shidahelvshe",
+     "pingdong-taiwanyinxingping",
+     "pingdong-yanwuchang",
+     "pingdong-ahouchengmen",
+     "pingdong-zhongshangongyuan",
+     "pingdong-shuyuan",
+     "pingdong-zhangguandi",
+     "pingdong-shishenglixincun",
+     "pingdong-zongshenggongci",
+     "pingdong-agoutangchangban"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：屏東市區 ＋ 六堆客家庄（內埔、萬巒、佳冬）",
+   "days": [
+    [
+     "pingdong-shidahelvshe",
+     "pingdong-taiwanyinxingping",
+     "pingdong-yanwuchang",
+     "pingdong-ahouchengmen",
+     "pingdong-zhongshangongyuan",
+     "pingdong-shuyuan",
+     "pingdong-zhangguandi",
+     "pingdong-shishenglixincun",
+     "pingdong-zongshenggongci",
+     "pingdong-agoutangchangban"
+    ],
+    [
+     "linluo-xiangxujiazutang",
+     "neipu-xinbeishizhuang",
+     "neipu-liuduitianhougong",
+     "wanluan-wugoushuiliushi",
+     "wanluan-wugoushui",
+     "wanluan-wanjintianzhujiao",
+     "zhutian-chezhan",
+     "jiadong-yangshizongci",
+     "jiadong-xiaimen",
+     "jiadong-xiaozhai"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：屏東市區 ＋ 六堆客家庄 ＋ 恆春半島（車城、恆春古城、鵝鑾鼻）",
+   "days": [
+    [
+     "pingdong-shidahelvshe",
+     "pingdong-taiwanyinxingping",
+     "pingdong-yanwuchang",
+     "pingdong-ahouchengmen",
+     "pingdong-zhongshangongyuan",
+     "pingdong-shuyuan",
+     "pingdong-zhangguandi",
+     "pingdong-shishenglixincun",
+     "pingdong-zongshenggongci",
+     "pingdong-agoutangchangban"
+    ],
+    [
+     "linluo-xiangxujiazutang",
+     "neipu-xinbeishizhuang",
+     "neipu-liuduitianhougong",
+     "wanluan-wugoushuiliushi",
+     "wanluan-wugoushui",
+     "wanluan-wanjintianzhujiao",
+     "zhutian-chezhan",
+     "jiadong-yangshizongci",
+     "jiadong-xiaimen",
+     "jiadong-xiaozhai"
+    ],
+    [
+     "checheng-xixiangduduyijiji",
+     "checheng-zhonghunbei",
+     "checheng-daribenliuqiufan",
+     "hengchun-zhangjiabeimenzu",
+     "hengchun-gucheng",
+     "hengchun-lianfuzhuanyao",
+     "hengchun-junyisuoguanshe",
+     "hengchun-lanjunchuyongyi",
+     "hengchun-eluanbikaoguyizhi",
+     "hengchun-eluanbidengta"
+    ]
+   ]
+  }
+ },
+ "food": []
+}
