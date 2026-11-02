@@ -1,0 +1,2052 @@
+[
+ {
+  "id": "pingdong-xiadanshuixitie",
+  "name": "下淡水溪鐵橋（高屏溪舊鐵橋）",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "屏東市",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "1997-04-02",
+  "address": "屏東市現存橋墩及橋墩上之桁架【現存橋墩18座（以高雄端起算P1至7、P13至23）、桁架18座（以高雄端起算K1至7、K14至24）】；2.屏東端引道全部、高雄端引道；3.飯田豐二紀念碑(註：「飯田豐二紀念碑」上用字為「記念碑」)。",
+  "lat": 22.6609254221567,
+  "lng": 120.44183820862,
+  "open": "高雄端：每日開放，上午9時至下午5時\n\n屏東端：週二至週日，上午8時30分至下午5時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19970402000003",
+  "caseId": "19970402000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2524/photo/pic001.jpg"
+ },
+ {
+  "id": "pingdong-zongshenggongci",
+  "name": "宗聖公祠",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "屏東市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2002-01-08",
+  "address": "屏東市勝豐里謙仁巷23 號",
+  "lat": 22.667194,
+  "lng": 120.491583,
+  "open": "週二至週日09:00-12:00、13:30-17:00；週一休館\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20020108000001",
+  "caseId": "20020108000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/a529cbe5-8932-469f-9fc8-4be12e5bc27f/宗聖公祠照片.jpg"
+ },
+ {
+  "id": "pingdong-shuyuan",
+  "name": "屏東書院",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "屏東市",
+  "types": [
+   "書院"
+  ],
+  "announced": "1985-11-27",
+  "address": "屏東市太平里勝利路38號",
+  "lat": 22.678660124774,
+  "lng": 120.492767643654,
+  "open": "週二至週日09:00-12:00、13:30-17:00；週一、國定假日休館\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000081",
+  "caseId": "19851127000081",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/ae21c316-eb93-4a95-9c33-4a3cda5bca2c/屏東書院照片.jpg"
+ },
+ {
+  "id": "pingdong-xiaoshijiamiao",
+  "name": "蕭氏家廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "屏東市",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2004-08-16",
+  "address": "屏東市崇蘭里崇蘭69號",
+  "lat": 22.686111,
+  "lng": 120.481917,
+  "open": "每日09:00-16:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040816000001",
+  "caseId": "20040816000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/f99063ac-ed3c-4242-b786-f081c25b0812/蕭氏家廟照片.jpg"
+ },
+ {
+  "id": "pingdong-ahouchengmen",
+  "name": "阿猴城門(朝陽門)",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "屏東市",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-11-27",
+  "address": "屏東市公園段三小段17-2地號",
+  "lat": 22.6762780349607,
+  "lng": 120.491907559865,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000082",
+  "caseId": "19851127000082",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/33fd55f3-ef5d-499b-848e-889554421611/阿猴城門(朝陽門)照片.jpg"
+ },
+ {
+  "id": "pingdong-zhongshangongyuan",
+  "name": "中山公園內水池橋樑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-08-06",
+  "address": "屏東市中山公園內",
+  "lat": 22.675639,
+  "lng": 120.492611,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000004",
+  "caseId": "20031215000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/0709d4cd-5f32-4db2-b78b-95910581d60b/中山公園內水池橋樑照片.jpg"
+ },
+ {
+  "id": "pingdong-zhongshangongyuan2",
+  "name": "中山公園內防空洞與涼亭",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-08-05",
+  "address": "屏東市中山公園內",
+  "lat": 22.675639,
+  "lng": 120.492611,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000005",
+  "caseId": "20031215000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-16/408cf36c-116c-405e-8225-d1e3509231e0/IMG_3341.jpg"
+ },
+ {
+  "id": "pingdong-guangfujinianbei",
+  "name": "光復紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-08-06",
+  "address": "屏東市中山公園",
+  "lat": 22.675639,
+  "lng": 120.492611,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000007",
+  "caseId": "20031215000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/2f07be37-5d3d-46d9-a807-888446894328/光復紀念碑照片.jpg"
+ },
+ {
+  "id": "pingdong-shifanxuexiaoxiao",
+  "name": "原屏東師範學校校長官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2008-05-15",
+  "address": "屏東市林森路11號",
+  "lat": 22.670972,
+  "lng": 120.499833,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080515000001",
+  "caseId": "20080515000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2498/photo/P013屏東縣原屏東師範學校校長官舍(歷建)01.JPG"
+ },
+ {
+  "id": "pingdong-ribendibafeixing",
+  "name": "原日本第八飛行聯隊隊長官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-02-07",
+  "address": "屏東市中山路61號",
+  "lat": 22.674778,
+  "lng": 120.484806,
+  "open": "每日8:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020207000001",
+  "caseId": "20020207000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/1ca89cc7-8e1f-4a89-b79e-99ae7749dc1b/原日本第八聯隊隊長官舍照片.jpg"
+ },
+ {
+  "id": "pingdong-taiwanyinxingping",
+  "name": "原臺灣銀行屏東支店",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "銀行"
+  ],
+  "announced": "2026-08-05",
+  "address": "屏東市中華路9號",
+  "lat": 22.671387,
+  "lng": 120.489385,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260806000001",
+  "caseId": "20260806000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-28/0d9a407d-c864-4214-92bc-fa2685add18b/IMG_7559.jpg"
+ },
+ {
+  "id": "pingdong-taitangzhijiang",
+  "name": "台糖紙漿廠原料倉庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2016-01-11",
+  "address": "屏東市台糖街66號",
+  "lat": 22.659225,
+  "lng": 120.495593,
+  "open": "AB棟未開放，C棟為展示時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160111000001",
+  "caseId": "20160111000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/9af34f40-4ff8-4c13-9211-9db476bbcf5f/台糖紙漿廠原料倉庫照片.jpg"
+ },
+ {
+  "id": "pingdong-dawuyingqu",
+  "name": "屏東大武營區",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2021-05-17",
+  "address": "屏東市建國路151號",
+  "lat": 22.66421,
+  "lng": 120.47436,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240202000014",
+  "caseId": "20240202000014",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-16/f7a14776-f89a-4ee4-98bf-0ae12c1497ed/IMGP2598.jpg"
+ },
+ {
+  "id": "pingdong-shizhongzhengguo",
+  "name": "屏東市中正國小校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2014-10-06",
+  "address": "屏東市文明里上海路93號",
+  "lat": 22.674185,
+  "lng": 120.486596,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000013",
+  "caseId": "20180723000013",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-17/1955d237-33f8-494f-a572-612c8c23018a/IMG_7095.jpg"
+ },
+ {
+  "id": "pingdong-shishenglixincun",
+  "name": "屏東市勝利新村、崇仁新村（成功區）日治時期軍官眷舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-05-08",
+  "address": "屏東市屏東市成功路134號、136號、138號、140號、146號，成都街22弄2號、3號、4號，中山路56號、57號，忠孝路93號、95號、100號、101號、102號，信義路137號、139號....等",
+  "lat": 22.674238097756,
+  "lng": 120.48434946689,
+  "open": "進駐品牌之經營時間不同，詳勝利新村創意生活園區網站https://www.cultural.pthg.gov.tw/vipzone/Default.aspx\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070508000001",
+  "caseId": "20070508000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/cf3c44c8-91aa-4ba4-8549-48b12234b02d/屏東市勝利新村、崇仁新村(成功區)日治時期軍官眷舍照片.jpg"
+ },
+ {
+  "id": "pingdong-shidahelvshe",
+  "name": "屏東市大和旅社",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2014-10-03",
+  "address": "屏東市民族路163號",
+  "lat": 22.670119,
+  "lng": 120.48674,
+  "open": "每日09:00-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180705000001",
+  "caseId": "20180705000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/60725872-1647-41f8-906f-7ad1f6196df6/屏東市大和旅社照片.jpg"
+ },
+ {
+  "id": "pingdong-shidapengqicunru",
+  "name": "屏東市大鵬七村入口門柱、水塔及村辦公室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2017-11-20",
+  "address": "屏東市辦公室：光大巷49、51、53、55號 水塔：光大二巷廣場 門柱：屏東縣屏東市光大巷(1號)兩側",
+  "lat": 22.665611,
+  "lng": 120.448778,
+  "open": "未開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180724000002",
+  "caseId": "20180724000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/ecea51c3-ab28-4978-b06d-c162c34ef8c3/屏東市大鵬七村入口門柱、水塔及村辦公室照片.png"
+ },
+ {
+  "id": "pingdong-shichongrenxincun",
+  "name": "屏東市崇仁新村(通海區)日治時期軍官眷舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2017-06-13",
+  "address": "屏東市瀋陽街5、7、9、11、13、15號、中華路221巷1、2、3、4、5、6、7、8、9、10、11、12號",
+  "lat": 22.678941167141467,
+  "lng": 120.4916225395782,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180705000002",
+  "caseId": "20180705000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-15/4e5f0786-f60f-4e90-8d00-b8105a13ae6f/S__12689420.jpg"
+ },
+ {
+  "id": "pingdong-shihaifengzhengjia",
+  "name": "屏東市海豐鄭家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-11-12",
+  "address": "屏東市三山里三山41號、40號",
+  "lat": 22.699117062786165,
+  "lng": 120.51168572944127,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240202000011",
+  "caseId": "20240202000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-14/dc2d6e3e-cc7c-46c3-a323-012652dcb7c8/S__55451661.jpg"
+ },
+ {
+  "id": "pingdong-ganchengtinglujun",
+  "name": "屏東干城町陸軍官舍群及附屬設施",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-03-01",
+  "address": "屏東市得勝巷2、4、5、7、9、10、11、12號；屏東市勝利路155、157、159、161、167、169、173號；屏東市青島街122、124、126、128、130、132號。",
+  "lat": 22.6785,
+  "lng": 120.48275,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000010",
+  "caseId": "20180723000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-02/534a5842-17c4-4575-8d56-257a6e2baa70/DSC04263.jpg"
+ },
+ {
+  "id": "pingdong-xianguangshicun",
+  "name": "屏東憲光十村",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-03-01",
+  "address": "屏東市信義路131號、133號；成都路2、4、6、8號；忠孝路96、98號",
+  "lat": 22.673004,
+  "lng": 120.484963,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000011",
+  "caseId": "20180723000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-24/0e5548b8-3be2-4196-bbdc-8d539caecb45/屏東憲光十村照片.jpg"
+ },
+ {
+  "id": "pingdong-yanwuchang",
+  "name": "屏東演武場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-08-06",
+  "address": "屏東市公園路28 號",
+  "lat": 22.6745256807584,
+  "lng": 120.490402392894,
+  "open": "週二至週日13:00-21:00；週一休館\t\t\t\t\t\n\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000009",
+  "caseId": "20031215000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/4a0a4ddd-e69d-49fc-81ac-cee6260f5bb8/屏東演武場照片.jpg"
+ },
+ {
+  "id": "pingdong-zhangguandi",
+  "name": "屏東縣長官邸",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-08-06",
+  "address": "屏東市文明里林森路147 號",
+  "lat": 22.67425,
+  "lng": 120.487056,
+  "open": "未開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000008",
+  "caseId": "20031215000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/15d43018-84cc-456c-8d11-4fd4aa38e78b/屏東縣長官邸照片.jpg"
+ },
+ {
+  "id": "pingdong-yanyechangjiqifu",
+  "name": "屏東菸葉廠及其附屬設施",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2010-04-30",
+  "address": "屏東市民生路57-5號",
+  "lat": 22.661833,
+  "lng": 120.505167,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100430000002",
+  "caseId": "20100430000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2503/photo/P060屏東縣屏東菸廠—中山堂、鍋爐室、菸草除骨及複薰加工區(歷建)(1).JPG"
+ },
+ {
+  "id": "pingdong-chongrenxincun",
+  "name": "崇仁新村(空翔區)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-03-01",
+  "address": "屏東市高原街17巷7、9、11、13、15、17、19、21號，屏東市蘭州街3、5、7、9、10、11、12、14、16、18、20、22、24、26、28、30號；屏東市勝利路132號",
+  "lat": 22.679465,
+  "lng": 120.483923,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000012",
+  "caseId": "20180723000012",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-24/4ce8b267-877c-4c91-8831-acbfad9fe4be/崇仁新村(空翔區)照片.jpg"
+ },
+ {
+  "id": "pingdong-niuyijinianbei",
+  "name": "牛疫紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-15",
+  "address": "屏東市水源街100 號之1",
+  "lat": 22.673861,
+  "lng": 120.505070722384,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031215000006",
+  "caseId": "20031215000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/8d86fe88-96d7-4c79-934c-41e3c2f2f6a0/牛疫紀念碑照片.jpg"
+ },
+ {
+  "id": "pingdong-qiuxinghenantang",
+  "name": "邱姓河南堂忠實第",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-08-06",
+  "address": "屏東市田寮巷26號",
+  "lat": 22.673333,
+  "lng": 120.507306,
+  "open": "週二至週日09:00-17:00；週一、國定假日休館\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030806000002",
+  "caseId": "20030806000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/a765fef3-3698-4dfa-8480-9b999808fe2b/鄉土藝術館(邱姓河南堂忠實第)照片.jpg"
+ },
+ {
+  "id": "pingdong-agoutangchangban",
+  "name": "阿緱糖廠辦公廳舍(第一本館、第二本館、第三本館、第四本館、第五本館)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2006-06-23",
+  "address": "屏東市台糖街66號",
+  "lat": 22.66127878492004,
+  "lng": 120.49317213640192,
+  "open": "週一至週五08:00-12:00、13:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190515000002",
+  "caseId": "20190515000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/72f03b5d-54df-47fc-9c07-e12eea71df03/阿緱糖廠辦公廳舍(第一本館、第二本館、第三本館、第四本館、第五本館)照片.jpg"
+ },
+ {
+  "id": "pingdong-gaoxiongqunongye",
+  "name": "高雄區農業改良場之農業資料館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "屏東市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-07-31",
+  "address": "屏東市瑞光里農事巷1號",
+  "lat": 22.666,
+  "lng": 120.50775,
+  "open": "未開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070731000001",
+  "caseId": "20070731000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-04/f6fe6182-b949-42c9-96e7-9e98e11f1955/高雄區農業改良場之農業資料館照片.jpg"
+ },
+ {
+  "id": "pingdong-shuidaoshuiyuandi",
+  "name": "原屏東水道水源地",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "屏東市",
+  "types": [
+   "水利設施"
+  ],
+  "announced": "2023-09-18",
+  "address": "屏東市林森路6號",
+  "lat": 22.67024,
+  "lng": 120.50277,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20240116000004",
+  "caseId": "20240116000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-22/0c8246ef-8e32-48aa-aac2-48fd8067db08/照片.jpg"
+ },
+ {
+  "id": "zhangzhi-qingchaoxiadanshui",
+  "name": "「清朝下淡水營」遺構",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "長治鄉",
+  "types": [
+   "城郭"
+  ],
+  "announced": "2016-03-16",
+  "address": "長治鄉竹葉林段615地號",
+  "lat": 22.699389,
+  "lng": 120.5385,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160314000001",
+  "caseId": "20160314000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/3c9b5f3b-ef5d-497f-80d0-7059b2535bdd/「清朝下淡水營」遺構照片.jpg"
+ },
+ {
+  "id": "linluo-zhuangweibogong",
+  "name": "麟洛庄尾伯公",
+  "category": "歷史建築",
+  "level": "",
+  "town": "麟洛鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-09-01",
+  "address": "麟洛鄉中正路55號旁",
+  "lat": 22.64941735022781,
+  "lng": 120.52563126183632,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240202000013",
+  "caseId": "20240202000013",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-15/efc38159-60cc-48ea-b1f9-3f9b7b050b6c/IMG_7087.jpg"
+ },
+ {
+  "id": "linluo-xiangxujiazutang",
+  "name": "麟洛鄉徐家祖堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "麟洛鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-09-22",
+  "address": "麟洛鄉麟趾村中山路459號",
+  "lat": 22.652222,
+  "lng": 120.524444,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20110922000001",
+  "caseId": "20110922000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/9b5b3acc-d5be-4103-9819-3e78151862eb/麟洛鄉徐家祖堂照片.jpg"
+ },
+ {
+  "id": "jiuru-xiangsanshanguo",
+  "name": "九如鄉三山國王廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "九如鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2004-05-27",
+  "address": "九如鄉九明村仁愛街174號",
+  "lat": 22.730833,
+  "lng": 120.484611,
+  "open": "每日06:00-21:00(廟宇參拜時間)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040527000001",
+  "caseId": "20040527000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-13/72f1b08d-66c4-406f-ae19-d9b4e02bc0de/三山國王廟新照.jpg"
+ },
+ {
+  "id": "jiuru-xiangqilaocungong",
+  "name": "九如鄉耆老村龔家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "九如鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-06-10",
+  "address": "九如鄉九如段1010-2、1011、1012-2、1013、1014、1015、1017-2、1048、1049、1050地號",
+  "lat": 22.76,
+  "lng": 120.479361,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220308000002",
+  "caseId": "20220308000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/fdcdc102-df2e-4d46-8519-a6c29a0af9e6/九如鄉耆老村龔家古厝照片.jpg"
+ },
+ {
+  "id": "ligang-caijiagucuo",
+  "name": "里港蔡家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "里港鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-10-06",
+  "address": "里港鄉中山路27號",
+  "lat": 22.776278,
+  "lng": 120.494222,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220308000004",
+  "caseId": "20220308000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/5bfe087e-219b-4f87-af8e-c5f7e6a52c2c/里港蔡家古厝照片.jpg"
+ },
+ {
+  "id": "ligang-youbianjujiqifushu",
+  "name": "里港郵便局及其附屬設施",
+  "category": "歷史建築",
+  "level": "",
+  "town": "里港鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2015-11-11",
+  "address": "里港鄉中山路74號",
+  "lat": 22.778056,
+  "lng": 120.494528,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151111000001",
+  "caseId": "20151111000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-08-07/8c24ee66-9af6-4dad-9700-df6a6e8fbe0c/IMG_9670.jpg"
+ },
+ {
+  "id": "ligang-xiangjingshengting",
+  "name": "里港鄉敬聖亭",
+  "category": "歷史建築",
+  "level": "",
+  "town": "里港鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2012-12-03",
+  "address": "里港鄉過江村過江路41號(里港國小內)",
+  "lat": 22.780435,
+  "lng": 120.494409,
+  "open": "配合校園開放時間(位於校園內)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20121203000001",
+  "caseId": "20121203000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/941a7f26-93bb-46b6-9306-63a979c9cc09/里港鄉敬聖亭照片.jpg"
+ },
+ {
+  "id": "ligang-xiangchenshizongci",
+  "name": "里港鄉陳氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "里港鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2014-10-06",
+  "address": "里港鄉大平村中山路63號",
+  "lat": 22.777706313784744,
+  "lng": 120.4939889744509,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000006",
+  "caseId": "20180723000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/a4779822-9b17-4e4e-b37f-d27e871c336d/里港鄉陳氏宗祠照片.jpg"
+ },
+ {
+  "id": "yanpu-zhuangyichang",
+  "name": "鹽埔庄役場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹽埔鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2026-03-20",
+  "address": "鹽埔鄉屏東縣鹽埔鄉鹽中村中山路37號",
+  "lat": 22.757814,
+  "lng": 120.576827,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260324000001",
+  "caseId": "20260324000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-04-01/78bff2e4-4f67-46a7-ad35-11666fbc3b37/S__95363114.jpg"
+ },
+ {
+  "id": "gaoshu-rongtangfudeci",
+  "name": "高樹榕樘福德祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "高樹鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2019-07-03",
+  "address": "高樹鄉屏東縣高樹鄉東振新段504地號",
+  "lat": 22.824111,
+  "lng": 120.585917,
+  "open": "全天候開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190814000001",
+  "caseId": "20190814000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-23/a41fa656-f44d-4233-aa77-ec0588007c2a/高樹榕樘福德祠照片.jpg"
+ },
+ {
+  "id": "wutai-lukaizuhaochajiu",
+  "name": "魯凱族好茶舊社",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "霧臺鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1991-05-24",
+  "address": "霧臺鄉屏東縣霧台鄉好茶段",
+  "lat": 22.6993515602984,
+  "lng": 120.736390839191,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19910524000003",
+  "caseId": "19910524000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-09-25/576d9819-fc25-44a8-99d0-3c99f938a804/DSC_2021.jpg"
+ },
+ {
+  "id": "wutai-wutaixianghaocha",
+  "name": "屏東縣霧台鄉好茶舊社",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "霧臺鄉",
+  "types": [
+   "神話傳說之場域"
+  ],
+  "announced": "2011-07-28",
+  "address": "霧臺鄉原住民保留地、國有林班地第28林班、國有林班地第29林班",
+  "lat": 22.698333,
+  "lng": 120.733055,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20110728000001",
+  "caseId": "20110728000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/73ebfeac-e913-4a7e-9d4d-3f27ac204386/屏東縣霧台鄉好茶舊社照片.jpg"
+ },
+ {
+  "id": "majia-juluojianzhuqun",
+  "name": "Kapayuwanan(舊筏灣)聚落建築群",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "瑪家鄉",
+  "types": [
+   "原住民部落"
+  ],
+  "announced": "2020-05-18",
+  "address": "瑪家鄉筏灣段434、437、593等97筆地號",
+  "lat": 22.66775,
+  "lng": 120.711972,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20200814000001",
+  "caseId": "20200814000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-08-14/055a3260-386c-47be-bfd3-6854c88c5e17/舊筏灣建築群.png"
+ },
+ {
+  "id": "majia-chuantongjuluo",
+  "name": "Padain傳統聚落(高燕及射鹿)",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "瑪家鄉",
+  "types": [
+   "原住民部落"
+  ],
+  "announced": "2019-08-01",
+  "address": "瑪家鄉永樂段369、371~382、492~540號，共計64筆地號",
+  "lat": 22.660738,
+  "lng": 120.729168,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20191002000002",
+  "caseId": "20191002000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/4fc3ccaa-94ea-4163-b37b-9162ea6d4830/Padain傳統聚落(高燕及射鹿)照片.jpg"
+ },
+ {
+  "id": "neipu-liuduitianhougong",
+  "name": "六堆天后宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "內埔鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "內埔鄉內田村廣濟路164號",
+  "lat": 22.6152530894917,
+  "lng": 120.566356790123,
+  "open": "每日04:00-22:00(廟宇參拜時間)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000083",
+  "caseId": "19851127000083",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/f0fdb74f-2cb7-4ceb-aecd-76f17a3a9c28/六堆天后宮照片.jpg"
+ },
+ {
+  "id": "neipu-xinbeishizhuang",
+  "name": "新北勢庄東柵門",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "內埔鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-11-27",
+  "address": "內埔鄉振豐村懷忠路1號",
+  "lat": 22.626831,
+  "lng": 120.544222,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000084",
+  "caseId": "19851127000084",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/d013094c-3afb-4c2b-8700-b12442644e98/新北勢庄東柵門照片.jpg"
+ },
+ {
+  "id": "neipu-xiangcenggongying",
+  "name": "內埔鄉曾公英銑暨邱孺人古墓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "內埔鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2019-10-01",
+  "address": "內埔鄉和興段400號、400-1號地號",
+  "lat": 22.604139,
+  "lng": 120.56975,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20191127000003",
+  "caseId": "20191127000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-23/a8a787cd-cb82-4efe-a85d-7ac833c7fdbd/內埔鄉曾公英銑暨邱孺人古墓照片.jpg"
+ },
+ {
+  "id": "neipu-xiangxieshizongci",
+  "name": "內埔鄉謝氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "內埔鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2014-10-01",
+  "address": "內埔鄉美和村海平路62號",
+  "lat": 22.600167,
+  "lng": 120.557167,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000005",
+  "caseId": "20180723000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/621d96c0-03aa-481a-bc6b-9039e2e07238/內埔鄉謝氏宗祠照片.png"
+ },
+ {
+  "id": "neipu-xianglaopicunmaka",
+  "name": "屏東縣內埔鄉老埤村馬卡道老祖祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "內埔鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-05-26",
+  "address": "內埔鄉通安路",
+  "lat": 22.6343,
+  "lng": 120.600603,
+  "open": "全天候開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180730000001",
+  "caseId": "20180730000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/4a354c38-ea4a-44ce-8e1f-1b0fa829e490/屏東縣內埔鄉老埤村馬卡道老祖祠照片.jpg"
+ },
+ {
+  "id": "zhutian-chezhan",
+  "name": "竹田車站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "竹田鄉",
+  "types": [
+   "車站"
+  ],
+  "announced": "2019-10-02",
+  "address": "竹田鄉屏東縣竹田鄉豐田路41號。",
+  "lat": 22.5865,
+  "lng": 120.539944,
+  "open": "每日09:30-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20191127000004",
+  "caseId": "20191127000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-12-12/9e6325f6-cf0f-4363-9f49-c26cf8557761/竹田車站.jpg"
+ },
+ {
+  "id": "zhutian-jiudadagangtiaodi",
+  "name": "舊達達港糶糴村敬字亭",
+  "category": "歷史建築",
+  "level": "",
+  "town": "竹田鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2017-07-17",
+  "address": "竹田鄉糶糴村達達港(龍頸溪水岸旁)",
+  "lat": 22.577820383781706,
+  "lng": 120.53260231608579,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170922000004",
+  "caseId": "20170922000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/03f43c2e-575d-4a69-9d1c-565e18878806/舊達達港糶糴村敬字亭照片.jpg"
+ },
+ {
+  "id": "zhutian-jiudadagangtiaodi2",
+  "name": "舊達達港糶糴村糧埤伯公",
+  "category": "歷史建築",
+  "level": "",
+  "town": "竹田鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2017-07-17",
+  "address": "竹田鄉屏東縣竹田鄉糶糴村達達港(龍頸溪水岸旁)",
+  "lat": 22.577833,
+  "lng": 120.532611,
+  "open": "全天候開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171003000001",
+  "caseId": "20171003000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/295f7273-ee65-4ad5-9339-6050da32f985/舊達達港糶糴村糧埤伯公照片.jpg"
+ },
+ {
+  "id": "wandan-wanquansi",
+  "name": "萬泉寺",
+  "category": "歷史建築",
+  "level": "",
+  "town": "萬丹鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2002-02-07",
+  "address": "萬丹鄉寶厝村中興路2 段435 號",
+  "lat": 22.580222,
+  "lng": 120.485333,
+  "open": "每日05:00-21:00(廟宇參拜時間)\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020207000002",
+  "caseId": "20020207000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/2cee2394-01eb-4f00-9d40-216b37ba29e1/萬泉寺照片.jpg"
+ },
+ {
+  "id": "donggang-dapengwanyuanrijun",
+  "name": "大鵬灣原日軍水上飛機維修廠-南棟、北棟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "東港鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2013-12-31",
+  "address": "東港鎮大鵬里大潭路169號",
+  "lat": 22.451528,
+  "lng": 120.482111,
+  "open": "未開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20131231000001",
+  "caseId": "20131231000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/6fc4bb9b-ac46-4834-81cb-3cd84a4455bb/大鵬灣原日軍水上飛機維修廠-南棟、北棟照片.jpg"
+ },
+ {
+  "id": "donggang-jingchaguanshequn",
+  "name": "原東港警察官舍群及原東港辦務署署長官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東港鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2026-03-20",
+  "address": "東港鎮屏東縣東港鎮朝安段849、850、851地號",
+  "lat": 22.466289,
+  "lng": 120.446296,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260402000001",
+  "caseId": "20260402000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-03-03/55e6099c-c1e0-417c-9f4c-57026e5afc39/圖片1.png"
+ },
+ {
+  "id": "donggang-dapengyingqurizhi",
+  "name": "大鵬營區日治時期軍事設施及建物-本部連、莊敬樓、舊餐廳、東彈藥庫、西彈藥庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東港鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-11-13",
+  "address": "東港鎮大鵬里大潭路169 號",
+  "lat": 22.456417,
+  "lng": 120.478778,
+  "open": "未開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071113000001",
+  "caseId": "20071113000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-03/91f1ec27-d5ac-4105-b5fc-4f8a5b6ada58/大鵬營區日治時期軍事設施及建物-本部連、莊敬樓、舊餐廳、東彈藥庫、西彈藥庫照片.jpg"
+ },
+ {
+  "id": "donggang-shengmieertianzhu",
+  "name": "東港聖彌額爾天主堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東港鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2006-06-29",
+  "address": "東港鎮光復路二段117號",
+  "lat": 22.465917,
+  "lng": 120.453003933501,
+  "open": "每日08:00-20:00(教堂參拜時間)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060629000001",
+  "caseId": "20060629000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/da3987e2-4986-402a-8a36-d81d3bb56974/天主教道明會東港天主堂照片.jpg"
+ },
+ {
+  "id": "donggang-zhenyanpingluhao",
+  "name": "東港鎮延平路106號街屋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東港鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-05-28",
+  "address": "東港鎮延平路106號",
+  "lat": 22.46725,
+  "lng": 120.44811460000005,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180723000014",
+  "caseId": "20180723000014",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/38fb7c43-cecc-4931-b0b6-65bde4176d16/東港鎮延平路106號街屋照片.jpg"
+ },
+ {
+  "id": "donggang-nongyeyongnianmi",
+  "name": "農業用碾米用礱穀機(東港鎮農會)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東港鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2019-12-27",
+  "address": "東港鎮船頭里船頭路1-5號",
+  "lat": 22.464173,
+  "lng": 120.455578,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200915000003",
+  "caseId": "20200915000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-23/7911fba0-4509-444e-8438-8ff18d5cc4ae/農業用碾米用礱穀機(東港鎮農會)照片.jpg"
+ },
+ {
+  "id": "donggang-gonghexincun",
+  "name": "東港共和新村",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "東港鎮",
+  "types": [
+   "眷村"
+  ],
+  "announced": "2023-01-05",
+  "address": "東港鎮共和街",
+  "lat": 22.462916579151546,
+  "lng": 120.45439863586175,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20230707000003",
+  "caseId": "20230707000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-07-07/6a532bd3-e614-42e3-8ac2-d08aaf005480/空拍照.jpg"
+ },
+ {
+  "id": "kanding-lishecunchenjiagu",
+  "name": "力社村陳家古厝",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "崁頂鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2022-03-11",
+  "address": "崁頂鄉力社村舊店路31號",
+  "lat": 22.541736,
+  "lng": 120.511387,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230314000002",
+  "caseId": "20230314000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-14/b67b1aa3-8c6d-4ba6-8ad1-d127bcb45dbc/LINE_ALBUM_20220526力社村陳家古厝-古蹟_220609_46.jpg"
+ },
+ {
+  "id": "nanzhou-tangchangshatang",
+  "name": "南州糖廠砂糖倉庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南州鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-11-11",
+  "address": "南州鄉糖廠路",
+  "lat": 22.494200076979027,
+  "lng": 120.51789877896391,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240202000012",
+  "caseId": "20240202000012",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-14/2aedec00-d49c-438d-8fd5-66a4b4d694c3/247405.jpg"
+ },
+ {
+  "id": "nanzhou-xibeiguoxiaozheng",
+  "name": "溪北國小征南待機紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南州鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2009-06-17",
+  "address": "南州鄉溪北村仁里路102號",
+  "lat": 22.496167,
+  "lng": 120.51125,
+  "open": "配合校園開放時間(位於校園內)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090617000002",
+  "caseId": "20090617000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2435/photo/P032屏東縣溪北國小征南待機紀念碑(歷建)(1).JPG"
+ },
+ {
+  "id": "nanzhou-xibeiguoxiaorishi",
+  "name": "溪北國小日式校舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南州鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-06-17",
+  "address": "南州鄉溪北村仁里路102號",
+  "lat": 22.495333,
+  "lng": 120.511056,
+  "open": "配合校園開放時間(位於校園內)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060821000002",
+  "caseId": "20060821000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/47f2bafc-8963-429e-9554-bda75070b608/溪北國小日式校舍照片.jpg"
+ },
+ {
+  "id": "nanzhou-xibeiguominxiaoxue",
+  "name": "溪北國民小學神社遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南州鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-06-17",
+  "address": "南州鄉溪北村仁里路102號",
+  "lat": 22.4954521723569,
+  "lng": 120.510704432793,
+  "open": "配合校園開放時間(位於校園內)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090617000001",
+  "caseId": "20090617000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2430/photo/P031屏東縣溪北國民小學神社遺構(歷建)(1).JPG"
+ },
+ {
+  "id": "chaozhou-chaolingong",
+  "name": "朝林宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "潮州鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-05-22",
+  "address": "潮州鎮屏東縣潮州鎮泗林里通潮一巷4號",
+  "lat": 22.5455611193928,
+  "lng": 120.568447834983,
+  "open": "每日09:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060522000001",
+  "caseId": "20060522000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/f235801b-cff9-49af-91a5-3a76e3b401c8/朝林宮照片.jpg"
+ },
+ {
+  "id": "chaozhou-banwushurishisushe",
+  "name": "原潮州辦務署日式宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "潮州鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-12-31",
+  "address": "潮州鎮建基段169、170、170-1、171、178、178-1地號及國中段335、336、354、355、357、358、359等地號",
+  "lat": 22.552083,
+  "lng": 120.523778,
+  "open": "每日09:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220308000003",
+  "caseId": "20220308000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/c71803be-8191-4be3-a27a-d262b9aea852/原潮州辦務署日式宿舍群照片.jpg"
+ },
+ {
+  "id": "chaozhou-junshouguanshe",
+  "name": "潮州郡守官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "潮州鎮",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2020-06-01",
+  "address": "潮州鎮中山路25、25-2號",
+  "lat": 22.549611,
+  "lng": 120.544,
+  "open": "未開放(尚未修復)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200915000004",
+  "caseId": "20200915000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-22/475fe3e3-6fb6-470d-b483-9bef73d002e5/潮州郡守官舍照片.jpg"
+ },
+ {
+  "id": "chaozhou-jiuchaozhouyouju",
+  "name": "舊潮州郵局",
+  "category": "歷史建築",
+  "level": "",
+  "town": "潮州鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-07-21",
+  "address": "潮州鎮建基路58號",
+  "lat": 22.550417,
+  "lng": 120.542944,
+  "open": "週二至週日09:00-17:00；週一休館\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060721000001",
+  "caseId": "20060721000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/daafd377-8f45-4db5-b8f5-5c87afaaa724/舊潮州郵局照片.jpg"
+ },
+ {
+  "id": "wanluan-wugoushuiliushi",
+  "name": "五溝水劉氏宗祠",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "萬巒鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2022-04-14",
+  "address": "萬巒鄉五溝村西盛路70號",
+  "lat": 22.59166,
+  "lng": 120.595146,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220927000002",
+  "caseId": "20220927000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-27/1aad3842-8b03-4a7b-bff3-c37581777605/221249.jpg"
+ },
+ {
+  "id": "wanluan-wanjintianzhujiao",
+  "name": "萬金天主教堂(萬金聖母聖殿)",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "萬巒鄉",
+  "types": [
+   "教堂"
+  ],
+  "announced": "1985-11-27",
+  "address": "萬巒鄉萬金村萬興路24號",
+  "lat": 22.5950533207743,
+  "lng": 120.611084932206,
+  "open": "每日09:00-21:30\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000085",
+  "caseId": "19851127000085",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38737/photo/P024屏東縣萬金天主教堂(萬金聖母聖殿)(三級)(1).JPG"
+ },
+ {
+  "id": "wanluan-fenzhusuo",
+  "name": "萬巒分駐所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "萬巒鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2026-03-17",
+  "address": "萬巒鄉褒忠路124號",
+  "lat": 22.573625,
+  "lng": 120.569104,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260411000001",
+  "caseId": "20260411000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-03-03/e35923df-35f0-4c38-8b2f-fc9434f54386/圖片1.png"
+ },
+ {
+  "id": "wanluan-chengdejingzhao",
+  "name": "萬巒成德京兆堂宋氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "萬巒鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2022-03-14",
+  "address": "萬巒鄉成德村鼎興路18號",
+  "lat": 22.60555,
+  "lng": 120.60547,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220927000003",
+  "caseId": "20220927000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-23/09f8115e-78e8-4163-90e3-4ce69c02ecf0/221251.jpg"
+ },
+ {
+  "id": "wanluan-wugoushui",
+  "name": "五溝水",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "萬巒鄉",
+  "types": [
+   "漢人街庄"
+  ],
+  "announced": "2008-05-19",
+  "address": "萬巒鄉以現今屏東縣萬巒鄉五溝社區行政區域為範圍；包括東興、西盛、大林、得勝四庄",
+  "lat": 22.595,
+  "lng": 120.603056,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20080519000001",
+  "caseId": "20080519000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/9f3c1887-f1a4-4d47-9df9-fbc330996a4f/五溝水照片.jpg"
+ },
+ {
+  "id": "laiyi-paiwanzuwangjiajiu",
+  "name": "排灣族望嘉舊社- 人面浮雕祭屋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "來義鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-08-31",
+  "address": "來義鄉文樂段1號",
+  "lat": 22.485278,
+  "lng": 120.656944,
+  "open": "未開放(參訪民眾不得未經許可擅闖)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180705000003",
+  "caseId": "20180705000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/2932d643-efed-4ce3-9764-b8094f66b6b5/排灣族望嘉舊社-人面浮雕祭屋照片.jpg"
+ },
+ {
+  "id": "laiyi-paiwanzuwangjiajiu2",
+  "name": "排灣族望嘉舊社-人頭骨架、頭骨塚紀念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "來義鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-08-02",
+  "address": "來義鄉文樂段1號地號",
+  "lat": 22.483056,
+  "lng": 120.655278,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180705000004",
+  "caseId": "20180705000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/bef9fb74-292f-4016-9672-95012c562ae7/排灣族望嘉舊社-人頭骨架、頭骨塚紀念碑照片.jpg"
+ },
+ {
+  "id": "laiyi-xiangerfengzhen",
+  "name": "來義鄉二峰圳",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "來義鄉",
+  "types": [
+   "水利設施"
+  ],
+  "announced": "2008-01-03",
+  "address": "來義鄉林邊溪來義大橋上游約500公尺起沿山，路過來義國小後校門前，往下游行經山邊至台糖公司萬隆機場門前之分水工及鳥居信平辦公廳舍。",
+  "lat": 22.525956,
+  "lng": 120.656587,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20080103000003",
+  "caseId": "20080103000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/2913271e-8041-45ee-b02d-06e2750df60c/來義鄉二峰圳照片.jpg"
+ },
+ {
+  "id": "xinpi-jiangongzhuangdong",
+  "name": "建功庄東柵門",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新埤鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-11-27",
+  "address": "新埤鄉建功段212號、456-5地號",
+  "lat": 22.48012,
+  "lng": 120.56379,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000086",
+  "caseId": "19851127000086",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-22/9ca1d1c9-c37b-46c8-b1e8-ec6ea12dd57c/建功庄東柵門-新.jpg"
+ },
+ {
+  "id": "xinpi-yuhuanshanmutian",
+  "name": "新埤玉環善牧天主堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新埤鄉",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2016-12-23",
+  "address": "新埤鄉萬隆村玉環路78-2號",
+  "lat": 22.495194,
+  "lng": 120.59056091491925,
+  "open": "週六至週日14:00-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180704000001",
+  "caseId": "20180704000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/c1706c3a-d2a4-44c2-a35d-be439eab4d0d/新埤玉環善牧天主堂照片.jpg"
+ },
+ {
+  "id": "linbian-shuiyuandishuita",
+  "name": "林邊水源地水塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "林邊鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-02-07",
+  "address": "林邊鄉永樂村堤防10 號",
+  "lat": 22.43825,
+  "lng": 120.522306,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020207000003",
+  "caseId": "20020207000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-08/f60eea4f-0e9d-4061-9ca6-079bb99b8228/台灣省自來水公司第七管理處林邊水源地高壓水塔照片.jpg"
+ },
+ {
+  "id": "linbian-xianglinbiancunyao",
+  "name": "林邊鄉林邊村姚家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "林邊鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-06-01",
+  "address": "林邊鄉屏東縣林邊鄉林邊村忠孝路18號",
+  "lat": 22.433588,
+  "lng": 120.518944,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200603000001",
+  "caseId": "20200603000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-23/1b8469cd-b553-4b2d-af8f-b3217e65d5c5/林邊鄉林邊村姚家古厝照片.jpg"
+ },
+ {
+  "id": "linbian-ruanshizhaidijihua",
+  "name": "林邊阮氏宅第及花園",
+  "category": "歷史建築",
+  "level": "",
+  "town": "林邊鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-09-29",
+  "address": "林邊鄉竹林村文化路17號",
+  "lat": 22.46276,
+  "lng": 120.530335,
+  "open": "每日13:00-21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170922000003",
+  "caseId": "20170922000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/9d67fc4d-f08c-4314-af54-47d30259b5a1/林邊鄉阮氏宅第及花園照片.jpg"
+ },
+ {
+  "id": "linbian-zhengjiagucuo",
+  "name": "鄭家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "林邊鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2004-03-11",
+  "address": "林邊鄉永樂村五鄰榮農路八號",
+  "lat": 22.435778,
+  "lng": 120.516306,
+  "open": "每日 08:00~17:30\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040311000001",
+  "caseId": "20040311000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-07/c1c73de2-e66c-4ad4-8a59-ee961b470b54/鄭家古厝照片.jpg"
+ },
+ {
+  "id": "jiadong-yangshizongci",
+  "name": "佳冬楊氏宗祠",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "佳冬鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "1996-08-27",
+  "address": "佳冬鄉六根村冬根路19之30號",
+  "lat": 22.419472,
+  "lng": 120.547306,
+  "open": "週六至週日08:30-11:30、14:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19960827000003",
+  "caseId": "19960827000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/4c4708f5-8820-497b-aaaa-633ae0505c44/佳冬楊氏宗祠照片.jpg"
+ },
+ {
+  "id": "jiadong-xiaozhai",
+  "name": "佳冬蕭宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "佳冬鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "1985-11-27",
+  "address": "佳冬鄉佳冬村溝渚路1號",
+  "lat": 22.417897,
+  "lng": 120.55025,
+  "open": "例假日09:00-17:00\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000088",
+  "caseId": "19851127000088",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-15/2737bb74-e2df-4075-87d9-0bc8b8fb3886/佳冬蕭宅照片.jpg"
+ },
+ {
+  "id": "jiadong-xiaimen",
+  "name": "佳冬西隘門",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "佳冬鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-11-27",
+  "address": "佳冬鄉六根村冬根路上",
+  "lat": 22.4185344307443,
+  "lng": 120.548223407634,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000087",
+  "caseId": "19851127000087",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-13/fb4ac680-c5c6-4cb3-a02e-6bdab09377d8/佳冬西隘門新照.pg.jpg"
+ },
+ {
+  "id": "jiadong-xiangzhangjiashang",
+  "name": "佳冬鄉張家商樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳冬鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-07-02",
+  "address": "佳冬鄉六根村西邊路1號",
+  "lat": 22.418031,
+  "lng": 120.549257,
+  "open": "週六至週日09:00-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150702000001",
+  "caseId": "20150702000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/389ac954-e4d1-4c8f-8434-ec3ad2400e22/佳冬鄉張家商樓照片.jpg"
+ },
+ {
+  "id": "jiadong-xiangshenshe",
+  "name": "佳冬鄉神社",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳冬鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2012-09-24",
+  "address": "佳冬鄉台17線天后宮旁佳和路",
+  "lat": 22.411583,
+  "lng": 120.562417,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120924000001",
+  "caseId": "20120924000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/35355279-92a7-4efe-a5f1-c441ed1f9f2d/佳冬鄉神社照片.jpg"
+ },
+ {
+  "id": "jiadong-xiangfangkongdong",
+  "name": "佳冬鄉防空洞",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳冬鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-07-31",
+  "address": "佳冬鄉玉光村民學路81號",
+  "lat": 22.426778,
+  "lng": 120.564611,
+  "open": "配合校園開放時間(位於校園內)\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070731000002",
+  "caseId": "20070731000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-04/6932bf99-eb83-431c-88f3-6fac20acf4f7/佳冬鄉防空洞照片.jpg"
+ },
+ {
+  "id": "jiadong-xiangxiaowuyanglou",
+  "name": "屏東縣佳冬鄉蕭屋洋樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "佳冬鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-07-03",
+  "address": "佳冬鄉佳冬村溝渚路151號",
+  "lat": 22.418090155067624,
+  "lng": 120.55009513918021,
+  "open": "週二至週日09:00-12:00、14:00-17:00；週一日休館\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220308000001",
+  "caseId": "20220308000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-02/d3af6625-de8b-49c0-aa4e-4b7c873dd12a/DSC00041.jpg"
+ },
+ {
+  "id": "fangliao-beishiliaobaoan",
+  "name": "北勢寮保安宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "枋寮鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-08-21",
+  "address": "枋寮鄉中寮村保安路215號",
+  "lat": 22.3613879385962,
+  "lng": 120.596497591237,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060821000001",
+  "caseId": "20060821000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/bbfa183e-77ff-47b0-8a18-b4410fa9a6bf/北勢寮保安宮照片.jpg"
+ },
+ {
+  "id": "fangliao-shitouyingshengji",
+  "name": "石頭營聖蹟亭",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "枋寮鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1988-01-26",
+  "address": "枋寮鄉玉泉村大嚮營段947-1地號",
+  "lat": 22.425111,
+  "lng": 120.618506,
+  "open": "全天候開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19880226000005",
+  "caseId": "19880226000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-17/0c7fc522-cfef-420c-a5ee-9922045e60aa/DSC09420 (2).jpg"
+ },
+ {
+  "id": "fangliao-zhitingshe",
+  "name": "枋寮支廳舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "枋寮鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2022-05-23",
+  "address": "枋寮鄉中興路33號",
+  "lat": 22.366741,
+  "lng": 120.593476,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20221207000001",
+  "caseId": "20221207000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-12-07/1f64749f-69b4-4fda-95de-7c94101f99b2/照片.jpg"
+ },
+ {
+  "id": "fangliao-yanwuchang",
+  "name": "枋寮演武場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "枋寮鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2018-01-05",
+  "address": "枋寮鄉枋寮村8鄰德興路46號",
+  "lat": 22.36619,
+  "lng": 120.59307,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180724000001",
+  "caseId": "20180724000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-24/a6d04ae5-9b67-4f4d-a9a9-941104628447/枋寮演武場照片.jpg"
+ },
+ {
+  "id": "fangliao-shitouyingerzhanri",
+  "name": "枋寮石頭營二戰日軍要塞",
+  "category": "歷史建築",
+  "level": "",
+  "town": "枋寮鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2025-03-18",
+  "address": "枋寮鄉玉泉村西側三條崙山區及春日鄉歸崇村境內",
+  "lat": 22.421564,
+  "lng": 120.624009,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250605000001",
+  "caseId": "20250605000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-05/4892cb56-71e3-4d6e-96a3-f7737e1e50ee/001.jpg"
+ },
+ {
+  "id": "fangliao-jinshunfa",
+  "name": "枋寮金順發",
+  "category": "歷史建築",
+  "level": "",
+  "town": "枋寮鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-11-24",
+  "address": "枋寮鄉中寮村保安路121號",
+  "lat": 22.36025,
+  "lng": 120.59825,
+  "open": "不開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151120000002",
+  "caseId": "20151120000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/630968c2-e782-4f21-87c5-50ac1dc179e3/枋寮金順發照片.jpg"
+ },
+ {
+  "id": "chunri-xianglilixishui",
+  "name": "春日鄉力里溪水圳進水塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "春日鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-10-02",
+  "address": "春日鄉力里溪上游之東經120°39'04.2\"，北緯22°26'34.2\"",
+  "lat": 22.442833,
+  "lng": 120.651167,
+  "open": "採登記方式，對外開放參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20191127000002",
+  "caseId": "20191127000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-23/99b04ee6-1bac-483a-a556-a6629030759c/春日鄉力里溪水圳進水塔照片.jpg"
+ },
+ {
+  "id": "chunri-shibanwujuluo",
+  "name": "Tjuvecekadan(老七佳部落)石板屋聚落",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "春日鄉",
+  "types": [
+   "原住民部落"
+  ],
+  "announced": "2010-08-05",
+  "address": "春日鄉七佳段437地號即老七佳部落本體建築物及一般生活空間約1.413 公頃，以及456 地號東北角停車場一帶約0.7 公頃的地點",
+  "lat": 22.448972,
+  "lng": 120.711806,
+  "open": "未開放(除少數長住之居民外，多數居民早已在1960年遷居至新聚落，僅於有農事之時才回到七佳石板屋聚落，過著傳統生活。)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20100805000001",
+  "caseId": "20100805000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/0a9f972c-3678-446c-9a1c-69613b1ef88b/Tjuvecekadan(老七佳部落)石板屋聚落照片.png"
+ },
+ {
+  "id": "chunri-jinshuiyinggudao",
+  "name": "浸水營古道(屏東段)",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "春日鄉",
+  "types": [
+   "歷史文化路徑"
+  ],
+  "announced": "2015-07-15",
+  "address": "春日鄉大漢林道23K至州廳界",
+  "lat": 22.407566,
+  "lng": 120.756419,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20150715000001",
+  "caseId": "20150715000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-14/49b29404-dc6e-4518-b7aa-0924423b64fb/浸水營古道(屏東段)照片.jpg"
+ },
+ {
+  "id": "checheng-daribenliuqiufan",
+  "name": "大日本琉球藩民五十四名墓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "車城鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2011-12-01",
+  "address": "車城鄉興統段600、603地號",
+  "lat": 22.072333,
+  "lng": 120.728889,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111201000001",
+  "caseId": "20111201000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/0f3fc9fe-7b26-4aa2-a389-ae69de51a454/大日本琉球藩民五十四名墓照片.jpg"
+ },
+ {
+  "id": "checheng-zhonghunbei",
+  "name": "忠魂碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "車城鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2011-12-01",
+  "address": "車城鄉四重溪段151-142地號",
+  "lat": 22.103694,
+  "lng": 120.762889,
+  "open": "全日開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180926000001",
+  "caseId": "20180926000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/20c1b357-8460-4a2d-9f6b-f92b6e2b425d/忠魂碑照片.jpg"
+ },
+ {
+  "id": "checheng-mingzhiqiniantao",
+  "name": "明治七年討蕃軍本營地紀念碑及石垣",
+  "category": "歷史建築",
+  "level": "",
+  "town": "車城鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2010-04-28",
+  "address": "車城鄉後灣村國立海洋博物館停車場旁",
+  "lat": 22.046556,
+  "lng": 120.699778,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100428000001",
+  "caseId": "20100428000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-22/4f3ad05a-d9d9-4e32-8a96-db3cb173a704/明治七年討蕃軍本營地紀念碑及石垣-新.jpg"
+ },
+ {
+  "id": "checheng-xixiangduduyijiji",
+  "name": "西鄉都督遺績記念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "車城鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2011-12-01",
+  "address": "車城鄉四重溪段151-142地號",
+  "lat": 22.103694,
+  "lng": 120.762889,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111201000002",
+  "caseId": "20111201000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-11/b24db36e-5d7a-417d-ada6-f21a5cdf8d3c/西鄉都督遺績記念碑新圖-後.jpg"
+ },
+ {
+  "id": "hengchun-gucheng",
+  "name": "恆春古城",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "恆春鎮",
+  "types": [
+   "城郭"
+  ],
+  "announced": "1985-08-19",
+  "address": "恆春鎮城南里;城北里;城西里",
+  "lat": 22.00804873165,
+  "lng": 120.747975742123,
+  "open": "24小時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000085",
+  "caseId": "19850819000085",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/ac0ccff6-4495-4c6a-bbe4-9f0993b37661/P041 屏東縣 恆春古城 (二級)17.jpg"
+ },
+ {
+  "id": "hengchun-eluanbidengta",
+  "name": "鵝鑾鼻燈塔",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "恆春鎮",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2024-03-15",
+  "address": "恆春鎮鵝鑾里燈塔路90號",
+  "lat": 21.902235279993718,
+  "lng": 120.85265744205942,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240318000001",
+  "caseId": "20240318000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-18/2096de7d-120d-4f67-b83e-60278b442a0b/燈塔照片.png"
+ },
+ {
+  "id": "hengchun-lanjunchuyongyi",
+  "name": "恆春蘭軍楚勇義塚",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "恆春鎮",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2023-09-18",
+  "address": "恆春鎮第一公墓",
+  "lat": 22.003813,
+  "lng": 120.754975,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240202000010",
+  "caseId": "20240202000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-17/c47a1fcb-52ed-4bc9-8bb6-8a2647bfb6e9/楚勇義塚本體.jpg"
+ },
+ {
+  "id": "hengchun-junyisuoguanshe",
+  "name": "原恆春郡役所官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "恆春鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-05-14",
+  "address": "恆春鎮文化路37號",
+  "lat": 22.003551,
+  "lng": 120.748158,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190530000001",
+  "caseId": "20190530000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-13/d5684ded-aa7e-4a23-8db1-9bada56c8491/原恆春郡役所官舍新照.jpg"
+ },
+ {
+  "id": "hengchun-zhangjiabeimenzu",
+  "name": "恆春張家北門祖厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "恆春鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-06-20",
+  "address": "恆春鎮網紗里14鄰恒福二街80號",
+  "lat": 22.01148,
+  "lng": 120.74653799999999,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170922000005",
+  "caseId": "20170922000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/dc7eca5d-3893-4561-a881-64ba5dc5df45/恆春張家北門祖厝照片.jpg"
+ },
+ {
+  "id": "hengchun-lianfuzhuanyao",
+  "name": "聯福磚窯",
+  "category": "歷史建築",
+  "level": "",
+  "town": "恆春鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2011-12-05",
+  "address": "恆春鎮恆北路1巷5號",
+  "lat": 22.007694,
+  "lng": 120.749083,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111205000001",
+  "caseId": "20111205000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-02/60233f9e-07f0-4531-9406-2e724506cc22/聯福磚窯照片.jpg"
+ },
+ {
+  "id": "hengchun-eluanbikaoguyizhi",
+  "name": "鵝鑾鼻考古遺址群",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "恆春鎮",
+  "types": [],
+  "announced": "2024-11-29",
+  "address": "恆春鎮鵝鑾段",
+  "lat": 21.905,
+  "lng": 120.850833,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20241210000001",
+  "caseId": "20241210000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-12-12/6ffa91d1-12ca-4431-9e3e-d7f8dac94ea5/鵝鑾鼻遺址更新圖魚鉤.jpg"
+ },
+ {
+  "id": "manzhou-hengchunguoyuchuan",
+  "name": "恆春國語傳習所豬朥束分教場之跡紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "滿州鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2025-06-05",
+  "address": "滿州鄉豬朥束段203-8地號",
+  "lat": 22.012711,
+  "lng": 120.840567,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250606000001",
+  "caseId": "20250606000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-06/ded84777-a7e8-4722-93ba-fc741c663983/碑體正面.jpg"
+ },
+ {
+  "id": "manzhou-xiangjingshengting",
+  "name": "滿州鄉敬聖亭",
+  "category": "歷史建築",
+  "level": "",
+  "town": "滿州鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2008-01-03",
+  "address": "滿州鄉中山路路旁",
+  "lat": 22.012333,
+  "lng": 120.837389,
+  "open": "全日開放\t\t\t\t\t\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080103000001",
+  "caseId": "20080103000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-03/f4c105ac-ca94-4e13-87f3-e2ba82a6fd03/滿洲鄉敬聖亭照片.jpg"
+ },
+ {
+  "id": "liuqiu-yudengta",
+  "name": "琉球嶼燈塔",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "琉球鄉",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2026-03-20",
+  "address": "琉球鄉大南段294、295地號",
+  "lat": 22.32886,
+  "lng": 120.36647,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20260324000002",
+  "caseId": "20260324000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-03-03/676294d6-17f2-4197-864d-939e458731c5/圖片1.jpg"
+ }
+]

@@ -77,7 +77,15 @@ def main():
     base = list(base.values())
     if not base:
         raise SystemExit("找不到 %s 的資料：先跑 fetch_sources.py，並確認縣市名稱（例：高雄市、臺南市）" % a.city)
-    known = {o["town"] for o in base if o["town"]} | set((cfg or {}).get("towns") or [])
+    cfg_towns = set((cfg or {}).get("towns") or [])
+    for o in base:  # 「霧台鄉」與「霧臺鄉」等台／臺寫法統一成 config.towns 的寫法
+        t = o["town"]
+        if t and t not in cfg_towns:
+            alt = next((x for x in cfg_towns if x.replace("臺", "台") == t.replace("臺", "台")), None)
+            if alt:
+                o["address"] = alt + o["address"][len(t):] if o["address"].startswith(t) else o["address"]
+                o["town"] = alt
+    known = {o["town"] for o in base if o["town"]} | cfg_towns
     for o in base:  # 少數資料沒有行政區：從地址或說明文字找已知的行政區名，找不到就留空（stats.txt 會列出，請手動補）
         if not o["town"]:
             hay = (o["address"] or "") + " " + " ".join(o["texts"].values())
