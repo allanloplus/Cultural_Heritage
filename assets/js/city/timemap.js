@@ -12,7 +12,7 @@
   var L1921 = sinica("JM25K_1921", "png", 18, { name: "1921 日治二萬五千分之一地形圖" });
   var L1916 = sinica("JM50K_1916", "jpg", 16, { name: "1916 日治蕃地地形圖（山區）" });
   var L1944 = sinica("JM25K_1944", "png", 16, { name: "1944 日治地形圖（航照修正版）" });
-  var L1945 = sinica("AMCityPlan_1945", "png", 18, { name: "1945 美軍繪製城市地圖（KAGI）" });
+  var L1945 = sinica("AMCityPlan_1945", "png", 18, { name: "1945 美軍繪製城市地圖" });
   var L1950 = sinica("TM25K_1950", "png", 17, { name: "1950 臺灣地形圖" });
   var L1966 = sinica("TM25K_1966", "png", 15, { name: "1957–1969 臺灣二萬五千分一地形圖" });
   var LCOR = sinica("Taiwan_Corona_1966", "png", 16, { name: "1966 Corona 衛星影像" });
