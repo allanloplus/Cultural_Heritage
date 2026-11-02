@@ -175,7 +175,7 @@
       4: { n: B.train || "觀光小火車", t: "train", d: "搭上小火車，前進 3 格！" },
       9: { n: B.food || "小吃補給站", t: "rice", d: "吃飽了有力氣，再擲一次！" },
       13: { n: "時光機", t: "time", d: "答對一題時光題，直接得 1 分！" },
-      15: { n: "YouBike 加速", t: "bike", d: "騎上 YouBike，前進 2 格！" }
+      15: (CY.ubike && CY.ubike.stations.length) ? { n: "YouBike 加速", t: "bike", d: "騎上 YouBike，前進 2 格！" } : { n: "單車加速", t: "bike", d: "騎上單車，前進 2 格！" }
     };
     var siteCells = A.shuffle(A.sites.filter(function (s) { return s.quiz.length; })).slice(0, POS.length - Object.keys(SPECIAL).length);
     var cells = POS.map(function (p, i) { return SPECIAL[i] ? Object.assign({ i: i, sp: true }, SPECIAL[i]) : { i: i, s: siteCells.shift(), owner: null }; });

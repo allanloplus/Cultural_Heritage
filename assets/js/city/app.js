@@ -11,6 +11,7 @@
     "市定古蹟": { c: "var(--c-city)", hex: "#e07a3f", k: "市" },
     "縣定古蹟": { c: "var(--c-city)", hex: "#e07a3f", k: "縣" },
     "歷史建築": { c: "var(--c-building)", hex: "#2f7d6d", k: "歷" },
+    "紀念建築": { c: "#a0527e", hex: "#a0527e", k: "紀" },
     "聚落建築群": { c: "var(--c-cluster)", hex: "#6b5bb5", k: "聚" },
     "考古遺址": { c: "#8a6d3b", hex: "#8a6d3b", k: "遺" },
     "文化景觀": { c: "var(--c-landscape)", hex: "#3b7bbf", k: "景" },
