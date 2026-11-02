@@ -69,7 +69,9 @@
   "quizTitle": "府城文資通",
   "board": {
     "name": "府城擲骰大冒險",
-    "start": "出發：臺南火車站"
+    "start": "出發：臺南火車站",
+    "train": "糖廠五分車",
+    "food": "牛肉湯補給站"
   },
   "planner": {
     "speeds": {

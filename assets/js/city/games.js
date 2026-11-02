@@ -162,17 +162,18 @@
     });
   }
 
-  /* ---------- 5. 桃城擲骰大冒險 ---------- */
+  /* ---------- 5. 擲骰大冒險（名稱見 config.board） ---------- */
   function board(el) {
     var POS = []; // 6x5 外圈，順時針
     for (var c = 1; c <= 6; c++) POS.push([1, c]);
     for (var r = 2; r <= 4; r++) POS.push([r, 6]);
     for (c = 6; c >= 1; c--) POS.push([5, c]);
     for (r = 4; r >= 2; r--) POS.push([r, 1]);
+    var B = A.CFG.board || {};  // 起點、小火車、美食格的名稱依縣市設定（config.json 的 board）
     var SPECIAL = {
-      0: { n: (A.CFG.board && A.CFG.board.start) || "出發", t: "start" },
-      4: { n: "阿里山小火車", t: "train", d: "搭上小火車，前進 3 格！" },
-      9: { n: "雞肉飯補給站", t: "rice", d: "吃飽了有力氣，再擲一次！" },
+      0: { n: B.start || "出發", t: "start" },
+      4: { n: B.train || "觀光小火車", t: "train", d: "搭上小火車，前進 3 格！" },
+      9: { n: B.food || "小吃補給站", t: "rice", d: "吃飽了有力氣，再擲一次！" },
       13: { n: "時光機", t: "time", d: "答對一題時光題，直接得 1 分！" },
       15: { n: "YouBike 加速", t: "bike", d: "騎上 YouBike，前進 2 格！" }
     };

@@ -50,7 +50,9 @@
   "quizTitle": "雲林文資通",
   "board": {
     "name": "雲林擲骰大冒險",
-    "start": "出發：高鐵雲林站"
+    "start": "出發：高鐵雲林站",
+    "train": "虎尾五分車",
+    "food": "鴨肉飯補給站"
   },
   "planner": {
     "speeds": {

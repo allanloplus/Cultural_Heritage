@@ -49,7 +49,9 @@
   "quizTitle": "嘉義縣山海文資通",
   "board": {
     "name": "山海擲骰大冒險",
-    "start": "出發：高鐵嘉義站"
+    "start": "出發：高鐵嘉義站",
+    "train": "阿里山小火車",
+    "food": "雞肉飯補給站"
   },
   "planner": {
     "speeds": {
