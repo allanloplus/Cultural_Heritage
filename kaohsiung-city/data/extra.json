@@ -1,0 +1,286 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！這一站，我們從臺灣南端的大港出發，來到高雄。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！高雄不是有駁二、愛河和捷運美麗島站嗎？原來也有很多古蹟喔？"
+  },
+  {
+   "who": "A",
+   "text": "當然有！高雄的老名字叫打狗，清朝時就是通商口岸，英國領事館還蓋在山坡上看港口呢。"
+  },
+  {
+   "who": "R",
+   "text": "打狗？那為什麼後來改叫高雄？"
+  },
+  {
+   "who": "A",
+   "text": "1920年日本人把打狗改成發音相近的高雄，從此一路長成國際大港。"
+  },
+  {
+   "who": "R",
+   "text": "那文化資產有多少處？"
+  },
+  {
+   "who": "A",
+   "text": "國定古蹟有7處，加上市定古蹟、歷史建築、考古遺址和文化景觀，一共一百三十多處，分布在26個行政區。"
+  },
+  {
+   "who": "R",
+   "text": "時光地圖可以看左營的鳳山縣舊城，還有鳳山新城怎麼搬家，我好想看！"
+  },
+  {
+   "who": "A",
+   "text": "行程規劃支援 YouBike，哈瑪星、鹽埕和鳳山都很好騎，旗山、美濃就建議開車。"
+  },
+  {
+   "who": "R",
+   "text": "準備好了嗎？從哈瑪星的舊打狗驛出發，我們逛港都囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，高雄的時光地圖要看什麼？"
+  },
+  {
+   "who": "A",
+   "text": "先看荷蘭和明鄭時期，那時打狗只是小漁村，左營一帶才是鳳山縣的起點。"
+  },
+  {
+   "who": "A",
+   "text": "清朝以後會疊上當年的老地圖，日治時期還有美軍畫的高雄城市地圖，可以拉透明度、左右對照。"
+  },
+  {
+   "who": "R",
+   "text": "那我要去找鳳山縣舊城的城門，看看今天還剩下哪幾座！"
+  },
+  {
+   "who": "A",
+   "text": "好，滑過去對照看看，答案就在地圖上！"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "哈瑪星和鹽埕的古蹟很密集，走路或騎 YouBike 就能串起來，旗山、美濃在山邊，要開車或搭客運。"
+  },
+  {
+   "who": "R",
+   "text": "選 YouBike 的話，我會告訴你在哪一站借車、哪一站還車喔！"
+  },
+  {
+   "who": "A",
+   "text": "想去旗津的話，可以從鼓山搭渡輪過海，出發前記得查詢船班時間。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給鹽埕的老店和一杯木瓜牛奶！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "港都遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有港都擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從打狗英國領事館、旗後礮臺一路考到左營舊城和美濃，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從高雄車站出發，比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是港都通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的木瓜牛奶算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！從打狗到高雄的歷史，你好熟喔！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "station",
+   "name": "臺鐵高雄車站",
+   "lat": 22.63934,
+   "lng": 120.30265
+  },
+  {
+   "id": "hsr",
+   "name": "高鐵左營站",
+   "lat": 22.68732,
+   "lng": 120.30738
+  },
+  {
+   "id": "hamaxing",
+   "name": "舊打狗驛（哈瑪星）",
+   "lat": 22.62174,
+   "lng": 120.27544
+  },
+  {
+   "id": "fengshan",
+   "name": "臺鐵鳳山車站",
+   "lat": 22.6316,
+   "lng": 120.35627
+  },
+  {
+   "id": "qishan",
+   "name": "旗山車站（旗山老街）",
+   "lat": 22.8846,
+   "lng": 120.48189
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：哈瑪星、鹽埕港都經典",
+   "days": [
+    [
+     "gushan-xiongzhenbeimen",
+     "gushan-dagouyingguoling",
+     "gushan-daitiangong",
+     "gushan-wudedian",
+     "gushan-dagoushuidaojing",
+     "gushan-xinbintingyidingmu",
+     "gushan-jiudagouyi",
+     "yancheng-kujiangtingrishi",
+     "yancheng-yisuo",
+     "qianjin-yihui"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：哈瑪星港都 ＋ 左營舊城與鳳山",
+   "days": [
+    [
+     "gushan-xiongzhenbeimen",
+     "gushan-dagouyingguoling",
+     "gushan-daitiangong",
+     "gushan-wudedian",
+     "gushan-dagoushuidaojing",
+     "gushan-xinbintingyidingmu",
+     "gushan-jiudagouyi",
+     "yancheng-kujiangtingrishi",
+     "yancheng-yisuo",
+     "qianjin-yihui"
+    ],
+    [
+     "zuoying-haijunzhongshan",
+     "zuoying-buhouxuejiagucuo",
+     "zuoying-fengshanjiucheng",
+     "zuoying-fengshanxianjiu",
+     "sanmin-taiwanlianwahuishe",
+     "sanmin-huochezhan",
+     "fengshan-fengyishuyuan",
+     "fengshan-longshansi",
+     "fengshan-huangpuxincun",
+     "fengshan-ribenhaijunfeng"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：港都、舊城鳳山 ＋ 旗山美濃",
+   "days": [
+    [
+     "gushan-xiongzhenbeimen",
+     "gushan-dagouyingguoling",
+     "gushan-daitiangong",
+     "gushan-wudedian",
+     "gushan-dagoushuidaojing",
+     "gushan-xinbintingyidingmu",
+     "gushan-jiudagouyi",
+     "yancheng-kujiangtingrishi",
+     "yancheng-yisuo",
+     "qianjin-yihui"
+    ],
+    [
+     "zuoying-haijunzhongshan",
+     "zuoying-buhouxuejiagucuo",
+     "zuoying-fengshanjiucheng",
+     "zuoying-fengshanxianjiu",
+     "sanmin-taiwanlianwahuishe",
+     "sanmin-huochezhan",
+     "fengshan-fengyishuyuan",
+     "fengshan-longshansi",
+     "fengshan-huangpuxincun",
+     "fengshan-ribenhaijunfeng"
+    ],
+    [
+     "qishan-chezhan",
+     "qishan-tingzaijiao",
+     "qishan-tianhougong",
+     "qishan-nonghui",
+     "qishan-guoxiao",
+     "meinong-shuiqiao",
+     "meinong-jiuqiao",
+     "meinong-jingchafenzhusuo",
+     "meinong-minongdongmenlou",
+     "meinong-zhuzaimendianchang"
+    ]
+   ]
+  }
+ },
+ "food": []
+}

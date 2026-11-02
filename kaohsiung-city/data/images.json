@@ -1,0 +1,976 @@
+{
+ "yancheng-yisuo": [
+  {
+   "file": "Kaohsiung Museum of History face 20101031.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Kaohsiung_Museum_of_History_face_20101031.jpg/960px-Kaohsiung_Museum_of_History_face_20101031.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Museum_of_History_face_20101031.jpg",
+   "artist": "高偉格(othree)",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "local": "img/yancheng-yisuo-0.webp",
+   "small": "img/yancheng-yisuo-0-s.webp"
+  }
+ ],
+ "yancheng-darenluyuanyan": [
+  {
+   "file": "原鹽埕町二丁目連棟街屋.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%8E%9F%E9%B9%BD%E5%9F%95%E7%94%BA%E4%BA%8C%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E8%A1%97%E5%B1%8B.jpg/960px-%E5%8E%9F%E9%B9%BD%E5%9F%95%E7%94%BA%E4%BA%8C%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E8%A1%97%E5%B1%8B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%B9%BD%E5%9F%95%E7%94%BA%E4%BA%8C%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E8%A1%97%E5%B1%8B.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/yancheng-darenluyuanyan-0.webp",
+   "small": "img/yancheng-darenluyuanyan-0-s.webp"
+  }
+ ],
+ "yancheng-yousongyiyuan": [
+  {
+   "file": "原友松醫院.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/%E5%8E%9F%E5%8F%8B%E6%9D%BE%E9%86%AB%E9%99%A2.jpg/960px-%E5%8E%9F%E5%8F%8B%E6%9D%BE%E9%86%AB%E9%99%A2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%8F%8B%E6%9D%BE%E9%86%AB%E9%99%A2.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "yancheng-taiwanshengyanjiu": [
+  {
+   "file": "原臺灣省菸酒公賣局高雄分局20170913.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E5%8E%9F%E8%87%BA%E7%81%A3%E7%9C%81%E8%8F%B8%E9%85%92%E5%85%AC%E8%B3%A3%E5%B1%80%E9%AB%98%E9%9B%84%E5%88%86%E5%B1%8020170913.jpg/960px-%E5%8E%9F%E8%87%BA%E7%81%A3%E7%9C%81%E8%8F%B8%E9%85%92%E5%85%AC%E8%B3%A3%E5%B1%80%E9%AB%98%E9%9B%84%E5%88%86%E5%B1%8020170913.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E8%87%BA%E7%81%A3%E7%9C%81%E8%8F%B8%E9%85%92%E5%85%AC%E8%B3%A3%E5%B1%80%E9%AB%98%E9%9B%84%E5%88%86%E5%B1%8020170913.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "yancheng-kujiangtingrishi": [
+  {
+   "file": "堀江町日式街屋.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%A0%80%E6%B1%9F%E7%94%BA%E6%97%A5%E5%BC%8F%E8%A1%97%E5%B1%8B.jpg/960px-%E5%A0%80%E6%B1%9F%E7%94%BA%E6%97%A5%E5%BC%8F%E8%A1%97%E5%B1%8B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%A0%80%E6%B1%9F%E7%94%BA%E6%97%A5%E5%BC%8F%E8%A1%97%E5%B1%8B.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-dagouyingguoling": [
+  {
+   "file": "打狗英國領事館官邸-3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E6%89%93%E7%8B%97%E8%8B%B1%E5%9C%8B%E9%A0%98%E4%BA%8B%E9%A4%A8%E5%AE%98%E9%82%B8-3.jpg/960px-%E6%89%93%E7%8B%97%E8%8B%B1%E5%9C%8B%E9%A0%98%E4%BA%8B%E9%A4%A8%E5%AE%98%E9%82%B8-3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%89%93%E7%8B%97%E8%8B%B1%E5%9C%8B%E9%A0%98%E4%BA%8B%E9%A4%A8%E5%AE%98%E9%82%B8-3.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-neiweilishiguzhai": [
+  {
+   "file": "鼓山內惟李氏古宅.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E9%BC%93%E5%B1%B1%E5%85%A7%E6%83%9F%E6%9D%8E%E6%B0%8F%E5%8F%A4%E5%AE%85.JPG/960px-%E9%BC%93%E5%B1%B1%E5%85%A7%E6%83%9F%E6%9D%8E%E6%B0%8F%E5%8F%A4%E5%AE%85.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B1%B1%E5%85%A7%E6%83%9F%E6%9D%8E%E6%B0%8F%E5%8F%A4%E5%AE%85.JPG",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-aiguofurenhuiguan": [
+  {
+   "file": "紅十字會育幼中心(愛國婦人會館).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E7%B4%85%E5%8D%81%E5%AD%97%E6%9C%83%E8%82%B2%E5%B9%BC%E4%B8%AD%E5%BF%83%28%E6%84%9B%E5%9C%8B%E5%A9%A6%E4%BA%BA%E6%9C%83%E9%A4%A8%29.jpg/960px-%E7%B4%85%E5%8D%81%E5%AD%97%E6%9C%83%E8%82%B2%E5%B9%BC%E4%B8%AD%E5%BF%83%28%E6%84%9B%E5%9C%8B%E5%A9%A6%E4%BA%BA%E6%9C%83%E9%A4%A8%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%B4%85%E5%8D%81%E5%AD%97%E6%9C%83%E8%82%B2%E5%B9%BC%E4%B8%AD%E5%BF%83(%E6%84%9B%E5%9C%8B%E5%A9%A6%E4%BA%BA%E6%9C%83%E9%A4%A8).jpg",
+   "artist": "Ane56712",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "gushan-dagoushuidaojing": [
+  {
+   "file": "打狗水道淨水池.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E6%89%93%E7%8B%97%E6%B0%B4%E9%81%93%E6%B7%A8%E6%B0%B4%E6%B1%A0.jpg/960px-%E6%89%93%E7%8B%97%E6%B0%B4%E9%81%93%E6%B7%A8%E6%B0%B4%E6%B1%A0.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%89%93%E7%8B%97%E6%B0%B4%E9%81%93%E6%B7%A8%E6%B0%B4%E6%B1%A0.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-wudedian": [
+  {
+   "file": "武德殿(今).JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%E6%AD%A6%E5%BE%B7%E6%AE%BF%28%E4%BB%8A%29.JPG/960px-%E6%AD%A6%E5%BE%B7%E6%AE%BF%28%E4%BB%8A%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%BE%B7%E6%AE%BF(%E4%BB%8A).JPG",
+   "artist": "Classicnukacola",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "gushan-xiongzhenbeimen": [
+  {
+   "file": "North Gate Near Xiziwan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/North_Gate_Near_Xiziwan.jpg/960px-North_Gate_Near_Xiziwan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:North_Gate_Near_Xiziwan.jpg",
+   "artist": "Scraft1",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-qianyeshuinitaiwan": [
+  {
+   "file": "淺野水泥台灣工場.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/%E6%B7%BA%E9%87%8E%E6%B0%B4%E6%B3%A5%E5%8F%B0%E7%81%A3%E5%B7%A5%E5%A0%B4.jpg/960px-%E6%B7%BA%E9%87%8E%E6%B0%B4%E6%B3%A5%E5%8F%B0%E7%81%A3%E5%B7%A5%E5%A0%B4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%B7%BA%E9%87%8E%E6%B0%B4%E6%B3%A5%E5%8F%B0%E7%81%A3%E5%B7%A5%E5%A0%B4.jpg",
+   "artist": "陳李銜",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-xinbintingyidingmu": [
+  {
+   "file": "新濱町一丁目連棟紅磚街屋.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E6%96%B0%E6%BF%B1%E7%94%BA%E4%B8%80%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E7%B4%85%E7%A3%9A%E8%A1%97%E5%B1%8B.jpg/960px-%E6%96%B0%E6%BF%B1%E7%94%BA%E4%B8%80%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E7%B4%85%E7%A3%9A%E8%A1%97%E5%B1%8B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%BF%B1%E7%94%BA%E4%B8%80%E4%B8%81%E7%9B%AE%E9%80%A3%E6%A3%9F%E7%B4%85%E7%A3%9A%E8%A1%97%E5%B1%8B.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-wangwowangshiding": [
+  {
+   "file": "王沃、王石定故居.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%E7%8E%8B%E6%B2%83%E3%80%81%E7%8E%8B%E7%9F%B3%E5%AE%9A%E6%95%85%E5%B1%85.jpg/960px-%E7%8E%8B%E6%B2%83%E3%80%81%E7%8E%8B%E7%9F%B3%E5%AE%9A%E6%95%85%E5%B1%85.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E6%B2%83%E3%80%81%E7%8E%8B%E7%9F%B3%E5%AE%9A%E6%95%85%E5%B1%85.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-tiantingzhaichang": [
+  {
+   "file": "田町齋場.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/%E7%94%B0%E7%94%BA%E9%BD%8B%E5%A0%B4.jpg/960px-%E7%94%B0%E7%94%BA%E9%BD%8B%E5%A0%B4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%94%B0%E7%94%BA%E9%BD%8B%E5%A0%B4.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-jiusanheyinxing": [
+  {
+   "file": "高雄舊三和銀行.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%E9%AB%98%E9%9B%84%E8%88%8A%E4%B8%89%E5%92%8C%E9%8A%80%E8%A1%8C.jpg/960px-%E9%AB%98%E9%9B%84%E8%88%8A%E4%B8%89%E5%92%8C%E9%8A%80%E8%A1%8C.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%9B%84%E8%88%8A%E4%B8%89%E5%92%8C%E9%8A%80%E8%A1%8C.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-jiudagouyi": [
+  {
+   "file": "Kaohsiung Port Station front view.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Kaohsiung_Port_Station_front_view.jpg/960px-Kaohsiung_Port_Station_front_view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Port_Station_front_view.jpg",
+   "artist": "KasugaHuang",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+  }
+ ],
+ "gushan-xiangjiaopeng": [
+  {
+   "file": "香蕉棚 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%E9%A6%99%E8%95%89%E6%A3%9A_%28cropped%29.jpg/960px-%E9%A6%99%E8%95%89%E6%A3%9A_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%A6%99%E8%95%89%E6%A3%9A_(cropped).jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-daitiangong": [
+  {
+   "file": "代天宮.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%E4%BB%A3%E5%A4%A9%E5%AE%AE.jpg/960px-%E4%BB%A3%E5%A4%A9%E5%AE%AE.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%A3%E5%A4%A9%E5%AE%AE.jpg",
+   "artist": "哈瑪星文化協會",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-zhongliecijiyuan": [
+  {
+   "file": "鼓山忠烈祠.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E9%BC%93%E5%B1%B1%E5%BF%A0%E7%83%88%E7%A5%A0.jpg/960px-%E9%BC%93%E5%B1%B1%E5%BF%A0%E7%83%88%E7%A5%A0.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B1%B1%E5%BF%A0%E7%83%88%E7%A5%A0.jpg",
+   "artist": "​哈瑪星文化協會",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-ganggangshiguan": [
+  {
+   "file": "IGP0840 高雄港港史館.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/IGP0840_%E9%AB%98%E9%9B%84%E6%B8%AF%E6%B8%AF%E5%8F%B2%E9%A4%A8.jpg/960px-IGP0840_%E9%AB%98%E9%9B%84%E6%B8%AF%E6%B8%AF%E5%8F%B2%E9%A4%A8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:IGP0840_%E9%AB%98%E9%9B%84%E6%B8%AF%E6%B8%AF%E5%8F%B2%E9%A4%A8.jpg",
+   "artist": "白襪",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gushan-gangzhanjizhoubian": [
+  {
+   "file": "遠眺規模可觀的高雄港站及週邊舊港區鐵道線群與建物群.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E9%81%A0%E7%9C%BA%E8%A6%8F%E6%A8%A1%E5%8F%AF%E8%A7%80%E7%9A%84%E9%AB%98%E9%9B%84%E6%B8%AF%E7%AB%99%E5%8F%8A%E9%80%B1%E9%82%8A%E8%88%8A%E6%B8%AF%E5%8D%80%E9%90%B5%E9%81%93%E7%B7%9A%E7%BE%A4%E8%88%87%E5%BB%BA%E7%89%A9%E7%BE%A4.jpg/960px-%E9%81%A0%E7%9C%BA%E8%A6%8F%E6%A8%A1%E5%8F%AF%E8%A7%80%E7%9A%84%E9%AB%98%E9%9B%84%E6%B8%AF%E7%AB%99%E5%8F%8A%E9%80%B1%E9%82%8A%E8%88%8A%E6%B8%AF%E5%8D%80%E9%90%B5%E9%81%93%E7%B7%9A%E7%BE%A4%E8%88%87%E5%BB%BA%E7%89%A9%E7%BE%A4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%81%A0%E7%9C%BA%E8%A6%8F%E6%A8%A1%E5%8F%AF%E8%A7%80%E7%9A%84%E9%AB%98%E9%9B%84%E6%B8%AF%E7%AB%99%E5%8F%8A%E9%80%B1%E9%82%8A%E8%88%8A%E6%B8%AF%E5%8D%80%E9%90%B5%E9%81%93%E7%B7%9A%E7%BE%A4%E8%88%87%E5%BB%BA%E7%89%A9%E7%BE%A4.jpg",
+   "artist": "Deepblue5042",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qijin-dagougongxuexiao": [
+  {
+   "file": "高雄旗津國小校舍.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/%E9%AB%98%E9%9B%84%E6%97%97%E6%B4%A5%E5%9C%8B%E5%B0%8F%E6%A0%A1%E8%88%8D.JPG/960px-%E9%AB%98%E9%9B%84%E6%97%97%E6%B4%A5%E5%9C%8B%E5%B0%8F%E6%A0%A1%E8%88%8D.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%9B%84%E6%97%97%E6%B4%A5%E5%9C%8B%E5%B0%8F%E6%A0%A1%E8%88%8D.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qijin-qihoutianhougong": [
+  {
+   "file": "旗津天后宮2022.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/%E6%97%97%E6%B4%A5%E5%A4%A9%E5%90%8E%E5%AE%AE2022.jpg/960px-%E6%97%97%E6%B4%A5%E5%A4%A9%E5%90%8E%E5%AE%AE2022.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E6%B4%A5%E5%A4%A9%E5%90%8E%E5%AE%AE2022.jpg",
+   "artist": "Mrmarkertw",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qijin-qihoudengta": [
+  {
+   "file": "高雄燈塔.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%AB%98%E9%9B%84%E7%87%88%E5%A1%94.jpg/960px-%E9%AB%98%E9%9B%84%E7%87%88%E5%A1%94.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%9B%84%E7%87%88%E5%A1%94.jpg",
+   "artist": "WEI, WAN-CHEN(魏琬臻)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qijin-taiwanzongdufujiao": [
+  {
+   "file": "原臺灣總督府交通局高雄築港出張所平和町官舍群＜3＞.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%8E%9F%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E4%BA%A4%E9%80%9A%E5%B1%80%E9%AB%98%E9%9B%84%E7%AF%89%E6%B8%AF%E5%87%BA%E5%BC%B5%E6%89%80%E5%B9%B3%E5%92%8C%E7%94%BA%E5%AE%98%E8%88%8D%E7%BE%A4%EF%BC%9C3%EF%BC%9E.jpg/960px-%E5%8E%9F%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E4%BA%A4%E9%80%9A%E5%B1%80%E9%AB%98%E9%9B%84%E7%AF%89%E6%B8%AF%E5%87%BA%E5%BC%B5%E6%89%80%E5%B9%B3%E5%92%8C%E7%94%BA%E5%AE%98%E8%88%8D%E7%BE%A4%EF%BC%9C3%EF%BC%9E.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E4%BA%A4%E9%80%9A%E5%B1%80%E9%AB%98%E9%9B%84%E7%AF%89%E6%B8%AF%E5%87%BA%E5%BC%B5%E6%89%80%E5%B9%B3%E5%92%8C%E7%94%BA%E5%AE%98%E8%88%8D%E7%BE%A4%EF%BC%9C3%EF%BC%9E.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qijin-yezonglimu": [
+  {
+   "file": "葉宗禮墓與王門盧夫人墓.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%E8%91%89%E5%AE%97%E7%A6%AE%E5%A2%93%E8%88%87%E7%8E%8B%E9%96%80%E7%9B%A7%E5%A4%AB%E4%BA%BA%E5%A2%93.JPG/960px-%E8%91%89%E5%AE%97%E7%A6%AE%E5%A2%93%E8%88%87%E7%8E%8B%E9%96%80%E7%9B%A7%E5%A4%AB%E4%BA%BA%E5%A2%93.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%91%89%E5%AE%97%E7%A6%AE%E5%A2%93%E8%88%87%E7%8E%8B%E9%96%80%E7%9B%A7%E5%A4%AB%E4%BA%BA%E5%A2%93.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qianjin-yihui": [
+  {
+   "file": "Former Hall of Kaohsiung City Council 20130528.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Former_Hall_of_Kaohsiung_City_Council_20130528.jpg/960px-Former_Hall_of_Kaohsiung_City_Council_20130528.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Former_Hall_of_Kaohsiung_City_Council_20130528.jpg",
+   "artist": "SSR2000",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qianjin-taiwanyinxinggao": [
+  {
+   "file": "臺灣銀行高雄分行.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E8%87%BA%E7%81%A3%E9%8A%80%E8%A1%8C%E9%AB%98%E9%9B%84%E5%88%86%E8%A1%8C.jpg/960px-%E8%87%BA%E7%81%A3%E9%8A%80%E8%A1%8C%E9%AB%98%E9%9B%84%E5%88%86%E8%A1%8C.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E7%81%A3%E9%8A%80%E8%A1%8C%E9%AB%98%E9%9B%84%E5%88%86%E8%A1%8C.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "xinxing-keqihuaguju": [
+  {
+   "file": "柯旗化故居外觀.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%E6%9F%AF%E6%97%97%E5%8C%96%E6%95%85%E5%B1%85%E5%A4%96%E8%A7%80.JPG/960px-%E6%9F%AF%E6%97%97%E5%8C%96%E6%95%85%E5%B1%85%E5%A4%96%E8%A7%80.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%9F%AF%E6%97%97%E5%8C%96%E6%95%85%E5%B1%85%E5%A4%96%E8%A7%80.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "xinxing-meilidaozazhishe": [
+  {
+   "file": "美麗島雜誌社高雄服務處原址.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/%E7%BE%8E%E9%BA%97%E5%B3%B6%E9%9B%9C%E8%AA%8C%E7%A4%BE%E9%AB%98%E9%9B%84%E6%9C%8D%E5%8B%99%E8%99%95%E5%8E%9F%E5%9D%80.JPG/960px-%E7%BE%8E%E9%BA%97%E5%B3%B6%E9%9B%9C%E8%AA%8C%E7%A4%BE%E9%AB%98%E9%9B%84%E6%9C%8D%E5%8B%99%E8%99%95%E5%8E%9F%E5%9D%80.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E9%BA%97%E5%B3%B6%E9%9B%9C%E8%AA%8C%E7%A4%BE%E9%AB%98%E9%9B%84%E6%9C%8D%E5%8B%99%E8%99%95%E5%8E%9F%E5%9D%80.JPG",
+   "artist": "祥龍 This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "xinxing-xiaoyaoyuan": [
+  {
+   "file": "逍遥園2020年.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/%E9%80%8D%E9%81%A5%E5%9C%922020%E5%B9%B4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%80%8D%E9%81%A5%E5%9C%922020%E5%B9%B4.jpg",
+   "artist": "SOTEKIZEN1982",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "lingya-chenzhonghemu": [
+  {
+   "file": "高雄陳中和墓.JPG",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%E9%AB%98%E9%9B%84%E9%99%B3%E4%B8%AD%E5%92%8C%E5%A2%93.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%9B%84%E9%99%B3%E4%B8%AD%E5%92%8C%E5%A2%93.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "lingya-meiguishengmutang": [
+  {
+   "file": "玫瑰聖母主教座堂.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%E7%8E%AB%E7%91%B0%E8%81%96%E6%AF%8D%E4%B8%BB%E6%95%99%E5%BA%A7%E5%A0%82.JPG/960px-%E7%8E%AB%E7%91%B0%E8%81%96%E6%AF%8D%E4%B8%BB%E6%95%99%E5%BA%A7%E5%A0%82.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%8E%AB%E7%91%B0%E8%81%96%E6%AF%8D%E4%B8%BB%E6%95%99%E5%BA%A7%E5%A0%82.JPG",
+   "artist": "小鄧",
+   "license": "Public domain",
+   "licenseUrl": ""
+  }
+ ],
+ "lingya-chenzhonghejinian": [
+  {
+   "file": "陳中和紀念館.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E9%99%B3%E4%B8%AD%E5%92%8C%E7%B4%80%E5%BF%B5%E9%A4%A8.JPG/960px-%E9%99%B3%E4%B8%AD%E5%92%8C%E7%B4%80%E5%BF%B5%E9%A4%A8.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%99%B3%E4%B8%AD%E5%92%8C%E7%B4%80%E5%BF%B5%E9%A4%A8.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "lingya-silisanxinjiashang": [
+  {
+   "file": "三信家商學生活動中心2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%832.jpg/960px-%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%832.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%832.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "lingya-silisanxinjiashang2": [
+  {
+   "file": "三信家商波浪大樓.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E6%B3%A2%E6%B5%AA%E5%A4%A7%E6%A8%93.jpg/960px-%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E6%B3%A2%E6%B5%AA%E5%A4%A7%E6%A8%93.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E4%BF%A1%E5%AE%B6%E5%95%86%E6%B3%A2%E6%B5%AA%E5%A4%A7%E6%A8%93.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "sanmin-gongzhuanbeidong": [
+  {
+   "file": "原高雄工專北棟教學大樓20180717-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/%E5%8E%9F%E9%AB%98%E9%9B%84%E5%B7%A5%E5%B0%88%E5%8C%97%E6%A3%9F%E6%95%99%E5%AD%B8%E5%A4%A7%E6%A8%9320180717-1.jpg/960px-%E5%8E%9F%E9%AB%98%E9%9B%84%E5%B7%A5%E5%B0%88%E5%8C%97%E6%A3%9F%E6%95%99%E5%AD%B8%E5%A4%A7%E6%A8%9320180717-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%AB%98%E9%9B%84%E5%B7%A5%E5%B0%88%E5%8C%97%E6%A3%9F%E6%95%99%E5%AD%B8%E5%A4%A7%E6%A8%9320180717-1.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "sanmin-zhongxuehonglou": [
+  {
+   "file": "KSHS.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/KSHS.JPG/960px-KSHS.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:KSHS.JPG",
+   "artist": "koika",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  }
+ ],
+ "qianzhen-taisugaoxiongchang": [
+  {
+   "file": "原台塑高雄廠辦公室.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%8E%9F%E5%8F%B0%E5%A1%91%E9%AB%98%E9%9B%84%E5%BB%A0%E8%BE%A6%E5%85%AC%E5%AE%A4.jpg/960px-%E5%8E%9F%E5%8F%B0%E5%A1%91%E9%AB%98%E9%9B%84%E5%BB%A0%E8%BE%A6%E5%85%AC%E5%AE%A4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%8F%B0%E5%A1%91%E9%AB%98%E9%9B%84%E5%BB%A0%E8%BE%A6%E5%85%AC%E5%AE%A4.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qianzhen-wangyongzaichuang": [
+  {
+   "file": "王永在創辦人宿舍.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E7%8E%8B%E6%B0%B8%E5%9C%A8%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%AE%BF%E8%88%8D.jpg/960px-%E7%8E%8B%E6%B0%B8%E5%9C%A8%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%AE%BF%E8%88%8D.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E6%B0%B8%E5%9C%A8%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%AE%BF%E8%88%8D.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "zuoying-fengshanxianjiu": [
+  {
+   "file": "鳳山縣舊城南門2023年 03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E9%B3%B3%E5%B1%B1%E7%B8%A3%E8%88%8A%E5%9F%8E%E5%8D%97%E9%96%802023%E5%B9%B4_03.jpg/960px-%E9%B3%B3%E5%B1%B1%E7%B8%A3%E8%88%8A%E5%9F%8E%E5%8D%97%E9%96%802023%E5%B9%B4_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%B3%B3%E5%B1%B1%E7%B8%A3%E8%88%8A%E5%9F%8E%E5%8D%97%E9%96%802023%E5%B9%B4_03.jpg",
+   "artist": "Mrmarkertw",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "zuoying-buhouxuejiagucuo": [
+  {
+   "file": "左營薛家古厝.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/%E5%B7%A6%E7%87%9F%E8%96%9B%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG/960px-%E5%B7%A6%E7%87%9F%E8%96%9B%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%B7%A6%E7%87%9F%E8%96%9B%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG",
+   "artist": "祥龍 This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "zuoying-haijunzhongshan": [
+  {
+   "file": "ROC Navy Zuoying Zhongshan Hall 20131119.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/ROC_Navy_Zuoying_Zhongshan_Hall_20131119.jpg/960px-ROC_Navy_Zuoying_Zhongshan_Hall_20131119.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ROC_Navy_Zuoying_Zhongshan_Hall_20131119.jpg",
+   "artist": "Solomon203",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "zuoying-jiuchengguoxiaohou": [
+  {
+   "file": "舊城國小後曾家古建物.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/%E8%88%8A%E5%9F%8E%E5%9C%8B%E5%B0%8F%E5%BE%8C%E6%9B%BE%E5%AE%B6%E5%8F%A4%E5%BB%BA%E7%89%A9.JPG/960px-%E8%88%8A%E5%9F%8E%E5%9C%8B%E5%B0%8F%E5%BE%8C%E6%9B%BE%E5%AE%B6%E5%8F%A4%E5%BB%BA%E7%89%A9.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%88%8A%E5%9F%8E%E5%9C%8B%E5%B0%8F%E5%BE%8C%E6%9B%BE%E5%AE%B6%E5%8F%A4%E5%BB%BA%E7%89%A9.JPG",
+   "artist": "祥龍 This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "zuoying-haijunjuancun": [
+  {
+   "file": "左營海軍眷村01.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E5%B7%A6%E7%87%9F%E6%B5%B7%E8%BB%8D%E7%9C%B7%E6%9D%9101.JPG/960px-%E5%B7%A6%E7%87%9F%E6%B5%B7%E8%BB%8D%E7%9C%B7%E6%9D%9101.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%B7%A6%E7%87%9F%E6%B5%B7%E8%BB%8D%E7%9C%B7%E6%9D%9101.JPG",
+   "artist": "祥龍 This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "nanzi-ribendiliuhaijun2": [
+  {
+   "file": "中油宏南宿舍.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E4%B8%AD%E6%B2%B9%E5%AE%8F%E5%8D%97%E5%AE%BF%E8%88%8D.jpg/960px-%E4%B8%AD%E6%B2%B9%E5%AE%8F%E5%8D%97%E5%AE%BF%E8%88%8D.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B2%B9%E5%AE%8F%E5%8D%97%E5%AE%BF%E8%88%8D.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "nanzi-yangjiagucuo": [
+  {
+   "file": "右昌楊家古厝.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8F%B3%E6%98%8C%E6%A5%8A%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG/960px-%E5%8F%B3%E6%98%8C%E6%A5%8A%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8F%B3%E6%98%8C%E6%A5%8A%E5%AE%B6%E5%8F%A4%E5%8E%9D.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "nanzi-tianhougong": [
+  {
+   "file": "楠梓天后宮.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E6%A5%A0%E6%A2%93%E5%A4%A9%E5%90%8E%E5%AE%AE.jpg/960px-%E6%A5%A0%E6%A2%93%E5%A4%A9%E5%90%8E%E5%AE%AE.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%A5%A0%E6%A2%93%E5%A4%A9%E5%90%8E%E5%AE%AE.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "nanzi-taiwanjiduzhanglao": [
+  {
+   "file": "楠梓基督長老教會.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E6%A5%A0%E6%A2%93%E5%9F%BA%E7%9D%A3%E9%95%B7%E8%80%81%E6%95%99%E6%9C%83.jpg/960px-%E6%A5%A0%E6%A2%93%E5%9F%BA%E7%9D%A3%E9%95%B7%E8%80%81%E6%95%99%E6%9C%83.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%A5%A0%E6%A2%93%E5%9F%BA%E7%9D%A3%E9%95%B7%E8%80%81%E6%95%99%E6%9C%83.jpg",
+   "artist": "david",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "nanzi-houjinlinjianzhong": [
+  {
+   "file": "後勁林建中墓.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/%E5%BE%8C%E5%8B%81%E6%9E%97%E5%BB%BA%E4%B8%AD%E5%A2%93.jpg/960px-%E5%BE%8C%E5%8B%81%E6%9E%97%E5%BB%BA%E4%B8%AD%E5%A2%93.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%BE%8C%E5%8B%81%E6%9E%97%E5%BB%BA%E4%B8%AD%E5%A2%93.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "fengshan-ribenhaijunfeng": [
+  {
+   "file": "海軍明德訓練班碉堡.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%B5%B7%E8%BB%8D%E6%98%8E%E5%BE%B7%E8%A8%93%E7%B7%B4%E7%8F%AD%E7%A2%89%E5%A0%A1.JPG/960px-%E6%B5%B7%E8%BB%8D%E6%98%8E%E5%BE%B7%E8%A8%93%E7%B7%B4%E7%8F%AD%E7%A2%89%E5%A0%A1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E8%BB%8D%E6%98%8E%E5%BE%B7%E8%A8%93%E7%B7%B4%E7%8F%AD%E7%A2%89%E5%A0%A1.JPG",
+   "artist": "Pbdragonwang This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "fengshan-longshansi": [
+  {
+   "file": "鳳山龍山寺2022年.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E9%B3%B3%E5%B1%B1%E9%BE%8D%E5%B1%B1%E5%AF%BA2022%E5%B9%B4.jpg/960px-%E9%B3%B3%E5%B1%B1%E9%BE%8D%E5%B1%B1%E5%AF%BA2022%E5%B9%B4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%B3%B3%E5%B1%B1%E9%BE%8D%E5%B1%B1%E5%AF%BA2022%E5%B9%B4.jpg",
+   "artist": "Mrmarkertw",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "fengshan-fengyishuyuan": [
+  {
+   "file": "Fongyi Tutorial Academy, Front Square, Fongshan District, Kaohsiung City (Taiwan).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fongyi_Tutorial_Academy%2C_Front_Square%2C_Fongshan_District%2C_Kaohsiung_City_%28Taiwan%29.jpg/960px-Fongyi_Tutorial_Academy%2C_Front_Square%2C_Fongshan_District%2C_Kaohsiung_City_%28Taiwan%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fongyi_Tutorial_Academy,_Front_Square,_Fongshan_District,_Kaohsiung_City_(Taiwan).jpg",
+   "artist": "Mk2010",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "fengshan-taiwanzongdufunong": [
+  {
+   "file": "鳳山熱帶園藝試驗分所20171015-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E9%B3%B3%E5%B1%B1%E7%86%B1%E5%B8%B6%E5%9C%92%E8%97%9D%E8%A9%A6%E9%A9%97%E5%88%86%E6%89%8020171015-1.jpg/960px-%E9%B3%B3%E5%B1%B1%E7%86%B1%E5%B8%B6%E5%9C%92%E8%97%9D%E8%A9%A6%E9%A9%97%E5%88%86%E6%89%8020171015-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%B3%B3%E5%B1%B1%E7%86%B1%E5%B8%B6%E5%9C%92%E8%97%9D%E8%A9%A6%E9%A9%97%E5%88%86%E6%89%8020171015-1.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "fengshan-huangpuxincun": [
+  {
+   "file": "黃埔新村出入口-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/%E9%BB%83%E5%9F%94%E6%96%B0%E6%9D%91%E5%87%BA%E5%85%A5%E5%8F%A3-1.jpg/960px-%E9%BB%83%E5%9F%94%E6%96%B0%E6%9D%91%E5%87%BA%E5%85%A5%E5%8F%A3-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%BB%83%E5%9F%94%E6%96%B0%E6%9D%91%E5%87%BA%E5%85%A5%E5%8F%A3-1.jpg",
+   "artist": "Guan Zhen Chen",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "daliao-gongyizhuanyao": [
+  {
+   "file": "大寮共益磚窯廠20220728-5.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E5%A4%A7%E5%AF%AE%E5%85%B1%E7%9B%8A%E7%A3%9A%E7%AA%AF%E5%BB%A020220728-5.jpg/960px-%E5%A4%A7%E5%AF%AE%E5%85%B1%E7%9B%8A%E7%A3%9A%E7%AA%AF%E5%BB%A020220728-5.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%AF%AE%E5%85%B1%E7%9B%8A%E7%A3%9A%E7%AA%AF%E5%BB%A020220728-5.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "daliao-caogongzunjiuzuntou": [
+  {
+   "file": "曹公圳舊圳頭.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E6%9B%B9%E5%85%AC%E5%9C%B3%E8%88%8A%E5%9C%B3%E9%A0%AD.JPG/960px-%E6%9B%B9%E5%85%AC%E5%9C%B3%E8%88%8A%E5%9C%B3%E9%A0%AD.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%9B%B9%E5%85%AC%E5%9C%B3%E8%88%8A%E5%9C%B3%E9%A0%AD.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "linyuan-dinglinzaibianjing": [
+  {
+   "file": "頂林仔邊警察官吏派出所.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%E9%A0%82%E6%9E%97%E4%BB%94%E9%82%8A%E8%AD%A6%E5%AF%9F%E5%AE%98%E5%90%8F%E6%B4%BE%E5%87%BA%E6%89%80.JPG/960px-%E9%A0%82%E6%9E%97%E4%BB%94%E9%82%8A%E8%AD%A6%E5%AF%9F%E5%AE%98%E5%90%8F%E6%B4%BE%E5%87%BA%E6%89%80.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%A0%82%E6%9E%97%E4%BB%94%E9%82%8A%E8%AD%A6%E5%AF%9F%E5%AE%98%E5%90%8F%E6%B4%BE%E5%87%BA%E6%89%80.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "linyuan-qingshuiyanyuanri": [
+  {
+   "file": "清水巖原日軍戰備坑道.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%E6%B8%85%E6%B0%B4%E5%B7%96%E5%8E%9F%E6%97%A5%E8%BB%8D%E6%88%B0%E5%82%99%E5%9D%91%E9%81%93.JPG/960px-%E6%B8%85%E6%B0%B4%E5%B7%96%E5%8E%9F%E6%97%A5%E8%BB%8D%E6%88%B0%E5%82%99%E5%9D%91%E9%81%93.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E6%B0%B4%E5%B7%96%E5%8E%9F%E6%97%A5%E8%BB%8D%E6%88%B0%E5%82%99%E5%9D%91%E9%81%93.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "linyuan-gangpuhuangjiagu": [
+  {
+   "file": "林園港埔黃家(江夏派)古厝.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E6%9E%97%E5%9C%92%E6%B8%AF%E5%9F%94%E9%BB%83%E5%AE%B6%28%E6%B1%9F%E5%A4%8F%E6%B4%BE%29%E5%8F%A4%E5%8E%9D.jpg/960px-%E6%9E%97%E5%9C%92%E6%B8%AF%E5%9F%94%E9%BB%83%E5%AE%B6%28%E6%B1%9F%E5%A4%8F%E6%B4%BE%29%E5%8F%A4%E5%8E%9D.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%9E%97%E5%9C%92%E6%B8%AF%E5%9F%94%E9%BB%83%E5%AE%B6(%E6%B1%9F%E5%A4%8F%E6%B4%BE)%E5%8F%A4%E5%8E%9D.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "dashu-zhuliaoqushuizhan": [
+  {
+   "file": "竹寮取水站.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/%E7%AB%B9%E5%AF%AE%E5%8F%96%E6%B0%B4%E7%AB%99.JPG/960px-%E7%AB%B9%E5%AF%AE%E5%8F%96%E6%B0%B4%E7%AB%99.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%AB%B9%E5%AF%AE%E5%8F%96%E6%B0%B4%E7%AB%99.JPG",
+   "artist": "Pbdragonwang This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "dashu-jiuqutangtaifang": [
+  {
+   "file": "九曲堂泰芳商會鳳梨罐詰工場.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E4%B9%9D%E6%9B%B2%E5%A0%82%E6%B3%B0%E8%8A%B3%E5%95%86%E6%9C%83%E9%B3%B3%E6%A2%A8%E7%BD%90%E8%A9%B0%E5%B7%A5%E5%A0%B4.JPG/960px-%E4%B9%9D%E6%9B%B2%E5%A0%82%E6%B3%B0%E8%8A%B3%E5%95%86%E6%9C%83%E9%B3%B3%E6%A2%A8%E7%BD%90%E8%A9%B0%E5%B7%A5%E5%A0%B4.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E6%9B%B2%E5%A0%82%E6%B3%B0%E8%8A%B3%E5%95%86%E6%9C%83%E9%B3%B3%E6%A2%A8%E7%BD%90%E8%A9%B0%E5%B7%A5%E5%A0%B4.JPG",
+   "artist": "Pbdragonwang This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "dashu-sanhewayao": [
+  {
+   "file": "三和瓦窯.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%E4%B8%89%E5%92%8C%E7%93%A6%E7%AA%AF.JPG/960px-%E4%B8%89%E5%92%8C%E7%93%A6%E7%AA%AF.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%92%8C%E7%93%A6%E7%AA%AF.JPG",
+   "artist": "Pbdragonwang This file was uploaded with Commonist.",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "dashu-gupoliaoshanding": [
+  {
+   "file": "莊家古厝中庭.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%E8%8E%8A%E5%AE%B6%E5%8F%A4%E5%8E%9D%E4%B8%AD%E5%BA%AD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%8E%8A%E5%AE%B6%E5%8F%A4%E5%8E%9D%E4%B8%AD%E5%BA%AD.jpg",
+   "artist": "KuangLin",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qiaotou-qiaozaitoutang": [
+  {
+   "file": "橋頭糖廠2022 06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A02022_06.jpg/960px-%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A02022_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A02022_06.jpg",
+   "artist": "Mrmarkertw",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "qiaotou-qiaozaitouyizhan": [
+  {
+   "file": "高雄舊橋頭車站.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%AB%98%E9%9B%84%E8%88%8A%E6%A9%8B%E9%A0%AD%E8%BB%8A%E7%AB%99.jpg/960px-%E9%AB%98%E9%9B%84%E8%88%8A%E6%A9%8B%E9%A0%AD%E8%BB%8A%E7%AB%99.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%9B%84%E8%88%8A%E6%A9%8B%E9%A0%AD%E8%BB%8A%E7%AB%99.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gangshan-ribenhaijunhang": [
+  {
+   "file": "微雨後的夏日光景.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E5%BE%AE%E9%9B%A8%E5%BE%8C%E7%9A%84%E5%A4%8F%E6%97%A5%E5%85%89%E6%99%AF.jpg/960px-%E5%BE%AE%E9%9B%A8%E5%BE%8C%E7%9A%84%E5%A4%8F%E6%97%A5%E5%85%89%E6%99%AF.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%BE%AE%E9%9B%A8%E5%BE%8C%E7%9A%84%E5%A4%8F%E6%97%A5%E5%85%89%E6%99%AF.jpg",
+   "artist": "Deepblue5042",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "gangshan-shuita": [
+  {
+   "file": "岡山水塔.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%E5%B2%A1%E5%B1%B1%E6%B0%B4%E5%A1%94.JPG/960px-%E5%B2%A1%E5%B1%B1%E6%B0%B4%E5%A1%94.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%B2%A1%E5%B1%B1%E6%B0%B4%E5%A1%94.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "yongan-huangjiagucuo": [
+  {
+   "file": "永安黃家古厝.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%B0%B8%E5%AE%89%E9%BB%83%E5%AE%B6%E5%8F%A4%E5%8E%9D.jpg/960px-%E6%B0%B8%E5%AE%89%E9%BB%83%E5%AE%B6%E5%8F%A4%E5%8E%9D.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%B0%B8%E5%AE%89%E9%BB%83%E5%AE%B6%E5%8F%A4%E5%8E%9D.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "luzhu-hongzongpeizhai": [
+  {
+   "file": "路竹洪宗沛宅.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%E8%B7%AF%E7%AB%B9%E6%B4%AA%E5%AE%97%E6%B2%9B%E5%AE%85.jpg/960px-%E8%B7%AF%E7%AB%B9%E6%B4%AA%E5%AE%97%E6%B2%9B%E5%AE%85.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%B7%AF%E7%AB%B9%E6%B4%AA%E5%AE%97%E6%B2%9B%E5%AE%85.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "alian-zhongluwucuo": [
+  {
+   "file": "阿蓮中路吳厝第一落.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%E9%98%BF%E8%93%AE%E4%B8%AD%E8%B7%AF%E5%90%B3%E5%8E%9D%E7%AC%AC%E4%B8%80%E8%90%BD.jpg/960px-%E9%98%BF%E8%93%AE%E4%B8%AD%E8%B7%AF%E5%90%B3%E5%8E%9D%E7%AC%AC%E4%B8%80%E8%90%BD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E8%93%AE%E4%B8%AD%E8%B7%AF%E5%90%B3%E5%8E%9D%E7%AC%AC%E4%B8%80%E8%90%BD.jpg",
+   "artist": "地下高雄",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "hunei-ercengxingxijiutie": [
+  {
+   "file": "二層行溪鐵橋 - panoramio.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E4%BA%8C%E5%B1%A4%E8%A1%8C%E6%BA%AA%E9%90%B5%E6%A9%8B_-_panoramio.jpg/960px-%E4%BA%8C%E5%B1%A4%E8%A1%8C%E6%BA%AA%E9%90%B5%E6%A9%8B_-_panoramio.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E5%B1%A4%E8%A1%8C%E6%BA%AA%E9%90%B5%E6%A9%8B_-_panoramio.jpg",
+   "artist": "338km",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  }
+ ],
+ "hunei-mingningjingwangmu": [
+  {
+   "file": "NingJing03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NingJing03.jpg/960px-NingJing03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NingJing03.jpg",
+   "artist": "Chung89",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qieding-zhuhuyantanyanjing": [
+  {
+   "file": "茄萣竹滬鹽灘鹽警槍樓.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E8%8C%84%E8%90%A3%E7%AB%B9%E6%BB%AC%E9%B9%BD%E7%81%98%E9%B9%BD%E8%AD%A6%E6%A7%8D%E6%A8%93.JPG/960px-%E8%8C%84%E8%90%A3%E7%AB%B9%E6%BB%AC%E9%B9%BD%E7%81%98%E9%B9%BD%E8%AD%A6%E6%A7%8D%E6%A8%93.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%8C%84%E8%90%A3%E7%AB%B9%E6%BB%AC%E9%B9%BD%E7%81%98%E9%B9%BD%E8%AD%A6%E6%A7%8D%E6%A8%93.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-guoxiao": [
+  {
+   "file": "旗山國小舊校舍.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E6%97%97%E5%B1%B1%E5%9C%8B%E5%B0%8F%E8%88%8A%E6%A0%A1%E8%88%8D.JPG/960px-%E6%97%97%E5%B1%B1%E5%9C%8B%E5%B0%8F%E8%88%8A%E6%A0%A1%E8%88%8D.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E5%9C%8B%E5%B0%8F%E8%88%8A%E6%A0%A1%E8%88%8D.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-tianhougong": [
+  {
+   "file": "旗山天后宮01.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E6%97%97%E5%B1%B1%E5%A4%A9%E5%90%8E%E5%AE%AE01.JPG/960px-%E6%97%97%E5%B1%B1%E5%A4%A9%E5%90%8E%E5%AE%AE01.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E5%A4%A9%E5%90%8E%E5%AE%AE01.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-nonghui": [
+  {
+   "file": "旗山農會.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E6%97%97%E5%B1%B1%E8%BE%B2%E6%9C%83.jpg/960px-%E6%97%97%E5%B1%B1%E8%BE%B2%E6%9C%83.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E8%BE%B2%E6%9C%83.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-jiugushanguoxiao": [
+  {
+   "file": "旗山舊鼓山國小.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%E6%97%97%E5%B1%B1%E8%88%8A%E9%BC%93%E5%B1%B1%E5%9C%8B%E5%B0%8F.JPG/960px-%E6%97%97%E5%B1%B1%E8%88%8A%E9%BC%93%E5%B1%B1%E5%9C%8B%E5%B0%8F.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E8%88%8A%E9%BC%93%E5%B1%B1%E5%9C%8B%E5%B0%8F.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-shangshuidao": [
+  {
+   "file": "原旗山上水道.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E5%8E%9F%E6%97%97%E5%B1%B1%E4%B8%8A%E6%B0%B4%E9%81%93.JPG/960px-%E5%8E%9F%E6%97%97%E5%B1%B1%E4%B8%8A%E6%B0%B4%E9%81%93.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E6%97%97%E5%B1%B1%E4%B8%8A%E6%B0%B4%E9%81%93.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-tingzaijiao": [
+  {
+   "file": "旗山亭仔腳石拱圈.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E6%97%97%E5%B1%B1%E4%BA%AD%E4%BB%94%E8%85%B3%E7%9F%B3%E6%8B%B1%E5%9C%88.jpg/960px-%E6%97%97%E5%B1%B1%E4%BA%AD%E4%BB%94%E8%85%B3%E7%9F%B3%E6%8B%B1%E5%9C%88.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E4%BA%AD%E4%BB%94%E8%85%B3%E7%9F%B3%E6%8B%B1%E5%9C%88.jpg",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "qishan-nianmichang": [
+  {
+   "file": "旗山碾米廠.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E6%97%97%E5%B1%B1%E7%A2%BE%E7%B1%B3%E5%BB%A0.JPG/960px-%E6%97%97%E5%B1%B1%E7%A2%BE%E7%B1%B3%E5%BB%A0.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%97%97%E5%B1%B1%E7%A2%BE%E7%B1%B3%E5%BB%A0.JPG",
+   "artist": "Pbdragonwang",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "meinong-zhuzaimendianchang": [
+  {
+   "file": "Chu-Men Unit02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Chu-Men_Unit02.jpg/960px-Chu-Men_Unit02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chu-Men_Unit02.jpg",
+   "artist": "Eric850130",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-minongzhuangjingzi": [
+  {
+   "file": "瀰濃莊敬字亭.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E7%80%B0%E6%BF%83%E8%8E%8A%E6%95%AC%E5%AD%97%E4%BA%AD.jpg/960px-%E7%80%B0%E6%BF%83%E8%8E%8A%E6%95%AC%E5%AD%97%E4%BA%AD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%80%B0%E6%BF%83%E8%8E%8A%E6%95%AC%E5%AD%97%E4%BA%AD.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-minongzhuanglishe": [
+  {
+   "file": "瀰濃庄里社真官伯公.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/%E7%80%B0%E6%BF%83%E5%BA%84%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg/960px-%E7%80%B0%E6%BF%83%E5%BA%84%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%80%B0%E6%BF%83%E5%BA%84%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-minongdongmenlou": [
+  {
+   "file": "瀰濃庄東門樓正門.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%E7%80%B0%E6%BF%83%E5%BA%84%E6%9D%B1%E9%96%80%E6%A8%93%E6%AD%A3%E9%96%80.jpg/960px-%E7%80%B0%E6%BF%83%E5%BA%84%E6%9D%B1%E9%96%80%E6%A8%93%E6%AD%A3%E9%96%80.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%80%B0%E6%BF%83%E5%BA%84%E6%9D%B1%E9%96%80%E6%A8%93%E6%AD%A3%E9%96%80.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-shuiqiao": [
+  {
+   "file": "美濃水橋.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%E7%BE%8E%E6%BF%83%E6%B0%B4%E6%A9%8B.jpg/960px-%E7%BE%8E%E6%BF%83%E6%B0%B4%E6%A9%8B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E6%BF%83%E6%B0%B4%E6%A9%8B.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-jingualiaoshengji": [
+  {
+   "file": "金瓜寮聖蹟亭.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%E9%87%91%E7%93%9C%E5%AF%AE%E8%81%96%E8%B9%9F%E4%BA%AD.jpg/960px-%E9%87%91%E7%93%9C%E5%AF%AE%E8%81%96%E8%B9%9F%E4%BA%AD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E7%93%9C%E5%AF%AE%E8%81%96%E8%B9%9F%E4%BA%AD.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-longduzhuanglishe": [
+  {
+   "file": "龍肚莊里社真官伯公.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E9%BE%8D%E8%82%9A%E8%8E%8A%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg/960px-%E9%BE%8D%E8%82%9A%E8%8E%8A%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%8D%E8%82%9A%E8%8E%8A%E9%87%8C%E7%A4%BE%E7%9C%9F%E5%AE%98%E4%BC%AF%E5%85%AC.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-longduzhongfulang": [
+  {
+   "file": "龍肚鍾富郎派下夥房.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E9%BE%8D%E8%82%9A%E9%8D%BE%E5%AF%8C%E9%83%8E%E6%B4%BE%E4%B8%8B%E5%A4%A5%E6%88%BF.jpg/960px-%E9%BE%8D%E8%82%9A%E9%8D%BE%E5%AF%8C%E9%83%8E%E6%B4%BE%E4%B8%8B%E5%A4%A5%E6%88%BF.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%8D%E8%82%9A%E9%8D%BE%E5%AF%8C%E9%83%8E%E6%B4%BE%E4%B8%8B%E5%A4%A5%E6%88%BF.jpg",
+   "artist": "WEI, WAN-CHEN（魏琬臻）",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-nanlongfutianwugu": [
+  {
+   "file": "輔天五穀宮.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%BC%94%E5%A4%A9%E4%BA%94%E7%A9%80%E5%AE%AE.jpg/960px-%E8%BC%94%E5%A4%A9%E4%BA%94%E7%A9%80%E5%AE%AE.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%BC%94%E5%A4%A9%E4%BA%94%E7%A9%80%E5%AE%AE.jpg",
+   "artist": "Fcuk1203",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "meinong-guangshantang": [
+  {
+   "file": "美濃廣善堂.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/%E7%BE%8E%E6%BF%83%E5%BB%A3%E5%96%84%E5%A0%82.jpg/960px-%E7%BE%8E%E6%BF%83%E5%BB%A3%E5%96%84%E5%A0%82.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E6%BF%83%E5%BB%A3%E5%96%84%E5%A0%82.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "meinong-jiuqiao": [
+  {
+   "file": "舊美濃橋.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%E8%88%8A%E7%BE%8E%E6%BF%83%E6%A9%8B.jpg/960px-%E8%88%8A%E7%BE%8E%E6%BF%83%E6%A9%8B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%88%8A%E7%BE%8E%E6%BF%83%E6%A9%8B.jpg",
+   "artist": "Fcuk1203",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ],
+ "meinong-jingchafenzhusuo": [
+  {
+   "file": "美濃警察分駐所.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E7%BE%8E%E6%BF%83%E8%AD%A6%E5%AF%9F%E5%88%86%E9%A7%90%E6%89%80_%E8%AB%8B%E5%8B%BF%E5%81%9C%E8%BB%8A_20160515.jpg/960px-%E7%BE%8E%E6%BF%83%E8%AD%A6%E5%AF%9F%E5%88%86%E9%A7%90%E6%89%80_%E8%AB%8B%E5%8B%BF%E5%81%9C%E8%BB%8A_20160515.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E6%BF%83%E8%AD%A6%E5%AF%9F%E5%88%86%E9%A7%90%E6%89%80_%E8%AB%8B%E5%8B%BF%E5%81%9C%E8%BB%8A_20160515.jpg",
+   "artist": "Outlookxp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ ],
+ "jiaxian-zhenhaijunmu": [
+  {
+   "file": "Gravestones in the Cemetery of Zhenghaijun.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Gravestones_in_the_Cemetery_of_Zhenghaijun.jpg/960px-Gravestones_in_the_Cemetery_of_Zhenghaijun.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gravestones_in_the_Cemetery_of_Zhenghaijun.jpg",
+   "artist": "Deutschesreich",
+   "license": "Public domain",
+   "licenseUrl": ""
+  }
+ ],
+ "liugui-chitianwu": [
+  {
+   "file": "2023 Ikeda House, Liouguei District.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2023_Ikeda_House%2C_Liouguei_District.jpg/960px-2023_Ikeda_House%2C_Liouguei_District.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Ikeda_House,_Liouguei_District.jpg",
+   "artist": "Taiwankengo",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  }
+ ],
+ "liugui-kunyuanshangdian": [
+  {
+   "file": "六龜洪稇源商號.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/%E5%85%AD%E9%BE%9C%E6%B4%AA%E7%A8%87%E6%BA%90%E5%95%86%E8%99%9F.jpg/960px-%E5%85%AD%E9%BE%9C%E6%B4%AA%E7%A8%87%E6%BA%90%E5%95%86%E8%99%9F.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%AD%E9%BE%9C%E6%B4%AA%E7%A8%87%E6%BA%90%E5%95%86%E8%99%9F.jpg",
+   "artist": "多元族群文化路徑",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  }
+ ]
+}
