@@ -85,9 +85,15 @@ def pack(out_dir, name, lines, paths):
 async def main():
     os.makedirs(CACHE, exist_ok=True)
     script = json.load(open(os.path.join(ROOT, "tools", "script.json"), encoding="utf-8"))
-    only = set(sys.argv[1:])  # 可指定只產生某些 track
+    args = set(sys.argv[1:])
+    dirs = {g["dir"] for g in script["groups"]}
+    # 可指定只處理某些縣市資料夾，例如 pingtung-county（多個 session 同時建置不同縣市時用）
+    only_dirs = {d for d in dirs if d in args or d.split("/")[0] in args}
+    only = {a for a in args if a not in dirs and a + "/audio" not in dirs}  # 可指定只產生某些 track
     sem = asyncio.Semaphore(3)
     for g in script["groups"]:
+        if only_dirs and g["dir"] not in only_dirs:
+            continue
         out_dir = os.path.join(ROOT, g["dir"])
         os.makedirs(out_dir, exist_ok=True)
         cues_path = os.path.join(out_dir, "cues.js")
