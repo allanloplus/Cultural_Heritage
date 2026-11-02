@@ -99,6 +99,9 @@ def main():
         v = info.get(f) if f else None
         if not v or not v["thumb"] or v["license"] in ("", "Attribution"):
             continue
+        lic = v["license"]  # 只收 CC 與公有領域（「Copyrighted free use」等其他授權不收）
+        if not (lic.startswith("CC") or "public domain" in lic.lower() or lic.upper().startswith("PD")):
+            continue
         if "Unknown" in (v["artist"] or "") and "Public domain" not in v["license"]:
             continue
         thumb = re.sub(r"/\d+px-", "/960px-", v["thumb"].split("?")[0])
