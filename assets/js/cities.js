@@ -15,10 +15,12 @@
     { slug: "tainan-city", name: "臺南市", nick: "府城四百年：赤崁・安平・鹽水", lat: 23.00, lng: 120.20, on: true,
       img: "tainan-city/img/zhongxi-kongzimiao-0.webp", credit: "臺南孔子廟／王彥翔，CC BY-SA 3.0",
       desc: "246 處有形文化資產、99 項無形文化資產：赤崁樓、孔子廟、安平古堡、億載金城等 21 處國定古蹟，府城與安平可騎 YouBike 串遊。" },
+    { slug: "kaohsiung-city", name: "高雄市", nick: "打狗到港都：哈瑪星・左營舊城・美濃", lat: 22.62, lng: 120.30, on: true,
+      img: "kaohsiung-city/img/gushan-dagouyingguoling-0.webp", credit: "打狗英國領事館官邸／WEI, WAN-CHEN（魏琬臻），CC BY-SA 4.0",
+      desc: "132 處有形文化資產、44 項無形文化資產：打狗英國領事館、旗後礮臺、鳳山縣舊城、鳳山龍山寺等 7 處國定古蹟，哈瑪星與鹽埕可騎 YouBike 串遊。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 },
-    { slug: "", name: "高雄市", nick: "打狗・哈瑪星", lat: 22.62, lng: 120.28 },
     { slug: "", name: "宜蘭縣", nick: "噶瑪蘭・頭城", lat: 24.75, lng: 121.75 }
   ];
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
