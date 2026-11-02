@@ -1,4 +1,4 @@
-"""步驟 2：從文資局開放資料篩出某縣市的有形文化資產，產生景點清單、分組檔與官方資料
+"""步驟 3：從文資局開放資料篩出某縣市的有形文化資產，產生景點清單、分組檔與官方資料
 用法：python3 tools/newcity/build_base.py 高雄市 kaohsiung-city [--per-part 25]
 
 需要：先跑 fetch_sources.py；pip install pypinyin

@@ -65,9 +65,14 @@ python3 tools/gen_audio.py
 
 ### 新增縣市
 
-1. 建立資料夾（例如 `changhua-county/`），在 `data/` 放入上表的 JSON 檔（可參考 `chiayi-county/data/`）。
-2. 執行 `python3 tools/build_data.py` 與 `python3 tools/gen_audio.py`。
-3. 在 `assets/js/cities.js` 的縣市清單把該縣市設為開放（`on: true`、`slug`、代表照片）。入口頁的卡片、地圖、右上角功能表，以及各縣市頁的「切換縣市」選單都會自動更新。
+完整流程、工具與規則請看 **[`tools/newcity/README.md`（新增縣市作業手冊）](tools/newcity/README.md)**，內容撰寫規格在 `tools/newcity/SPEC.md`，派給內容 agent 的指示範本在 `tools/newcity/PROMPTS.md`。簡要步驟：
+
+1. `tools/newcity/fetch_sources.py` 下載文資局開放資料、YouBike 站點與維基百科列表。
+2. 寫 `<縣市>/data/config.json`，用 `tools/newcity/build_base.py` 產生景點清單、官方資料與 YouBike 站點，用 `tools/newcity/images.py` 與 `tools/fetch_images.py` 處理照片。
+3. 分批派內容 agent 撰寫景點、時光地圖與無形文化資產，用 `tools/newcity/merge.py` 檢查並合併。
+4. 寫 `extra.json`（開場對話、遊戲反應、出發點、推薦行程），執行 `python3 tools/build_data.py` 與 `python3 tools/gen_audio.py`。
+5. 在 `assets/js/cities.js` 把該縣市設為開放（`on: true`、`slug`、代表照片），更新入口頁問候語與語音。入口頁的卡片、地圖、右上角功能表，以及各縣市頁的「切換縣市」選單都會自動更新。
+6. 用 `tools/newcity/tests/` 的瀏覽器測試驗收。
 
 ## 本機預覽與上線
 

@@ -1,4 +1,4 @@
-"""步驟 3：從維基百科文資列表找每個景點的代表照片，查 Wikimedia Commons 授權，寫 <slug>/data/images.json
+"""步驟 4：從維基百科文資列表找每個景點的代表照片，查 Wikimedia Commons 授權，寫 <slug>/data/images.json
 用法：python3 tools/newcity/images.py 高雄市 kaohsiung-city [--none 景點id ...]
 接著：python3 tools/fetch_images.py kaohsiung-city   # 下載成 webp 自架（會被限流，可重跑，會接著做）
 

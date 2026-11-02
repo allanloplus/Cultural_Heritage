@@ -1,4 +1,4 @@
-"""步驟 5：把內容 agent 的輸出合併進網站資料
+"""步驟 6：把內容 agent 的輸出合併進網站資料
 用法：
   python3 tools/newcity/merge.py sites kaohsiung-city /tmp/newcity/kaohsiung-city/out/content-part*.json
   python3 tools/newcity/merge.py ich   kaohsiung-city /tmp/newcity/kaohsiung-city/out/ich-*.json
