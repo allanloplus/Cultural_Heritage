@@ -191,6 +191,8 @@ TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt nohup python3 tools/gen_audio.py > /tmp/g
 - **失敗**：語音服務偶爾連續回「No audio was received」，這和文字內容無關。重跑即可，已完成的會略過。
 - **cues.js**：每完成一段就寫回，所以中途也可以提交。
 - **兩個語音工作不要同時跑**：它們會寫同一個 `cues.js`。
+- **只合成某個縣市**：`python3 tools/gen_audio.py pingtung-county`（參數是縣市資料夾名稱）；入口頁用 `python3 tools/gen_audio.py audio portal`。多個 session 同時建置不同縣市時一定要這樣做，才不會合成或提交別人的語音。
+- **語音服務長時間封鎖**：同一個網路出口短時間請求太多，Edge 語音服務會連續好幾個小時對所有句子都回「No audio was received」（連「你好」都失敗）。這時設 `TTS_CONCURRENCY=1` 降低並行數，用迴圈每隔幾分鐘重跑；仍然不行就先開放縣市（網頁會改用瀏覽器內建語音），之後再開新的 session 補合成。
 - **對話改了任何一個字**，就要重跑 `gen_audio.py`，否則那段會改用瀏覽器內建語音。
 
 ### 9. 開放縣市
@@ -248,7 +250,8 @@ NODE_PATH=$(npm root -g) node tools/newcity/tests/cues_all.js
 
 | 狀況 | 原因與解法 |
 |---|---|
-| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。`gen_audio.py` 已有 12 次重試，還是失敗就整個重跑 |
+| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。`gen_audio.py` 已有 20 次重試，還是失敗就整個重跑；若連「你好」都失敗，是出口被暫時封鎖，見步驟 8 |
+| Python 下載出現 SSL「Missing Subject Key Identifier」 | Python 3.13 預設嚴格 X.509，代理憑證沒有 SKI。`common.py`、`fetch_images.py`、`gen_audio.py` 已關掉嚴格模式（仍完整驗證憑證）；自己寫的腳本請用 `common.get()` |
 | 改了對話，網頁卻用瀏覽器內建語音 | `cues.js` 的雜湊和文字不符，重跑 `gen_audio.py`，再用 `cues_all.js` 確認 |
 | 入口頁語音和文字不一致 | `tools/portal.json` 與 `index.html` 的 `PORTAL` 不同步，或沒重跑 `gen_audio.py portal` |
 | Wikimedia、維基百科 429 | 限流。放慢、重跑；`fetch_images.py` 會接著做 |
