@@ -17,7 +17,7 @@ if os.environ.get("TTS_CA_BUNDLE"):  # 經過企業代理時使用其 CA
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".tts-cache")
 VOICE = {
-    "A": dict(voice="zh-TW-YunJheNeural", pitch="-2Hz", rate="+0%"),
+    "A": dict(voice="zh-TW-YunJheNeural", pitch="+0Hz", rate="+0%"),  # 語音服務自 2026/11 起拒絕負值音調，改 +0Hz（差 2Hz，聽不出差別）
     "R": dict(voice="zh-TW-HsiaoYuNeural", pitch="+55Hz", rate="+6%"),
 }
 RATE = 24000
