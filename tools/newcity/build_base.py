@@ -116,9 +116,11 @@ def main():
         la = sorted(o["lat"] for o in pts); ln = sorted(o["lng"] for o in pts)
         lines.append("座標中位數（地圖中心參考）：[%.3f, %.3f]" % (la[len(la) // 2], ln[len(ln) // 2]))
         yb = load(os.path.join(CACHE, "yb2.json"), [])
-        near = collections.Counter(x["area_code"] for x in yb
-                                   if la[0] - .02 < float(x["lat"]) < la[-1] + .02 and ln[0] - .02 < float(x["lng"]) < ln[-1] + .02)
-        lines.append("範圍內 YouBike 站點 area_code：" + json.dumps(near.most_common(), ensure_ascii=False) + "（取站數最多、屬於本縣市的那個）")
+        towns_set = {o["town"] for o in base if o["town"]}
+        near = collections.Counter(x["area_code"] for x in yb  # 站點的鄉鎮市區屬於本縣市，且在範圍內（避免鄰近縣市同名的「東區」）
+                                   if x.get("district_tw") in towns_set
+                                   and la[0] - .05 < float(x["lat"]) < la[-1] + .05 and ln[0] - .05 < float(x["lng"]) < ln[-1] + .05)
+        lines.append("本縣市的 YouBike 區碼 area_code：" + (json.dumps(near.most_common(), ensure_ascii=False) if near else "沒有（ubikeAreas 填 []）"))
     lines.append("分組：%d 份，每份約 %d 處" % (n, size))
     open(os.path.join(W, "stats.txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
     print("\n".join(lines))

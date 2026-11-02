@@ -195,7 +195,7 @@ TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt nohup python3 tools/gen_audio.py > /tmp/g
 
 ### 9. 開放縣市
 
-- **`assets/js/cities.js`**：把籌備中那一筆改成 `slug`、`on: true`，並填 `img`（代表照片，相對網站根目錄）、`credit`（作者與授權）、`desc`（數量與特色）。
+- **`assets/js/cities.js`**：把籌備中那一筆改成 `slug`、`on: true`，並填 `img`（代表照片，相對網站根目錄）、`credit`（作者與授權）、`desc`（數量與特色）。清單裡沒有這個縣市（例如屏東縣）就新增一筆，`lat`、`lng` 填縣市中心，`nick` 填一句特色。
 - **入口頁問候語**：`tools/portal.json` 第 4 句和 `index.html` 裡的 `PORTAL` 必須**一字不差**，列出所有開放縣市。改完執行：
 
   ```bash
@@ -275,7 +275,7 @@ NODE_PATH=$(npm root -g) node tools/newcity/tests/cues_all.js
 
 ## 開新 session 時的開場指示（範例：高雄市）
 
-把下面整段貼到新的 Claude Code session（縣市名稱和 slug 依實際情況替換）：
+把下面整段貼到新的 Claude Code session。換縣市時要改三處：第一行的縣市名稱、資料夾名稱（slug，例如 pingtung-county），以及最後的「參考」段（刪掉或換成該縣市的試算）。
 
 ```text
 依相同模式，生成「高雄市」的文化資產網站，資料夾為 kaohsiung-city。
