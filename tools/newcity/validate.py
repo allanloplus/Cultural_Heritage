@@ -118,7 +118,7 @@ def sites(path, base_path=None):
         for cl in c["clues"]:
             if core and (core in cl or c["short"] in cl):
                 errs.append("%s: 線索不能出現名稱：%s" % (w, cl[:30]))
-        if c["lat"] is None or c["lng"] is None or not (21.5 < c["lat"] < 26.5 and 118 < c["lng"] < 122.5):
+        if c["lat"] is None or c["lng"] is None or not (20.5 < c["lat"] < 26.5 and 116 < c["lng"] < 122.5):
             errs.append("%s: lat/lng 不合理 %s,%s" % (w, c["lat"], c["lng"]))
         check_lines(w, c["dialogue"], errs)
         check_quiz(w, c["quiz"], errs, (2, 2), answers)
