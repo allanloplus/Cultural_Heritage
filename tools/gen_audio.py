@@ -90,7 +90,7 @@ async def main():
     # 可指定只處理某些縣市資料夾，例如 pingtung-county（多個 session 同時建置不同縣市時用）
     only_dirs = {d for d in dirs if d in args or d.split("/")[0] in args}
     only = {a for a in args if a not in dirs and a + "/audio" not in dirs}  # 可指定只產生某些 track
-    sem = asyncio.Semaphore(3)
+    sem = asyncio.Semaphore(int(os.environ.get("TTS_CONCURRENCY", "3")))  # 服務封鎖頻繁時可設 1
     for g in script["groups"]:
         if only_dirs and g["dir"] not in only_dirs:
             continue
