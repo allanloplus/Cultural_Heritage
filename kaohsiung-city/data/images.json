@@ -30,7 +30,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%8F%8B%E6%9D%BE%E9%86%AB%E9%99%A2.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/yancheng-yousongyiyuan-0.webp",
+   "small": "img/yancheng-yousongyiyuan-0-s.webp"
   }
  ],
  "yancheng-taiwanshengyanjiu": [
@@ -40,7 +42,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E8%87%BA%E7%81%A3%E7%9C%81%E8%8F%B8%E9%85%92%E5%85%AC%E8%B3%A3%E5%B1%80%E9%AB%98%E9%9B%84%E5%88%86%E5%B1%8020170913.jpg",
    "artist": "地下高雄",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/yancheng-taiwanshengyanjiu-0.webp",
+   "small": "img/yancheng-taiwanshengyanjiu-0-s.webp"
   }
  ],
  "yancheng-kujiangtingrishi": [
@@ -50,7 +54,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%A0%80%E6%B1%9F%E7%94%BA%E6%97%A5%E5%BC%8F%E8%A1%97%E5%B1%8B.jpg",
    "artist": "Pbdragonwang",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/yancheng-kujiangtingrishi-0.webp",
+   "small": "img/yancheng-kujiangtingrishi-0-s.webp"
   }
  ],
  "gushan-dagouyingguoling": [
@@ -60,7 +66,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%89%93%E7%8B%97%E8%8B%B1%E5%9C%8B%E9%A0%98%E4%BA%8B%E9%A4%A8%E5%AE%98%E9%82%B8-3.jpg",
    "artist": "WEI, WAN-CHEN（魏琬臻）",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/gushan-dagouyingguoling-0.webp",
+   "small": "img/gushan-dagouyingguoling-0-s.webp"
   }
  ],
  "gushan-neiweilishiguzhai": [
@@ -70,7 +78,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B1%B1%E5%85%A7%E6%83%9F%E6%9D%8E%E6%B0%8F%E5%8F%A4%E5%AE%85.JPG",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/gushan-neiweilishiguzhai-0.webp",
+   "small": "img/gushan-neiweilishiguzhai-0-s.webp"
   }
  ],
  "gushan-aiguofurenhuiguan": [
@@ -80,7 +90,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E7%B4%85%E5%8D%81%E5%AD%97%E6%9C%83%E8%82%B2%E5%B9%BC%E4%B8%AD%E5%BF%83(%E6%84%9B%E5%9C%8B%E5%A9%A6%E4%BA%BA%E6%9C%83%E9%A4%A8).jpg",
    "artist": "Ane56712",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/gushan-aiguofurenhuiguan-0.webp",
+   "small": "img/gushan-aiguofurenhuiguan-0-s.webp"
   }
  ],
  "gushan-dagoushuidaojing": [
@@ -90,7 +102,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%89%93%E7%8B%97%E6%B0%B4%E9%81%93%E6%B7%A8%E6%B0%B4%E6%B1%A0.jpg",
    "artist": "WEI, WAN-CHEN（魏琬臻）",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/gushan-dagoushuidaojing-0.webp",
+   "small": "img/gushan-dagoushuidaojing-0-s.webp"
   }
  ],
  "gushan-wudedian": [
