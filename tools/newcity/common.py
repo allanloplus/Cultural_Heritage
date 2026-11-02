@@ -12,6 +12,8 @@ BASE = os.environ.get("NEWCITY_DIR", "/tmp/newcity")          # 工作目錄（�
 CACHE = os.path.join(BASE, "cache")                             # 共用下載快取
 _CA = os.environ.get("TTS_CA_BUNDLE") or ("/root/.ccr/ca-bundle.crt" if os.path.exists("/root/.ccr/ca-bundle.crt") else None)
 CTX = ssl.create_default_context(cafile=_CA) if _CA else None   # 經過代理時使用其 CA
+if CTX is not None:  # Python 3.13 預設嚴格 X.509，代理憑證缺 SKI 會被拒；只關嚴格模式，仍完整驗證憑證
+    CTX.verify_flags &= ~ssl.VERIFY_X509_STRICT
 
 
 def work_dir(slug):

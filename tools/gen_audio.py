@@ -12,6 +12,7 @@ import edge_tts.communicate as C
 
 if os.environ.get("TTS_CA_BUNDLE"):  # 經過企業代理時使用其 CA
     C._SSL_CTX = ssl.create_default_context(cafile=os.environ["TTS_CA_BUNDLE"])
+    C._SSL_CTX.verify_flags &= ~ssl.VERIFY_X509_STRICT  # Python 3.13 嚴格 X.509 會拒絕代理憑證；仍完整驗證
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".tts-cache")

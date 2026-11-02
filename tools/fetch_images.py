@@ -11,6 +11,8 @@ DATA = os.path.join(ROOT, CITY, "data", "images.json")
 OUT = os.path.join(ROOT, CITY, "img")
 UA = "AllanLoCultureSite/1.0 (https://github.com/allanloplus/Cultural_Heritage; educational, attribution shown)"
 ctx = ssl.create_default_context(cafile=os.environ.get("TTS_CA_BUNDLE")) if os.environ.get("TTS_CA_BUNDLE") else None
+if ctx is not None:  # Python 3.13 嚴格 X.509 會拒絕代理憑證；只關嚴格模式，仍完整驗證
+    ctx.verify_flags &= ~ssl.VERIFY_X509_STRICT
 
 
 def get(url):
