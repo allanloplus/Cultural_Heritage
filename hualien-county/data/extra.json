@@ -1,0 +1,294 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！搭火車穿過北迴線一個又一個隧道，一邊是中央山脈、一邊是太平洋，我們到花蓮了。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！花蓮不就是太魯閣、麻糬，還有一條長長的花東縱谷嗎？"
+  },
+  {
+   "who": "A",
+   "text": "說得好。花蓮的文化資產一共99處，有縣定古蹟、歷史建築、考古遺址、文化景觀和聚落建築群。"
+  },
+  {
+   "who": "R",
+   "text": "那國定古蹟呢？花蓮有很多嗎？"
+  },
+  {
+   "who": "A",
+   "text": "老實說，登錄在花蓮的國定古蹟是0處。不過清代1875年開闢的八通關古道，從南投竹山通到花蓮玉里，是和南投共有的國定古蹟，我們把它的東端放在玉里。"
+  },
+  {
+   "who": "R",
+   "text": "原來如此！那文資最多在哪裡？"
+  },
+  {
+   "who": "A",
+   "text": "花蓮市有28處，很多是日治時期的宿舍和官舍；光復鄉有17處，大多在花蓮糖廠一帶；鳳林還有林田山林業聚落。"
+  },
+  {
+   "who": "R",
+   "text": "我還知道，這裡是阿美族、太魯閣族、撒奇萊雅族、噶瑪蘭族、布農族和賽德克族的家園，富里大庄還有西拉雅族的夜祭！"
+  },
+  {
+   "who": "A",
+   "text": "沒錯。2024年的強震和2025年馬太鞍溪的洪災，讓太魯閣和光復都還在復原，出發前記得查詢最新的開放與道路狀況。"
+  },
+  {
+   "who": "R",
+   "text": "花蓮南北超過120公里，建議開車。準備好了嗎？從花蓮火車站出發囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，花蓮的時光地圖要看什麼？"
+  },
+  {
+   "who": "A",
+   "text": "先看西荷時期，西班牙人和荷蘭人都曾經到哆囉滿一帶找金子，那時縱谷和海岸是各族部落的天地。"
+  },
+  {
+   "who": "A",
+   "text": "1875年清廷開山撫番，開闢八通關古道；日治時期有花蓮港廳和移民村。清代以後都會疊上當年的老地圖，可以拉透明度，也能左右對照。"
+  },
+  {
+   "who": "R",
+   "text": "那我要找找看日治時期的花蓮港市街，和今天的花蓮市差多少！"
+  },
+  {
+   "who": "A",
+   "text": "好，滑過去對照看看，答案就在地圖上！"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "花蓮南北超過120公里，景點分散在花蓮市區、花東縱谷和山區，建議開車；花蓮市區的景點很密集，停好車就可以走路串遊。"
+  },
+  {
+   "who": "R",
+   "text": "花蓮沒有高鐵，也沒有 YouBike，不過臺鐵北迴線和花東線從新城、花蓮一路到鳳林、光復、瑞穗、玉里和富里，搭火車也很方便！"
+  },
+  {
+   "who": "A",
+   "text": "太魯閣一帶和中橫公路還有時段管制，光復鄉也還在災後復原，出發前請先查詢最新的開放和道路狀況。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給扁食、麻糬和炸彈蔥油餅！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "洄瀾遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有洄瀾擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從松園別館、吉安慶修院，一路考到林田山、花蓮糖廠和八通關古道，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從花蓮火車站出發，比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是花蓮通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的扁食和麻糬算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！你從縱谷的史前遺址一路排到今天的洄瀾，好厲害！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "station",
+   "name": "臺鐵花蓮車站",
+   "lat": 23.99395,
+   "lng": 121.60093
+  },
+  {
+   "id": "airport",
+   "name": "花蓮航空站",
+   "lat": 24.02571,
+   "lng": 121.61384
+  },
+  {
+   "id": "xincheng",
+   "name": "臺鐵新城（太魯閣）車站",
+   "lat": 24.12805,
+   "lng": 121.6407
+  },
+  {
+   "id": "fenglin",
+   "name": "臺鐵鳳林車站",
+   "lat": 23.7463,
+   "lng": 121.44671
+  },
+  {
+   "id": "guangfu",
+   "name": "臺鐵光復車站",
+   "lat": 23.66635,
+   "lng": 121.42116
+  },
+  {
+   "id": "ruisui",
+   "name": "臺鐵瑞穗車站",
+   "lat": 23.49756,
+   "lng": 121.37677
+  },
+  {
+   "id": "yuli",
+   "name": "臺鐵玉里車站",
+   "lat": 23.33148,
+   "lng": 121.31176
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：花蓮市區（松園別館、將軍府、山林事業所、文創園區）與吉安慶修院",
+   "days": [
+    [
+     "hualian-songyuanbieguan",
+     "hualian-meilunxipanrishisu",
+     "hualian-meilunxipanrishisu2",
+     "hualian-gangshanlinshiye",
+     "hualian-jinghualinyuan",
+     "hualian-jiujianyuyiji",
+     "hualian-jiujiuchang",
+     "hualian-guozijiuguju",
+     "jian-qingxiuyuan",
+     "jian-jiyekaicunjinian"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：花蓮市區 ＋ 縱谷北段（豐田移民村、林田山、花蓮糖廠、太巴塱）",
+   "days": [
+    [
+     "hualian-songyuanbieguan",
+     "hualian-meilunxipanrishisu",
+     "hualian-meilunxipanrishisu2",
+     "hualian-gangshanlinshiye",
+     "hualian-jinghualinyuan",
+     "hualian-jiujianyuyiji",
+     "hualian-jiujiuchang",
+     "hualian-guozijiuguju",
+     "jian-qingxiuyuan",
+     "jian-jiyekaicunjinian"
+    ],
+    [
+     "shoufeng-fengtiancunyimin",
+     "shoufeng-jiufengtianyimin",
+     "shoufeng-fengtianshenshecan",
+     "fenglin-xiaozhangmenggong",
+     "fenglin-lintianshenshecan",
+     "fenglin-lintianshanlinyeju",
+     "guangfu-tangchangzhitang",
+     "guangfu-taitanggongsihua",
+     "guangfu-taibalangzuwu"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：再加縱谷南段（舞鶴、玉里、八通關古道東端、富里）",
+   "days": [
+    [
+     "hualian-songyuanbieguan",
+     "hualian-meilunxipanrishisu",
+     "hualian-meilunxipanrishisu2",
+     "hualian-gangshanlinshiye",
+     "hualian-jinghualinyuan",
+     "hualian-jiujianyuyiji",
+     "hualian-jiujiuchang",
+     "hualian-guozijiuguju",
+     "jian-qingxiuyuan",
+     "jian-jiyekaicunjinian"
+    ],
+    [
+     "shoufeng-fengtiancunyimin",
+     "shoufeng-jiufengtianyimin",
+     "shoufeng-fengtianshenshecan",
+     "fenglin-xiaozhangmenggong",
+     "fenglin-lintianshenshecan",
+     "fenglin-lintianshanlinyeju",
+     "guangfu-tangchangzhitang",
+     "guangfu-taitanggongsihua",
+     "guangfu-taibalangzuwu"
+    ],
+    [
+     "ruisui-saobasuidao",
+     "ruisui-wuhekaoguyizhi",
+     "yuli-shenshecanji",
+     "yuli-chezhantiedaosushe",
+     "yuli-xinyongzuhejicang",
+     "yuli-batongguangudao",
+     "fuli-xiangdonglicunqiu",
+     "fuli-funanzhuanyaochang"
+    ]
+   ]
+  }
+ },
+ "food": []
+}
