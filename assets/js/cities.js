@@ -27,10 +27,12 @@
     { slug: "kinmen-county", name: "金門縣", nick: "浯島：閩南古厝・僑鄉洋樓・戰地史蹟", lat: 24.44, lng: 118.33, on: true,
       img: "kinmen-county/img/jincheng-wentaibaota-0.webp", credit: "文臺寶塔／寺人孟子，CC BY-SA 4.0",
       desc: "251 處有形文化資產：文臺寶塔、邱良功母節孝坊、瓊林蔡氏祠堂等 10 處國定古蹟，153 處閩南古厝與僑鄉洋樓，還有古寧頭、八二三砲戰的坑道與碉堡；可開上金門大橋到烈嶼。" },
+    { slug: "yilan-county", name: "宜蘭縣", nick: "蘭陽：噶瑪蘭・泰雅・林業・日式宿舍", lat: 24.75, lng: 121.75, on: true,
+      img: "yilan-county/img/yilan-shezhijinianguan-0.webp", credit: "宜蘭設治紀念館／大三可，CC BY-SA 4.0",
+      desc: "144 處有形文化資產：宜蘭設治紀念館、頭城老街、舊草嶺隧道、羅東林場與太平山林業遺產、漢本與丸山考古遺址，宜蘭市區的日式宿舍與二戰飛機掩體；另有本地歌仔、北管、頭城搶孤等無形文化資產。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
-    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 },
-    { slug: "", name: "宜蘭縣", nick: "噶瑪蘭・頭城", lat: 24.75, lng: 121.75 }
+    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 }
   ];
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   var open = CITIES.filter(function (c) { return c.on; });
