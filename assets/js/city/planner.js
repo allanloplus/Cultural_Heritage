@@ -21,7 +21,7 @@
   var FAR = { walk: PC.walkMaxKm || 3, bike: PC.bikeMaxKm || 12, ubike: PC.bikeMaxKm || 12 }, UB_MAX = PC.ubikeStationMaxKm || 1.2, TAXI_KMH = SP.car || 22;
   var WALK_KMH = 4.5, DAY_END = 18 * 60, LUNCH = { from: 11 * 60 + 40, len: 60 };
   var DAY_COLORS = ["#df6f57", "#1d6f73", "#6b5bb5", "#b8860b", "#3b7bbf", "#2f7d4f", "#b23a3a"];
-  /* 離島：planner.islands = [{name, bbox:[南,西,北,東], port:[lat,lng], portName, mainPort:[lat,lng], seaMin, note}]
+  /* 離島：planner.islands = [{name, bbox:[南,西,北,東], port:[lat,lng], portName, mainPort:[lat,lng], seaMin, note, lunchNote}]
    * 不同區（本島／各離島）之間的路段不能開車或騎車，改顯示「搭船／搭機」 */
   var ISLANDS = PC.islands || [];
   function zoneOf(p) {
@@ -300,7 +300,7 @@
           (d.overnight ? '<p class="hint">前一晚住在' + esc(d.overnight.name) + '，今天從' + esc(d.overnight.portName || d.overnight.name) + '出發。</p>' : "") + '<ol class="stops">' +
           d.stops.map(function (x, k) {
             return legHtml(x.leg, plan.mode) +
-              (x.lunch ? '<div class="leg" style="border-color:var(--sun)">午餐時間（約 1 小時）：' + esc(PC.lunchNote || "附近找間在地小吃") + '</div>' : "") +
+              (x.lunch ? '<div class="leg" style="border-color:var(--sun)">午餐時間（約 1 小時）：' + esc(((ISLANDS[zoneOf(ll(x.s))] || {}).lunchNote) || PC.lunchNote || "附近找間在地小吃") + '</div>' : "") +
               '<li class="stop"><span class="t">' + hm(x.arrive) + '</span><div><h4 data-id="' + x.s.id + '">' + (k + 1) + '. ' + esc(x.s.name) + '</h4><p>停留約 ' + Math.round(x.s.visitMin * st.pace) + ' 分・' + esc(x.s.openNote) + ' <a href="#map/' + x.s.id + '">詳情與語音</a></p></div></li>';
           }).join("") + '</ol>' +
           (PC.eveningNote ? '<p class="hint" style="margin-top:6px">' + esc(PC.eveningNote) + '</p>' : "") +

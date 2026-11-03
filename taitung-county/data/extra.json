@@ -193,6 +193,125 @@
       "lng": null
     }
   ],
-  "plans": {},
+  "plans": {
+    "1": {
+      "name": "一日：臺東市區（卑南遺址、公東教堂、日式宿舍與臺東舊站）",
+      "days": [
+        [
+          "taidong-beinankaoguyizhi",
+          "taidong-siligongdonggaoji",
+          "taidong-tianzhujiaobaileng",
+          "taidong-xianzhanggongguan",
+          "taidong-jingchajuzhangsu",
+          "taidong-shiminquanlirishi",
+          "taidong-shizhangguanshe",
+          "taidong-tianhougong",
+          "taidong-zhuanmaijutaidong",
+          "taidong-jiuzhanjiguancheku"
+        ]
+      ]
+    },
+    "2": {
+      "name": "二日：臺東市區 ＋ 花東縱谷（鹿野、關山、池上）",
+      "days": [
+        [
+          "taidong-beinankaoguyizhi",
+          "taidong-siligongdonggaoji",
+          "taidong-tianzhujiaobaileng",
+          "taidong-xianzhanggongguan",
+          "taidong-jingchajuzhangsu",
+          "taidong-shiminquanlirishi",
+          "taidong-shizhangguanshe",
+          "taidong-tianhougong",
+          "taidong-zhuanmaijutaidong",
+          "taidong-jiuzhanjiguancheku"
+        ],
+        [
+          "beinan-jiubinlanghuoche",
+          "yanping-jiulumingqiao",
+          "luye-zhuangyichang",
+          "luye-longtianguoxiao",
+          "luye-longtianqiurenming",
+          "luye-ruiyuanshuichenian",
+          "guanshan-jiuhuochezhan",
+          "guanshan-tielujiuzhansushe",
+          "guanshan-zhenlilongguanshe",
+          "guanshan-zhentianhougong",
+          "chishang-fuzhen",
+          "chishang-xinkaiyuanlaotian",
+          "chishang-wananzhuanyao"
+        ]
+      ]
+    },
+    "3": {
+      "name": "三日：臺東市區 ＋ 花東縱谷 ＋ 東海岸（都蘭、成功、長濱八仙洞）",
+      "days": [
+        [
+          "taidong-beinankaoguyizhi",
+          "taidong-siligongdonggaoji",
+          "taidong-tianzhujiaobaileng",
+          "taidong-xianzhanggongguan",
+          "taidong-jingchajuzhangsu",
+          "taidong-shiminquanlirishi",
+          "taidong-shizhangguanshe",
+          "taidong-tianhougong",
+          "taidong-zhuanmaijutaidong",
+          "taidong-jiuzhanjiguancheku"
+        ],
+        [
+          "beinan-jiubinlanghuoche",
+          "yanping-jiulumingqiao",
+          "luye-zhuangyichang",
+          "luye-longtianguoxiao",
+          "luye-longtianqiurenming",
+          "luye-ruiyuanshuichenian",
+          "guanshan-jiuhuochezhan",
+          "guanshan-tielujiuzhansushe",
+          "guanshan-zhenlilongguanshe",
+          "guanshan-zhentianhougong",
+          "chishang-fuzhen",
+          "chishang-xinkaiyuanlaotian",
+          "chishang-wananzhuanyao"
+        ],
+        [
+          "donghe-doulanxindongtang",
+          "donghe-doulankaoguyizhi",
+          "donghe-jiuqiao",
+          "chenggong-taiyuansuidao",
+          "chenggong-tianzhujiaoxiaoma",
+          "chenggong-xingangjiaohuihui",
+          "chenggong-guanghengfashang",
+          "chenggong-douweiqiao",
+          "chenggong-yiwanzhanglaojiao",
+          "chenggong-yiwantianzhutang",
+          "changbin-baxiandongkaoguyi",
+          "changbin-zhangyuanqiao"
+        ]
+      ]
+    },
+    "green": {
+      "label": "離島：綠島",
+      "name": "離島一日：綠島（燈塔、柚仔湖、人權文化園區）",
+      "days": [
+        [
+          "lvdao-dengta",
+          "lvdao-youzaihujuluoyizhi",
+          "lvdao-lvzhoushanzhuang",
+          "lvdao-renquanwenhuayuan"
+        ]
+      ]
+    },
+    "lanyu": {
+      "label": "離島：蘭嶼",
+      "name": "離島：蘭嶼（船程較長，建議在島上住一晚）",
+      "days": [
+        [
+          "lanyu-langdaobuluo",
+          "lanyu-yameizuyeyinbuluo",
+          "lanyu-qixiangzhan"
+        ]
+      ]
+    }
+  },
   "food": []
 }
