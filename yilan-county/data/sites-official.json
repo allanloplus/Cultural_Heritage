@@ -1,0 +1,2590 @@
+[
+ {
+  "id": "toucheng-luzuanxiangguzhai",
+  "name": "盧纘祥故宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2001-12-18",
+  "address": "頭城鎮城東里3鄰和平街139號",
+  "lat": 24.8586332950316,
+  "lng": 121.824738186889,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20011218000001",
+  "caseId": "20011218000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-10/ae207655-efa6-4ead-adec-4cad5f73c276/盧纘祥故宅_A990854.jpg"
+ },
+ {
+  "id": "toucheng-luzuanxiangchitang",
+  "name": "盧纘祥故宅前池塘",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-02-05",
+  "address": "頭城鎮和平街139號盧纘祥故宅前",
+  "lat": 24.858329,
+  "lng": 121.825158,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100205000001",
+  "caseId": "20100205000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/580cab58-1a58-41eb-bb07-be8c1d62f6a3/盧纘祥故宅前池塘代表圖.jpg"
+ },
+ {
+  "id": "toucheng-jiudaxiqiao",
+  "name": "舊大溪橋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2002-12-27",
+  "address": "頭城鎮大溪里大溪漁港南方約100 公尺處",
+  "lat": 24.9419279970401,
+  "lng": 121.895355472666,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20021227000003",
+  "caseId": "20021227000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/a3b52624-61c7-4ddc-bb3a-d77c796fc084/舊大溪橋代表圖.jpg"
+ },
+ {
+  "id": "toucheng-jiudaliqiao",
+  "name": "舊大里橋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2002-12-27",
+  "address": "頭城鎮大里里（大里社區活動中心對面）",
+  "lat": 24.9637964198111,
+  "lng": 121.920343135535,
+  "open": "不限時段",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20021227000002",
+  "caseId": "20021227000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/efbf9044-89a6-4983-84b6-efa50642fde0/舊大里橋代表圖.jpg"
+ },
+ {
+  "id": "toucheng-jiucaolingsuidao",
+  "name": "舊草嶺隧道",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-07-15",
+  "address": "頭城鎮頭城鎮台2線118k，頭城鎮石城聚落旁",
+  "lat": 24.9839783916008,
+  "lng": 121.955541497433,
+  "open": "週一至週日9:00~16:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040715000001",
+  "caseId": "20040715000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/fe101bcb-b8ae-4714-b38a-1faa1be48d84/舊草嶺隧道代表圖.jpg"
+ },
+ {
+  "id": "toucheng-qingyuangong",
+  "name": "頭城慶元宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2014-06-30",
+  "address": "頭城鎮和平街105號",
+  "lat": 24.857258147570626,
+  "lng": 121.82412784380112,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20140630000001",
+  "caseId": "20140630000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-18/8c209f79-f3e2-479b-9632-f23d03c63477/20201218_110518.jpg"
+ },
+ {
+  "id": "toucheng-shisanhangjiewu",
+  "name": "頭城鎮十三行街屋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-11-24",
+  "address": "頭城鎮和平街140、142號",
+  "lat": 24.85892712335563,
+  "lng": 121.8250562287993,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20041124000001",
+  "caseId": "20041124000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/a6d33897-2db6-4269-8274-6d8bc813fbc0/IMG_0483.jpg"
+ },
+ {
+  "id": "toucheng-nanbeimenfudeci",
+  "name": "頭城鎮南北門福德祠",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-12-15",
+  "address": "頭城鎮北門福德祠:和平街154號",
+  "lat": 24.85585692711791,
+  "lng": 121.82342526814828,
+  "open": "週一至週日9:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20061215000002",
+  "caseId": "20061215000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/efc278db-85c8-450f-9e9f-eca6ba513d25/20201218_112902.jpg"
+ },
+ {
+  "id": "toucheng-xinzhangxingshuji",
+  "name": "頭城鎮新長興樹記",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-03-08",
+  "address": "頭城鎮城東里和平街121號",
+  "lat": 24.857552222299258,
+  "lng": 121.82437183354156,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070308000001",
+  "caseId": "20070308000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-18/3349ca3e-b936-41ff-88ef-3abb3bebaac3/20201218_105854.jpg"
+ },
+ {
+  "id": "toucheng-lincaozuzongmu",
+  "name": "頭城鎮林曹祖宗之墓",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2005-06-01",
+  "address": "頭城鎮青雲路三段700號",
+  "lat": 24.867875963790645,
+  "lng": 121.83198249513109,
+  "open": "週一至週日9:00~16:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050601000001",
+  "caseId": "20050601000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/a8b4d2a8-6c52-4a2c-8d94-bfd27b6cb742/頭城鎮林曹祖宗之墓_A990759.jpg"
+ },
+ {
+  "id": "toucheng-laohongzhangxing",
+  "name": "頭城鎮老紅長興",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2007-10-09",
+  "address": "頭城鎮城東里和平街123號",
+  "lat": 24.857602330876755,
+  "lng": 121.82439031339851,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20071009000002",
+  "caseId": "20071009000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-18/56d65ba0-895f-4ceb-aa9f-44e6e768287f/20201218_110145.jpg"
+ },
+ {
+  "id": "toucheng-guishanyoulanzao",
+  "name": "龜山遊覽遭難者之招魂碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "頭城鎮",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2024-11-01",
+  "address": "頭城鎮大溪漁港休閒公園內",
+  "lat": 24.941741851208192,
+  "lng": 121.90257591393889,
+  "open": "全天。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20241108000003",
+  "caseId": "20241108000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-07/8f3ed969-45ba-45ad-93ac-eac2b56eaf06/龜山島遊覽遭難者招魂碑(2).jpg"
+ },
+ {
+  "id": "toucheng-chezhanyuangongsushe",
+  "name": "台鐵頭城車站員工宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-24",
+  "address": "頭城鎮站舍巷3、5、7、9號",
+  "lat": 24.857890130046346,
+  "lng": 121.8223522785184,
+  "open": "11:00 - 18:30（週二公休）",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051024000004",
+  "caseId": "20051024000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/bbe9d347-350e-4921-84db-0589e06a0bff/台鐵頭城車站員工宿舍代表圖.jpg"
+ },
+ {
+  "id": "toucheng-chezhanzhanzhangsushe",
+  "name": "台鐵頭城車站舊站長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-24",
+  "address": "頭城鎮站舍巷1號",
+  "lat": 24.8581637388563,
+  "lng": 121.822517271325,
+  "open": "11:00 - 18:30（週二公休）",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051024000003",
+  "caseId": "20051024000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/7cdd48e2-f9e0-42d7-bfe3-97808999f369/台鐵頭城車站舊站長宿舍代表圖.jpg"
+ },
+ {
+  "id": "toucheng-gengfangfushenbei",
+  "name": "頭城梗枋福神碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "頭城鎮",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2014-01-28",
+  "address": "頭城鎮台二線濱海公路129.6公里海岸邊（梗枋段石塔海邊）",
+  "lat": 24.89703226381381,
+  "lng": 121.86157693028971,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140128000002",
+  "caseId": "20140128000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/f7c760b2-03d4-416d-b7b7-6484076fa787/頭城梗枋福神碑_A997773.jpg"
+ },
+ {
+  "id": "toucheng-guoxiaoxiaozhangsushe",
+  "name": "頭城鎮頭城國小校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "頭城鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-09-20",
+  "address": "頭城鎮城東里開蘭舊路4號",
+  "lat": 24.859226991679353,
+  "lng": 121.82477291692868,
+  "open": "每周一、二休館\n09:00~12:00、13:30~16:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020920000002",
+  "caseId": "20020920000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/92285e52-2cc6-4961-8528-3e5c6a7285a8/頭城鎮頭城國小校長宿舍_A990784.jpg"
+ },
+ {
+  "id": "toucheng-wushigangjiuzhi",
+  "name": "烏石港舊址",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "頭城鎮",
+  "types": [
+   "交通地景"
+  ],
+  "announced": "2006-05-03",
+  "address": "頭城鎮烏石港旁",
+  "lat": 24.865568,
+  "lng": 121.832542,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20060503000003",
+  "caseId": "20060503000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/a06ae7d9-7106-4a55-949d-3b95df7cf41d/烏石港舊址_A997887.jpg"
+ },
+ {
+  "id": "jiaoxi-wunuanshibanqiao",
+  "name": "武暖石板橋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "礁溪鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "1999-04-19",
+  "address": "礁溪鄉光武村武暖路武暖石橋頭福德廟前",
+  "lat": 24.7820974306415,
+  "lng": 121.762335977894,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990402000001",
+  "caseId": "19990402000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-10/6e7f3cd9-38fc-441c-ba1c-dae3390ab108/武暖石板橋_A990675.jpg"
+ },
+ {
+  "id": "jiaoxi-wushafurenmu",
+  "name": "宜蘭吳沙夫人墓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2024-11-01",
+  "address": "礁溪鄉開蘭路110號旁",
+  "lat": 24.789254506108964,
+  "lng": 121.75773123429829,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20241108000001",
+  "caseId": "20241108000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-11-12/d80a2295-4714-428f-821c-a5c73569bf0a/宜蘭吳沙夫人墓代表圖像.jpg"
+ },
+ {
+  "id": "jiaoxi-tangweiwenquangou",
+  "name": "湯圍溫泉溝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-24",
+  "address": "礁溪鄉德陽村仁愛路(春和山莊飯站旁)",
+  "lat": 24.8287656698235,
+  "lng": 121.769944616884,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200708000001",
+  "caseId": "20200708000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-23/80b9f79f-6671-4b7f-922d-837e3adf7347/湯圍溫泉溝_A999551.jpg"
+ },
+ {
+  "id": "jiaoxi-xietianmiaolaoxi",
+  "name": "礁溪協天廟老戲臺",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2026-03-25",
+  "address": "礁溪鄉大義村 3 鄰中山路 112 號",
+  "lat": 24.818135,
+  "lng": 121.769362,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260616000001",
+  "caseId": "20260616000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-16/de1aac26-be27-415e-8285-8c53be574ebf/礁溪老戲臺-木棟架3.jpg"
+ },
+ {
+  "id": "jiaoxi-tianzhutangjifushu",
+  "name": "礁溪天主堂及附屬建築",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2019-05-22",
+  "address": "礁溪鄉礁溪路五段42號",
+  "lat": 24.8258259,
+  "lng": 121.771434,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190712000001",
+  "caseId": "20190712000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-07-12/f3eb5384-a436-4020-961b-a55b0261fa54/文聲復健院正面照片.jpg"
+ },
+ {
+  "id": "jiaoxi-gongsuojiubangongting",
+  "name": "礁溪鄉公所舊辦公廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-24",
+  "address": "礁溪鄉六結村中山路2段3號",
+  "lat": 24.823690292160823,
+  "lng": 121.77126630623644,
+  "open": "周一到周五08:00~12:00, 13:00~17:00。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021224000003",
+  "caseId": "20021224000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-19/5b69eec9-f711-458d-8bef-ed6658fdeca6/礁溪鄉公所舊辦公廳_A999657.jpg"
+ },
+ {
+  "id": "jiaoxi-luodonglinquguanli",
+  "name": "羅東林區管理處礁溪工作站宿舍區",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-27",
+  "address": "礁溪鄉忠孝路129巷1、2、3、4、6、8、10、12號",
+  "lat": 24.8325510835356,
+  "lng": 121.774413349438,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050627000003",
+  "caseId": "20050627000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-10-05/c112866b-a712-493e-9cb9-b237f306a7f3/羅東林管處礁溪工作站宿舍區_A999530.jpg"
+ },
+ {
+  "id": "jiaoxi-yizulaizhongzhimu",
+  "name": "義卒賴忠之墓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2023-03-27",
+  "address": "礁溪鄉第一公墓(礁溪鄉龍潭湖東側)",
+  "lat": 24.795247722383706,
+  "lng": 121.73547537928741,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230508000004",
+  "caseId": "20230508000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-05-08/25670c66-faf1-4f4e-b13e-7fb5cb79811b/義卒賴忠之墓.jpg"
+ },
+ {
+  "id": "jiaoxi-taiwanyinxingjiao",
+  "name": "臺灣銀行礁溪訓練中心",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-24",
+  "address": "礁溪鄉中山路2段140號",
+  "lat": 24.825878135609887,
+  "lng": 121.77341999854795,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021224000002",
+  "caseId": "20021224000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-19/0afcc5ea-8a63-475a-8205-b1cea68675e2/台灣銀行礁溪訓練中心_A999614.jpg"
+ },
+ {
+  "id": "jiaoxi-kailanwuzhaigong",
+  "name": "開蘭吳宅公廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "礁溪鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2004-10-07",
+  "address": "礁溪鄉吳沙村北門巷38號",
+  "lat": 24.78814655908159,
+  "lng": 121.75926762792452,
+  "open": "9:00~17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041007000004",
+  "caseId": "20041007000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/c1e6788f-f9fa-4692-8598-6f835a787a03/開蘭吳宅公廳_A999704.jpg"
+ },
+ {
+  "id": "zhuangwei-erzhanshiqihaian",
+  "name": "壯圍二戰時期海岸防禦陣地群",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "壯圍鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2023-03-27",
+  "address": "壯圍鄉宜蘭縣壯圍鄉大福村壯濱路6段156巷7號(大福海巡安所周邊)",
+  "lat": 24.795321866998847,
+  "lng": 121.8179052571932,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230504000004",
+  "caseId": "20230504000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-05-04/9f5b1b9b-fc68-4406-8fcb-4fec17a08819/壯圍二戰時期海岸防禦陣地群代表圖像.jpg"
+ },
+ {
+  "id": "zhuangwei-youshijiamiao",
+  "name": "壯圍鄉游氏家廟追遠堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "壯圍鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2005-04-06",
+  "address": "壯圍鄉壯六路41-1號",
+  "lat": 24.747187051504262,
+  "lng": 121.80118629098708,
+  "open": "外部開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050406000001",
+  "caseId": "20050406000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/f3d30407-a859-49df-bcfb-c8d49c83c369/壯圍鄉游氏家廟追遠堂_A990568.jpg"
+ },
+ {
+  "id": "zhuangwei-dafubingqishiyan",
+  "name": "大福兵器試驗場觀測站群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壯圍鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2015-01-21",
+  "address": "壯圍鄉分佈於壯圍濱海自行車道約12.5k至15k間的保安林地中",
+  "lat": 24.721747,
+  "lng": 121.829572,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150121000002",
+  "caseId": "20150121000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/36990/photo/b53fdbdc-db3e-410a-8492-55eb6545af29.JPG"
+ },
+ {
+  "id": "zhuangwei-jieyanshiqilanyang",
+  "name": "戒嚴時期蘭陽海岸線軍事營舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壯圍鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2014-03-21",
+  "address": "壯圍鄉壯濱路5段220巷51號",
+  "lat": 24.786286395043447,
+  "lng": 121.8173087126359,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140321000001",
+  "caseId": "20140321000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/cbec2569-7122-4e02-abb3-0ddcd83c9a27/戒嚴時期蘭陽海岸線軍事營舍 宜蘭縣壯圍鄉壯濱路2段115巷內 _A997987.jpg"
+ },
+ {
+  "id": "yilan-nanjichangfeng",
+  "name": "南機場風向帶",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-28",
+  "address": "宜蘭市建業路22-29號東北側",
+  "lat": 24.7290216800217,
+  "lng": 121.752434002627,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20051028000001",
+  "caseId": "20051028000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-10/4746825b-3e54-44f9-b69e-3ff150d70613/風向帶_A999643（道綺全球傳播 拍攝提供）.jpg"
+ },
+ {
+  "id": "yilan-zhaoyinggong",
+  "name": "宜蘭市昭應宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-05-03",
+  "address": "宜蘭市新民里中山路三段106號",
+  "lat": 24.757572142483,
+  "lng": 121.752760607225,
+  "open": "全年開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060503000001",
+  "caseId": "20060503000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-18/1d7cfb15-61d1-44ef-b1a0-11dda1b3cdc3/20201218_131935.jpg"
+ },
+ {
+  "id": "yilan-zhuoshuixizhishui",
+  "name": "宜蘭濁水溪治水工事竣功記念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2004-10-07",
+  "address": "宜蘭市南津里蘭陽大橋西側蘭陽溪北岸堤防上",
+  "lat": 24.7185522448264,
+  "lng": 121.77015921977166,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20041007000002",
+  "caseId": "20041007000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/3cfacb38-04e4-464d-a240-00f52baed958/宜蘭濁水溪治水工事竣工記念碑代表圖.jpg"
+ },
+ {
+  "id": "yilan-zhuanyao",
+  "name": "宜蘭磚窯",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-27",
+  "address": "宜蘭市北津里津梅路74巷8號",
+  "lat": 24.767357613499843,
+  "lng": 121.75210873394342,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20021227000001",
+  "caseId": "20021227000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-25/23ab2c94-a9a5-427a-8a9a-47385fe4c914/宜蘭磚窯_A999848.jpg"
+ },
+ {
+  "id": "yilan-jurenliwangyangzhi",
+  "name": "宜蘭舉人李望洋之墓",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2024-11-01",
+  "address": "宜蘭市大坡路100巷45號附近稻田",
+  "lat": 24.778119037108606,
+  "lng": 121.7469240834548,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20241108000002",
+  "caseId": "20241108000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-07/c35a40e4-2559-4bca-9072-33c0fe9ebccf/李望洋墓(4)-1.jpg"
+ },
+ {
+  "id": "yilan-linshijiamiaozhui",
+  "name": "林氏家廟追遠堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2021-01-28",
+  "address": "宜蘭市南興街22號",
+  "lat": 24.755701385605338,
+  "lng": 121.75172282773643,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220301000001",
+  "caseId": "20220301000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-02-25/62da2602-671a-46ea-adc4-f64b18857eef/林氏家廟追遠堂_A990129.jpg"
+ },
+ {
+  "id": "yilan-xianguobei",
+  "name": "獻馘碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市中山公園內南側",
+  "lat": 24.7529150986052,
+  "lng": 121.753602736753,
+  "open": "不限時段",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20040312000001",
+  "caseId": "20040312000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/98acf22e-8468-4d0c-bc0a-5209a29cd7dc/獻馘碑_A999017.jpg"
+ },
+ {
+  "id": "yilan-bixiagong",
+  "name": "碧霞宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1997-11-19",
+  "address": "宜蘭市鄂王里4鄰城隍街52號",
+  "lat": 24.759407,
+  "lng": 121.751132,
+  "open": "8：00∼18：00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19971119000001",
+  "caseId": "19971119000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-14/9d020fff-a8d9-4ffd-b118-1a592d6e4a94/碧霞宮 (3).jpg"
+ },
+ {
+  "id": "yilan-diyishangyeyinxing",
+  "name": "第一商業銀行宜蘭分行",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2013-10-01",
+  "address": "宜蘭市中山路3段77號",
+  "lat": 24.75731147285967,
+  "lng": 121.7523984226266,
+  "open": "開放，銀行使用",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150302000001",
+  "caseId": "20150302000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/433a1efc-e3b6-4d5c-8688-fcb0cc30fcb7/第一商業銀行宜蘭分行_A999398.jpg"
+ },
+ {
+  "id": "yilan-jiuyilanyanjiumai",
+  "name": "舊宜蘭菸酒賣捌所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-06-12",
+  "address": "宜蘭市康樂街38號",
+  "lat": 24.755778470435754,
+  "lng": 121.75670263583106,
+  "open": "委外經營中",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030612000001",
+  "caseId": "20030612000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/d54aae2a-22e8-4fd5-b727-4fbe8eb2997b/舊宜蘭菸酒賣捌所_A999892.jpg"
+ },
+ {
+  "id": "yilan-jiuyilanjiegongshe",
+  "name": "舊宜蘭街公設質鋪",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2016-01-21",
+  "address": "宜蘭市新民里康樂路60巷2號",
+  "lat": 24.756304473469882,
+  "lng": 121.75562992190056,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160121000001",
+  "caseId": "20160121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/f37cd567-4b1d-4d11-a2d5-9cd59fd86e02/舊宜蘭街公設質舖_A999944.jpg"
+ },
+ {
+  "id": "yilan-lanyangnvzhongxiao",
+  "name": "蘭陽女中校門暨傳達室",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "學校"
+  ],
+  "announced": "2011-10-14",
+  "address": "宜蘭市女中路二段355號",
+  "lat": 24.745494648879532,
+  "lng": 121.75357580086245,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20111014000001",
+  "caseId": "20111014000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/adc1e5fc-942f-4ce3-b818-97e2627c7bf5/蘭陽女中校門暨傳達室_A990240.jpg"
+ },
+ {
+  "id": "yilan-kailanjinshiyang",
+  "name": "開蘭進士楊士芳旗杆座",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "宜蘭市",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "2007-10-09",
+  "address": "宜蘭市進士路46號",
+  "lat": 24.7407023674402,
+  "lng": 121.749221809566,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20071009000001",
+  "caseId": "20071009000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-18/5db92bb1-1815-4ecd-a357-5cffd59aa4fa/開蘭進士楊士芳旗杆座(代表).jpg"
+ },
+ {
+  "id": "yilan-fuzongtongchengong",
+  "name": "副總統陳公手植紀念圃",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路南側",
+  "lat": 24.754736097653957,
+  "lng": 121.75101599872356,
+  "open": "全天。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000007",
+  "caseId": "20010629000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-30/44b333cb-5f74-4a18-b5a2-b9c8db678251/B-8副總統手植紀念圃.jpg"
+ },
+ {
+  "id": "yilan-hualongyicunjuan",
+  "name": "化龍一村眷舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-03-02",
+  "address": "宜蘭市舊城西路、武營街、西後街與舊城南路圍塑之區域",
+  "lat": 24.756581,
+  "lng": 121.750006,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200420000001",
+  "caseId": "20200420000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/45471502-2313-4308-a451-1336d6310f01/化龍一村眷舍群_A999148.jpg"
+ },
+ {
+  "id": "yilan-nanjichangbajiaota",
+  "name": "南機場八角塔台",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市南橋里南機場北處",
+  "lat": 24.7321583650848,
+  "lng": 121.7511014839805,
+  "open": "全天外部開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190403000001",
+  "caseId": "20190403000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-04-03/7830dc67-f0ac-4d52-97ce-8558d69764d9/八角塔台 (1).jpg"
+ },
+ {
+  "id": "yilan-nanmenwaishiqi",
+  "name": "南門外石砌牆",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路南側",
+  "lat": 24.755274495158,
+  "lng": 121.750159032824,
+  "open": "全天。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000004",
+  "caseId": "20010629000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/3ad4bb1b-2dd8-4b8a-8285-0bba11961cef/南門外石砌牆_A999162.jpg"
+ },
+ {
+  "id": "yilan-nanmenwaifangkong",
+  "name": "南門外防空壕",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路南側",
+  "lat": 24.7547633156167,
+  "lng": 121.750970626893,
+  "open": "全天。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000006",
+  "caseId": "20010629000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-19/70c72417-8bc0-4517-8590-a65eb4f641bd/南門外防空壕(代表).jpg"
+ },
+ {
+  "id": "yilan-taiwanshengzhengfu",
+  "name": "台灣省政府糧食局宜蘭市神農路宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-27",
+  "address": "宜蘭市神農路2段96號及90巷1號、1號2樓、3號、3號2樓、5號、5號2樓、7號、7號2樓、9號、9號2樓、11號、11號2樓",
+  "lat": 24.75227710122028,
+  "lng": 121.7513202831006,
+  "open": "裝修中未營業。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050627000001",
+  "caseId": "20050627000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-03-06/d8f7ead9-c451-4932-a994-3d8791c8bcdc/download_file.jpg"
+ },
+ {
+  "id": "yilan-gongwuduanmugongfang",
+  "name": "台鐵宜蘭工務段舊木工房",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市和睦里宜興路1段236號",
+  "lat": 24.7535673913468,
+  "lng": 121.757221800719,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040312000004",
+  "caseId": "20040312000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-24/e8df6024-ed89-4d86-b153-daa1e1307612/台鐵宜蘭工務段舊木工房(代表).jpg"
+ },
+ {
+  "id": "yilan-gongwuduandanganshi",
+  "name": "台鐵宜蘭工務段舊檔案室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市和睦里宜興路1段236號",
+  "lat": 24.7536658346128,
+  "lng": 121.757281596418,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040312000005",
+  "caseId": "20040312000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-16/b1134073-0b99-4d9d-a273-3b961e2cc2a6/臺鐵舊工務段檔案室(2)壓縮.jpg"
+ },
+ {
+  "id": "yilan-gongwuduantiejiangfang",
+  "name": "台鐵宜蘭工務段舊鐵匠房",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市和睦里宜興路1段236號",
+  "lat": 24.7534529253316,
+  "lng": 121.757171582458,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040312000003",
+  "caseId": "20040312000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/f70c4089-90ec-460a-8df8-2826315772f3/台鐵宜蘭工務段鐵匠房原圖.jpg"
+ },
+ {
+  "id": "yilan-gongwuduanbangongshi",
+  "name": "台鐵宜蘭工務段辦公室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-24",
+  "address": "宜蘭市宜興路一段236號",
+  "lat": 24.7540223102773,
+  "lng": 121.757663925691,
+  "open": "08:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051024000002",
+  "caseId": "20051024000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/7491f060-b975-4f5a-93d0-ec5f4914fcbe/工務段辦公室代表圖.jpg"
+ },
+ {
+  "id": "yilan-chezhancangkuqun",
+  "name": "台鐵宜蘭車站舊倉庫群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市宜蘭火車站北側倉庫群",
+  "lat": 24.7563200082531,
+  "lng": 121.758334296741,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040312000006",
+  "caseId": "20040312000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/2e104dab-deca-4a8a-acd7-4080625c4a18/台鐵宜蘭車站舊倉庫群_A999315.jpg"
+ },
+ {
+  "id": "yilan-chezhanpaichusuo",
+  "name": "台鐵宜蘭車站舊警察派出所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "宜蘭市光復路3號",
+  "lat": 24.754263533937,
+  "lng": 121.757769720338,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050514000001",
+  "caseId": "20050514000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-12-01/3690de92-5d9f-442a-b7ca-bf650d917bd8/102773.jpg"
+ },
+ {
+  "id": "yilan-yunwuduanbangongshi",
+  "name": "台鐵宜蘭運務段舊辦公室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "宜蘭市和睦里宜興路200號",
+  "lat": 24.7542111560457,
+  "lng": 121.757446300915,
+  "open": "9:00~18:00\n現為宜蘭火車站旅遊服務中心",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000001",
+  "caseId": "20040514000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/72dbd562-ad91-43ba-a456-4acc7a9f6e1b/運務段辦公室代表圖.jpg"
+ },
+ {
+  "id": "yilan-yunwuduanfangkongdong",
+  "name": "台鐵宜蘭運務段防空洞",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "宜蘭市宜蘭火車站宜蘭運務段舊辦公室後",
+  "lat": 24.7540645449686,
+  "lng": 121.757539101433,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000002",
+  "caseId": "20040514000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/383a1fba-4f04-4cc5-b9dc-95a438cff2d7/台鐵宜蘭運務段防空洞_A999291.jpg"
+ },
+ {
+  "id": "yilan-wugumiao",
+  "name": "宜蘭五穀廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2016-12-30",
+  "address": "宜蘭市神農路2段162號",
+  "lat": 24.7535166,
+  "lng": 121.75185290000002,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161230000001",
+  "caseId": "20161230000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-13/27b9b420-b1cc-4e5a-aa9a-5dc92f0739f6/宜蘭五穀廟代表圖.jpg"
+ },
+ {
+  "id": "yilan-guominxiaoxuekexue",
+  "name": "宜蘭國民小學科學教育中心",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "學校"
+  ],
+  "announced": "2019-03-27",
+  "address": "宜蘭市崇聖街2號",
+  "lat": 24.7531326,
+  "lng": 121.7540428,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20201020000001",
+  "caseId": "20201020000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/293c924b-a0fb-4d93-8b2d-a905c9e4f53e/宜蘭國民小學科學教育中心_A990190.jpg"
+ },
+ {
+  "id": "yilan-daxueminquanrishi",
+  "name": "宜蘭大學民權日式眷舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-10-09",
+  "address": "宜蘭市中華路200號",
+  "lat": 24.7505592878973,
+  "lng": 121.752717830928,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071009000004",
+  "caseId": "20071009000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-26/3bca6abc-6500-4e10-9979-b34f88b1fcbb/宜蘭大學民權日式眷舍2.jpg"
+ },
+ {
+  "id": "yilan-kongzimiao",
+  "name": "宜蘭孔子廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-11-17",
+  "address": "宜蘭市新興路170號",
+  "lat": 24.762947,
+  "lng": 121.75611,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230508000001",
+  "caseId": "20230508000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-16/8843f4c1-37ac-4a4a-8d3c-755d4ccc3eea/宜蘭孔子廟(4)壓縮.jpg"
+ },
+ {
+  "id": "yilan-nanqiaolifeijiyanti",
+  "name": "宜蘭市南橋里飛機掩體群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2013-07-30",
+  "address": "宜蘭市建業路與清華一路交叉路口",
+  "lat": 24.725934512630563,
+  "lng": 121.746856444703,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120730000002",
+  "caseId": "20120730000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/36940/photo/27c95a22-f510-4f4d-9f57-4ae443533d6d.JPG"
+ },
+ {
+  "id": "yilan-taitiesushe1",
+  "name": "宜蘭市台鐵宿舍（1）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-01",
+  "address": "宜蘭市宜興路一段178號",
+  "lat": 24.752259807922066,
+  "lng": 121.7567307988486,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050601000002",
+  "caseId": "20050601000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-24/050fcd81-6daa-47d0-9ddc-70281e71d9b8/宜蘭市台鐵宿舍（1）(代表).jpg"
+ },
+ {
+  "id": "yilan-jianyelijunshiyanti",
+  "name": "宜蘭市建業里舊軍事掩體（1）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-10-24",
+  "address": "宜蘭市建業路22-92號北側",
+  "lat": 24.7291925629776,
+  "lng": 121.751768592086,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051024000001",
+  "caseId": "20051024000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-11/fe499a82-eddb-4a23-9f4b-05459eb9fff7/H63宜蘭市建業里舊軍事掩體(1)3.jpg"
+ },
+ {
+  "id": "yilan-jianjunlifeijiyanti",
+  "name": "宜蘭市建軍里飛機掩體群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2014-06-30",
+  "address": "宜蘭市建軍路46號(金六結營區內)",
+  "lat": 24.753394993307392,
+  "lng": 121.73712638902207,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140630000002",
+  "caseId": "20140630000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/36968/photo/fe9c9163-41ed-494b-b0fe-6d79b66c05b2.JPG"
+ },
+ {
+  "id": "yilan-chentujinyishizhai",
+  "name": "宜蘭市陳土金醫師宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2023-05-08",
+  "address": "宜蘭市和睦路22號",
+  "lat": 24.755973,
+  "lng": 121.757154,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230703000002",
+  "caseId": "20230703000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-07-03/a924b533-8910-4df1-8779-b0aafc4335be/宜蘭市陳土金醫師宅代表圖像.jpg"
+ },
+ {
+  "id": "yilan-cehousuoyilanfei",
+  "name": "宜蘭測候所宜蘭飛行場出張所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市建軍里建軍路25號",
+  "lat": 24.7522717250745,
+  "lng": 121.737667918715,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000008",
+  "caseId": "20020621000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-10/02812821-a525-4222-afd1-4f3201832c1f/H16宜蘭測候所宜蘭飛行場出張所02.jpg"
+ },
+ {
+  "id": "yilan-huochezhangeishui",
+  "name": "宜蘭火車站給水塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-06-20",
+  "address": "宜蘭市林森路（宜蘭火車站後站旁）",
+  "lat": 24.7530182488239,
+  "lng": 121.75812201071,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030620000001",
+  "caseId": "20030620000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/dd715886-da76-4ed3-8c38-363efaefa9d1/宜蘭火車站加水塔_A999275.jpg"
+ },
+ {
+  "id": "yilan-zhengfujiuyuangong",
+  "name": "宜蘭縣政府舊員工宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-09-14",
+  "address": "宜蘭市中山路2段430巷兩側",
+  "lat": 24.752135353482572,
+  "lng": 121.75369913020486,
+  "open": "09:00~16:30\n星期一休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160914000001",
+  "caseId": "20160914000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/1c818173-9d18-4e48-a662-1c86a36c51d5/宜蘭縣政府舊員工宿舍群_A999053.jpg"
+ },
+ {
+  "id": "yilan-shezhijinianguan",
+  "name": "宜蘭設治紀念館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路力行三巷三號",
+  "lat": 24.755365984993162,
+  "lng": 121.74961796307446,
+  "open": "開放時間: 週二至週日上午9時至下午5時開放參觀。 \n休館時間: 週一、每月最後一天、除夕。 \n收費:全票30元、半票20元、宜蘭縣民免費。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000001",
+  "caseId": "20010629000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/1077e932-03ca-43cc-8fe3-ab4270ecd96d/宜蘭設治紀念館_A999969.jpg"
+ },
+ {
+  "id": "yilan-shexianjinianbei",
+  "name": "宜蘭設縣紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路南側",
+  "lat": 24.7547809290859,
+  "lng": 121.750929191105,
+  "open": "全天。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000005",
+  "caseId": "20010629000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-19/ff9fe3b3-f2df-4adc-a4db-f298c3acafc4/宜蘭設縣紀念碑(代表).jpg"
+ },
+ {
+  "id": "yilan-jiuchanglishijian",
+  "name": "宜蘭酒廠歷史建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2014-01-28",
+  "address": "宜蘭市舊城西路3號",
+  "lat": 24.756410934941442,
+  "lng": 121.7493884560376,
+  "open": "08:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140128000001",
+  "caseId": "20140128000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/f60bc687-6904-4712-a73b-dc3ac040fba6/宜蘭酒廠歷史建築群 舊紅酒倉庫_A990104.jpg"
+ },
+ {
+  "id": "yilan-zhonglingta",
+  "name": "忠靈塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-12",
+  "address": "宜蘭市中山公園內",
+  "lat": 24.7529986878681,
+  "lng": 121.753325882646,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040312000002",
+  "caseId": "20040312000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-25/c0c243f7-6310-4758-aa7e-d96cbab24d0f/IMG_0530.jpg"
+ },
+ {
+  "id": "yilan-siyuanlifeijiyanti",
+  "name": "思源里飛機掩體1",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市思源里永金二橋旁",
+  "lat": 24.7526770646937,
+  "lng": 121.73299864938,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000006",
+  "caseId": "20020621000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-10/14292b34-9c1f-46ad-91cb-36e418aaf9de/H21思源里飛機掩體1-01.jpg"
+ },
+ {
+  "id": "yilan-siyuanlifeijiyanti2",
+  "name": "思源里飛機掩體2",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市思源里金六結軍區南面竹林內",
+  "lat": 24.753247,
+  "lng": 121.733654,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000007",
+  "caseId": "20020621000007",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/36919/photo/225a83b0-d981-4ba0-8ec3-6ff63bc26dde.jpg"
+ },
+ {
+  "id": "yilan-jiuzhumigongguan",
+  "name": "舊主秘公館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路縣府一巷8號",
+  "lat": 24.7551853599042,
+  "lng": 121.750013898126,
+  "open": "星期一\n休息\n星期二\n11:30–14:00,17:00–21:00\n星期三\n11:30–14:00,17:00–21:00\n星期四\n11:30–14:00,17:00–21:00\n星期五\n11:30–14:00,17:00–21:00\n星期六\n11:30–14:00,17:00–21:00\n星期日\n11:30–14:00,17:00–21:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000002",
+  "caseId": "20010629000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/6518cb08-2a9c-4a22-bc02-2c05b42ab83c/舊主秘公館_A999225.jpg"
+ },
+ {
+  "id": "yilan-jiuyilanjianyumen",
+  "name": "舊宜蘭監獄門廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市神農路二段117號",
+  "lat": 24.753832695094232,
+  "lng": 121.7514934914074,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000008",
+  "caseId": "20010629000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-19/e2cf5a57-6ff7-4979-81d7-aaed5d1e1eac/舊宜蘭監獄門廳(代表).jpg"
+ },
+ {
+  "id": "yilan-jiuyilanxianyihui",
+  "name": "舊宜蘭縣議會",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-24",
+  "address": "宜蘭市中山路2段426號",
+  "lat": 24.7514770872472,
+  "lng": 121.753605752945,
+  "open": "10:00-18:00，周一休館。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021224000001",
+  "caseId": "20021224000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/728ddf79-2122-4014-8ca8-a3238d668482/舊宜蘭縣議會_A999351.jpg"
+ },
+ {
+  "id": "yilan-jiuyilannonglinxue",
+  "name": "舊宜蘭農林學校修養室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-10-07",
+  "address": "宜蘭市神農路一段1號",
+  "lat": 24.747174982987,
+  "lng": 121.747632736756,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041007000006",
+  "caseId": "20041007000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-30/8955c2bc-ffb6-4aec-a4df-411d99a8b1eb/舊宜蘭農林學校修養室_A990265.jpg"
+ },
+ {
+  "id": "yilan-jiurijuntongxin",
+  "name": "舊日軍通信中心",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-27",
+  "address": "宜蘭市中山公園內",
+  "lat": 24.7530576998135,
+  "lng": 121.753328134427,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050627000002",
+  "caseId": "20050627000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-15/18d49f41-ac4b-466c-8828-79da67b0462c/舊日軍通信中心_A999105.jpg"
+ },
+ {
+  "id": "yilan-jiuliangshijuyilan",
+  "name": "舊糧食局宜蘭辦公廳",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市光復路13號",
+  "lat": 24.75474802755085,
+  "lng": 121.75693510262712,
+  "open": "09:30-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000009",
+  "caseId": "20010629000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-19/c5ae7e85-1dee-472b-ad50-fc1f71461a99/舊糧食局宜蘭辦公廳(代表).jpg"
+ },
+ {
+  "id": "yilan-jiutaiwanyinxingyi",
+  "name": "舊臺灣銀行宜蘭分行",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-09-20",
+  "address": "宜蘭市中山路3段1號",
+  "lat": 24.755043601972453,
+  "lng": 121.75183265547282,
+  "open": "週二至週日9:00~17:00。\n休館日：每週一（若逢國定假日照常開放）\n農曆除夕、年初一、選舉罷免投票日\n政府公告之天然災害停止上班日\n館方另行公告之必要休館日\n全票50元。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020920000001",
+  "caseId": "20020920000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-15/fc81b85a-bd89-43c4-906c-832036c5a1e5/台灣銀行宜蘭分行(美術館)_A999513.jpg"
+ },
+ {
+  "id": "yilan-jiunongxiaoxiao",
+  "name": "舊農校校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市舊城南路縣府二巷19號",
+  "lat": 24.755027856166155,
+  "lng": 121.74934780580772,
+  "open": "10:00–18:00，星期一休息。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000003",
+  "caseId": "20010629000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/07712615-b850-4eca-80b8-78cda45a5e4e/舊農校校長宿舍(宜蘭文學館)_A999217.jpg"
+ },
+ {
+  "id": "yilan-xixiangtingxiande",
+  "name": "西鄉廳憲德政碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "宜蘭市宜蘭河堤中山橋東側堤防上",
+  "lat": 24.7577266797714,
+  "lng": 121.74475095998,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010518000001",
+  "caseId": "20010518000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/5317a2b1-b068-4bcc-b08b-9c83c8a21beb/西鄉廳憲德政碑_A999234.jpg"
+ },
+ {
+  "id": "yilan-nongliangshuyilan",
+  "name": "農糧署宜蘭市公糧倉庫群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2025-08-20",
+  "address": "宜蘭市林森路177號",
+  "lat": 24.757006,
+  "lng": 121.760343,
+  "open": "目前尚做為倉庫使用。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250829000001",
+  "caseId": "20250829000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-07/f5782da3-702c-42f8-ab7a-7929bf41cc32/農糧署宜蘭市公糧倉庫群(4).jpg"
+ },
+ {
+  "id": "yilan-jinshilitianzhu",
+  "name": "進士里天主教救主會",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市進士里進士路39號",
+  "lat": 24.7382435286797,
+  "lng": 121.743357479665,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000005",
+  "caseId": "20020621000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-24/03b23bd8-d07e-411f-85c6-cf4edab4c21a/進士里天主教救主會(代表).jpg"
+ },
+ {
+  "id": "yilan-jinshilifeijiyanti",
+  "name": "進士里飛機掩體1",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市進士里進士路24號旁",
+  "lat": 24.737455814769,
+  "lng": 121.743407009983,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000003",
+  "caseId": "20020621000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-24/6ece849f-af10-4a5c-b8c0-8cb20f0cc8ff/進士里飛機掩體1(代表).jpg"
+ },
+ {
+  "id": "yilan-jinshilifeijiyanti2",
+  "name": "進士里飛機掩體2",
+  "category": "歷史建築",
+  "level": "",
+  "town": "宜蘭市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "宜蘭市進士里進士路20號旁",
+  "lat": 24.7370042400933,
+  "lng": 121.742363904966,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000004",
+  "caseId": "20020621000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-24/c08c9b4b-b4b7-48f1-93ab-1d722833f8ae/H19進士里飛機掩體2代表圖像.jpg"
+ },
+ {
+  "id": "yilan-yiyuanlaoshuqun",
+  "name": "宜蘭醫院老樹群",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "宜蘭市",
+  "types": [
+   "其他人類與自然互動而形成之景觀"
+  ],
+  "announced": "2014-01-28",
+  "address": "宜蘭市新民路152號，國立陽明大學附設醫院院區內",
+  "lat": 24.758012,
+  "lng": 121.75404,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20140128000003",
+  "caseId": "20140128000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-05/29cb676d-affc-43ac-bb65-7eb4cf508d75/宜蘭醫院老樹群代表圖.jpg"
+ },
+ {
+  "id": "yuanshan-zhouzhendongwuju",
+  "name": "員山周振東武舉人宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "員山鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-06-12",
+  "address": "員山鄉湖東村蜊碑口五十溪旁",
+  "lat": 24.750504651638334,
+  "lng": 121.70112473212022,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030612000002",
+  "caseId": "20030612000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/5ef876c7-23f2-4ea2-9306-3ee89086821c/員山周振東武舉人宅_A990373.jpg"
+ },
+ {
+  "id": "yuanshan-jiuchangalancheng",
+  "name": "宜蘭酒廠阿蘭城集水井",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "員山鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2012-07-23",
+  "address": "員山鄉員山鄉國泰汽車駕訓班（宜蘭縣員山鄉新城路181之5號）場區內",
+  "lat": 24.76806929499673,
+  "lng": 121.72716789340284,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20120723000001",
+  "caseId": "20120723000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/36993/photo/64ff6cda-a01a-4c4a-914c-43af667ea394.JPG"
+ },
+ {
+  "id": "yuanshan-waiyuanshanzhuang",
+  "name": "外員山裝甲營軍事建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "員山鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2017-03-16",
+  "address": "員山鄉員山村復興路92號",
+  "lat": 24.74719853168717,
+  "lng": 121.71932159695434,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180521000001",
+  "caseId": "20180521000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/6b4ff12e-246b-462d-af5d-aaa14ee2045f/外員山裝甲營軍事建築群_A990389.jpg"
+ },
+ {
+  "id": "yuanshan-dasanjiulinzhai",
+  "name": "大三鬮林宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "員山鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "員山鄉尚德村三鬮路61號",
+  "lat": 24.735981418368073,
+  "lng": 121.72038192498118,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20010629000010",
+  "caseId": "20010629000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-30/0d2ca2a8-051d-480e-9ff6-06a40aff62d6/B-12大三鬮林宅.jpg"
+ },
+ {
+  "id": "yuanshan-jietoufendashugong",
+  "name": "員山結頭份大樹公",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "員山鄉",
+  "types": [
+   "神話傳說之場域"
+  ],
+  "announced": "2014-06-30",
+  "address": "員山鄉永同路2段203號民宅旁",
+  "lat": 24.759721,
+  "lng": 121.719623,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20140630000003",
+  "caseId": "20140630000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/c2b6c5f3-d900-406f-b9c6-502ba5de1c4d/員山結頭份大樹公_A990314.jpg"
+ },
+ {
+  "id": "yuanshan-shengoushuiyuandi",
+  "name": "深溝水源地",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "員山鄉",
+  "types": [
+   "水利設施"
+  ],
+  "announced": "2012-12-05",
+  "address": "員山鄉員山路2段236號",
+  "lat": 24.720702,
+  "lng": 121.705793,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20121205000001",
+  "caseId": "20121205000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-18/d19f7e73-b4a7-4ba5-ba25-a700b13bc19c/IMG_0352早期原有的深溝水路.jpg"
+ },
+ {
+  "id": "wujie-erjiezhichangxun",
+  "name": "二結紙廠殉職碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2015-03-02",
+  "address": "五結鄉上四村福德路87之5號右後方",
+  "lat": 24.701363664551867,
+  "lng": 121.76513588399682,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150302000002",
+  "caseId": "20150302000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/3751e0d8-198c-4165-a224-763029e02ab7/二結紙廠殉職碑_A998538.jpg"
+ },
+ {
+  "id": "wujie-erjienonghuigucang",
+  "name": "二結農會穀倉",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-08-12",
+  "address": "五結鄉三興西路171號",
+  "lat": 24.7052578054188,
+  "lng": 121.774858302977,
+  "open": "09︰00-17︰00，週三休館。\n入館清潔費：每人 50 元 （贈送 1 份指定飲品）",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19980812000001",
+  "caseId": "19980812000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/095fd416-1243-413f-a57a-b2990dc710d3/二結農會穀倉_A990418.jpg"
+ },
+ {
+  "id": "wujie-lishengyiyuan",
+  "name": "五結鄉利生醫院",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2005-04-06",
+  "address": "五結鄉利澤路66、68號",
+  "lat": 24.667631013518726,
+  "lng": 121.8227456926301,
+  "open": "利生牙醫診所營業時間。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050406000002",
+  "caseId": "20050406000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/5ecdf488-86c2-431e-b94d-588d856edd58/利生醫院代表圖.jpg"
+ },
+ {
+  "id": "wujie-lizejianguanghui",
+  "name": "利澤簡廣惠宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2013-03-20",
+  "address": "五結鄉利澤村利澤東路7號",
+  "lat": 24.66653150949957,
+  "lng": 121.82397910189015,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20130320000001",
+  "caseId": "20130320000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-28/1a5674f1-5d58-41e1-86c5-758823f630ab/廣惠宮代表圖.jpg"
+ },
+ {
+  "id": "wujie-lizejianyongangong",
+  "name": "利澤簡永安宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-09-21",
+  "address": "五結鄉利澤村5鄰利澤路26號",
+  "lat": 24.666595066917417,
+  "lng": 121.82315156849437,
+  "open": "週一至週日9:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060921000001",
+  "caseId": "20060921000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-29/feee2087-74a7-49fe-a917-cb1c7264bd88/永安宮代表圖.jpg"
+ },
+ {
+  "id": "wujie-dabuyonganshiban",
+  "name": "大埔永安石板橋",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "五結鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "1999-04-19",
+  "address": "五結鄉協和村協和中路成安宮後",
+  "lat": 24.680519021294,
+  "lng": 121.813524046436,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990402000002",
+  "caseId": "19990402000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-23/7d0d41d2-50d5-4e0b-aeac-8d7e1d52ad11/大埔永安石板橋(代表).jpg"
+ },
+ {
+  "id": "wujie-zhongxingzhichang",
+  "name": "中興紙廠四結廠區歷史建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "五結鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-07-27",
+  "address": "五結鄉中興路三段8號",
+  "lat": 24.69445993140599,
+  "lng": 121.7713423070708,
+  "open": "平日 10:00-18:00\n六日 10:00-20:00\n每周三（遇特殊活動則另行公告）、除夕及初一、政府公告之天然災害停止上班日、館方另行公告之必要休館日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171121000001",
+  "caseId": "20171121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/fc5525c6-132a-4866-9a1b-c267d96c037f/中興紙廠四結廠區歷史建築群_A998861.jpg"
+ },
+ {
+  "id": "wujie-erjiewanggongmiao",
+  "name": "二結王公廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "五結鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "五結鄉舊街一路98號",
+  "lat": 24.70820531942245,
+  "lng": 121.76882258761401,
+  "open": "全天開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000010",
+  "caseId": "20020621000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/c59f0133-4992-4ff3-bf0e-77ef76dbc642/二結王公廟_A998629.jpg"
+ },
+ {
+  "id": "wujie-sijiejiduzhanglao",
+  "name": "四結基督長老教會",
+  "category": "歷史建築",
+  "level": "",
+  "town": "五結鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "五結鄉中正路2段72號",
+  "lat": 24.6966068703207,
+  "lng": 121.76976848621524,
+  "open": "開放外部參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020621000009",
+  "caseId": "20020621000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/d549590d-5674-4ad6-9e3c-068cd70a6582/四結基督長老教會_A990472.jpg"
+ },
+ {
+  "id": "wujie-cilinjinianguan",
+  "name": "慈林紀念館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "五結鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2001-06-29",
+  "address": "五結鄉二結路339號",
+  "lat": 24.7083238401411,
+  "lng": 121.77119829999992,
+  "open": "慈林紀念館免費參觀服務(提供免費導覽解說服務，需電話預約)。\n星期一\t休息\n星期二\t09:00–12:00, 13:30–16:30\n星期三\t09:00–12:00, 13:30–16:30\n星期四\t09:00–12:00, 13:30–16:30\n星期五\t09:00–12:00, 13:30–16:30\n星期六\t09:00–12:00, 13:30–16:30\n星期日\t休息",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190314000001",
+  "caseId": "20190314000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-24/7750669a-ba8c-4850-8a98-4896f2baddd4/慈林紀念館_A998712.jpg"
+ },
+ {
+  "id": "wujie-erjiezhen",
+  "name": "二結圳",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "五結鄉",
+  "types": [
+   "其他場域"
+  ],
+  "announced": "2006-12-15",
+  "address": "五結鄉大二結社區",
+  "lat": 24.706018,
+  "lng": 121.772117,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20061215000003",
+  "caseId": "20061215000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/b160ea64-7d1b-470a-a3aa-741c920f034a/二結圳_A998576 .jpg"
+ },
+ {
+  "id": "luodong-mianmintang",
+  "name": "羅東鎮勉民堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "羅東鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2006-08-17",
+  "address": "羅東鎮中山路3段190號",
+  "lat": 24.674966595652297,
+  "lng": 121.77026838993945,
+  "open": "週一至週日8:00~20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060817000001",
+  "caseId": "20060817000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-23/23aed209-45ea-44be-bdf4-ee61c5123616/M22勉民堂1.jpg"
+ },
+ {
+  "id": "luodong-beichengshengmutang",
+  "name": "羅東鎮北成聖母升天堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "羅東鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2005-07-16",
+  "address": "羅東鎮北成路14-1號",
+  "lat": 24.675694215326725,
+  "lng": 121.76214479218304,
+  "open": "採預約、活動日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050716000001",
+  "caseId": "20050716000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-23/98683328-2a76-4d9d-8b30-5f13f8aa2aff/M20升天堂3.jpg"
+ },
+ {
+  "id": "luodong-shengmuyiyuanshengxintang",
+  "name": "羅東鎮聖母醫院耶穌聖心堂",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "羅東鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2005-07-16",
+  "address": "羅東鎮中正南路160號",
+  "lat": 24.67132736919624,
+  "lng": 121.77107805406987,
+  "open": "預約及活動時開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050716000002",
+  "caseId": "20050716000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/27b38c2d-72f8-44ac-ac1e-3e122db065a9/M19聖心堂1.jpg"
+ },
+ {
+  "id": "luodong-jiuluodongjunyisuo",
+  "name": "舊羅東郡役所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "羅東鎮",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2016-03-18",
+  "address": "羅東鎮公正路159號",
+  "lat": 24.678536744596283,
+  "lng": 121.76925116423122,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160318000001",
+  "caseId": "20160318000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-14/156e3886-9d61-42d3-abd5-92cfdb3dad7c/舊羅東郡役所(01).jpg"
+ },
+ {
+  "id": "luodong-dongguangguozhong",
+  "name": "東光國中集賢樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "學校"
+  ],
+  "announced": "2017-03-15",
+  "address": "羅東鎮興東南路201號",
+  "lat": 24.671728802713087,
+  "lng": 121.76752209635146,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180118000001",
+  "caseId": "20180118000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/71879c22-e103-448f-865f-554cc792ff6d/東光國中集賢樓_A990515.jpg"
+ },
+ {
+  "id": "luodong-linguanchudiaobao1",
+  "name": "羅東林區管理處碉堡(1)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮鄰近中正北路120巷19號",
+  "lat": 24.6854273694977,
+  "lng": 121.772310341947,
+  "open": "羅東林業文化園區，8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000005",
+  "caseId": "20040514000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/8245c64d-2c4b-4502-b7db-3bdf680678a9/H46羅東林區管理處碉堡(1)1.jpg"
+ },
+ {
+  "id": "luodong-linguanchudiaobao2",
+  "name": "羅東林區管理處碉堡(2)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮鄰近中正北路88號",
+  "lat": 24.6820912774772,
+  "lng": 121.771724308551,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000006",
+  "caseId": "20040514000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/039020c8-a86c-4b0f-88ae-92d9476bf670/H47羅東林區管理處碉堡(2)1.jpg"
+ },
+ {
+  "id": "luodong-jiulaogongjulebu",
+  "name": "羅東林區管理處舊勞工俱樂部",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮中正北路118號",
+  "lat": 24.6831030746679,
+  "lng": 121.771936294411,
+  "open": "羅東林業文化園區，8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000008",
+  "caseId": "20040514000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/add1e166-6a7d-441f-b0b7-d923575363c0/羅東林管處舊勞工俱樂部_A998267.jpg"
+ },
+ {
+  "id": "luodong-jiujiancheku",
+  "name": "羅東林區管理處舊檢車庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮中正北路118號",
+  "lat": 24.6849863223757,
+  "lng": 121.772301842289,
+  "open": "羅東林業文化園區，8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000004",
+  "caseId": "20040514000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-16/acd4d321-6762-41c0-88d5-05e808681986/羅東林管處舊檢車庫(7)壓縮.jpg"
+ },
+ {
+  "id": "luodong-linguanchujiubangongshi",
+  "name": "羅東林區管理處舊辦公室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮中正北路118號",
+  "lat": 24.6838478975708,
+  "lng": 121.771754826209,
+  "open": "羅東林業文化園區，8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000003",
+  "caseId": "20040514000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/938c3dfc-d942-484d-8b0f-e88d23d39550/H49羅林管處舊辦公室3.jpg"
+ },
+ {
+  "id": "luodong-linguanchuchuzhangsushe",
+  "name": "羅東林區管理處處長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2012-02-07",
+  "address": "羅東鎮中正北路120巷1號",
+  "lat": 24.6843672435511,
+  "lng": 121.771340976645,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120207000001",
+  "caseId": "20120207000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/218c148a-47c2-470e-93c8-50081898f11d/羅東林管處場長宿舍_A998261.jpg"
+ },
+ {
+  "id": "luodong-zhumuchiqu",
+  "name": "羅東林區管理處貯木池區",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "羅東鎮中正北路118號貯木池區",
+  "lat": 24.6843131217744,
+  "lng": 121.77273812731,
+  "open": "羅東林業文化園區，8:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000007",
+  "caseId": "20040514000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/fb6662c1-47ae-4eab-a677-3cfaa369267e/羅東林區管理處貯木池區_A998300.jpg"
+ },
+ {
+  "id": "luodong-lianqinbeifuchang",
+  "name": "羅東聯勤被服廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2023-03-27",
+  "address": "羅東鎮倉前路41號",
+  "lat": 24.679374242825254,
+  "lng": 121.77288060582666,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230703000001",
+  "caseId": "20230703000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-10-22/c71e5862-e053-486a-a216-da742acf1226/羅東聯勤被服廠 (6).jpg"
+ },
+ {
+  "id": "luodong-zhongshanlugongyousushe",
+  "name": "羅東鎮中山路北側公有宿舍區",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-27",
+  "address": "羅東鎮中山西路4段公有宿舍區",
+  "lat": 24.6737978392347,
+  "lng": 121.760970070919,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050627000004",
+  "caseId": "20050627000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/394f19f9-fa0d-48f0-9931-e97adde43158/H58羅東鎮中山路北側公有宿舍區2.jpg"
+ },
+ {
+  "id": "luodong-guohuaguozhongxiaoshe",
+  "name": "羅東鎮國華國中九年國教校舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "學校"
+  ],
+  "announced": "2003-10-29",
+  "address": "羅東鎮國華路101號",
+  "lat": 24.6782860510634,
+  "lng": 121.76105064461,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000004",
+  "caseId": "20031029000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-09/6981e252-fe70-4791-a3f1-67c4be76629c/羅東鎮國華國中九年國教校舍代表圖.jpg"
+ },
+ {
+  "id": "luodong-chenggongguoxiaosushe",
+  "name": "羅東鎮成功國小校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-10-29",
+  "address": "羅東鎮文化街53、55號",
+  "lat": 24.671789587884238,
+  "lng": 121.77009867367947,
+  "open": "現為moku旅人書店，營業時間:11:00-18:00，星期二、三休息。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000002",
+  "caseId": "20031029000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/e040dd60-e238-41f0-ab03-03b702da942e/H30羅東鎮成功國小校長宿舍1.jpg"
+ },
+ {
+  "id": "luodong-chenggongguoxiaolitang",
+  "name": "羅東鎮成功國小舊禮堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-10-29",
+  "address": "羅東鎮文化街45號",
+  "lat": 24.671513402079412,
+  "lng": 121.76993293057643,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000001",
+  "caseId": "20031029000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/8b045178-eca4-47c2-b9a2-514ec8cc705e/H31成功國小舊禮堂5.jpg"
+ },
+ {
+  "id": "luodong-dongguangguozhongxiaomen",
+  "name": "羅東鎮東光國中舊校門",
+  "category": "歷史建築",
+  "level": "",
+  "town": "羅東鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-10-29",
+  "address": "羅東鎮興東南路201號",
+  "lat": 24.6726239233295,
+  "lng": 121.765935350401,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000003",
+  "caseId": "20031029000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-28/de6cd02a-b5c1-4e91-89a2-a6c358fdfe4a/H32羅東鎮東光國中舊校門3.jpg"
+ },
+ {
+  "id": "luodong-linchang",
+  "name": "羅東林場",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "羅東鎮",
+  "types": [
+   "工業地景"
+  ],
+  "announced": "2012-02-07",
+  "address": "羅東鎮中正北路118號",
+  "lat": 24.6840518,
+  "lng": 121.771351,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20120207000002",
+  "caseId": "20120207000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-03/c64093d9-bd24-4b62-83e4-dc6ff9412fb8/羅東林場_A998306.jpg"
+ },
+ {
+  "id": "dongshan-shunanguoxiaolitang",
+  "name": "冬山鄉順安國小舊禮堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "冬山鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-10-29",
+  "address": "冬山鄉永興路2段17號",
+  "lat": 24.653908375736,
+  "lng": 121.76344582328,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000005",
+  "caseId": "20031029000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-17/9e0efd18-de0f-467e-9abc-a0fbb9863e2a/冬山鄉順安國小舊禮堂_A990565.jpg"
+ },
+ {
+  "id": "dongshan-dongguashanqiao",
+  "name": "冬瓜山橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "冬山鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-06-21",
+  "address": "冬山鄉義成路1段與冬山路交接處",
+  "lat": 24.6351293253159,
+  "lng": 121.788170045941,
+  "open": "全天開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020521000001",
+  "caseId": "20020521000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-21/a821f1b3-086d-4c7d-a8cd-6b25cfb3b49f/冬瓜山橋(代表圖).jpg"
+ },
+ {
+  "id": "dongshan-jiudongshanxiang",
+  "name": "舊冬山鄉公所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "冬山鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2015-07-27",
+  "address": "冬山鄉冬山路100-1號",
+  "lat": 24.634562282525934,
+  "lng": 121.79231452940616,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171201000001",
+  "caseId": "20171201000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-30/c72ea37f-dd4a-468e-be8a-45fd4a88a08e/舊冬山鄉公所_A998215.jpg"
+ },
+ {
+  "id": "dongshan-wanshankaoguyizhi",
+  "name": "丸山考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "冬山鄉",
+  "types": [],
+  "announced": "2018-11-28",
+  "address": "冬山鄉丸山村與八寶村間的丸山小丘。",
+  "lat": 24.639935828624566,
+  "lng": 121.76297016926843,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20190307000001",
+  "caseId": "20190307000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-01-16/0d25c1f4-de4b-4970-bd79-baebc4d018a9/WS-1.jpg"
+ },
+ {
+  "id": "sanxing-taipingshanlintie",
+  "name": "太平山林鐵舊天送埤車站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "三星鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-05-14",
+  "address": "三星鄉天福村(天送埤舊市街北側)",
+  "lat": 24.6624848559585,
+  "lng": 121.61969775830678,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040514000009",
+  "caseId": "20040514000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-09-13/87c63c94-7cde-4a14-a3af-d5f2693634a9/太平山林鐵舊天送埤車站_A998510_修片OK.jpg"
+ },
+ {
+  "id": "sanxing-balishazhitingting",
+  "name": "宜蘭叭哩沙支廳廳舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "三星鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-10-07",
+  "address": "三星鄉三星路五段六號",
+  "lat": 24.6664490522785,
+  "lng": 121.651977842467,
+  "open": "部分開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041007000005",
+  "caseId": "20041007000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-27/cd301509-2870-4cd2-a538-25c211498550/三星油印間代表圖.jpg"
+ },
+ {
+  "id": "datong-hanxishensheyiji",
+  "name": "寒溪神社遺跡",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "大同鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2013-07-30",
+  "address": "大同鄉寒溪巷16號寒溪國小後方山坡上",
+  "lat": 24.608864351598008,
+  "lng": 121.68736763215678,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20120730000001",
+  "caseId": "20120730000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37011/photo/24bc76a7-ce72-4ad0-86d4-1a198c9051f3.JPG"
+ },
+ {
+  "id": "datong-taipingshanjulebu",
+  "name": "原太平山俱樂部",
+  "category": "歷史建築",
+  "level": "",
+  "town": "大同鄉",
+  "types": [
+   "博物館"
+  ],
+  "announced": "2021-11-17",
+  "address": "大同鄉太平村58-1號",
+  "lat": 24.492345,
+  "lng": 121.536542,
+  "open": "08:00-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230508000002",
+  "caseId": "20230508000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-16/47735067-703b-4520-b608-6dadc388f3c6/原太平山俱樂部 (1).jpg"
+ },
+ {
+  "id": "datong-tuchangguoxiao",
+  "name": "土場國小",
+  "category": "歷史建築",
+  "level": "",
+  "town": "大同鄉",
+  "types": [
+   "學校"
+  ],
+  "announced": "2024-06-26",
+  "address": "大同鄉太平村太平山國家森林遊樂區收費站對岸山坡上",
+  "lat": 24.55642397954472,
+  "lng": 121.49601578634814,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20240730000001",
+  "caseId": "20240730000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-30/342f4eb3-d284-40e7-b81a-4e9b5d4b6c81/土場國小代表圖.jpg"
+ },
+ {
+  "id": "datong-taipingshanzhenan",
+  "name": "太平山鎮安宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "大同鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-11-17",
+  "address": "大同鄉太平村58-1號",
+  "lat": 24.493692330824732,
+  "lng": 121.53490316828083,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20230508000003",
+  "caseId": "20230508000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-01-15/b0b370a6-04e3-4be2-aaf1-d8be7295bf6c/太平山鎮安宮 (6).jpg"
+ },
+ {
+  "id": "datong-luodonglintiebahao",
+  "name": "羅東林鐵八號隧道",
+  "category": "歷史建築",
+  "level": "",
+  "town": "大同鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2012-07-23",
+  "address": "大同鄉樂水村智腦部落西南方約350公尺處之蘭陽溪堤防旁",
+  "lat": 24.58833692354601,
+  "lng": 121.51465611064786,
+  "open": "不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120723000002",
+  "caseId": "20120723000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-11/aa22ebd1-5819-4812-9a4b-39ee75431207/羅東林鐵八號隧道_A998406.jpg"
+ },
+ {
+  "id": "suao-zhanggongmiao",
+  "name": "蘇澳張公廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "蘇澳鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2021-01-28",
+  "address": "蘇澳鎮太平一巷13號",
+  "lat": 24.59579691273704,
+  "lng": 121.85059852426289,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210823000001",
+  "caseId": "20210823000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/e9a32590-a278-4a5b-b63a-782010097776/蘇澳張公廟(晉安宮)_A998002.jpg"
+ },
+ {
+  "id": "suao-dengta",
+  "name": "蘇澳燈塔",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "蘇澳鎮",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2025-10-14",
+  "address": "蘇澳鎮蘇東里蘇澳軍港內山岬上",
+  "lat": 24.59987941978521,
+  "lng": 121.88478654806174,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20251106000006",
+  "caseId": "20251106000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-11-06/616d4add-69ca-4197-8220-025f85da198a/309865_0.jpg"
+ },
+ {
+  "id": "suao-paotaishanjijindao",
+  "name": "蘇澳砲台山及金刀比羅社遺蹟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "蘇澳鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2010-10-26",
+  "address": "蘇澳鎮砲台山風景區內",
+  "lat": 24.5933335570627,
+  "lng": 121.856908184969,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20201022000001",
+  "caseId": "20201022000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-11-04/33214330-2a92-413b-8e22-c9cac92f4f90/蘇澳砲台山及金刀比羅社遺蹟_A998163.jpg"
+ },
+ {
+  "id": "suao-shanxingtiedaoji",
+  "name": "蘇澳扇形鐵道暨轉車台",
+  "category": "歷史建築",
+  "level": "",
+  "town": "蘇澳鎮",
+  "types": [
+   "車站"
+  ],
+  "announced": "2026-03-25",
+  "address": "蘇澳鎮蘇東路1號",
+  "lat": 24.594987,
+  "lng": 121.855694,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260605000001",
+  "caseId": "20260605000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-05/1532b5a9-0584-4ec4-98d6-7f9d13b885ab/108蘇澳扇形鐵道暨轉車台.jpg"
+ },
+ {
+  "id": "suao-jiulajifenhuachang",
+  "name": "蘇澳鎮舊垃圾焚化場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "蘇澳鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-10-29",
+  "address": "蘇澳鎮中山路211巷95號",
+  "lat": 24.6063386537559,
+  "lng": 121.81560788201,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031029000006",
+  "caseId": "20031029000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-01/8a69022e-3079-4dac-8f26-64fcb6c86554/蘇澳鎮舊垃圾焚化場.jpg"
+ },
+ {
+  "id": "suao-jinzishanqingbingmu",
+  "name": "蘇澳鎮金字山清兵古墓區",
+  "category": "歷史建築",
+  "level": "",
+  "town": "蘇澳鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2005-06-27",
+  "address": "蘇澳鎮金字山日月宮忠靈塔附近及前方相思林內",
+  "lat": 24.5917950818278,
+  "lng": 121.850784100684,
+  "open": "全天",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050627000005",
+  "caseId": "20050627000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-02/ca201e97-c086-4ef6-b3bb-42570d374f70/蘇澳鎮金字山清兵古墓區.jpg"
+ },
+ {
+  "id": "nanao-hanbenkaoguyizhi",
+  "name": "Blihun漢本考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "南澳鄉",
+  "types": [],
+  "announced": "2016-08-15",
+  "address": "南澳鄉澳花村",
+  "lat": 24.326944,
+  "lng": 121.766944,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20160815000001",
+  "caseId": "20160815000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/132517/photo/test.jpg"
+ }
+]

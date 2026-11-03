@@ -1,0 +1,291 @@
+{
+  "intro": [
+    {
+      "who": "A",
+      "text": "嗨，我是 Allan Lo！穿過雪山隧道，眼前這片三面環山、一面向海的平原，就是蘭陽平原，我們到宜蘭了。"
+    },
+    {
+      "who": "R",
+      "text": "我是阿拉蕾！宜蘭不就是溫泉、三星蔥，還有下不完的雨嗎？"
+    },
+    {
+      "who": "A",
+      "text": "哈哈，竹風蘭雨，宜蘭的雨確實有名。不過宜蘭的文化資產更精彩，一共144處，有縣定古蹟、歷史建築、文化景觀和考古遺址。"
+    },
+    {
+      "who": "R",
+      "text": "這麼多！那最多在哪裡？"
+    },
+    {
+      "who": "A",
+      "text": "宜蘭市就有59處，很多是日治時期的宿舍、官舍和飛機掩體；羅東有林場和貯木池，頭城有老街和舊草嶺隧道。"
+    },
+    {
+      "who": "R",
+      "text": "我還知道，蘭陽平原原本是噶瑪蘭族的家，大同和南澳的山上是泰雅族的家園！"
+    },
+    {
+      "who": "A",
+      "text": "沒錯。1796年以後漢人大量入墾，平原的樣貌改變很大，噶瑪蘭族也失去許多土地，所以我們會從不同角度來看這段歷史。"
+    },
+    {
+      "who": "R",
+      "text": "時光地圖可以看西班牙人和荷蘭人的足跡、噶瑪蘭廳，還有日治時期的宜蘭線鐵路和太平山林場！"
+    },
+    {
+      "who": "A",
+      "text": "宜蘭沒有高鐵，建議開車或搭臺鐵；宜蘭市區和羅東市區的景點很密集，下車走路就能串起來。"
+    },
+    {
+      "who": "R",
+      "text": "準備好了嗎？從宜蘭火車站出發，我們逛蘭陽囉！"
+    }
+  ],
+  "timeIntro": [
+    {
+      "who": "R",
+      "text": "Allan，宜蘭的時光地圖要看什麼？"
+    },
+    {
+      "who": "A",
+      "text": "先看西荷時期，西班牙人和荷蘭人都曾經來到蘭陽平原，那時候平原上散布著幾十個噶瑪蘭族的社。"
+    },
+    {
+      "who": "A",
+      "text": "1796年吳沙帶人入墾，1812年設噶瑪蘭廳；清代以後會疊上當年的老地圖，可以拉透明度，也能左右對照。"
+    },
+    {
+      "who": "R",
+      "text": "那我要找找看宜蘭舊城的位置，是不是就在今天的宜蘭市中心！"
+    },
+    {
+      "who": "A",
+      "text": "好，滑過去對照看看，答案就在地圖上！"
+    }
+  ],
+  "planIntro": [
+    {
+      "who": "A",
+      "text": "宜蘭的景點分散在平原和山區，建議開車；宜蘭市區和羅東市區景點很密集，停好車就可以走路串遊。"
+    },
+    {
+      "who": "R",
+      "text": "宜蘭沒有 YouBike，也沒有高鐵，不過臺鐵宜蘭線從頭城、礁溪、宜蘭一路到羅東和蘇澳，搭火車也很方便！"
+    },
+    {
+      "who": "A",
+      "text": "假日國道5號北上常常塞車，回程記得早點出發，冬天也別忘了帶雨具。"
+    },
+    {
+      "who": "R",
+      "text": "中午記得留肚子給卜肉、糕渣和鴨賞！"
+    }
+  ],
+  "gameIntro": [
+    {
+      "who": "R",
+      "text": "蘭陽遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有蘭陽擲骰大冒險！"
+    },
+    {
+      "who": "A",
+      "text": "題目從頭城老街、宜蘭設治紀念館，一路考到羅東林場和蘇澳燈塔，看你能不能全部答對。"
+    },
+    {
+      "who": "R",
+      "text": "Allan，這次擲骰子我一定贏你！"
+    },
+    {
+      "who": "A",
+      "text": "哈哈，那就從宜蘭火車站出發，比比看吧！"
+    }
+  ],
+  "reactions": [
+    {
+      "who": "R",
+      "text": "答對了！你根本就是宜蘭通！"
+    },
+    {
+      "who": "A",
+      "text": "正確答案！給你一個大大的讚。"
+    },
+    {
+      "who": "R",
+      "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+    },
+    {
+      "who": "A",
+      "text": "可惜！差一點點，下次一定行。"
+    },
+    {
+      "who": "R",
+      "text": "換我擲骰子囉！看我的！"
+    },
+    {
+      "who": "A",
+      "text": "恭喜你贏了！今天的卜肉和糕渣算我的！"
+    },
+    {
+      "who": "R",
+      "text": "耶！這一局是我贏了，要不要再來一局？"
+    },
+    {
+      "who": "A",
+      "text": "平手！你們兩個都是文資高手。"
+    },
+    {
+      "who": "R",
+      "text": "時光排序完成！你從丸山遺址一路排到今天的蘭陽平原，好厲害！"
+    },
+    {
+      "who": "A",
+      "text": "恭喜集到新的護照印章！"
+    },
+    {
+      "who": "R",
+      "text": "全部配對成功，記憶力滿分！"
+    },
+    {
+      "who": "A",
+      "text": "嗯，這一題我們一起看看解說。"
+    }
+  ],
+  "starts": [
+    {
+      "id": "station",
+      "name": "臺鐵宜蘭車站",
+      "lat": 24.75457,
+      "lng": 121.75804
+    },
+    {
+      "id": "bus",
+      "name": "宜蘭轉運站",
+      "lat": 24.75085,
+      "lng": 121.75923
+    },
+    {
+      "id": "luodong",
+      "name": "臺鐵羅東車站",
+      "lat": 24.67818,
+      "lng": 121.77436
+    },
+    {
+      "id": "jiaoxi",
+      "name": "臺鐵礁溪車站",
+      "lat": 24.82698,
+      "lng": 121.77533
+    },
+    {
+      "id": "toucheng",
+      "name": "臺鐵頭城車站",
+      "lat": 24.85892,
+      "lng": 121.82247
+    },
+    {
+      "id": "suao",
+      "name": "臺鐵蘇澳車站",
+      "lat": 24.59512,
+      "lng": 121.85141
+    },
+    {
+      "id": "gps",
+      "name": "我的目前位置",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "pick",
+      "name": "在地圖上點選出發點",
+      "lat": null,
+      "lng": null
+    }
+  ],
+  "plans": {
+    "1": {
+      "name": "一日：宜蘭市區（舊城、設治紀念館、宜蘭酒廠與昭應宮）",
+      "days": [
+        [
+          "yilan-yunwuduanbangongshi",
+          "yilan-jiuyilanyanjiumai",
+          "yilan-zhaoyinggong",
+          "yilan-jiutaiwanyinxingyi",
+          "yilan-xianguobei",
+          "yilan-jiuyilanjianyumen",
+          "yilan-shezhijinianguan",
+          "yilan-jiuzhumigongguan",
+          "yilan-jiuchanglishijian",
+          "yilan-bixiagong"
+        ]
+      ]
+    },
+    "2": {
+      "name": "二日：宜蘭市區 ＋ 羅東林業與五結、冬山",
+      "days": [
+        [
+          "yilan-yunwuduanbangongshi",
+          "yilan-jiuyilanyanjiumai",
+          "yilan-zhaoyinggong",
+          "yilan-jiutaiwanyinxingyi",
+          "yilan-xianguobei",
+          "yilan-jiuyilanjianyumen",
+          "yilan-shezhijinianguan",
+          "yilan-jiuzhumigongguan",
+          "yilan-jiuchanglishijian",
+          "yilan-bixiagong"
+        ],
+        [
+          "wujie-erjienonghuigucang",
+          "wujie-zhongxingzhichang",
+          "luodong-jiujiancheku",
+          "luodong-zhumuchiqu",
+          "luodong-linchang",
+          "luodong-jiuluodongjunyisuo",
+          "luodong-mianmintang",
+          "luodong-chenggongguoxiaosushe",
+          "dongshan-dongguashanqiao",
+          "wujie-lizejianyongangong"
+        ]
+      ]
+    },
+    "3": {
+      "name": "三日：再加礁溪與頭城（老街、烏石港、舊草嶺隧道）",
+      "days": [
+        [
+          "yilan-yunwuduanbangongshi",
+          "yilan-jiuyilanyanjiumai",
+          "yilan-zhaoyinggong",
+          "yilan-jiutaiwanyinxingyi",
+          "yilan-xianguobei",
+          "yilan-jiuyilanjianyumen",
+          "yilan-shezhijinianguan",
+          "yilan-jiuzhumigongguan",
+          "yilan-jiuchanglishijian",
+          "yilan-bixiagong"
+        ],
+        [
+          "wujie-erjienonghuigucang",
+          "wujie-zhongxingzhichang",
+          "luodong-jiujiancheku",
+          "luodong-zhumuchiqu",
+          "luodong-linchang",
+          "luodong-jiuluodongjunyisuo",
+          "luodong-mianmintang",
+          "luodong-chenggongguoxiaosushe",
+          "dongshan-dongguashanqiao",
+          "wujie-lizejianyongangong"
+        ],
+        [
+          "jiaoxi-kailanwuzhaigong",
+          "jiaoxi-xietianmiaolaoxi",
+          "jiaoxi-taiwanyinxingjiao",
+          "jiaoxi-tangweiwenquangou",
+          "toucheng-wushigangjiuzhi",
+          "toucheng-guoxiaoxiaozhangsushe",
+          "toucheng-qingyuangong",
+          "toucheng-luzuanxiangguzhai",
+          "toucheng-jiucaolingsuidao"
+        ]
+      ]
+    }
+  },
+  "food": []
+}
