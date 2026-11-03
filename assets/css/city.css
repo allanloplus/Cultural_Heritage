@@ -177,6 +177,8 @@
 .leg .ub i { font-style: normal; display: inline-block; padding: 0 6px; border-radius: 6px; color: #fff; font-size: .75rem; margin-right: 4px; }
 .leg .ub i.b { background: #2f9e44; } .leg .ub i.r { background: #d6336c; }
 .leg .warn { color: var(--bad); }
+.leg.leg-sea { border-left: 3px dashed #3b7bbf; color: var(--ink); }
+.leg.leg-sea .warn { display: block; }
 .plan-sum { font-size: .9rem; background: color-mix(in srgb, var(--mint) 50%, var(--card)); border-radius: 10px; padding: 8px 12px; }
 .plan-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 

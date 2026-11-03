@@ -90,7 +90,30 @@
     "walkMaxKm": 3,
     "bikeMaxKm": 12,
     "ubikeStationMaxKm": 1.2,
-    "farKm": 120
+    "farKm": 120,
+    "islands": [
+      {
+        "name": "小琉球",
+        "bbox": [
+          22.31,
+          120.34,
+          22.37,
+          120.4
+        ],
+        "port": [
+          22.353,
+          120.379
+        ],
+        "portName": "白沙觀光港",
+        "mainPort": [
+          22.4651,
+          120.4434
+        ],
+        "back": "東港",
+        "seaMin": 60,
+        "note": "小琉球要從東港搭船，船程約 30 分鐘，島上多騎機車或電動機車。"
+      }
+    ]
   },
   "eras": {
     "dutch": {
