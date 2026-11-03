@@ -1,0 +1,1772 @@
+[
+ {
+  "id": "xiulin-zhongbudongxiheng",
+  "name": "中部東西橫貫公路慈雲橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "秀林鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2015-01-28",
+  "address": "秀林鄉台8線149K+550",
+  "lat": 24.212563,
+  "lng": 121.430013,
+  "open": "戶外空間，隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150128000001",
+  "caseId": "20150128000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/86d8aa33-90c8-4c32-a40c-464288ed942c/a秀林-慈雲橋05.jpg"
+ },
+ {
+  "id": "xiulin-taidiangongsidong",
+  "name": "台電公司東部發電廠銅門機組支援修護人員備勤房屋銅門145-146號舊宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "秀林鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2017-12-05",
+  "address": "秀林鄉花蓮縣秀林鄉銅門村銅門145-146號",
+  "lat": 23.96651,
+  "lng": 121.48837,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180704000002",
+  "caseId": "20180704000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/791ebcf0-87e2-4fe6-afad-39003b45b502/a秀林-台電銅門舊舍04.jpg"
+ },
+ {
+  "id": "xiulin-tailugepailou",
+  "name": "太魯閣牌樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "秀林鄉",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "2005-03-29",
+  "address": "秀林鄉台8線東側入口處189k",
+  "lat": 24.1554797671577,
+  "lng": 121.621634661041,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050329000004",
+  "caseId": "20050329000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/fc0cd958-f034-4c56-9a1a-8c8d263b27be/a秀林-太魯閣牌樓01.jpg"
+ },
+ {
+  "id": "xiulin-jiawanshenshecanji",
+  "name": "秀林加灣神社殘蹟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "秀林鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2011-04-12",
+  "address": "秀林鄉花蓮縣秀林鄉景美村景美國小後方",
+  "lat": 24.0831794821576,
+  "lng": 121.605180381879,
+  "open": "戶外空間，隨時參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20110412000001",
+  "caseId": "20110412000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/07a500bf-20c5-4e37-a40a-4457cec43fac/a秀林-加灣神社殘蹟03.jpg"
+ },
+ {
+  "id": "xiulin-pumingsi",
+  "name": "秀林普明寺",
+  "category": "歷史建築",
+  "level": "",
+  "town": "秀林鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2012-10-12",
+  "address": "秀林鄉花蓮縣秀林鄉佳民村佳民121號",
+  "lat": 24.05441,
+  "lng": 121.59978,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20121012000001",
+  "caseId": "20121012000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/bdadeb8e-4d33-438d-90ed-e1cf6ce02e6f/a秀林-普明寺02.jpg"
+ },
+ {
+  "id": "xiulin-fushikaoguyizhi",
+  "name": "富世考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "秀林鄉",
+  "types": [],
+  "announced": "2006-11-02",
+  "address": "秀林鄉太魯閣段63、123、125、127、137、138、139、140、143、144、145、152、153、157、195地號",
+  "lat": 24.151937871646748,
+  "lng": 121.62140909779636,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20121011000001",
+  "caseId": "20121011000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/38152/photo/65d7a581-8073-409f-bd54-76c11f2187c3.JPG"
+ },
+ {
+  "id": "xincheng-shenshejiuzhi",
+  "name": "新城神社舊址",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "新城鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2002-09-23",
+  "address": "新城鄉新城村博愛路64 號",
+  "lat": 24.1293,
+  "lng": 121.65037,
+  "open": "自由參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050223000002",
+  "caseId": "20050223000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/f3d977e2-842e-45d0-a83a-94737a7b4ca2/b新城-神社舊址36.jpg"
+ },
+ {
+  "id": "xincheng-xiangyuanyanhai",
+  "name": "新城鄉原研海庄役場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新城鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2017-08-03",
+  "address": "新城鄉花蓮縣新城鄉信義路6號旁",
+  "lat": 24.12636855,
+  "lng": 121.65338004,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170803000001",
+  "caseId": "20170803000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/c5063e1f-edef-4b87-aace-5dffbfbff0c5/b新城-原研海庄役03.jpg"
+ },
+ {
+  "id": "xincheng-xiangxinchengcun",
+  "name": "新城鄉新城村信義路6號日式舊宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "新城鄉",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2017-08-03",
+  "address": "新城鄉新城村信義路6號",
+  "lat": 24.12606648,
+  "lng": 121.6537292,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170803000002",
+  "caseId": "20170803000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/fd36fe22-d550-4e10-8644-816615818fb2/b新城-信義路舊宿01.jpg"
+ },
+ {
+  "id": "hualian-jianchazhangsushe",
+  "name": "檢察長宿舍",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2008-07-23",
+  "address": "花蓮市三民街23號",
+  "lat": 23.979909,
+  "lng": 121.6089,
+  "open": "營業時間為12:00~21:00，每週四為公休日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080723000002",
+  "caseId": "20080723000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/9b6bcac2-a2c5-4d66-ae85-a1ba50b5f7b7/c花蓮-檢查長宿舍05.jpg"
+ },
+ {
+  "id": "hualian-meilunxipanrishisu",
+  "name": "美崙溪畔日式宿舍",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2005-02-23",
+  "address": "花蓮市民勤段1426地號",
+  "lat": 23.980455,
+  "lng": 121.613144,
+  "open": "目前修復工程進行中。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050223000001",
+  "caseId": "20050223000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-12/9780addf-b3ea-4d88-b1a0-a3939229e26b/1781247093742_0.jpg"
+ },
+ {
+  "id": "hualian-taifeizhaodaisuo",
+  "name": "花蓮台肥招待所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "機關"
+  ],
+  "announced": "2004-03-19",
+  "address": "花蓮市中美路160號",
+  "lat": 23.989192,
+  "lng": 121.624371,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080723000001",
+  "caseId": "20080723000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-07/f45faf32-6052-4f4f-91a2-5a1cf439a865/花蓮台肥招待所.jpg"
+ },
+ {
+  "id": "hualian-gangxiaoxuexiaowei",
+  "name": "花蓮港小學校圍牆殘蹟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "學校"
+  ],
+  "announced": "2013-05-13",
+  "address": "花蓮市公園路40號",
+  "lat": 23.97719,
+  "lng": 121.612075,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20130513000001",
+  "caseId": "20130513000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/9e85e554-6e9f-45f7-9a2f-4ee1eb68435f/c花蓮-花蓮港小學圍牆11.jpg"
+ },
+ {
+  "id": "hualian-gangshanlinshiye",
+  "name": "花蓮港山林事業所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2003-03-19",
+  "address": "花蓮市菁華街10 號旁",
+  "lat": 23.980365,
+  "lng": 121.615933,
+  "open": "週三至週日 11:00-19:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030319000001",
+  "caseId": "20030319000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/bb2aad94-ae0a-4136-950e-3396f188a267/c花蓮-山林事業所15.jpg"
+ },
+ {
+  "id": "hualian-ganggaoerfuqiujule",
+  "name": "花蓮港高爾夫球俱樂部",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-12-02",
+  "address": "花蓮市位於化道路北側，今花蓮高爾夫球場入口左側",
+  "lat": 23.99936510070601,
+  "lng": 121.62593096372507,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20200318000001",
+  "caseId": "20200318000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/d185f972-7e18-4e7d-89b7-e2093febb76a/c花蓮-高爾夫球樂部0105.jpg"
+ },
+ {
+  "id": "hualian-jiujianyuyiji",
+  "name": "花蓮舊監獄遺蹟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2012-02-04",
+  "address": "花蓮市花蓮縣花蓮市中山路與明智路交接口處、國安郵局旁",
+  "lat": 23.984692,
+  "lng": 121.60365,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20120204000001",
+  "caseId": "20120204000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/7db3d642-b7b4-40c2-a67c-9e62986f0d71/c花蓮-舊監獄04.jpg"
+ },
+ {
+  "id": "hualian-xucongminguju",
+  "name": "許聰敏故居",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-12-03",
+  "address": "花蓮市花蓮縣花蓮市復興街4-1號、６號",
+  "lat": 23.975604,
+  "lng": 121.611534,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20200318000002",
+  "caseId": "20200318000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-12/156e9e0a-8822-475f-959f-afeadea39b86/許聰敏故居.jpg"
+ },
+ {
+  "id": "hualian-zhongguoguangbogu",
+  "name": "中國廣播股份有限公司花蓮電台（原台灣放送協會花蓮港放送局）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2015-11-26",
+  "address": "花蓮市花蓮縣花蓮市松園街96號",
+  "lat": 23.982955,
+  "lng": 121.614726,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151126000002",
+  "caseId": "20151126000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/c133bda6-e8b3-486d-af54-da899b7e257e/c花蓮-中廣電台06.jpg"
+ },
+ {
+  "id": "hualian-jiaotongbutaitie",
+  "name": "交通部台鐵管理局花蓮管理處",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2002-09-23",
+  "address": "花蓮市花蓮市中山路71 號",
+  "lat": 23.9746386777766,
+  "lng": 121.61058344246,
+  "open": "週二至週日 9:00~17:00(周一休館)",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000003",
+  "caseId": "20020923000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/9e5fd6b8-0c50-49f7-8324-f0ca176da5d7/c花蓮-台鐵管理局06.jpg"
+ },
+ {
+  "id": "hualian-qianhualianhuoche",
+  "name": "前花蓮火車站加水塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-03-19",
+  "address": "花蓮市六期重劃區內，光復街與成功街口",
+  "lat": 23.9753651498234,
+  "lng": 121.609099630201,
+  "open": "戶外空間。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000002",
+  "caseId": "20040319000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/12a461de-6471-42a8-bead-0f2449d75497/c花蓮-加水塔04.jpg"
+ },
+ {
+  "id": "hualian-taiwantielujuhua",
+  "name": "台灣鐵路局花蓮管理處處長官邸",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2004-03-19",
+  "address": "花蓮市中山路40巷1弄4號",
+  "lat": 23.9736575144826,
+  "lng": 121.612788078307,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000001",
+  "caseId": "20040319000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/502d77ac-2768-43fd-b4b4-72aa4f20758d/c花蓮-鐵路處長官邸05.jpg"
+ },
+ {
+  "id": "hualian-taitiehualianjiu",
+  "name": "台鐵花蓮舊工務段、舊警務段建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2013-09-26",
+  "address": "花蓮市花蓮市福建街460號(原公告為：博愛街24巷34、35號)",
+  "lat": 23.97472,
+  "lng": 121.60966,
+  "open": "星期三休息，其餘時間10:00~18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140124000001",
+  "caseId": "20140124000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1204/photo/台鐵花蓮舊工務段、舊警務段建築群1.JPG"
+ },
+ {
+  "id": "hualian-gaogongjianzhuqun",
+  "name": "國立花蓮高級工業職業學校歷史建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "學校"
+  ],
+  "announced": "2016-12-20",
+  "address": "花蓮市花蓮縣花蓮市府前路27號",
+  "lat": 23.99861,
+  "lng": 121.6206,
+  "open": "08:00-18:00，需與校門口警衛室洽談。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161220000001",
+  "caseId": "20161220000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/25f9c21e-75af-4c58-897d-ef9e1dceebfc/c花蓮-花工歷史建築04.jpg"
+ },
+ {
+  "id": "hualian-gaonongxiaozhangsushe",
+  "name": "國立花蓮高級農業職業學校舊校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-06-12",
+  "address": "花蓮市花蓮縣花蓮市林森路260號",
+  "lat": 23.982478,
+  "lng": 121.607697,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180704000005",
+  "caseId": "20180704000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/cbbc91f8-5863-4e69-8d8a-ec7063b90b01/c花蓮-花農校長舊宿舍02.jpg"
+ },
+ {
+  "id": "hualian-mingliluxianghaori",
+  "name": "明禮路14巷2號日式住宅(三浦勳宅)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2015-12-25",
+  "address": "花蓮市花蓮縣花蓮市明禮路14巷2號",
+  "lat": 23.981797,
+  "lng": 121.609212,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151225000001",
+  "caseId": "20151225000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/7c057676-a547-4a8e-9700-44f338f56527/c花蓮-明禮路日式宿舍02.jpg"
+ },
+ {
+  "id": "hualian-shuguangqiao",
+  "name": "曙光橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2005-03-29",
+  "address": "花蓮市花蓮市美崙區出海口，花蓮市北濱段115地號、民德段31地號(現在橋所在地無地號，僅有115-4、1511-2)",
+  "lat": 23.9793308778276,
+  "lng": 121.618045511405,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050329000002",
+  "caseId": "20050329000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/cefba7ce-147e-4148-bf2e-ec92c93a9fd0/c花蓮-曙光橋19.jpg"
+ },
+ {
+  "id": "hualian-songyuanbieguan",
+  "name": "松園別館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "機關"
+  ],
+  "announced": "2002-09-23",
+  "address": "花蓮市水源街26 號",
+  "lat": 23.9825182611273,
+  "lng": 121.615514662396,
+  "open": "營業時間為上午 09:00 至下午 18:00，最後入園時間為17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000002",
+  "caseId": "20020923000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/96daeae1-e20a-4fa3-9bef-5c45cc38555c/c花蓮-松園別館02.jpg"
+ },
+ {
+  "id": "hualian-linwujusushejing",
+  "name": "林務局宿舍菁華街33號及33-2號",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-11-02",
+  "address": "花蓮市花蓮市菁華街33號及33-2號",
+  "lat": 23.9803739813498,
+  "lng": 121.615423327435,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061102000002",
+  "caseId": "20061102000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/9dd20205-b39d-4af8-95ee-7f184264b653/c花蓮-林務局宿舍菁華街04.jpg"
+ },
+ {
+  "id": "hualian-fuzhuqiaojidierfu",
+  "name": "福住橋暨第二福住橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2013-01-21",
+  "address": "花蓮市和平路與南濱路交叉口",
+  "lat": 23.96742485039283,
+  "lng": 121.60884333411055,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140221000001",
+  "caseId": "20140221000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/a20ce5b4-dcf9-4d68-acbf-d86a64ba4c84/c花蓮-自由街橋13.jpg"
+ },
+ {
+  "id": "hualian-meilunxipanrishisu2",
+  "name": "美崙溪畔日式宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2005-03-29",
+  "address": "花蓮市花蓮市中正路618巷及622巷（14間）。(花蓮市民勤段1426、1426-4地號)",
+  "lat": 23.9803440150672,
+  "lng": 121.613070228448,
+  "open": "目前修復工程進行中。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050329000003",
+  "caseId": "20050329000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-12/47595ca1-55a5-4ca1-bd7d-73d4ae253edc/1781247035199_0.jpg"
+ },
+ {
+  "id": "hualian-jiuhualianganggao",
+  "name": "舊花蓮港高等女學校校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-11-02",
+  "address": "花蓮市花蓮市菁華街11號",
+  "lat": 23.9799229999999,
+  "lng": 121.614592,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061102000001",
+  "caseId": "20061102000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/b9d70667-e4b7-4a6e-bfa7-56ddb242f588/c花蓮-花女校長宿舍08.jpg"
+ },
+ {
+  "id": "hualian-jiuhualiantieluyi",
+  "name": "舊花蓮鐵路醫院",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2009-08-13",
+  "address": "花蓮市花蓮市廣東街326號",
+  "lat": 23.9731303559957,
+  "lng": 121.609196223046,
+  "open": "星期一~星期日 15:00-22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090813000001",
+  "caseId": "20090813000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/14a1cca1-299a-4184-868b-ca802878d09c/舊花蓮鐵路醫院1.jpg"
+ },
+ {
+  "id": "hualian-ganggongxuexiao",
+  "name": "花蓮港公學校校長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2018-06-12",
+  "address": "花蓮市花蓮縣花蓮市明禮路31號",
+  "lat": 23.979761577525444,
+  "lng": 121.61019964420723,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180704000003",
+  "caseId": "20180704000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/edeed79e-b96e-4cbb-892f-cfbd816a8f15/c花蓮-明禮路31號日式宿舍01.jpg"
+ },
+ {
+  "id": "hualian-jiujiuchang",
+  "name": "花蓮舊酒廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-09-23",
+  "address": "花蓮市中華路144號(中華路與中正路交叉口)",
+  "lat": 23.9760725580926,
+  "lng": 121.604658950105,
+  "open": "戶外空間24小時開放，其他依各活動公告",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000004",
+  "caseId": "20020923000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/1e5bf7ce-2026-4340-8db2-c77c16542fbc/c花蓮-舊酒場28.jpg"
+ },
+ {
+  "id": "hualian-jinghualinyuan",
+  "name": "菁華林苑(花蓮港山林事業所官舍)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2002-09-23",
+  "address": "花蓮市花蓮市菁華街10號",
+  "lat": 23.980692,
+  "lng": 121.61611,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000001",
+  "caseId": "20020923000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/f13aec35-a7d6-4e8c-8f60-2c914f551944/c花蓮-菁華林苑02.jpg"
+ },
+ {
+  "id": "hualian-guozijiuguju",
+  "name": "郭子究故居",
+  "category": "歷史建築",
+  "level": "",
+  "town": "花蓮市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2005-03-29",
+  "address": "花蓮市花蓮縣花蓮市民權7街1巷3號",
+  "lat": 23.9873126568577,
+  "lng": 121.624592564998,
+  "open": "週一至週五10:00-12:00、14:00-16:00 開放參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050329000001",
+  "caseId": "20050329000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1197/photo/郭子究故居1.jpg"
+ },
+ {
+  "id": "hualian-sibagaodikaoguyi",
+  "name": "四八高地考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "花蓮市",
+  "types": [],
+  "announced": "2022-08-17",
+  "address": "花蓮市海岸路附近",
+  "lat": 24.021533277315882,
+  "lng": 121.62987707108272,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20230214000002",
+  "caseId": "20230214000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-14/7520fa32-3ae2-43e8-852f-b83014c172fc/四八高地遺址.jpg"
+ },
+ {
+  "id": "jian-qingxiuyuan",
+  "name": "吉安慶修院",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "吉安鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1997-04-01",
+  "address": "吉安鄉中興路345-1號",
+  "lat": 23.973699,
+  "lng": 121.564755,
+  "open": "營業時間：週二至週日8:30~17:00 (星期一休館)\n\n票價：全票30元 半票15元 團體票15元 (20人以上) | 設籍花蓮縣之縣民、未滿六歲之兒童、持有身障證明者及陪伴者1名、持有導遊人員執業證者，出示證明文件可免費入場。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19970401000001",
+  "caseId": "19970401000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-09/bc471650-a380-41be-946d-c062629fe70f/吉安慶修院.jpg"
+ },
+ {
+  "id": "jian-hengduandaolukai",
+  "name": "吉安橫斷道路開鑿記念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "吉安鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "1997-04-01",
+  "address": "吉安鄉干城村，位於西寧寺（花蓮縣吉安鄉干城村吉安路6段839號）側面",
+  "lat": 23.948884,
+  "lng": 121.523234,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19970401000002",
+  "caseId": "19970401000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-25/f0c5bcdb-71d1-4ab1-bd26-eee50a8ae19e/d吉安-橫斷記念碑04.jpg"
+ },
+ {
+  "id": "jian-jiyekaicunjinian",
+  "name": "花蓮吉野開村記念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "吉安鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2003-07-02",
+  "address": "吉安鄉慶豐村中山路三段473號後方",
+  "lat": 23.9802121781453,
+  "lng": 121.565419460074,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20030731000001",
+  "caseId": "20030731000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-24/e4ebd400-5974-4164-a65a-74f6545cd2c4/d吉安-吉野開村記念碑05.jpg"
+ },
+ {
+  "id": "jian-guanghuanongchang",
+  "name": "光華農場旁牌樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "吉安鄉",
+  "types": [
+   "牌坊"
+  ],
+  "announced": "2004-03-19",
+  "address": "吉安鄉光英段186道路上",
+  "lat": 23.9313815195577,
+  "lng": 121.555330782505,
+  "open": "戶外空間。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000003",
+  "caseId": "20040319000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-24/89a83904-6b40-469a-9367-d9b5ae842361/d吉安-光華牌樓03.jpg"
+ },
+ {
+  "id": "jian-bujindieshuijing",
+  "name": "吉安不盡跌水井",
+  "category": "歷史建築",
+  "level": "",
+  "town": "吉安鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-09-06",
+  "address": "吉安鄉花蓮縣吉安鄉山下路上，靠近台9丙公路。",
+  "lat": 23.94957198,
+  "lng": 121.5237397,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160906000002",
+  "caseId": "20160906000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-22/0d17719a-cbb7-4e21-94c3-26181f97658d/d吉安-不盡跌水井13.jpg"
+ },
+ {
+  "id": "jian-taiwanzongdufu",
+  "name": "臺灣總督府專賣局花蓮支局吉野村煙草耕作指導員駐在所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "吉安鄉",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2015-12-29",
+  "address": "吉安鄉花蓮縣吉安鄉吉安路二段136號",
+  "lat": 23.974001,
+  "lng": 121.563753,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151229000001",
+  "caseId": "20151229000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-24/94555866-062f-42fa-917f-405faa3eb815/d吉安-吉野煙草耕作指導所03.jpg"
+ },
+ {
+  "id": "shoufeng-wuquanchengkaituo",
+  "name": "吳全城開拓記念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "壽豐鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2012-10-30",
+  "address": "壽豐鄉花蓮縣壽豐鄉平和村吳全公墓旁",
+  "lat": 23.888911,
+  "lng": 121.552409,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20121030000001",
+  "caseId": "20121030000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-06/cb4b2ee2-1b5f-493b-a7df-89b202b75bf4/e壽豐-吳全城記念碑03.jpg"
+ },
+ {
+  "id": "shoufeng-gangtingshouxun",
+  "name": "原花蓮港廳壽尋常高等小學校奉安殿（福德宮）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2025-07-04",
+  "address": "壽豐鄉共和村大同路33號東北方",
+  "lat": 23.874306,
+  "lng": 121.516572,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250804000001",
+  "caseId": "20250804000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-03-07/313bd61f-778d-4b25-a256-99bc3fe56418/S__37666891_0.jpg"
+ },
+ {
+  "id": "shoufeng-xikoushihuiyao",
+  "name": "壽豐溪口石灰窯",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2010-06-17",
+  "address": "壽豐鄉花蓮縣壽豐鄉溪口村中山路一段77號後方約100公尺處",
+  "lat": 23.81489148902,
+  "lng": 121.464963988152,
+  "open": "戶外空間隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100617000001",
+  "caseId": "20100617000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/f52e982a-fbb4-4436-9733-d120cf5aedec/e壽豐-溪口石窯05.jpg"
+ },
+ {
+  "id": "shoufeng-fenglicunribenyi",
+  "name": "壽豐豐裡村日本移民墓園",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2009-08-13",
+  "address": "壽豐鄉花蓮縣壽豐鄉豐裡村中山路280號後側",
+  "lat": 23.8413590962349,
+  "lng": 121.506463338608,
+  "open": "戶外環境。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090813000002",
+  "caseId": "20090813000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-06/5a5584df-83c8-4f93-ba44-7e76659e436c/e壽豐-日本移民墓園10.jpg"
+ },
+ {
+  "id": "shoufeng-lixinkuangyegufen",
+  "name": "理新礦業股份有限公司台灣閃玉礦業事務所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2018-10-09",
+  "address": "壽豐鄉豐山村山邊路二段83巷17號",
+  "lat": 23.862377,
+  "lng": 121.454034,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20181226000003",
+  "caseId": "20181226000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-14/0f28fa9f-f744-45c9-b387-0039ad1314a1/DSC_0002.jpg"
+ },
+ {
+  "id": "shoufeng-jiuhualiangangting",
+  "name": "舊花蓮港廳豐田小學校劍道館（豐裡國小禮堂）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "學校"
+  ],
+  "announced": "2009-08-13",
+  "address": "壽豐鄉豐裡村中山路299號",
+  "lat": 23.841886871777,
+  "lng": 121.507961309766,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090813000004",
+  "caseId": "20090813000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/bc35dbf0-2338-4bc4-aabf-27392b37126b/e壽豐-豐田小國劍道館07.jpg"
+ },
+ {
+  "id": "shoufeng-jiufengtianyimin",
+  "name": "舊豐田移民村警察官吏派出所(壽豐鄉文史館)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2009-08-13",
+  "address": "壽豐鄉豐裡村中山路320號",
+  "lat": 23.8410971891846,
+  "lng": 121.507965619907,
+  "open": "星期一、星期五休館，其餘時間 08:00-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090813000003",
+  "caseId": "20090813000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-07/7df510bc-85dd-4162-90ae-233d3ddb2264/舊豐田移民村警察官吏派出所(壽豐文史館).jpg"
+ },
+ {
+  "id": "shoufeng-nongchangzhaodai",
+  "name": "花蓮農場招待所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2004-03-19",
+  "address": "壽豐鄉共和村大同路2號",
+  "lat": 23.8717071565437,
+  "lng": 121.515037148407,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000004",
+  "caseId": "20040319000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/d3ef2646-fae1-43b4-a709-16c0d669fc48/e壽豐-花蓮農場招待所01.jpg"
+ },
+ {
+  "id": "shoufeng-fengtiancunyimin",
+  "name": "豐田村移民指導所事務室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2013-01-31",
+  "address": "壽豐鄉花蓮縣壽豐鄉豐裡村文化街(花蓮縣壽豐鄉豐裡國小東側)",
+  "lat": 23.84144,
+  "lng": 121.5088,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130131000001",
+  "caseId": "20130131000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/c63c2cfd-5b1e-4e5c-acf5-efaec5c527a6/e壽豐-移民指導所01.jpg"
+ },
+ {
+  "id": "shoufeng-fengtianshenshecan",
+  "name": "豐田神社參道與遺構(碧蓮寺之周邊設施)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "壽豐鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2009-08-13",
+  "address": "壽豐鄉豐裡村民權街與中山路交叉口及民權街與豐正路(花蓮縣壽豐鄉民權街1號)",
+  "lat": 23.8389390845471,
+  "lng": 121.501546732631,
+  "open": "星期一~星期日 06:00-20:00，例祭： 6月5日→; 10月25日",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090813000005",
+  "caseId": "20090813000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/f4f97e96-3c74-4206-9542-017c0afbb50f/e壽豐-碧連寺10.jpg"
+ },
+ {
+  "id": "fenglin-taitiejiulinrong",
+  "name": "台鐵舊林榮車站倉庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-05-31",
+  "address": "鳳林鎮花蓮縣鳳林鎮林榮里永安街42號",
+  "lat": 23.80317,
+  "lng": 121.451386,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160531000001",
+  "caseId": "20160531000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-11/73b5a950-e5ea-408b-921d-246f3749c549/g鳳林-林榮車站倉庫09.jpg"
+ },
+ {
+  "id": "fenglin-pinglinzhenguoshui",
+  "name": "平林圳過水橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-12-21",
+  "address": "鳳林鎮花蓮縣鳳林鎮南平段1地號",
+  "lat": 23.79301,
+  "lng": 121.44923,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161221000002",
+  "caseId": "20161221000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-11/1b75f59a-b14a-4de5-bc55-4baeb178076f/g鳳林-過水橋02.jpg"
+ },
+ {
+  "id": "fenglin-zhiyaganqiao",
+  "name": "支亞干橋（豐平橋）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2016-09-06",
+  "address": "鳳林鎮舊台9線230K+837～231K+378",
+  "lat": 23.811770225328964,
+  "lng": 121.45169673213198,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160906000003",
+  "caseId": "20160906000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/bd4fdeed-44b7-409f-97a5-73254ac4fae1/g鳳林-支亞干橋05.jpg"
+ },
+ {
+  "id": "fenglin-lintianzhenhongxi",
+  "name": "林田圳虹吸式圳道",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-12-21",
+  "address": "鳳林鎮花蓮縣鳳林鎮北林段172、1247、1298-4地號",
+  "lat": 23.76345,
+  "lng": 121.4667,
+  "open": "隨時開放參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161221000003",
+  "caseId": "20161221000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-14/16769d11-fb47-4a5d-95a1-f7a6f8b88b3c/20210115_140531.jpg"
+ },
+ {
+  "id": "fenglin-lintianshanzhong",
+  "name": "林田山中山堂及康樂新村殘構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-09-23",
+  "address": "鳳林鎮森榮里林森路231號",
+  "lat": 23.7168879685902,
+  "lng": 121.398138358839,
+  "open": "09:00-17:00，除夕及每週一固定休館\n\n假日：國家森林志工等現場人員駐館解說",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000005",
+  "caseId": "20020923000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/5fd713b6-39dc-4b85-83f2-1bd23c200187/g鳳林-林田山中山堂09.jpg"
+ },
+ {
+  "id": "fenglin-lintianshenshecan",
+  "name": "林田神社殘蹟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-09-06",
+  "address": "鳳林鎮花蓮縣鳳林鎮鳳信段845地號(花蓮縣鳳林鎮大榮里復興路39號旁)",
+  "lat": 23.748773,
+  "lng": 121.465952,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160906000001",
+  "caseId": "20160906000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-11/f69a2b60-2071-473b-b1f6-8ca54422002f/g鳳林-林田神社殘蹟11.jpg"
+ },
+ {
+  "id": "fenglin-lintianjingchaguan",
+  "name": "林田警察官吏派出所及舊林田派出所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2015-11-26",
+  "address": "鳳林鎮花蓮縣鳳林鎮大榮里復興路71號",
+  "lat": 23.752546,
+  "lng": 121.467728,
+  "open": "24小時營業",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151126000001",
+  "caseId": "20151126000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-11/2f76ba0d-76ed-447f-8273-521d701a963f/g鳳林-林田派出所03.jpg"
+ },
+ {
+  "id": "fenglin-xiaozhangmenggong",
+  "name": "校長夢工廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-01-10",
+  "address": "鳳林鎮花蓮縣鳳林鎮鳳智里民生街16號",
+  "lat": 23.74759,
+  "lng": 121.450306,
+  "open": "每周二至周日上午8：30-12：00，下午13：30-17：00，",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130110000001",
+  "caseId": "20130110000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-11/1b009edb-fa8c-49f1-8e3e-3e4af270a166/g鳳林-校長夢工廠01.jpg"
+ },
+ {
+  "id": "fenglin-zhendarongguoxiao",
+  "name": "鳳林鎮大榮國小教師宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鳳林鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2012-05-02",
+  "address": "鳳林鎮花蓮縣鳳林鎮大榮二村復興路72號",
+  "lat": 23.753076,
+  "lng": 121.468473,
+  "open": "外觀參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120502000001",
+  "caseId": "20120502000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-04-10/edc09b98-58ab-4dce-9be8-d3a26c46a0cd/g鳳林-大榮國小教師宿舍06.jpg"
+ },
+ {
+  "id": "fenglin-lintianshanlinyeju",
+  "name": "林田山(MORISAKA)林業聚落",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "鳳林鎮",
+  "types": [
+   "其他"
+  ],
+  "announced": "2006-12-28",
+  "address": "鳳林鎮林森路2~9鄰、林森路99巷及林安路等",
+  "lat": 23.716918,
+  "lng": 121.397809,
+  "open": "09:00-17:00，除夕及每週一固定休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20061228000002",
+  "caseId": "20061228000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-25/bf265b68-9bdc-4d3b-bb84-79ee516b8c34/3602331250689.jpg"
+ },
+ {
+  "id": "wanrong-zhiyagankaoguyizhi",
+  "name": "支亞干(萬榮．平林)考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "萬榮鄉",
+  "types": [],
+  "announced": "2010-06-08",
+  "address": "萬榮鄉花蓮縣萬榮鄉西林村西林段1715、1716、1717、1718、1719、1720、1721、1722、1723、1724、1725、1726、1727、1728、1729地號。",
+  "lat": 23.801996686307838,
+  "lng": 121.43641679706181,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20100608000001",
+  "caseId": "20100608000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/38159/photo/cecfc340-35c4-4b83-ba31-54bad23286be.JPG"
+ },
+ {
+  "id": "guangfu-tangchangchang",
+  "name": "花蓮糖廠廠長宿舍",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉大進村糖廠街6巷5號",
+  "lat": 23.655817,
+  "lng": 121.420434,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20111004000002",
+  "caseId": "20111004000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/d088120e-44b5-4301-adcc-845ed52ead6f/h光復-廠長宿舍04.jpg"
+ },
+ {
+  "id": "guangfu-tangchangzhaodai",
+  "name": "花蓮糖廠招待所",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "光復鄉",
+  "types": [
+   "機關"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村大進街19號",
+  "lat": 23.653149,
+  "lng": 121.419042,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20111004000001",
+  "caseId": "20111004000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/badfb854-ef3b-4363-89f9-6dc5600c62d3/h光復-糖場招街所04.jpg"
+ },
+ {
+  "id": "guangfu-tangchangzhitang",
+  "name": "花蓮糖廠製糖工場",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "光復鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉大進村糖廠街18號",
+  "lat": 23.658651,
+  "lng": 121.422204,
+  "open": "觀光糖廠園區為開放式空間，全年開放。 商店街各商家營業時間為09:00～18:00；冰品販賣時間為：08:00～20:00（七、八月份08:00～21:00）。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20111004000003",
+  "caseId": "20111004000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/70a4afaa-6750-44a8-b967-cd4ca2670515/h光復-糖製糖工場46.jpg"
+ },
+ {
+  "id": "guangfu-xiangbeifucunfu",
+  "name": "光復鄉北富村富田古井",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-09-23",
+  "address": "光復鄉北富村富強街",
+  "lat": 23.6612157762079,
+  "lng": 121.453546209581,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000007",
+  "caseId": "20020923000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-07/70f536fd-a358-469d-a4d7-1d85cfa8ffc4/3602332554188.jpg"
+ },
+ {
+  "id": "guangfu-xiangbeifucunfu2",
+  "name": "光復鄉北富村富田納骨碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2002-09-23",
+  "address": "光復鄉北富村富強街22 號",
+  "lat": 23.6606763626618,
+  "lng": 121.454201096082,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000008",
+  "caseId": "20020923000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/afc50130-45a1-494c-8664-02b9c79a22da/h光復-富田納骨碑07.jpg"
+ },
+ {
+  "id": "guangfu-xiangdahuacungucuo",
+  "name": "光復鄉大華村古厝（益壽堂）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "商店"
+  ],
+  "announced": "2002-09-23",
+  "address": "光復鄉大華村中正路1 段85 號",
+  "lat": 23.6658488842958,
+  "lng": 121.42345152247,
+  "open": "現為藥房。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000009",
+  "caseId": "20020923000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/b16f1553-6f09-4285-8b3b-82acee2f2186/h光復-益壽堂01.jpg"
+ },
+ {
+  "id": "guangfu-xiangdafengcungu",
+  "name": "光復鄉大豐村古厝（穎川堂）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2002-09-23",
+  "address": "光復鄉大豐村9 鄰267 號",
+  "lat": 23.5906164333334,
+  "lng": 121.380183161562,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000010",
+  "caseId": "20020923000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/86d042f6-899a-4dd9-a6ff-7ffda1ff3bfd/h光復-穎川堂05.jpg"
+ },
+ {
+  "id": "guangfu-xiangmataianbuluo",
+  "name": "光復鄉馬太鞍部落納骨碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2002-09-23",
+  "address": "光復鄉太平村延平街79巷北側",
+  "lat": 23.6755293860395,
+  "lng": 121.430624209315,
+  "open": "室外開放空間。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20020923000006",
+  "caseId": "20020923000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/5053b1b6-d21f-4cae-ba44-cc317804e05f/h光復-馬太鞍納骨碑07.jpg"
+ },
+ {
+  "id": "guangfu-tangchangfuchang",
+  "name": "花蓮糖廠副廠長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街8巷10號",
+  "lat": 23.65633,
+  "lng": 121.4201,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000004",
+  "caseId": "20111004000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/03891be4-42ed-4e12-966e-37c0f2908693/h光復-副廠長宿舍07.jpg"
+ },
+ {
+  "id": "guangfu-tangchangyuanliao",
+  "name": "花蓮糖廠原料區辦公室",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街10號",
+  "lat": 23.655227496291015,
+  "lng": 121.42012160805014,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000010",
+  "caseId": "20111004000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/eada932c-3777-4508-907c-36d138f90fb6/h光復-糖廠原料辦公室02.jpg"
+ },
+ {
+  "id": "guangfu-tangchangyuangong",
+  "name": "花蓮糖廠員工宿舍1巷1、3號",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街1巷1、3號",
+  "lat": 23.654453654077994,
+  "lng": 121.41867506861504,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000007",
+  "caseId": "20111004000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/7d87c2e5-290f-449f-bd37-9e00a486df6a/h光復-糖廠宿舍1巷1 3號04.jpg"
+ },
+ {
+  "id": "guangfu-tangchangyuangong2",
+  "name": "花蓮糖廠員工宿舍1巷5、7號",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街1巷5、7號",
+  "lat": 23.65457153082834,
+  "lng": 121.41836675108904,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000008",
+  "caseId": "20111004000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/2da236a4-abe0-4a35-9e8a-acd86d72698f/h光復-糖廠宿舍1巷5 7號08.jpg"
+ },
+ {
+  "id": "guangfu-tangchangyuangong3",
+  "name": "花蓮糖廠員工宿舍7巷1、3號",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街7巷1、3號",
+  "lat": 23.656203885332335,
+  "lng": 121.41955878467053,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000005",
+  "caseId": "20111004000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/8353297e-9321-445e-bd9a-295f1e9753eb/h光復-糖廠宿舍7巷1 3號02.jpg"
+ },
+ {
+  "id": "guangfu-tangchangyuangong4",
+  "name": "花蓮糖廠員工宿舍7巷5、7號",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街7巷5、7號",
+  "lat": 23.656336708309475,
+  "lng": 121.41927646569246,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000006",
+  "caseId": "20111004000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-20/a1a0a8f9-2d5c-4b4a-a5d0-a784dce80018/h光復-糖廠宿舍7巷5 7號02.jpg"
+ },
+ {
+  "id": "guangfu-tangchangzhensuo",
+  "name": "花蓮糖廠診所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "光復鄉",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2011-10-04",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街5巷5號",
+  "lat": 23.655752619610794,
+  "lng": 121.41895727591215,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111004000009",
+  "caseId": "20111004000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/caae9bcd-0325-460c-9484-4e668137d4b1/h光復-糖場診所05.jpg"
+ },
+ {
+  "id": "guangfu-taibalangzuwu",
+  "name": "光復鄉阿美族太巴塱kakita'an祖屋",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "光復鄉",
+  "types": [
+   "其他場域"
+  ],
+  "announced": "2007-02-12",
+  "address": "光復鄉花蓮縣光復鄉東富段841地號",
+  "lat": 23.657157354711572,
+  "lng": 121.45185761799944,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20080723000004",
+  "caseId": "20080723000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/cultural_tourism/38157/photo/372d25f6-cafd-4284-b1fc-1e78a6b47d19.JPG"
+ },
+ {
+  "id": "guangfu-taitanggongsihua",
+  "name": "台糖公司花蓮糖廠(舊名:鹽水港製糖株式會社花蓮港製糖所大和工場)",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "光復鄉",
+  "types": [
+   "工業地景"
+  ],
+  "announced": "2009-09-28",
+  "address": "光復鄉花蓮縣光復鄉大進村糖廠街19號",
+  "lat": 23.65777541336504,
+  "lng": 121.42094498438937,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20090929000002",
+  "caseId": "20090929000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-01-10/546a219b-15a1-4160-89a4-16b86f35c8aa/台糖公司花蓮糖廠.jpg"
+ },
+ {
+  "id": "ruisui-saobasuidao",
+  "name": "掃叭隧道",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "瑞穗鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-12-21",
+  "address": "瑞穗鄉北口位於花蓮縣瑞穗鄉舞鶴78號旁",
+  "lat": 23.46584,
+  "lng": 121.34795,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20161221000001",
+  "caseId": "20161221000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/3171245e-067f-44af-9faa-c8ec3e05576f/i瑞穗-掃叭隊道11.jpg"
+ },
+ {
+  "id": "ruisui-fuyuanbaoangong",
+  "name": "富源保安宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "瑞穗鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2012-10-18",
+  "address": "瑞穗鄉花蓮縣瑞穗鄉富民村中正路一段239號",
+  "lat": 23.576315,
+  "lng": 121.375888,
+  "open": "隨時開放民眾參觀。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20121018000001",
+  "caseId": "20121018000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/26fc6668-ebd2-420b-8965-79dcbe954f81/i瑞穗-富源保安宮09.jpg"
+ },
+ {
+  "id": "ruisui-xiangqingangongtu",
+  "name": "瑞穗鄉慶安宮土地公廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "瑞穗鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2008-03-21",
+  "address": "瑞穗鄉花蓮縣瑞穗鄉富興村海岸山脈西麓山腳下，縣道193號78公里處，東興橋西側。",
+  "lat": 23.5703933352391,
+  "lng": 121.400598843746,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20191211000002",
+  "caseId": "20191211000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-30/125e42e2-e5eb-4e05-b57a-d34919158d5b/i瑞穗-慶安宮04.jpg"
+ },
+ {
+  "id": "ruisui-wuhekaoguyizhi",
+  "name": "Satokoay（舞鶴）考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "瑞穗鄉",
+  "types": [],
+  "announced": "2006-11-02",
+  "address": "瑞穗鄉新舞鶴段330、331、332地號",
+  "lat": 23.470835450527044,
+  "lng": 121.35943446049208,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20190306000001",
+  "caseId": "20190306000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/38158/photo/523bc13a-f4b3-4aa0-a7c0-b2732ea73334.JPG"
+ },
+ {
+  "id": "yuli-batongguangudao",
+  "name": "八通關古道",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "玉里鎮",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "1987-04-17",
+  "address": "玉里鎮光復路54巷（協天宮一帶，古道東端璞石閣）",
+  "lat": 23.33392,
+  "lng": 121.31601,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19870417000001",
+  "caseId": "19870417000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37604/photo/96b0b3c4-2efd-4817-afeb-67c7479a3efa.jpg"
+ },
+ {
+  "id": "yuli-shenshecanji",
+  "name": "玉里社殘蹟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "玉里鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2008-07-23",
+  "address": "玉里鎮神社段481-1、482-1、500-1、501地號、(花蓮縣玉里鎮西邊街西側丘陵海拔約150公尺處)",
+  "lat": 23.3345521150873,
+  "lng": 121.308212377921,
+  "open": "隨時開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080723000003",
+  "caseId": "20080723000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-13/ccd74a7c-3f20-4c4d-8901-3eeaa04ebd3c/20201214_095648.jpg"
+ },
+ {
+  "id": "yuli-dijieluqiaocanji",
+  "name": "玉里迪階陸橋殘蹟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "玉里鎮",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2013-08-12",
+  "address": "玉里鎮花蓮縣玉里鎮三民里，鐵路臺東縣K70+600處，可由三民國小往立山及崙山之道路經羅梁橋到達。",
+  "lat": 23.440803,
+  "lng": 121.349882,
+  "open": "隨時開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20130812000001",
+  "caseId": "20130812000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/d14d573a-3bb2-4405-b969-18a3e68989cd/j玉里-迪階陸橋07.jpg"
+ },
+ {
+  "id": "yuli-antongwenquanlvshe",
+  "name": "安通溫泉旅舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "玉里鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2004-03-19",
+  "address": "玉里鎮樂合里5鄰溫泉36號",
+  "lat": 23.28119,
+  "lng": 121.3418,
+  "open": "溫泉業時間：08:00-22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000005",
+  "caseId": "20040319000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/1ae65c31-d8cc-421f-8c0d-03a495a9e58d/j玉里-安通溫泉05.jpg"
+ },
+ {
+  "id": "yuli-linwujuyuliguoyou",
+  "name": "林務局玉里國有眷舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "玉里鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-11-07",
+  "address": "玉里鎮花蓮縣玉里鎮中華路139巷48弄4號；花蓮縣玉里鎮中華路139巷50號、52號、54號",
+  "lat": 23.337959,
+  "lng": 121.31339,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051107000003",
+  "caseId": "20051107000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/d2afeb9a-4955-43ab-8fef-5e34c0979fc9/DSC01160.jpg"
+ },
+ {
+  "id": "yuli-xinyongzuhejicang",
+  "name": "玉里信用組合及倉庫群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "玉里鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2006-12-28",
+  "address": "玉里鎮花蓮縣玉里鎮中華路179號",
+  "lat": 23.3382299744477,
+  "lng": 121.315153990065,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061228000001",
+  "caseId": "20061228000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/27d76363-3913-4480-a84b-7ce43a2e518d/j玉里-信用組合舊址04.jpg"
+ },
+ {
+  "id": "yuli-zhanglianglianjia",
+  "name": "長良連家古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "玉里鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2004-03-19",
+  "address": "玉里鎮長良里２鄰長良１２號",
+  "lat": 23.2741644547443,
+  "lng": 121.288260420509,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040319000006",
+  "caseId": "20040319000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-18/55ddac09-a640-464f-95ec-976b316b5d6f/j玉里-長良古厝11.jpg"
+ },
+ {
+  "id": "yuli-chezhantiedaosushe",
+  "name": "玉里車站鐵道宿舍群",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "玉里鎮",
+  "types": [
+   "近代宿舍"
+  ],
+  "announced": "2019-06-10",
+  "address": "玉里鎮康樂街39號",
+  "lat": 23.32992426965339,
+  "lng": 121.31190342054677,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20200316000001",
+  "caseId": "20200316000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/81f4399c-6458-41a3-a69d-4c5c2306db2c/DSC01944.jpg"
+ },
+ {
+  "id": "zhuoxi-huangmakaoguyizhi",
+  "name": "Koma（黃麻）考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "卓溪鄉",
+  "types": [],
+  "announced": "2022-08-18",
+  "address": "卓溪鄉玉山國家公園境內",
+  "lat": 23.349718,
+  "lng": 121.204625,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20230214000003",
+  "caseId": "20230214000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-14/53c6f891-822e-4138-b131-d1a0f47b04fc/Koma（黃麻）考古遺址.jpg"
+ },
+ {
+  "id": "zhuoxi-jiaxinjiubuluo",
+  "name": "mai-asang kasing佳心舊部落",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "卓溪鄉",
+  "types": [
+   "其他人類與自然互動而形成之景觀"
+  ],
+  "announced": "2020-02-19",
+  "address": "卓溪鄉卓溪鄉山風段3地號",
+  "lat": 23.34834,
+  "lng": 121.2147,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20200427000002",
+  "caseId": "20200427000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-04-27/10f6166a-9ecc-4d75-8013-be4443e30450/004.jpg"
+ },
+ {
+  "id": "fuli-xiangdonglicunqiu",
+  "name": "富里鄉東里村邱家古厝",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "富里鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-10-30",
+  "address": "富里鄉東里村7鄰道化路28、30、32、34、36、38號",
+  "lat": 23.267666,
+  "lng": 121.304378,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20091030000001",
+  "caseId": "20091030000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/18d06da7-8b87-4e97-8fc6-2f20d25ff78e/l富里-邱家古厝03.jpg"
+ },
+ {
+  "id": "fuli-funanzhuanyaochang",
+  "name": "富南磚窯場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "富里鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2007-02-12",
+  "address": "富里鄉花蓮縣富里鄉富南村11鄰20號",
+  "lat": 23.140324869415,
+  "lng": 121.237389614797,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070212000001",
+  "caseId": "20070212000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-29/bbf460f6-4bb5-4512-8378-d46229f96c29/l富里-富南窯場48.jpg"
+ },
+ {
+  "id": "fuli-gongpukaoguyizhi",
+  "name": "公埔考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "富里鄉",
+  "types": [],
+  "announced": "2006-11-02",
+  "address": "富里鄉花蓮縣富里鄉石牌村",
+  "lat": 23.18654765442083,
+  "lng": 121.26214504851602,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20061102000003",
+  "caseId": "20061102000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/38161/photo/99138b7d-16f8-4bcf-a2c2-2bee5b76fc2f.jpg"
+ },
+ {
+  "id": "fuli-xiangfengnancunji",
+  "name": "花蓮縣富里鄉豐南村吉哈拉艾文化景觀",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "富里鄉",
+  "types": [
+   "農林漁牧景觀"
+  ],
+  "announced": "2012-05-02",
+  "address": "富里鄉豐南村位於花蓮縣富里鄉最南端，東隔海岸山脈與台東縣成功鎮銜接，西與同鄉的富南村比鄰，南與台東縣池上鄉及東河鄉接壤，北邊為同鄉的永豐村。登錄地位於豐南村境內鱉溪流域中最北邊之支流石厝溝溪流域。",
+  "lat": 23.145647,
+  "lng": 121.280994,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20120502000002",
+  "caseId": "20120502000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-05-25/d0736c09-5d68-47e0-bdf5-418e36cdbc10/花蓮縣富里鄉豐南村吉哈拉艾文化景觀 3.jpg"
+ }
+]

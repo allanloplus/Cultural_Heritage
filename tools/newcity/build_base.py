@@ -11,6 +11,10 @@
 
 id 規則：行政區拼音-名稱拼音（例：zhongxi-chikanlou）。pypinyin 偶爾讀錯破音字（例如「嵌」讀成 qian），
 看到怪的 id 可以用 --rename 舊id=新id 修正；id 一旦開始寫內容就不要再改。
+
+跨縣市文資（官方只登錄在鄰縣，例如八通關古道只登錄南投縣）：寫在 tools/newcity/manual/<slug>.json，
+格式 [{"caseId": "官方 caseId", "town": "卓溪鄉", "address": "…", "lat": 23.3, "lng": 121.3, "note": "說明"}]，
+程式會從開放資料取出該筆官方紀錄（說明文字、連結、照片），再用這裡的行政區、地址、座標覆蓋。
 """
 import argparse, collections, json, math, os, re
 from common import CACHE, ROOT, city_addr, dump, in_city, load, work_dir
@@ -74,6 +78,32 @@ def main():
                 lat=float(lat) if lat else None, lng=float(lng) if lng else None,
                 open=x.get("openUpTime"), caseId=x["caseId"], url=(x.get("caseUrl") or "").replace("http://", "https://"),
                 officialImg=(x.get("representImage") or {}).get("original"), texts=texts)
+    man = load(os.path.join(ROOT, "tools", "newcity", "manual", a.slug + ".json"), [])
+    if man:
+        allrec = {}
+        for f, kind in KINDS:
+            for x in load(os.path.join(CACHE, "boch", f + ".json"), []):
+                allrec[x["caseId"]] = (kind, x)
+        for m in man:
+            if m["caseId"] not in allrec:
+                raise SystemExit("manual: 找不到 caseId %s" % m["caseId"])
+            kind, x = allrec[m["caseId"]]
+            lvl = (x.get("assetsClassifyName") or "").strip()
+            ann = x.get("announcementList") or []
+            texts = {k: re.sub(r"\s+", " ", v)[:1500] for k, v in x.items()
+                     if isinstance(v, str) and len(v) > 40 and not v.startswith("http")}
+            if m.get("note"):
+                texts["manualNote"] = m["note"]
+            cat = m.get("category") or {"monument": "國定古蹟" if "國定" in lvl else local_cat, "building": "歷史建築",
+                                         "memorial": "紀念建築", "cluster": "聚落建築群", "archaeo": "考古遺址", "landscape": "文化景觀"}[kind]
+            base[x["caseId"]] = dict(
+                name=x["caseName"].replace("國定古蹟-", "").replace("國定古蹟", "").strip(), category=cat, level=lvl,
+                types=[t["name"] for t in x.get("assetsTypes") or []],
+                announced=min([z.get("registerDate", "")[:10] for z in ann if z.get("registerDate")] or [""]),
+                town=m["town"], address=m.get("address") or m["town"], lat=m["lat"], lng=m["lng"],
+                open=x.get("openUpTime"), caseId=x["caseId"], url=(x.get("caseUrl") or "").replace("http://", "https://"),
+                officialImg=(x.get("representImage") or {}).get("original"), texts=texts)
+            print("manual:", base[x["caseId"]]["name"], m["town"])
     base = list(base.values())
     if not base:
         raise SystemExit("找不到 %s 的資料：先跑 fetch_sources.py，並確認縣市名稱（例：高雄市、臺南市）" % a.city)
