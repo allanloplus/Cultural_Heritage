@@ -18,6 +18,8 @@
     "無形文資": { c: "var(--c-ich)", hex: "#b8860b", k: "藝" }
   };
   var ERA = { unknown: "年代不詳", prehistoric: "史前時代", dutch: "荷蘭時期", zheng: "明鄭時期", qing: "清朝", japan: "日治時期", postwar: "戰後（1945–1980）", modern: "1981 年以後" };
+  /* 時期名稱可依縣市覆寫（config.json 的 eraLabels，例如金門沒有日治、荷蘭時期），未設定的沿用預設 */
+  Object.keys(CFG.eraLabels || {}).forEach(function (k) { if (ERA[k] != null) ERA[k] = CFG.eraLabels[k]; });
   var CENTER = CFG.center;
 
   /* ---------- utils ---------- */

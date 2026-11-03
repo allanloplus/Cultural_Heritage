@@ -172,7 +172,7 @@
     var B = A.CFG.board || {};  // 起點、小火車、美食格的名稱依縣市設定（config.json 的 board）
     var SPECIAL = {
       0: { n: B.start || "出發", t: "start" },
-      4: { n: B.train || "觀光小火車", t: "train", d: "搭上小火車，前進 3 格！" },
+      4: { n: B.train || "觀光小火車", t: "train", d: B.trainText || "搭上小火車，前進 3 格！" },  // 說明文字可用 board.trainText 覆寫（例如沒有火車的離島）
       9: { n: B.food || "小吃補給站", t: "rice", d: "吃飽了有力氣，再擲一次！" },
       13: { n: "時光機", t: "time", d: "答對一題時光題，直接得 1 分！" },
       15: (CY.ubike && CY.ubike.stations.length) ? { n: "YouBike 加速", t: "bike", d: "騎上 YouBike，前進 2 格！" } : { n: "單車加速", t: "bike", d: "騎上單車，前進 2 格！" }

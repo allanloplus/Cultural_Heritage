@@ -315,3 +315,7 @@ details.lic summary { cursor: pointer; font-weight: 700; }
   .day-card { break-inside: avoid; border: 1px solid #ccc; }
   a { color: inherit; text-decoration: none; }
 }
+/* 一般民眾無法前往的景點（planner.noVisit） */
+.tag-novisit { display: inline-block; font-size: .72rem; padding: 0 6px; border-radius: 999px; background: #f3e1dc; color: var(--bad); font-weight: 700; }
+.novisit-box { margin-top: 8px; padding: 8px 10px; border-left: 3px solid var(--bad); background: rgba(178, 58, 58, .06); border-radius: 6px; font-size: .9rem; }
+.novisit-box ul { margin: 4px 0 0 18px; padding: 0; }

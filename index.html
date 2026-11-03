@@ -82,7 +82,7 @@
     <h2 class="t">每座城市都有</h2>
     <div class="feat">
       <div><h3>文資地圖</h3><p>官方登錄的古蹟、歷史建築、文化景觀與無形文化資產，點開就有 Allan 和阿拉蕾的語音導覽。</p></div>
-      <div><h3>時光地圖</h3><p>疊上不同年代的老地圖，從荷蘭時期一路看到今天，城市怎麼長成現在的樣子。</p></div>
+      <div><h3>時光地圖</h3><p>疊上不同年代的老地圖，從數百年前一路看到今天，城市怎麼長成現在的樣子。</p></div>
       <div><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike 都能排，也能自選景點。</p></div>
       <div><h3>知識遊戲</h3><p>問答、排序、猜謎、翻牌、擲骰對戰，玩完還能蓋文資護照。</p></div>
     </div>
@@ -124,7 +124,13 @@
     return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';
   }).join("");
 
-  var map = L.map("twmap", { zoomControl: true, scrollWheelZoom: false }).setView([23.75, 120.95], 7);
+  /* 依所有縣市標記與臺灣本島範圍自動縮放，桌機與手機都看得到離島（金門、澎湖等）的標記 */
+  var map = L.map("twmap", { zoomControl: true, scrollWheelZoom: false, zoomSnap: 0.25 });
+  var fit = L.latLngBounds([[21.85, 120.0], [25.32, 122.0]]);
+  CITIES.forEach(function (c) { fit.extend([c.lat, c.lng]); });
+  function fitAll() { map.fitBounds(fit, { paddingTopLeft: [24, 34], paddingBottomRight: [24, 10], maxZoom: 8 }); }
+  fitAll();
+  window.addEventListener("resize", function () { clearTimeout(fitAll.t); fitAll.t = setTimeout(function () { map.invalidateSize(); fitAll(); }, 200); });
   L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 18, attribution: "&copy; 內政部國土測繪中心" }).addTo(map);
   CITIES.forEach(function (c) {
     var m = L.marker([c.lat, c.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })

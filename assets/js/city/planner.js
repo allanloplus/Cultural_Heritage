@@ -24,6 +24,10 @@
   /* 離島：planner.islands = [{name, bbox:[南,西,北,東], port:[lat,lng], portName, mainPort:[lat,lng], seaMin, note, lunchNote}]
    * 不同區（本島／各離島）之間的路段不能開車或騎車，改顯示「搭船／搭機」 */
   var ISLANDS = PC.islands || [];
+  /* 一般民眾無法前往的景點（例如軍事管制的離島燈塔）：planner.noVisit = {景點id: "原因"}
+   * 不排進路線，行程上方另外列出原因 */
+  var NOVISIT = PC.noVisit || {};
+  function noVisit(s) { return Object.prototype.hasOwnProperty.call(NOVISIT, s.id); }
   function zoneOf(p) {
     for (var i = 0; i < ISLANDS.length; i++) { var b = ISLANDS[i].bbox; if (p[0] >= b[0] && p[0] <= b[2] && p[1] >= b[1] && p[1] <= b[3]) return i; }
     return -1;
@@ -54,7 +58,7 @@
       box.hidden = false;
       var p = st.days === "all" ? null : X.plans[st.days];
       box.innerHTML = p ? '<p><b>' + esc(p.name) + '</b></p>' + p.days.map(function (d, i) { return '<p class="hint">第 ' + (i + 1) + ' 天：' + d.map(function (id) { return esc(A.byId[id].short); }).join("、") + '</p>'; }).join("")
-        : '<p><b>文資全制霸</b></p><p class="hint">全部 ' + A.sites.length + ' 處文化資產，依交通方式與時間自動分成好幾天。</p>';
+        : '<p><b>文資全制霸</b></p><p class="hint">全部 ' + A.sites.length + ' 處文化資產，依交通方式與時間自動分成好幾天。' + (Object.keys(NOVISIT).length ? '其中 ' + A.sites.filter(noVisit).length + ' 處一般民眾無法前往，不排入路線。' : "") + '</p>';
       return;
     }
     box.hidden = false;
@@ -70,7 +74,7 @@
     A.sites.forEach(function (s) { (groups[s.category] = groups[s.category] || []).push(s); });
     box.innerHTML = '<div class="pick-tools"><button type="button" class="btn btn-sm" id="pkNone">全部取消</button><span class="hint" id="pkCount"></span></div>' +
       CY.categories.map(function (c) {
-        return '<h4>' + c + '</h4>' + (groups[c] || []).map(function (s) { return '<label><input type="checkbox" value="' + s.id + '"' + (st.picks[s.id] ? " checked" : "") + '> ' + esc(s.name) + ' <span class="hint">約' + s.visitMin + '分</span></label>'; }).join("");
+        return '<h4>' + c + '</h4>' + (groups[c] || []).map(function (s) { return '<label><input type="checkbox" value="' + s.id + '"' + (st.picks[s.id] ? " checked" : "") + '> ' + esc(s.name) + (noVisit(s) ? ' <span class="tag-novisit">無法前往</span>' : ' <span class="hint">約' + s.visitMin + '分</span>') + '</label>'; }).join("");
       }).join("");
     var cnt = function () { $("#pkCount").textContent = "已選 " + Object.keys(st.picks).filter(function (k) { return st.picks[k]; }).length + " 處（也可在文資地圖按「加入自選行程」）"; };
     $$("input[type=checkbox]", box).forEach(function (cb) { cb.onchange = function () { st.picks[cb.value] = cb.checked; savePicks(); cnt(); }; });
@@ -252,9 +256,11 @@
     if (!startLL) { A.toast(st.start === "pick" ? "請先在地圖上點選出發點" : "正在取得出發點，請稍候再按一次", "R", "confused"); return; }
     var sel = selection();
     if (!sel.lists[0].length) { A.toast(st.pick === "theme" ? "請至少選一個主題" : "請先勾選想去的景點", "R", "confused"); return; }
-    var days = buildDays(sel.lists, st.mode, st.pace, minutes(st.time), sel.auto);
+    var skipped = [];
+    sel.lists = sel.lists.map(function (l) { return l.filter(function (s) { if (noVisit(s)) { skipped.push(s); return false; } return true; }); });
+    var days = sel.lists.some(function (l) { return l.length; }) ? buildDays(sel.lists.filter(function (l) { return l.length || !sel.auto; }), st.mode, st.pace, minutes(st.time), sel.auto) : [];
     var lim = st.days === "all" || /^[123]$/.test(st.days) ? st.days : String(((X.plans[st.days] || {}).days || [0]).length);
-    plan = { name: sel.name, mode: st.mode, days: days, limit: lim };
+    plan = { name: sel.name, mode: st.mode, days: days, limit: lim, skipped: skipped };
     render();
     draw();
     A.stamp("plan");
@@ -292,6 +298,7 @@
     out.innerHTML = '<div class="plan-sum"><b>' + esc(plan.name) + '</b>｜' + M.name + '｜' + plan.days.length + ' 天・' + totalStops + ' 站・移動約 ' + totalKm.toFixed(1) + ' 公里' +
       (over ? '<br><span style="color:var(--bad)">選的景點比較多，需要 ' + plan.days.length + ' 天才走得完。</span>' : "") +
       (late ? '<br><span style="color:var(--bad)">有幾天會玩到 18:00 以後，可改成「快速」步調或換交通方式。</span>' : "") +
+      (plan.skipped.length ? '<div class="novisit-box"><b>以下 ' + plan.skipped.length + ' 處一般民眾無法前往，沒有排入路線：</b><ul>' + plan.skipped.map(function (s) { return '<li><a href="#map/' + s.id + '">' + esc(s.name) + '</a>：' + esc(NOVISIT[s.id]) + '</li>'; }).join("") + '</ul></div>' : "") +
       (seaLegs ? '<br><span style="color:var(--bad)">行程含離島，有 ' + seaLegs + ' 段要搭船或搭飛機；船班、航班會因季節與天候停駛，請先查詢並預訂。移動公里數不含海上距離。</span>' : "") + '</div>' +
       '<div class="plan-actions">' + (plan.mode === "ubike" ? '<button class="btn btn-sm btn-teal" type="button" id="pLive">查詢 YouBike 即時車輛</button>' : "") +
       '<button class="btn btn-sm" type="button" id="pCopy">複製行程文字</button><button class="btn btn-sm" type="button" id="pPrint">列印</button></div>' +
