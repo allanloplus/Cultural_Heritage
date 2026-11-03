@@ -88,6 +88,7 @@ python3 tools/newcity/fetch_sources.py 高雄市
   - `defaultMode`：預設交通方式。
   - `lunchNote`、`eveningNote`：在地小吃、夜市。
   - `walkMaxKm`、`bikeMaxKm`、`ubikeStationMaxKm`、`farKm`。
+  - `islands`（有離島才填）：`[{name, bbox:[南,西,北,東], port, portName, mainPort, back, seaMin, note, lunchNote}]`。港口座標要用 OpenStreetMap 查證。跨海路段會顯示「搭船／搭機」，自動分天時同一天不跨兩區。範例：`pingtung-county`（小琉球）、`taitung-county`（綠島、蘭嶼）。
 - **eras**：每個時期要疊的老地圖圖層與說明。
   - **可用圖層**：`1904`、`1916`、`1921`、`1944`、`1945`、`1950`、`1966`、`corona`、`1989`、`photo`，定義在 `assets/js/city/timemap.js` 的 `LAYERS`。
   - **沒有實測地圖的時期**：加 `"paper": true`。
@@ -175,6 +176,7 @@ python3 tools/newcity/merge.py ich kaohsiung-city /tmp/newcity/kaohsiung-city/ou
   第 1、6、9 句要換成在地說法。之前雲林和臺南沿用了嘉義的「嘉義通」「雞肉飯」，已修正，不要再犯。
 - **starts**：出發點，例如火車站、高鐵站、市中心地標，最後兩筆固定是 `gps` 和 `pick`。座標用 Nominatim 查。
 - **plans**：推薦行程，格式為 `{"1": {"name": "一日：…", "days": [[景點id, …]]}, "2": {…}, "3": {…}}`。`days` 每一項是一天的景點 id 陣列，一天約 8～10 處、照地理順序排。
+- **離島行程**：`plans` 除了 `1`、`2`、`3` 之外可以另加行程（例如 `"green": {"label": "離島：綠島", "name": …, "days": [[…]]}`），會在天數按鈕裡多一顆，`label` 是按鈕文字。離島不要放進一、二日遊。
 - **food**：可留空陣列。
 
 ### 8. 產生網頁資料與語音
