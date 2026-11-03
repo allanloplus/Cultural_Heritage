@@ -407,10 +407,11 @@
       '<h2>資料來源</h2><ul>' +
       '<li>文化資產名稱、類別、座標、地址與官方說明：<a href="https://data.boch.gov.tw/" target="_blank" rel="noopener">文化部文化資產局 文化資產開放資料</a>、<a href="https://nchdb.boch.gov.tw/" target="_blank" rel="noopener">國家文化資產網</a>（政府資料開放授權條款）。各景點皆附官方頁面連結。</li>' +
       '<li>清單比對：<a href="' + esc(CFG.wiki.url) + '" target="_blank" rel="noopener">' + esc(CFG.wiki.title) + '</a>。</li>' +
-      '<li>時光地圖老地圖圖磚：<a href="https://gis.sinica.edu.tw/tileserver/" target="_blank" rel="noopener">中央研究院人社中心 臺灣百年歷史地圖</a>（1904 臺灣堡圖、1921 地形圖、1945 美軍城市圖、1950／1957–1969 地形圖、1966 Corona 衛星影像）。</li>' +
+      (Object.keys(CFG.eras || {}).some(function (k) { return (CFG.eras[k].layers || []).some(function (l) { return l !== "photo"; }); }) ?  // 沒有用到中研院圖層的縣市（例如金門）不列
+      '<li>時光地圖老地圖圖磚：<a href="https://gis.sinica.edu.tw/tileserver/" target="_blank" rel="noopener">中央研究院人社中心 臺灣百年歷史地圖</a>（1904 臺灣堡圖、1921 地形圖、1945 美軍城市圖、1950／1957–1969 地形圖、1966 Corona 衛星影像）。</li>' : "") +
       '<li>底圖：<a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 通用電子地圖與正射影像、<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>。</li>' +
       '<li>路線規劃：<a href="https://routing.openstreetmap.de/" target="_blank" rel="noopener">FOSSGIS OSRM 路線服務</a>（OpenStreetMap 資料）；連線失敗時改以直線距離估算。</li>' +
-      '<li>YouBike 2.0 ' + esc(CFG.name) + '站點：<a href="' + esc(CFG.ubikeUrl) + '" target="_blank" rel="noopener">YouBike 微笑單車</a> 官方站點資料（站點快照 ' + esc((CY.ubike && CY.ubike.meta.snapshot) || "") + '；即時車輛於網頁上查詢）。</li>' +
+      (CFG.ubikeUrl ? '<li>YouBike 2.0 ' + esc(CFG.name) + '站點：<a href="' + esc(CFG.ubikeUrl) + '" target="_blank" rel="noopener">YouBike 微笑單車</a> 官方站點資料（站點快照 ' + esc((CY.ubike && CY.ubike.meta.snapshot) || "") + '；即時車輛於網頁上查詢）。</li>' : "") +
       (CY.eras.length ? '<li>時光地圖各時期內容參考：' + uniqueSources().map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>'; }).join("、") + '。</li>' : "") +
       '</ul>' +
       '<h2>圖片授權</h2><p>景點照片皆來自 Wikimedia Commons 的自由授權圖片，於網頁中直接連結原始檔並標示作者與授權；沒有自由授權照片的景點，改以連結方式提供官方代表圖或搜尋。</p>' +
