@@ -1,0 +1,1079 @@
+[
+ {
+  "id": "taidong-zhonghuahuiguan",
+  "name": "中華會館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "集會堂"
+  ],
+  "announced": "2002-12-05",
+  "address": "臺東市臺東市中正路143號",
+  "lat": 22.75381256982793,
+  "lng": 121.15555225362111,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000001",
+  "caseId": "20021205000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/21e0cff2-43a5-4f43-9f32-c8b7775f76d6/歷建44-中華會館--永保.jpg"
+ },
+ {
+  "id": "taidong-tangchangzhongshantang",
+  "name": "台灣糖業公司台東廠中山堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "集會堂"
+  ],
+  "announced": "2003-12-31",
+  "address": "臺東市臺東市中興路二段160號",
+  "lat": 22.7682704584305,
+  "lng": 121.129165237798,
+  "open": "外觀全年可參觀，內部另洽",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000005",
+  "caseId": "20031231000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/6efc8633-b7b1-4e7c-b19e-46d97bb18520/歷建25-臺灣糖業公司臺東廠中山堂 -永保.jpg"
+ },
+ {
+  "id": "taidong-taidongtangchang",
+  "name": "台灣糖業公司台東糖廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2004-12-16",
+  "address": "臺東市臺東市中興路2段191號",
+  "lat": 22.766941880113052,
+  "lng": 121.12771359620535,
+  "open": "創意園區08:00~22:00，另商家開放時間依各店家營業時間為準",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000002",
+  "caseId": "20041216000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/b41e3eae-e51b-4a16-ade1-735a936c0f01/歷建23-臺灣糖業公司臺東糖廠-永保.jpg"
+ },
+ {
+  "id": "taidong-guobennongchang",
+  "name": "國本農場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-12-31",
+  "address": "臺東市臺東市更生北路596 巷161 號",
+  "lat": 22.7910227740211,
+  "lng": 121.119722790664,
+  "open": "預約制",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000001",
+  "caseId": "20031231000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/9ce8edc0-9338-4ff4-9159-e953998431b1/歷建39-國本農場-永保.jpeg"
+ },
+ {
+  "id": "taidong-tianzhujiaobaileng",
+  "name": "天主教白冷外方傳教會",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2004-12-16",
+  "address": "臺東市臺東市民族里杭州路34號",
+  "lat": 22.758232248157185,
+  "lng": 121.14628154379193,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000004",
+  "caseId": "20041216000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/64b913af-2130-4daf-940c-b8cb44e2faff/歷建20-天主堂白冷外方傳教會 -永保.jpg"
+ },
+ {
+  "id": "taidong-zhuanmaijutaidong",
+  "name": "專賣局臺東出張所宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2009-02-20",
+  "address": "臺東市臺東縣臺東市大同路103號、和平街64號",
+  "lat": 22.75191310380738,
+  "lng": 121.15449297445089,
+  "open": "暫無開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090220000001",
+  "caseId": "20090220000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/c82c4fea-4877-43fc-b305-79440c074271/封面意象.jpg"
+ },
+ {
+  "id": "taidong-shizhanggongguan",
+  "name": "市長公館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2002-12-05",
+  "address": "臺東市中山路190 號",
+  "lat": 22.75786,
+  "lng": 121.152897,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000004",
+  "caseId": "20021205000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-31/8afb3e0e-e436-4f93-bd51-a51069905157/S__94912523_0.jpg"
+ },
+ {
+  "id": "taidong-yufengyaoye",
+  "name": "玉豐窯業（蛇窯）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-12-05",
+  "address": "臺東市志航路2 段46 號",
+  "lat": 22.791208914282073,
+  "lng": 121.14710472703989,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000005",
+  "caseId": "20021205000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-02-21/14018325-aaa3-4baf-a7f0-016a651ddf21/9919C63C-EF73-4759-A273-D74DB690A303.jpg"
+ },
+ {
+  "id": "taidong-zhibentianzhutang",
+  "name": "知本天主堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2004-12-16",
+  "address": "臺東市臺東市建業里知本路3段331巷15號",
+  "lat": 22.706585613199405,
+  "lng": 121.04966559476557,
+  "open": "主日彌撒時間：主日早上10:30\n平日彌撒時間：星期二、三、四早上7:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000003",
+  "caseId": "20041216000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/c153a6ae-a2ae-4ebf-b312-7c51f068fc11/歷建22-知本天主教教堂-永保.jpg"
+ },
+ {
+  "id": "taidong-zhibennongchangdi",
+  "name": "知本農場第5村28莊",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-12-31",
+  "address": "臺東市大學路一段413巷122號、122之1號、122號之1",
+  "lat": 22.72428000517419,
+  "lng": 121.07568688686705,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000004",
+  "caseId": "20031231000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/5aedce44-8035-43b1-83ab-05047e339009/歷建38-知本農場第5村28莊-永保.jpg"
+ },
+ {
+  "id": "taidong-siligongdonggaoji",
+  "name": "私立公東高級工業職業學校教堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "學校",
+   "教堂"
+  ],
+  "announced": "2003-12-31",
+  "address": "臺東市臺東市中興路1 段560 號",
+  "lat": 22.7683486394721,
+  "lng": 121.135469053028,
+  "open": "部分開放參觀；參訪前須向學校提出申請",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000002",
+  "caseId": "20031231000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/e7653ad2-9775-4ec7-988b-1a877885f089/歷建37-私立公東高級工業職業學校教堂-永保.jpg"
+ },
+ {
+  "id": "taidong-xianzhanggongguan",
+  "name": "縣長公館",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2002-12-05",
+  "address": "臺東市更生路15 號",
+  "lat": 22.7566365049225,
+  "lng": 121.149940171871,
+  "open": "暫不開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000003",
+  "caseId": "20021205000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/53a814b6-ca90-4367-9b55-59241ba85351/歷建43 - 縣長公館-永保.jpg"
+ },
+ {
+  "id": "taidong-dizhengshiwusuojiu",
+  "name": "臺東地政事務所舊址",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "機關"
+  ],
+  "announced": "2017-03-02",
+  "address": "臺東市臺東縣臺東市博愛路478號",
+  "lat": 22.754010548276323,
+  "lng": 121.14538458319568,
+  "open": "星期三~星期一\t10:30–21:00\n星期二\t休息\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171005000001",
+  "caseId": "20171005000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-22/e971e5f6-9053-4464-a854-90a388da7b6f/地政代表圖像.jpg"
+ },
+ {
+  "id": "taidong-tianhougong",
+  "name": "臺東天后宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2003-12-31",
+  "address": "臺東市中華路1 段222 號",
+  "lat": 22.7572187767248,
+  "lng": 121.155012973447,
+  "open": "06:00~22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000003",
+  "caseId": "20031231000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/5155aac1-3b59-4000-ade5-28cb4cddf545/封面意象.jpg"
+ },
+ {
+  "id": "taidong-shiminquanlirishi",
+  "name": "臺東市民權里日式建築宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-01-23",
+  "address": "臺東市臺東市寶桑路404巷60弄1、3、5、7號。",
+  "lat": 22.759375911716123,
+  "lng": 121.15292361757979,
+  "open": "外部空間提供參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070123000002",
+  "caseId": "20070123000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/a1dd7d93-9130-4d5c-a0d2-cecace1e9e06/歷建11-臺東市民權里日式建築宿舍群-永保.jpg"
+ },
+ {
+  "id": "taidong-shizhangguanshe",
+  "name": "臺東市長官舍建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2012-02-24",
+  "address": "臺東市臺東縣臺東市中山路164、166、172、174、182、184號",
+  "lat": 22.758286017259056,
+  "lng": 121.15321667787697,
+  "open": "週二至週日：09:00-17:00（12:00-14:00 中午休館）\n週一（及國定假日、三節）休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120510000002",
+  "caseId": "20120510000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-31/24088f06-eb7c-4ea3-90a5-0bac840b8552/S__94912531_0.jpg"
+ },
+ {
+  "id": "taidong-jingchajuzhangsu",
+  "name": "臺東縣警察局長宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2016-10-24",
+  "address": "臺東市臺東市更生路13巷12號",
+  "lat": 22.75595594964112,
+  "lng": 121.14920107127517,
+  "open": "無開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171212000001",
+  "caseId": "20171212000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-02-26/b4d79520-ece7-4a4b-8b52-271c289ac43e/9D06323B-E82B-4C28-BE60-15ADF3E8B097.jpg"
+ },
+ {
+  "id": "taidong-yihuijiuzhi",
+  "name": "臺東縣議會舊址",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "機關"
+  ],
+  "announced": "2014-05-15",
+  "address": "臺東市臺東縣臺東市更生路416號",
+  "lat": 22.762373000005727,
+  "lng": 121.14281967871902,
+  "open": "依現場活動規劃開放入場",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140515000001",
+  "caseId": "20140515000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-31/8a078d87-8f98-4cab-b84c-c419ad7723f4/S__94912536_0.jpg"
+ },
+ {
+  "id": "taidong-jiuzhanjiguancheku",
+  "name": "臺東舊站機關車庫",
+  "category": "歷史建築",
+  "level": "",
+  "town": "臺東市",
+  "types": [
+   "其他設施",
+   "產業"
+  ],
+  "announced": "2002-12-05",
+  "address": "臺東市鐵花路371 號",
+  "lat": 22.752045901792165,
+  "lng": 121.14709332912582,
+  "open": "營業時間： 11:00-14:00 ｜ 17:00-21:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000002",
+  "caseId": "20021205000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/5637df60-5c20-4093-bffd-ced6b55a5b25/封面意象.jpg"
+ },
+ {
+  "id": "taidong-beinankaoguyizhi",
+  "name": "卑南考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "臺東市",
+  "types": [],
+  "announced": "2006-05-01",
+  "address": "臺東市石壁段",
+  "lat": 22.79403,
+  "lng": 121.11978,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060501000006",
+  "caseId": "20060501000006",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/archeology/39446/photo/132456(1).jpg"
+ },
+ {
+  "id": "beinan-lijiliulongyiji",
+  "name": "利吉流籠遺跡",
+  "category": "歷史建築",
+  "level": "",
+  "town": "卑南鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2003-12-31",
+  "address": "卑南鄉利吉村利吉大橋東側河床",
+  "lat": 22.8082932914322,
+  "lng": 121.135967924033,
+  "open": "座落河床，全年可供參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000008",
+  "caseId": "20031231000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/8f99ef97-ede8-459b-a7f0-426bcc0d1125/歷建36-利吉流籠遺跡-永保.jpg"
+ },
+ {
+  "id": "beinan-dongxingshuilifa",
+  "name": "東興水力發電廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "卑南鄉",
+  "types": [
+   "其他設施",
+   "產業"
+  ],
+  "announced": "2005-09-29",
+  "address": "卑南鄉臺東縣卑南鄉東興村發電廠路17號",
+  "lat": 22.765583,
+  "lng": 121.028094,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000004",
+  "caseId": "20050929000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/e2e8444b-ec28-4940-9ecd-a1720b591cb5/歷建17-東興水力發電廠-永保.jpg"
+ },
+ {
+  "id": "beinan-jiubinlanghuoche",
+  "name": "舊檳榔火車站站房",
+  "category": "歷史建築",
+  "level": "",
+  "town": "卑南鄉",
+  "types": [
+   "車站"
+  ],
+  "announced": "2005-09-29",
+  "address": "卑南鄉臺東縣卑南鄉賓朗村賓朗路474巷1弄12號",
+  "lat": 22.808786410637616,
+  "lng": 121.09268418843085,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000005",
+  "caseId": "20050929000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-30/c8da21ef-d8ca-484a-a51f-d72b4ae61227/臺東縣歷史建築舊檳榔火車站（日奈敷乘降場、賓朗火車站）站房.jpg"
+ },
+ {
+  "id": "beinan-balankaoguyizhi",
+  "name": "巴蘭考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "卑南鄉",
+  "types": [],
+  "announced": "2006-04-14",
+  "address": "卑南鄉臺東縣卑南鄉初鹿村新斑鳩，海拔約600公尺的淺山地區。",
+  "lat": 22.8494,
+  "lng": 121.0542,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060414000001",
+  "caseId": "20060414000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/5187e673-4835-40a1-955d-b198b234bc3d/考古遺址03_巴蘭遺址-永保.jpg"
+ },
+ {
+  "id": "taimali-jiuxianglankaoguyi",
+  "name": "舊香蘭考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "太麻里鄉",
+  "types": [],
+  "announced": "2007-06-14",
+  "address": "太麻里鄉臺東縣太麻里鄉南太麻里溪出海口南岸，舊香蘭社區東南方約300公尺的臺9線公路至海岸線之間。",
+  "lat": 22.580595301498803,
+  "lng": 120.99908883197523,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20070614000002",
+  "caseId": "20070614000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/0affdb01-2dc6-4c81-99b5-a1c1e29c50d4/考古遺址01_舊香蘭遺址-永保.jpg"
+ },
+ {
+  "id": "luye-ruiyuanshuichenian",
+  "name": "瑞源水車碾米廠及附屬設施",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹿野鄉",
+  "types": [
+   "產業",
+   "其他設施"
+  ],
+  "announced": "2014-05-30",
+  "address": "鹿野鄉臺東縣鹿野鄉瑞隆村興民路15號",
+  "lat": 22.955534616751056,
+  "lng": 121.15715749810994,
+  "open": "僅外部空間開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140530000006",
+  "caseId": "20140530000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/14b91bb5-6ef8-41ac-a240-5c83f7ad91b6/歷建5-瑞源水車碾米廠及附屬設施-永保.jpg"
+ },
+ {
+  "id": "luye-zhuangyichang",
+  "name": "鹿野庄(區)役場",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹿野鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2012-02-24",
+  "address": "鹿野鄉臺東縣鹿野鄉龍田村2鄰光榮路135號、137號",
+  "lat": 22.903463010513775,
+  "lng": 121.12865962435514,
+  "open": "外部空間開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120510000001",
+  "caseId": "20120510000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/54e52ed1-644f-4396-ba15-299feffedb22/歷建8-鹿野庄(區)役場-永保.jpg"
+ },
+ {
+  "id": "luye-longtianguoxiao",
+  "name": "龍田國小校長舊宿舍及托兒所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹿野鄉",
+  "types": [
+   "官邸",
+   "機關"
+  ],
+  "announced": "2005-09-29",
+  "address": "鹿野鄉臺東縣鹿野鄉光榮路100號及240號",
+  "lat": 22.904135,
+  "lng": 121.123719,
+  "open": "外部空間提供參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000006",
+  "caseId": "20050929000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-05/833b9d5a-aa77-4bc0-a078-224fc12c2b5c/臺東縣歷史建築-鹿野鄉龍田國小日式校長宿舍及托兒所.jpg"
+ },
+ {
+  "id": "luye-longtianqiurenming",
+  "name": "龍田邱仁銘宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "鹿野鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-12-31",
+  "address": "鹿野鄉臺東縣鹿野鄉龍田村3鄰光榮路186號",
+  "lat": 22.9038630482566,
+  "lng": 121.127311252958,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000010",
+  "caseId": "20031231000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/ca257e1c-427b-48a0-b8d4-a5566578e236/歷建27-龍田邱宅-永保.jpg"
+ },
+ {
+  "id": "yanping-jiulumingqiao",
+  "name": "舊鹿鳴橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "延平鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2003-12-31",
+  "address": "延平鄉臺東縣延平鄉桃源村(舊台九線公路)",
+  "lat": 22.898452,
+  "lng": 121.085174,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000007",
+  "caseId": "20031231000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/aa8ea360-d676-43e5-9060-ec78a956eeff/歷建35-舊鹿鳴吊橋(舊鹿鳴鋼索吊橋)-永保.jpg"
+ },
+ {
+  "id": "guanshan-jiabinlvshe",
+  "name": "嘉賓旅社",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-09-14",
+  "address": "關山鎮臺東縣關山鎮中山路2號",
+  "lat": 23.046824,
+  "lng": 121.16455,
+  "open": "無開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150914000002",
+  "caseId": "20150914000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/57d4c710-bed2-4d07-bfc0-2b0e880500b2/D72_3636.jpg"
+ },
+ {
+  "id": "guanshan-dazhenwuleizhen",
+  "name": "關山大圳五雷鎮水碑及泰山石敢當",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-12-16",
+  "address": "關山鎮臺東縣關山鎮德高里北庄海端二號堤頂",
+  "lat": 23.113959,
+  "lng": 121.180647,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000005",
+  "caseId": "20041216000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-03/7790af4d-4302-403a-ad60-280bc89eac07/152303_01.jpg"
+ },
+ {
+  "id": "guanshan-jiuhuochezhan",
+  "name": "關山舊火車站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "車站"
+  ],
+  "announced": "2002-12-05",
+  "address": "關山鎮博愛路6號",
+  "lat": 23.046714070589,
+  "lng": 121.164714286105,
+  "open": "外部空間全年開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000008",
+  "caseId": "20021205000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/309fc5c7-dd1f-48c0-ba5d-7c4fb606152b/歷建41-關山舊火車站-永保.jpg"
+ },
+ {
+  "id": "guanshan-zhentianhougong",
+  "name": "關山鎮天后宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2025-01-15",
+  "address": "關山鎮中福里中華路2巷1號",
+  "lat": 23.04923,
+  "lng": 121.16282,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250224000001",
+  "caseId": "20250224000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-03-18/dd009868-ab45-4991-a173-4dfc715451e9/458E92D2-3187-4CBC-B5A6-7BCEFEEAF0BB.jpg"
+ },
+ {
+  "id": "guanshan-zhenlilongguanshe",
+  "name": "關山鎮里壠官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "官邸"
+  ],
+  "announced": "2009-12-09",
+  "address": "關山鎮臺東縣關山鎮中正路1號、5號",
+  "lat": 23.047124467030674,
+  "lng": 121.16044123284624,
+  "open": "外部空間開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20091209000003",
+  "caseId": "20091209000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/656c70ad-ba4d-4274-abe7-421a4b3c1cdb/歷建9-關山里瓏官舍-永保.jpg"
+ },
+ {
+  "id": "guanshan-tielujiuzhansushe",
+  "name": "關山鐵路舊站宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "關山鎮",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-12-31",
+  "address": "關山鎮臺東縣關山鎮博愛路21號",
+  "lat": 23.047297944896666,
+  "lng": 121.16465689635142,
+  "open": "僅外部空間可參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000011",
+  "caseId": "20031231000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/fece3536-036a-4378-9758-bbb574d76223/D72_3640.jpg"
+ },
+ {
+  "id": "haiduan-lidaoshanzhuang",
+  "name": "利稻山莊",
+  "category": "歷史建築",
+  "level": "",
+  "town": "海端鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2026-03-17",
+  "address": "海端鄉利稻村文化7號",
+  "lat": 23.18638,
+  "lng": 121.02297,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260525000001",
+  "caseId": "20260525000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-25/e37662b4-3749-4725-b17d-a9088725eb1b/利稻山莊_代表圖像.png"
+ },
+ {
+  "id": "haiduan-tianlongdiaoqiao",
+  "name": "天龍吊橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "海端鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2003-12-31",
+  "address": "海端鄉臺東縣海端鄉霧鹿村1-1號（天龍飯店）後方",
+  "lat": 23.173844016275883,
+  "lng": 121.04213396401663,
+  "open": "全天候開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150701000001",
+  "caseId": "20150701000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-28/dbe2dfe3-c9e9-4139-b1e6-010215b18784/LINE_ALBUM_天龍吊橋1130627_240628_1.jpg"
+ },
+ {
+  "id": "chishang-fuzhen",
+  "name": "池上浮圳(第六支圳)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "池上鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2004-12-16",
+  "address": "池上鄉臺東縣池上鄉錦新二號道路旁",
+  "lat": 23.10325398400419,
+  "lng": 121.21176842708807,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000006",
+  "caseId": "20041216000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/e5dd0b84-63d4-471c-a6cc-f4f3f7b1accd/歷建18-池上浮圳（池上圳第六支圳、盛土圳）-永保.jpg"
+ },
+ {
+  "id": "chishang-wananzhuanyao",
+  "name": "萬安磚窯（接興煉磚工廠）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "池上鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2003-12-31",
+  "address": "池上鄉錦園段743、696、568（部分）地號",
+  "lat": 23.09570868513403,
+  "lng": 121.21951356788901,
+  "open": "外部參觀全年開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000012",
+  "caseId": "20031231000012",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/5f11dcbf-9009-400d-b592-3b42a9a80ebe/歷建34-萬安磚窯廠-永保.jpg"
+ },
+ {
+  "id": "chishang-xinkaiyuanlaotian",
+  "name": "池上新開園老田區",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "池上鄉",
+  "types": [
+   "農林漁牧景觀"
+  ],
+  "announced": "2014-05-30",
+  "address": "池上鄉池上鄉錦園村、萬安村、新興村",
+  "lat": 23.089641,
+  "lng": 121.208725,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20140530000007",
+  "caseId": "20140530000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/ced8dcd4-b1f1-45db-bdec-4a25741e5016/文化景觀1-池上新開園老田區-永保.jpg"
+ },
+ {
+  "id": "donghe-jiuqiao",
+  "name": "東河舊橋(吉田橋)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東河鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2002-12-05",
+  "address": "東河鄉東河村",
+  "lat": 22.976036,
+  "lng": 121.304927,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000010",
+  "caseId": "20021205000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/43b8fd2d-5339-4637-8399-a7be26a9450b/歷建50-東河舊橋(吉田橋)-永保.jpg"
+ },
+ {
+  "id": "donghe-doulanxindongtang",
+  "name": "都蘭新東糖廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東河鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2002-12-05",
+  "address": "東河鄉都蘭村61 號",
+  "lat": 22.872394325070974,
+  "lng": 121.2264164376201,
+  "open": "外部空間全年開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000009",
+  "caseId": "20021205000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/0b1e5b15-e571-4d31-b3e1-52f8fd9fc539/歷建51-都蘭新東糖廠-永保.jpg"
+ },
+ {
+  "id": "donghe-doulankaoguyizhi",
+  "name": "都蘭考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "東河鄉",
+  "types": [],
+  "announced": "2006-04-14",
+  "address": "東河鄉位臺東縣東河鄉都蘭村，臺11線147.7公里北向西側，沿都蘭產業道路往西約1公里處，先抵「岩棺區」；再往西約300公尺則為「石壁區」。",
+  "lat": 22.888333,
+  "lng": 121.206111,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060414000002",
+  "caseId": "20060414000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/2367bb14-e211-4399-8026-b9626eee3a0d/考古遺址_02都蘭遺址 (石棺區)-永保.jpg"
+ },
+ {
+  "id": "chenggong-tianzhujiaoxiaoma",
+  "name": "天主教小馬天主堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2005-09-29",
+  "address": "成功鎮信義里小馬路10號",
+  "lat": 22.9954410426704,
+  "lng": 121.31532736213,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000007",
+  "caseId": "20050929000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/2852dafe-0ff0-47f2-8604-044412e26c29/歷建15-小馬天主堂-永保.jpg"
+ },
+ {
+  "id": "chenggong-yiwantianzhutang",
+  "name": "宜灣天主堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2003-12-31",
+  "address": "成功鎮臺東縣成功鎮10鄰宜灣路108號",
+  "lat": 23.210379471586,
+  "lng": 121.40048208668,
+  "open": "外部空間可供參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000014",
+  "caseId": "20031231000014",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-15/3ba1584c-a909-4176-80d6-108c3ca56ad1/CEAB3274-A663-4B94-B115-1D76FA69B0C6.jpg"
+ },
+ {
+  "id": "chenggong-yiwanzhanglaojiao",
+  "name": "宜灣長老教會",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2003-12-31",
+  "address": "成功鎮10鄰宜灣路11號",
+  "lat": 23.2082938199478,
+  "lng": 121.396878614122,
+  "open": "外部空間可供參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000013",
+  "caseId": "20031231000013",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/092be043-75d5-4b83-b874-56c798cf8981/歷建33-宜灣長老教會-永保.jpg"
+ },
+ {
+  "id": "chenggong-guanghengfashang",
+  "name": "廣恆發商號及古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "宅第",
+   "商店"
+  ],
+  "announced": "2004-12-16",
+  "address": "成功鎮臺東縣成功鎮忠孝里成廣路",
+  "lat": 23.160729,
+  "lng": 121.403029,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000007",
+  "caseId": "20041216000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-21/b1d54682-78dd-4035-aafa-fbe1ddc24ed5/S__95264811_0.jpg"
+ },
+ {
+  "id": "chenggong-xingangjiaohuihui",
+  "name": "新港教會會館(菅宮勝太郎宅)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "教堂"
+  ],
+  "announced": "2003-12-31",
+  "address": "成功鎮臺東縣成功鎮忠仁村中山東路55號",
+  "lat": 23.0998995628483,
+  "lng": 121.37870866846,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000015",
+  "caseId": "20031231000015",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/c26de106-40c8-4bf4-96f8-1b2187dbb071/D72_4530.jpg"
+ },
+ {
+  "id": "chenggong-taiyuansuidao",
+  "name": "泰源隧道(小馬隧道)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-05",
+  "address": "成功鎮信義里",
+  "lat": 22.990403,
+  "lng": 121.309579,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000011",
+  "caseId": "20021205000011",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/e2fed5ae-3d2e-46d0-804b-49eaea4f72d3/歷建49-小馬隧道-永保.jpg"
+ },
+ {
+  "id": "chenggong-douweiqiao",
+  "name": "都威橋(舊)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "成功鎮",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2003-12-31",
+  "address": "成功鎮臺東縣成功鎮博愛里",
+  "lat": 23.190320010014,
+  "lng": 121.395907360126,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000016",
+  "caseId": "20031231000016",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/b6056a44-b446-4112-9538-a30d336efee5/歷建30-都威舊橋 -永保.jpg"
+ },
+ {
+  "id": "changbin-zhangyuanqiao",
+  "name": "樟原橋(舊)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "長濱鄉",
+  "types": [
+   "橋樑"
+  ],
+  "announced": "2003-12-31",
+  "address": "長濱鄉臺東縣長濱鄉樟原村",
+  "lat": 23.400740231924534,
+  "lng": 121.47938017789637,
+  "open": "全年",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000017",
+  "caseId": "20031231000017",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/32201093-e138-4956-b2bf-21ddb20bf67f/力建29-樟原橋-永保.jpg"
+ },
+ {
+  "id": "changbin-baxiandongkaoguyi",
+  "name": "八仙洞考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "長濱鄉",
+  "types": [],
+  "announced": "2006-05-01",
+  "address": "長濱鄉位樟原橋南方約500公尺，台11公路西側水母丁山山壁上的海蝕洞穴，即八仙洞風景區所在。",
+  "lat": 23.399369,
+  "lng": 121.477369,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20060501000007",
+  "caseId": "20060501000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-05-31/9e0fce51-3db4-4012-81db-aad93af94b4d/P_20180329_104953_HDR.jpg"
+ },
+ {
+  "id": "lvdao-youzaihujuluoyizhi",
+  "name": "柚仔湖聚落遺址",
+  "category": "歷史建築",
+  "level": "",
+  "town": "綠島鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2002-12-05",
+  "address": "綠島鄉公館村柚子湖3、4、4-1、5、6、7、7-1、8、10、11、12、13、16號",
+  "lat": 22.665794,
+  "lng": 121.508339,
+  "open": "僅外部空間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000006",
+  "caseId": "20021205000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/38339d90-9b4c-428a-ae3a-50f108055fc6/D72_1432.jpg"
+ },
+ {
+  "id": "lvdao-dengta",
+  "name": "綠島燈塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "綠島鄉",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2003-12-31",
+  "address": "綠島鄉臺東縣綠島鄉中寮村燈塔路1 號",
+  "lat": 22.676516418060398,
+  "lng": 121.46632133709497,
+  "open": "外部空間開放參觀時間，夏令時間4月1日至10月31日：上午09:00至下午18:00\n冬令時間11月1日至3月31日：上午09:00至下午17:00\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031231000006",
+  "caseId": "20031231000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/6c06932b-06b7-4f55-a0e8-eb9b48decb52/D72_1791.jpg"
+ },
+ {
+  "id": "lvdao-lvzhoushanzhuang",
+  "name": "綠洲山莊（國防部綠島感訓監獄）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "綠島鄉",
+  "types": [
+   "機關"
+  ],
+  "announced": "2005-09-29",
+  "address": "綠島鄉臺東縣綠島鄉公館村將軍岩20號",
+  "lat": 22.67502693505342,
+  "lng": 121.49617210420897,
+  "open": "每日：09:00-17:00(中午不休息)；每年11月至隔年4月，每周一休園",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000002",
+  "caseId": "20050929000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/501f1b11-aa24-4b54-8274-a73e4ac85ec3/歷建16-綠洲山莊-永保.jpg"
+ },
+ {
+  "id": "lvdao-renquanwenhuayuan",
+  "name": "綠島人權文化園區",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "綠島鄉",
+  "types": [
+   "歷史事件場所"
+  ],
+  "announced": "2014-01-27",
+  "address": "綠島鄉臺東縣綠島鄉公館村(公館西段、公館東段)",
+  "lat": 22.674498676526913,
+  "lng": 121.49831646097343,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20140127000001",
+  "caseId": "20140127000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/b3135608-b2f0-425e-8fe4-d1e5bbc32499/文化景觀2-綠島人權文化園區-永保.jpg"
+ },
+ {
+  "id": "lanyu-qixiangzhan",
+  "name": "蘭嶼氣象站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "蘭嶼鄉",
+  "types": [
+   "機關"
+  ],
+  "announced": "2005-09-29",
+  "address": "蘭嶼鄉臺東縣蘭嶼鄉紅頭村1鄰2號",
+  "lat": 22.03703,
+  "lng": 121.558406,
+  "open": "星期一~星期日：06:00 – 18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050929000003",
+  "caseId": "20050929000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/84287d99-c31b-462e-9e72-2c604923c9ed/歷建13-蘭嶼氣象站-永保.jpg"
+ },
+ {
+  "id": "lanyu-yameizuyeyinbuluo",
+  "name": "蘭嶼雅美族野銀部落傳統建築",
+  "category": "歷史建築",
+  "level": "",
+  "town": "蘭嶼鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2002-12-05",
+  "address": "蘭嶼鄉東清村野銀部落",
+  "lat": 22.037252583761,
+  "lng": 121.567364777968,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021205000007",
+  "caseId": "20021205000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-15/5987bc27-018c-4e82-b316-00833e80d43b/歷建45-野銀部落傳統建築-永保 (1).jpg"
+ },
+ {
+  "id": "lanyu-langdaobuluo",
+  "name": "蘭嶼鄉朗島部落傳統領域",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "蘭嶼鄉",
+  "types": [
+   "農林漁牧景觀",
+   "其他人類與自然互動而形成之景觀"
+  ],
+  "announced": "2013-01-23",
+  "address": "蘭嶼鄉臺東縣蘭嶼鄉朗島村(陸域與海域部份)",
+  "lat": 22.063768,
+  "lng": 121.567977,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20130123000002",
+  "caseId": "20130123000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-07-20/ff553359-42e1-4d08-ab88-bd40b76a5040/文化景觀3-朗島部落傳統領域-永保.jpg"
+ }
+]
