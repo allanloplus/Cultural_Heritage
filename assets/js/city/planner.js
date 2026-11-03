@@ -81,7 +81,9 @@
 
   function initUI() {
     new V.Player($("#planIntro"), { track: "plan-intro", lines: X.planIntro, title: "行程小幫手", audioBase: "audio/", compact: true });
-    chips($("#pDays"), [["1", "一日遊"], ["2", "二日遊"], ["3", "三日遊"], ["all", "不限天數"]], "days");
+    /* extra.plans 除了 1、2、3 之外，可以另加行程（例如離島一日，label 為按鈕文字），排在「不限天數」前面 */
+    var extraPlans = Object.keys(X.plans || {}).filter(function (k) { return !/^[123]$/.test(k); }).map(function (k) { return [k, esc(X.plans[k].label || X.plans[k].name)]; });
+    chips($("#pDays"), [["1", "一日遊"], ["2", "二日遊"], ["3", "三日遊"]].concat(extraPlans, [["all", "不限天數"]]), "days");
     var hasUB = (CY.ubike.stations || []).length > 0;
     chips($("#pMode"), [["car", "開車"], ["scooter", "機車"], ["bike", "自行車"], ["walk", "走路"], ["ubike", hasUB ? "YouBike" : "YouBike（無站點）"]], "mode");
     if (!hasUB) {
@@ -251,7 +253,8 @@
     var sel = selection();
     if (!sel.lists[0].length) { A.toast(st.pick === "theme" ? "請至少選一個主題" : "請先勾選想去的景點", "R", "confused"); return; }
     var days = buildDays(sel.lists, st.mode, st.pace, minutes(st.time), sel.auto);
-    plan = { name: sel.name, mode: st.mode, days: days, limit: st.days };
+    var lim = st.days === "all" || /^[123]$/.test(st.days) ? st.days : String(((X.plans[st.days] || {}).days || [0]).length);
+    plan = { name: sel.name, mode: st.mode, days: days, limit: lim };
     render();
     draw();
     A.stamp("plan");
