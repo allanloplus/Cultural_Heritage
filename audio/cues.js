@@ -1,2 +1,2 @@
 /* 由 tools/gen_audio.py 產生，請勿手動編修 */
-window.AUDIO_CUES = Object.assign(window.AUDIO_CUES || {}, {"portal":{"duration":40.7,"cues":[[0.0,5.496,"14af0322"],[5.846,15.374,"714b7407"],[15.724,22.252,"7dccff8a"],[22.602,36.45,"8c0c8f8a"],[36.8,40.376,"ed0f062d"]]}});
+window.AUDIO_CUES = Object.assign(window.AUDIO_CUES || {}, {"portal":{"duration":41.7,"cues":[[0.0,5.496,"14af0322"],[5.846,15.374,"714b7407"],[15.724,22.252,"7dccff8a"],[22.602,37.386,"33e0c91b"],[37.736,41.312,"ed0f062d"]]}});
