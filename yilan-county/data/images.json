@@ -210,7 +210,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%90%B3%E6%B2%99%E7%B4%80%E5%BF%B5%E9%A4%A8.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/jiaoxi-kailanwuzhaigong-0.webp",
+   "small": "img/jiaoxi-kailanwuzhaigong-0-s.webp"
   }
  ],
  "zhuangwei-youshijiamiao": [
@@ -220,7 +222,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%B8%B8%E6%B0%8F%E5%AE%B6%E5%BB%9F%E8%BF%BD%E9%81%A0%E5%A0%82_(cropped).jpg",
    "artist": "創作者：莊文生;鄭文嵐;謝淑娟。貢獻者：宜蘭縣政府文化局",
    "license": "CC BY 3.0 tw",
-   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/tw/deed.en"
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/tw/deed.en",
+   "local": "img/zhuangwei-youshijiamiao-0.webp",
+   "small": "img/zhuangwei-youshijiamiao-0-s.webp"
   }
  ],
  "yilan-nanjichangfeng": [
@@ -230,7 +234,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:2021_Windsock_of_Yilan_Southern_Airport_ii.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/yilan-nanjichangfeng-0.webp",
+   "small": "img/yilan-nanjichangfeng-0-s.webp"
   }
  ],
  "yilan-zhuanyao": [
@@ -240,7 +246,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E8%98%AD%E7%A3%9A%E7%AA%AF_(cropped).JPG",
    "artist": "Alice",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/yilan-zhuanyao-0.webp",
+   "small": "img/yilan-zhuanyao-0-s.webp"
   }
  ],
  "yilan-linshijiamiaozhui": [
