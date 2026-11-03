@@ -149,6 +149,12 @@ def main():
     with open(os.path.join(ROOT, "tools", "script.json"), "w", encoding="utf-8") as f:
         json.dump({"groups": groups}, f, ensure_ascii=False, indent=1)
     print("lines", sum(len(t["lines"]) for g in groups for t in g["tracks"]))
+    try:  # 容量提醒（GitHub Pages 上限 1 GB；700 MB 時要問使用者是否搬遷，見 tools/newcity/README.md〈容量管理〉）
+        sys.path.insert(0, os.path.join(ROOT, "tools", "newcity"))
+        import size_report
+        print(size_report.status_line(size_report.report()[0]))
+    except Exception as e:
+        print("（容量檢查略過：%s）" % e)
 
 
 if __name__ == "__main__":

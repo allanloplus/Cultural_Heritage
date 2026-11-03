@@ -88,7 +88,7 @@ python3 tools/serve.py
 
 開啟 http://localhost:8000 即可預覽。這個預覽伺服器支援 HTTP Range，語音可以跳句。Python 內建的 `python3 -m http.server` 不支援 Range，用它預覽時按「下一句」會從頭播放；GitHub Pages 沒有這個問題。
 
-上線用 GitHub Pages：Settings → Pages → Deploy from a branch，選要發布的分支與 `/ (root)`。
+上線用 GitHub Pages：Settings → Pages → Deploy from a branch，選 `main` 與 `/ (root)`。開發在各 session 的工作分支進行，每完成一個縣市建立 PR，合併到 `main` 後才上線（見 `tools/newcity/README.md`〈發布流程〉）。GitHub Pages 網站上限 1 GB，目前用量與搬遷門檻見作業手冊〈容量管理〉，可隨時執行 `python3 tools/newcity/size_report.py` 查看。
 
 ## 資料來源與授權
 
