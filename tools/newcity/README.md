@@ -121,6 +121,7 @@ python3 tools/newcity/build_base.py 高雄市 kaohsiung-city
   - 拼音偶爾讀錯破音字，臺南就把「赤嵌」讀成 chiqian。用 `--rename 舊id=新id` 修正。
   - **id 一旦派給 agent 就不要再改。**
 - **注意**：stats.txt 列出的「沒有行政區」「沒有座標」「同名」都要人工處理。
+- **跨縣市文資**：官方只登錄在鄰縣、但也經過本縣市的文資（例如八通關古道只登錄南投縣），寫在 `tools/newcity/manual/<slug>.json`：`[{"caseId", "category", "town", "address", "lat", "lng", "note"}]`。`build_base.py` 會取出該筆官方紀錄，用這裡的行政區與座標覆蓋，`note` 會放進 `texts.manualNote` 給 agent 看。範例：`hualien-county`。
 
 ### 4. 照片
 
