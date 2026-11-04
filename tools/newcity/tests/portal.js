@@ -6,7 +6,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const HOST = 'http://localhost:' + (process.env.PORT || 8766);
-const OUT = '/tmp/newcity/shots';
+const OUT = process.env.SHOTS || '/tmp/newcity/shots';  // 截圖目錄，可用環境變數 SHOTS 改
 fs.mkdirSync(OUT, { recursive: true });
 (async () => {
   const browser = await chromium.launch();

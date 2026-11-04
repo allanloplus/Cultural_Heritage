@@ -16,7 +16,7 @@ const mobile = args.includes('mobile');
 const siteArg = args.includes('--site') ? +args[args.indexOf('--site') + 1] : 0;
 if (!slug) { console.log('usage: node city_smoke.js <slug> [mobile] [--site 1|2]'); process.exit(2); }
 const HOST = 'http://localhost:' + (process.env.PORT || 8766);
-const OUT = '/tmp/newcity/shots';
+const OUT = process.env.SHOTS || '/tmp/newcity/shots';  // 截圖目錄，可用環境變數 SHOTS 改
 fs.mkdirSync(OUT, { recursive: true });
 (async () => {
   const browser = await chromium.launch();
