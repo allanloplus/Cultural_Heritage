@@ -44,6 +44,10 @@ def norm(s):
     return re.sub(r"[「」()（）\s\-{}‧・、0-9號]|國定古蹟|直轄市定|市定|縣定", "", s.replace("臺", "台"))
 
 
+def norm_exact(s):
+    return re.sub(r"<[^>]+>.*?<[^>]+>|[「」()（）\s\-{}‧・、]", "", s.replace("臺", "台"))
+
+
 def commons_info(files):
     out = {}
     for i in range(0, len(files), 40):
@@ -78,7 +82,12 @@ def main():
     m = {}
     for o in base:
         on = norm(o["name"]); best = None
+        exact = norm_exact(o["name"])  # 先找含編號完全相同的列（例如林厝1號、3號反空降堡，norm 會去掉數字）
         for r in rows:
+            if r["cells"] and r["img"] and not any(k in (r["sec"] or "") for k in SKIP_SECTIONS) and norm_exact(r["cells"][0]) == exact:
+                best = r["img"][0]
+                break
+        for r in ([] if best else rows):
             if not r["cells"] or not r["img"] or any(k in (r["sec"] or "") for k in SKIP_SECTIONS):
                 continue
             n = norm(r["cells"][0])
