@@ -36,7 +36,7 @@ async def synth(who, text, sem):
         return path
     v = VOICE[who]
     async with sem:
-        for attempt in range(20):  # 語音服務偶爾回傳空白（短時間請求太多會暫時封鎖），多試幾次、等久一點
+        for attempt in range(60):  # 語音服務偶爾回傳空白（限流時約一半請求隨機失敗），失敗就短暫等待後重試
             try:
                 mp3 = path[:-4] + ".mp3"
                 await edge_tts.Communicate(text, v["voice"], pitch=v["pitch"], rate=v["rate"],
@@ -47,7 +47,7 @@ async def synth(who, text, sem):
                 return path
             except Exception as e:  # 網路偶發錯誤重試
                 print("retry", attempt, text[:20], e, file=sys.stderr)
-                await asyncio.sleep(min(90, 2 ** attempt) + random.random() * 5)
+                await asyncio.sleep(2 + random.random() * 3 + (10 if attempt > 15 else 0))  # 指數退避在限流時太慢（2026/11 澎湖：每分鐘 2 句 → 20 句）
     raise RuntimeError("TTS failed: " + text[:40])
 
 

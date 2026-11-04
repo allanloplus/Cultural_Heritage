@@ -316,7 +316,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 | 2026-11-03 | 加入宜蘭縣 | 518 MB | 51% |
 | 2026-11-04 | 加入花蓮縣 | 558 MB | 54% |
 | 2026-11-04 | 加入連江縣（馬祖） | 566 MB | 55% |
-| 2026-11-04 | 加入澎湖縣 | {SIZE} MB | {PCT}% |
+| 2026-11-04 | 加入澎湖縣 | 602 MB | 59% |
 
 ## 規則（不可違反）
 
@@ -335,7 +335,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 
 | 狀況 | 原因與解法 |
 |---|---|
-| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。`gen_audio.py` 已有 20 次重試，還是失敗就整個重跑；若連「你好」都失敗，是出口被暫時封鎖，見步驟 8 |
+| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。限流時約一半請求隨機失敗、同一句重試就會成功，`gen_audio.py` 失敗後只等 2～5 秒就重試（最多 60 次；以前用指數退避，澎湖時一分鐘只合成 2 句，改了以後約 20 句）。還是失敗就整個重跑；若連「你好」都失敗，是出口被暫時封鎖，見步驟 8 |
 | Python 下載出現 SSL「Missing Subject Key Identifier」 | Python 3.13 預設嚴格 X.509，代理憑證沒有 SKI。`common.py`、`fetch_images.py`、`gen_audio.py` 已關掉嚴格模式（仍完整驗證憑證）；自己寫的腳本請用 `common.get()` |
 | 改了對話，網頁卻用瀏覽器內建語音 | `cues.js` 的雜湊和文字不符，重跑 `gen_audio.py`，再用 `cues_all.js` 確認 |
 | 入口頁語音和文字不一致 | `tools/portal.json` 與 `index.html` 的 `PORTAL` 不同步，或沒重跑 `gen_audio.py portal` |
