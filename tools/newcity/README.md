@@ -1,6 +1,6 @@
 # 新增縣市作業手冊
 
-這份手冊整理了嘉義市、嘉義縣、雲林縣、臺南市等縣市建置的實際流程（之後又做了高雄、屏東、臺東、金門、宜蘭、花蓮）。新的縣市照著做，就能做出和前四個一致的網站。開新的 Claude Code session 時，請先讀完這份手冊、`SPEC.md` 與 `PROMPTS.md` 再動手。
+這份手冊整理了嘉義市、嘉義縣、雲林縣、臺南市等縣市建置的實際流程（之後又做了高雄、屏東、臺東、金門、宜蘭、花蓮、連江、澎湖）。新的縣市照著做，就能做出和前四個一致的網站。開新的 Claude Code session 時，請先讀完這份手冊、`SPEC.md` 與 `PROMPTS.md` 再動手。
 
 ## 檔案
 
@@ -169,6 +169,7 @@ python3 tools/newcity/merge.py ich kaohsiung-city /tmp/newcity/kaohsiung-city/ou
   - **年代真的不詳**：在 `sites-content.json` 設 `"era": "unknown", "yearUnknown": true`。
   - **缺行政區**：補 `sites-official.json` 的 `town`。
   - **座標明顯錯誤**：在 `sites-content.json` 改 `lat`、`lng`。這兩個欄位會覆蓋官方座標。
+  - **同一處有兩筆官方紀錄**（例如縣登錄後又由文化部登錄為重要聚落）：合併成一處，從 `sites-official.json` 與分組檔移除重複的那筆，在保留的那筆加 `"extraLinks": [{"title": "…", "url": "…"}]`，詳情頁會多一顆官方連結按鈕。範例：`penghu-county` 的望安花宅聚落。
 - **agent 回報中的判斷**：例如合併了哪些紀錄、哪些座標是近似點，要整理起來最後告訴使用者。
 
 ### 7. 寫 extra.json
@@ -219,7 +220,7 @@ TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt nohup python3 tools/gen_audio.py > /tmp/g
 
 ### 9. 開放縣市
 
-- **`assets/js/cities.js`**：把籌備中那一筆改成 `slug`、`on: true`，並填 `img`（代表照片，相對網站根目錄）、`credit`（作者與授權）、`desc`（數量與特色）。需要讓人一看就知道通稱時（例如連江縣＝馬祖），另填 `label`（例如「連江縣（馬祖）」），卡片、地圖標籤與切換選單會顯示它，`name` 仍維持官方縣名。清單裡沒有這個縣市（例如屏東縣）就新增一筆，`lat`、`lng` 填縣市中心，`nick` 填一句特色。
+- **`assets/js/cities.js`**：把籌備中那一筆改成 `slug`、`on: true`，並填 `img`（代表照片，相對網站根目錄）、`credit`（作者與授權）、`desc`（數量與特色）。需要讓人一看就知道通稱時（例如連江縣＝馬祖），另填 `label`（例如「連江縣（馬祖）」），卡片、地圖標籤與切換選單會顯示它，`name` 仍維持官方縣名。清單裡沒有這個縣市（例如屏東縣）就新增一筆，`lat`、`lng` 填縣市中心，`nick` 填一句特色。入口頁地圖上標籤會壓到其他縣市時，可設 `tip: "left"`：標籤放在標記左側、標記放在標籤上層，地圖寬度小於 600px 時標籤只顯示縣名（澎湖用這個設定，避免壓到嘉義、臺南）。
 - **入口頁問候語**：`tools/portal.json` 第 4 句和 `index.html` 裡的 `PORTAL` 必須**一字不差**，列出所有開放縣市。改完執行：
 
   ```bash
@@ -315,6 +316,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 | 2026-11-03 | 加入宜蘭縣 | 518 MB | 51% |
 | 2026-11-04 | 加入花蓮縣 | 558 MB | 54% |
 | 2026-11-04 | 加入連江縣（馬祖） | 566 MB | 55% |
+| 2026-11-04 | 加入澎湖縣 | 602 MB | 59% |
 
 ## 規則（不可違反）
 
@@ -333,7 +335,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 
 | 狀況 | 原因與解法 |
 |---|---|
-| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。`gen_audio.py` 已有 20 次重試，還是失敗就整個重跑；若連「你好」都失敗，是出口被暫時封鎖，見步驟 8 |
+| 語音合成一直失敗「No audio was received」 | 服務端間歇性問題，與文字無關。限流時約一半請求隨機失敗、同一句重試就會成功，`gen_audio.py` 失敗後只等 2～5 秒就重試（最多 60 次；以前用指數退避，澎湖時一分鐘只合成 2 句，改了以後約 20 句）。還是失敗就整個重跑；若連「你好」都失敗，是出口被暫時封鎖，見步驟 8 |
 | Python 下載出現 SSL「Missing Subject Key Identifier」 | Python 3.13 預設嚴格 X.509，代理憑證沒有 SKI。`common.py`、`fetch_images.py`、`gen_audio.py` 已關掉嚴格模式（仍完整驗證憑證）；自己寫的腳本請用 `common.get()` |
 | 改了對話，網頁卻用瀏覽器內建語音 | `cues.js` 的雜湊和文字不符，重跑 `gen_audio.py`，再用 `cues_all.js` 確認 |
 | 入口頁語音和文字不一致 | `tools/portal.json` 與 `index.html` 的 `PORTAL` 不同步，或沒重跑 `gen_audio.py portal` |

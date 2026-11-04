@@ -324,6 +324,7 @@
       '<button class="btn btn-sm" type="button" id="dAdd">加入自選行程</button>' +
       '<button class="btn btn-sm" type="button" id="dVisit">我到過這裡</button>' +
       '<a class="btn btn-sm" href="' + esc(s.url) + '" target="_blank" rel="noopener">文資局官方資料</a>' +
+      (s.extraLinks || []).map(function (x) { return '<a class="btn btn-sm" href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a>'; }).join("") +
       '</div>' +
       (ub.length && ub[0].d < 3000 ? '<div class="d-sec near-ub"><h3>附近的 YouBike 2.0</h3><ul>' + ub.map(function (u) { return '<li data-no="' + u.s.no + '"><b>' + esc(u.s.name) + '</b>（' + km(u.d) + '）<span class="live"></span></li>'; }).join("") + '</ul>' +
       '<button class="btn btn-sm" type="button" id="dLive">查詢即時車輛</button></div>' : "") +
