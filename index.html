@@ -120,7 +120,7 @@
   var CITIES = SiteCities.list;
   SiteCities.portalNav(document.getElementById("portalNav"));
   document.getElementById("cityList").innerHTML = CITIES.map(function (c) {
-    if (c.on) return '<a class="city on" href="' + c.slug + '/"><img src="' + esc(c.img) + '" alt="' + esc(c.name) + '" loading="lazy"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
+    if (c.on) return '<a class="city on" href="' + c.slug + '/"><img src="' + esc(c.img) + '" alt="' + esc(c.label || c.name) + '" loading="lazy"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
     return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';
   }).join("");
 
@@ -135,7 +135,7 @@
   CITIES.forEach(function (c) {
     /* 西邊的離島（金門）標籤放右邊，手機上才不會被切掉 */
     var m = L.marker([c.lat, c.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })
-      .bindTooltip(c.name + (c.on ? "（點我出發）" : "（籌備中）"), c.lng < 119.6 ? { direction: "right", permanent: !!c.on, offset: [18, -13] } : { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
+      .bindTooltip((c.label || c.name) + (c.on ? "（點我出發）" : "（籌備中）"), c.lng < 119.6 ? { direction: "right", permanent: !!c.on, offset: [18, -13] } : { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
     if (c.on) m.on("click", function () { location.href = c.slug + "/"; });
   });
 })();

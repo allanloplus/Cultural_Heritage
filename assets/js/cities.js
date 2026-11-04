@@ -1,5 +1,6 @@
 /* 全站縣市清單（入口頁的卡片與地圖、入口頁功能表、各縣市頁的「切換縣市」選單共用）
- * 新增縣市：在這裡加一筆並設 on: true，建立同名資料夾即可。img 為相對於網站根目錄的路徑。 */
+ * 新增縣市：在這裡加一筆並設 on: true，建立同名資料夾即可。img 為相對於網站根目錄的路徑。
+ * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。 */
 (function (root) {
   "use strict";
   var CITIES = [
@@ -68,7 +69,7 @@
       grouped().map(function (r) {
         return '<div class="cm-reg"><p class="cm-rname">' + r[0] + '</p><div class="cm-list">' + r[1].map(function (c) {
           var on = c.slug === current;
-          return '<a href="' + base + c.slug + '/" title="' + esc(c.nick) + '"' + (on ? ' aria-current="page"' : "") + '>' + esc(c.name) + (on ? '<span>目前</span>' : "") + '</a>';
+          return '<a href="' + base + c.slug + '/" title="' + esc(c.nick) + '"' + (on ? ' aria-current="page"' : "") + '>' + esc(c.label || c.name) + (on ? '<span>目前</span>' : "") + '</a>';
         }).join("") + '</div></div>';
       }).join("") +
       (soon.length ? '<p class="cm-soon">籌備中：' + soon.map(function (c) { return esc(c.name); }).join("、") + '</p>' : "") +

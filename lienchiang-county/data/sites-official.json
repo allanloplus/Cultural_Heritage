@@ -1,0 +1,268 @@
+[
+ {
+  "id": "nangan-zhengfujiuzhi",
+  "name": "連江縣政府舊址",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南竿鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2012-10-04",
+  "address": "南竿鄉仁愛村19號",
+  "lat": 26.143208170740515,
+  "lng": 119.92561482756415,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210526000007",
+  "caseId": "20210526000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-19/115241db-9775-492b-ad74-823a156465e4/06歷史建築-連江縣政府舊址(馬祖日報)1.jpg"
+ },
+ {
+  "id": "nangan-jinbanjingtianhou",
+  "name": "金板境天后宮",
+  "category": "歷史建築",
+  "level": "",
+  "town": "南竿鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2009-05-06",
+  "address": "南竿鄉連江縣仁愛村59-2號",
+  "lat": 26.1419909998865,
+  "lng": 119.924180000421,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090506000001",
+  "caseId": "20090506000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-17/7f15a7a7-9fa0-4810-9946-f708a18e3c37/05歷史建築-金板境天后宮1.jpg"
+ },
+ {
+  "id": "nangan-jinshajuluojianzhu",
+  "name": "津沙聚落建築群",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "南竿鄉",
+  "types": [
+   "漢人街庄"
+  ],
+  "announced": "2008-12-11",
+  "address": "南竿鄉津沙村",
+  "lat": 26.145942271940548,
+  "lng": 119.9135799697581,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20081211000001",
+  "caseId": "20081211000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-01-27/84bdc616-de1b-4b87-b545-9b8c4b37fb4f/10聚落建築群-津沙聚落建築群.jpg"
+ },
+ {
+  "id": "nangan-mazuzhandiwenhua",
+  "name": "馬祖戰地文化景觀",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "南竿鄉",
+  "types": [
+   "軍事設施"
+  ],
+  "announced": "2020-08-31",
+  "address": "南竿鄉",
+  "lat": 26.157869,
+  "lng": 119.951915,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20210526000001",
+  "caseId": "20210526000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-11/c0a9c6bb-cb3c-4ca1-8f2c-dd477a134a7d/13文化景觀-馬祖戰地文化景觀.jpg"
+ },
+ {
+  "id": "beigan-qinbitianhougong",
+  "name": "芹壁天后宮",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "北竿鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2017-06-01",
+  "address": "北竿鄉芹壁村53號",
+  "lat": 26.224149788325633,
+  "lng": 119.98244851843927,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210604000001",
+  "caseId": "20210604000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-04/949f5578-bded-4394-9bf7-6dcac058aee2/04縣定古蹟-芹壁天后宮1.jpg"
+ },
+ {
+  "id": "beigan-xiangwujianpai",
+  "name": "北竿鄉五間排",
+  "category": "歷史建築",
+  "level": "",
+  "town": "北竿鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-01-08",
+  "address": "北竿鄉橋仔村89號",
+  "lat": 26.234348592548546,
+  "lng": 119.99391588261378,
+  "open": "09:00-17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210526000005",
+  "caseId": "20210526000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-11-30/3ad6ca06-e25f-486f-b39c-5a7f0434c7c0/歷史建築-北竿鄉五間排.jpg"
+ },
+ {
+  "id": "beigan-qinbijuluojianzhu",
+  "name": "芹壁聚落建築群",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "北竿鄉",
+  "types": [
+   "漢人街庄"
+  ],
+  "announced": "2010-05-31",
+  "address": "北竿鄉芹壁村",
+  "lat": 26.2234479,
+  "lng": 119.9812799,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20100531000001",
+  "caseId": "20100531000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-04/92586470-f3d4-48d0-978f-5c69b0c49d57/11聚落建築群-芹壁聚落建築群1.jpg"
+ },
+ {
+  "id": "beigan-liangdaodaoweikao",
+  "name": "亮島島尾考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "北竿鄉",
+  "types": [],
+  "announced": "2021-06-21",
+  "address": "北竿鄉",
+  "lat": 26.344958,
+  "lng": 120.227029,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20210618000002",
+  "caseId": "20210618000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-25/d95e12b4-b676-4e38-8166-2bd2fd9ad95d/「國定亮島島尾考古遺址」照片.jpg"
+ },
+ {
+  "id": "juguang-dongquandengta",
+  "name": "東犬燈塔",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "莒光鄉",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "1988-11-11",
+  "address": "莒光鄉福正村福正段26地號",
+  "lat": 25.9677598508989,
+  "lng": 119.98571249732,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000009",
+  "caseId": "19881111000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-04-13/ff98b5b2-7c24-4b00-bef1-f235e2b7145b/東犬4.jpg"
+ },
+ {
+  "id": "juguang-dabushike",
+  "name": "大埔石刻",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "莒光鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "1988-11-11",
+  "address": "莒光鄉大坪村大坪段620地號",
+  "lat": 25.9501977042146,
+  "lng": 119.96295703711,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000010",
+  "caseId": "19881111000010",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-18/b0e129f4-b639-42af-9827-ddf3588b25dc/03縣定古蹟-大埔石刻1.jpg"
+ },
+ {
+  "id": "juguang-tianwocunwuling",
+  "name": "田沃村五靈公廟",
+  "category": "歷史建築",
+  "level": "",
+  "town": "莒光鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2016-01-08",
+  "address": "莒光鄉田沃村6號",
+  "lat": 25.976589,
+  "lng": 119.939882,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210526000006",
+  "caseId": "20210526000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-05-17/d0387ea5-e2dd-40a5-ac68-4e09734ad899/09歷史建築-西莒五靈公廟1.jpg"
+ },
+ {
+  "id": "juguang-dapujuluojianzhu",
+  "name": "大浦聚落建築群",
+  "category": "聚落建築群",
+  "level": "聚落建築群",
+  "town": "莒光鄉",
+  "types": [
+   "漢人街庄"
+  ],
+  "announced": "2010-05-31",
+  "address": "莒光鄉大坪村",
+  "lat": 25.955296705867763,
+  "lng": 119.97357170154518,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20100531000002",
+  "caseId": "20100531000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-04/ce945a2a-8b87-4f1d-9bb7-d947226c7686/12聚落建築群-大埔聚落建築群.jpg"
+ },
+ {
+  "id": "juguang-chipinglongyizhi",
+  "name": "熾坪隴遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "莒光鄉",
+  "types": [],
+  "announced": "2008-12-05",
+  "address": "莒光鄉莒光鄉大坪村大坪段771部分及771西側",
+  "lat": 25.959444,
+  "lng": 119.969722,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20210618000001",
+  "caseId": "20210618000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-25/fff5a401-facf-48c5-8053-bfd5f5799985/14遺址-東莒熾坪壟遺址.jpg"
+ },
+ {
+  "id": "dongyin-dongyongdengta",
+  "name": "東湧燈塔",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "東引鄉",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2016-06-01",
+  "address": "東引鄉連江縣東引鄉樂華村169號",
+  "lat": 26.365891,
+  "lng": 120.510739,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160601000001",
+  "caseId": "20160601000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/132486/photo/東湧燈塔.JPG"
+ },
+ {
+  "id": "dongyin-xiangliuyixiang",
+  "name": "東引鄉劉依祥宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "東引鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-01-08",
+  "address": "東引鄉樂華村36號",
+  "lat": 26.36720111249033,
+  "lng": 120.48723128962297,
+  "open": "13:00-21:00 ",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210526000004",
+  "caseId": "20210526000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-12-01/3cd63e88-4d7f-4a76-8fbf-be63447be2d9/歷史建築-東引鄉劉依祥宅.png"
+ }
+]
