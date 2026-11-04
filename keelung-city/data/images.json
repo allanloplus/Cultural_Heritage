@@ -330,7 +330,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%99%E6%B4%9E%E9%9A%A7%E9%81%93.jpg",
    "artist": "寺人孟子",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-xiandongsuidao-0.webp",
+   "small": "img/zhongshan-xiandongsuidao-0-s.webp"
   }
  ],
  "zhongshan-zhannanbeihaozhi": [
@@ -340,7 +342,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:2022%E5%B9%B4%E7%9A%84%E5%8C%97%E8%99%9F%E8%AA%8C%E6%A8%93.jpg",
    "artist": "Mrmarkertw",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-zhannanbeihaozhi-0.webp",
+   "small": "img/zhongshan-zhannanbeihaozhi-0-s.webp"
   }
  ],
  "zhongshan-jiangangjinianbei": [
@@ -350,7 +354,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%9F%BA%E9%9A%86%E7%AF%89%E6%B8%AF%E6%AE%89%E8%81%B7%E8%80%85%E7%B4%80%E5%BF%B5%E7%A2%9120221_04.jpg",
    "artist": "Mrmarkertw",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-jiangangjinianbei-0.webp",
+   "small": "img/zhongshan-jiangangjinianbei-0-s.webp"
   }
  ],
  "zhongshan-gaoyuanxincungang": [
@@ -360,7 +366,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E4%BF%AE%E5%BE%A9%E5%BE%8C%E7%9A%84%E5%9F%BA%E9%9A%86%E9%AB%98%E9%81%A0%E6%96%B0%E6%9D%91%E6%B8%AF%E5%8B%99%E5%B1%80%E5%B1%80%E9%95%B7%E5%AE%98%E8%88%8D_04.jpg",
    "artist": "Mrmarkertw",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "local": "img/zhongshan-gaoyuanxincungang-0.webp",
+   "small": "img/zhongshan-gaoyuanxincungang-0-s.webp"
   }
  ],
  "zhongshan-xiandongyan": [
@@ -370,7 +378,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%99%E6%B4%9E%E5%B7%96%E5%B1%B1%E9%96%80.jpg",
    "artist": "Outlookxp",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-xiandongyan-0.webp",
+   "small": "img/zhongshan-xiandongyan-0-s.webp"
   }
  ],
  "anle-dawulunpaotai": [
@@ -380,7 +390,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%AD%A6%E5%B4%99%E7%A0%B2%E5%8F%B0_-_panoramio.jpg",
    "artist": "Liu Dyson",
    "license": "CC BY 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "local": "img/anle-dawulunpaotai-0.webp",
+   "small": "img/anle-dawulunpaotai-0-s.webp"
   }
  ],
  "nuannuan-jingshuichangbang": [
@@ -390,7 +402,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9A%96%E6%9A%96%E6%B7%A8%E6%B0%B4%E5%A0%B4%E5%B9%AB%E6%B5%A6%E9%96%93.jpg",
    "artist": "Honmingjun",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/nuannuan-jingshuichangbang-0.webp",
+   "small": "img/nuannuan-jingshuichangbang-0-s.webp"
   }
  ],
  "nuannuan-jingshuichang": [
@@ -400,7 +414,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E6%9A%96%E6%9A%96%E6%B7%A8%E6%B0%B4%E5%A0%B4%E5%B9%AB%E6%B5%A6%E9%96%93.jpg",
    "artist": "Honmingjun",
    "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "img/nuannuan-jingshuichang-0.webp",
+   "small": "img/nuannuan-jingshuichang-0-s.webp"
   }
  ],
  "qidu-malingkengshitou": [
@@ -410,7 +426,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:2019_MaLingKeng_Stone_House_Qidu_District.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/qidu-malingkengshitou-0.webp",
+   "small": "img/qidu-malingkengshitou-0-s.webp"
   }
  ]
 }
