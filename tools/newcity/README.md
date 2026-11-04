@@ -80,6 +80,7 @@ python3 tools/newcity/fetch_sources.py 高雄市
 - **地圖**：
   - `center`、`zoom`：stats.txt 有座標中位數。
   - `minZoom`、`detailZoom`、`timeZoom`。
+  - `fitSites: true`（選用）：文資地圖與行程地圖一開始就縮放到涵蓋全部景點。有離島、範圍很廣的縣市（例如臺東要同時看到綠島、蘭嶼）才需要，必要時把 `minZoom` 調小一級。
 - **categories**：照 stats.txt 的類別，順序是國定古蹟 → 市定（縣定）古蹟 → 歷史建築 → 紀念建築 → 聚落建築群 → 考古遺址 → 文化景觀。
 - **towns**：全部行政區，依地理順序排，這會決定 agent 分組。
 - **YouBike**：

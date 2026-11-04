@@ -455,8 +455,12 @@
   }
 
   A.register("plan", { show: function () {
+    var first = !inited;
     if (!inited) { inited = true; initUI(); initMap(); }
-    setTimeout(function () { pmap.invalidateSize(); }, 60);
+    setTimeout(function () {
+      pmap.invalidateSize();
+      if (first && A.CFG.fitSites && A.sites.length && !plan) pmap.fitBounds(L.latLngBounds(A.sites.map(function (s) { return [s.lat, s.lng]; })).pad(0.05), { maxZoom: A.CFG.zoom });
+    }, 60);
   } });
 
   window.Planner = {
