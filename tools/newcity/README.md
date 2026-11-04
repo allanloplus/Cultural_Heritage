@@ -86,6 +86,8 @@ python3 tools/serve.py 8766 &
 
 **先合併第二網站，再合併第一網站。** 反過來的話，入口頁會先出現連結，點進去卻是 404。兩個 PR 都由使用者合併；session 不要自己合併。
 
+**等第二網站部署成功，再合併第一網站。** 合併第二網站的 PR 只是更新 `main`，網站要等 GitHub Pages 部署完成才會上線。部署可能逾時失敗（見〈發布流程〉第 5 步），這時第一網站若已合併，入口頁就會出現連結與照片，點進去卻是 404。臺中市就發生過這種情形（2026/11/4）。
+
 兩個 repo 的 Settings → Pages 都已設定 Deploy from a branch → `main` / `(root)`，自訂網域分別是 `cultural.123hi.org`、`cultural2.123hi.org`（2026/11/4 設定）。各 repo 根目錄的 `CNAME` 是 GitHub 依這個設定產生的，**不要刪除或修改**；合併 main 時保留它。
 
 ## 流程總覽
@@ -336,6 +338,19 @@ NODE_PATH=$(npm root -g) node tools/newcity/tests/portal.js
    - 用 merge，不要 rebase 後 force push。
 3. 建立 PR：從工作分支到 `main`，標題例如「新增金門縣」。內文列出數量、測試結果、需要使用者確認的判斷。第二網站的縣市在兩個 repo 各開一個，並在回報中寫明**先合併 Cultural_Heritage2、再合併 Cultural_Heritage**。
 4. **使用者在 GitHub 按下合併**後，`main` 更新，網站約 1～2 分鐘後上線。session 不要自己合併 PR。
+5. **確認部署成功，不能只看 PR 已合併**：
+   - **看 Actions**：repo 的 Actions →「pages build and deployment」最新一次，build、report-build-status、deploy 三項都要是綠勾。
+   - **開網址**：用網址實際打開新縣市頁、`js/data.js`、`audio/cues.js` 與入口頁卡片的代表照片，都要是 200。例如：
+
+     ```bash
+     for u in taichung-city/ taichung-city/js/data.js taichung-city/audio/cues.js; do curl -s -o /dev/null -w "$u %{http_code}\n" https://cultural2.123hi.org/$u; done
+     ```
+
+   - **deploy 逾時**：Actions 的 deploy 一直顯示「Current status: updating_pages」，10 分鐘後「Timeout reached, aborting!」並取消，網站維持舊版。這是 GitHub 端的問題，網站檔案沒有錯。依序處理：
+     1. 請使用者到該次執行按「Re-run all jobs」。
+     2. 仍卡在排隊（queued）不動時，開一個小 PR（例如更新第二網站 README 的開放縣市清單）請使用者合併，`main` 有新提交就會觸發全新的部署。
+     3. **不要用 API 的 rerun 重跑**：臺中市那次用 API 重跑後一直卡在 queued，也無法取消。
+   - **第二網站的縣市**：第二網站部署成功、網址都打得開，再請使用者合併第一網站的 PR。
 
 PR 同時是變更紀錄：每個縣市何時上線、改了什麼，都查得到。
 
@@ -429,6 +444,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 | 第二網站的縣市頁在本機預覽時用到線上的舊程式 | 用了 `python3 -m http.server` 或直接開資料夾，頁面會載入正式網址 `https://cultural.123hi.org/assets/…`。用 `tools/serve.py`（會把正式網址換成本機路徑），網址要有 `/Cultural_Heritage2/` |
 | 工具說找不到第二網站的 clone | 還沒掛載 `Cultural_Heritage2`，或 clone 不在本 repo 旁邊；掛載後 clone 到 `/home/user/Cultural_Heritage2`，或設 `CH2_DIR` |
 | 第二網站的縣市寫到第一網站 | `cities.js` 沒有這個縣市、`SITE2` 也沒列，且資料夾還不存在。先把 `config.json` 建在第二網站的 clone，或在 `cities.js` 補上 `site: 2` |
+| PR 已合併，網站卻是 404（入口頁新縣市的照片也破圖） | GitHub Pages 的 deploy 逾時失敗（「updating_pages」10 分鐘後取消），網站維持舊版。每次部署都會上傳整個網站，第二網站做完臺北市、新北市後會到 600 MB 左右，逾時可能變多。處理方式見〈發布流程〉第 5 步。如果逾時變成常態，可考慮把 Settings → Pages 的 Source 改成「GitHub Actions」，用自訂工作流程的 `actions/deploy-pages` 把 `timeout` 調長（要由使用者決定） |
 | 官方說明年號與西元對不上 | 金門的官方資料常見這種矛盾（例如「民國元年（1911）」），請 agent 不寫有矛盾的數字，並在回報中列出 |
 
 ## 驗收清單
@@ -442,6 +458,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 - [ ] `config.board`、`extra.reactions`、行程提醒、午餐與晚上建議都是這個縣市的內容
 - [ ] 沒有簡體字（`validate.py` 會檢查）、沒有 Email、沒有私人門牌
 - [ ] `size_report.py` 已執行，該網站的容量紀錄表已加一列；沒有越過 700 MB，或已經問過使用者
+- [ ] 合併後 Actions 的「pages build and deployment」全綠，新縣市頁、資料、語音與入口頁照片的網址都是 200（第二網站的縣市：第二網站確認上線後才合併第一網站）
 - [ ] 根目錄 README 已更新；全部已提交並推送到工作分支，並已建立合併到 `main` 的 PR（第二網站的縣市：兩個 PR，並告訴使用者先合併 Cultural_Heritage2）
 
 ## 產生縣市交接提示詞
@@ -523,7 +540,7 @@ python3 tools/newcity/size_report.py --next <有形＋無形數> --city 臺北�
 - 這個縣市放第二網站：用 add_repo 掛載 allanloplus/Cultural_Heritage2（access: push），照工具指示 clone 到 /home/user/Cultural_Heritage2，先讀手冊〈兩個網站〉。縣市資料夾（含 config.json）放在 Cultural_Heritage2；cities.js、入口頁問候語與語音、README、容量紀錄改在 Cultural_Heritage。
 - 兩個 repo 都從 main 開始，在這個 session 指定的工作分支開發與推送；不要直接推送到任何 main，也不要自己建立 repo。每完成一個階段推送一次，語音合成期間約每 30 分鐘一次。
 - 預覽與測試用 python3 tools/serve.py 8766（網址要有 /Cultural_Heritage2/〈slug〉/）；city_smoke.js、cues_all.js、portal.js 都要通過。
-- 完成並測試通過後，兩個 repo 都照手冊〈發布流程〉合併 main 的最新內容，在第二網站的容量紀錄表加一列，然後建立兩個 PR（我同意建立 PR）：縣市資料夾的 PR 開在 Cultural_Heritage2，cities.js 等的 PR 開在 Cultural_Heritage；回報時寫明先合併 Cultural_Heritage2、再合併 Cultural_Heritage。
+- 完成並測試通過後，兩個 repo 都照手冊〈發布流程〉合併 main 的最新內容，在第二網站的容量紀錄表加一列，然後建立兩個 PR（我同意建立 PR）：縣市資料夾的 PR 開在 Cultural_Heritage2，cities.js 等的 PR 開在 Cultural_Heritage；回報時寫明先合併 Cultural_Heritage2，等第二網站部署成功（Actions 全綠、新縣市網址打得開）再合併 Cultural_Heritage；我合併後請檢查部署，逾時就照手冊〈發布流程〉第 5 步處理。
 ```
 
 ```text
