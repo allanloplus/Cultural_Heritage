@@ -2,10 +2,10 @@
 
 GitHub Pages 每個網站上限 1 GB，所以縣市分放兩個 repo（見 tools/newcity/README.md〈兩個網站〉）：
   第一網站 allanloplus/Cultural_Heritage   https://cultural.123hi.org/（自訂網域，CNAME）  （本 repo，共用程式、工具都在這裡）
-  第二網站 allanloplus/Cultural_Heritage2  https://allanloplus.github.io/Cultural_Heritage2/  （只放縣市資料夾）
+  第二網站 allanloplus/Cultural_Heritage2  https://cultural2.123hi.org/（自訂網域，CNAME）  （只放縣市資料夾）
 
 哪個縣市放哪裡、兩個網站的正式網址，都以 assets/js/cities.js 為準：清單裡的 site 欄位（沒寫的依 SITE2 那一行），以及 SITES 那一行。
-  第一網站用自訂網域 https://cultural.123hi.org/（repo 的 CNAME）；第二網站 https://allanloplus.github.io/Cultural_Heritage2/。
+  第一網站用自訂網域 https://cultural.123hi.org/（repo 的 CNAME）；第二網站用自訂網域 https://cultural2.123hi.org/。
 第二網站 clone 的位置：環境變數 CH2_DIR，沒設就用本 repo 旁邊的 Cultural_Heritage2（例如 /home/user/Cultural_Heritage2）。
 
 第二網站的縣市頁用第一網站的完整網址載入共用程式（tools/city_template.html 的 {{root}}）；

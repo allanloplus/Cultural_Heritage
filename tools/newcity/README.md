@@ -46,14 +46,14 @@ python3 tools/serve.py 8766 &
 | 網站 | repo | 網址 | 放什麼 |
 |---|---|---|---|
 | 第一網站 | `allanloplus/Cultural_Heritage`（本 repo） | https://cultural.123hi.org/（自訂網域，repo 的 `CNAME`；舊網址 allanloplus.github.io/Cultural_Heritage/ 會轉過去） | 全站首頁、共用程式 `assets/`、全部工具 `tools/`、本手冊；嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、金門縣、宜蘭縣、花蓮縣、連江縣、澎湖縣、基隆市 |
-| 第二網站 | `allanloplus/Cultural_Heritage2` | https://allanloplus.github.io/Cultural_Heritage2/ | 只放縣市資料夾：臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣（依 2026/11/1 資料約 1,787 處、約 610 MB） |
+| 第二網站 | `allanloplus/Cultural_Heritage2` | https://cultural2.123hi.org/（自訂網域，repo 的 `CNAME`；舊網址 allanloplus.github.io/Cultural_Heritage2/ 會轉過去） | 只放縣市資料夾：臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣（依 2026/11/1 資料約 1,787 處、約 610 MB） |
 
 ### 怎麼運作
 
 - **縣市在哪個網站**：以 `assets/js/cities.js` 為準。清單裡每筆可設 `site: 2`；沒設的依 `SITE2` 那一行（上表第二網站的 9 個縣市）。入口頁卡片、地圖小卡、右上角選單與縣市頁的「切換縣市」都用 `SiteCities.href()`／`imgSrc()` 連到正確的網站。
 - **共用程式只有一份**：第二網站的縣市頁由 `build_data.py` 依 `tools/city_template.html` 產生，`{{root}}` 會換成第一網站的網址 `https://cultural.123hi.org/`，所以 CSS、JS、角色圖、`cities.js` 都從第一網站載入，「全站首頁」連到第一網站。第一網站的縣市仍是 `../`，頁面和以前一模一樣。`app.js` 的替代圖與關於頁角色圖依載入路徑自動判斷。
 - **代表照片**：第二網站縣市在 `cities.js` 的 `img` 寫相對於第二網站根目錄的路徑（例如 `taipei-city/img/xxx-0.webp`），會自動加上第二網站的網址。
-- **網址設定**：兩個網站的正式網址寫在 `cities.js` 的 `SITES` 那一行（第一網站 `https://cultural.123hi.org/`、第二網站 `https://allanloplus.github.io/Cultural_Heritage2/`），`tools/sites.py` 也讀這一行。換網域（例如第二網站也設自訂網域）只要改這一行，再跑 `build_data.py`。
+- **網址設定**：兩個網站的正式網址寫在 `cities.js` 的 `SITES` 那一行（第一網站 `https://cultural.123hi.org/`、第二網站 `https://cultural2.123hi.org/`），`tools/sites.py` 也讀這一行。換網域只要改這一行，再跑 `build_data.py`。
 - **護照**：兩個網站網域不同，localStorage 不共用；每個縣市本來就各有一本護照（`cy.<slug>.passport`），所以只差在語音速度等偏好要各設一次。
 - **工具**：`build_data.py`、`gen_audio.py`、`fetch_images.py` 與 `tools/newcity/*` 只放在第一網站，透過 `tools/sites.py` 讀寫第二網站的 clone。用法完全相同，例如 `python3 tools/gen_audio.py taipei-city`、`python3 tools/fetch_images.py taipei-city`。`build_data.py` 會一次處理兩個網站，`tools/script.json` 裡第二網站的 group 會多一個 `"site": 2`。
 - **第二網站 clone 的位置**：預設是本 repo 旁邊的 `Cultural_Heritage2`（例如 `/home/user/Cultural_Heritage2`），否則用環境變數 `CH2_DIR` 指定。`python3 tools/sites.py` 會印出兩個網站的位置與各自的縣市。
@@ -86,7 +86,7 @@ python3 tools/serve.py 8766 &
 
 **先合併第二網站，再合併第一網站。** 反過來的話，入口頁會先出現連結，點進去卻是 404。兩個 PR 都由使用者合併；session 不要自己合併。
 
-第二網站第一次上線前，使用者要在 Cultural_Heritage2 的 Settings → Pages 設定 Deploy from a branch → `main` / `(root)`（只要設一次）。
+兩個 repo 的 Settings → Pages 都已設定 Deploy from a branch → `main` / `(root)`，自訂網域分別是 `cultural.123hi.org`、`cultural2.123hi.org`（2026/11/4 設定）。各 repo 根目錄的 `CNAME` 是 GitHub 依這個設定產生的，**不要刪除或修改**；合併 main 時保留它。
 
 ## 流程總覽
 

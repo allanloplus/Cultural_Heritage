@@ -53,9 +53,9 @@
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68, site: 2 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
-  /* 各網站的正式網址。第一網站用自訂網域（repo 的 CNAME），第二網站用 GitHub Pages 網址；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
+  /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
      第一網站自己的縣市仍用相對路徑，行為與以前相同。本機預覽（tools/serve.py）時改用 /Cultural_Heritage/、/Cultural_Heritage2/ */
-  var SITES = { 1: "https://cultural.123hi.org/", 2: "https://allanloplus.github.io/Cultural_Heritage2/" };
+  var SITES = { 1: "https://cultural.123hi.org/", 2: "https://cultural2.123hi.org/" };
   if (root.location && /^(localhost|127\.0\.0\.1)$/.test(root.location.hostname)) SITES = { 1: "/Cultural_Heritage/", 2: "/Cultural_Heritage2/" };
   /* 放第二網站的縣市（含尚未列在上面的）：清單裡沒寫 site 的縣市依這一行決定。tools/sites.py 也讀這一行與上面的 site 欄位，請保持一行寫完 */
   var SITE2 = ["臺北市", "新北市", "桃園市", "新竹市", "新竹縣", "苗栗縣", "臺中市", "彰化縣", "南投縣"];

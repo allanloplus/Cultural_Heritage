@@ -7,7 +7,7 @@
 
 目前開放 **嘉義市**（`chiayi-city/`）、**嘉義縣**（`chiayi-county/`）、**雲林縣**（`yunlin-county/`）、**臺南市**（`tainan-city/`）、**高雄市**（`kaohsiung-city/`）、**屏東縣**（`pingtung-county/`）、**臺東縣**（`taitung-county/`）、**澎湖縣**（`penghu-county/`）、**金門縣**（`kinmen-county/`）、**宜蘭縣**（`yilan-county/`）、**花蓮縣**（`hualien-county/`）、**基隆市**（`keelung-city/`）與 **連江縣（馬祖）**（`lienchiang-county/`）。每個縣市各有一個資料夾，網頁程式全部共用；新增縣市只要準備資料（見下方「新增縣市」）。
 
-GitHub Pages 每個網站上限 1 GB，所以網站分成兩個 repo：本 repo（第一網站，https://cultural.123hi.org/，舊網址 allanloplus.github.io/Cultural_Heritage/ 會自動轉過去）放全站首頁、共用程式、工具與上面 13 個縣市；臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣放 [第二網站 allanloplus/Cultural_Heritage2](https://github.com/allanloplus/Cultural_Heritage2)（https://allanloplus.github.io/Cultural_Heritage2/）。第二網站只放縣市資料夾，縣市頁從第一網站載入共用程式；入口頁、選單會自動連到正確的網站。兩個網站網域不同，各縣市的護照與紀錄存在各自網站的瀏覽器裡（每個縣市本來就各有一本護照）。詳見作業手冊〈兩個網站〉。
+GitHub Pages 每個網站上限 1 GB，所以網站分成兩個 repo：本 repo（第一網站，https://cultural.123hi.org/，舊網址 allanloplus.github.io/Cultural_Heritage/ 會自動轉過去）放全站首頁、共用程式、工具與上面 13 個縣市；臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣放 [第二網站 allanloplus/Cultural_Heritage2](https://github.com/allanloplus/Cultural_Heritage2)（https://cultural2.123hi.org/）。第二網站只放縣市資料夾，縣市頁從第一網站載入共用程式；入口頁、選單會自動連到正確的網站。兩個網站網域不同，各縣市的護照與紀錄存在各自網站的瀏覽器裡（每個縣市本來就各有一本護照）。詳見作業手冊〈兩個網站〉。
 
 ## 網站內容
 
