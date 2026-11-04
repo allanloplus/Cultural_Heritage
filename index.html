@@ -39,7 +39,19 @@
   .feat div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
   .feat h3 { font-size: 1.1rem; margin-bottom: 4px; }
   .feat p { font-size: .9rem; color: var(--muted); }
-  .pin { width: 26px; height: 26px; border-radius: 50% 50% 50% 0; background: var(--c, #999); transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); }
+  /* 入口頁地圖：小圓點＋自動避讓的短標籤，點了跳出小卡 */
+  .map-hint { font-size: .85rem; color: var(--muted); margin: -6px 0 8px; }
+  .dot { display: block; width: 14px; height: 14px; border-radius: 50%; background: #df6f57; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); cursor: pointer; }
+  .dot.soon { width: 10px; height: 10px; background: #9b8f84; border-width: 1.5px; }
+  .leaflet-tooltip.city-tip { font-family: var(--f-body); font-size: 12px; font-weight: 700; line-height: 1.35; padding: 1px 7px; border-radius: 10px; border: 1px solid #e6cdbf; color: #8a3b28; background: rgba(255,252,247,.94); box-shadow: 0 1px 3px rgba(0,0,0,.18); cursor: pointer; pointer-events: auto; }
+  .leaflet-tooltip.city-tip::before { display: none; }
+  .leaflet-tooltip.city-tip.soon { color: #6f655d; font-weight: 500; pointer-events: none; }
+  .leaflet-tooltip.city-tip.tt-hide { visibility: hidden; }
+  .mp { display: grid; gap: 4px; width: 190px; }
+  .mp img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; }
+  .mp b { font-family: var(--f-display); font-size: 1.05rem; }
+  .mp span { font-size: .8rem; color: var(--muted); }
+  .mp .btn { justify-self: start; margin-top: 2px; color: #fff; }
   @media (max-width: 860px) {
     .p-grid, .p-two { grid-template-columns: 1fr; }
     .p-copy { padding-bottom: 0; }
@@ -75,7 +87,7 @@
 
     <h2 class="t" id="cities">選一座城市</h2>
     <div class="p-two">
-      <div id="twmap" role="application" aria-label="臺灣城市地圖"></div>
+      <div><p class="map-hint">點地圖上的紅點或縣市名稱就能出發；灰點是籌備中的縣市。縣市名稱放不下時會先隱藏，放大地圖就會出現。</p><div id="twmap" role="application" aria-label="臺灣城市地圖"></div></div>
       <div class="cities" id="cityList"></div>
     </div>
 
@@ -91,7 +103,7 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <span>規劃設計：Allan Lo，2026/11/1　｜　使用 AI 工具：Claude Opus 5.5</span>
+    <span>規劃設計：Allan Lo，<a href="https://www.123hi.org" target="_blank" rel="noopener">https://www.123hi.org</a>，2026年11月　｜　使用 AI 工具：Claude Opus 5.5</span>
     <span>底圖：內政部國土測繪中心・OpenStreetMap</span>
   </div>
 </footer>
@@ -132,14 +144,51 @@
   fitAll();
   window.addEventListener("resize", function () { clearTimeout(fitAll.t); fitAll.t = setTimeout(function () { map.invalidateSize(); fitAll(); }, 200); });
   L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 18, attribution: "&copy; 內政部國土測繪中心" }).addTo(map);
-  var narrow = document.getElementById("twmap").clientWidth < 600;  // 手機：澎湖夾在金門與嘉義、臺南之間，標籤只寫縣名
-  map.createPane("pinTop"); map.getPane("pinTop").style.zIndex = 660;  // 澎湖的標記在臺南、嘉義標籤之間，放在標籤上層才看得到
-  CITIES.forEach(function (c) {
-    /* 西邊與最北邊的離島（金門、馬祖）標籤放右邊，手機上才不會被切掉；澎湖（tip: "left"）放左邊的海上，才不會壓到嘉義、臺南；基隆（tip: "right"）放右邊的海上，才不會和宜蘭疊在一起 */
-    var m = L.marker([c.lat, c.lng], { pane: c.tip ? "pinTop" : "markerPane", icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })
-      .bindTooltip((c.label || c.name) + (c.tip && narrow ? "" : c.on ? (c.label ? "・點我出發" : "（點我出發）") : "（籌備中）"), c.tip === "left" ? { direction: "left", permanent: !!c.on, offset: [-16, -13], className: "tip-left" } : c.tip === "right" || c.lng < 119.6 || c.lat > 25.9 ? { direction: "right", permanent: !!c.on, offset: [18, -13] } : { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
-    if (c.on) m.on("click", function () { location.href = c.slug + "/"; });
+  /* 縣市標記：小圓點＋短標籤。標籤依序嘗試右、左、上、下，避開其他標籤與圓點；放不下就先隱藏（放大地圖或滑鼠移到圓點上才出現）。
+     點圓點或標籤會跳出小卡，按「開始逛」才進入縣市，手機上不會誤觸。 */
+  var DIRS = ["right", "left", "top", "bottom"], OFF = { right: [9, 0], left: [-9, 0], top: [0, -9], bottom: [0, 9] };
+  function card(c) {
+    if (!c.on) return '<div class="mp"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中，敬請期待</span></div>';
+    return '<div class="mp"><img src="' + esc(c.img) + '" alt="' + esc(c.label || c.name) + '"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '</span><a class="btn btn-primary btn-sm" href="' + c.slug + '/">開始逛 ›</a></div>';
+  }
+  var items = CITIES.map(function (c) {
+    var sz = c.on ? 14 : 10;
+    var m = L.marker([c.lat, c.lng], { icon: L.divIcon({ className: "", html: '<span class="dot' + (c.on ? "" : " soon") + '"></span>', iconSize: [sz, sz], iconAnchor: [sz / 2, sz / 2] }), title: c.label || c.name, alt: c.label || c.name, riseOnHover: true })
+      .bindPopup(card(c), { autoPanPadding: [16, 16] })
+      .bindTooltip((c.mapLabel || c.name) + (c.on ? "" : "（籌備中）"), { permanent: !!c.on, direction: c.tip || "right", offset: OFF[c.tip || "right"], className: "city-tip" + (c.on ? "" : " soon") })
+      .addTo(map);
+    var it = { c: c, m: m };
+    if (c.on) {
+      var el = m.getTooltip().getElement();
+      L.DomEvent.disableClickPropagation(el);  // 不讓點擊傳到地圖，否則地圖會立刻把小卡關掉
+      L.DomEvent.on(el, "click", function () { m.openPopup(); });
+      m.on("mouseover", function () { el.classList.remove("tt-hide"); });
+      m.on("mouseout", function () { if (it.hidden) el.classList.add("tt-hide"); });
+    }
+    return it;
   });
+  function hit(a, b, pad) { return a.left < b.right + pad && b.left < a.right + pad && a.top < b.bottom + pad && b.top < a.bottom + pad; }
+  function declutter() {
+    var box = map.getContainer().getBoundingClientRect(), placed = [];
+    var dots = items.map(function (it) { return it.m.getElement().getBoundingClientRect(); });
+    items.forEach(function (it, i) {
+      if (!it.c.on) return;
+      var t = it.m.getTooltip(), el = t.getElement();
+      var order = [it.c.tip || "right"].concat(DIRS.filter(function (d) { return d !== (it.c.tip || "right"); }));
+      el.classList.remove("tt-hide");
+      var ok = order.some(function (d) {
+        t.options.direction = d; t.options.offset = OFF[d]; t.update();
+        var r = el.getBoundingClientRect();
+        var inside = r.left > box.left + 2 && r.right < box.right - 2 && r.top > box.top + 2 && r.bottom < box.bottom - 18;
+        return inside && !placed.some(function (p) { return hit(p, r, 2); }) && !dots.some(function (q, j) { return j !== i && hit(q, r, 1); });
+      });
+      if (ok) placed.push(el.getBoundingClientRect());
+      else { t.options.direction = order[0]; t.options.offset = OFF[order[0]]; t.update(); el.classList.add("tt-hide"); }
+      it.hidden = !ok;
+    });
+  }
+  map.on("zoomend moveend resize", function () { clearTimeout(declutter.t); declutter.t = setTimeout(declutter, 60); });
+  setTimeout(declutter, 0);
 })();
 </script>
 </body>

@@ -327,7 +327,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 - **Email**：使用者的 Email 只用來辨識使用者，**絕不可**放進 User-Agent、網址、檔案或任何對外請求。User-Agent 一律用 `AllanLoCultureSite/1.0 (https://github.com/allanloplus/Cultural_Heritage)`。
 - **個資**：私人宅第只寫到路名或里名；不公開保存者的住家地址、電話、身分證字號。
 - **版權**：照片只用 CC 或公有領域，並標示作者與授權；有疑慮就用連結。
-- **頁尾署名**：網站的設計者署名「規劃設計：Allan Lo, 2026/11/1，使用 AI 工具：Claude Opus 5.5」由 `build_data.py` 寫入，不要改。
+- **頁尾署名**：「規劃設計：Allan Lo，https://www.123hi.org，2026年11月｜使用 AI 工具：Claude Opus 5.5」寫在 `tools/city_template.html`、入口頁 `index.html` 與 `assets/js/city/app.js`（關於頁），網址要能點；不要改。
 - **Git**：
   - 網站從 `main` 分支發布。**不要直接推送到 `main`**，在 session 指定的工作分支開發，完成後建立 PR，由使用者合併（見〈發布流程〉）。
   - 推送節奏：每完成一個階段推送一次；語音合成期間約每 30 分鐘一次，不要每幾分鐘推送。
