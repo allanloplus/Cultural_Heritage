@@ -25,7 +25,10 @@ fs.mkdirSync(OUT, { recursive: true });
     }));
     console.log((mobile ? '手機' : '桌機') + ' 標籤：' + info.labels.join('、'));
     if (!mobile) console.log('開放縣市：' + info.open.map(c => c[0] + (c[1] > 1 ? '（第' + c[1] + '網站）' : '')).join('、'));
-    await page.screenshot({ path: `${OUT}/portal-map${sfx}.png`, fullPage: false, clip: undefined });
+    // 入口頁改版後地圖不在第一屏：捲到地圖再只截地圖本身
+    await page.$eval('#twmap', e => e.scrollIntoView({ block: 'center' }));
+    await page.waitForTimeout(800);
+    await (await page.$('#twmap')).screenshot({ path: `${OUT}/portal-map${sfx}.png` });
     await page.$eval('#cities', e => e.scrollIntoView());
     await page.waitForTimeout(500);
     await page.screenshot({ path: `${OUT}/portal-cities${sfx}.png` });
