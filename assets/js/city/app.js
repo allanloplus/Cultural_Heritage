@@ -101,12 +101,15 @@
   }
 
   /* ---------- 底圖 ---------- */
+  /* config.noPhotoBase：國土測繪中心正射影像沒有涵蓋的縣市（例如馬祖），底圖選單不列正射影像 */
   function baseLayers() {
-    return {
+    var bl = {
       "通用電子地圖（國土測繪中心）": L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 20, maxNativeZoom: 19, className: "base-layer", attribution: '&copy; <a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a>' }),
       "OpenStreetMap": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 20, maxNativeZoom: 19, className: "base-layer", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors' }),
       "正射影像（國土測繪中心）": L.tileLayer("https://wmts.nlsc.gov.tw/wmts/PHOTO2/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 20, maxNativeZoom: 19, className: "base-layer", attribution: '&copy; 內政部國土測繪中心' })
     };
+    if (CFG.noPhotoBase) delete bl["正射影像（國土測繪中心）"];
+    return bl;
   }
   function pinIcon(cat, on, label) {
     var c = CAT[cat] || CAT["歷史建築"];
@@ -187,6 +190,8 @@
         .on("click", function () { location.hash = "#map/" + s.id; });
       m.addTo(map); markers[s.id] = m;
     });
+    /* config.fitSites：景點分散在多座島（例如馬祖四鄉五島），初始畫面縮放到看得到全部景點 */
+    if (CFG.fitSites && SITES.length) map.fitBounds(L.latLngBounds(SITES.map(function (s) { return [s.lat, s.lng]; })), { padding: [24, 24] });
     // 無形文化資產與古物展示地點
     venueLayer = L.layerGroup().addTo(map);
     (CY.ich.venues || []).forEach(function (v) {
@@ -409,7 +414,7 @@
       '<li>清單比對：<a href="' + esc(CFG.wiki.url) + '" target="_blank" rel="noopener">' + esc(CFG.wiki.title) + '</a>。</li>' +
       (Object.keys(CFG.eras || {}).some(function (k) { return (CFG.eras[k].layers || []).some(function (l) { return l !== "photo"; }); }) ?  // 沒有用到中研院圖層的縣市（例如金門）不列
       '<li>時光地圖老地圖圖磚：<a href="https://gis.sinica.edu.tw/tileserver/" target="_blank" rel="noopener">中央研究院人社中心 臺灣百年歷史地圖</a>（1904 臺灣堡圖、1921 地形圖、1945 美軍城市圖、1950／1957–1969 地形圖、1966 Corona 衛星影像）。</li>' : "") +
-      '<li>底圖：<a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 通用電子地圖與正射影像、<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>。</li>' +
+      '<li>底圖：<a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 通用電子地圖' + (CFG.noPhotoBase ? "" : "與正射影像") + '、<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>。</li>' +
       '<li>路線規劃：<a href="https://routing.openstreetmap.de/" target="_blank" rel="noopener">FOSSGIS OSRM 路線服務</a>（OpenStreetMap 資料）；連線失敗時改以直線距離估算。</li>' +
       (CFG.ubikeUrl ? '<li>YouBike 2.0 ' + esc(CFG.name) + '站點：<a href="' + esc(CFG.ubikeUrl) + '" target="_blank" rel="noopener">YouBike 微笑單車</a> 官方站點資料（站點快照 ' + esc((CY.ubike && CY.ubike.meta.snapshot) || "") + '；即時車輛於網頁上查詢）。</li>' : "") +
       (CY.eras.length ? '<li>時光地圖各時期內容參考：' + uniqueSources().map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>'; }).join("、") + '。</li>' : "") +

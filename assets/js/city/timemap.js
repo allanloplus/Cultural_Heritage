@@ -124,7 +124,7 @@
     if (sel) { sel.onchange = apply; opEl.oninput = function () { if (overlay) overlay.setOpacity(+this.value); }; }
     if (swEl) swEl.onchange = function () { swipeOn = this.checked; $("#swipe").hidden = !swipeOn; if (swipeOn && opEl && +opEl.value < 1) { opEl.value = 1; if (overlay) overlay.setOpacity(1); } clip(); };
     if (wEl) wEl.onchange = function () { if (this.checked) drawWall(false); else wallLayer.clearLayers(); };
-    if (conf.layers.length) apply(); else { setOverlay(null); $("#tmLabel").textContent = "示意：" + (ERAS[eraIdx] ? ERAS[eraIdx].name : ""); }
+    if (conf.layers.length) apply(); else { setOverlay(null); $("#tmLabel").textContent = (conf.paper ? "示意：" + (ERAS[eraIdx] ? ERAS[eraIdx].name : "") : "現在的" + A.CFG.name); }
   }
 
   function showEra(i) {

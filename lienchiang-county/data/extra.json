@@ -1,0 +1,270 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！這一站我們來到臺灣最北邊的縣，連江縣，大家比較熟悉的名字是馬祖列島。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！馬祖不是離中國大陸福建很近的那一串小島嗎？我們要搭飛機還是搭船？"
+  },
+  {
+   "who": "A",
+   "text": "都可以！從臺北飛南竿或北竿，或是從基隆搭臺馬輪過夜。到了以後，島和島之間就靠交通船跳島。"
+  },
+  {
+   "who": "R",
+   "text": "那馬祖有幾處文化資產？"
+  },
+  {
+   "who": "A",
+   "text": "一共15處，分布在南竿、北竿、莒光、東引四鄉五島，數量不多，但每一處都很有故事。"
+  },
+  {
+   "who": "R",
+   "text": "我知道！有清朝末年蓋的東犬燈塔和東湧燈塔，還有用花崗岩疊起來的閩東石頭屋，像芹壁和津沙聚落。"
+  },
+  {
+   "who": "A",
+   "text": "還有八千多年前的亮島人，和明朝1617年刻在東莒岩石上的大埔石刻。不過亮島是軍事管制區，一般人不能上島。"
+  },
+  {
+   "who": "R",
+   "text": "馬祖也當過很久的戰地前線，到處都是坑道和據點吧？"
+  },
+  {
+   "who": "A",
+   "text": "對，那是軍民一起走過的艱苦歲月。參觀時放輕腳步；很多石頭屋現在還有人住，在外面欣賞就好。"
+  },
+  {
+   "who": "R",
+   "text": "我已經是馬祖通了！準備好繼光餅，我們從南竿福澳港出發囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，馬祖的時光地圖跟臺灣一樣，有荷蘭和日本統治的時期嗎？"
+  },
+  {
+   "who": "A",
+   "text": "都沒有喔。我們從八千多年前的亮島人開始，經過元明時期的海防、清代閩東漁民來這裡捕魚定居。"
+  },
+  {
+   "who": "A",
+   "text": "接著是民國初年與抗戰、1949年成為戰地前線、1956年開始的戰地政務，一直到1992年解除戰地政務以後。"
+  },
+  {
+   "who": "R",
+   "text": "中研院的老地圖沒有畫到馬祖，所以前六個時期是古紙底圖，最後一個時期是現在的電子地圖！"
+  },
+  {
+   "who": "A",
+   "text": "沒錯，點地圖上的星星看當時的地標，再找找哪些古蹟那時候已經出現了。"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "馬祖沒有火車也沒有 YouBike，最方便的是在每座島上租機車，也可以搭公車或計程車。"
+  },
+  {
+   "who": "R",
+   "text": "跨島要搭交通船，南竿到北竿很快，到東莒、西莒要將近1小時，東引更遠。"
+  },
+  {
+   "who": "A",
+   "text": "春天的霧季常常停飛，冬天東北季風一來船也可能停開，行程記得留一點彈性；亮島不能登島，我會在行程上特別標出來。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給魚麵和紅糟料理！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "馬祖遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有馬祖跳島擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從東犬燈塔、大埔石刻，一路考到芹壁聚落和戰地坑道，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從南竿福澳港出發，搭上交通船比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是馬祖通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的繼光餅算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！你從八千多年前的亮島人一路排到今天的馬祖，好厲害！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "fuao",
+   "name": "南竿福澳港",
+   "lat": 26.1618,
+   "lng": 119.9388
+  },
+  {
+   "id": "nangan-airport",
+   "name": "馬祖南竿機場",
+   "lat": 26.16028,
+   "lng": 119.9586
+  },
+  {
+   "id": "jieshou",
+   "name": "南竿介壽村（山隴）",
+   "lat": 26.15535,
+   "lng": 119.95184
+  },
+  {
+   "id": "beigan-airport",
+   "name": "馬祖北竿機場（塘岐）",
+   "lat": 26.22434,
+   "lng": 120.00145
+  },
+  {
+   "id": "baisha",
+   "name": "北竿白沙港",
+   "lat": 26.20516,
+   "lng": 119.96851
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：南竿（北海坑道、鐵板金板境天后宮、連江縣政府舊址、津沙聚落）",
+   "days": [
+    [
+     "nangan-mazuzhandiwenhua",
+     "nangan-jinbanjingtianhou",
+     "nangan-zhengfujiuzhi",
+     "nangan-jinshajuluojianzhu"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：南竿 ＋ 北竿（芹壁聚落、芹壁天后宮、橋仔五間排）",
+   "days": [
+    [
+     "nangan-mazuzhandiwenhua",
+     "nangan-jinbanjingtianhou",
+     "nangan-zhengfujiuzhi",
+     "nangan-jinshajuluojianzhu"
+    ],
+    [
+     "beigan-qinbitianhougong",
+     "beigan-qinbijuluojianzhu",
+     "beigan-xiangwujianpai"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：南竿、北竿 ＋ 莒光（西莒田沃、東莒東犬燈塔、大浦聚落、大埔石刻）",
+   "days": [
+    [
+     "nangan-mazuzhandiwenhua",
+     "nangan-jinbanjingtianhou",
+     "nangan-zhengfujiuzhi",
+     "nangan-jinshajuluojianzhu"
+    ],
+    [
+     "beigan-qinbitianhougong",
+     "beigan-qinbijuluojianzhu",
+     "beigan-xiangwujianpai"
+    ],
+    [
+     "juguang-tianwocunwuling",
+     "juguang-dongquandengta",
+     "juguang-chipinglongyizhi",
+     "juguang-dapujuluojianzhu",
+     "juguang-dabushike"
+    ]
+   ]
+  },
+  "dongyin": {
+   "label": "三日（東引版）",
+   "name": "三日東引版：南竿、北竿 ＋ 東引（劉依祥宅、東湧燈塔，建議在東引過夜）",
+   "days": [
+    [
+     "nangan-mazuzhandiwenhua",
+     "nangan-jinbanjingtianhou",
+     "nangan-zhengfujiuzhi",
+     "nangan-jinshajuluojianzhu"
+    ],
+    [
+     "beigan-qinbitianhougong",
+     "beigan-qinbijuluojianzhu",
+     "beigan-xiangwujianpai"
+    ],
+    [
+     "dongyin-xiangliuyixiang",
+     "dongyin-dongyongdengta"
+    ]
+   ]
+  }
+ },
+ "food": []
+}
