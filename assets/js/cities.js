@@ -61,6 +61,9 @@
     { slug: "hsinchu-city", name: "新竹市", nick: "風城竹塹：迎曦門・州廳・城隍廟・玻璃", lat: 24.80, lng: 120.97, tip: "left", site: 2, on: true,
       img: "hsinchu-city/img/dong-zhuqianchengyingxi-0.webp", credit: "竹塹城迎曦門／寺人孟子，CC BY-SA 4.0",
       desc: "77 處有形文化資產：國定古蹟新竹火車站、竹塹城迎曦門、新竹州廳、鄭用錫墓與進士第，還有新竹都城隍廟、長和宮、新竹市役所、新竹州圖書館、有樂館、新竹公園一帶與香山車站；另有竹塹中元城隍祭典、北管、玻璃傳統技藝等 12 項無形文化資產。" },
+    { slug: "hsinchu-county", name: "新竹縣", nick: "客家庄與山城：義民廟・北埔金廣福・內灣・賽夏與泰雅", lat: 24.70, lng: 121.12, tip: "right", site: 2, on: true,
+      img: "hsinchu-county/img/beipu-jinguangfugongguan-0.webp", credit: "金廣福公館／Ckfhouse，CC BY-SA 4.0",
+      desc: "78 處有形文化資產：國定古蹟北埔金廣福公館，還有新埔褒忠亭義民廟與家廟群、北埔慈天宮與姜阿新洋樓、竹北采田福地與六張犁問禮堂、關西太和宮與東安古橋、竹東車站、內灣派出所、尖石 TAPUNG 古堡；另有賽夏族 paSta'ay、義民節祭典、客家八音等 13 項無形文化資產。" },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
