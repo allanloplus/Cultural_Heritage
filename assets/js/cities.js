@@ -30,6 +30,9 @@
     { slug: "yilan-county", name: "宜蘭縣", nick: "蘭陽：噶瑪蘭・泰雅・林業・日式宿舍", lat: 24.75, lng: 121.75, on: true,
       img: "yilan-county/img/yilan-shezhijinianguan-0.webp", credit: "宜蘭設治紀念館／大三可，CC BY-SA 4.0",
       desc: "144 處有形文化資產：宜蘭設治紀念館、頭城老街、舊草嶺隧道、羅東林場與太平山林業遺產、漢本與丸山考古遺址，宜蘭市區的日式宿舍與二戰飛機掩體；另有本地歌仔、北管、頭城搶孤等無形文化資產。" },
+    { slug: "hualien-county", name: "花蓮縣", nick: "洄瀾：阿美・太魯閣・縱谷移民村・林業糖業", lat: 23.85, lng: 121.5, on: true,
+      img: "hualien-county/img/guangfu-tangchangzhitang-0.webp", credit: "花蓮糖廠製糖工場／lienyuan lee，CC BY 3.0",
+      desc: "99 處有形文化資產：跨縣市國定古蹟八通關古道東端（玉里）、吉安慶修院、松園別館、將軍府、林田山林業聚落、花蓮糖廠、太巴塱祖屋與舞鶴遺址；另有阿美族豐年祭、大庄夜祭、紋面傳統、噶瑪蘭族香蕉絲織布等無形文化資產。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 }
