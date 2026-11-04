@@ -390,8 +390,18 @@
   }
 
   register("map", { show: function (args) {
+    var first = !map;
     if (!map) { initMap(); initSide(); }
-    setTimeout(function () { map.invalidateSize(); }, 50);
+    setTimeout(function () {
+      map.invalidateSize();
+      /* config.fitSites：初始畫面改成涵蓋全部景點（例如臺東要同時看到綠島、蘭嶼）；要等地圖顯示、尺寸確定後再算 */
+      if (first && CFG.fitSites && SITES.length && !openId) {
+        /* 手機版清單面板會蓋住地圖下半部，把被蓋住的高度當成留白 */
+        var mr = $("#smap").getBoundingClientRect(), sr = $("#mapSide").getBoundingClientRect();
+        var cover = sr.top > mr.top && sr.left < mr.right - 10 ? Math.max(0, mr.bottom - sr.top) : 0;
+        map.fitBounds(L.latLngBounds(SITES.map(function (s) { return [s.lat, s.lng]; })), { maxZoom: CFG.zoom, paddingTopLeft: [20, 20], paddingBottomRight: [20, 20 + cover] });
+      }
+    }, 50);
     if (args[0]) openSite(decodeURIComponent(args[0])); else closeDrawer();
   } });
 
