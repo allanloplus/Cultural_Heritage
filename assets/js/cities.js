@@ -118,5 +118,5 @@
     if (d && !d.contains(e.target)) d.removeAttribute("open");
   });
 
-  root.SiteCities = { list: CITIES, open: open, soon: soon, cityMenu: cityMenu, portalNav: portalNav, esc: esc, sites: SITES, href: href, imgSrc: imgSrc };
+  root.SiteCities = { list: CITIES, open: open, soon: soon, grouped: grouped, cityMenu: cityMenu, portalNav: portalNav, esc: esc, sites: SITES, href: href, imgSrc: imgSrc };
 })(this);
