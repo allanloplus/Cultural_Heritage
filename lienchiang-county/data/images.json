@@ -16,7 +16,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%80%A3%E6%B1%9F%E7%B8%A3%E5%8D%97%E7%AB%BF%E9%84%89%E6%B4%A5%E6%B2%99%E6%9D%91.jpg",
    "artist": "Mayfly1015",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/nangan-jinshajuluojianzhu-0.webp",
+   "small": "img/nangan-jinshajuluojianzhu-0-s.webp"
   }
  ],
  "beigan-qinbijuluojianzhu": [
@@ -26,7 +28,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%8A%B9%E5%A3%81%E8%81%9A%E8%90%BD_(cropped).jpg",
    "artist": "張雅倫",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/beigan-qinbijuluojianzhu-0.webp",
+   "small": "img/beigan-qinbijuluojianzhu-0-s.webp"
   }
  ],
  "beigan-liangdaodaoweikao": [
@@ -36,7 +40,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E5%8D%83%E4%B8%89%E7%99%BE%E5%A4%9A%E5%B9%B4%E5%89%8D%E5%8D%97%E5%B3%B6%E8%AA%9E%E6%97%8F%E7%A5%96%E5%85%88%E7%9A%84%E9%81%BA%E8%B7%A1.jpg",
    "artist": "姚昇慧",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/beigan-liangdaodaoweikao-0.webp",
+   "small": "img/beigan-liangdaodaoweikao-0-s.webp"
   }
  ],
  "juguang-dabushike": [
