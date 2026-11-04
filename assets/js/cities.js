@@ -1,6 +1,6 @@
 /* 全站縣市清單（入口頁的卡片與地圖、入口頁功能表、各縣市頁的「切換縣市」選單共用）
  * 新增縣市：在這裡加一筆並設 on: true，建立同名資料夾即可。img 為相對於網站根目錄的路徑。
- * tip（選填）：入口頁地圖標籤方向，"left" 放在標記左側（澎湖用，避免壓到嘉義、臺南）。
+ * tip（選填）：入口頁地圖標籤方向，"left" 放在標記左側（澎湖用，避免壓到嘉義、臺南），"right" 放在標記右側（基隆用；宜蘭同時用 "left"，兩縣的標籤才不會疊在一起）；兩者的標記都放在標籤上層，手機上標籤只寫縣名。
  * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。 */
 (function (root) {
   "use strict";
@@ -29,7 +29,7 @@
     { slug: "kinmen-county", name: "金門縣", nick: "浯島：閩南古厝・僑鄉洋樓・戰地史蹟", lat: 24.44, lng: 118.33, on: true,
       img: "kinmen-county/img/jincheng-wentaibaota-0.webp", credit: "文臺寶塔／寺人孟子，CC BY-SA 4.0",
       desc: "251 處有形文化資產：文臺寶塔、邱良功母節孝坊、瓊林蔡氏祠堂等 10 處國定古蹟，153 處閩南古厝與僑鄉洋樓，還有古寧頭、八二三砲戰的坑道與碉堡；可開上金門大橋到烈嶼。" },
-    { slug: "yilan-county", name: "宜蘭縣", nick: "蘭陽：噶瑪蘭・泰雅・林業・日式宿舍", lat: 24.75, lng: 121.75, on: true,
+    { slug: "yilan-county", name: "宜蘭縣", nick: "蘭陽：噶瑪蘭・泰雅・林業・日式宿舍", lat: 24.75, lng: 121.75, tip: "left", on: true,
       img: "yilan-county/img/yilan-shezhijinianguan-0.webp", credit: "宜蘭設治紀念館／大三可，CC BY-SA 4.0",
       desc: "144 處有形文化資產：宜蘭設治紀念館、頭城老街、舊草嶺隧道、羅東林場與太平山林業遺產、漢本與丸山考古遺址，宜蘭市區的日式宿舍與二戰飛機掩體；另有本地歌仔、北管、頭城搶孤等無形文化資產。" },
     { slug: "hualien-county", name: "花蓮縣", nick: "洄瀾：阿美・太魯閣・縱谷移民村・林業糖業", lat: 23.85, lng: 121.5, on: true,
@@ -41,7 +41,7 @@
     { slug: "penghu-county", name: "澎湖縣", nick: "菊島：媽祖廟・礮臺・咕咾石古厝・石滬", lat: 23.57, lng: 119.58, tip: "left", on: true,
       img: "penghu-county/img/magong-tianhougong-0.webp", credit: "澎湖天后宮／舟集 Boattoad，CC BY-SA 4.0",
       desc: "90 處有形文化資產：澎湖天后宮、媽宮古城、風櫃尾荷蘭城堡、西嶼東臺與西臺、西嶼燈塔等 9 處國定古蹟，咕咾石古厝、望安花宅聚落、七美雙心石滬與吉貝石滬群；另有踏涼傘、澎湖褒歌、上元乞龜等無形文化資產。騎上跨海大橋、搭船跳島逛菊島。" },
-    { slug: "keelung-city", name: "基隆市", nick: "雨港：西荷城堡・砲台要塞・築港與鐵道", lat: 25.13, lng: 121.74, on: true,
+    { slug: "keelung-city", name: "基隆市", nick: "雨港：西荷城堡・砲台要塞・築港與鐵道", lat: 25.13, lng: 121.74, tip: "right", on: true,
       img: "keelung-city/img/zhongzheng-ershawanpaotai-0.webp", credit: "二沙灣砲台／Bigmorr，CC BY-SA 3.0",
       desc: "51 處有形文化資產：二沙灣、槓仔寮、大武崙三座砲台與外海的彭佳嶼燈塔 4 處國定古蹟，和平島的西班牙城堡與諸聖教堂遺構、清法戰爭紀念園區、獅球嶺與劉銘傳隧道、基隆築港與要塞司令部；另有鷄籠中元祭、和平島王爺海上遊江等無形文化資產。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
