@@ -49,6 +49,9 @@
     { slug: "keelung-city", name: "基隆市", nick: "雨港：西荷城堡・砲台要塞・築港與鐵道", lat: 25.13, lng: 121.74, tip: "right", on: true,
       img: "keelung-city/img/zhongzheng-ershawanpaotai-0.webp", credit: "二沙灣砲台／Bigmorr，CC BY-SA 3.0",
       desc: "51 處有形文化資產：二沙灣、槓仔寮、大武崙三座砲台與外海的彭佳嶼燈塔 4 處國定古蹟，和平島的西班牙城堡與諸聖教堂遺構、清法戰爭紀念園區、獅球嶺與劉銘傳隧道、基隆築港與要塞司令部；另有鷄籠中元祭、和平島王爺海上遊江等無形文化資產。" },
+    { slug: "nantou-county", name: "南投縣", nick: "臺灣的心臟：省府・書院・集集線・日月潭・部落", lat: 23.84, lng: 120.98, site: 2, on: true,
+      img: "nantou-county/img/jiji-huochezhan-0.webp", credit: "集集火車站／Takoradee，CC BY 2.5",
+      desc: "73 處有形文化資產：國定古蹟八通關古道、臺灣省政府與中興新村、藍田書院、登瀛書院、集集火車站與車埕、頭社古日潭浮田、大馬璘遺址與 Sbayan 泰雅民族起源地；另有邵族祖靈祭、布農族八部合音、賽德克族織布、竹編與漆工藝等 28 項無形文化資產。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54, site: 2 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68, site: 2 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
