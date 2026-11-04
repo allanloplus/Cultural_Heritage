@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Allan Lo 和你逛文化｜臺灣文化資產知性旅遊地圖</title>
-<meta name="description" content="Allan Lo 與 AI 小助手阿拉蕾用地圖、語音故事與遊戲，帶你逛臺灣各縣市的文化資產。目前開放嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、金門縣、宜蘭縣、花蓮縣與連江縣（馬祖）。">
+<meta name="description" content="Allan Lo 與 AI 小助手阿拉蕾用地圖、語音故事與遊戲，帶你逛臺灣各縣市的文化資產。目前開放嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、澎湖縣、金門縣、宜蘭縣、花蓮縣與連江縣（馬祖）。">
 <link rel="icon" href="assets/characters/allan-smile.webp" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,7 +110,7 @@
     { who: "A", text: "歡迎來到 Allan Lo 和你逛文化！我是導覽員 Allan。" },
     { who: "R", text: "我是 AI 小助手阿拉蕾！我們要帶你用地圖、故事和遊戲認識臺灣的文化資產。" },
     { who: "A", text: "每個城市都有一張文資地圖、一張時光地圖，還有幫你排好的旅遊行程。" },
-    { who: "R", text: "目前開放嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、金門縣、宜蘭縣、花蓮縣和連江縣，也就是馬祖！其他縣市也在準備中，敬請期待喔！" },
+    { who: "R", text: "目前開放嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、澎湖縣、金門縣、宜蘭縣、花蓮縣和連江縣，也就是馬祖！其他縣市也在準備中，敬請期待喔！" },
     { who: "A", text: "點一下城市卡片，我們就出發囉！" }
   ];
   new Voice.Player(document.getElementById("portalPlayer"), { track: "portal", lines: PORTAL, title: "Allan Lo 和你逛文化", audioBase: "audio/" });
@@ -132,10 +132,12 @@
   fitAll();
   window.addEventListener("resize", function () { clearTimeout(fitAll.t); fitAll.t = setTimeout(function () { map.invalidateSize(); fitAll(); }, 200); });
   L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 18, attribution: "&copy; 內政部國土測繪中心" }).addTo(map);
+  var narrow = document.getElementById("twmap").clientWidth < 600;  // 手機：澎湖夾在金門與嘉義、臺南之間，標籤只寫縣名
+  map.createPane("pinTop"); map.getPane("pinTop").style.zIndex = 660;  // 澎湖的標記在臺南、嘉義標籤之間，放在標籤上層才看得到
   CITIES.forEach(function (c) {
-    /* 西邊與最北邊的離島（金門、馬祖）標籤放右邊，手機上才不會被切掉 */
-    var m = L.marker([c.lat, c.lng], { icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })
-      .bindTooltip((c.label || c.name) + (c.on ? (c.label ? "・點我出發" : "（點我出發）") : "（籌備中）"), c.lng < 119.6 || c.lat > 25.9 ? { direction: "right", permanent: !!c.on, offset: [18, -13] } : { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
+    /* 西邊與最北邊的離島（金門、馬祖）標籤放右邊，手機上才不會被切掉；澎湖（tip: "left"）放左邊的海上，才不會壓到嘉義、臺南 */
+    var m = L.marker([c.lat, c.lng], { pane: c.tip === "left" ? "pinTop" : "markerPane", icon: L.divIcon({ className: "", html: '<div class="pin" style="--c:' + (c.on ? "#df6f57" : "#9b8f84") + '"></div>', iconSize: [26, 26], iconAnchor: [4, 26] }), title: c.name })
+      .bindTooltip((c.label || c.name) + (c.tip === "left" && narrow ? "" : c.on ? (c.label ? "・點我出發" : "（點我出發）") : "（籌備中）"), c.tip === "left" ? { direction: "left", permanent: !!c.on, offset: [-16, -13], className: "tip-left" } : c.lng < 119.6 || c.lat > 25.9 ? { direction: "right", permanent: !!c.on, offset: [18, -13] } : { direction: "top", permanent: !!c.on, offset: [10, -22] }).addTo(map);
     if (c.on) m.on("click", function () { location.href = c.slug + "/"; });
   });
 })();
