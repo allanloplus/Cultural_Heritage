@@ -55,7 +55,9 @@
     { slug: "changhua-county", name: "彰化縣", nick: "半線與鹿港：孔廟・龍山寺・扇形車庫・八卦山", lat: 24.07, lng: 120.54, site: 2, on: true,
       img: "changhua-county/img/zhanghua-baguashandafu-0.webp", credit: "八卦山大佛／Zairon，CC BY-SA 4.0",
       desc: "172 處有形文化資產：國定古蹟彰化孔子廟、元清觀、聖王廟、扇形車庫、鹿港龍山寺、鹿港天后宮、道東書院、益源大厝，還有鹿港老街與隘門、八卦山、八堡圳、西螺大橋北段；另有南瑤媽笨港進香、北管、錫工藝、粧佛等無形文化資產。" },
-    { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68, site: 2 },
+    { slug: "taichung-city", name: "臺中市", nick: "大墩與山海屯：州廳・東海教堂・霧峰林家・舊山線", lat: 24.14, lng: 120.68, site: 2, on: true,
+      img: "taichung-city/img/xi-zhouting-0.webp", credit: "臺中州廳／Ludahai，CC BY-SA 3.0",
+      desc: "195 處有形文化資產：國定古蹟臺中州廳、臺中火車站、路思義教堂、霧峰林家，還有臺中公園湖心亭與大北門、萬和宮、摘星山莊、筱雲山莊、舊山線泰安車站、海線日南與追分車站；另有大甲媽祖遶境進香、南管戲曲、漆工藝、大甲鐵壺等 37 項無形文化資產。" },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
