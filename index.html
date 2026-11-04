@@ -128,11 +128,11 @@
   new Voice.Player(document.getElementById("portalPlayer"), { track: "portal", lines: PORTAL, title: "Allan Lo 和你逛文化", audioBase: "audio/" });
 
   /* 城市清單：新增縣市時在這裡加一筆，並建立同名資料夾 */
-  /* 縣市清單在 assets/js/cities.js（入口頁與各縣市頁共用） */
+  /* 縣市清單在 assets/js/cities.js（入口頁與各縣市頁共用）；第二網站的縣市用 SiteCities.href／imgSrc 連到 /Cultural_Heritage2/ */
   var CITIES = SiteCities.list;
   SiteCities.portalNav(document.getElementById("portalNav"));
   document.getElementById("cityList").innerHTML = CITIES.map(function (c) {
-    if (c.on) return '<a class="city on" href="' + c.slug + '/"><img src="' + esc(c.img) + '" alt="' + esc(c.label || c.name) + '" loading="lazy"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
+    if (c.on) return '<a class="city on" href="' + esc(SiteCities.href(c, "")) + '"><img src="' + esc(SiteCities.imgSrc(c, "")) + '" alt="' + esc(c.label || c.name) + '" loading="lazy"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
     return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';
   }).join("");
 
@@ -149,7 +149,7 @@
   var DIRS = ["right", "left", "top", "bottom"], OFF = { right: [9, 0], left: [-9, 0], top: [0, -9], bottom: [0, 9] };
   function card(c) {
     if (!c.on) return '<div class="mp"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中，敬請期待</span></div>';
-    return '<div class="mp"><img src="' + esc(c.img) + '" alt="' + esc(c.label || c.name) + '"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '</span><a class="btn btn-primary btn-sm" href="' + c.slug + '/">開始逛 ›</a></div>';
+    return '<div class="mp"><img src="' + esc(SiteCities.imgSrc(c, "")) + '" alt="' + esc(c.label || c.name) + '"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '</span><a class="btn btn-primary btn-sm" href="' + esc(SiteCities.href(c, "")) + '">開始逛 ›</a></div>';
   }
   var items = CITIES.map(function (c) {
     var sz = c.on ? 14 : 10;

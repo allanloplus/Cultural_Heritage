@@ -1,16 +1,22 @@
-// 縣市頁冒煙測試：各分頁截圖、行政區篩選、行程規劃（開車三日、YouBike 一日）、時光排序與擲骰遊戲
-// 用法（先在 repo 根目錄啟動：python3 tools/serve.py 8766 &）：
+// 縣市頁冒煙測試：各分頁截圖、行政區篩選、行程規劃（開車三日、YouBike 一日）、時光排序與擲骰遊戲，
+// 以及共用資源與連結（全站首頁、切換縣市選單、角色圖、替代圖都要載得到；第二網站的縣市要連回第一網站）
+// 用法（先在第一網站 repo 根目錄啟動：python3 tools/serve.py 8766 &，它會同時提供 /Cultural_Heritage/ 與 /Cultural_Heritage2/）：
 //   NODE_PATH=$(npm root -g) node tools/newcity/tests/city_smoke.js kaohsiung-city          # 桌機
 //   NODE_PATH=$(npm root -g) node tools/newcity/tests/city_smoke.js kaohsiung-city mobile   # 手機
+//   NODE_PATH=$(npm root -g) node tools/newcity/tests/city_smoke.js taipei-city --site 2    # 指定網站（cities.js 還沒有這個 slug 時）
+// 縣市在哪個網站：依 assets/js/cities.js（site 欄位），找不到就看哪個網站有這個資料夾。
 // 截圖存在 /tmp/newcity/shots/<slug>-*.png；最後一行印出 no errors 才算通過。
 // 這個沙箱的代理不允許瀏覽器直接連路線服務（網址含分號），所以路線請求改用 curl 轉送。
 const { chromium } = require('playwright');
 const { execFileSync } = require('child_process');
 const fs = require('fs');
-const slug = process.argv[2];
-const mobile = process.argv[3] === 'mobile';
-if (!slug) { console.log('usage: node city_smoke.js <slug> [mobile]'); process.exit(2); }
-const OUT = '/tmp/newcity/shots';
+const args = process.argv.slice(2);
+const slug = args[0];
+const mobile = args.includes('mobile');
+const siteArg = args.includes('--site') ? +args[args.indexOf('--site') + 1] : 0;
+if (!slug) { console.log('usage: node city_smoke.js <slug> [mobile] [--site 1|2]'); process.exit(2); }
+const HOST = 'http://localhost:' + (process.env.PORT || 8766);
+const OUT = process.env.SHOTS || '/tmp/newcity/shots';  // 截圖目錄，可用環境變數 SHOTS 改
 fs.mkdirSync(OUT, { recursive: true });
 (async () => {
   const browser = await chromium.launch();
@@ -29,8 +35,35 @@ fs.mkdirSync(OUT, { recursive: true });
     route.fulfill({ status: 200, headers: { 'content-type': f.endsWith('.css') ? 'text/css' : f.endsWith('.js') ? 'application/javascript' : 'image/png' }, body: fs.readFileSync(f) });
   });
   const sfx = mobile ? '-m' : '';
-  const base = 'http://localhost:8766/' + slug + '/';
+  // 縣市在哪個網站：cities.js → 資料夾是否存在
+  const SITES = { 1: '/Cultural_Heritage/', 2: '/Cultural_Heritage2/' };
+  let site = siteArg;
+  if (!site) {
+    const ctx = {};
+    require('vm').runInNewContext(await (await page.request.get(HOST + '/Cultural_Heritage/assets/js/cities.js')).text(), ctx);
+    const listed = ctx.SiteCities.list.filter(c => c.slug).map(c => [c.slug, c.site]);
+    const hit = (listed || []).find(x => x[0] === slug);
+    if (hit) site = hit[1];
+    else for (const k of [1, 2]) if (!site && (await page.request.get(HOST + SITES[k] + slug + '/js/data.js')).ok()) site = k;
+  }
+  if (!site) { console.log('找不到縣市資料夾：' + slug); process.exit(2); }
+  const base = HOST + SITES[site] + slug + '/';
+  console.log('site:', site, base);
   await page.goto(base + '#home', { waitUntil: 'load' }); await page.waitForTimeout(1000);
+  // 共用資源與連結：全站首頁、切換選單、角色圖與替代圖都要載得到
+  const links = await page.evaluate(() => ({
+    home: document.querySelector('.home-link').href,
+    menu: [...document.querySelectorAll('#cityMenu a')].map(a => a.href),
+    imgs: [...document.querySelectorAll('img')].filter(i => i.complete && /assets\//.test(i.src)).map(i => [i.src, i.naturalWidth]),
+    fallback: App.FALLBACK, root: App.ROOT
+  }));
+  if (new URL(links.home).pathname !== '/Cultural_Heritage/') errors.push('全站首頁連結不對：' + links.home);
+  links.imgs.filter(x => !x[1]).forEach(x => errors.push('圖片沒有載入：' + x[0]));
+  for (const u of new Set(links.menu.concat([new URL(links.fallback, base).href, links.home]))) {
+    const r = await page.request.get(u);
+    if (!r.ok()) errors.push('連結失效 ' + r.status() + '：' + u);
+  }
+  console.log('shared:', JSON.stringify({ root: links.root, home: new URL(links.home).pathname, menuLinks: links.menu.length, assetImgs: links.imgs.length }));
   const info = await page.evaluate(() => {
     const towns = {}; CY.sites.forEach(s => { towns[s.town] = (towns[s.town] || 0) + 1; });
     const top = CY.sites.filter(s => s.images.length).sort((a, b) => CY.categories.indexOf(a.category) - CY.categories.indexOf(b.category))[0] || CY.sites[0];

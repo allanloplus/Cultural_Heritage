@@ -12,10 +12,14 @@
   ubike.json           YouBike 2.0 站點
   extra.json           開場對話、遊戲回饋、推薦行程、出發點
 網頁共用程式在 assets/js/city/，版面在 tools/city_template.html。
+兩個網站：放第二網站的縣市（assets/js/cities.js 的 site: 2）資料夾在 Cultural_Heritage2 的 clone（tools/sites.py），
+這支程式會一併處理，頁面的共用資源改用第一網站的網址 https://cultural.123hi.org/assets/…（範本的 {{root}}，見 cities.js 的 SITES）。
 """
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import sites as SITES  # noqa: E402  兩個網站的對應
 
 
 def load(path, default=None):
@@ -40,15 +44,12 @@ def fix_lines(lines):
 
 
 def cities():
-    out = []
-    for name in sorted(os.listdir(ROOT)):
-        if os.path.exists(os.path.join(ROOT, name, "data", "config.json")):
-            out.append(name)
-    return out
+    """[(slug, site)]：兩個網站裡所有有 data/config.json 的縣市"""
+    return SITES.cities()
 
 
-def build_city(slug):
-    city = os.path.join(ROOT, slug)
+def build_city(slug, site=1):
+    city = os.path.join(SITES.site_dir(site), slug)
     D = os.path.join(city, "data")
     cfg = load(os.path.join(D, "config.json"))
     official = load(os.path.join(D, "sites-official.json"))
@@ -113,7 +114,7 @@ def build_city(slug):
 
     # 頁面
     tpl = open(os.path.join(ROOT, "tools", "city_template.html"), encoding="utf-8").read()
-    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug)
+    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug, root=SITES.ASSET_ROOT[site])
     html = re.sub(r"\{\{(\w+)\}\}", lambda m: vals[m.group(1)], tpl)
     with open(os.path.join(city, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
@@ -130,16 +131,23 @@ def build_city(slug):
     tracks += [{"id": i["id"], "lines": i["dialogue"]} for i in ich.get("items", []) if i.get("dialogue")]
     print(slug, "sites", len(sites), "eras", len(data["eras"]), "ich", len(ich.get("items", [])),
           "ubike", len(ubike.get("stations", [])), "tracks", len(tracks))
-    return {"dir": slug + "/audio", "tracks": tracks}
+    g = {"dir": slug + "/audio", "tracks": tracks}
+    if site != 1:
+        g["site"] = site  # gen_audio.py 依這個欄位寫到第二網站的 clone
+    return g
 
 
 def main():
     groups = []
-    for c in cities():  # 每次都建所有縣市（很快），語音腳本才會完整
-        if not os.path.exists(os.path.join(ROOT, c, "data", "sites-content.json")):
+    if not os.path.isdir(SITES.site_dir(2)):
+        print("（找不到第二網站的 clone %s，只處理第一網站的縣市）" % SITES.site_dir(2))
+    for c, site in cities():  # 每次都建所有縣市（很快），語音腳本才會完整
+        if not os.path.exists(os.path.join(SITES.site_dir(site), c, "data", "sites-content.json")):
             print("skip", c, "(尚未有 sites-content.json)")
             continue
-        groups.append(build_city(c))
+        if site != 1:
+            print("[第%d網站]" % site, end=" ")
+        groups.append(build_city(c, site))
     portal = load(os.path.join(ROOT, "tools", "portal.json"))
     # 入口頁語音放最前面：它很短，又是所有人第一個聽到的
     groups.insert(0, {"dir": "audio", "tracks": [{"id": "portal", "lines": fix_lines(portal["dialogue"])}]})
@@ -154,7 +162,9 @@ def main():
     try:  # 容量提醒（GitHub Pages 上限 1 GB；700 MB 時要問使用者是否搬遷，見 tools/newcity/README.md〈容量管理〉）
         sys.path.insert(0, os.path.join(ROOT, "tools", "newcity"))
         import size_report
-        print(size_report.status_line(size_report.report()[0]))
+        for site in sorted(SITES.SITES):
+            if os.path.isdir(SITES.site_dir(site)):
+                print(size_report.status_line(size_report.report(site)[0], site))
     except Exception as e:
         print("（容量檢查略過：%s）" % e)
 

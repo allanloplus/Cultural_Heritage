@@ -1,14 +1,18 @@
 """下載 Wikimedia Commons 自由授權照片到 <city>/img/（網頁仍標示作者、授權與原始頁面連結）
 用法：python3 tools/fetch_images.py [city]   # 預設 chiayi-city，例如 chiayi-county
 產生：<id>-<n>.webp（寬 960）、<id>-<n>-s.webp（寬 320），並在 images.json 寫入 local / small 欄位。
+第二網站的縣市會寫到 Cultural_Heritage2 的 clone（見 tools/sites.py）。
 """
 import io, json, os, ssl, sys, time, urllib.request
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import sites as SITES  # noqa: E402  兩個網站的對應
 CITY = sys.argv[1] if len(sys.argv) > 1 else "chiayi-city"
-DATA = os.path.join(ROOT, CITY, "data", "images.json")
-OUT = os.path.join(ROOT, CITY, "img")
+CITY_DIR = SITES.city_dir(CITY)
+DATA = os.path.join(CITY_DIR, "data", "images.json")
+OUT = os.path.join(CITY_DIR, "img")
 UA = "AllanLoCultureSite/1.0 (https://github.com/allanloplus/Cultural_Heritage; educational, attribution shown)"
 ctx = ssl.create_default_context(cafile=os.environ.get("TTS_CA_BUNDLE")) if os.environ.get("TTS_CA_BUNDLE") else None
 if ctx is not None:  # Python 3.13 嚴格 X.509 會拒絕代理憑證；只關嚴格模式，仍完整驗證

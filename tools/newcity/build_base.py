@@ -15,9 +15,13 @@ id 規則：行政區拼音-名稱拼音（例：zhongxi-chikanlou）。pypinyin
 跨縣市文資（官方只登錄在鄰縣，例如八通關古道只登錄南投縣）：寫在 tools/newcity/manual/<slug>.json，
 格式 [{"caseId": "官方 caseId", "town": "卓溪鄉", "address": "…", "lat": 23.3, "lng": 121.3, "note": "說明"}]，
 程式會從開放資料取出該筆官方紀錄（說明文字、連結、照片），再用這裡的行政區、地址、座標覆蓋。
+stats.txt 的「可能跨縣市」會列出地址文字提到本縣市、但登錄在別的縣市的紀錄，請逐筆判斷是否要寫進 manual。
+
+兩個網站：放第二網站的縣市，<slug>/data/ 會寫到 Cultural_Heritage2 的 clone（tools/sites.py）。
+試算時用 NEWCITY_DIR 指到暫存目錄，且還沒有 config.json，就不會寫進任何 repo。
 """
 import argparse, collections, json, math, os, re
-from common import CACHE, ROOT, city_addr, dump, in_city, load, work_dir
+from common import CACHE, ROOT, city_addr, city_dir, dump, in_city, load, variants, work_dir
 
 KINDS = [("1.1", "monument"), ("1.2", "building"), ("1.3", "cluster"), ("1.4", "memorial"), ("2.1", "archaeo"), ("3.1", "landscape")]
 CAT_ORDER = ["國定古蹟", "市定古蹟", "縣定古蹟", "歷史建築", "紀念建築", "聚落建築群", "考古遺址", "文化景觀"]
@@ -44,6 +48,38 @@ def slugify(name, town, city):
     return (tp + "-" if tp else "") + (s or "site")
 
 
+ROAD = "路街巷道橋"  # 「基隆路」「臺中路」這類路名不算提到本縣市
+
+
+def cross_refs(city, skip):
+    """登錄在別的縣市、但地址文字提到本縣市的紀錄（例如八通關古道登錄在南投，東端在花蓮玉里）。
+    回傳 [(把握, 名稱, 登錄縣市, caseId, 摘錄)]；把握「高」＝出現完整縣市名，「低」＝只出現簡稱（例如「花蓮」）。"""
+    full = sorted(variants(city), key=len, reverse=True)
+    short = sorted({v[:-1] for v in full if len(v) > 2}, key=len, reverse=True)
+    pat_full = re.compile("|".join(map(re.escape, full)))
+    pat_short = re.compile("(?:%s)(?![%s%s])" % ("|".join(map(re.escape, short)), ROAD, "市縣"))
+    out, seen = [], set()
+    for f, kind in KINDS:
+        for x in load(os.path.join(CACHE, "boch", f + ".json"), []):
+            if x["caseId"] in skip or x["caseId"] in seen or in_city(x, city):
+                continue
+            hay = []
+            for ad in x.get("addresses") or []:
+                if isinstance(ad, dict):
+                    hay.append((ad.get("cityName") or "") + (ad.get("distName") or "") + (ad.get("address") or ""))
+            hay.append(x.get("wenSiteaddress") or "")  # 不看 govDeptAddress（主管機關地址，例如在臺北市的中央機關）
+            hay.append(x.get("caseName") or "")
+            text = " ".join(hay)
+            m = pat_full.search(text) or pat_short.search(text)
+            if not m:
+                continue
+            seen.add(x["caseId"])
+            reg = "、".join(sorted({ad.get("cityName") for ad in x.get("addresses") or [] if isinstance(ad, dict) and ad.get("cityName")}))
+            sure = "高" if pat_full.search(text) else "低"
+            out.append((sure, x.get("caseName", ""), reg or "？", x["caseId"], text[max(0, m.start() - 12):m.end() + 12].strip()))
+    return sorted(out)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("city"); ap.add_argument("slug")
@@ -51,7 +87,12 @@ def main():
     ap.add_argument("--rename", action="append", default=[], help="舊id=新id")
     a = ap.parse_args()
     W = work_dir(a.slug)
-    cfg = load(os.path.join(ROOT, a.slug, "data", "config.json"))
+    try:
+        CITY = city_dir(a.slug, a.city)
+    except SystemExit as e:  # 第二網站的 clone 不在：只做試算，不寫網站資料
+        print(e)
+        CITY = None
+    cfg = load(os.path.join(CITY, "data", "config.json")) if CITY else None
     local_cat = "市定古蹟" if a.city.endswith("市") else "縣定古蹟"
 
     base = {}
@@ -160,6 +201,10 @@ def main():
                                    and la[0] - .05 < float(x["lat"]) < la[-1] + .05 and ln[0] - .05 < float(x["lng"]) < ln[-1] + .05)
         lines.append("本縣市的 YouBike 區碼 area_code：" + (json.dumps(near.most_common(), ensure_ascii=False) if near else "沒有（ubikeAreas 填 []）"))
     lines.append("分組：%d 份，每份約 %d 處" % (n, size))
+    xr = cross_refs(a.city, {o["caseId"] for o in base})
+    lines.append("可能跨縣市（地址提到%s、但登錄在別的縣市；把握「低」多半是路名或同名，請逐筆判斷，需要的寫進 tools/newcity/manual/%s.json）：%s"
+                 % (a.city, a.slug, "沒有" if not xr else ""))
+    lines += ["  [%s] %s（登錄：%s，caseId %s）…%s…" % r for r in xr]
     open(os.path.join(W, "stats.txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
     print("\n".join(lines))
     print("ids:", ids[:12], "...")
@@ -167,7 +212,7 @@ def main():
     if not cfg:
         print("\n尚未有 %s/data/config.json：先參考 stats.txt 寫好 config（可複製 tainan-city/data/config.json 改），再跑一次本程式。" % a.slug)
         return
-    D = os.path.join(ROOT, a.slug, "data")
+    D = os.path.join(CITY, "data")
     off = [{k: o.get(k) for k in ["id", "name", "category", "level", "town", "types", "announced", "address",
                                   "lat", "lng", "open", "url", "caseId", "officialImg"]} for o in base]
     dump(off, os.path.join(D, "sites-official.json"))

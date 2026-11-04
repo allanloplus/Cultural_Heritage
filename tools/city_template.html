@@ -6,20 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{{title}}</title>
 <meta name="description" content="{{description}}">
-<link rel="icon" href="../assets/characters/allan-smile.webp" type="image/webp">
+<link rel="icon" href="{{root}}assets/characters/allan-smile.webp" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="../assets/css/site.css">
-<link rel="stylesheet" href="../assets/css/city.css">
+<link rel="stylesheet" href="{{root}}assets/css/site.css">
+<link rel="stylesheet" href="{{root}}assets/css/city.css">
 </head>
 <body>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="home-link" href="../" title="回到 Allan Lo 和你逛文化 全站首頁">
-      <img src="../assets/characters/allan-smile.webp" alt="" width="34" height="34">
+    <a class="home-link" href="{{root}}" title="回到 Allan Lo 和你逛文化 全站首頁">
+      <img src="{{root}}assets/characters/allan-smile.webp" alt="" width="34" height="34">
       <span class="home-text"><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 11h3v9h6v-6h2v6h6v-9h3z"/></svg>全站首頁</b><small>Allan Lo 和你逛文化</small></span>
     </a>
     <span class="crumb-sep" aria-hidden="true">›</span>
@@ -54,8 +54,8 @@
           </div>
         </div>
         <div class="hero-cast" aria-hidden="true">
-          <img class="cast-allan" src="../assets/characters/allan-wave.webp" alt="" width="560" height="657">
-          <img class="cast-arale" src="../assets/characters/arale-wave.webp" alt="" width="311" height="640">
+          <img class="cast-allan" src="{{root}}assets/characters/allan-wave.webp" alt="" width="560" height="657">
+          <img class="cast-arale" src="{{root}}assets/characters/arale-wave.webp" alt="" width="311" height="640">
         </div>
       </div>
       <div class="rail" aria-hidden="true"></div>
@@ -70,10 +70,10 @@
 
       <h2 class="sec-title">四種逛法</h2>
       <div class="feature-grid">
-        <a class="feature" href="#map"><img src="../assets/characters/allan-point.webp" alt="" width="120" height="131" loading="lazy"><h3>文資地圖</h3><p>{{featureMap}}</p></a>
-        <a class="feature" href="#time"><img src="../assets/characters/arale-surprised.webp" alt="" width="120" height="131" loading="lazy"><h3>時光地圖</h3><p>{{featureTime}}</p></a>
-        <a class="feature" href="#plan"><img src="../assets/characters/allan-think.webp" alt="" width="120" height="131" loading="lazy"><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike（顯示借車與還車站），也能自選景點。</p></a>
-        <a class="feature" href="#games"><img src="../assets/characters/arale-fight.webp" alt="" width="120" height="131" loading="lazy"><h3>知識遊戲</h3><p>{{featureGames}}</p></a>
+        <a class="feature" href="#map"><img src="{{root}}assets/characters/allan-point.webp" alt="" width="120" height="131" loading="lazy"><h3>文資地圖</h3><p>{{featureMap}}</p></a>
+        <a class="feature" href="#time"><img src="{{root}}assets/characters/arale-surprised.webp" alt="" width="120" height="131" loading="lazy"><h3>時光地圖</h3><p>{{featureTime}}</p></a>
+        <a class="feature" href="#plan"><img src="{{root}}assets/characters/allan-think.webp" alt="" width="120" height="131" loading="lazy"><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike（顯示借車與還車站），也能自選景點。</p></a>
+        <a class="feature" href="#games"><img src="{{root}}assets/characters/arale-fight.webp" alt="" width="120" height="131" loading="lazy"><h3>知識遊戲</h3><p>{{featureGames}}</p></a>
       </div>
 
       <h2 class="sec-title">今天推薦你去</h2>
@@ -168,16 +168,16 @@
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="../assets/js/cities.js"></script>
-<script>SiteCities.cityMenu(document.getElementById("cityMenu"), "{{slug}}", "../");</script>
-<script src="../assets/js/characters.js"></script>
-<script>Characters.setBase("../assets/characters/");</script>
-<script src="../assets/js/voice.js"></script>
+<script src="{{root}}assets/js/cities.js"></script>
+<script>SiteCities.cityMenu(document.getElementById("cityMenu"), "{{slug}}", "{{root}}");</script>
+<script src="{{root}}assets/js/characters.js"></script>
+<script>Characters.setBase("{{root}}assets/characters/");</script>
+<script src="{{root}}assets/js/voice.js"></script>
 <script src="js/data.js"></script>
 <script src="audio/cues.js"></script>
-<script src="../assets/js/city/app.js"></script>
-<script src="../assets/js/city/timemap.js"></script>
-<script src="../assets/js/city/planner.js"></script>
-<script src="../assets/js/city/games.js"></script>
+<script src="{{root}}assets/js/city/app.js"></script>
+<script src="{{root}}assets/js/city/timemap.js"></script>
+<script src="{{root}}assets/js/city/planner.js"></script>
+<script src="{{root}}assets/js/city/games.js"></script>
 </body>
 </html>

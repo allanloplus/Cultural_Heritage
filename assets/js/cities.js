@@ -2,7 +2,11 @@
  * 新增縣市：在這裡加一筆並設 on: true，建立同名資料夾即可。img 為相對於網站根目錄的路徑。
  * tip（選填）：入口頁地圖標籤優先擺放的方向（"left"、"right"、"top"、"bottom"）。標籤會自動避開其他標籤與標記，放不下時先隱藏，放大地圖或滑鼠移到紅點上才出現。
  * mapLabel（選填）：入口頁地圖上的短名稱，例如連江縣用「馬祖」；沒填就用 name。
- * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。 */
+ * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。
+ * site（選填）：縣市資料夾放在哪個網站。沒填＝第一網站（Cultural_Heritage，本 repo）；2＝第二網站（Cultural_Heritage2）。
+ *   第二網站的縣市：img 寫相對於第二網站根目錄的路徑（例如 "taipei-city/img/xxx.webp"），連結與照片會自動加上第二網站的網址。
+ *   兩個網站的網域不同（第一網站用自訂網域），各縣市的護照與紀錄存在各自網站的瀏覽器儲存空間。
+ *   tools/ 的 Python 工具也讀這個欄位，決定縣市資料夾在哪個 repo（見 tools/sites.py）。 */
 (function (root) {
   "use strict";
   var CITIES = [
@@ -45,10 +49,20 @@
     { slug: "keelung-city", name: "基隆市", nick: "雨港：西荷城堡・砲台要塞・築港與鐵道", lat: 25.13, lng: 121.74, tip: "right", on: true,
       img: "keelung-city/img/zhongzheng-ershawanpaotai-0.webp", credit: "二沙灣砲台／Bigmorr，CC BY-SA 3.0",
       desc: "51 處有形文化資產：二沙灣、槓仔寮、大武崙三座砲台與外海的彭佳嶼燈塔 4 處國定古蹟，和平島的西班牙城堡與諸聖教堂遺構、清法戰爭紀念園區、獅球嶺與劉銘傳隧道、基隆築港與要塞司令部；另有鷄籠中元祭、和平島王爺海上遊江等無形文化資產。" },
-    { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
-    { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
-    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 }
+    { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54, site: 2 },
+    { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68, site: 2 },
+    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
+  /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
+     第一網站自己的縣市仍用相對路徑，行為與以前相同。本機預覽（tools/serve.py）時改用 /Cultural_Heritage/、/Cultural_Heritage2/ */
+  var SITES = { 1: "https://cultural.123hi.org/", 2: "https://cultural2.123hi.org/" };
+  if (root.location && /^(localhost|127\.0\.0\.1)$/.test(root.location.hostname)) SITES = { 1: "/Cultural_Heritage/", 2: "/Cultural_Heritage2/" };
+  /* 放第二網站的縣市（含尚未列在上面的）：清單裡沒寫 site 的縣市依這一行決定。tools/sites.py 也讀這一行與上面的 site 欄位，請保持一行寫完 */
+  var SITE2 = ["臺北市", "新北市", "桃園市", "新竹市", "新竹縣", "苗栗縣", "臺中市", "彰化縣", "南投縣"];
+  CITIES.forEach(function (c) { if (!c.site) c.site = SITE2.indexOf(c.name) >= 0 ? 2 : 1; });
+  /* 縣市頁網址與代表照片。base：從目前頁面回到第一網站根目錄的路徑（入口頁 ""、第一網站縣市頁 "../"、第二網站縣市頁為第一網站的網址） */
+  function href(c, base) { return (c.site > 1 ? SITES[c.site] : base || "") + c.slug + "/"; }
+  function imgSrc(c, base) { return (c.site > 1 ? SITES[c.site] : base || "") + c.img; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   var open = CITIES.filter(function (c) { return c.on; });
   var soon = CITIES.filter(function (c) { return !c.on; });
@@ -80,7 +94,7 @@
       grouped().map(function (r) {
         return '<div class="cm-reg"><p class="cm-rname">' + r[0] + '</p><div class="cm-list">' + r[1].map(function (c) {
           var on = c.slug === current;
-          return '<a href="' + base + c.slug + '/" title="' + esc(c.nick) + '"' + (on ? ' aria-current="page"' : "") + '>' + esc(c.label || c.name) + (on ? '<span>目前</span>' : "") + '</a>';
+          return '<a href="' + href(c, base) + '" title="' + esc(c.nick) + '"' + (on ? ' aria-current="page"' : "") + '>' + esc(c.label || c.name) + (on ? '<span>目前</span>' : "") + '</a>';
         }).join("") + '</div></div>';
       }).join("") +
       (soon.length ? '<p class="cm-soon">籌備中：' + soon.map(function (c) { return esc(c.name); }).join("、") + '</p>' : "") +
@@ -101,5 +115,5 @@
     if (d && !d.contains(e.target)) d.removeAttribute("open");
   });
 
-  root.SiteCities = { list: CITIES, open: open, soon: soon, cityMenu: cityMenu, portalNav: portalNav, esc: esc };
+  root.SiteCities = { list: CITIES, open: open, soon: soon, cityMenu: cityMenu, portalNav: portalNav, esc: esc, sites: SITES, href: href, imgSrc: imgSrc };
 })(this);

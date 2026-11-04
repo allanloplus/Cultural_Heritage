@@ -7,6 +7,8 @@
 import json, os, ssl, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+from sites import SITES, city_dir, site_of  # noqa: E402,F401  縣市資料夾可能在第二網站的 clone（tools/sites.py）
 UA = "AllanLoCultureSite/1.0 (https://github.com/allanloplus/Cultural_Heritage)"
 BASE = os.environ.get("NEWCITY_DIR", "/tmp/newcity")          # 工作目錄（不進版控）
 CACHE = os.path.join(BASE, "cache")                             # 共用下載快取
