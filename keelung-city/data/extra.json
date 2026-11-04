@@ -1,0 +1,292 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！這一站我們搭上臺鐵縱貫線，一路坐到最北邊的基隆站，來到北臺灣的海港城市基隆。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！Allan，你怎麼一下車就撐傘？外面明明只是毛毛雨。"
+  },
+  {
+   "who": "A",
+   "text": "這裡是雨港啊！基隆一年有一半以上的日子在下雨，帶傘是基本禮貌，冷笑話我倒是可以一直帶。"
+  },
+  {
+   "who": "R",
+   "text": "好啦好啦，那基隆有什麼文化資產？我只知道廟口夜市和中元祭。"
+  },
+  {
+   "who": "A",
+   "text": "基隆的歷史很早，1626年西班牙人就在今天的和平島築城，後來荷蘭人來了，清朝在這裡開港，還打過清法戰爭。"
+  },
+  {
+   "who": "R",
+   "text": "難怪港口兩邊的山上，到處都是砲台！"
+  },
+  {
+   "who": "A",
+   "text": "沒錯，國定古蹟有二沙灣、槓仔寮、大武崙三座砲台，還有外海的彭佳嶼燈塔，加上市定古蹟、歷史建築、考古遺址和文化景觀，一共51處。"
+  },
+  {
+   "who": "R",
+   "text": "時光地圖可以看劉銘傳的鐵路隧道，還有日治時期的基隆築港，我好想對照看看港口怎麼長大的！"
+  },
+  {
+   "who": "A",
+   "text": "行程規劃建議開車，市區停車位少，可以停公有停車場；港區景點用走的就到，砲台在山上要爬坡，雨天記得穿防滑鞋。"
+  },
+  {
+   "who": "R",
+   "text": "準備好了嗎？撐好傘，從基隆火車站出發，我們逛雨港囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，基隆的時光地圖要看什麼？"
+  },
+  {
+   "who": "A",
+   "text": "第一站是西班牙與荷蘭時期，那時的雞籠重心在社寮島，也就是今天的和平島，城堡就蓋在港口入口。"
+  },
+  {
+   "who": "A",
+   "text": "清朝以後會疊上1904年的臺灣堡圖，日治時期還有美軍畫的基隆城市地圖，可以拉透明度、左右對照。"
+  },
+  {
+   "who": "R",
+   "text": "那我要找找看，築港以前的海岸線到底在哪裡，現在的港口是不是填出來的！"
+  },
+  {
+   "who": "A",
+   "text": "好眼力！滑過去對照看看，答案就在地圖上。"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "基隆車站、海洋廣場、廟口和中正路一帶景點很近，走路就能串起來；砲台大多在山上，開車或搭計程車比較省力。"
+  },
+  {
+   "who": "R",
+   "text": "基隆沒有 YouBike 喔，選 YouBike 的話，我會提醒你改搭公車或火車。"
+  },
+  {
+   "who": "A",
+   "text": "市區停車位少，建議停在公有停車場再步行。下雨天走砲台步道要小心，石階很滑。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給鼎邊趖和天婦羅，晚上再去廟口夜市！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "雨港遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有雨港擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從和平島的西班牙城堡、清法戰爭的砲台，一路考到築港和貨櫃港，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你，就算下雨也不能延賽！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從基隆火車站出發，比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是基隆通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的營養三明治算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！你從和平島的西班牙城堡一路排到今天的基隆港，好厲害！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "keelung-station",
+   "name": "基隆火車站",
+   "lat": 25.13231,
+   "lng": 121.73941
+  },
+  {
+   "id": "miaokou",
+   "name": "基隆廟口",
+   "lat": 25.12906,
+   "lng": 121.74391
+  },
+  {
+   "id": "badu-station",
+   "name": "八堵火車站",
+   "lat": 25.1085,
+   "lng": 121.7288
+  },
+  {
+   "id": "qidu-station",
+   "name": "七堵火車站",
+   "lat": 25.09366,
+   "lng": 121.71362
+  },
+  {
+   "id": "heping-island",
+   "name": "和平島公園",
+   "lat": 25.1603,
+   "lng": 121.7695
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：港區與中正路（西岸倉庫、許梓桑古厝、二沙灣砲台、清法戰爭紀念園區、正濱、和平島）",
+   "days": [
+    [
+     "zhongshan-zhannanbeihaozhi",
+     "renai-gangxierxisanmatou",
+     "renai-yangminghaiyun",
+     "renai-xuzisanggucuo",
+     "zhongzheng-beibaichuangongji",
+     "zhongzheng-ershawanpaotai",
+     "zhongzheng-qingfazhanzhengji",
+     "zhongzheng-yaosaisilingguandi",
+     "zhongzheng-yuhuizhengbindalou",
+     "zhongzheng-agennazaochuan",
+     "zhongzheng-hepingdaokaoguyi",
+     "zhongzheng-longmujing"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：港區與和平島 ＋ 獅球嶺、仙洞、基隆燈塔與大武崙砲台",
+   "days": [
+    [
+     "zhongshan-zhannanbeihaozhi",
+     "renai-gangxierxisanmatou",
+     "renai-yangminghaiyun",
+     "renai-xuzisanggucuo",
+     "zhongzheng-beibaichuangongji",
+     "zhongzheng-ershawanpaotai",
+     "zhongzheng-qingfazhanzhengji",
+     "zhongzheng-yaosaisilingguandi",
+     "zhongzheng-yuhuizhengbindalou",
+     "zhongzheng-agennazaochuan",
+     "zhongzheng-hepingdaokaoguyi",
+     "zhongzheng-longmujing"
+    ],
+    [
+     "renai-xiuzhuju",
+     "renai-shiqiulingpaotai",
+     "anle-liumingchuansuidao",
+     "zhongshan-xiandongyan",
+     "zhongshan-gaoyuanxincungang",
+     "zhongshan-jiangangjinianbei",
+     "zhongshan-renanjiegangwujusu",
+     "zhongshan-baimiwengpaotai",
+     "zhongshan-dengta",
+     "anle-dawulunpaotai"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：再加八斗子、槓仔寮砲台、靈泉禪寺、暖暖淨水場與七堵",
+   "days": [
+    [
+     "zhongshan-zhannanbeihaozhi",
+     "renai-gangxierxisanmatou",
+     "renai-yangminghaiyun",
+     "renai-xuzisanggucuo",
+     "zhongzheng-beibaichuangongji",
+     "zhongzheng-ershawanpaotai",
+     "zhongzheng-qingfazhanzhengji",
+     "zhongzheng-yaosaisilingguandi",
+     "zhongzheng-yuhuizhengbindalou",
+     "zhongzheng-agennazaochuan",
+     "zhongzheng-hepingdaokaoguyi",
+     "zhongzheng-longmujing"
+    ],
+    [
+     "renai-xiuzhuju",
+     "renai-shiqiulingpaotai",
+     "anle-liumingchuansuidao",
+     "zhongshan-xiandongyan",
+     "zhongshan-gaoyuanxincungang",
+     "zhongshan-jiangangjinianbei",
+     "zhongshan-renanjiegangwujusu",
+     "zhongshan-baimiwengpaotai",
+     "zhongshan-dengta",
+     "anle-dawulunpaotai"
+    ],
+    [
+     "zhongzheng-badouziqingdaiguan",
+     "zhongzheng-beibuhuolifadian",
+     "xinyi-gangzailiaopaotai",
+     "xinyi-lingquanchansifo",
+     "xinyi-lingquanchansikai",
+     "xinyi-lingquansanta",
+     "nuannuan-jingshuichang",
+     "qidu-huochezhan",
+     "qidu-malingkengshitou",
+     "qidu-wudutielusuidao"
+    ]
+   ]
+  }
+ },
+ "food": []
+}

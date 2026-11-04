@@ -65,7 +65,9 @@
     "bikeMaxKm": 10,
     "ubikeStationMaxKm": 1.2,
     "farKm": 40,
-    "noVisit": {}
+    "noVisit": {
+      "zhongzheng-pengjiayudengta": "彭佳嶼位在基隆外海約 56 公里，島上只有海巡與氣象等駐島人員，沒有一般交通船，一般民眾無法自由登島；偶有主管機關辦理的特別登島活動，請以官方公告為準。"
+    }
   },
   "eras": {
     "dutch": {
