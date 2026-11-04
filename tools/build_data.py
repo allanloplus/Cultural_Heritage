@@ -13,7 +13,7 @@
   extra.json           開場對話、遊戲回饋、推薦行程、出發點
 網頁共用程式在 assets/js/city/，版面在 tools/city_template.html。
 兩個網站：放第二網站的縣市（assets/js/cities.js 的 site: 2）資料夾在 Cultural_Heritage2 的 clone（tools/sites.py），
-這支程式會一併處理，頁面的共用資源改用 /Cultural_Heritage/assets/…（範本的 {{root}}）。
+這支程式會一併處理，頁面的共用資源改用第一網站的網址 https://cultural.123hi.org/assets/…（範本的 {{root}}，見 cities.js 的 SITES）。
 """
 import json, os, re, sys
 

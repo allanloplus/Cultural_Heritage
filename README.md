@@ -7,7 +7,7 @@
 
 目前開放 **嘉義市**（`chiayi-city/`）、**嘉義縣**（`chiayi-county/`）、**雲林縣**（`yunlin-county/`）、**臺南市**（`tainan-city/`）、**高雄市**（`kaohsiung-city/`）、**屏東縣**（`pingtung-county/`）、**臺東縣**（`taitung-county/`）、**澎湖縣**（`penghu-county/`）、**金門縣**（`kinmen-county/`）、**宜蘭縣**（`yilan-county/`）、**花蓮縣**（`hualien-county/`）、**基隆市**（`keelung-city/`）與 **連江縣（馬祖）**（`lienchiang-county/`）。每個縣市各有一個資料夾，網頁程式全部共用；新增縣市只要準備資料（見下方「新增縣市」）。
 
-GitHub Pages 每個網站上限 1 GB，所以網站分成兩個 repo：本 repo（第一網站，https://allanloplus.github.io/Cultural_Heritage/）放全站首頁、共用程式、工具與上面 13 個縣市；臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣放 [第二網站 allanloplus/Cultural_Heritage2](https://github.com/allanloplus/Cultural_Heritage2)（https://allanloplus.github.io/Cultural_Heritage2/）。第二網站只放縣市資料夾，縣市頁從第一網站載入共用程式；入口頁、選單會自動連到正確的網站，文資護照可以跨網站使用。詳見作業手冊〈兩個網站〉。
+GitHub Pages 每個網站上限 1 GB，所以網站分成兩個 repo：本 repo（第一網站，https://cultural.123hi.org/，舊網址 allanloplus.github.io/Cultural_Heritage/ 會自動轉過去）放全站首頁、共用程式、工具與上面 13 個縣市；臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣放 [第二網站 allanloplus/Cultural_Heritage2](https://github.com/allanloplus/Cultural_Heritage2)（https://allanloplus.github.io/Cultural_Heritage2/）。第二網站只放縣市資料夾，縣市頁從第一網站載入共用程式；入口頁、選單會自動連到正確的網站。兩個網站網域不同，各縣市的護照與紀錄存在各自網站的瀏覽器裡（每個縣市本來就各有一本護照）。詳見作業手冊〈兩個網站〉。
 
 ## 網站內容
 
@@ -67,7 +67,7 @@ python3 tools/gen_audio.py
 | `<縣市>/data/ubike.json` | YouBike 2.0 站點快照 |
 | `<縣市>/data/extra.json` | 開場與說明對話、遊戲回饋語音、推薦行程、出發點 |
 | `tools/portal.json` | 入口頁對話。這段文字也寫在 `index.html` 裡，兩邊要一致。 |
-| `tools/city_template.html` | 各縣市頁面的共用版型（`{{root}}`＝共用資源路徑：第一網站 `../`，第二網站 `/Cultural_Heritage/`） |
+| `tools/city_template.html` | 各縣市頁面的共用版型（`{{root}}`＝共用資源路徑：第一網站 `../`，第二網站 `https://cultural.123hi.org/`） |
 | `tools/sites.py` | 兩個網站的對應：縣市在哪個 repo（依 `assets/js/cities.js` 的 `site` 欄位） |
 | `assets/js/city/`、`assets/css/city.css` | 各縣市共用的網頁程式與樣式 |
 
@@ -94,7 +94,7 @@ python3 tools/gen_audio.py
 python3 tools/serve.py
 ```
 
-開啟 http://localhost:8000/Cultural_Heritage/ 即可預覽。這個伺服器和 GitHub Pages 一樣，用 `/Cultural_Heritage/` 與 `/Cultural_Heritage2/` 兩個路徑同時提供兩個網站（第二網站的縣市頁用絕對路徑載入共用程式，要用這種網址才看得到）。這個預覽伺服器支援 HTTP Range，語音可以跳句。Python 內建的 `python3 -m http.server` 不支援 Range，用它預覽時按「下一句」會從頭播放；GitHub Pages 沒有這個問題。
+開啟 http://localhost:8000/Cultural_Heritage/ 即可預覽。這個伺服器用 `/Cultural_Heritage/` 與 `/Cultural_Heritage2/` 兩個路徑同時提供兩個網站，並把第二網站頁面裡第一網站的正式網址換成本機路徑，預覽時用的就是本機正在改的共用程式。這個預覽伺服器支援 HTTP Range，語音可以跳句。Python 內建的 `python3 -m http.server` 不支援 Range，用它預覽時按「下一句」會從頭播放；GitHub Pages 沒有這個問題。
 
 上線用 GitHub Pages：兩個 repo 都是 Settings → Pages → Deploy from a branch，選 `main` 與 `/ (root)`。開發在各 session 的工作分支進行，每完成一個縣市建立 PR，合併到 `main` 後才上線（見 `tools/newcity/README.md`〈發布流程〉）。GitHub Pages 每個網站上限 1 GB，兩個網站各自計算，目前用量與門檻見作業手冊〈容量管理〉，可隨時執行 `python3 tools/newcity/size_report.py` 查看。
 

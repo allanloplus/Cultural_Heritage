@@ -5,7 +5,7 @@
  * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。
  * site（選填）：縣市資料夾放在哪個網站。沒填＝第一網站（Cultural_Heritage，本 repo）；2＝第二網站（Cultural_Heritage2）。
  *   第二網站的縣市：img 寫相對於第二網站根目錄的路徑（例如 "taipei-city/img/xxx.webp"），連結與照片會自動加上第二網站的網址。
- *   兩個網站在同一個網域（allanloplus.github.io），localStorage 共用，文資護照可以跨網站。
+ *   兩個網站的網域不同（第一網站用自訂網域），各縣市的護照與紀錄存在各自網站的瀏覽器儲存空間。
  *   tools/ 的 Python 工具也讀這個欄位，決定縣市資料夾在哪個 repo（見 tools/sites.py）。 */
 (function (root) {
   "use strict";
@@ -53,12 +53,14 @@
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68, site: 2 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
-  /* 各網站的根目錄網址（同一個網域）。第一網站的縣市沿用相對路徑，行為與以前相同 */
-  var SITES = { 1: "/Cultural_Heritage/", 2: "/Cultural_Heritage2/" };
+  /* 各網站的正式網址。第一網站用自訂網域（repo 的 CNAME），第二網站用 GitHub Pages 網址；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
+     第一網站自己的縣市仍用相對路徑，行為與以前相同。本機預覽（tools/serve.py）時改用 /Cultural_Heritage/、/Cultural_Heritage2/ */
+  var SITES = { 1: "https://cultural.123hi.org/", 2: "https://allanloplus.github.io/Cultural_Heritage2/" };
+  if (root.location && /^(localhost|127\.0\.0\.1)$/.test(root.location.hostname)) SITES = { 1: "/Cultural_Heritage/", 2: "/Cultural_Heritage2/" };
   /* 放第二網站的縣市（含尚未列在上面的）：清單裡沒寫 site 的縣市依這一行決定。tools/sites.py 也讀這一行與上面的 site 欄位，請保持一行寫完 */
   var SITE2 = ["臺北市", "新北市", "桃園市", "新竹市", "新竹縣", "苗栗縣", "臺中市", "彰化縣", "南投縣"];
   CITIES.forEach(function (c) { if (!c.site) c.site = SITE2.indexOf(c.name) >= 0 ? 2 : 1; });
-  /* 縣市頁網址與代表照片。base：從目前頁面回到第一網站根目錄的路徑（入口頁 ""、第一網站縣市頁 "../"、第二網站縣市頁 "/Cultural_Heritage/"） */
+  /* 縣市頁網址與代表照片。base：從目前頁面回到第一網站根目錄的路徑（入口頁 ""、第一網站縣市頁 "../"、第二網站縣市頁為第一網站的網址） */
   function href(c, base) { return (c.site > 1 ? SITES[c.site] : base || "") + c.slug + "/"; }
   function imgSrc(c, base) { return (c.site > 1 ? SITES[c.site] : base || "") + c.img; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }

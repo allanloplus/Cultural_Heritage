@@ -36,7 +36,7 @@ python3 tools/serve.py 8766 &
 ```
 
 - 預覽和測試要用 `tools/serve.py`（支援 Range，語音才能拖曳），不要用 `python3 -m http.server`。
-- `serve.py` 和 GitHub Pages 一樣用路徑區分兩個網站：`http://localhost:8766/Cultural_Heritage/`（第一網站）、`http://localhost:8766/Cultural_Heritage2/`（第二網站的 clone）。第二網站的縣市頁用絕對路徑載入共用程式，一定要用這種網址預覽。
+- `serve.py` 用路徑區分兩個網站：`http://localhost:8766/Cultural_Heritage/`（第一網站）、`http://localhost:8766/Cultural_Heritage2/`（第二網站的 clone）。第二網站的縣市頁用第一網站的正式網址載入共用程式，`serve.py` 會換成本機路徑，一定要用這種網址預覽。
 - 測試程式可用環境變數 `PORT`（預設 8766）與 `SHOTS`（截圖目錄，預設 `/tmp/newcity/shots`）。
 - 這個雲端環境經過代理：Python 下載、語音合成都要設 `TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt`。`common.py` 會自動找。
 - 瀏覽器測試：`NODE_PATH=$(npm root -g) node ...`（Playwright 與 Chromium 已預裝，不要重裝）。
@@ -45,18 +45,20 @@ python3 tools/serve.py 8766 &
 
 | 網站 | repo | 網址 | 放什麼 |
 |---|---|---|---|
-| 第一網站 | `allanloplus/Cultural_Heritage`（本 repo） | https://allanloplus.github.io/Cultural_Heritage/ | 全站首頁、共用程式 `assets/`、全部工具 `tools/`、本手冊；嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、金門縣、宜蘭縣、花蓮縣、連江縣、澎湖縣、基隆市 |
+| 第一網站 | `allanloplus/Cultural_Heritage`（本 repo） | https://cultural.123hi.org/（自訂網域，repo 的 `CNAME`；舊網址 allanloplus.github.io/Cultural_Heritage/ 會轉過去） | 全站首頁、共用程式 `assets/`、全部工具 `tools/`、本手冊；嘉義市、嘉義縣、雲林縣、臺南市、高雄市、屏東縣、臺東縣、金門縣、宜蘭縣、花蓮縣、連江縣、澎湖縣、基隆市 |
 | 第二網站 | `allanloplus/Cultural_Heritage2` | https://allanloplus.github.io/Cultural_Heritage2/ | 只放縣市資料夾：臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣（依 2026/11/1 資料約 1,787 處、約 610 MB） |
 
 ### 怎麼運作
 
 - **縣市在哪個網站**：以 `assets/js/cities.js` 為準。清單裡每筆可設 `site: 2`；沒設的依 `SITE2` 那一行（上表第二網站的 9 個縣市）。入口頁卡片、地圖小卡、右上角選單與縣市頁的「切換縣市」都用 `SiteCities.href()`／`imgSrc()` 連到正確的網站。
-- **共用程式只有一份**：第二網站的縣市頁由 `build_data.py` 依 `tools/city_template.html` 產生，`{{root}}` 會換成 `/Cultural_Heritage/`，所以 CSS、JS、角色圖、`cities.js` 都從第一網站載入，「全站首頁」連到 `/Cultural_Heritage/`。第一網站的縣市仍是 `../`，頁面和以前一模一樣。`app.js` 的替代圖與關於頁角色圖依載入路徑自動判斷。
-- **代表照片**：第二網站縣市在 `cities.js` 的 `img` 寫相對於第二網站根目錄的路徑（例如 `taipei-city/img/xxx-0.webp`），會自動加上 `/Cultural_Heritage2/`。
-- **護照可以跨網站**：兩個網站同一個網域（allanloplus.github.io），localStorage 共用，各縣市的護照鍵名（`cy.<slug>.passport`）不會衝突。
+- **共用程式只有一份**：第二網站的縣市頁由 `build_data.py` 依 `tools/city_template.html` 產生，`{{root}}` 會換成第一網站的網址 `https://cultural.123hi.org/`，所以 CSS、JS、角色圖、`cities.js` 都從第一網站載入，「全站首頁」連到第一網站。第一網站的縣市仍是 `../`，頁面和以前一模一樣。`app.js` 的替代圖與關於頁角色圖依載入路徑自動判斷。
+- **代表照片**：第二網站縣市在 `cities.js` 的 `img` 寫相對於第二網站根目錄的路徑（例如 `taipei-city/img/xxx-0.webp`），會自動加上第二網站的網址。
+- **網址設定**：兩個網站的正式網址寫在 `cities.js` 的 `SITES` 那一行（第一網站 `https://cultural.123hi.org/`、第二網站 `https://allanloplus.github.io/Cultural_Heritage2/`），`tools/sites.py` 也讀這一行。換網域（例如第二網站也設自訂網域）只要改這一行，再跑 `build_data.py`。
+- **護照**：兩個網站網域不同，localStorage 不共用；每個縣市本來就各有一本護照（`cy.<slug>.passport`），所以只差在語音速度等偏好要各設一次。
 - **工具**：`build_data.py`、`gen_audio.py`、`fetch_images.py` 與 `tools/newcity/*` 只放在第一網站，透過 `tools/sites.py` 讀寫第二網站的 clone。用法完全相同，例如 `python3 tools/gen_audio.py taipei-city`、`python3 tools/fetch_images.py taipei-city`。`build_data.py` 會一次處理兩個網站，`tools/script.json` 裡第二網站的 group 會多一個 `"site": 2`。
 - **第二網站 clone 的位置**：預設是本 repo 旁邊的 `Cultural_Heritage2`（例如 `/home/user/Cultural_Heritage2`），否則用環境變數 `CH2_DIR` 指定。`python3 tools/sites.py` 會印出兩個網站的位置與各自的縣市。
-- **第二網站的根目錄** `index.html` 會自動轉到第一網站的入口頁。
+- **第二網站的根目錄** `index.html` 會自動轉到第一網站的入口頁 https://cultural.123hi.org/。
+- **本機預覽**：`tools/serve.py` 把第二網站頁面裡的 `https://cultural.123hi.org/` 換成 `/Cultural_Heritage/`；`cities.js` 在 localhost 也自動改用本機路徑。
 
 ### 新 session 怎麼掛載第二個 repo
 
@@ -421,7 +423,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 | 照片配錯景點 | 只用完全相同或 4 字以上包含的名稱配對；`images.py` 會列出一照多配，人工排除 |
 | 一個景點沒有行政區 | stats.txt 會列出，手動補 `sites-official.json` 的 `town` |
 | 入口頁地圖看不到離島 | 入口頁地圖依所有縣市標記自動縮放，上方多留一點空間給最北的馬祖；西邊離島（經度小於 119.6）與最北的離島（緯度大於 25.9）的標籤放在標記右側，手機才不會被切掉 |
-| 第二網站的縣市頁沒有樣式、選單是空的 | 用了 `python3 -m http.server` 或直接開資料夾，絕對路徑 `/Cultural_Heritage/assets/…` 找不到。用 `tools/serve.py`，網址要有 `/Cultural_Heritage2/` |
+| 第二網站的縣市頁在本機預覽時用到線上的舊程式 | 用了 `python3 -m http.server` 或直接開資料夾，頁面會載入正式網址 `https://cultural.123hi.org/assets/…`。用 `tools/serve.py`（會把正式網址換成本機路徑），網址要有 `/Cultural_Heritage2/` |
 | 工具說找不到第二網站的 clone | 還沒掛載 `Cultural_Heritage2`，或 clone 不在本 repo 旁邊；掛載後 clone 到 `/home/user/Cultural_Heritage2`，或設 `CH2_DIR` |
 | 第二網站的縣市寫到第一網站 | `cities.js` 沒有這個縣市、`SITE2` 也沒列，且資料夾還不存在。先把 `config.json` 建在第二網站的 clone，或在 `cities.js` 補上 `site: 2` |
 | 官方說明年號與西元對不上 | 金門的官方資料常見這種矛盾（例如「民國元年（1911）」），請 agent 不寫有矛盾的數字，並在回報中列出 |

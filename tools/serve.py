@@ -2,17 +2,20 @@
 用法：python3 tools/serve.py [port]   → 開啟 http://localhost:8000/Cultural_Heritage/
 Python 內建的 `python3 -m http.server` 不支援 Range，跳到下一句時語音會從頭播放；上線到 GitHub Pages 則沒有這個問題。
 
-兩個網站和 GitHub Pages 一樣用路徑區分（第二網站的縣市頁用絕對路徑 /Cultural_Heritage/assets/… 載入共用程式）：
-  /Cultural_Heritage/…   → 本 repo（第一網站）
+兩個網站用路徑區分：
+  /Cultural_Heritage/…   → 本 repo（第一網站，正式網址 https://cultural.123hi.org/）
   /Cultural_Heritage2/…  → 第二網站的 clone（tools/sites.py：CH2_DIR，或本 repo 旁邊的 Cultural_Heritage2）
   其他路徑（例如 /chiayi-city/）→ 本 repo，和以前一樣，第一網站的頁面仍可直接預覽
+第二網站的 HTML 用第一網站的正式網址載入共用程式；這裡送出時會把正式網址換成上面的本機路徑，
+所以預覽與測試用的是本機正在改的共用程式（cities.js 在 localhost 也會自動改用本機路徑）。
 """
-import http.server, os, re, sys, urllib.parse
+import http.server, io, os, re, sys, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import sites as SITES  # noqa: E402
 MOUNTS = sorted(((v["url"], v["dir"]) for v in SITES.SITES.values()), key=lambda m: -len(m[0]))
+LOCAL = [(v["public"].encode(), v["url"].encode()) for v in SITES.SITES.values() if v["public"] != v["url"]]
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -33,8 +36,18 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.directory = old
 
     def send_head(self):
-        rng = self.headers.get("Range")
         path = self.translate_path(self.path)
+        page = os.path.join(path, "index.html") if os.path.isdir(path) and self.path.split("?")[0].endswith("/") else path
+        if page.endswith(".html") and os.path.isfile(page) and not page.startswith(ROOT + os.sep):
+            data = open(page, "rb").read()  # 第二網站的頁面：正式網址 → 本機路徑
+            for a, b in LOCAL:
+                data = data.replace(a, b)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(data)))
+            self.end_headers()
+            return io.BytesIO(data)
+        rng = self.headers.get("Range")
         if not rng or not os.path.isfile(path):
             return super().send_head()
         m = re.match(r"bytes=(\d*)-(\d*)", rng)

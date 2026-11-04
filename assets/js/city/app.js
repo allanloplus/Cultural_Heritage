@@ -3,7 +3,7 @@
 (function () {
   "use strict";
   var CY = window.CY, CFG = CY.config, V = window.Voice, C = window.Characters, esc = V.esc;
-  /* 共用資源的根目錄：由載入本檔的路徑推得（第一網站縣市頁 "../"；第二網站縣市頁 "/Cultural_Heritage/"），見 tools/city_template.html 的 {{root}} */
+  /* 共用資源的根目錄：由載入本檔的路徑推得（第一網站縣市頁 "../"；第二網站縣市頁為第一網站的網址 "https://cultural.123hi.org/"），見 tools/city_template.html 的 {{root}} */
   var ROOT = (function () {
     var el = document.currentScript, src = el && el.getAttribute("src") || "";
     var i = src.indexOf("assets/js/city/app.js");
