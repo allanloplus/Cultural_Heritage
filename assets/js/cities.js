@@ -1,6 +1,7 @@
 /* 全站縣市清單（入口頁的卡片與地圖、入口頁功能表、各縣市頁的「切換縣市」選單共用）
  * 新增縣市：在這裡加一筆並設 on: true，建立同名資料夾即可。img 為相對於網站根目錄的路徑。
- * tip（選填）：入口頁地圖標籤方向，"left" 放在標記左側（澎湖用，避免壓到嘉義、臺南），"right" 放在標記右側（基隆用；宜蘭同時用 "left"，兩縣的標籤才不會疊在一起）；兩者的標記都放在標籤上層，手機上標籤只寫縣名。
+ * tip（選填）：入口頁地圖標籤優先擺放的方向（"left"、"right"、"top"、"bottom"）。標籤會自動避開其他標籤與標記，放不下時先隱藏，放大地圖或滑鼠移到紅點上才出現。
+ * mapLabel（選填）：入口頁地圖上的短名稱，例如連江縣用「馬祖」；沒填就用 name。
  * label（選填）：卡片、地圖標籤與選單顯示的名稱，例如「連江縣（馬祖）」；name 維持官方縣名，用來分地區。 */
 (function (root) {
   "use strict";
@@ -35,7 +36,7 @@
     { slug: "hualien-county", name: "花蓮縣", nick: "洄瀾：阿美・太魯閣・縱谷移民村・林業糖業", lat: 23.85, lng: 121.5, on: true,
       img: "hualien-county/img/guangfu-tangchangzhitang-0.webp", credit: "花蓮糖廠製糖工場／lienyuan lee，CC BY 3.0",
       desc: "99 處有形文化資產：跨縣市國定古蹟八通關古道東端（玉里）、吉安慶修院、松園別館、將軍府、林田山林業聚落、花蓮糖廠、太巴塱祖屋與舞鶴遺址；另有阿美族豐年祭、大庄夜祭、紋面傳統、噶瑪蘭族香蕉絲織布等無形文化資產。" },
-    { slug: "lienchiang-county", name: "連江縣", label: "連江縣（馬祖）", nick: "馬祖列島：閩東石頭屋・燈塔・戰地坑道", lat: 26.16, lng: 119.95, on: true,
+    { slug: "lienchiang-county", name: "連江縣", label: "連江縣（馬祖）", mapLabel: "馬祖", nick: "馬祖列島：閩東石頭屋・燈塔・戰地坑道", lat: 26.16, lng: 119.95, on: true,
       img: "lienchiang-county/img/beigan-qinbijuluojianzhu-0.webp", credit: "北竿芹壁聚落／張雅倫，CC BY-SA 4.0",
       desc: "15 處有形文化資產：東犬、東湧兩座國定古蹟燈塔，明代大埔石刻，芹壁、津沙、大浦的閩東石頭屋聚落，馬祖戰地文化景觀的坑道與據點，八千多年前的亮島人；另有擺暝、鼓板樂與馬祖老酒文化。搭交通船跳島逛四鄉五島。" },
     { slug: "penghu-county", name: "澎湖縣", nick: "菊島：媽祖廟・礮臺・咕咾石古厝・石滬", lat: 23.57, lng: 119.58, tip: "left", on: true,

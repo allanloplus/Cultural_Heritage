@@ -2,7 +2,7 @@
 
 導覽員 **Allan Lo** 與 AI 小助手 **阿拉蕾** 帶你逛臺灣各縣市的文化資產。這是一個知性與旅遊資訊網站，用地圖、雙人語音故事、老地圖時光機、行程規劃和知識遊戲介紹文化資產。
 
-- 規劃設計：Allan Lo，2026/11/1
+- 規劃設計：Allan Lo，https://www.123hi.org，2026年11月
 - 使用 AI 工具：Claude Opus 5.5
 
 目前開放 **嘉義市**（`chiayi-city/`）、**嘉義縣**（`chiayi-county/`）、**雲林縣**（`yunlin-county/`）、**臺南市**（`tainan-city/`）、**高雄市**（`kaohsiung-city/`）、**屏東縣**（`pingtung-county/`）、**臺東縣**（`taitung-county/`）、**澎湖縣**（`penghu-county/`）、**金門縣**（`kinmen-county/`）、**宜蘭縣**（`yilan-county/`）、**花蓮縣**（`hualien-county/`）、**基隆市**（`keelung-city/`）與 **連江縣（馬祖）**（`lienchiang-county/`）。每個縣市各有一個資料夾，網頁程式全部共用；新增縣市只要準備資料（見下方「新增縣市」）。

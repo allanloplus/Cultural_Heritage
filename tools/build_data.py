@@ -95,7 +95,7 @@ def build_city(slug):
     cfg_out = {k: v for k, v in cfg.items() if k != "html"}
     data = {
         "meta": {"city": cfg["name"], "slug": slug, "updated": "2026-11-01",
-                 "designer": "Allan Lo", "designed": "2026/11/1", "ai": "Claude Opus 5.5"},
+                 "designer": "Allan Lo", "designerSite": "https://www.123hi.org", "designed": "2026年11月", "ai": "Claude Opus 5.5"},
         "config": cfg_out,
         "categories": cats,
         "sites": sites,
