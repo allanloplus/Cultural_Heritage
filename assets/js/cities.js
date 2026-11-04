@@ -41,6 +41,9 @@
     { slug: "penghu-county", name: "澎湖縣", nick: "菊島：媽祖廟・礮臺・咕咾石古厝・石滬", lat: 23.57, lng: 119.58, tip: "left", on: true,
       img: "penghu-county/img/magong-tianhougong-0.webp", credit: "澎湖天后宮／舟集 Boattoad，CC BY-SA 4.0",
       desc: "90 處有形文化資產：澎湖天后宮、媽宮古城、風櫃尾荷蘭城堡、西嶼東臺與西臺、西嶼燈塔等 9 處國定古蹟，咕咾石古厝、望安花宅聚落、七美雙心石滬與吉貝石滬群；另有踏涼傘、澎湖褒歌、上元乞龜等無形文化資產。騎上跨海大橋、搭船跳島逛菊島。" },
+    { slug: "keelung-city", name: "基隆市", nick: "雨港：西荷城堡・砲台要塞・築港與鐵道", lat: 25.13, lng: 121.74, on: true,
+      img: "keelung-city/img/zhongzheng-ershawanpaotai-0.webp", credit: "二沙灣砲台／Bigmorr，CC BY-SA 3.0",
+      desc: "51 處有形文化資產：二沙灣、槓仔寮、大武崙三座砲台與外海的彭佳嶼燈塔 4 處國定古蹟，和平島的西班牙城堡與諸聖教堂遺構、清法戰爭紀念園區、獅球嶺與劉銘傳隧道、基隆築港與要塞司令部；另有鷄籠中元祭、和平島王爺海上遊江等無形文化資產。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 }
