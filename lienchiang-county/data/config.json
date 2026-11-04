@@ -11,6 +11,7 @@
   "detailZoom": 16,
   "timeZoom": 11,
   "noPhotoBase": true,
+  "fitSites": true,
   "categories": [
     "國定古蹟",
     "縣定古蹟",

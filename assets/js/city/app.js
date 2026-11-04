@@ -190,6 +190,8 @@
         .on("click", function () { location.hash = "#map/" + s.id; });
       m.addTo(map); markers[s.id] = m;
     });
+    /* config.fitSites：景點分散在多座島（例如馬祖四鄉五島），初始畫面縮放到看得到全部景點 */
+    if (CFG.fitSites && SITES.length) map.fitBounds(L.latLngBounds(SITES.map(function (s) { return [s.lat, s.lng]; })), { padding: [24, 24] });
     // 無形文化資產與古物展示地點
     venueLayer = L.layerGroup().addTo(map);
     (CY.ich.venues || []).forEach(function (v) {

@@ -34,6 +34,9 @@
     { slug: "hualien-county", name: "花蓮縣", nick: "洄瀾：阿美・太魯閣・縱谷移民村・林業糖業", lat: 23.85, lng: 121.5, on: true,
       img: "hualien-county/img/guangfu-tangchangzhitang-0.webp", credit: "花蓮糖廠製糖工場／lienyuan lee，CC BY 3.0",
       desc: "99 處有形文化資產：跨縣市國定古蹟八通關古道東端（玉里）、吉安慶修院、松園別館、將軍府、林田山林業聚落、花蓮糖廠、太巴塱祖屋與舞鶴遺址；另有阿美族豐年祭、大庄夜祭、紋面傳統、噶瑪蘭族香蕉絲織布等無形文化資產。" },
+    { slug: "lienchiang-county", name: "連江縣", label: "連江縣（馬祖）", nick: "馬祖列島：閩東石頭屋・燈塔・戰地坑道", lat: 26.16, lng: 119.95, on: true,
+      img: "lienchiang-county/img/beigan-qinbijuluojianzhu-0.webp", credit: "北竿芹壁聚落／張雅倫，CC BY-SA 4.0",
+      desc: "15 處有形文化資產：東犬、東湧兩座國定古蹟燈塔，明代大埔石刻，芹壁、津沙、大浦的閩東石頭屋聚落，馬祖戰地文化景觀的坑道與據點，八千多年前的亮島人；另有擺暝、鼓板樂與馬祖老酒文化。搭交通船跳島逛四鄉五島。" },
     { slug: "", name: "彰化縣", nick: "鹿港・八卦山", lat: 24.07, lng: 120.54 },
     { slug: "", name: "臺中市", nick: "舊城・霧峰林家", lat: 24.14, lng: 120.68 },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51 }
