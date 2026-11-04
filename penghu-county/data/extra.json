@@ -1,0 +1,346 @@
+{
+ "intro": [
+  {
+   "who": "A",
+   "text": "嗨，我是 Allan Lo！這一站我們坐船、搭飛機，來到臺灣海峽中間的澎湖群島，大大小小有好幾十座島嶼。"
+  },
+  {
+   "who": "R",
+   "text": "我是阿拉蕾！澎湖不就是仙人掌冰、黑糖糕，還有夏天的花火節嗎？"
+  },
+  {
+   "who": "A",
+   "text": "那些都很棒，不過澎湖的歷史更精彩，宋元時期就有漢人在這裡活動的記載，比臺灣本島還早。"
+  },
+  {
+   "who": "R",
+   "text": "真的假的？那澎湖有多少文化資產？"
+  },
+  {
+   "who": "A",
+   "text": "有形的一共90處，國定古蹟就有9處，像澎湖天后宮、媽宮古城，還有荷蘭人在風櫃尾築過的城堡。"
+  },
+  {
+   "who": "R",
+   "text": "我還聽說西嶼有好多礮臺，還有一座很老的燈塔！"
+  },
+  {
+   "who": "A",
+   "text": "對，清代為了守住澎湖這個海上門戶，在西嶼、金龜頭、拱北山都蓋了礮臺。戰爭的故事，我們用平靜的心情好好聽。"
+  },
+  {
+   "who": "R",
+   "text": "那些用咕咾石蓋的古厝也好漂亮，可以進去看嗎？"
+  },
+  {
+   "who": "A",
+   "text": "很多古厝還有人住，在外面欣賞就好，雙心石滬也請在岸上看，千萬不要踩上去。"
+  },
+  {
+   "who": "R",
+   "text": "了解！騎上跨海大橋、搭船跳島，我們出發逛菊島囉！"
+  }
+ ],
+ "timeIntro": [
+  {
+   "who": "R",
+   "text": "Allan，澎湖的時光地圖第一站怎麼不是荷蘭時期，而是宋元明與荷蘭時期？"
+  },
+  {
+   "who": "A",
+   "text": "因為澎湖的故事開始得比較早，宋代就有漢人漁民與駐軍的記載，元代還設了澎湖巡檢司。"
+  },
+  {
+   "who": "A",
+   "text": "接著是明鄭、清代的媽宮城和礮臺，再到日治時期的馬公要港，一直到戰後和今天。"
+  },
+  {
+   "who": "R",
+   "text": "清代以後的時期，還可以疊上1904年的臺灣堡圖和日治時期的地形圖！"
+  },
+  {
+   "who": "A",
+   "text": "沒錯，拉一下透明度，看看媽宮城的城牆今天變成了哪條路。"
+  }
+ ],
+ "planIntro": [
+  {
+   "who": "A",
+   "text": "澎湖沒有火車也沒有 YouBike，最方便的是租機車或開車，本島、白沙和西嶼都有橋相連。"
+  },
+  {
+   "who": "R",
+   "text": "騎上跨海大橋，就能去西嶼看礮臺和燈塔！"
+  },
+  {
+   "who": "A",
+   "text": "吉貝、望安、七美要搭船，冬天東北季風強，船班少又常停航，一定要先查船班。目斗嶼燈塔一般人不能登島，我會在行程上標出來。"
+  },
+  {
+   "who": "R",
+   "text": "中午記得留肚子給小管料理，飯後再來一碗仙人掌冰！"
+  }
+ ],
+ "gameIntro": [
+  {
+   "who": "R",
+   "text": "菊島遊戲場開張！問答王、時光排序、猜猜我是誰、翻翻樂，還有菊島擲骰大冒險！"
+  },
+  {
+   "who": "A",
+   "text": "題目從澎湖天后宮、媽宮古城，一路考到西嶼礮臺和雙心石滬，看你能不能全部答對。"
+  },
+  {
+   "who": "R",
+   "text": "Allan，這次擲骰子我一定贏你！"
+  },
+  {
+   "who": "A",
+   "text": "哈哈，那就從馬公港出發，比比看吧！"
+  }
+ ],
+ "reactions": [
+  {
+   "who": "R",
+   "text": "答對了！你根本就是澎湖通！"
+  },
+  {
+   "who": "A",
+   "text": "正確答案！給你一個大大的讚。"
+  },
+  {
+   "who": "R",
+   "text": "哎呀，答錯了，沒關係，看看解說再挑戰！"
+  },
+  {
+   "who": "A",
+   "text": "可惜！差一點點，下次一定行。"
+  },
+  {
+   "who": "R",
+   "text": "換我擲骰子囉！看我的！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜你贏了！今天的仙人掌冰算我的！"
+  },
+  {
+   "who": "R",
+   "text": "耶！這一局是我贏了，要不要再來一局？"
+  },
+  {
+   "who": "A",
+   "text": "平手！你們兩個都是文資高手。"
+  },
+  {
+   "who": "R",
+   "text": "時光排序完成！你從七美的史前石器工場一路排到今天的澎湖，好厲害！"
+  },
+  {
+   "who": "A",
+   "text": "恭喜集到新的護照印章！"
+  },
+  {
+   "who": "R",
+   "text": "全部配對成功，記憶力滿分！"
+  },
+  {
+   "who": "A",
+   "text": "嗯，這一題我們一起看看解說。"
+  }
+ ],
+ "starts": [
+  {
+   "id": "magong-port",
+   "name": "馬公港（南海遊客服務中心）",
+   "lat": 23.56645,
+   "lng": 119.57242
+  },
+  {
+   "id": "airport",
+   "name": "澎湖機場（馬公機場）",
+   "lat": 23.56879,
+   "lng": 119.62901
+  },
+  {
+   "id": "tianhou",
+   "name": "馬公市區（澎湖天后宮）",
+   "lat": 23.564832,
+   "lng": 119.563924
+  },
+  {
+   "id": "chikan",
+   "name": "白沙赤崁（北海遊客服務中心）",
+   "lat": 23.66877,
+   "lng": 119.60305
+  },
+  {
+   "id": "gps",
+   "name": "我的目前位置",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "pick",
+   "name": "在地圖上點選出發點",
+   "lat": null,
+   "lng": null
+  }
+ ],
+ "plans": {
+  "1": {
+   "name": "一日：馬公市區（天后宮、中央老街、四眼井、媽宮古城順承門、金龜頭礮臺）",
+   "days": [
+    [
+     "magong-tianhougong",
+     "magong-shigongcijiwanjun",
+     "magong-siyanjing",
+     "magong-qianyitangzhongyao",
+     "magong-taishajiaohuiguan",
+     "magong-magongchenghuang",
+     "magong-tingshe",
+     "magong-diyibinguan",
+     "magong-guanyinting",
+     "magong-magonggucheng",
+     "magong-jinguitoupaotai",
+     "magong-duxingshicun"
+    ]
+   ]
+  },
+  "2": {
+   "name": "二日：馬公市區 ＋ 白沙、西嶼（瓦硐、跨海大橋、二崁、西嶼東臺與西臺、西嶼燈塔）",
+   "days": [
+    [
+     "magong-tianhougong",
+     "magong-shigongcijiwanjun",
+     "magong-siyanjing",
+     "magong-qianyitangzhongyao",
+     "magong-taishajiaohuiguan",
+     "magong-magongchenghuang",
+     "magong-tingshe",
+     "magong-diyibinguan",
+     "magong-guanyinting",
+     "magong-magonggucheng",
+     "magong-jinguitoupaotai",
+     "magong-duxingshicun"
+    ],
+    [
+     "baisha-wadongxulingyunxiu",
+     "baisha-tonglianglinjiagu",
+     "baisha-kuahaidaqiao",
+     "xiyu-erkanchenzhai",
+     "xiyu-xianghuangshizong",
+     "xiyu-danyaobenku",
+     "xiyu-dongtai",
+     "xiyu-xitai",
+     "xiyu-dengta"
+    ]
+   ]
+  },
+  "3": {
+   "name": "三日：馬公、白沙、西嶼 ＋ 望安（花宅聚落、西安許真古宅）",
+   "days": [
+    [
+     "magong-tianhougong",
+     "magong-shigongcijiwanjun",
+     "magong-siyanjing",
+     "magong-qianyitangzhongyao",
+     "magong-taishajiaohuiguan",
+     "magong-magongchenghuang",
+     "magong-tingshe",
+     "magong-diyibinguan",
+     "magong-guanyinting",
+     "magong-magonggucheng",
+     "magong-jinguitoupaotai",
+     "magong-duxingshicun"
+    ],
+    [
+     "baisha-wadongxulingyunxiu",
+     "baisha-tonglianglinjiagu",
+     "baisha-kuahaidaqiao",
+     "xiyu-erkanchenzhai",
+     "xiyu-xianghuangshizong",
+     "xiyu-danyaobenku",
+     "xiyu-dongtai",
+     "xiyu-xitai",
+     "xiyu-dengta"
+    ],
+    [
+     "wangan-huazhaijuluo",
+     "wangan-xianxuzhenguzhai"
+    ]
+   ]
+  },
+  "qimei": {
+   "label": "三日（七美版）",
+   "name": "三日七美版：馬公、白沙、西嶼 ＋ 七美（雙心石滬、史前石器製造場遺址）",
+   "days": [
+    [
+     "magong-tianhougong",
+     "magong-shigongcijiwanjun",
+     "magong-siyanjing",
+     "magong-qianyitangzhongyao",
+     "magong-taishajiaohuiguan",
+     "magong-magongchenghuang",
+     "magong-tingshe",
+     "magong-diyibinguan",
+     "magong-guanyinting",
+     "magong-magonggucheng",
+     "magong-jinguitoupaotai",
+     "magong-duxingshicun"
+    ],
+    [
+     "baisha-wadongxulingyunxiu",
+     "baisha-tonglianglinjiagu",
+     "baisha-kuahaidaqiao",
+     "xiyu-erkanchenzhai",
+     "xiyu-xianghuangshizong",
+     "xiyu-danyaobenku",
+     "xiyu-dongtai",
+     "xiyu-xitai",
+     "xiyu-dengta"
+    ],
+    [
+     "qimei-shiqianshiqizhizao",
+     "qimei-shuangxinshihu"
+    ]
+   ]
+  },
+  "jibei": {
+   "label": "三日（吉貝版）",
+   "name": "三日吉貝版：馬公、白沙、西嶼 ＋ 吉貝（林江西古宅、吉貝石滬群）",
+   "days": [
+    [
+     "magong-tianhougong",
+     "magong-shigongcijiwanjun",
+     "magong-siyanjing",
+     "magong-qianyitangzhongyao",
+     "magong-taishajiaohuiguan",
+     "magong-magongchenghuang",
+     "magong-tingshe",
+     "magong-diyibinguan",
+     "magong-guanyinting",
+     "magong-magonggucheng",
+     "magong-jinguitoupaotai",
+     "magong-duxingshicun"
+    ],
+    [
+     "baisha-wadongxulingyunxiu",
+     "baisha-tonglianglinjiagu",
+     "baisha-kuahaidaqiao",
+     "xiyu-erkanchenzhai",
+     "xiyu-xianghuangshizong",
+     "xiyu-danyaobenku",
+     "xiyu-dongtai",
+     "xiyu-xitai",
+     "xiyu-dengta"
+    ],
+    [
+     "baisha-jibeilinjiangxigu",
+     "baisha-shihuwenhuajing"
+    ]
+   ]
+  }
+ },
+ "food": []
+}
