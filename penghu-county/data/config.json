@@ -1,0 +1,33 @@
+{
+  "slug": "penghu-county",
+  "name": "澎湖縣",
+  "short": "澎湖",
+  "center": [23.5, 119.56],
+  "zoom": 10,
+  "minZoom": 8,
+  "detailZoom": 16,
+  "timeZoom": 11,
+  "fitSites": true,
+  "categories": ["國定古蹟", "縣定古蹟", "歷史建築", "紀念建築", "聚落建築群", "考古遺址", "文化景觀"],
+  "towns": ["馬公市", "湖西鄉", "白沙鄉", "西嶼鄉", "望安鄉", "七美鄉"],
+  "ubikeAreas": [],
+  "wiki": {
+    "title": "維基百科「澎湖縣文化資產」",
+    "url": "https://zh.wikipedia.org/zh-tw/%E6%BE%8E%E6%B9%96%E7%B8%A3%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2"
+  },
+  "introTitle": "歡迎來到澎湖群島",
+  "quizTitle": "澎湖文資通",
+  "eraLabels": {
+    "dutch": "宋元明與荷蘭時期（–1662）",
+    "zheng": "明鄭時期（1662–1683）",
+    "qing": "清代（1683–1895）"
+  },
+  "board": {
+    "name": "菊島擲骰大冒險",
+    "start": "出發：馬公港",
+    "train": "跨海大橋",
+    "trainText": "騎上澎湖跨海大橋，前進 3 格！",
+    "food": "黑糖糕補給站"
+  },
+  "planner": {}
+}

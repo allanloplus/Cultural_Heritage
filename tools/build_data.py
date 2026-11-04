@@ -87,6 +87,8 @@ def build_city(slug):
             "openNote": c["openNote"], "dialogue": c["dialogue"], "clues": c["clues"], "quiz": c["quiz"],
             "images": images.get(o["id"], []),
         }
+        if o.get("extraLinks"):  # 合併的紀錄：另一筆官方連結
+            s["extraLinks"] = o["extraLinks"]
         sites.append(s)
     sites.sort(key=lambda s: (cats.index(s["category"]) if s["category"] in cats else 9, s["year"]))
 

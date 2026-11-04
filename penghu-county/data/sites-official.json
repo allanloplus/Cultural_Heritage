@@ -1,0 +1,1626 @@
+[
+ {
+  "id": "magong-magonggucheng",
+  "name": "媽宮古城",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "馬公市",
+  "types": [
+   "城郭"
+  ],
+  "announced": "1985-08-19",
+  "address": "馬公市1.順承門至中興門（昔大西門位置）段：城牆長度約為239.08公尺，東自順承門往西銜接篤行十村段城牆，由篤行十村段城牆往北銜接至陸軍澎湖防衛指揮部的中興門（昔大西門），定著土地範圍即以古蹟投影面積為原則。",
+  "lat": 23.563035512646,
+  "lng": 119.562200932316,
+  "open": "自由參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000086",
+  "caseId": "19850819000086",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/0ae899c8-81b6-4af8-a88e-b55cd3362ede/媽宮古城.jpg"
+ },
+ {
+  "id": "magong-tianhougong",
+  "name": "澎湖天后宮",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1983-12-28",
+  "address": "馬公市中央里正義街1號",
+  "lat": 23.564832,
+  "lng": 119.563924,
+  "open": "0700-1700",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000013",
+  "caseId": "19831228000013",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/5cf883f4-a40d-4979-acf5-86a9406d3f31/T015 澎湖縣 澎湖天后宮 (一級)02.jpg"
+ },
+ {
+  "id": "magong-jinguitoupaotai",
+  "name": "馬公金龜頭礮臺",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "馬公市",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2001-11-21",
+  "address": "馬公市馬公段2664、2664-3、2664-4、2664-5地號",
+  "lat": 23.5632838426198,
+  "lng": 119.557736760265,
+  "open": "週四到週一9:00-12:00 ; 14:00-17:00。\n周二及周三休息。\n澎湖戰役秘徑（地下坑道）採購票參觀：上午梯次－10:00；下午梯次－14:30\n閉館前15分鐘停止入園。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20011121000002",
+  "caseId": "20011121000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/bd25ad16-29d1-4395-8ca3-bd95cf276357/T007 澎湖縣 馬公金龜頭砲臺 (國定)17.jpg"
+ },
+ {
+  "id": "magong-fengguiweihelan",
+  "name": "馬公風櫃尾荷蘭城堡",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "馬公市",
+  "types": [
+   "城郭"
+  ],
+  "announced": "2001-11-21",
+  "address": "馬公市風櫃西段2地號",
+  "lat": 23.553719,
+  "lng": 119.548544,
+  "open": "自由參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20011121000001",
+  "caseId": "20011121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/f2ca24b3-2f21-4683-8919-6ec64a7d2a98/T032 澎湖縣 馬公風櫃尾荷蘭城堡 (一級)01.jpg"
+ },
+ {
+  "id": "magong-qianyitangzhongyao",
+  "name": "乾益堂中藥行",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-12-10",
+  "address": "馬公市中央里中央街42號",
+  "lat": 23.565204,
+  "lng": 119.564909,
+  "open": "7:00-21:30  外貌參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19981210000002",
+  "caseId": "19981210000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/24d770b0-9bbf-4a12-b681-120fcc040d33/218648.jpg"
+ },
+ {
+  "id": "magong-siyanjing",
+  "name": "四眼井",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市中央里中央街40號厝前",
+  "lat": 23.565101,
+  "lng": 119.564938,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000094",
+  "caseId": "19851127000094",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2336/photo/75f6d6c6-c50c-4d4e-aed0-32729cd5cdbb.JPG"
+ },
+ {
+  "id": "magong-magongchenghuang",
+  "name": "媽宮城隍廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1987-11-10",
+  "address": "馬公市重慶里光明路8鄰20號",
+  "lat": 23.566223,
+  "lng": 119.566317,
+  "open": "05:00-18:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19871110000001",
+  "caseId": "19871110000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2334/photo/e090d8ab-b2ae-4c40-81fa-140c3733670b.jpg"
+ },
+ {
+  "id": "magong-wenaochenghuang",
+  "name": "文澳城隍廟",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市西文里3鄰25號",
+  "lat": 23.565515,
+  "lng": 119.583669,
+  "open": "0500-2000",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000090",
+  "caseId": "19851127000090",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2309/photo/392222d6-d9b2-49b3-a3dd-bc34162d32c5.jpg"
+ },
+ {
+  "id": "magong-shigongcijiwanjun",
+  "name": "施公祠及萬軍井",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市中央里中央街1巷(施公祠10號)",
+  "lat": 23.564605,
+  "lng": 119.56427,
+  "open": "（施公祠）0800-1700；(萬軍井)全天開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000092",
+  "caseId": "19851127000092",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2317/photo/2e399834-ff14-46ab-81c5-8813808c76c0.jpg"
+ },
+ {
+  "id": "magong-diyibinguan",
+  "name": "第一賓館",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "1998-12-10",
+  "address": "馬公市中興里介壽路13號",
+  "lat": 23.568955,
+  "lng": 119.563351,
+  "open": "週四至週一 09:00-12:00  14:00-17:00\n週二、週三及國定假日休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19981210000001",
+  "caseId": "19981210000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-02/ebfb2137-cb51-4c85-9166-c2e4b0449de6/第一賓館02-原間影像.jpg"
+ },
+ {
+  "id": "magong-taishajiaohuiguan",
+  "name": "臺廈郊會館",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市中央里中山路6巷9號",
+  "lat": 23.563921,
+  "lng": 119.564179,
+  "open": "06:00-20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000091",
+  "caseId": "19851127000091",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2315/photo/d842aa54-3923-4792-b667-66e9f5615e61.jpg"
+ },
+ {
+  "id": "magong-caitinglanjinshidi",
+  "name": "蔡廷蘭進士第",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市興仁里雙頭掛29號",
+  "lat": 23.550677,
+  "lng": 119.611524,
+  "open": "*每週日、一、四\n10：30～15：00開放參觀  2.9:00-10：30；15：00-17：00，僅開放10人以上團體預約參觀\n*週五、週六\n09：00-12：00 14：00-17：00開放參觀\n若因館務需求而休館，將另行公告。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000089",
+  "caseId": "19851127000089",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-02-18/37b2da3d-8061-4d66-a661-cfa76c8f0fdb/照片1.jpg"
+ },
+ {
+  "id": "magong-suogangnanbeishita",
+  "name": "鎖港南北石塔",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2000-01-28",
+  "address": "馬公市鎖港南段615地號",
+  "lat": 23.52349,
+  "lng": 119.602281,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000128000002",
+  "caseId": "20000128000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1309/photo/鎖港南北石塔1.JPG"
+ },
+ {
+  "id": "magong-dashanbaoleipaotai",
+  "name": "馬公大山堡壘砲臺",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2010-06-30",
+  "address": "馬公市澎湖縣嵵裡里（仙人掌公園內）馬公市嵵裡新段1556號",
+  "lat": 23.526451,
+  "lng": 119.55659,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100630000001",
+  "caseId": "20100630000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1294/photo/馬公大山堡壘砲臺 1.jpg"
+ },
+ {
+  "id": "magong-guanyinting",
+  "name": "馬公觀音亭",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "1985-11-27",
+  "address": "馬公市中興里14鄰介壽路7號",
+  "lat": 23.567663,
+  "lng": 119.561958,
+  "open": "05:00-20:00 全年無休",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000093",
+  "caseId": "19851127000093",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2323/photo/ad934842-adf5-4ac0-b717-5063a85bf0bb.jpg"
+ },
+ {
+  "id": "magong-gaoxiongguanshuiju",
+  "name": "高雄關稅局馬公支關",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2000-01-28",
+  "address": "馬公市臨海路31號",
+  "lat": 23.563273,
+  "lng": 119.565388,
+  "open": "外貌參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000128000001",
+  "caseId": "20000128000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2280/photo/59f77d7a-9b9a-423b-a111-65936498e875.jpg"
+ },
+ {
+  "id": "magong-jingantujiaociqi",
+  "name": "井垵凸角磁氣探知機防備衛所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-05-31",
+  "address": "馬公市井垵東段795地號",
+  "lat": 23.50975846628574,
+  "lng": 119.57288881347566,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190618000003",
+  "caseId": "20190618000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-06-18/cf926672-6547-4340-9e90-cfb694110811/IMG_0911.jpg"
+ },
+ {
+  "id": "magong-tianxiangyingqu",
+  "name": "天祥營區連級兵舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-07-23",
+  "address": "馬公市中衛段1337地號",
+  "lat": 23.566043,
+  "lng": 119.587009,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200717000001",
+  "caseId": "20200717000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-07-17/a01b47d1-d2f8-4357-a687-83e101fd18ee/天祥圖片1.jpg"
+ },
+ {
+  "id": "magong-shiliguzhai",
+  "name": "嵵裡古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-12-03",
+  "address": "馬公市嵵裡里77號",
+  "lat": 23.525442,
+  "lng": 119.570518,
+  "open": "每日10:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20081203000001",
+  "caseId": "20081203000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38133/photo/e183127d-d3f6-4381-8966-4d9972bfefc5.JPG"
+ },
+ {
+  "id": "magong-houkutanlvshijiegu",
+  "name": "後窟潭呂石碣古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-11-09",
+  "address": "馬公市重光里90號",
+  "lat": 23.584123,
+  "lng": 119.569305,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20101109000001",
+  "caseId": "20101109000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2298/photo/321b3d2d-f145-4fb6-97a5-50be8930bc43.JPG"
+ },
+ {
+  "id": "magong-wenshishuyuannei",
+  "name": "文石書院內石碑（六面）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "馬公市西文澳104之7號",
+  "lat": 23.567152,
+  "lng": 119.580195,
+  "open": "週三~週六9:00-16:00\n週一、週二休息\n",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000003",
+  "caseId": "20031211000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1304/photo/文石書院內石碑（六面）1.jpg"
+ },
+ {
+  "id": "magong-dongweilvdingsigu",
+  "name": "東衛呂丁思古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-05-12",
+  "address": "馬公市東衛里69號",
+  "lat": 23.568316,
+  "lng": 119.602335,
+  "open": "每週六、日下午14時至18時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090512000001",
+  "caseId": "20090512000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2300/photo/6930ac18-fda0-4932-a717-d4336699f0af.jpg"
+ },
+ {
+  "id": "magong-gongmaijubeicefang",
+  "name": "澎湖公賣局北側防空壕",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "馬公市民族路、介壽路和民生路交會三角地帶，介於菸酒公司與中正堂之間",
+  "lat": 23.568551,
+  "lng": 119.564249,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000002",
+  "caseId": "20031211000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-04/29b348d9-0d7a-449c-85d7-e6b58f8aec99/澎湖公賣局北側防空壕.jpg"
+ },
+ {
+  "id": "magong-tingtingzhangguan",
+  "name": "澎湖廳廳長官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市中興里治平路30 號",
+  "lat": 23.569942,
+  "lng": 119.567316,
+  "open": "週四至週一 09:00-12:00 14:00-17:00\n週二、週三及國定假日休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000003",
+  "caseId": "20021213000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-26/daa5cbd1-d68a-4e7e-ad9a-bd85e26ee7f4/澎湖廳廳長官舍-1.jpg"
+ },
+ {
+  "id": "magong-tingxianbingdui",
+  "name": "澎湖廳憲兵隊",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市民族路22號",
+  "lat": 23.564519,
+  "lng": 119.56379,
+  "open": "週三~週日上午9時至12時；下午2時至5時 \n週一、週二及國定假日休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000006",
+  "caseId": "20021213000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-26/f10b921d-85da-4abe-ac12-0bfd09cb8c7c/憲兵隊.jpg"
+ },
+ {
+  "id": "magong-tingshe",
+  "name": "澎湖廳舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市中興里治平路32 號",
+  "lat": 23.57007,
+  "lng": 119.566468,
+  "open": "8:00-17:30 縣府上班時間",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000001",
+  "caseId": "20021213000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/40696155-e383-453f-84b2-47cc06ca3295/澎湖廳舍.jpg"
+ },
+ {
+  "id": "magong-zhengfuqiandiaobao",
+  "name": "澎湖縣政府前碉堡",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "馬公市忠孝路與治平路交口西北側",
+  "lat": 23.569691,
+  "lng": 119.566936,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000001",
+  "caseId": "20031211000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/5c2e9876-0c97-47c9-a5ce-7c81b52779f8/澎湖縣政府前碉堡.jpg"
+ },
+ {
+  "id": "magong-youbianju",
+  "name": "澎湖郵便局",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市中山路75號之1",
+  "lat": 23.563428,
+  "lng": 119.563903,
+  "open": "每週三至週一上午9時至下午5時\n每週二休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000002",
+  "caseId": "20021213000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/9abf3eb1-39f5-4fe4-ab13-928dfa373ec0/澎湖郵便局.jpg"
+ },
+ {
+  "id": "magong-yiyuanfangkongdong",
+  "name": "澎湖醫院防空洞",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2013-10-04",
+  "address": "馬公市中正路10號",
+  "lat": 23.564556,
+  "lng": 119.565401,
+  "open": "外貌參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20131011000001",
+  "caseId": "20131011000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-12-12/ff04210c-d5d7-45f0-a24e-bc13b9a4d506/S__102694943.jpg"
+ },
+ {
+  "id": "magong-jinlongtouqingnian",
+  "name": "澎湖金龍頭青年活動中心",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2020-02-11",
+  "address": "馬公市馬公段2665地號",
+  "lat": 23.561415,
+  "lng": 119.558902,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200717000004",
+  "caseId": "20200717000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-07-17/2d2bb96a-8ac8-4a46-87e8-387204fc5113/189702.jpg"
+ },
+ {
+  "id": "magong-pengfangbujianzhu",
+  "name": "澎防部建築群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-07-23",
+  "address": "馬公市馬公段2652-4地號",
+  "lat": 23.565391,
+  "lng": 119.561743,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190724000001",
+  "caseId": "20190724000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-07-24/58950b4f-59a1-46bf-b5c2-fdae28844501/圖片4.jpg"
+ },
+ {
+  "id": "magong-wukanhongxinrengu",
+  "name": "烏崁洪辛任古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-11-21",
+  "address": "馬公市烏崁里96號",
+  "lat": 23.547431,
+  "lng": 119.620069,
+  "open": "獎助整修中，尚未開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161121000002",
+  "caseId": "20161121000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-02-21/78e70d74-c3d6-4e3d-b650-b89abbcaaa16/IMG_20191007_091927.jpg"
+ },
+ {
+  "id": "magong-ziyouta",
+  "name": "自由塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2015-06-22",
+  "address": "馬公市馬公段227地號上之定著基地。",
+  "lat": 23.569958,
+  "lng": 119.571273,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150622000002",
+  "caseId": "20150622000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-11/4dec0619-82e4-416b-8dec-8b6365d4f512/圖像.jpg"
+ },
+ {
+  "id": "magong-taiwanzongdufu",
+  "name": "臺灣總督府專賣局澎湖出張所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市民生路42號",
+  "lat": 23.567846,
+  "lng": 119.563931,
+  "open": "外貌參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000005",
+  "caseId": "20021213000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-26/1ad14b1d-3bf9-4a67-b3e1-6210de02be9c/台灣總督府專賣局澎湖出張所.jpg"
+ },
+ {
+  "id": "magong-xiyingshengjingpai",
+  "name": "西瀛勝境牌樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市民生路和介壽路交叉口",
+  "lat": 23.567702,
+  "lng": 119.56298,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000008",
+  "caseId": "20021213000008",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/2b8bb49f-aa40-41a5-9d2e-1e7961cfe04a/西瀛勝境牌樓.jpg"
+ },
+ {
+  "id": "magong-suogangxujiandugu",
+  "name": "鎖港許監督古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-09-11",
+  "address": "馬公市鎖港里1237號",
+  "lat": 23.524674,
+  "lng": 119.600078,
+  "open": "每週一至週六上午8時至12時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140911000001",
+  "caseId": "20140911000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-11/fbbc05af-4d59-4795-9e5f-12d30c35f42f/圖像.jpg"
+ },
+ {
+  "id": "magong-suogangxuzuqugu",
+  "name": "鎖港許祖取古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-04-08",
+  "address": "馬公市鎖港里1186號",
+  "lat": 23.524948,
+  "lng": 119.600606,
+  "open": "每週二上午9時至下午4時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100408000002",
+  "caseId": "20100408000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/2296/photo/b0aa33c9-0e48-4cb2-bd44-897f1ad7df76.jpg"
+ },
+ {
+  "id": "magong-jimuwuguzhai",
+  "name": "雞母塢古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2008-07-04",
+  "address": "馬公市五德里雞母塢77之8號",
+  "lat": 23.528872,
+  "lng": 119.586073,
+  "open": "每週六及週日 下午2時至6時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080704000001",
+  "caseId": "20080704000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38591/photo/T035澎湖縣雞母塢古宅(歷建)(2).JPG"
+ },
+ {
+  "id": "magong-fengguidihaoguzhai",
+  "name": "風櫃962地號古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-06-28",
+  "address": "馬公市風櫃里74號（歷史建築風櫃尾74號古宅）後方之傳統建築。",
+  "lat": 23.540005,
+  "lng": 119.546727,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160628000001",
+  "caseId": "20160628000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/132524/photo/風櫃962地號古宅代表圖像.jpg"
+ },
+ {
+  "id": "magong-fengguiweihaogu",
+  "name": "風櫃尾74號古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-08-05",
+  "address": "馬公市風櫃里74號",
+  "lat": 23.540005,
+  "lng": 119.546727,
+  "open": "每週六、日上午8時至12時、下午1時至5時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130805000002",
+  "caseId": "20130805000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-10/74d9856d-ccc3-4cfe-8ffc-b57c54a0e832/照片.jpg"
+ },
+ {
+  "id": "magong-hechangjiancaixing",
+  "name": "馬公合昌建材行",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "馬公市新生路14號",
+  "lat": 23.567745,
+  "lng": 119.568487,
+  "open": "11：00至23：00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000004",
+  "caseId": "20031211000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-04/4f05b960-7845-48de-ab26-f55a404509d4/馬公市合昌建材 行.jpg"
+ },
+ {
+  "id": "magong-shidisanshuiyuandi",
+  "name": "馬公市第三水源地一千噸配水塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市中正堂後方介壽路和民族路交叉口處",
+  "lat": 23.568649,
+  "lng": 119.564509,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000004",
+  "caseId": "20021213000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/46b84b87-93c8-40c7-968a-f9b33b8f600a/馬公市第三水源地一千噸配水塔.jpg"
+ },
+ {
+  "id": "magong-wenshishuyuankui",
+  "name": "馬公文石書院魁星樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市西文里104之7號",
+  "lat": 23.566690574115153,
+  "lng": 119.58019334854332,
+  "open": "9:00-16:00；星期一、二休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000007",
+  "caseId": "20021213000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-07-11/ee330af6-fdfe-4021-945b-dea91ccc1f38/DSCN4189.jpg"
+ },
+ {
+  "id": "magong-dongjiabeijidian",
+  "name": "馬公東甲北極殿",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2002-12-16",
+  "address": "馬公市啟明里啟明街1鄰2號",
+  "lat": 23.56493,
+  "lng": 119.566866,
+  "open": "05:00-20:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20021213000009",
+  "caseId": "20021213000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/d6207868-ac33-44f9-8cb8-f7eb27b09149/馬公東甲北極殿.jpg"
+ },
+ {
+  "id": "magong-wudeqiweixiangde",
+  "name": "馬公武德騎尉項得生古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-04-14",
+  "address": "馬公市\t中央里中央街1巷4號",
+  "lat": 23.564606,
+  "lng": 119.564488,
+  "open": "外貌參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160414000001",
+  "caseId": "20160414000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/132468/photo/馬公武德騎尉項得生古宅.JPG"
+ },
+ {
+  "id": "magong-shuishangjingcha",
+  "name": "馬公水上警察官吏派出所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2007-11-21",
+  "address": "馬公市復興里臨海路40號",
+  "lat": 23.563206,
+  "lng": 119.563623,
+  "open": "9：00~17:00 每週二休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071121000001",
+  "caseId": "20071121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-23/0d7e2fbe-e692-4438-8268-92a2929b7e85/馬公水上警察官吏派出所.jpg"
+ },
+ {
+  "id": "magong-shuidaozhushuisui",
+  "name": "馬公水道貯水隧道",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "產業"
+  ],
+  "announced": "2019-04-16",
+  "address": "馬公市馬公段16、16-8、18、280、275-4地號",
+  "lat": 23.569891,
+  "lng": 119.57367,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190429000002",
+  "caseId": "20190429000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-17/f5176ed3-1842-4480-a219-87c997e13df6/圖檔.jpg"
+ },
+ {
+  "id": "magong-duxingshicun",
+  "name": "馬公篤行十村",
+  "category": "歷史建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-11-21",
+  "address": "馬公市馬公市復興里",
+  "lat": 23.563858,
+  "lng": 119.56098,
+  "open": "資訊服務站\n週四至週一 09:00-12:00 14:00-17:00 \n週二、週三及國定假日休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071121000002",
+  "caseId": "20071121000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1297/photo/馬公篤行十村1.JPG"
+ },
+ {
+  "id": "magong-zongnanting",
+  "name": "宗南亭",
+  "category": "紀念建築",
+  "level": "",
+  "town": "馬公市",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2019-05-17",
+  "address": "馬公市金龍頭營區",
+  "lat": 23.561036,
+  "lng": 119.558559,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/commemorativeBuilding/20200221000005",
+  "caseId": "20200221000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-08/39754091-6bbd-4857-ab56-6fe2b766c75e/LINE_ALBUM_2023820_230820_15.jpg"
+ },
+ {
+  "id": "huxi-gongbeipaotai",
+  "name": "湖西拱北礮臺",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "湖西鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2001-11-21",
+  "address": "湖西鄉城北段1387、1388、1389地號",
+  "lat": 23.5626905637599,
+  "lng": 119.609654343703,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20011121000003",
+  "caseId": "20011121000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1272/photo/湖西拱北砲臺1.JPG"
+ },
+ {
+  "id": "huxi-lintourijunshanglu",
+  "name": "林投日軍上陸紀念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "湖西鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2000-01-28",
+  "address": "湖西鄉林投南段985地號",
+  "lat": 23.561594,
+  "lng": 119.644877,
+  "open": "全日開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000128000004",
+  "caseId": "20000128000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-26/de4eaeb2-ae85-4016-b2a4-80cd2aff54f0/DSCN6209.jpg"
+ },
+ {
+  "id": "huxi-longmenlizhengjiao",
+  "name": "龍門裡正角日軍上陸紀念碑",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "湖西鄉",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2000-01-28",
+  "address": "湖西鄉龍門南段847地號",
+  "lat": 23.554499,
+  "lng": 119.681525,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000128000005",
+  "caseId": "20000128000005",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1270/photo/龍門裡正角日軍上陸紀念碑1.JPG"
+ },
+ {
+  "id": "huxi-nanliaoxufanguzhai",
+  "name": "南寮許返古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2010-02-11",
+  "address": "湖西鄉南寮村111號",
+  "lat": 23.585458,
+  "lng": 119.669688,
+  "open": "星期六、日上午9:00-12:00；下午2:00-5:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100211000001",
+  "caseId": "20100211000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1262/photo/南寮許返古宅1.jpg"
+ },
+ {
+  "id": "huxi-dachengbeilindeng",
+  "name": "大城北林登豫古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2012-02-08",
+  "address": "湖西鄉城北村50號",
+  "lat": 23.565162,
+  "lng": 119.624999,
+  "open": "每週三上午9時至12時、下午13時至17時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120208000001",
+  "caseId": "20120208000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1260/photo/城北林登豫古宅1.JPG"
+ },
+ {
+  "id": "huxi-jianshanxianjidian",
+  "name": "尖山顯濟殿",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2017-03-14",
+  "address": "湖西鄉尖山村8鄰尖山81號",
+  "lat": 23.569939,
+  "lng": 119.662167,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170314000001",
+  "caseId": "20170314000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-17/d8a743a8-e992-4365-b585-e15fa5316ec1/圖檔.jpg"
+ },
+ {
+  "id": "huxi-chenggongshuiku",
+  "name": "成功水庫水壩",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "湖西鄉成功村",
+  "lat": 23.579301,
+  "lng": 119.624132,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000009",
+  "caseId": "20031211000009",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-11-19/93aca7c4-f84f-4e39-bb99-cab2d488ced9/成功水庫水壩.jpg"
+ },
+ {
+  "id": "huxi-chenggongxiaoke",
+  "name": "成功蕭克讓古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-12-02",
+  "address": "湖西鄉成功村8號",
+  "lat": 23.577974,
+  "lng": 119.62163,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200717000002",
+  "caseId": "20200717000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/28ac69c5-04df-4378-9d03-9216e6205eed/20240210_132827.jpg"
+ },
+ {
+  "id": "huxi-zhaoribeikougong",
+  "name": "湖西朝日貝釦工廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "湖西鄉西溪村101號",
+  "lat": 23.582913,
+  "lng": 119.638825,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000008",
+  "caseId": "20031211000008",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1273/photo/湖西朝日貝釦工廠1.jpg"
+ },
+ {
+  "id": "huxi-guoyehuiyao",
+  "name": "湖西菓葉灰窯",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "產業"
+  ],
+  "announced": "2007-11-21",
+  "address": "湖西鄉菓葉村",
+  "lat": 23.57533,
+  "lng": 119.680606,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071121000005",
+  "caseId": "20071121000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-26/26be5bed-5028-41ee-8cba-44ea3d7405f5/DSC_0056.jpg"
+ },
+ {
+  "id": "huxi-xinjiaguzhai",
+  "name": "湖西辛家古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2009-06-08",
+  "address": "湖西鄉湖西村11號",
+  "lat": 23.585864,
+  "lng": 119.658702,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090608000001",
+  "caseId": "20090608000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/ab6277fd-51af-4c87-abc6-0649c6c49c48/53490.jpg"
+ },
+ {
+  "id": "huxi-xujiadihaoguzhai",
+  "name": "許家403地號古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2016-04-14",
+  "address": "湖西鄉許家村港仔尾37號右側之傳統建築",
+  "lat": 23.587267,
+  "lng": 119.607218,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160414000002",
+  "caseId": "20160414000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-11/39a3ca1a-71ef-4392-8b3f-210df8ff62e6/圖像.jpg"
+ },
+ {
+  "id": "huxi-aimenxincun",
+  "name": "隘門新村",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-11-21",
+  "address": "湖西鄉湖西鄉隘門村",
+  "lat": 23.557465,
+  "lng": 119.632912,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071121000003",
+  "caseId": "20071121000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1296/photo/隘門新村1.JPG"
+ },
+ {
+  "id": "huxi-longmenlvnenggu",
+  "name": "龍門呂能古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2012-02-17",
+  "address": "湖西鄉龍門村162號",
+  "lat": 23.564616,
+  "lng": 119.670377,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120312000001",
+  "caseId": "20120312000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1258/photo/龍門呂能古宅1.JPG"
+ },
+ {
+  "id": "huxi-zhuxiganpenghusha",
+  "name": "朱錫甘澎湖沙港旅居住所",
+  "category": "紀念建築",
+  "level": "",
+  "town": "湖西鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-12-06",
+  "address": "湖西鄉沙港村150號前",
+  "lat": 23.604724,
+  "lng": 119.621959,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/commemorativeBuilding/20200212000001",
+  "caseId": "20200212000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-18/a37911d6-bd69-4047-9419-65e743a19fbe/圖檔.jpg"
+ },
+ {
+  "id": "baisha-jibeilinjiangxigu",
+  "name": "吉貝林江西古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-03-18",
+  "address": "白沙鄉吉貝村124號",
+  "lat": 23.742771,
+  "lng": 119.61259,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130318000001",
+  "caseId": "20130318000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1285/photo/吉貝林江西古宅1.jpg"
+ },
+ {
+  "id": "baisha-chengqianxiaoshi",
+  "name": "城前蕭氏前原居古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-08-21",
+  "address": "白沙鄉城前村301-1地號上傳統建築",
+  "lat": 23.626304,
+  "lng": 119.596377,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130821000001",
+  "caseId": "20130821000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1281/photo/城前蕭氏前原居古宅1.jpg"
+ },
+ {
+  "id": "baisha-xiaochilinshizong",
+  "name": "小赤林氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-08-27",
+  "address": "白沙鄉小赤村12號",
+  "lat": 23.661131,
+  "lng": 119.597656,
+  "open": "每日9時至下午4時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140827000001",
+  "caseId": "20140827000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-11/c7b5fb47-4105-42e4-b7e1-9e215d8664ee/圖像.jpg"
+ },
+ {
+  "id": "baisha-kuahaidaqiao",
+  "name": "澎湖跨海大橋",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "白沙鄉通樑村與西嶼鄉橫礁村之間",
+  "lat": 23.658029,
+  "lng": 119.554602,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000007",
+  "caseId": "20031211000007",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-27/87a179c0-9458-471b-bd94-14367ba7e463/跨海大橋.jpg"
+ },
+ {
+  "id": "baisha-xiaochicunlvshilao",
+  "name": "白沙小赤村呂石硓古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2013-01-08",
+  "address": "白沙鄉小赤村32號",
+  "lat": 23.66029,
+  "lng": 119.596114,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20130108000001",
+  "caseId": "20130108000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-12-07/06e3b901-4450-40b9-9d46-ee8c4438c40d/P_20191118_095524_vHDR_Auto.jpg"
+ },
+ {
+  "id": "baisha-mudouyudengta",
+  "name": "目斗嶼燈塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "白沙鄉吉貝村186號",
+  "lat": 23.7863147,
+  "lng": 119.600417,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000006",
+  "caseId": "20031211000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-26/10936e75-14af-4a93-b485-3d5ccf08ec93/DSC_0549.jpg"
+ },
+ {
+  "id": "baisha-jiangmeiwuyushugu",
+  "name": "講美吳玉樹古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2022-02-24",
+  "address": "白沙鄉講美村35號",
+  "lat": 23.632756,
+  "lng": 119.600071,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220607000001",
+  "caseId": "20220607000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-06/7b5eb680-0a52-4413-bcc2-a8be55776896/IMG_1780.jpg"
+ },
+ {
+  "id": "baisha-tonglianglinjiagu",
+  "name": "通梁林家古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2007-11-21",
+  "address": "白沙鄉通梁村47號",
+  "lat": 23.656686,
+  "lng": 119.557753,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071121000004",
+  "caseId": "20071121000004",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1280/photo/通梁林家古宅1.JPG"
+ },
+ {
+  "id": "baisha-zhenhaizhangyuangu",
+  "name": "鎮海長源古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2011-03-21",
+  "address": "白沙鄉鎮海村18號",
+  "lat": 23.643557,
+  "lng": 119.5994,
+  "open": "每週六及週日上午9時至12時，下午2時至5時",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20110321000002",
+  "caseId": "20110321000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1277/photo/鎮海長源古宅1.jpg"
+ },
+ {
+  "id": "baisha-wadongxulingyunxiu",
+  "name": "瓦硐許凌雲秀才紀念館",
+  "category": "紀念建築",
+  "level": "",
+  "town": "白沙鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2023-07-14",
+  "address": "白沙鄉瓦硐村5鄰51號",
+  "lat": 23.656998,
+  "lng": 119.586347,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/commemorativeBuilding/20240524000001",
+  "caseId": "20240524000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-12-12/33820d20-dc4c-49fe-b833-7f6d1ebd7a5f/IMG20210510163523.jpg"
+ },
+ {
+  "id": "baisha-shihuwenhuajing",
+  "name": "澎湖石滬文化景觀－吉貝石滬群",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "白沙鄉",
+  "types": [
+   "農林漁牧景觀"
+  ],
+  "announced": "2008-06-02",
+  "address": "白沙鄉吉貝村週邊海域石滬群",
+  "lat": 23.736451,
+  "lng": 119.611236,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20080602000001",
+  "caseId": "20080602000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/cultural_tourism/214/photo/澎湖石滬文化景觀－吉貝石滬群.jpg"
+ },
+ {
+  "id": "xiyu-danyaobenku",
+  "name": "西嶼彈藥本庫",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2024-07-03",
+  "address": "西嶼鄉內垵村1-5號",
+  "lat": 23.569019,
+  "lng": 119.510171,
+  "open": "週四到周一-9:00-12:00；14:00-17:00。\n周二及周三休館。\n閉館前30分鐘停止入園。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240723000001",
+  "caseId": "20240723000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-23/85f04703-69db-432e-8cba-8557f23246b4/西嶼彈藥本庫.jpg"
+ },
+ {
+  "id": "xiyu-dongtai",
+  "name": "西嶼東臺",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1991-11-23",
+  "address": "西嶼鄉澎湖縣西嶼鄉內垵三段 12 及 13 地號土地。",
+  "lat": 23.565618,
+  "lng": 119.514055,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000004",
+  "caseId": "19911123000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/9d46ecaa-10ae-4cec-880c-7234fd115bf7/T054 澎湖縣 西嶼東臺 (一級)01.jpg"
+ },
+ {
+  "id": "xiyu-dengta",
+  "name": "西嶼燈塔(漁翁島燈塔)",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "1987-04-17",
+  "address": "西嶼鄉外垵村195號",
+  "lat": 23.5624207488885,
+  "lng": 119.469579885518,
+  "open": "星期一休館；0900-1600",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19870417000003",
+  "caseId": "19870417000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1295/photo/西嶼燈塔1.jpg"
+ },
+ {
+  "id": "xiyu-xitai",
+  "name": "西嶼西臺",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1983-12-28",
+  "address": "西嶼鄉外垵村278地號",
+  "lat": 23.5640734566552,
+  "lng": 119.489281467657,
+  "open": "平常日：上午8點至下午5點30分\n旅遊旺季：上午7點30分至下午6點30分\n例假日：照常開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000014",
+  "caseId": "19831228000014",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-01/d9d9000d-258f-4bcd-822d-b902bf39ce7c/T053 澎湖縣 西嶼西臺 (一級)01.jpg"
+ },
+ {
+  "id": "xiyu-yuwengdaoshuiguan",
+  "name": "漁翁島稅關監視署",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2015-06-17",
+  "address": "西嶼鄉外垵村8-1號",
+  "lat": 23.565349,
+  "lng": 119.482688,
+  "open": "未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150617000001",
+  "caseId": "20150617000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/38311/photo/f87724e1-4717-438e-ae96-d9600a2bffd6.jpg"
+ },
+ {
+  "id": "xiyu-erkanchenzhai",
+  "name": "澎湖二崁陳宅",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "1988-04-25",
+  "address": "西嶼鄉二崁村6號",
+  "lat": 23.604576,
+  "lng": 119.519576,
+  "open": "08:00-19:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19880425000002",
+  "caseId": "19880425000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1287/photo/澎湖二崁陳宅1.jpg"
+ },
+ {
+  "id": "xiyu-neiantagongtapo",
+  "name": "西嶼內垵塔公塔婆",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2000-01-28",
+  "address": "西嶼鄉內垵村北港",
+  "lat": 23.573755,
+  "lng": 119.499398,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20000128000003",
+  "caseId": "20000128000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-06-02/26c4f44e-c7b5-4e3a-9229-0d1532715bb3/IMG_4938_.jpg"
+ },
+ {
+  "id": "xiyu-dongbitouzhenyang",
+  "name": "西嶼東鼻頭震洋艇格納壕",
+  "category": "縣定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "西嶼鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2011-03-21",
+  "address": "西嶼鄉內垵三段127-2地號",
+  "lat": 23.56723,
+  "lng": 119.514788,
+  "open": "軍營未開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20110321000001",
+  "caseId": "20110321000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1292/photo/西嶼東鼻頭震洋艇格納庫1.JPG"
+ },
+ {
+  "id": "xiyu-waianerpao",
+  "name": "外垵餌砲",
+  "category": "歷史建築",
+  "level": "",
+  "town": "西嶼鄉",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-12-11",
+  "address": "西嶼鄉外垵村西埔頂",
+  "lat": 23.56466,
+  "lng": 119.475733,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031211000005",
+  "caseId": "20031211000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-10-27/4a0f48d5-c2aa-4b9b-9677-f4cc87208bc1/外垵餌砲.jpg"
+ },
+ {
+  "id": "xiyu-chixihaoguzhai",
+  "name": "池西41號古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "西嶼鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2020-02-11",
+  "address": "西嶼鄉池西村41號",
+  "lat": 23.603483,
+  "lng": 119.506484,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200717000003",
+  "caseId": "20200717000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2020-07-17/6595e016-4c42-48e4-8e79-e463f9213d7a/IMGP4928.jpg"
+ },
+ {
+  "id": "xiyu-xianghuangshizong",
+  "name": "西嶼鄉黃氏宗祠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "西嶼鄉",
+  "types": [
+   "祠堂"
+  ],
+  "announced": "2010-09-02",
+  "address": "西嶼鄉池西村小池角166號",
+  "lat": 23.598549,
+  "lng": 119.504663,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100902000001",
+  "caseId": "20100902000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1290/photo/西嶼鄉黃氏宗祠1.JPG"
+ },
+ {
+  "id": "wangan-xianxuzhenguzhai",
+  "name": "西安許真古宅",
+  "category": "歷史建築",
+  "level": "",
+  "town": "望安鄉",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2014-05-22",
+  "address": "望安鄉西安村8鄰57號",
+  "lat": 23.358605,
+  "lng": 119.497208,
+  "open": "不開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140522000001",
+  "caseId": "20140522000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/07a40f7f-34e0-4ea4-9b34-3553760450cb/53492.jpg"
+ },
+ {
+  "id": "wangan-huazhaijuluo",
+  "name": "望安花宅聚落",
+  "category": "聚落建築群",
+  "level": "重要聚落建築群",
+  "town": "望安鄉",
+  "types": [
+   "漢人街庄"
+  ],
+  "announced": "2010-04-14",
+  "address": "望安鄉澎湖縣望安鄉中社村",
+  "lat": 23.373323375797032,
+  "lng": 119.4965758359375,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20100414000001",
+  "caseId": "20100414000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/community/114194/photo/望安花宅重要聚落照片原始檔.JPG",
+  "extraLinks": [
+   {
+    "title": "文資局官方資料（2006 年澎湖縣登錄「望安花宅」聚落）",
+    "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20061227000001"
+   }
+  ]
+ },
+ {
+  "id": "qimei-shiqianshiqizhizao",
+  "name": "七美史前石器製造場考古遺址群（包含南港遺址第一、二、三、四地點、東湖遺址、西北灣遺址、西湖遺址）",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "七美鄉",
+  "types": [],
+  "announced": "2020-10-28",
+  "address": "七美鄉",
+  "lat": 23.19144,
+  "lng": 119.42558,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20210303000001",
+  "caseId": "20210303000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-03-03/86f4c7e9-e12b-407a-bfb9-cef30154e684/DSC_0644.jpg"
+ },
+ {
+  "id": "qimei-shuangxinshihu",
+  "name": "七美雙心石滬",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "七美鄉",
+  "types": [
+   "農林漁牧景觀"
+  ],
+  "announced": "2006-10-27",
+  "address": "七美鄉東湖村頂隙",
+  "lat": 23.220252,
+  "lng": 119.446974,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20061027000001",
+  "caseId": "20061027000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/cultural_tourism/269/photo/七美雙心石滬.JPG"
+ }
+]
