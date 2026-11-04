@@ -52,7 +52,7 @@ def check_quiz(where, qs, errs, n=(1, 2), answers=None):
 WARN = []  # 只提醒、不算錯誤
 # 官方原文就是這樣寫的人名、地名用字（雖然 OpenCC 會轉換），照原文保留：
 #   莅：臺南北門嶼陳家古厝官方資料「陳林莅」
-OFFICIAL_CHARS = set("莅却")  # 却：恆春民謠保存者「黃却銀」，屏東縣府 2025 年姓名更正公告的正式寫法
+OFFICIAL_CHARS = set("莅却糍")  # 却：恆春民謠保存者「黃却銀」，屏東縣府 2025 年姓名更正公告的正式寫法；糍：臺中「麻糍埔考古遺址」的正式名稱
 
 
 def big5_scan(obj, errs):
