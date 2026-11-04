@@ -184,7 +184,9 @@
       if (zf !== zt) {
         var toIsland = zt >= 0, I = ISLANDS[toIsland ? zt : zf];
         var land = toIsland ? (I.port ? legEstimate(I.port, to, mode) : null) : (I.mainPort ? legEstimate(I.mainPort, to, mode) : null);
-        return { sea: true, isl: I, toIsland: toIsland, land: land, km: land ? land.km : 0, min: (I.seaMin || 120) + (land ? land.min : 0) };
+        /* 兩座離島之間另有短程船班（例如東莒、西莒）：islands[].links = {"另一座島名": 分鐘} */
+        var hop = zf >= 0 && zt >= 0 && (ISLANDS[zf].links || {})[I.name];
+        return { sea: true, isl: I, toIsland: toIsland, land: land, km: land ? land.km : 0, min: (hop || I.seaMin || 120) + (land ? land.min : 0), hop: hop || 0 };
       }
     }
     if (FAR[mode] && d > FAR[mode]) return { km: d * 1.35, min: d * 1.35 / TAXI_KMH * 60 + 5, far: true };
@@ -438,7 +440,7 @@
             var a = acc[x.s.id];
             if (a && x.leg.sea && x.leg.land && !x.leg.land.far) {
               var ln = x.leg.land; ln.km = a.km; ln.min = a.min + (ln.walkOnly ? 0 : M.extra); ln.osrm = true;
-              x.leg.km = ln.km; x.leg.min = (x.leg.isl.seaMin || 120) + ln.min;
+              x.leg.km = ln.km; x.leg.min = (x.leg.hop || x.leg.isl.seaMin || 120) + ln.min;
             } else if (a && !x.leg.far && !x.leg.sea) { x.leg.km = a.km; x.leg.min = a.min + (x.leg.walkOnly ? 0 : M.extra); x.leg.osrm = true; }
             var arrive = t + x.leg.min; x.lunch = false;
             if (!lunch && arrive >= LUNCH.from) { lunch = true; x.lunch = true; arrive += LUNCH.len; }
