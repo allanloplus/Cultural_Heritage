@@ -217,9 +217,7 @@
      "hualian-jinghualinyuan",
      "hualian-jiujianyuyiji",
      "hualian-jiujiuchang",
-     "hualian-guozijiuguju",
-     "jian-qingxiuyuan",
-     "jian-jiyekaicunjinian"
+     "jian-qingxiuyuan"
     ]
    ]
   },
@@ -234,19 +232,14 @@
      "hualian-jinghualinyuan",
      "hualian-jiujianyuyiji",
      "hualian-jiujiuchang",
-     "hualian-guozijiuguju",
-     "jian-qingxiuyuan",
-     "jian-jiyekaicunjinian"
+     "jian-qingxiuyuan"
     ],
     [
      "shoufeng-fengtiancunyimin",
-     "shoufeng-jiufengtianyimin",
      "shoufeng-fengtianshenshecan",
-     "fenglin-xiaozhangmenggong",
      "fenglin-lintianshenshecan",
      "fenglin-lintianshanlinyeju",
      "guangfu-tangchangzhitang",
-     "guangfu-taitanggongsihua",
      "guangfu-taibalangzuwu"
     ]
    ]
@@ -262,19 +255,14 @@
      "hualian-jinghualinyuan",
      "hualian-jiujianyuyiji",
      "hualian-jiujiuchang",
-     "hualian-guozijiuguju",
-     "jian-qingxiuyuan",
-     "jian-jiyekaicunjinian"
+     "jian-qingxiuyuan"
     ],
     [
      "shoufeng-fengtiancunyimin",
-     "shoufeng-jiufengtianyimin",
      "shoufeng-fengtianshenshecan",
-     "fenglin-xiaozhangmenggong",
      "fenglin-lintianshenshecan",
      "fenglin-lintianshanlinyeju",
      "guangfu-tangchangzhitang",
-     "guangfu-taitanggongsihua",
      "guangfu-taibalangzuwu"
     ],
     [
@@ -282,7 +270,6 @@
      "ruisui-wuhekaoguyizhi",
      "yuli-shenshecanji",
      "yuli-chezhantiedaosushe",
-     "yuli-xinyongzuhejicang",
      "yuli-batongguangudao",
      "fuli-xiangdonglicunqiu",
      "fuli-funanzhuanyaochang"
