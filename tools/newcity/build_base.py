@@ -67,7 +67,7 @@ def cross_refs(city, skip):
             for ad in x.get("addresses") or []:
                 if isinstance(ad, dict):
                     hay.append((ad.get("cityName") or "") + (ad.get("distName") or "") + (ad.get("address") or ""))
-            hay += [v for k, v in x.items() if isinstance(v, str) and "addr" in k.lower()]
+            hay.append(x.get("wenSiteaddress") or "")  # 不看 govDeptAddress（主管機關地址，例如在臺北市的中央機關）
             hay.append(x.get("caseName") or "")
             text = " ".join(hay)
             m = pat_full.search(text) or pat_short.search(text)
