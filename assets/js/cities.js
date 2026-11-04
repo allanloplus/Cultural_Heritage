@@ -41,21 +41,46 @@
   var open = CITIES.filter(function (c) { return c.on; });
   var soon = CITIES.filter(function (c) { return !c.on; });
 
-  /* 縣市頁：切換縣市選單（base 為回到網站根目錄的相對路徑，例如 "../"） */
-  function cityMenu(el, current, base) {
-    if (!el) return;
-    el.innerHTML = '<p class="cm-title">切換縣市</p>' + open.map(function (c) {
-      var on = c.slug === current;
-      return '<a href="' + base + c.slug + '/"' + (on ? ' aria-current="page"' : "") + '><b>' + esc(c.name) + '</b><span>' + (on ? "目前所在" : esc(c.nick.split("：")[0])) + '</span></a>';
-    }).join("") +
-      (soon.length ? '<p class="cm-soon">籌備中：' + soon.map(function (c) { return esc(c.name); }).join("、") + '</p>' : "") +
-      '<a class="cm-home" href="' + base + '">回全站首頁（全部縣市）</a>';
+  /* 依地區分組（縣市一多，單欄清單會超出畫面） */
+  var REGIONS = [
+    ["北部", ["臺北市", "新北市", "基隆市", "桃園市", "新竹市", "新竹縣", "宜蘭縣"]],
+    ["中部", ["苗栗縣", "臺中市", "彰化縣", "南投縣", "雲林縣"]],
+    ["南部", ["嘉義市", "嘉義縣", "臺南市", "高雄市", "屏東縣"]],
+    ["東部", ["花蓮縣", "臺東縣"]],
+    ["離島", ["澎湖縣", "金門縣", "連江縣"]]
+  ];
+  function grouped() {
+    var used = {};
+    var out = REGIONS.map(function (r) {
+      var cs = r[1].map(function (n) { return open.filter(function (c) { return c.name === n; })[0]; }).filter(Boolean);
+      cs.forEach(function (c) { used[c.slug] = 1; });
+      return [r[0], cs];
+    });
+    var rest = open.filter(function (c) { return !used[c.slug]; });
+    if (rest.length) out.push(["其他", rest]);
+    return out.filter(function (r) { return r[1].length; });
   }
 
-  /* 入口頁：右上角功能表 */
+  /* 縣市頁與入口頁：切換縣市選單（base 為回到網站根目錄的相對路徑，例如 "../"；入口頁 current 為空字串） */
+  function cityMenu(el, current, base) {
+    if (!el) return;
+    el.innerHTML = '<p class="cm-title">' + (current ? "切換縣市" : "選擇縣市") + '（已開放 ' + open.length + ' 個）</p>' +
+      grouped().map(function (r) {
+        return '<div class="cm-reg"><p class="cm-rname">' + r[0] + '</p><div class="cm-list">' + r[1].map(function (c) {
+          var on = c.slug === current;
+          return '<a href="' + base + c.slug + '/" title="' + esc(c.nick) + '"' + (on ? ' aria-current="page"' : "") + '>' + esc(c.name) + (on ? '<span>目前</span>' : "") + '</a>';
+        }).join("") + '</div></div>';
+      }).join("") +
+      (soon.length ? '<p class="cm-soon">籌備中：' + soon.map(function (c) { return esc(c.name); }).join("、") + '</p>' : "") +
+      (current ? '<a class="cm-home" href="' + base + '">回全站首頁（全部縣市）</a>' : "");
+  }
+
+  /* 入口頁：右上角功能表（縣市地圖＋選擇縣市下拉選單） */
   function portalNav(el) {
     if (!el) return;
-    el.innerHTML = '<a href="#cities">縣市地圖</a>' + open.map(function (c) { return '<a href="' + c.slug + '/">' + esc(c.name) + '</a>'; }).join("");
+    el.classList.add("portal-nav");
+    el.innerHTML = '<a href="#cities">縣市地圖</a><details class="city-switch portal-switch"><summary>選擇縣市<span class="caret" aria-hidden="true">▾</span></summary><div class="city-menu"></div></details>';
+    cityMenu(el.querySelector(".city-menu"), "", "");
   }
 
   /* 點選單外面時收起 */

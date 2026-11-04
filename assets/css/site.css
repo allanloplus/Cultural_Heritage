@@ -86,15 +86,23 @@ button, input, select { font: inherit; color: inherit; }
 .city-switch summary svg { width: 18px; height: 18px; fill: currentColor; }
 .city-switch .caret { font-size: .8rem; transition: transform .2s; }
 .city-switch[open] .caret { transform: rotate(180deg); }
-.city-menu { position: absolute; top: calc(100% + 8px); left: 0; min-width: 240px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-lg); padding: 8px; z-index: 1300; }
-.city-menu .cm-title { font-size: .78rem; color: var(--muted); padding: 2px 10px 6px; }
-.city-menu a { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 10px; border-radius: 10px; text-decoration: none; color: var(--ink); }
-.city-menu a span { font-size: .78rem; color: var(--muted); }
-.city-menu a:hover { background: var(--paper-2); }
-.city-menu a[aria-current="page"] { background: var(--mint); }
-.city-menu a[aria-current="page"] span { color: var(--teal); font-weight: 700; }
-.city-menu .cm-soon { font-size: .78rem; color: var(--muted); padding: 6px 10px; }
-.city-menu .cm-home { border-top: 1px solid var(--line); border-radius: 0 0 10px 10px; margin-top: 4px; color: var(--teal); font-weight: 700; justify-content: center; }
+.city-menu { position: absolute; top: calc(100% + 8px); left: 0; width: min(460px, calc(100vw - 24px)); max-height: calc(100vh - 90px); overflow-y: auto; overscroll-behavior: contain; background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-lg); padding: 10px 12px; z-index: 1300; }
+.city-menu .cm-title { font-size: .78rem; color: var(--muted); padding: 0 2px 6px; margin: 0; }
+.city-menu .cm-reg { display: grid; grid-template-columns: 3em 1fr; gap: 8px; align-items: start; padding: 8px 0; border-top: 1px dashed var(--line); }
+.city-menu .cm-rname { margin: 0; padding-top: 6px; font-size: .8rem; font-weight: 700; color: var(--muted); }
+.city-menu .cm-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.city-menu .cm-list a { display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 99px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem; background: var(--card); }
+.city-menu .cm-list a span { font-size: .7rem; color: var(--teal); font-weight: 700; }
+.city-menu .cm-list a:hover { background: var(--paper-2); }
+.city-menu .cm-list a[aria-current="page"] { background: var(--mint); border-color: var(--teal); }
+.city-menu .cm-soon { font-size: .78rem; color: var(--muted); padding: 6px 2px 2px; margin: 0; border-top: 1px dashed var(--line); }
+.city-menu .cm-home { display: flex; justify-content: center; padding: 8px 10px; border-top: 1px solid var(--line); margin-top: 6px; color: var(--teal); font-weight: 700; text-decoration: none; border-radius: 0 0 10px 10px; }
+.city-menu .cm-home:hover { background: var(--paper-2); }
+/* 入口頁：選單放在右上角，nav 本身不能裁切下拉選單 */
+.nav.portal-nav { overflow: visible; align-items: center; }
+.portal-switch summary { background: none; color: var(--muted); box-shadow: none; font-weight: 500; font-size: .95rem; padding: 8px 12px; border-radius: 10px; }
+.portal-switch summary:hover, .portal-switch[open] summary { color: var(--ink); background: var(--paper-2); }
+.portal-switch .city-menu { left: auto; right: 0; }
 
 @media (max-width: 640px) {
   :root { --hdr: 100px; }
@@ -102,7 +110,7 @@ button, input, select { font: inherit; color: inherit; }
   .topbar .nav { order: 3; flex: 1 0 100%; margin-left: 0; }
   .home-text small { display: none; }
   .city-switch summary { font-size: 1rem; padding: 5px 10px 5px 8px; }
-  .city-menu { position: fixed; top: 52px; left: 10px; right: 10px; min-width: 0; }
+  .city-menu, .portal-switch .city-menu { position: fixed; top: 52px; left: 10px; right: 10px; width: auto; max-height: calc(100vh - 64px); }
 }
 
 /* ---------- Buttons / chips ---------- */
