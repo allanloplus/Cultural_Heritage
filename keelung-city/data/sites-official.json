@@ -1,0 +1,917 @@
+[
+ {
+  "id": "zhongzheng-ershawanpaotai",
+  "name": "二沙灣砲台",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中正區",
+  "types": [
+   "關塞",
+   "學校"
+  ],
+  "announced": "1983-12-28",
+  "address": "中正區基隆市中正區中正路旁，民族英雄紀念碑對面山上，位於大沙灣及二沙灣之間。",
+  "lat": 25.1375894127227,
+  "lng": 121.75756653938,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19831228000001",
+  "caseId": "19831228000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1345/photo/A033 基隆市 二沙灣砲台 (一級)01.JPG"
+ },
+ {
+  "id": "zhongzheng-pengjiayudengta",
+  "name": "彭佳嶼燈塔",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "中正區",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2022-02-23",
+  "address": "中正區彭佳嶼8號",
+  "lat": 25.628988,
+  "lng": 122.075655,
+  "open": "採申請限制性參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220301000002",
+  "caseId": "20220301000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-03-01/9fab22ac-f17a-4990-a04c-426ce20cde34/未命名.png"
+ },
+ {
+  "id": "zhongzheng-yaosaisilingguandi",
+  "name": "基隆要塞司令官邸",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2003-01-20",
+  "address": "中正區中正路230號",
+  "lat": 25.140437,
+  "lng": 121.758365,
+  "open": "營業時間：11:00－19:00（周一二公休）\n夜間點燈時間：每日18:00－22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20061207000001",
+  "caseId": "20061207000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-19/ff7f8232-c0bb-48a9-8d26-c737f09e853c/8EA99682-9097-400C-A66B-C9B64D4D3551.jpg"
+ },
+ {
+  "id": "zhongzheng-yaosaisilingbu",
+  "name": "基隆要塞司令部",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2004-03-01",
+  "address": "中正區祥豐街46號",
+  "lat": 25.141489,
+  "lng": 121.762696,
+  "open": "每周三為固定休館日。\n要塞司令部古蹟主建物除休館日外每天10：00-18：00開放免費參觀，\n光復樓餐廳除休館日外每天10：00-20：00開放。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100728000001",
+  "caseId": "20100728000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-12/3e5637bc-02f0-4ed4-8a88-ae9e7e2b124e/20220315‧基隆市文化局‧要塞司令部-0031.jpg"
+ },
+ {
+  "id": "zhongzheng-jiyaosibuxiaoguan",
+  "name": "基隆要塞司令部校官眷舍",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2006-07-20",
+  "address": "中正區中正路111號",
+  "lat": 25.1410839664981,
+  "lng": 121.758869958239,
+  "open": "目前場館暫時停止開放，有關場館後續開放規劃將於後日公開，若有不便敬請見諒。\n夜間點燈時間：每日18:00－22:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20061207000002",
+  "caseId": "20061207000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-19/953e6c38-6c29-43dc-b443-7950369e7e12/眷舍(今).jpg"
+ },
+ {
+  "id": "zhongzheng-shizhangguandi",
+  "name": "市長官邸",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2006-11-24",
+  "address": "中正區中正路261號",
+  "lat": 25.1446376876882,
+  "lng": 121.761526417862,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20061124000001",
+  "caseId": "20061124000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1354/photo/A007 基隆市 市長官邸（舊名：基隆關稅務司官舍） (縣市定)01.jpg"
+ },
+ {
+  "id": "zhongzheng-qingfazhanzhengji",
+  "name": "清法戰爭紀念園區",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "1999-01-08",
+  "address": "中正區中正路101號",
+  "lat": 25.1407,
+  "lng": 121.75774,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990108000001",
+  "caseId": "19990108000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-11-22/d74624f7-0935-4b8e-b66b-277c61aee9f8/233463145_2946330365580996_4439885654662787977_n.jpg"
+ },
+ {
+  "id": "zhongzheng-sheliaopaotai",
+  "name": "社寮砲台",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中正區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2004-03-01",
+  "address": "中正區和一路後山頭及天顯宮後方營區",
+  "lat": 25.15898,
+  "lng": 121.77039,
+  "open": "西砲台屬於軍事管制基地，不開放參觀。\n東砲台開放參觀，無時間限制。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080501000001",
+  "caseId": "20080501000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-20/c69211ff-c144-44c1-a48a-fd0d059bb7d4/A017 基隆市 社寮東砲台 (縣市定)03.jpg"
+ },
+ {
+  "id": "zhongzheng-badouziqingdaiguan",
+  "name": "八斗子清代官煤(主井、風坑)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2015-11-02",
+  "address": "中正區調和街301-21號附近(主井)",
+  "lat": 25.127340690715187,
+  "lng": 121.7996032006637,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151102000001",
+  "caseId": "20151102000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-12/9e94888c-895b-408d-931c-e5566cbfcda7/P_20170905_164839.jpg"
+ },
+ {
+  "id": "zhongzheng-beibaichuangongji",
+  "name": "北白川宮紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2003-01-20",
+  "address": "中正區中正路與義二路交叉口南側",
+  "lat": 25.13887,
+  "lng": 121.75323,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000007",
+  "caseId": "20030120000007",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1365/photo/A011 基隆市 北白川宮紀念碑（北白川宮能久親王紀念碑） (歷建)01.JPG"
+ },
+ {
+  "id": "zhongzheng-beibuhuolifadian",
+  "name": "北部火力發電廠",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2004-03-01",
+  "address": "中正區北寧路367號",
+  "lat": 25.1404140839563,
+  "lng": 121.798853787249,
+  "open": "開放時間：09:00-17:00\n售票時間：平日 9:00~16:00 \n暑假期間週一不休館，假日延長營運至18:00\n除夕、每週一休館；逢暑假、國定假日或連續假期照常開館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040301000003",
+  "caseId": "20040301000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1372/photo/A012 基隆市 北部火力發電廠 (歷建)01.JPG"
+ },
+ {
+  "id": "zhongzheng-zhengfudalou",
+  "name": "基隆市政府大樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2003-01-20",
+  "address": "中正區義一路1號",
+  "lat": 25.131670721001,
+  "lng": 121.744608309688,
+  "open": "民眾洽公服務時間：08:00-12:00 / 13:30-17:30",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000004",
+  "caseId": "20030120000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-11-16/266748d9-1dc7-46ae-a87f-d29a9e0c8613/IMG_9892.jpg"
+ },
+ {
+  "id": "zhongzheng-dashawanshiweiyi",
+  "name": "大沙灣石圍遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2007-09-13",
+  "address": "中正區中正路111號 後方",
+  "lat": 25.141296,
+  "lng": 121.758417,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070913000001",
+  "caseId": "20070913000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-12/5e6908e4-c3c9-475b-af5d-895bba507206/石圍遺構(今).jpg"
+ },
+ {
+  "id": "zhongzheng-xuqiuzhihuisuo",
+  "name": "旭丘指揮所",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2015-10-27",
+  "address": "中正區正榮街101號",
+  "lat": 25.142923,
+  "lng": 121.762171,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20151027000003",
+  "caseId": "20151027000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-08/2b041f3e-cda0-4e37-b716-96e8b1a1d0d1/_ANA0670.jpg"
+ },
+ {
+  "id": "zhongzheng-wuchangjierishisu",
+  "name": "武昌街日式宿舍群",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2004-10-12",
+  "address": "中正區武昌街104巷18號",
+  "lat": 25.1487280042829,
+  "lng": 121.764939748579,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041012000002",
+  "caseId": "20041012000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-26/570a2276-7d75-44d5-a788-375e6f375bfd/IMG_9108.jpg"
+ },
+ {
+  "id": "zhongzheng-minzuyingxiongji",
+  "name": "民族英雄紀念碑",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2003-01-20",
+  "address": "中正區中正路 海門天險對面",
+  "lat": 25.1410045157023,
+  "lng": 121.756087570741,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000006",
+  "caseId": "20030120000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-13/542b3e66-cf80-40f8-bfc3-d302e57abc58/20200413民族英雄紀念碑會勘_200413_0018.jpg"
+ },
+ {
+  "id": "zhongzheng-yuhuizhengbindalou",
+  "name": "漁會正濱大樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2003-01-20",
+  "address": "中正區中正路391 號",
+  "lat": 25.150737,
+  "lng": 121.765505,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000005",
+  "caseId": "20030120000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-10-20/ad1fb6e8-8c8b-49c5-8bd8-4dd5b3859303/正濱漁會正面1.jpg"
+ },
+ {
+  "id": "zhongzheng-agennazaochuan",
+  "name": "阿根納造船廠遺構",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2016-07-28",
+  "address": "中正區和平橋頭(原門牌號：基隆市中正區正濱路116巷1號)",
+  "lat": 25.153772,
+  "lng": 121.769493,
+  "open": "造船廠內部空間禁止進入",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160728000001",
+  "caseId": "20160728000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/133751/photo/01.jpg"
+ },
+ {
+  "id": "zhongzheng-dingshigepaotai",
+  "name": "頂石閣砲台",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2004-03-01",
+  "address": "中正區三軍總醫院基隆分院及正濱國中入口交界處",
+  "lat": 25.146080239772182,
+  "lng": 121.76314511771932,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040301000004",
+  "caseId": "20040301000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-12/dccaf9d9-74ae-4faf-8621-88a2517d6524/A013 基隆市 頂石閣砲台 (歷建)01.jpg"
+ },
+ {
+  "id": "zhongzheng-longmujing",
+  "name": "龍目井（和平島紅毛井）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中正區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2006-12-07",
+  "address": "中正區和平島和一路2巷",
+  "lat": 25.156992,
+  "lng": 121.770261,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061207000006",
+  "caseId": "20061207000006",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-21/a81f5087-9f9b-4919-a39d-c5fb2fd33e96/龍目井3.jpg"
+ },
+ {
+  "id": "zhongzheng-hepingdaokaoguyi",
+  "name": "和平島B考古遺址",
+  "category": "考古遺址",
+  "level": "國定考古遺址",
+  "town": "中正區",
+  "types": [],
+  "announced": "2026-07-02",
+  "address": "中正區平一路25號",
+  "lat": 25.15586875671757,
+  "lng": 121.76487198538732,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20260702000001",
+  "caseId": "20260702000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-02/82a422b8-1a54-4c83-9969-39d923d7ec27/內部整體.jpg"
+ },
+ {
+  "id": "zhongzheng-dashawankaoguyizhi",
+  "name": "大沙灣考古遺址",
+  "category": "考古遺址",
+  "level": "縣(市)定考古遺址",
+  "town": "中正區",
+  "types": [],
+  "announced": "2022-02-15",
+  "address": "中正區中正路113號 後方",
+  "lat": 25.141257,
+  "lng": 121.758951,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/archaeologicalSite/20210115000003",
+  "caseId": "20210115000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-01-15/8555005b-ca10-4fa9-b877-e91e722d8731/圖片1.png"
+ },
+ {
+  "id": "renai-xiuzhuju",
+  "name": "修竹居",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "仁愛區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-03-17",
+  "address": "仁愛區獅球路42巷1號",
+  "lat": 25.12468,
+  "lng": 121.73632,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210330000001",
+  "caseId": "20210330000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/a7614e9c-a8c4-42dd-a723-e06033fd54db/Still0730_00009-1.png"
+ },
+ {
+  "id": "renai-shiqiulingpaotai",
+  "name": "獅球嶺砲台",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "仁愛區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-08-19",
+  "address": "仁愛區獅球嶺上",
+  "lat": 25.12109,
+  "lng": 121.73438,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000025",
+  "caseId": "19850819000025",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1416/photo/A027 基隆市 獅球嶺砲台 (三級)01.JPG"
+ },
+ {
+  "id": "renai-gangxierxisanmatou",
+  "name": "基隆港西二西三碼頭倉庫(含空橋)",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁愛區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2014-07-17",
+  "address": "仁愛區港西街12號",
+  "lat": 25.134883832680668,
+  "lng": 121.74120998438939,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20141225000001",
+  "caseId": "20141225000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/7f839786-234d-4bf2-ac25-7dfec22374be/air02.png"
+ },
+ {
+  "id": "renai-haigangdalou",
+  "name": "海港大樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁愛區",
+  "types": [
+   "辦公廳舍"
+  ],
+  "announced": "2003-01-20",
+  "address": "仁愛區港西街6號",
+  "lat": 25.132978665132487,
+  "lng": 121.74038002973967,
+  "open": "辦公時間：星期一至五上午8:30~12:30、下午13:00~17:00",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000003",
+  "caseId": "20030120000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-16/40e8e0a3-fa89-4d01-865c-a82dfeecf815/S__46604291.jpg"
+ },
+ {
+  "id": "renai-xuzisanggucuo",
+  "name": "許梓桑古厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁愛區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2004-03-01",
+  "address": "仁愛區愛四路2巷15號",
+  "lat": 25.127428154887873,
+  "lng": 121.74420555336683,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040301000001",
+  "caseId": "20040301000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/f27b1ed9-6439-4083-a7ed-1977594d4a01/DJI_0088-1.jpg"
+ },
+ {
+  "id": "renai-yangminghaiyun",
+  "name": "陽明海運",
+  "category": "歷史建築",
+  "level": "",
+  "town": "仁愛區",
+  "types": [
+   "衙署"
+  ],
+  "announced": "2003-01-20",
+  "address": "仁愛區港西街4 號",
+  "lat": 25.132654998208714,
+  "lng": 121.7400974776402,
+  "open": "週二至週日09:00-17:00(最後售票時間15:30)\n每周一、除夕、大年初一休館",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030120000002",
+  "caseId": "20030120000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-02/eb2dd3d3-c2f5-4cf6-a355-61fc8bfcf274/IMG_E9195.jpg"
+ },
+ {
+  "id": "xinyi-gangzailiaopaotai",
+  "name": "槓仔寮砲台",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "信義區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1998-06-23",
+  "address": "信義區基隆市信義區深澳坑路7巷32號(後方山區)",
+  "lat": 25.1446212545836,
+  "lng": 121.779959335074,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20091223000001",
+  "caseId": "20091223000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1439/photo/A029 基隆市 槓子寮砲台 (省定)01.JPG"
+ },
+ {
+  "id": "xinyi-zhongxuexiaoguan",
+  "name": "基隆中學校官舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "信義區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2021-07-08",
+  "address": "信義區義七路39號",
+  "lat": 25.129949,
+  "lng": 121.752807,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20210715000001",
+  "caseId": "20210715000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-05/4b5be991-558f-4c39-800a-fb7528f043da/DSC05533.jpg"
+ },
+ {
+  "id": "xinyi-yiyuanxingzhengda",
+  "name": "基隆醫院行政大樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "信義區",
+  "types": [
+   "醫院"
+  ],
+  "announced": "2025-11-13",
+  "address": "信義區信二路268號",
+  "lat": 25.13086186568888,
+  "lng": 121.74838952409493,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20260401000001",
+  "caseId": "20260401000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-04-01/b59c7739-08d7-47f4-a133-69cc4b0946c5/1775025316681.jpg"
+ },
+ {
+  "id": "xinyi-lingquansanta",
+  "name": "靈泉三塔",
+  "category": "歷史建築",
+  "level": "",
+  "town": "信義區",
+  "types": [
+   "墓葬"
+  ],
+  "announced": "2006-07-20",
+  "address": "信義區六合街2號",
+  "lat": 25.1156308463059,
+  "lng": 121.762968758006,
+  "open": "平時未開放，僅於春季法會、秋祭法會開放祭拜。",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060720000001",
+  "caseId": "20060720000001",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1376/photo/A022 基隆市 靈泉三塔 (歷建)01.JPG"
+ },
+ {
+  "id": "xinyi-lingquanchansifo",
+  "name": "靈泉禪寺佛殿",
+  "category": "歷史建築",
+  "level": "",
+  "town": "信義區",
+  "types": [
+   "寺廟"
+  ],
+  "announced": "2008-05-01",
+  "address": "信義區六合街1號",
+  "lat": 25.116081818590306,
+  "lng": 121.76387234064477,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20080101000002",
+  "caseId": "20080101000002",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1383/photo/A020 基隆市 靈泉禪寺佛殿 (歷建)01.JPG"
+ },
+ {
+  "id": "xinyi-lingquanchansikai",
+  "name": "靈泉禪寺開山堂",
+  "category": "歷史建築",
+  "level": "",
+  "town": "信義區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2004-03-01",
+  "address": "信義區六合街2號",
+  "lat": 25.115338711172,
+  "lng": 121.762469967132,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20040301000002",
+  "caseId": "20040301000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-16/679a9bf9-cad8-4d8b-9dad-5b3ba8cfe5a9/P_20211108_開山堂.png"
+ },
+ {
+  "id": "zhongshan-dengta",
+  "name": "基隆燈塔",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中山區",
+  "types": [
+   "燈塔"
+  ],
+  "announced": "2021-02-20",
+  "address": "中山區光華路51號",
+  "lat": 25.15531839841234,
+  "lng": 121.74759701191846,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210223000001",
+  "caseId": "20210223000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-07/74fddc49-86d6-4ce2-88fc-809633de2a59/IMG_1324.jpg"
+ },
+ {
+  "id": "zhongshan-mushanpaotai",
+  "name": "木山砲台",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中山區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "2008-01-01",
+  "address": "中山區德安路山區（德安里）",
+  "lat": 25.15927,
+  "lng": 121.72619,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080101000001",
+  "caseId": "20080101000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-07/4ff1e6c0-f7ce-4c00-9001-a2c9111e8b8a/A034 基隆市 木山砲台 (縣市定)04.jpeg"
+ },
+ {
+  "id": "zhongshan-baimiwengpaotai",
+  "name": "白米甕砲台",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "中山區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-08-19",
+  "address": "中山區光華路37巷底",
+  "lat": 25.15551,
+  "lng": 121.74333,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000026",
+  "caseId": "19850819000026",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/639cfbdf-339a-4d53-a2cf-488b5996c58e/DJI_0138.jpg"
+ },
+ {
+  "id": "zhongshan-renanjiegangwujusu",
+  "name": "仁安街港務局宿舍",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中山區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2019-09-16",
+  "address": "中山區仁安街31巷11號",
+  "lat": 25.14481,
+  "lng": 121.74724,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200121000001",
+  "caseId": "20200121000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-07/cdb39142-3332-4f8a-aacc-da9dca230e34/P1200836.jpeg"
+ },
+ {
+  "id": "zhongshan-xiandongsuidao",
+  "name": "仙洞隧道",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中山區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2006-07-20",
+  "address": "中山區中華路5巷(北口)",
+  "lat": 25.1448380286874,
+  "lng": 121.738532250625,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20060720000002",
+  "caseId": "20060720000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-26/943f5753-bb7f-4987-adcb-e42e4440a7e4/IMG_9103_仙洞隧道南口.jpg"
+ },
+ {
+  "id": "zhongshan-zhannanbeihaozhi",
+  "name": "基隆站南北號誌樓轉轍站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中山區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2004-10-12",
+  "address": "中山區中山一路14巷21號",
+  "lat": 25.1335,
+  "lng": 121.7399,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041012000001",
+  "caseId": "20041012000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/96c38ca5-6d1a-4a23-82e3-c0e72f2c1f98/air002.png"
+ },
+ {
+  "id": "zhongshan-jiangangjinianbei",
+  "name": "建港紀念碑（基隆築港殉職者紀念碑）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中山區",
+  "types": [
+   "碑碣"
+  ],
+  "announced": "2003-01-20",
+  "address": "中山區中山三路沿港西15、16 碼頭間山路上行於高遠新村旁",
+  "lat": 25.1422829341722,
+  "lng": 121.745700304834,
+  "open": "24小時全天開放參觀",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20191014000001",
+  "caseId": "20191014000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/a2d5eafd-c1e6-4325-bf61-24f9abad3c40/_ANA3734.jpg"
+ },
+ {
+  "id": "zhongshan-gaoyuanxincungang",
+  "name": "高遠新村港務局局長官舍（築港出張所仙洞町官舍）",
+  "category": "歷史建築",
+  "level": "",
+  "town": "中山區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2006-12-07",
+  "address": "中山區中山三路103巷16號",
+  "lat": 25.142078,
+  "lng": 121.744847,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061207000005",
+  "caseId": "20061207000005",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/84f74860-2840-4f8d-a77d-241d21e18db0/DSC07699-1.jpg"
+ },
+ {
+  "id": "zhongshan-xiandongyan",
+  "name": "仙洞巖",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "中山區",
+  "types": [
+   "宗教景觀"
+  ],
+  "announced": "2006-07-20",
+  "address": "中山區仁安街1號",
+  "lat": 25.14522,
+  "lng": 121.748064,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20060720000003",
+  "caseId": "20060720000003",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-06/35671f12-24fe-467b-ad57-60650c5948a6/AW01 基隆市 仙洞巖 (文景)03.jpg"
+ },
+ {
+  "id": "anle-dawulunpaotai",
+  "name": "大武崙砲台",
+  "category": "國定古蹟",
+  "level": "國定古蹟",
+  "town": "安樂區",
+  "types": [
+   "關塞"
+  ],
+  "announced": "1985-08-19",
+  "address": "安樂區安樂區大武崙情人湖邊",
+  "lat": 25.1586248965084,
+  "lng": 121.709049921105,
+  "open": "全天開放",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000027",
+  "caseId": "19850819000027",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1408/photo/A028 基隆市 大武崙砲台 (二級)01.JPG"
+ },
+ {
+  "id": "anle-liumingchuansuidao",
+  "name": "劉銘傳隧道",
+  "category": "市定古蹟",
+  "level": "縣(市)定古蹟",
+  "town": "安樂區",
+  "types": [
+   "產業"
+  ],
+  "announced": "1985-08-19",
+  "address": "安樂區崇德路底（北口）",
+  "lat": 25.12552,
+  "lng": 121.73193,
+  "open": "劉銘傳隧道自114年12月12日起，配合蝙蝠生態習性開放參觀，每年3至11月為蝙蝠繁殖期，限制隧道內總人數，每年12月至隔年2月是蝙蝠冬眠期，隧道內無人數限制。\n 開放時間：每週二至週日(週一公休) 上午9點至下午5點\n 定點導覽：每週五至週日分二梯次，上午10點、下午2點(每梯次30人)\n 相關資訊詳情基隆市文化觀光局官網及臉書",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100728000002",
+  "caseId": "20100728000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-12-11/486dc0ac-2671-4128-ac98-488f3e7cf4ca/劉銘傳隧道.jpg"
+ },
+ {
+  "id": "nuannuan-jingshuichangba",
+  "name": "暖暖淨水場八角井樓",
+  "category": "歷史建築",
+  "level": "",
+  "town": "暖暖區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2007-01-29",
+  "address": "暖暖區水源路38號",
+  "lat": 25.0963352369131,
+  "lng": 121.732645589358,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070430000001",
+  "caseId": "20070430000001",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/be824625-f60b-4472-8dd2-ddec0e910893/_ANA1798-1.jpg"
+ },
+ {
+  "id": "nuannuan-jingshuichangbang",
+  "name": "暖暖淨水場幫浦間",
+  "category": "歷史建築",
+  "level": "",
+  "town": "暖暖區",
+  "types": [
+   "產業"
+  ],
+  "announced": "2007-01-29",
+  "address": "暖暖區水源路38號",
+  "lat": 25.096485834643488,
+  "lng": 121.73377211770973,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070129000004",
+  "caseId": "20070129000004",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/e503819b-33b7-4a1a-b272-3973bcb0292e/DJI_0203-1.jpg"
+ },
+ {
+  "id": "nuannuan-jingshuichang",
+  "name": "暖暖淨水場",
+  "category": "文化景觀",
+  "level": "文化景觀",
+  "town": "暖暖區",
+  "types": [
+   "水利設施"
+  ],
+  "announced": "2007-09-13",
+  "address": "暖暖區水源路38號",
+  "lat": 25.09680697521646,
+  "lng": 121.73299359243954,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20070913000002",
+  "caseId": "20070913000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-10-11/c5312f67-cf95-4152-8c41-b41196f0ae2e/DJI_0191.jpg"
+ },
+ {
+  "id": "qidu-huochezhan",
+  "name": "七堵火車(前)站",
+  "category": "歷史建築",
+  "level": "",
+  "town": "七堵區",
+  "types": [
+   "車站"
+  ],
+  "announced": "2007-01-29",
+  "address": "七堵區光明里7鄰光明路23號",
+  "lat": 25.0972417049675,
+  "lng": 121.716059065927,
+  "open": "公園為二十四小時開放，歷史建物內部開放參觀時間為週一至週五上午10時至下午4時，國定假日除外。\n\n如需導覽解說服務，可於參訪三日前先行向「七堵區公所」電話預約，預約時間：週一至週五上午8：00~12：00，下午13：30~17：30，電話：(02)24566171 分機504，導覽解說服務由「基隆市七堵鐵道歡喜學會」講解",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100728000003",
+  "caseId": "20100728000003",
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1329/photo/A001 基隆市 七堵火車(前)站 (歷建)01.JPG"
+ },
+ {
+  "id": "qidu-wudutielusuidao",
+  "name": "五堵鐵路隧道",
+  "category": "歷史建築",
+  "level": "",
+  "town": "七堵區",
+  "types": [
+   "其他設施"
+  ],
+  "announced": "2003-05-01",
+  "address": "七堵區台五線段1001-1地號",
+  "lat": 25.0829076723535,
+  "lng": 121.679403501475,
+  "open": "",
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030501000002",
+  "caseId": "20030501000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2021-08-25/177e304e-b3df-4b68-a1f1-6befd5dbd614/手機照片1.jpg"
+ },
+ {
+  "id": "qidu-malingkengshitou",
+  "name": "瑪陵坑石頭厝",
+  "category": "歷史建築",
+  "level": "",
+  "town": "七堵區",
+  "types": [
+   "宅第"
+  ],
+  "announced": "2012-03-21",
+  "address": "七堵區大同街6號",
+  "lat": 25.11606,
+  "lng": 121.69513,
+  "open": null,
+  "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20120507000002",
+  "caseId": "20120507000002",
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-09-21/ddf181dc-6cb8-4c93-a7a2-5659438d62fb/S__44785698.jpg"
+ }
+]
