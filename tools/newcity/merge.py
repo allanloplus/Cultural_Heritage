@@ -12,7 +12,7 @@ eras ：複製成 <slug>/data/eras.json。
 三種都會：把對話裡的「羅顧問」改成 Allan、拒絕含 Email 的內容、跑 validate.py 的檢查（有錯誤就不寫檔）。
 """
 import collections, json, os, re, sys
-from common import ROOT, dump, load
+from common import ROOT, city_dir, dump, load
 import validate
 
 CJK = r"[一-鿿]"
@@ -52,7 +52,7 @@ def main():
     if len(sys.argv) < 4:
         raise SystemExit(__doc__)
     kind, slug, files = sys.argv[1], sys.argv[2], sys.argv[3:]
-    D = os.path.join(ROOT, slug, "data")
+    D = os.path.join(city_dir(slug), "data")  # 第二網站的縣市在 Cultural_Heritage2 的 clone
     if kind == "sites":
         content = []
         for f in files:

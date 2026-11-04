@@ -7,7 +7,7 @@
 授權只收 CC / 公有領域；只寫 Attribution 或作者不明（非公有領域）的照片不用。
 """
 import argparse, collections, json, os, re, sys, time, urllib.parse
-from common import CACHE, ROOT, dump, get, load, work_dir
+from common import CACHE, ROOT, city_dir, dump, get, load, work_dir
 
 SKIP_SECTIONS = ("古物", "無形文化資產", "民俗", "傳統工藝", "傳統表演藝術", "保存技術", "口述傳統", "已撤銷", "已解除", "註銷")
 
@@ -108,11 +108,12 @@ def main():
         out[sid] = [{"file": v["file"], "thumb": thumb, "page": v["page"],
                      "artist": "佚名" if "Unknown" in (v["artist"] or "") else v["artist"][:80],
                      "license": v["license"], "licenseUrl": v["licenseUrl"]}]
-    old = load(os.path.join(ROOT, a.slug, "data", "images.json"), {})
+    D = os.path.join(city_dir(a.slug, a.city), "data")  # 第二網站的縣市在 Cultural_Heritage2 的 clone
+    old = load(os.path.join(D, "images.json"), {})
     for sid, ims in out.items():  # 保留已下載的 local / small 欄位
         if sid in old and old[sid] and old[sid][0].get("file") == ims[0]["file"]:
             out[sid] = old[sid]
-    dump(out, os.path.join(ROOT, a.slug, "data", "images.json"))
+    dump(out, os.path.join(D, "images.json"))
     print("photos:", len(out), "of", len(base), "sites")
 
 

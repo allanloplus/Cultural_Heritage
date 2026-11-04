@@ -4,6 +4,7 @@
 Allan：zh-TW-YunJheNeural（台灣男聲）
 阿拉蕾：zh-TW-HsiaoYuNeural 提高音調（台灣小女生）
 只會重新合成內容有變動的句子（快取於 tools/.tts-cache/，不進版控）。
+第二網站的縣市（script.json 的 group 有 "site": 2）寫到 Cultural_Heritage2 的 clone（見 tools/sites.py）。
 """
 import asyncio, hashlib, json, os, random, ssl, subprocess, sys, wave
 
@@ -15,6 +16,8 @@ if os.environ.get("TTS_CA_BUNDLE"):  # 經過企業代理時使用其 CA
     C._SSL_CTX.verify_flags &= ~ssl.VERIFY_X509_STRICT  # Python 3.13 嚴格 X.509 會拒絕代理憑證；仍完整驗證
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import sites as SITES  # noqa: E402  兩個網站的對應
 CACHE = os.path.join(ROOT, "tools", ".tts-cache")
 VOICE = {
     "A": dict(voice="zh-TW-YunJheNeural", pitch="+0Hz", rate="+0%"),  # 語音服務自 2026/11 起拒絕負值音調，改 +0Hz（差 2Hz，聽不出差別）
@@ -94,7 +97,7 @@ async def main():
     for g in script["groups"]:
         if only_dirs and g["dir"] not in only_dirs:
             continue
-        out_dir = os.path.join(ROOT, g["dir"])
+        out_dir = os.path.join(SITES.site_dir(g.get("site", 1)), g["dir"])
         os.makedirs(out_dir, exist_ok=True)
         cues_path = os.path.join(out_dir, "cues.js")
         index = {}
