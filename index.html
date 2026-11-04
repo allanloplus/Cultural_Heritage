@@ -25,16 +25,28 @@
   .cast .r { height: 290px; width: auto; right: 0; }
   .p-body { padding-bottom: 56px; }
   h2.t { font-size: 1.5rem; margin: 36px 0 14px; }
-  .p-two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: start; }
-  #twmap { height: 460px; border-radius: var(--r); border: 1px solid var(--line); box-shadow: var(--shadow); }
-  .cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
-  .city { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; text-decoration: none; color: inherit; display: grid; gap: 4px; }
-  .city b { font-family: var(--f-display); font-size: 1.2rem; }
-  .city span { font-size: .82rem; color: var(--muted); }
-  .city.on { grid-column: 1 / -1; grid-template-columns: 180px 1fr; gap: 14px; align-items: center; box-shadow: var(--shadow); border-color: var(--peach); }
-  .city.on img { width: 180px; aspect-ratio: 4/3; object-fit: cover; border-radius: 10px; grid-row: 1 / 4; }
-  .city.soon { opacity: .7; }
-  .city .go { justify-self: start; }
+  /* 選縣市：左邊地圖固定在畫面上，右邊依地區分組的精簡卡片（縣市變多也不會一路拉長、左邊留白） */
+  .p-two { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 22px; align-items: start; }
+  .p-mapcol { position: sticky; top: 72px; }
+  #twmap { height: min(640px, calc(100vh - 140px)); min-height: 420px; border-radius: var(--r); border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .reg-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+  .reg-chips button { font: inherit; font-size: .88rem; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: inherit; cursor: pointer; }
+  .reg-chips button small { color: var(--muted); margin-left: 3px; }
+  .reg-chips button[aria-pressed="true"] { background: var(--peach); border-color: var(--peach); color: #fff; }
+  .reg-chips button[aria-pressed="true"] small { color: #fff; }
+  .reg h3 { font-size: 1.05rem; margin: 16px 0 8px; display: flex; align-items: baseline; gap: 8px; }
+  .reg h3 small { font-size: .8rem; color: var(--muted); font-weight: 400; }
+  .cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+  .city { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px; text-decoration: none; color: inherit; display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 2px 10px; align-items: start; transition: border-color .15s, box-shadow .15s, transform .15s; }
+  .city:hover, .city:focus-visible, .city.hot { border-color: var(--peach); box-shadow: var(--shadow); transform: translateY(-1px); }
+  .city img { width: 104px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; grid-row: 1 / 5; background: var(--line); }
+  .city b { font-family: var(--f-display); font-size: 1.12rem; line-height: 1.3; display: flex; justify-content: space-between; gap: 6px; }
+  .city b::after { content: "›"; color: var(--peach); font-weight: 700; }
+  .city .nick { font-size: .8rem; color: var(--hinoki); font-weight: 700; line-height: 1.4; }
+  .city .desc { font-size: .78rem; color: var(--muted); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .city .cr { font-size: .66rem; color: var(--muted); opacity: .85; line-height: 1.35; }
+  .soon-line { font-size: .85rem; color: var(--muted); margin-top: 14px; }
+  .dot.hot { transform: scale(1.6); background: #c2412a; box-shadow: 0 0 0 4px rgba(223,111,87,.3); }
   .feat { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
   .feat div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
   .feat h3 { font-size: 1.1rem; margin-bottom: 4px; }
@@ -54,10 +66,13 @@
   .mp .btn { justify-self: start; margin-top: 2px; color: #fff; }
   @media (max-width: 860px) {
     .p-grid, .p-two { grid-template-columns: 1fr; }
+    .p-mapcol { position: static; }
+    .reg-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+    .reg-chips button { flex: none; }
     .p-copy { padding-bottom: 0; }
     .cast { height: 230px; } .cast .a { height: 220px; right: auto; left: 10%; } .cast .r { height: 190px; right: 10%; }
-    #twmap { height: 340px; }
-    .city.on { grid-template-columns: 1fr; } .city.on img { width: 100%; grid-row: auto; }
+    #twmap { height: 340px; min-height: 0; }
+    .cities { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -87,8 +102,8 @@
 
     <h2 class="t" id="cities">選一座城市</h2>
     <div class="p-two">
-      <div><p class="map-hint">點地圖上的紅點或縣市名稱就能出發；灰點是籌備中的縣市。縣市名稱放不下時會先隱藏，放大地圖就會出現。</p><div id="twmap" role="application" aria-label="臺灣城市地圖"></div></div>
-      <div class="cities" id="cityList"></div>
+      <div class="p-mapcol"><p class="map-hint">點地圖上的紅點或縣市名稱就能出發；灰點是籌備中的縣市。縣市名稱放不下時會先隱藏，放大地圖就會出現。</p><div id="twmap" role="application" aria-label="臺灣城市地圖"></div></div>
+      <div><div class="reg-chips" id="regChips" role="group" aria-label="依地區篩選"></div><div id="cityList"></div></div>
     </div>
 
     <h2 class="t">每座城市都有</h2>
@@ -131,10 +146,18 @@
   /* 縣市清單在 assets/js/cities.js（入口頁與各縣市頁共用）；第二網站的縣市用 SiteCities.href／imgSrc 連到 /Cultural_Heritage2/ */
   var CITIES = SiteCities.list;
   SiteCities.portalNav(document.getElementById("portalNav"));
-  document.getElementById("cityList").innerHTML = CITIES.map(function (c) {
-    if (c.on) return '<a class="city on" href="' + esc(SiteCities.href(c, "")) + '"><img src="' + esc(SiteCities.imgSrc(c, "")) + '" alt="' + esc(c.label || c.name) + '" loading="lazy"><b>' + esc(c.label || c.name) + '</b><span>' + esc(c.nick) + '・' + esc(c.desc) + '</span><span style="font-size:.72rem">照片：' + esc(c.credit) + '・Wikimedia Commons</span><span class="btn btn-primary btn-sm go">開始逛 ›</span></a>';
-    return '<div class="city soon"><b>' + esc(c.name) + '</b><span>' + esc(c.nick) + '</span><span>籌備中</span></div>';
-  }).join("");
+  /* 縣市卡片：依地區分組（cities.js 的 REGIONS），每張卡片整張可點；上方地區按鈕可篩選，地圖同時縮放到該地區 */
+  var GROUPS = SiteCities.grouped();
+  function cityCard(c) {
+    return '<a class="city on" data-slug="' + esc(c.slug) + '" href="' + esc(SiteCities.href(c, "")) + '" title="' + esc(c.desc) + '"><img src="' + esc(SiteCities.imgSrc(c, "")) + '" alt="' + esc(c.label || c.name) + '" loading="lazy" width="104" height="78">' +
+      '<b>' + esc(c.label || c.name) + '</b><span class="nick">' + esc(c.nick) + '</span><span class="desc">' + esc(c.desc) + '</span><span class="cr">照片：' + esc(c.credit) + '・Wikimedia Commons</span></a>';
+  }
+  document.getElementById("cityList").innerHTML = GROUPS.map(function (g) {
+    return '<section class="reg" data-reg="' + esc(g[0]) + '"><h3>' + esc(g[0]) + '<small>' + g[1].length + ' 個縣市</small></h3><div class="cities">' + g[1].map(cityCard).join("") + '</div></section>';
+  }).join("") + (SiteCities.soon.length ? '<p class="soon-line">籌備中：' + SiteCities.soon.map(function (c) { return esc(c.name); }).join("、") + '，敬請期待。</p>' : "");
+  var chips = document.getElementById("regChips");
+  chips.innerHTML = '<button type="button" data-reg="" aria-pressed="true">全部<small>' + SiteCities.open.length + '</small></button>' +
+    GROUPS.map(function (g) { return '<button type="button" data-reg="' + esc(g[0]) + '" aria-pressed="false">' + esc(g[0]) + '<small>' + g[1].length + '</small></button>'; }).join("");
 
   /* 依所有縣市標記與臺灣本島範圍自動縮放，桌機與手機都看得到離島（金門、澎湖等）的標記 */
   var map = L.map("twmap", { zoomControl: true, scrollWheelZoom: false, zoomSnap: 0.25 });
@@ -142,7 +165,8 @@
   CITIES.forEach(function (c) { fit.extend([c.lat + 0.25, c.lng]); fit.extend([c.lat, c.lng]); });  // 上方留一點空間給最北的馬祖
   function fitAll() { map.fitBounds(fit, { paddingTopLeft: [40, 34], paddingBottomRight: [48, 10], maxZoom: 8 }); }
   fitAll();
-  window.addEventListener("resize", function () { clearTimeout(fitAll.t); fitAll.t = setTimeout(function () { map.invalidateSize(); fitAll(); }, 200); });
+  var regFit = null;  // 目前選的地區（null＝全部），視窗縮放時維持
+  window.addEventListener("resize", function () { clearTimeout(fitAll.t); fitAll.t = setTimeout(function () { map.invalidateSize(); regFit ? regFit(false) : fitAll(); }, 200); });
   L.tileLayer("https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}", { maxZoom: 18, attribution: "&copy; 內政部國土測繪中心" }).addTo(map);
   /* 縣市標記：小圓點＋短標籤。標籤依序嘗試右、左、上、下，避開其他標籤與圓點；放不下就先隱藏（放大地圖或滑鼠移到圓點上才出現）。
      點圓點或標籤會跳出小卡，按「開始逛」才進入縣市，手機上不會誤觸。 */
@@ -166,6 +190,30 @@
       m.on("mouseout", function () { if (it.hidden) el.classList.add("tt-hide"); });
     }
     return it;
+  });
+  /* 卡片與地圖連動：滑鼠移到卡片上，地圖上的紅點放大並顯示名稱；地區按鈕篩選卡片並縮放地圖 */
+  var bySlug = {};
+  items.forEach(function (it) { if (it.c.on) bySlug[it.c.slug] = it; });
+  Array.prototype.forEach.call(document.querySelectorAll("#cityList .city"), function (a) {
+    var it = bySlug[a.dataset.slug];
+    if (!it) return;
+    function on() { it.m.getElement().querySelector(".dot").classList.add("hot"); it.m.getTooltip().getElement().classList.remove("tt-hide"); it.m.setZIndexOffset(1000); }
+    function off() { it.m.getElement().querySelector(".dot").classList.remove("hot"); if (it.hidden) it.m.getTooltip().getElement().classList.add("tt-hide"); it.m.setZIndexOffset(0); }
+    a.addEventListener("mouseenter", on); a.addEventListener("mouseleave", off);
+    a.addEventListener("focus", on); a.addEventListener("blur", off);
+  });
+  chips.addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    var reg = b.dataset.reg;
+    Array.prototype.forEach.call(chips.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+    Array.prototype.forEach.call(document.querySelectorAll("#cityList .reg"), function (sec) { sec.hidden = !!reg && sec.dataset.reg !== reg; });
+    map.closePopup();
+    if (!reg) { regFit = null; return fitAll(); }
+    var g = GROUPS.filter(function (x) { return x[0] === reg; })[0];
+    var bb = L.latLngBounds(g[1].map(function (c) { return [c.lat, c.lng]; })).pad(g[1].length > 1 ? 0.35 : 0);
+    regFit = function (fly) { map[fly ? "flyToBounds" : "fitBounds"](bb, { maxZoom: 9, padding: [40, 40], duration: 0.6 }); };
+    regFit(true);
   });
   function hit(a, b, pad) { return a.left < b.right + pad && b.left < a.right + pad && a.top < b.bottom + pad && b.top < a.bottom + pad; }
   function declutter() {
