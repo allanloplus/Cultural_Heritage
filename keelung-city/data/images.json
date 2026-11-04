@@ -258,7 +258,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E5%9F%BA%E9%9A%86%E9%86%AB%E9%99%A2.jpg",
    "artist": "T.J. Tony Hsiao",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/xinyi-yiyuanxingzhengda-0.webp",
+   "small": "img/xinyi-yiyuanxingzhengda-0-s.webp"
   }
  ],
  "xinyi-lingquansanta": [
@@ -268,7 +270,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%9D%88%E6%B3%89%E7%A6%AA%E5%AF%BA%E9%9D%88%E6%B3%89%E4%B8%89%E5%A1%942017.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/xinyi-lingquansanta-0.webp",
+   "small": "img/xinyi-lingquansanta-0-s.webp"
   }
  ],
  "xinyi-lingquanchansikai": [
@@ -278,7 +282,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:%E9%9D%88%E6%B3%89%E7%A6%AA%E5%AF%BA%E9%96%8B%E5%B1%B1%E5%A0%822017.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/xinyi-lingquanchansikai-0.webp",
+   "small": "img/xinyi-lingquanchansikai-0-s.webp"
   }
  ],
  "zhongshan-dengta": [
@@ -288,7 +294,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:2018_Keelung_Lighthouse_f.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-dengta-0.webp",
+   "small": "img/zhongshan-dengta-0-s.webp"
   }
  ],
  "zhongshan-baimiwengpaotai": [
@@ -298,7 +306,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:MG_1014-%E7%99%BD%E7%B1%B3%E7%94%95.jpg",
    "artist": "Dolly2199",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-baimiwengpaotai-0.webp",
+   "small": "img/zhongshan-baimiwengpaotai-0-s.webp"
   }
  ],
  "zhongshan-renanjiegangwujusu": [
@@ -308,7 +318,9 @@
    "page": "https://commons.wikimedia.org/wiki/File:2022_The_Former_Staff_Dormitory_of_Maritime_%26_Port_Bureau_on_Ren_An_Street_x.jpg",
    "artist": "Taiwankengo",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "img/zhongshan-renanjiegangwujusu-0.webp",
+   "small": "img/zhongshan-renanjiegangwujusu-0-s.webp"
   }
  ],
  "zhongshan-xiandongsuidao": [
