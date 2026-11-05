@@ -67,6 +67,9 @@
     { slug: "taoyuan-city", name: "桃園市", nick: "桃仔園：大溪老街・神社・客家庄・泰雅部落", lat: 24.99, lng: 121.20, tip: "top", site: 2, on: true,
       img: "taoyuan-city/img/daxi-litengfangguzhai-0.webp", credit: "李騰芳古宅／Outlookxp，CC BY-SA 4.0",
       desc: "145 處有形文化資產：國定古蹟李騰芳古宅與觀音白沙岬燈塔，大溪老街牌樓店屋、大溪公會堂與武德殿、桃園忠烈祠（原桃園神社）、桃園景福宮、新屋范姜古厝、中壢燃藜第、馬祖新村、角板山與溪口吊橋，還有桃園三層地區陂圳與土牛溝；另有大溪普濟堂關聖帝君聖誕慶典、客家八音、泰雅族口述傳統與織布等 26 項無形文化資產。" },
+    { slug: "miaoli-county", name: "苗栗縣", nick: "山城與海線：舊山線・客家庄・白沙屯媽祖・賽夏族", lat: 24.49, lng: 120.95, tip: "left", site: 2, on: true,
+      img: "miaoli-county/img/sanyi-yutengpingduanqiao-0.webp", credit: "龍騰斷橋（魚藤坪斷橋）／Encino at Chinese Wikipedia，公有領域",
+      desc: "89 處有形文化資產：國定古蹟後龍鄭崇和墓，舊山線勝興車站、龍騰斷橋與內社川、魚藤坪、大安溪鐵橋，還有中港慈裕宮、苗栗文昌祠、出磺坑、南庄郵便局、通霄神社、海線談文與大山車站、後龍外埔石滬群；另有賽夏族 paSta'ay、白沙屯媽祖進香、客家八音、三義木雕等 25 項無形文化資產。" },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
