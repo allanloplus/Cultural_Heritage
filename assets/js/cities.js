@@ -64,6 +64,9 @@
     { slug: "hsinchu-county", name: "新竹縣", nick: "客家庄與山城：義民廟・北埔金廣福・內灣・賽夏與泰雅", lat: 24.70, lng: 121.12, tip: "right", site: 2, on: true,
       img: "hsinchu-county/img/beipu-jinguangfugongguan-0.webp", credit: "金廣福公館／Ckfhouse，CC BY-SA 4.0",
       desc: "78 處有形文化資產：國定古蹟北埔金廣福公館，還有新埔褒忠亭義民廟與家廟群、北埔慈天宮與姜阿新洋樓、竹北采田福地與六張犁問禮堂、關西太和宮與東安古橋、竹東車站、內灣派出所、尖石 TAPUNG 古堡；另有賽夏族 paSta'ay、義民節祭典、客家八音等 13 項無形文化資產。" },
+    { slug: "taoyuan-city", name: "桃園市", nick: "桃仔園：大溪老街・神社・客家庄・泰雅部落", lat: 24.93, lng: 121.22, site: 2, on: true,
+      img: "taoyuan-city/img/daxi-litengfangguzhai-0.webp", credit: "李騰芳古宅／Outlookxp，CC BY-SA 4.0",
+      desc: "145 處有形文化資產：國定古蹟李騰芳古宅與觀音白沙岬燈塔，大溪老街牌樓店屋、大溪公會堂與武德殿、桃園忠烈祠（原桃園神社）、桃園景福宮、新屋范姜古厝、中壢燃藜第、馬祖新村、角板山與溪口吊橋，還有桃園三層地區陂圳與土牛溝；另有大溪普濟堂關聖帝君聖誕慶典、客家八音、泰雅族口述傳統與織布等 25 項無形文化資產。" },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
