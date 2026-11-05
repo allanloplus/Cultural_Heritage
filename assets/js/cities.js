@@ -73,7 +73,9 @@
     { slug: "new-taipei-city", name: "新北市", nick: "淡水・九份金瓜石・平溪・三峽鶯歌：環繞臺北的山海", lat: 25.24, lng: 121.64, tip: "top", site: 2, on: true,
       img: "new-taipei-city/img/danshui-lixuetangdashuyuan-0.webp", credit: "理學堂大書院／勤岸，CC BY-SA 3.0",
       desc: "184 處有形文化資產：淡水紅毛城、滬尾礮臺、理學堂大書院、鄞山寺、新莊廣福宮、林本源園邸、蘆洲李宅 7 處國定古蹟，九份金瓜石礦山與太子賓館、平溪菁桐車站、三峽長福巖、鶯歌石、十三行遺址、樂生療養院、景美人權園區；另有平溪天燈、北管、布袋戲、歌仔戲、鶯歌陶藝等 47 項無形文化資產。" },
-    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
+    { slug: "taipei-city", name: "臺北市", nick: "臺北府城・大稻埕・艋舺・北投・士林", lat: 25.05, lng: 121.51, site: 2, on: true,
+      img: "taipei-city/img/zhongzheng-zongtongfu-0.webp", credit: "總統府／Yji0933721731，CC BY-SA 4.0",
+      desc: "579 處有形文化資產（全臺最多）：總統府、臺北賓館、臺灣總督府博物館、臺北府城四座城門、艋舺龍山寺、大龍峒保安宮等 20 處國定古蹟，大稻埕迪化街店屋、北投溫泉、寶藏巖、圓山與芝山岩考古遺址；另有霞海城隍廟迎城隍、北管、布袋戲、歌仔戲等 30 項無形文化資產，以及故宮、史博館等館藏的代表古物。" }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
      第一網站自己的縣市仍用相對路徑，行為與以前相同。本機預覽（tools/serve.py）時改用 /Cultural_Heritage/、/Cultural_Heritage2/ */
