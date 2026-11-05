@@ -1,6 +1,6 @@
 # 新增縣市作業手冊
 
-這份手冊整理了嘉義市、嘉義縣、雲林縣、臺南市等縣市建置的實際流程（之後又做了高雄、屏東、臺東、金門、宜蘭、花蓮、連江、澎湖、基隆，以及第二網站的南投、彰化、臺中、新竹市、新竹縣、桃園、苗栗、新北）。新的縣市照著做，就能做出和前四個一致的網站。開新的 Claude Code session 時，請先讀完這份手冊、`SPEC.md` 與 `PROMPTS.md` 再動手。
+這份手冊整理了嘉義市、嘉義縣、雲林縣、臺南市等縣市建置的實際流程（之後又做了高雄、屏東、臺東、金門、宜蘭、花蓮、連江、澎湖、基隆，以及第二網站的南投、彰化、臺中、新竹市、新竹縣、桃園、苗栗、新北、臺北，2026/11/5 全臺 22 個縣市完成）。新的縣市照著做，就能做出和前四個一致的網站。開新的 Claude Code session 時，請先讀完這份手冊、`SPEC.md` 與 `PROMPTS.md` 再動手。
 
 網站分成兩個 repo（GitHub Pages 每個網站上限 1 GB）：臺北市、新北市、桃園市、新竹市、新竹縣、苗栗縣、臺中市、彰化縣、南投縣放**第二網站** `Cultural_Heritage2`，其餘放本 repo（第一網站）。共用程式、工具與這份手冊只在第一網站。做第二網站的縣市前，先讀〈兩個網站〉。
 
@@ -278,7 +278,7 @@ TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt nohup python3 tools/gen_audio.py > /tmp/g
 ### 9. 開放縣市
 
 - **`assets/js/cities.js`**：把籌備中那一筆改成 `slug`、`on: true`（第二網站的縣市保留或加上 `site: 2`，`img` 寫相對於第二網站根目錄的路徑），並填 `img`（代表照片，相對網站根目錄）、`credit`（作者與授權）、`desc`（數量與特色）。入口頁的縣市卡片依 `REGIONS` 分地區排列，卡片上 `nick` 顯示一行、`desc` 只顯示前兩行（完整內容在滑鼠提示），所以 `desc` 開頭先寫數量與最有代表性的景點。需要讓人一看就知道通稱時（例如連江縣＝馬祖），另填 `label`（例如「連江縣（馬祖）」），卡片、地圖標籤與切換選單會顯示它，`name` 仍維持官方縣名。清單裡沒有這個縣市（例如屏東縣）就新增一筆，`lat`、`lng` 填縣市中心，`nick` 填一句特色。入口頁地圖上標籤會壓到其他縣市時，可設 `tip: "left"`：標籤放在標記左側、標記放在標籤上層，地圖寬度小於 600px 時標籤只顯示縣名（澎湖用這個設定，避免壓到嘉義、臺南）。另有 `tip: "right"`：標籤放在標記右側、標記在上層，手機只顯示縣名（基隆用；宜蘭同時改成 `left`，兩縣標籤才不會疊在一起）。
-- **入口頁問候語**：`tools/portal.json` 第 4 句和 `index.html` 裡的 `PORTAL` 必須**一字不差**，列出所有開放縣市。改完執行：
+- **入口頁問候語**：`tools/portal.json` 第 4 句和 `index.html` 裡的 `PORTAL` 必須**一字不差**。2026/11/5 臺北市開放後全臺 22 個縣市都已上線，第 4 句改成概括說法（「現在全臺灣22個縣市都開放囉！……」），不再逐一列出縣市名稱；之後改版只要維持兩邊文字一致，改了任何一個字就要重新合成入口頁語音。改完執行：
 
   ```bash
   python3 tools/build_data.py
@@ -289,7 +289,7 @@ TTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt nohup python3 tools/gen_audio.py > /tmp/g
   ```
 
   入口頁語音要**立刻**重新合成並推送，否則使用者會聽到舊的問候。
-- **`index.html` 的 meta description**：列出所有開放縣市。
+- **`index.html` 的 meta description**：全臺完成後用概括說法（「帶你逛臺灣 22 個縣市的文化資產」），不逐一列名。
 
 ### 10. 測試
 
@@ -334,7 +334,7 @@ NODE_PATH=$(npm root -g) node tools/newcity/tests/portal.js
    ```
 
    - **衝突時**：同時有其他縣市剛上線，`assets/js/cities.js`、`tools/portal.json`、`index.html`、`audio/cues.js`、`audio/portal.mp3`、`README.md` 可能衝突。
-   - **處理方式**：文字檔保留兩邊的縣市；入口頁問候語要列出所有開放縣市，再執行 `python3 tools/build_data.py` 與 `python3 tools/gen_audio.py audio portal` 重新合成入口頁語音，最後跑一次 `cues_all.js`。
+   - **處理方式**：文字檔保留兩邊的縣市；入口頁問候語維持 `tools/portal.json` 與 `index.html` 一字不差，再執行 `python3 tools/build_data.py` 與 `python3 tools/gen_audio.py audio portal` 重新合成入口頁語音，最後跑一次 `cues_all.js`。
    - 用 merge，不要 rebase 後 force push。
 3. 建立 PR：從工作分支到 `main`，標題例如「新增金門縣」。內文列出數量、測試結果、需要使用者確認的判斷。第二網站的縣市在兩個 repo 各開一個，並在回報中寫明**先合併 Cultural_Heritage2、再合併 Cultural_Heritage**。
 4. **使用者在 GitHub 按下合併**後，`main` 更新，網站約 1～2 分鐘後上線。session 不要自己合併 PR。
@@ -413,6 +413,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 | 2026-11-05 | 加入桃園市 | 311 MB | 30% |
 | 2026-11-05 | 加入苗栗縣 | 350 MB | 34% |
 | 2026-11-05 | 加入新北市 | 432 MB | 42% |
+| 2026-11-05 | 加入臺北市（22 個縣市全部開放） | 653 MB | 64% |
 
 ## 規則（不可違反）
 

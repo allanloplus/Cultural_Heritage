@@ -10,6 +10,10 @@
 (function (root) {
   "use strict";
   var CITIES = [
+    /* 臺北市放第一筆：入口頁地圖依清單順序擺放標籤，北部標記很密，排第一才擺得下。新北市、桃園市的標記位置也為此微調（新北放淡水河口一帶、桃園放龍潭大溪一帶） */
+    { slug: "taipei-city", name: "臺北市", nick: "臺北府城・大稻埕・艋舺・北投・士林", lat: 25.04, lng: 121.50, tip: "right", site: 2, on: true,
+      img: "taipei-city/img/zhongzheng-zongtongfu-0.webp", credit: "總統府／Yji0933721731，CC BY-SA 4.0",
+      desc: "579 處有形文化資產（全臺最多）：總統府、臺北賓館、臺灣總督府博物館、臺北府城四座城門、艋舺龍山寺、大龍峒保安宮等 20 處國定古蹟，大稻埕迪化街店屋、北投溫泉、寶藏巖、圓山與芝山岩考古遺址；另有霞海城隍廟迎城隍、北管、布袋戲、歌仔戲等 30 項無形文化資產，以及故宮、史博館等館藏的代表古物。" },
     { slug: "chiayi-city", name: "嘉義市", nick: "桃城・木都・畫都", lat: 23.4805, lng: 120.4525, on: true,
       img: "chiayi-city/img/beimen-0.webp", credit: "北門驛／勤岸，CC BY-SA 3.0",
       desc: "54 處有形文化資產、16 項無形文化資產，阿里山林業鐵道從這裡出發。" },
@@ -64,16 +68,15 @@
     { slug: "hsinchu-county", name: "新竹縣", nick: "客家庄與山城：義民廟・北埔金廣福・內灣・賽夏與泰雅", lat: 24.70, lng: 121.12, tip: "right", site: 2, on: true,
       img: "hsinchu-county/img/beipu-jinguangfugongguan-0.webp", credit: "金廣福公館／Ckfhouse，CC BY-SA 4.0",
       desc: "78 處有形文化資產：國定古蹟北埔金廣福公館，還有新埔褒忠亭義民廟與家廟群、北埔慈天宮與姜阿新洋樓、竹北采田福地與六張犁問禮堂、關西太和宮與東安古橋、竹東車站、內灣派出所、尖石 TAPUNG 古堡；另有賽夏族 paSta'ay、義民節祭典、客家八音等 13 項無形文化資產。" },
-    { slug: "taoyuan-city", name: "桃園市", nick: "桃仔園：大溪老街・神社・客家庄・泰雅部落", lat: 24.99, lng: 121.20, tip: "top", site: 2, on: true,
+    { slug: "taoyuan-city", name: "桃園市", nick: "桃仔園：大溪老街・神社・客家庄・泰雅部落", lat: 24.85, lng: 121.20, tip: "top", site: 2, on: true,
       img: "taoyuan-city/img/daxi-litengfangguzhai-0.webp", credit: "李騰芳古宅／Outlookxp，CC BY-SA 4.0",
       desc: "145 處有形文化資產：國定古蹟李騰芳古宅與觀音白沙岬燈塔，大溪老街牌樓店屋、大溪公會堂與武德殿、桃園忠烈祠（原桃園神社）、桃園景福宮、新屋范姜古厝、中壢燃藜第、馬祖新村、角板山與溪口吊橋，還有桃園三層地區陂圳與土牛溝；另有大溪普濟堂關聖帝君聖誕慶典、客家八音、泰雅族口述傳統與織布等 26 項無形文化資產。" },
     { slug: "miaoli-county", name: "苗栗縣", nick: "山城與海線：舊山線・客家庄・白沙屯媽祖・賽夏族", lat: 24.49, lng: 120.95, tip: "left", site: 2, on: true,
       img: "miaoli-county/img/sanyi-yutengpingduanqiao-0.webp", credit: "龍騰斷橋（魚藤坪斷橋）／Encino at Chinese Wikipedia，公有領域",
       desc: "89 處有形文化資產：國定古蹟後龍鄭崇和墓，舊山線勝興車站、龍騰斷橋與內社川、魚藤坪、大安溪鐵橋，還有中港慈裕宮、苗栗文昌祠、出磺坑、南庄郵便局、通霄神社、海線談文與大山車站、後龍外埔石滬群；另有賽夏族 paSta'ay、白沙屯媽祖進香、客家八音、三義木雕等 25 項無形文化資產。" },
-    { slug: "new-taipei-city", name: "新北市", nick: "淡水・九份金瓜石・平溪・三峽鶯歌：環繞臺北的山海", lat: 25.24, lng: 121.64, tip: "top", site: 2, on: true,
+    { slug: "new-taipei-city", name: "新北市", nick: "淡水・九份金瓜石・平溪・三峽鶯歌：環繞臺北的山海", lat: 25.12, lng: 121.45, tip: "right", site: 2, on: true,
       img: "new-taipei-city/img/danshui-lixuetangdashuyuan-0.webp", credit: "理學堂大書院／勤岸，CC BY-SA 3.0",
-      desc: "184 處有形文化資產：淡水紅毛城、滬尾礮臺、理學堂大書院、鄞山寺、新莊廣福宮、林本源園邸、蘆洲李宅 7 處國定古蹟，九份金瓜石礦山與太子賓館、平溪菁桐車站、三峽長福巖、鶯歌石、十三行遺址、樂生療養院、景美人權園區；另有平溪天燈、北管、布袋戲、歌仔戲、鶯歌陶藝等 47 項無形文化資產。" },
-    { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
+      desc: "184 處有形文化資產：淡水紅毛城、滬尾礮臺、理學堂大書院、鄞山寺、新莊廣福宮、林本源園邸、蘆洲李宅 7 處國定古蹟，九份金瓜石礦山與太子賓館、平溪菁桐車站、三峽長福巖、鶯歌石、十三行遺址、樂生療養院、景美人權園區；另有平溪天燈、北管、布袋戲、歌仔戲、鶯歌陶藝等 47 項無形文化資產。" }
   ];
   /* 各網站的正式網址。兩個網站都用自訂網域（各 repo 的 CNAME）；改網域時改這裡（tools/sites.py 也讀這一行，請保持一行寫完）。
      第一網站自己的縣市仍用相對路徑，行為與以前相同。本機預覽（tools/serve.py）時改用 /Cultural_Heritage/、/Cultural_Heritage2/ */
