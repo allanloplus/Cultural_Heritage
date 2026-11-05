@@ -70,7 +70,7 @@
     { slug: "miaoli-county", name: "苗栗縣", nick: "山城與海線：舊山線・客家庄・白沙屯媽祖・賽夏族", lat: 24.49, lng: 120.95, tip: "left", site: 2, on: true,
       img: "miaoli-county/img/sanyi-yutengpingduanqiao-0.webp", credit: "龍騰斷橋（魚藤坪斷橋）／Encino at Chinese Wikipedia，公有領域",
       desc: "89 處有形文化資產：國定古蹟後龍鄭崇和墓，舊山線勝興車站、龍騰斷橋與內社川、魚藤坪、大安溪鐵橋，還有中港慈裕宮、苗栗文昌祠、出磺坑、南庄郵便局、通霄神社、海線談文與大山車站、後龍外埔石滬群；另有賽夏族 paSta'ay、白沙屯媽祖進香、客家八音、三義木雕等 25 項無形文化資產。" },
-    { slug: "new-taipei-city", name: "新北市", nick: "淡水・九份金瓜石・平溪・三峽鶯歌：環繞臺北的山海", lat: 25.13, lng: 121.45, tip: "left", site: 2, on: true,
+    { slug: "new-taipei-city", name: "新北市", nick: "淡水・九份金瓜石・平溪・三峽鶯歌：環繞臺北的山海", lat: 25.24, lng: 121.58, tip: "top", site: 2, on: true,
       img: "new-taipei-city/img/danshui-hongmaocheng-0.webp", credit: "淡水紅毛城／Asimonlee at English Wikipedia，CC BY-SA 3.0",
       desc: "184 處有形文化資產：淡水紅毛城、滬尾礮臺、理學堂大書院、鄞山寺、新莊廣福宮、林本源園邸、蘆洲李宅 7 處國定古蹟，九份金瓜石礦山與太子賓館、平溪菁桐車站、三峽長福巖、鶯歌石、十三行遺址、樂生療養院、景美人權園區；另有平溪天燈、北管、布袋戲、歌仔戲、鶯歌陶藝等 47 項無形文化資產。" },
     { slug: "", name: "臺北市", nick: "大稻埕・艋舺", lat: 25.05, lng: 121.51, site: 2 }
