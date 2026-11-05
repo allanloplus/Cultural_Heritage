@@ -39,6 +39,29 @@ def fix_text(t):
     return t.replace("羅顧問", "Allan")
 
 
+# 私人宅第：詳情頁地址只寫到路名或里名，不公開門牌（巷、弄、號、鄰、樓與地號）
+DOORNO = re.compile(r"[\s、，,]*(?:第)?[0-9０-９]+(?:\s*[-－~～之、,，]\s*[0-9０-９]+)*\s*(?:巷|弄|衖|號|鄰|樓|F|f|地號|筆)")
+
+
+def hide_doorno(addr):
+    m = DOORNO.search(addr)
+    out = addr[:m.start()] if m else addr
+    out = re.sub("[一二三四五六七八九十]+鄰", "", out)  # 國字鄰號
+    for o, c in (("(", ")"), ("（", "）")):  # 截斷後留下半個括號就整段去掉
+        if out.count(o) > out.count(c):
+            out = out[:out.rindex(o)]
+    return out.rstrip(" 　、，,")
+
+
+def is_private_home(o, c):
+    """私人宅第：官方類型含「宅第」，而且所有權不是公有（sites-official.json 的 ownership：私有／公有／不明，
+    由 build_base.py 或 tools/newcity/add_ownership.py 寫入；不明的保守視為私人）。公有的宅第、宿舍保留完整地址。
+    sites-content.json 可用 "privateHome": true／false 手動指定。"""
+    if c.get("privateHome") is not None:
+        return bool(c["privateHome"])
+    return "宅第" in (o.get("types") or []) and o.get("ownership") != "公有"
+
+
 def fix_lines(lines):
     return [dict(l, text=fix_text(l["text"])) for l in (lines or [])]
 
@@ -79,7 +102,7 @@ def build_city(slug, site=1):
             "id": o["id"], "name": o["name"], "short": c["short"], "category": o["category"],
             "level": o.get("level") or "", "town": o.get("town") or "",
             "types": o.get("types") or [], "lat": round(lat, 6), "lng": round(lng, 6),
-            "address": cfg["name"] + addr,
+            "address": cfg["name"] + (hide_doorno(addr) if is_private_home(o, c) else addr),
             "announced": o.get("announced"), "url": o["url"], "officialImg": o.get("officialImg"),
             "year": c["year"], "yearText": c["yearText"], "era": c["era"], "themes": c["themes"],
             "yearUnknown": bool(c.get("yearUnknown")),
@@ -88,6 +111,8 @@ def build_city(slug, site=1):
             "openNote": c["openNote"], "dialogue": c["dialogue"], "clues": c["clues"], "quiz": c["quiz"],
             "images": images.get(o["id"], []),
         }
+        if is_private_home(o, c):
+            s["privateHome"] = True
         if o.get("extraLinks"):  # 合併的紀錄：另一筆官方連結
             s["extraLinks"] = o["extraLinks"]
         sites.append(s)
