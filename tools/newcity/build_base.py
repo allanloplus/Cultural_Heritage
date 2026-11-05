@@ -21,7 +21,7 @@ stats.txt 的「可能跨縣市」會列出地址文字提到本縣市、但登�
 試算時用 NEWCITY_DIR 指到暫存目錄，且還沒有 config.json，就不會寫進任何 repo。
 """
 import argparse, collections, json, math, os, re
-from common import CACHE, ROOT, city_addr, city_dir, dump, in_city, load, variants, work_dir
+from common import CACHE, ROOT, city_addr, city_dir, dump, in_city, load, ownership, variants, work_dir
 
 KINDS = [("1.1", "monument"), ("1.2", "building"), ("1.3", "cluster"), ("1.4", "memorial"), ("2.1", "archaeo"), ("3.1", "landscape")]
 CAT_ORDER = ["國定古蹟", "市定古蹟", "縣定古蹟", "歷史建築", "紀念建築", "聚落建築群", "考古遺址", "文化景觀"]
@@ -121,7 +121,7 @@ def main():
                 town=town, address=town + (a0.get("address") or ""),
                 lat=float(lat) if lat else None, lng=float(lng) if lng else None,
                 open=x.get("openUpTime"), caseId=x["caseId"], url=(x.get("caseUrl") or "").replace("http://", "https://"),
-                officialImg=(x.get("representImage") or {}).get("original"), texts=texts)
+                officialImg=(x.get("representImage") or {}).get("original"), ownership=ownership(x), texts=texts)
     man = load(os.path.join(ROOT, "tools", "newcity", "manual", a.slug + ".json"), [])
     if man:
         allrec = {}
@@ -146,7 +146,7 @@ def main():
                 announced=min([z.get("registerDate", "")[:10] for z in ann if z.get("registerDate")] or [""]),
                 town=m["town"], address=m.get("address") or m["town"], lat=m["lat"], lng=m["lng"],
                 open=x.get("openUpTime"), caseId=x["caseId"], url=(x.get("caseUrl") or "").replace("http://", "https://"),
-                officialImg=(x.get("representImage") or {}).get("original"), texts=texts)
+                officialImg=(x.get("representImage") or {}).get("original"), ownership=ownership(x), texts=texts)
             print("manual:", base[x["caseId"]]["name"], m["town"])
     base = list(base.values())
     if not base:
@@ -217,7 +217,7 @@ def main():
         return
     D = os.path.join(CITY, "data")
     off = [{k: o.get(k) for k in ["id", "name", "category", "level", "town", "types", "announced", "address",
-                                  "lat", "lng", "open", "url", "caseId", "officialImg"]} for o in base]
+                                  "lat", "lng", "open", "url", "caseId", "officialImg", "ownership"]} for o in base]
     dump(off, os.path.join(D, "sites-official.json"))
     missing = sorted({o["category"] for o in base} - set(cfg["categories"]))
     if missing:

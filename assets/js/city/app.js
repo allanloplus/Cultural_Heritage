@@ -320,7 +320,7 @@
       '<p class="funfact"><b>冷知識｜</b>' + esc(s.funFact) + '</p>' +
       '<p class="funfact" style="border-color:var(--teal);background:color-mix(in srgb,var(--teal) 10%,var(--card))"><b>拍照點｜</b>' + esc(s.photoSpot) + '</p>' +
       '<div class="d-sec"><h3>參觀資訊</h3><table class="info-table"><tbody>' +
-      '<tr><th>地址</th><td>' + esc(s.address) + '</td></tr>' +
+      '<tr><th>地址</th><td>' + esc(s.address) + (s.privateHome ? '<br><small class="muted">私人宅第，門牌不公開，導航請用地圖位置；請在外觀參觀，勿擅入或打擾住戶。</small>' : "") + '</td></tr>' +
       '<tr><th>開放</th><td>' + esc(s.openNote) + '</td></tr>' +
       '<tr><th>建議停留</th><td>約 ' + s.visitMin + ' 分鐘</td></tr>' +
       '<tr><th>類別</th><td>' + esc(s.category) + (s.types.length ? "（" + esc(s.types.join("、")) + "）" : "") + '</td></tr>' +

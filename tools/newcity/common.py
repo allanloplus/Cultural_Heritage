@@ -64,3 +64,15 @@ def dump(obj, path, indent=1):
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=indent)
     os.replace(tmp, path)
+
+
+def ownership(rec):
+    """文資局紀錄的所有權：「私有」「公有」或「不明」。
+    有建物所有權（buildingSiteList）就看建物，只要有私有就算私有；沒有就看土地（landlotList），全部公有才算公有。
+    給 build_data.py 判斷私人宅第（詳情頁不公開門牌）。"""
+    b = {i.get("buildingownership") for i in rec.get("buildingSiteList") or [] if isinstance(i, dict) and i.get("buildingownership")}
+    land = {i.get("landownership") for i in rec.get("landlotList") or [] if isinstance(i, dict) and i.get("landownership")}
+    vals = b or land
+    if not vals:
+        return "不明"
+    return "公有" if vals == {"公有"} else "私有"

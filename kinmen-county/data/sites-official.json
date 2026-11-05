@@ -15,7 +15,8 @@
   "open": "位於開放空間，全天開放參觀。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000093",
   "caseId": "19850819000093",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/454408d2-2ba2-4716-a15f-a37022ddc8fd/文台寶塔.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/454408d2-2ba2-4716-a15f-a37022ddc8fd/文台寶塔.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-shuitouhuangshiyou",
@@ -33,7 +34,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000008",
   "caseId": "19881111000008",
-  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/843/photo/水頭黃氏酉堂別業1.JPG"
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/843/photo/水頭黃氏酉堂別業1.JPG",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-xujiangxiaowoshike",
@@ -51,7 +53,8 @@
   "open": "除「名賢翫跡」和「何喬遠等人遊嘯臥亭詩」位於金門舊酒廠內，其餘石刻皆位於開放空間，全天開放參觀。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000010",
   "caseId": "19911123000010",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-23/037935bb-9982-4981-80fc-ec21d0c720c5/虛江嘯臥碣群1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-23/037935bb-9982-4981-80fc-ec21d0c720c5/虛江嘯臥碣群1.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-qiulianggongmujie",
@@ -69,7 +72,8 @@
   "open": "位於開放空間，全天開放參觀。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000092",
   "caseId": "19850819000092",
-  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/844/photo/邱良功母節孝坊1.jpg"
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/844/photo/邱良功母節孝坊1.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-zhuzici",
@@ -87,7 +91,8 @@
   "open": "周一至周日（含例假日）上午 08:00 起至下午21:00止。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20210526000002",
   "caseId": "20210526000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/c41ac6e2-0d98-4e56-983b-492776f17e92/金門朱子祠.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/c41ac6e2-0d98-4e56-983b-492776f17e92/金門朱子祠.png",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-qianshuitoudeyue",
@@ -105,7 +110,8 @@
   "open": "8:30 -17:00 週一至周日；除夕休館。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190410000001",
   "caseId": "20190410000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-04-10/0ff68c68-fbab-49de-95a0-13c19c73e903/image003.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2019-04-10/0ff68c68-fbab-49de-95a0-13c19c73e903/image003.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-jiangjundi",
@@ -123,7 +129,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000009",
   "caseId": "19990615000009",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/27053795-b396-47c1-bf68-0b87637acf7f/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/27053795-b396-47c1-bf68-0b87637acf7f/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xiaoximenmofance",
@@ -141,7 +148,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070926000004",
   "caseId": "20070926000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-07/85f8ada5-d7b9-419c-998e-4c85a32a03fc/小西門模範廁.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-07/85f8ada5-d7b9-419c-998e-4c85a32a03fc/小西門模範廁.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-houpudongmenjing",
@@ -159,7 +167,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190410000005",
   "caseId": "20190410000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/899fc85c-e3e5-4d07-a730-332c06355052/(0)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/899fc85c-e3e5-4d07-a730-332c06355052/(0)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpulinfeizhangda",
@@ -177,7 +186,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20230611000001",
   "caseId": "20230611000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-06-12/7a8873aa-a536-49ca-bf15-91e891a7ca45/DSC_8318.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-06-12/7a8873aa-a536-49ca-bf15-91e891a7ca45/DSC_8318.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpuxuyunxuanyang",
@@ -195,7 +205,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000008",
   "caseId": "20151029000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/4ed6695f-4c0e-45b2-ad7a-3c7d5fce9ec2/後浦許允選洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/4ed6695f-4c0e-45b2-ad7a-3c7d5fce9ec2/後浦許允選洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houfengganghongxu",
@@ -213,7 +224,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170207000001",
   "caseId": "20170207000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-30/49b19332-9b27-44a0-b563-bbb6167d4451/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-30/49b19332-9b27-44a0-b563-bbb6167d4451/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houfengganghongyun",
@@ -231,7 +243,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170207000002",
   "caseId": "20170207000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/08fdd4af-84b4-43d3-947b-7088a5d38ed3/後豐港洪韻洪扆兄弟古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/08fdd4af-84b4-43d3-947b-7088a5d38ed3/後豐港洪韻洪扆兄弟古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-wenyingjumu",
@@ -249,7 +262,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000010",
   "caseId": "19990615000010",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/e5ddab8c-89ab-48db-a46e-cca991ea7ed3/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/e5ddab8c-89ab-48db-a46e-cca991ea7ed3/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-mingdongyangxianmu",
@@ -268,7 +282,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220131000001",
   "caseId": "20220131000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/69d82ed3-187e-4db9-a37d-4efacb6677c7/(1)封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/69d82ed3-187e-4db9-a37d-4efacb6677c7/(1)封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-qingjinmenzhenzong",
@@ -286,7 +301,8 @@
   "open": "週一至週日，09：00~22：00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000008",
   "caseId": "19911123000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/46747672-9f80-455d-a141-7d1d1d85c15e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/46747672-9f80-455d-a141-7d1d1d85c15e/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-hanyingyungenmoya",
@@ -304,7 +320,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000091",
   "caseId": "19850819000091",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/3ba01cdb-ceda-4989-8004-df95bfc0e9fb/(1)封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/3ba01cdb-ceda-4989-8004-df95bfc0e9fb/(1)封面.png",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-zhushanxiasanluo",
@@ -322,7 +339,8 @@
   "open": "屋主在家時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180428000001",
   "caseId": "20180428000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/60733e20-4aef-44d9-8aa5-ed86e7cdcaec/1.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/60733e20-4aef-44d9-8aa5-ed86e7cdcaec/1.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangminggaozengyi",
@@ -340,7 +358,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170207000003",
   "caseId": "20170207000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/e9b765c4-a8d5-4b35-8245-222f4434d8a8/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/e9b765c4-a8d5-4b35-8245-222f4434d8a8/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-luruotengguzhaiji",
@@ -359,7 +378,8 @@
   "open": "宅第：未開放\n墓園：完全開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000007",
   "caseId": "19911123000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/5d13858b-3a88-485e-860b-a5a0183e7bf7/盧若騰故宅及故居 (1).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/5d13858b-3a88-485e-860b-a5a0183e7bf7/盧若騰故宅及故居 (1).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-juguanglou",
@@ -377,7 +397,8 @@
   "open": "星期日：08:00 – 22:00\n星期一：08:00 – 22:00\n星期二：08:00 – 22:00\n星期三：08:00 – 22:00\n星期四：08:00 – 22:00\n星期五：08:00 – 22:00\n星期六：08:00 – 22:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060613000004",
   "caseId": "20060613000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/07bfcef0-6143-46d0-bc3d-5ee7f6370837/莒光樓「代表圖檔」.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/07bfcef0-6143-46d0-bc3d-5ee7f6370837/莒光樓「代表圖檔」.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-dongyunyaoyanglou",
@@ -395,7 +416,8 @@
   "open": "國立臺南生活美學館藝術家進駐董允耀洋樓展示創作，於114年6月3日-6月28日舉辦「互相效力的島嶼故事」第一場展覽期間洋樓開放參觀。第二場《荏苒之島》藝術創作展覽，於114年9月28日起至10月28日(每週三至週日上午10時至下午16時)於董允耀洋樓展出。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150211000005",
   "caseId": "20150211000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-15/59848657-fdf3-4ff5-a46f-98d2dbbc0338/董允耀洋樓_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-15/59848657-fdf3-4ff5-a46f-98d2dbbc0338/董允耀洋樓_代表圖像.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-xuxiemuyuwenzhang",
@@ -415,7 +437,8 @@
   "open": "戶外空間，全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20200502000001",
   "caseId": "20200502000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/282de3b6-5579-47fc-af20-38612ee60831/許獬墓與文章垂世孝友傳家坊封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/282de3b6-5579-47fc-af20-38612ee60831/許獬墓與文章垂世孝友傳家坊封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-fenglianshanmuma",
@@ -433,7 +456,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000007",
   "caseId": "19881111000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/82b87562-893a-43bb-91c7-183494695201/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/82b87562-893a-43bb-91c7-183494695201/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-qiulianggonggucuo",
@@ -451,7 +475,8 @@
   "open": "右大厝供金門傳統音樂館活化使用，於週三、週五晚上18:30-20:30開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20110906000001",
   "caseId": "20110906000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/95c5828b-01b4-4454-8f59-6b7df726319f/代表圖片-邱良功古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/95c5828b-01b4-4454-8f59-6b7df726319f/代表圖片-邱良功古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-chenshiyinyanglou",
@@ -469,7 +494,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060613000003",
   "caseId": "20060613000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/35422c60-b0e2-4102-831c-1c9771cca729/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/35422c60-b0e2-4102-831c-1c9771cca729/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-kuixinglou",
@@ -487,7 +513,8 @@
   "open": "每日08:00 -12:00、13:30-17:30",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000090",
   "caseId": "19850819000090",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-28/f9e12b6a-ae3b-45f0-9885-5fb2573dfd05/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-28/f9e12b6a-ae3b-45f0-9885-5fb2573dfd05/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-yipinfurenlanmen",
@@ -505,7 +532,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20100112000002",
   "caseId": "20100112000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-27/fc960f72-56df-4fbf-9d5b-9decc8498283/代表圖片.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-27/fc960f72-56df-4fbf-9d5b-9decc8498283/代表圖片.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shimaotang",
@@ -523,7 +551,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000027",
   "caseId": "20030331000027",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-28/fea89c21-e02c-469c-87de-1b1eb3f2b098/歷建120世懋堂(黃氏三房宗祠)_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-28/fea89c21-e02c-469c-87de-1b1eb3f2b098/歷建120世懋堂(黃氏三房宗祠)_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shizetang",
@@ -541,7 +570,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000017",
   "caseId": "20030331000017",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/c8682b88-f4cb-4444-bf30-9781f25641a1/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/c8682b88-f4cb-4444-bf30-9781f25641a1/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-fushigucuo",
@@ -559,7 +589,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000063",
   "caseId": "20030331000063",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/e1b84e99-27d0-4c6c-9374-f29a9e8b5e21/傅氏古厝-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/e1b84e99-27d0-4c6c-9374-f29a9e8b5e21/傅氏古厝-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-qianshuitouhuang",
@@ -577,7 +608,8 @@
   "open": "不開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000028",
   "caseId": "20030331000028",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/3a7fb422-f685-4938-8a65-31b0aaf72162/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/3a7fb422-f685-4938-8a65-31b0aaf72162/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-guquchenshijiamiao",
@@ -595,7 +627,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20170126000004",
   "caseId": "20170126000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/7d0b6edb-3652-4ed0-8fba-4f5a52aa8d6b/古區陳氏家廟.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/7d0b6edb-3652-4ed0-8fba-4f5a52aa8d6b/古區陳氏家廟.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-gugangxuexiao",
@@ -613,7 +646,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000025",
   "caseId": "20030331000025",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/1c3e74ce-f8e6-4046-8936-b0156340d778/1 封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/1c3e74ce-f8e6-4046-8936-b0156340d778/1 封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-gugangcaishikaiji",
@@ -631,7 +665,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000055",
   "caseId": "20030331000055",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/519b49ed-032d-45a0-b5f0-27b25d951b6a/古崗蔡氏開基祖厝01.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/519b49ed-032d-45a0-b5f0-27b25d951b6a/古崗蔡氏開基祖厝01.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-jidujiaohuitang",
@@ -649,7 +684,8 @@
   "open": "依教會活動時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000018",
   "caseId": "20030331000018",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/b61cc196-8286-45d2-beff-ab08c06e082a/基督教會堂 (1).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/b61cc196-8286-45d2-beff-ab08c06e082a/基督教會堂 (1).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-dafudi",
@@ -667,7 +703,8 @@
   "open": "依民宿營業時間\n\n費用：依民宿規定",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000029",
   "caseId": "20030331000029",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/855f1487-5dd2-4853-862b-9be569be90db/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/855f1487-5dd2-4853-862b-9be569be90db/1.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-jianweidi",
@@ -685,7 +722,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000062",
   "caseId": "20030331000062",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/6d71477f-e473-4922-ba4b-930586d32752/2.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/6d71477f-e473-4922-ba4b-930586d32752/2.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpuhezhai",
@@ -703,7 +741,8 @@
   "open": "洽詢屋主",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000066",
   "caseId": "20030331000066",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/f1ceafbb-8b9c-4473-af11-15dc73d9c90d/後浦何宅_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/f1ceafbb-8b9c-4473-af11-15dc73d9c90d/後浦何宅_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpudafudi",
@@ -721,7 +760,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000064",
   "caseId": "20030331000064",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/b0ff889e-e2f6-4f7b-912b-8f8aa375b329/1.代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/b0ff889e-e2f6-4f7b-912b-8f8aa375b329/1.代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpuwumiao",
@@ -739,7 +779,8 @@
   "open": "上午4:00～下午8:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000072",
   "caseId": "20030331000072",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/3cac732e-2912-4eae-99c5-2a93b2881805/封面1.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/3cac732e-2912-4eae-99c5-2a93b2881805/封面1.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpuchenshicitang",
@@ -757,7 +798,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000070",
   "caseId": "20030331000070",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/9798641a-adec-4ebf-8717-30bb3fb97ea9/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/9798641a-adec-4ebf-8717-30bb3fb97ea9/1封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-lishijiamiao",
@@ -775,7 +817,8 @@
   "open": "冬至祭祖",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000054",
   "caseId": "20030331000054",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/a8e2a8dc-3695-4075-ac59-d6a14d512ad7/李氏家廟 (1).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/a8e2a8dc-3695-4075-ac59-d6a14d512ad7/李氏家廟 (1).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-linkeyuansanluoda",
@@ -793,7 +836,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000058",
   "caseId": "20030331000058",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/8bcd45fd-e7bf-44a9-bac5-338cc27532e4/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/8bcd45fd-e7bf-44a9-bac5-338cc27532e4/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-mofanjie",
@@ -811,7 +855,8 @@
   "open": "全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000020",
   "caseId": "20030331000020",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-23/fc29c903-03f5-4bfe-a2db-e691a5663005/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-23/fc29c903-03f5-4bfe-a2db-e691a5663005/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-oucuoouyangshikai",
@@ -829,7 +874,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20180428000002",
   "caseId": "20180428000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-14/2edd9283-0303-48f1-9dc3-c5a20bafa41b/01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-14/2edd9283-0303-48f1-9dc3-c5a20bafa41b/01.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-ouyangzhongyuan",
@@ -847,7 +893,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150226000004",
   "caseId": "20150226000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/7452b42b-8dde-489e-9747-71c03bbbfbcf/歐陽鐘遠洋樓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/7452b42b-8dde-489e-9747-71c03bbbfbcf/歐陽鐘遠洋樓封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shuitoudihaoyang",
@@ -865,7 +912,8 @@
   "open": "周一至周日 08:30-17:00（農曆除夕休館）",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000050",
   "caseId": "20030331000050",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/1b06b814-ff86-4b0e-8e53-e7e777841615/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/1b06b814-ff86-4b0e-8e53-e7e777841615/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shuitoudihaoyang2",
@@ -883,7 +931,8 @@
   "open": "每日08:30-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000051",
   "caseId": "20030331000051",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-28/d03c6796-8d23-4585-a4f2-f44d49f5fd59/DSC_6732-1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-28/d03c6796-8d23-4585-a4f2-f44d49f5fd59/DSC_6732-1.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shuitouwangshigu",
@@ -901,7 +950,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000040",
   "caseId": "20030331000040",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/91242268-016e-4e16-a782-3926d22f83cc/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/91242268-016e-4e16-a782-3926d22f83cc/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-shuitou",
@@ -919,7 +969,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000016",
   "caseId": "20030331000016",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-12/b38cc54a-c9ff-4e16-9947-b64617d485b0/水頭-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-12/b38cc54a-c9ff-4e16-9947-b64617d485b0/水頭-代表圖像.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-hongkebaofanzaicuo",
@@ -937,7 +988,8 @@
   "open": "無房客時開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031222000005",
   "caseId": "20031222000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-22/8926eb0d-38df-4b9e-b729-34a2a2aadf95/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-22/8926eb0d-38df-4b9e-b729-34a2a2aadf95/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-hongheshenghonghe",
@@ -955,7 +1007,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000060",
   "caseId": "20030331000060",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/35587723-44cf-44ae-ac1d-09dbeb393a80/1 封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/35587723-44cf-44ae-ac1d-09dbeb393a80/1 封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-hongheyuanzhai",
@@ -973,7 +1026,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000059",
   "caseId": "20030331000059",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/e0fdf47e-966e-49cf-9107-65e7cb471793/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/e0fdf47e-966e-49cf-9107-65e7cb471793/1封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-zhushandadaogong",
@@ -991,7 +1045,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090603000002",
   "caseId": "20090603000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/25154ae7-8129-4e73-9565-ff6e2ffcd08f/珠山大道宮.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-20/25154ae7-8129-4e73-9565-ff6e2ffcd08f/珠山大道宮.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-zhushan",
@@ -1009,7 +1064,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000021",
   "caseId": "20030331000021",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/753d7420-264b-46b4-8193-0ef7a15f1cd5/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/753d7420-264b-46b4-8193-0ef7a15f1cd5/01封面.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-zhupuxushijiamiao",
@@ -1027,7 +1083,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000068",
   "caseId": "20030331000068",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/ab6d4857-0769-4133-a72d-8d46b4161044/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/ab6d4857-0769-4133-a72d-8d46b4161044/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-baishixianzucao",
@@ -1045,7 +1102,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000043",
   "caseId": "20030331000043",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/3abe4f79-4a17-4546-a19d-64daafc2991e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/3abe4f79-4a17-4546-a19d-64daafc2991e/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-dongguangdeyanglou",
@@ -1063,7 +1121,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000024",
   "caseId": "20030331000024",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/cb78ed20-d582-49cd-ad70-fc3a19ab286c/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/cb78ed20-d582-49cd-ad70-fc3a19ab286c/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-dongshishidongshi",
@@ -1081,7 +1140,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071009000007",
   "caseId": "20071009000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-15/7862efef-8131-433b-b616-6fe9ccf474a1/1.董石獅、董詩揚(石羊)二落大厝-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-15/7862efef-8131-433b-b616-6fe9ccf474a1/1.董石獅、董詩揚(石羊)二落大厝-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-caikaishengzhaidi",
@@ -1099,7 +1159,8 @@
   "open": "電洽詢問",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000038",
   "caseId": "20030331000038",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-29/a07e611f-65de-4fa0-ae3e-aeaa9626ebad/蔡開盛宅.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-29/a07e611f-65de-4fa0-ae3e-aeaa9626ebad/蔡開盛宅.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xueshiyimu",
@@ -1117,7 +1178,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171204000001",
   "caseId": "20171204000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/80fbfd30-4828-4963-b595-01d7f9261f01/薛師儀墓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/80fbfd30-4828-4963-b595-01d7f9261f01/薛師儀墓封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xueshidazongzongci",
@@ -1135,7 +1197,8 @@
   "open": "冬至祭祖",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000031",
   "caseId": "20030331000031",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/0415417e-9237-4724-9756-d7e9b0767d0b/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/0415417e-9237-4724-9756-d7e9b0767d0b/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xueyongnanxiongdi",
@@ -1153,7 +1216,8 @@
   "open": "依民宿營業時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000032",
   "caseId": "20030331000032",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/bfb677a5-c602-4fea-9e54-a67d287d04a4/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/bfb677a5-c602-4fea-9e54-a67d287d04a4/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xueqingjiangzhai",
@@ -1171,7 +1235,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000023",
   "caseId": "20030331000023",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/c62e71fc-cc50-4a0b-87af-f228f5a711b1/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/c62e71fc-cc50-4a0b-87af-f228f5a711b1/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xuefangjianyanglou",
@@ -1189,7 +1254,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000019",
   "caseId": "20030331000019",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/531c2708-bf6b-4190-9795-d04200105e94/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/531c2708-bf6b-4190-9795-d04200105e94/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xujinzhongyanglou",
@@ -1207,7 +1273,8 @@
   "open": "不開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000067",
   "caseId": "20030331000067",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-23/3aef4183-08e7-4495-933c-b08e0a45e5bb/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-23/3aef4183-08e7-4495-933c-b08e0a45e5bb/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-dengzhangshouyang",
@@ -1225,7 +1292,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000065",
   "caseId": "20030331000065",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/63333a34-a496-4506-90c3-2fc201a84e8a/鄧長壽洋樓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/63333a34-a496-4506-90c3-2fc201a84e8a/鄧長壽洋樓封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-zhengwenzhoufanzai",
@@ -1243,7 +1311,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000049",
   "caseId": "20030331000049",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-24/93cf1eab-b576-4d09-b112-6319fa93d93b/鄭文周番仔厝_封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-24/93cf1eab-b576-4d09-b112-6319fa93d93b/鄭文周番仔厝_封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-chengqudixiakeng",
@@ -1261,7 +1330,8 @@
   "open": "每日9:00~22:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051219000006",
   "caseId": "20051219000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/cf576723-dd54-436c-b416-118a15e723c3/代表圖片-金城城區地下坑道.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-07/cf576723-dd54-436c-b416-118a15e723c3/代表圖片-金城城區地下坑道.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-jinshuiguoxiao",
@@ -1279,7 +1349,8 @@
   "open": "每日上午8:30~下午5:00（農曆除夕休館）",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000053",
   "caseId": "20030331000053",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-04/17877c42-77d5-4ee0-a3e7-7de133205be1/金水國小.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-04/17877c42-77d5-4ee0-a3e7-7de133205be1/金水國小.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-zhongxuezhongzheng",
@@ -1297,7 +1368,8 @@
   "open": "每日08:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000022",
   "caseId": "20030331000022",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/e284c2e0-17a2-4b4f-b402-51d07cabc836/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/e284c2e0-17a2-4b4f-b402-51d07cabc836/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-chengbeimenwaiming",
@@ -1315,7 +1387,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000015",
   "caseId": "20041216000015",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-20/1b52f8cb-b6e4-43e0-9e96-f13c47a5c42b/明遺古街.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-02-20/1b52f8cb-b6e4-43e0-9e96-f13c47a5c42b/明遺古街.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jincheng-chengnanmenchuan",
@@ -1333,7 +1406,8 @@
   "open": "金門城57、58、62號：不開放參觀\n金門城63號：預約開放參觀，依民宿業者時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20111031000001",
   "caseId": "20111031000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-18/f5f2550f-0add-4606-9d45-21b2693f94c9/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-18/f5f2550f-0add-4606-9d45-21b2693f94c9/1.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-minwangci",
@@ -1351,7 +1425,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000069",
   "caseId": "20030331000069",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-26/14f42956-15a2-4e1e-8bdb-c29d18aee1bd/閩王祠_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-26/14f42956-15a2-4e1e-8bdb-c29d18aee1bd/閩王祠_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-chenzhenfanggucuo",
@@ -1369,7 +1444,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070119000005",
   "caseId": "20070119000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/8fc11b3c-17e0-4139-9019-c15bea5435ef/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/8fc11b3c-17e0-4139-9019-c15bea5435ef/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-chenshigucuo",
@@ -1387,7 +1463,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070119000006",
   "caseId": "20070119000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/eb4a980e-64e6-4725-a578-b5153250c9be/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/eb4a980e-64e6-4725-a578-b5153250c9be/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-xiongshibao",
@@ -1405,7 +1482,8 @@
   "open": "每日6:00~17:30",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000073",
   "caseId": "20030331000073",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/5bd6eb6e-ae68-4d71-a0e8-6a1aca1bfd75/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/5bd6eb6e-ae68-4d71-a0e8-6a1aca1bfd75/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jincheng-lingjisi",
@@ -1423,7 +1501,8 @@
   "open": "全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000071",
   "caseId": "20030331000071",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-30/f1b2473e-2ae5-4737-bbf1-1ed2c46aec37/靈濟寺（觀音亭）_代表圖像.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-30/f1b2473e-2ae5-4737-bbf1-1ed2c46aec37/靈濟寺（觀音亭）_代表圖像.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangnaifufanzai",
@@ -1441,7 +1520,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000045",
   "caseId": "20030331000045",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/b024e9a5-a9e4-4549-b87e-44987bf78485/黃乃甫番仔厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/b024e9a5-a9e4-4549-b87e-44987bf78485/黃乃甫番仔厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangtianluzhai",
@@ -1459,7 +1539,8 @@
   "open": "依民宿經營時間而定",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000026",
   "caseId": "20030331000026",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/8efd4f14-0f6e-4e4a-a15e-a23be7566d88/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/8efd4f14-0f6e-4e4a-a15e-a23be7566d88/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangkuanyongzhai",
@@ -1477,7 +1558,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000056",
   "caseId": "20030331000056",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/c4f12885-3511-4526-8a1b-a88cbbf7a5c6/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/c4f12885-3511-4526-8a1b-a88cbbf7a5c6/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangtingcansanluo",
@@ -1495,7 +1577,8 @@
   "open": "前落開放參觀，後落為屋主住宅空間。\n每日11:00-21:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000039",
   "caseId": "20030331000039",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/71c207cb-65c2-4834-8a59-1d83cf1f3f08/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/71c207cb-65c2-4834-8a59-1d83cf1f3f08/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangtingzhouchong",
@@ -1513,7 +1596,8 @@
   "open": "依民宿營業時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000037",
   "caseId": "20030331000037",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/50cbdb99-98e8-43a1-9ca3-237a89083eab/1 封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/50cbdb99-98e8-43a1-9ca3-237a89083eab/1 封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangwendongzhai",
@@ -1531,7 +1615,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000035",
   "caseId": "20030331000035",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/6f2182cc-f79d-476f-b369-82d4d8d13afd/黃文東宅_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/6f2182cc-f79d-476f-b369-82d4d8d13afd/黃文東宅_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangchaobinzhai",
@@ -1549,7 +1634,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000074",
   "caseId": "20030331000074",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-09/de13320c-6b6e-4dbd-928f-2837d647cc66/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-09/de13320c-6b6e-4dbd-928f-2837d647cc66/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangshuiyingzhai",
@@ -1567,7 +1653,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000044",
   "caseId": "20030331000044",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/027f179c-cdb1-41f9-b906-0d6d27a78a2c/01.封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/027f179c-cdb1-41f9-b906-0d6d27a78a2c/01.封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangyongqianhuang",
@@ -1585,7 +1672,8 @@
   "open": "每日上午8:30-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000046",
   "caseId": "20030331000046",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/e458c879-b701-4d9c-9999-e0bd3acc8471/黃永遷、黃永鑿兄弟洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-28/e458c879-b701-4d9c-9999-e0bd3acc8471/黃永遷、黃永鑿兄弟洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangrujifanzaicuo",
@@ -1603,7 +1691,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000048",
   "caseId": "20030331000048",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/bd49e24e-07f2-4b98-a869-e59e07852749/黃汝楫番仔厝01.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/bd49e24e-07f2-4b98-a869-e59e07852749/黃汝楫番仔厝01.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangjigucuo",
@@ -1621,7 +1710,8 @@
   "open": "民宿營業時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000033",
   "caseId": "20030331000033",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/a0c60a81-b957-4739-ba09-15ef4ef8359c/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/a0c60a81-b957-4739-ba09-15ef4ef8359c/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangfuxingzhai",
@@ -1639,7 +1729,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000042",
   "caseId": "20030331000042",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/5627ed3a-df75-4283-9bb4-6b34f96894c4/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/5627ed3a-df75-4283-9bb4-6b34f96894c4/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangjiqigucuo",
@@ -1657,7 +1748,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000036",
   "caseId": "20030331000036",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/f89feac0-55a0-46f8-9fd5-b6777058cf58/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/f89feac0-55a0-46f8-9fd5-b6777058cf58/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huangshaoguangzhai",
@@ -1675,7 +1767,8 @@
   "open": "依民宿營業時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000034",
   "caseId": "20030331000034",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/8ef91cd2-80ae-49f1-be44-f53b4ba94ee6/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/8ef91cd2-80ae-49f1-be44-f53b4ba94ee6/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-huanghuigucuo",
@@ -1693,7 +1786,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000041",
   "caseId": "20030331000041",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/83e35db6-a62f-4287-b9e4-be908b13920a/黃輝古厝01.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-27/83e35db6-a62f-4287-b9e4-be908b13920a/黃輝古厝01.png",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-houpushangxuetang",
@@ -1711,7 +1805,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/commemorativeBuilding/20190409000002",
   "caseId": "20190409000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/b7a3f643-2633-4492-b775-896c8714cca4/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/b7a3f643-2633-4492-b775-896c8714cca4/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jincheng-yannanshuyuanjitai",
@@ -1729,7 +1824,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20060613000005",
   "caseId": "20060613000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/5f51f52b-fa0f-4407-a190-9ccd7417cf29/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/5f51f52b-fa0f-4407-a190-9ccd7417cf29/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-guningtoubeishangu",
@@ -1747,7 +1843,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20191002000001",
   "caseId": "20191002000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/06f055f6-5d84-4eb6-b1f7-851c2bab32df/00封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/06f055f6-5d84-4eb6-b1f7-851c2bab32df/00封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-gulongtoushuiweita",
@@ -1765,7 +1862,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000006",
   "caseId": "19911123000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/f3e525fe-0f7d-4b7d-9705-41ade7b5974f/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/f3e525fe-0f7d-4b7d-9705-41ade7b5974f/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinning-liguangxiangujuji",
@@ -1784,7 +1882,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000006",
   "caseId": "19881111000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-01-15/f4c7f5e3-4c86-469e-8a90-bfe18708b65b/李光顯故居.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-01-15/f4c7f5e3-4c86-469e-8a90-bfe18708b65b/李光顯故居.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-yanghuaguju",
@@ -1802,7 +1901,8 @@
   "open": "事先預約聯絡",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000008",
   "caseId": "19990615000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-25/d7317daa-0345-456c-82c3-646c2ac0b13e/楊華故居.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-05-25/d7317daa-0345-456c-82c3-646c2ac0b13e/楊華故居.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-banglinwangtianqi",
@@ -1820,7 +1920,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190409000003",
   "caseId": "20190409000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-29/6cfa2f48-f5e6-4468-9532-5b4fbedef58d/榜林王天乞古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-29/6cfa2f48-f5e6-4468-9532-5b4fbedef58d/榜林王天乞古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-huxiayangyunpaoji",
@@ -1838,7 +1939,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20220428000001",
   "caseId": "20220428000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/3c988ebb-738f-473f-9bc6-660d8da60742/湖下楊允泡及楊盤讀古厝封面_審查後更新.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/3c988ebb-738f-473f-9bc6-660d8da60742/湖下楊允泡及楊盤讀古厝封面_審查後更新.png",
+  "ownership": "私有"
  },
  {
   "id": "jinning-panshanwengshijia",
@@ -1856,7 +1958,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20200409000002",
   "caseId": "20200409000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/cd71318d-1543-4583-8e0c-6b64889c2b23/1.盤山翁氏家廟-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/cd71318d-1543-4583-8e0c-6b64889c2b23/1.盤山翁氏家廟-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-xupijiangucuo",
@@ -1874,7 +1977,8 @@
   "open": "預約安排時日參觀（電話預約）",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20100112000001",
   "caseId": "20100112000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/86d5cb98-1158-4c01-a7fb-b601005268f6/01封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/86d5cb98-1158-4c01-a7fb-b601005268f6/01封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinning-shuangrushankeng",
@@ -1892,7 +1996,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20191108000001",
   "caseId": "20191108000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-22/3ebb66a1-51fa-4596-90a1-be52e7746469/金門雙乳山坑道 (1).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-22/3ebb66a1-51fa-4596-90a1-be52e7746469/金門雙乳山坑道 (1).jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinning-beishanlishixiong",
@@ -1910,7 +2015,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150226000003",
   "caseId": "20150226000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/d8d4f290-73a4-495c-9f04-1be7610e487e/北山李氏兄弟洋樓-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/d8d4f290-73a4-495c-9f04-1be7610e487e/北山李氏兄弟洋樓-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-nanshanerluodacuo",
@@ -1928,7 +2034,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031222000003",
   "caseId": "20031222000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/520d7552-7a80-43c2-a387-63112b2890c5/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/520d7552-7a80-43c2-a387-63112b2890c5/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-lisenpengyanglou",
@@ -1946,7 +2053,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150226000002",
   "caseId": "20150226000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/dea1a3b2-74f5-4d35-b1ed-ec21517b2f97/李森掽洋樓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/dea1a3b2-74f5-4d35-b1ed-ec21517b2f97/李森掽洋樓封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-likaiheyanglou",
@@ -1964,7 +2072,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031222000002",
   "caseId": "20031222000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/3c499b80-5df6-41fb-a945-7380954eded1/李開和洋樓_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/3c499b80-5df6-41fb-a945-7380954eded1/李開和洋樓_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-yangjinyuyangdu",
@@ -1982,7 +2091,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070119000004",
   "caseId": "20070119000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/7841559c-66cf-4b27-a29e-aaeabe6b17a6/01-封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/7841559c-66cf-4b27-a29e-aaeabe6b17a6/01-封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-huxiasanjianlouzai",
@@ -2000,7 +2110,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000014",
   "caseId": "20041216000014",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/60193e31-6a44-45ac-91b7-3abfbe9d66e4/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/60193e31-6a44-45ac-91b7-3abfbe9d66e4/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-panshanzhongyongbu",
@@ -2018,7 +2129,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20201129000002",
   "caseId": "20201129000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/99ef1888-7123-4252-a256-05a46e844069/盤山忠勇部隊伏地堡_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/99ef1888-7123-4252-a256-05a46e844069/盤山忠勇部隊伏地堡_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinning-wengjunqinzhentuan",
@@ -2036,7 +2148,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070119000003",
   "caseId": "20070119000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/c2608ad2-edcc-43b8-94c9-7441f778b459/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/c2608ad2-edcc-43b8-94c9-7441f778b459/1.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinning-wengdeyansangai",
@@ -2054,7 +2167,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071009000006",
   "caseId": "20071009000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-13/d6ab0591-cc9c-4176-b5e9-cbd58fe97b12/01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-13/d6ab0591-cc9c-4176-b5e9-cbd58fe97b12/01.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinning-wengzanshangweng",
@@ -2072,7 +2186,8 @@
   "open": "依藝文咖啡廳營業時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000013",
   "caseId": "20041216000013",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/7d8dc8bb-f92d-4455-9fb4-0287ba684bd9/翁贊商、翁贊榮洋樓_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/7d8dc8bb-f92d-4455-9fb4-0287ba684bd9/翁贊商、翁贊榮洋樓_代表圖像.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinning-jinshentang",
@@ -2090,7 +2205,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031222000004",
   "caseId": "20031222000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/4de0d712-4456-4ccd-a6e4-6a4c84d97e85/01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/4de0d712-4456-4ccd-a6e4-6a4c84d97e85/01.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-dongdingdaodengta",
@@ -2108,7 +2224,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240315000002",
   "caseId": "20240315000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-15/6bbb7af1-aa59-4897-b839-07720c603130/unnamed.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-15/6bbb7af1-aa59-4897-b839-07720c603130/unnamed.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-qionglincaishici",
@@ -2126,7 +2243,8 @@
   "open": "為瓊林蔡氏宗親祭祀之用，平時開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000089",
   "caseId": "19850819000089",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/7060f2ea-aecf-4c28-806e-175f41b205be/瓊林蔡氏祠堂.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-15/7060f2ea-aecf-4c28-806e-175f41b205be/瓊林蔡氏祠堂.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-beidingdaodengta",
@@ -2144,7 +2262,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20201115000002",
   "caseId": "20201115000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-28/3c6cba3b-ede8-4031-aa6a-269177415083/北椗島燈塔.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-28/3c6cba3b-ede8-4031-aa6a-269177415083/北椗島燈塔.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-xiaxingchenhongzuo",
@@ -2162,7 +2281,8 @@
   "open": "預約開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20240902000001",
   "caseId": "20240902000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-02/2c5bbf4a-b589-4725-904f-0a26c4690e86/image073.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-09-02/2c5bbf4a-b589-4725-904f-0a26c4690e86/image073.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-anbianlvchaoxuan",
@@ -2180,7 +2300,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000006",
   "caseId": "20151029000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/0fa1730f-60c7-42cb-ae10-2d81aa2d930b/庵邊呂朝選宅-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/0fa1730f-60c7-42cb-ae10-2d81aa2d930b/庵邊呂朝選宅-代表圖像.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-liaoluowushiliulu",
@@ -2198,7 +2319,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000007",
   "caseId": "20151029000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/dc43aa9f-d671-4ba8-96d1-eeb11117e6cd/料羅吳氏六路大厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/dc43aa9f-d671-4ba8-96d1-eeb11117e6cd/料羅吳氏六路大厝.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-dongcunlvshiyigu",
@@ -2216,7 +2338,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000005",
   "caseId": "20151029000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/c0ad5124-4246-43b9-8aa9-a23b1607806d/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/c0ad5124-4246-43b9-8aa9-a23b1607806d/1.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-dongcunlvchaoyi",
@@ -2234,7 +2357,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151027000001",
   "caseId": "20151027000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-08-25/bcb694dc-f1c0-4158-a7a9-acc5f380ec14/倒塌前建築全景.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-08-25/bcb694dc-f1c0-4158-a7a9-acc5f380ec14/倒塌前建築全景.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-huqianchenzong",
@@ -2252,7 +2376,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000009",
   "caseId": "20151029000009",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/6c8e1b67-25f7-44da-85ab-1a1819ce5fe2/湖前陳宗炯洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-03-27/6c8e1b67-25f7-44da-85ab-1a1819ce5fe2/湖前陳宗炯洋樓.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-huqianchenshigucuo",
@@ -2270,7 +2395,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20160201000001",
   "caseId": "20160201000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-15/ff5480e8-be48-41f1-b001-1022fbcc8b41/1.湖前陳氏古厝群-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-15/ff5480e8-be48-41f1-b001-1022fbcc8b41/1.湖前陳氏古厝群-代表圖像.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-qionglinyimensan",
@@ -2288,7 +2414,8 @@
   "open": "全天候",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000004",
   "caseId": "19881111000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/ca3d43c4-7d59-4087-abd8-c30ac8cf3cff/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/ca3d43c4-7d59-4087-abd8-c30ac8cf3cff/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-caipanlongmu",
@@ -2306,7 +2433,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19911123000005",
   "caseId": "19911123000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/fccdfb98-7a43-480b-b300-8073b978090c/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/fccdfb98-7a43-480b-b300-8073b978090c/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-qiulianggongmuyuan",
@@ -2324,7 +2452,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000088",
   "caseId": "19850819000088",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/41d39ca4-ee2a-4c84-9e59-c91e430a904e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/41d39ca4-ee2a-4c84-9e59-c91e430a904e/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-chenqizaiyanglou",
@@ -2342,7 +2471,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150211000004",
   "caseId": "20150211000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/ed69abdf-034f-4d32-8fc4-f29308113cde/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/ed69abdf-034f-4d32-8fc4-f29308113cde/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-chenxianmu",
@@ -2360,7 +2490,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000007",
   "caseId": "19990615000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/455f2c1f-0fe7-42aa-aa35-675aeb9e84c1/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/455f2c1f-0fe7-42aa-aa35-675aeb9e84c1/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-dingxiaohedengtai",
@@ -2378,7 +2509,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051219000004",
   "caseId": "20051219000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/002fe510-f1fd-41e1-be6a-a344a564ac16/(明)丁肖鶴登太武山題詩碑封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/002fe510-f1fd-41e1-be6a-a344a564ac16/(明)丁肖鶴登太武山題詩碑封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-nanxiongbaersanpao",
@@ -2396,7 +2528,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20140401000001",
   "caseId": "20140401000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/6f57cb0d-9811-43a1-9559-807a2c4089b3/南雄八二三砲戰勝利紀念碑封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-18/6f57cb0d-9811-43a1-9559-807a2c4089b3/南雄八二三砲戰勝利紀念碑封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-lvkepinggucuo",
@@ -2414,7 +2547,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000012",
   "caseId": "20041216000012",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-28/3468c6d7-1253-4c3c-9fdf-3396cba86a96/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-28/3468c6d7-1253-4c3c-9fdf-3396cba86a96/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-chenggongchenshi",
@@ -2432,7 +2566,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000010",
   "caseId": "20041216000010",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/75c2cc92-a820-4b3c-83e4-4d7625ea4caa/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/75c2cc92-a820-4b3c-83e4-4d7625ea4caa/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-caihanjurenzhai",
@@ -2450,7 +2585,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051219000005",
   "caseId": "20051219000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/f5e37017-1360-4a4c-949a-8d2b4f258508/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-25/f5e37017-1360-4a4c-949a-8d2b4f258508/(1)封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-caihanjurenzhai2",
@@ -2468,7 +2604,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051219000002",
   "caseId": "20051219000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/9c32a9b4-5ece-48d6-9354-320eacbde973/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/9c32a9b4-5ece-48d6-9354-320eacbde973/1封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-zhengyouzhengyang",
@@ -2486,7 +2623,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20070119000002",
   "caseId": "20070119000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-04/e2581b92-6fd5-42ea-bb87-ab217542eec7/1..jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-04/e2581b92-6fd5-42ea-bb87-ab217542eec7/1..jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-chenkengchenyuxiu",
@@ -2504,7 +2642,8 @@
   "open": "無限制",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20220401000001",
   "caseId": "20220401000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-01/33da9d34-5cb1-424e-b602-1298ecfe18b9/陳坑陳與秀墓01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-01/33da9d34-5cb1-424e-b602-1298ecfe18b9/陳坑陳與秀墓01.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-chenjinglanyanglou",
@@ -2522,7 +2661,8 @@
   "open": "每日 8:30~17:30",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000015",
   "caseId": "20030331000015",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/629f9037-1b0c-4b7e-87bb-d51b74f2f77c/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/629f9037-1b0c-4b7e-87bb-d51b74f2f77c/01封面.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-chencijugucuo",
@@ -2540,7 +2680,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250317000001",
   "caseId": "20250317000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-03-26/8041d633-6e81-468e-880f-dd5a0b0cbd24/古蹟_陳祠櫸古厝_代表圖像(馬賽克).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-03-26/8041d633-6e81-468e-880f-dd5a0b0cbd24/古蹟_陳祠櫸古厝_代表圖像(馬賽克).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinhu-chenzhenliuludacuo",
@@ -2558,7 +2699,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071009000005",
   "caseId": "20071009000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/d877ef7b-28c8-40f7-bc9c-b18283b9c3f1/陳酉科六路大厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/d877ef7b-28c8-40f7-bc9c-b18283b9c3f1/陳酉科六路大厝.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-shunjigong",
@@ -2576,7 +2718,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000011",
   "caseId": "20041216000011",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/33fc567b-6aa8-4766-8bbc-b99a7054b1e6/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/33fc567b-6aa8-4766-8bbc-b99a7054b1e6/1封面.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinhu-jinfangbuganxunban",
@@ -2594,7 +2737,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20250311000004",
   "caseId": "20250311000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-24/454a92e3-129e-4eb5-8d5a-12f247bb57fb/文康中心.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-08-24/454a92e3-129e-4eb5-8d5a-12f247bb57fb/文康中心.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinhu-zhenqionglinjuluo",
@@ -2612,7 +2756,8 @@
   "open": "完全開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/groupsOfBuildings/20121225000001",
   "caseId": "20121225000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-30/b5c25fbe-51a7-418d-9acf-26321900f9ff/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-30/b5c25fbe-51a7-418d-9acf-26321900f9ff/01封面.jpg",
+  "ownership": "不明"
  },
  {
   "id": "jinsha-chenjianmu",
@@ -2630,7 +2775,8 @@
   "open": "位於開放空間，全天開放參觀。宗親會定期祭掃。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000001",
   "caseId": "19881111000001",
-  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1019/photo/陳健墓1.JPG"
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1019/photo/陳健墓1.JPG",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenzhenmu",
@@ -2648,7 +2794,8 @@
   "open": "全時段開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000087",
   "caseId": "19850819000087",
-  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1020/photo/陳禎墓1.JPG"
+  "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/1020/photo/陳禎墓1.JPG",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-hecuochenshigucuo",
@@ -2666,7 +2813,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000002",
   "caseId": "20151029000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-02/b6ef8196-643e-43ff-8d9e-834553062bb4/(3).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-02/b6ef8196-643e-43ff-8d9e-834553062bb4/(3).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-yuantaiwushanzhu",
@@ -2684,7 +2832,8 @@
   "open": "全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190929000001",
   "caseId": "20190929000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/468fa5a5-3678-4c5e-8149-44b32929d661/元太武山築寨砌路摩崖石刻.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/468fa5a5-3678-4c5e-8149-44b32929d661/元太武山築寨砌路摩崖石刻.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-houshuitouhuangyi",
@@ -2702,7 +2851,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20181024000001",
   "caseId": "20181024000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/8e13fed0-2230-4f64-ae72-faf64a04954e/后水頭黃奕本古厝封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/8e13fed0-2230-4f64-ae72-faf64a04954e/后水頭黃奕本古厝封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-dadiwushoupenggu",
@@ -2720,7 +2870,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190410000004",
   "caseId": "20190410000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/edff6d6b-1d6c-42e6-8b7d-a51e90bb72a1/大地吳守椪古厝封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/edff6d6b-1d6c-42e6-8b7d-a51e90bb72a1/大地吳守椪古厝封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-dadiwuxinquanzhai",
@@ -2738,7 +2889,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20121207000001",
   "caseId": "20121207000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/8381017a-ac85-42cc-ba11-3e610fd1fb88/01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-24/8381017a-ac85-42cc-ba11-3e610fd1fb88/01.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-guanaolongfenggong",
@@ -2756,7 +2908,8 @@
   "open": "依廟方時間開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070926000001",
   "caseId": "20070926000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/cd2221f4-dfeb-4897-baf9-8b4212fefca5/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/cd2221f4-dfeb-4897-baf9-8b4212fefca5/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-xiaoputouhuangyun",
@@ -2774,7 +2927,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150922000002",
   "caseId": "20150922000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/a44398fd-5aa4-4499-99d4-f219f93feced/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/a44398fd-5aa4-4499-99d4-f219f93feced/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangminyiguan",
@@ -2792,7 +2946,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20250429000001",
   "caseId": "20250429000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-28/6fb9a102-f552-45e0-9d3a-9de495518409/代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-28/6fb9a102-f552-45e0-9d3a-9de495518409/代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-houputouhuangzhuo",
@@ -2810,7 +2965,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190928000002",
   "caseId": "20190928000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/363e0e3c-adaa-4630-a911-d58cffa94539/後浦頭黃卓彬洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/363e0e3c-adaa-4630-a911-d58cffa94539/後浦頭黃卓彬洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-cidegong",
@@ -2828,7 +2984,8 @@
   "open": "依廟方時間開放參觀",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000004",
   "caseId": "19990615000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-25/aa289a90-f4d0-4dfa-ac1d-30e1e665eb80/慈德宮.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-25/aa289a90-f4d0-4dfa-ac1d-30e1e665eb80/慈德宮.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-dongxizhengshijia",
@@ -2846,7 +3003,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990616000001",
   "caseId": "19990616000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/beabe868-48b8-4b1e-a344-e63b29cdd3a2/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/beabe868-48b8-4b1e-a344-e63b29cdd3a2/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-dongxiaoxiaoxian",
@@ -2864,7 +3022,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190411000001",
   "caseId": "20190411000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/82c20e33-4ced-4d10-a343-51d6afce39b3/東蕭蕭顯傳洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/82c20e33-4ced-4d10-a343-51d6afce39b3/東蕭蕭顯傳洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-dongxiaoxiaoxianji",
@@ -2882,7 +3041,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20190410000003",
   "caseId": "20190410000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-02/e49f6642-0206-4791-b7b6-53d589d05e2a/1.東蕭蕭顯紀洋樓-已加上鋼棚架防護.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-02/e49f6642-0206-4791-b7b6-53d589d05e2a/1.東蕭蕭顯紀洋樓-已加上鋼棚架防護.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-yongchangtangjiwu",
@@ -2901,7 +3061,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150211000002",
   "caseId": "20150211000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-07/e29aa48d-1e0b-491b-9945-5d9c0e99f1f0/代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-07/e29aa48d-1e0b-491b-9945-5d9c0e99f1f0/代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-pubianhededuogucuo",
@@ -2919,7 +3080,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000001",
   "caseId": "20151029000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-25/f7bce0b9-eeb5-4679-a590-043eab4f26de/浦邊何德奪古厝_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-10-25/f7bce0b9-eeb5-4679-a590-043eab4f26de/浦邊何德奪古厝_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-pubianzhouzhai",
@@ -2937,7 +3099,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000002",
   "caseId": "19990615000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/82e01a0e-d9bb-4dfe-9995-4e455441e03f/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/82e01a0e-d9bb-4dfe-9995-4e455441e03f/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-wukengzhengguhuai",
@@ -2955,7 +3118,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20161226000003",
   "caseId": "20161226000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/93e9c17a-b621-4d35-80ce-d9567efffbb0/浯坑鄭古懷洋樓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/93e9c17a-b621-4d35-80ce-d9567efffbb0/浯坑鄭古懷洋樓封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-haiyinsishimenguan",
@@ -2973,7 +3137,8 @@
   "open": "每日08:00至17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000005",
   "caseId": "19881111000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-27/9c880829-d4ed-4aea-a5c4-5c152144149c/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-27/9c880829-d4ed-4aea-a5c4-5c152144149c/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-wangshijiegucuoyu",
@@ -2991,7 +3156,8 @@
   "open": "古厝：依屋主作息時間\n古墓：全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070926000003",
   "caseId": "20070926000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/6ac09d06-a96e-47cf-b9dc-7a65f9714a4a/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/6ac09d06-a96e-47cf-b9dc-7a65f9714a4a/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-wangjinchengyang",
@@ -3009,7 +3175,8 @@
   "open": "須提前一個月預約",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150211000001",
   "caseId": "20150211000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/28b172ad-3487-4438-8d7c-5fa105dea28d/王金城洋樓_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-04-23/28b172ad-3487-4438-8d7c-5fa105dea28d/王金城洋樓_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-ruiyouxuexiao",
@@ -3027,7 +3194,8 @@
   "open": "上午9點-下午5點，每週四休館",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060613000001",
   "caseId": "20060613000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-30/21bde33a-ef7e-4454-a2c1-6dc447a1cb11/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-30/21bde33a-ef7e-4454-a2c1-6dc447a1cb11/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-caicuocaishijia",
@@ -3045,7 +3213,8 @@
   "open": "週一~週日08:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000004",
   "caseId": "20151029000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/1c680494-8c2e-4118-8499-c3b4a0f3326e/蔡厝蔡氏家廟-代表圖片.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/1c680494-8c2e-4118-8499-c3b4a0f3326e/蔡厝蔡氏家廟-代表圖片.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-caidiansuyinbingu",
@@ -3064,7 +3233,8 @@
   "open": "古厝：不開放參觀\n古墓：全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170104000002",
   "caseId": "20170104000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/ef50b5d1-7701-48bb-a158-924a849ccfc5/蔡店蘇寅賓古厝與古墓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-14/ef50b5d1-7701-48bb-a158-924a849ccfc5/蔡店蘇寅賓古厝與古墓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-cangxinggucuo",
@@ -3082,7 +3252,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20150211000003",
   "caseId": "20150211000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-11/823bd50a-ce6e-42bf-846e-b58006005100/藏興古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-04-11/823bd50a-ce6e-42bf-846e-b58006005100/藏興古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-xiyuanxizhaihuang",
@@ -3100,7 +3271,8 @@
   "open": "全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20200409000001",
   "caseId": "20200409000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/d0c9ea79-2574-4143-add7-3e87107e4e48/西園西宅黃氏開基祖墓封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/d0c9ea79-2574-4143-add7-3e87107e4e48/西園西宅黃氏開基祖墓封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-xishanqianlizhai",
@@ -3118,7 +3290,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000002",
   "caseId": "19881111000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/5eb63d8f-03a1-4858-b464-f77b0a5df853/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/5eb63d8f-03a1-4858-b464-f77b0a5df853/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-xishanqianlishijia",
@@ -3136,7 +3309,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000001",
   "caseId": "19990615000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/e56c7674-0fbe-4d53-8409-71d6944d08e3/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/e56c7674-0fbe-4d53-8409-71d6944d08e3/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-guandeqiao",
@@ -3154,7 +3328,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000003",
   "caseId": "19990615000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/171638d5-17bd-4862-9344-99958103895b/觀德橋 (1).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/171638d5-17bd-4862-9344-99958103895b/觀德橋 (1).jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-chenzhenenrongfang",
@@ -3172,7 +3347,8 @@
   "open": "全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19881111000003",
   "caseId": "19881111000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/65a10677-de71-429e-bed5-7db031febd4e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-26/65a10677-de71-429e-bed5-7db031febd4e/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-yangdichendumie",
@@ -3190,7 +3366,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20151029000003",
   "caseId": "20151029000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/ef4bce23-7b71-474d-b03e-653fcf73903c/(1)封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/ef4bce23-7b71-474d-b03e-653fcf73903c/(1)封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-qingyuqianjiazhang",
@@ -3208,7 +3385,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20161226000002",
   "caseId": "20161226000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/0a6a4636-6645-49e2-b09f-64464440ad84/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/0a6a4636-6645-49e2-b09f-64464440ad84/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-qingyuzhangshi",
@@ -3226,7 +3404,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170126000001",
   "caseId": "20170126000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/89ff856c-5e91-4b38-9cb9-dc6b50e9e9f1/青嶼張氏兄弟洋樓_壓縮.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-07-14/89ff856c-5e91-4b38-9cb9-dc6b50e9e9f1/青嶼張氏兄弟洋樓_壓縮.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangweimu",
@@ -3244,7 +3423,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000005",
   "caseId": "19990615000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/a469fb3d-8209-400b-bba0-bba40120589a/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-29/a469fb3d-8209-400b-bba0-bba40120589a/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangxuanxianliulu",
@@ -3262,7 +3442,8 @@
   "open": "依診所看診時間，參訪時勿影響醫生及看診患者",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20060613000002",
   "caseId": "20060613000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-06/f57d70fb-d8ae-423d-9d31-7ae8c136ad98/代表圖片.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-06/f57d70fb-d8ae-423d-9d31-7ae8c136ad98/代表圖片.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangbianmu",
@@ -3280,7 +3461,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000006",
   "caseId": "19990615000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-05/25640044-22ec-494e-ab4f-8bd2b5c22a9b/IMG_8215.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-06-05/25640044-22ec-494e-ab4f-8bd2b5c22a9b/IMG_8215.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-herencigucuo",
@@ -3298,7 +3480,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150302000005",
   "caseId": "20150302000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-23/65e9c31b-3221-4bbb-8a10-08162e6be1c5/messageImage_1766481611296.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-23/65e9c31b-3221-4bbb-8a10-08162e6be1c5/messageImage_1766481611296.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-hejingyanzhai",
@@ -3316,7 +3499,8 @@
   "open": "09:00-11:00、15:00-17:00（採預約制）",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000012",
   "caseId": "20030331000012",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/70f4ef22-0235-4e8c-9928-1b4db3245bcb/何敬嚴宅（小築佳趣）.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/70f4ef22-0235-4e8c-9928-1b4db3245bcb/何敬嚴宅（小築佳趣）.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-heyongyanglou",
@@ -3334,7 +3518,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000011",
   "caseId": "20031201000011",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/73b28fce-2f4b-4cfb-bf1c-3e526a22f195/何永洋樓_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/73b28fce-2f4b-4cfb-bf1c-3e526a22f195/何永洋樓_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-hesuqiangyanglou",
@@ -3352,7 +3537,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000013",
   "caseId": "20031201000013",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-24/b47bf0d7-aa80-42cb-9d39-b3cf2475cd9e/20250806_163253.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-24/b47bf0d7-aa80-42cb-9d39-b3cf2475cd9e/20250806_163253.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-hesuquehesupoyang",
@@ -3370,7 +3556,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000014",
   "caseId": "20030331000014",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/b50f5e4c-8552-41e4-b1fe-1ea9d6b76d0f/何肅闕、何肅坡洋樓-封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/b50f5e4c-8552-41e4-b1fe-1ea9d6b76d0f/何肅闕、何肅坡洋樓-封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-hesudianhesuhai",
@@ -3388,7 +3575,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000011",
   "caseId": "20030331000011",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/8dbf9bab-0f75-4f92-aeaa-b94030c99b3b/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-27/8dbf9bab-0f75-4f92-aeaa-b94030c99b3b/1.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhouanbanggucuo",
@@ -3406,7 +3594,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000010",
   "caseId": "20031201000010",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/27e19d06-7c98-4740-9169-cba17b86e791/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/27e19d06-7c98-4740-9169-cba17b86e791/1.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhoushierluodacuo",
@@ -3424,7 +3613,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000008",
   "caseId": "20031201000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/d4658b99-5c85-4517-af0e-800533dbc004/封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/d4658b99-5c85-4517-af0e-800533dbc004/封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhoushigucuo",
@@ -3442,7 +3632,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000009",
   "caseId": "20031201000009",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/8e8e1428-7dcb-4175-aa12-de236d10facb/1 封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/8e8e1428-7dcb-4175-aa12-de236d10facb/1 封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-tangtoujinliansi",
@@ -3460,7 +3651,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20250630000001",
   "caseId": "20250630000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/3122e6ca-fbfc-47b8-8c12-dcbe32bed425/塘頭金蓮寺-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-09-12/3122e6ca-fbfc-47b8-8c12-dcbe32bed425/塘頭金蓮寺-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-fengzhidi",
@@ -3478,7 +3670,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061109000003",
   "caseId": "20061109000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-28/c5bbe6af-070d-4b41-a1be-1aaa121814e1/金門縣 奉直第 (歷建)01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-28/c5bbe6af-070d-4b41-a1be-1aaa121814e1/金門縣 奉直第 (歷建)01.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-shanhouzhongbao",
@@ -3496,7 +3689,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071213000001",
   "caseId": "20071213000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/04e9d94e-43a0-4a56-8b37-38e8b6554c16/山后中堡中書第_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/04e9d94e-43a0-4a56-8b37-38e8b6554c16/山后中堡中書第_代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangwendiyanglou",
@@ -3514,7 +3708,8 @@
   "open": "每日上午9時至下午5時（除夕休館），夜間照明時間下午6時至9時/圖書館周一休館",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000019",
   "caseId": "20031201000019",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-16/6ad48f3e-9a99-417d-a7ec-f196ef8077f5/張文帝洋_代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-08-16/6ad48f3e-9a99-417d-a7ec-f196ef8077f5/張文帝洋_代表圖像.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-zhangshisanluoda",
@@ -3532,7 +3727,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000022",
   "caseId": "20031201000022",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/396e9f89-337b-41a0-9333-de1ad00157a0/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/396e9f89-337b-41a0-9333-de1ad00157a0/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangshigucuo",
@@ -3550,7 +3746,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000006",
   "caseId": "20031201000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/f63717a1-e950-4309-840c-194828989906/張氏古厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/f63717a1-e950-4309-840c-194828989906/張氏古厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangshigucuo2",
@@ -3568,7 +3765,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000004",
   "caseId": "20031201000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/c3717a24-0733-4e6b-81d5-5f942cba9638/張氏古厝(沙美101號)_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/c3717a24-0733-4e6b-81d5-5f942cba9638/張氏古厝(沙美101號)_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangshigucuo3",
@@ -3586,7 +3784,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000005",
   "caseId": "20031201000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/60b76a48-a583-472f-9a75-76857e0f395c/張氏古厝(沙美102號)_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/60b76a48-a583-472f-9a75-76857e0f395c/張氏古厝(沙美102號)_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangshiyanglou",
@@ -3604,7 +3803,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000021",
   "caseId": "20031201000021",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/bdfdad01-eff5-44c6-bb64-58ae22cd2a56/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/bdfdad01-eff5-44c6-bb64-58ae22cd2a56/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangzhangmangucuo",
@@ -3622,7 +3822,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000003",
   "caseId": "20031201000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/95f6b18f-1288-4080-b62f-7b018adcfe3f/張璋滿古厝(85號)-封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/95f6b18f-1288-4080-b62f-7b018adcfe3f/張璋滿古厝(85號)-封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhangzhangmangucuo2",
@@ -3640,7 +3841,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000007",
   "caseId": "20031201000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/39e78d8d-cc43-4350-b036-8d1d952dbcbb/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/39e78d8d-cc43-4350-b036-8d1d952dbcbb/1封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhaowudi",
@@ -3658,7 +3860,8 @@
   "open": "預約安排參觀時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20150302000004",
   "caseId": "20150302000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-20/d86a9bcd-1cd5-4910-9257-aaf7ec0a4c09/代表圖片.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-05-20/d86a9bcd-1cd5-4910-9257-aaf7ec0a4c09/代表圖片.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-zhaolinggong",
@@ -3676,7 +3879,8 @@
   "open": "全日",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000004",
   "caseId": "20030331000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/7bd9c134-9f3f-4b5a-91be-2267d1d2b938/昭靈宮_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/7bd9c134-9f3f-4b5a-91be-2267d1d2b938/昭靈宮_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-likangtayanglou",
@@ -3694,7 +3898,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061109000001",
   "caseId": "20061109000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/4fa7a497-97f3-46fe-925e-0604f8ade07a/李康塔洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/4fa7a497-97f3-46fe-925e-0604f8ade07a/李康塔洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-donghangxiaoxian",
@@ -3712,7 +3917,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20171204000002",
   "caseId": "20171204000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/60931c4d-fec7-4c5d-bb9c-6517efe9be21/01.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-17/60931c4d-fec7-4c5d-bb9c-6517efe9be21/01.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-shameijiduzhanglao",
@@ -3730,7 +3936,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000018",
   "caseId": "20031201000018",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-23/b8090b6d-79c0-4167-a5c2-7e7381e9b8af/511595.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2025-12-23/b8090b6d-79c0-4167-a5c2-7e7381e9b8af/511595.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-pubianhejingzhou",
@@ -3748,7 +3955,8 @@
   "open": "屋主在家時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200325000003",
   "caseId": "20200325000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/bab93615-facb-4196-bc7e-3ba88b728743/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/bab93615-facb-4196-bc7e-3ba88b728743/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-pubianzhouwenxian",
@@ -3766,7 +3974,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20190409000001",
   "caseId": "20190409000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/74a2aa0b-331b-4b64-9622-2945d97158fb/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-08/74a2aa0b-331b-4b64-9622-2945d97158fb/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-haiyinsidaxiongbao",
@@ -3784,7 +3993,8 @@
   "open": "08:00至17:30",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20090603000001",
   "caseId": "20090603000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-18/4c0dbbad-4f98-4c8b-8bb3-09a742c3f575/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-18/4c0dbbad-4f98-4c8b-8bb3-09a742c3f575/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-wangrenjiwangren",
@@ -3802,7 +4012,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000014",
   "caseId": "20031201000014",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/bc9b4eb6-368f-4870-8e54-b1798f8a1d10/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-20/bc9b4eb6-368f-4870-8e54-b1798f8a1d10/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-biyuexuan",
@@ -3820,7 +4031,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000013",
   "caseId": "20030331000013",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/478b41fd-b062-4c4c-8cbb-2e77fc1a2e68/碧月軒_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-19/478b41fd-b062-4c4c-8cbb-2e77fc1a2e68/碧月軒_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-caiyongyaoerluoda",
@@ -3838,7 +4050,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000009",
   "caseId": "20030331000009",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/8fce908f-438a-4b0b-8c9b-99b08fb96675/蔡永耀二落大厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/8fce908f-438a-4b0b-8c9b-99b08fb96675/蔡永耀二落大厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-caiyongyaoyanglou",
@@ -3856,7 +4069,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000010",
   "caseId": "20030331000010",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/2fb9ca3c-23aa-4ae2-841c-5e7d21450979/蔡永耀洋樓_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/2fb9ca3c-23aa-4ae2-841c-5e7d21450979/蔡永耀洋樓_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-jindongdianying",
@@ -3874,7 +4088,8 @@
   "open": "週一：休息\n週二～週日：08:30–12:00；13:00–17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000023",
   "caseId": "20031201000023",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/e9e32c89-fe8c-41e2-9038-39c6706e676c/金東電影院_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/e9e32c89-fe8c-41e2-9038-39c6706e676c/金東電影院_封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-xiyuan",
@@ -3892,7 +4107,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20200409000003",
   "caseId": "20200409000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-28/e21a295a-f454-462b-963a-ef8f84e5d0a7/00.封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-10-28/e21a295a-f454-462b-963a-ef8f84e5d0a7/00.封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "jinsha-zhenshameiwanan",
@@ -3910,7 +4126,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000020",
   "caseId": "20031201000020",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/0a9ae455-d777-40cc-b6c2-d3675ec86da2/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/0a9ae455-d777-40cc-b6c2-d3675ec86da2/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chendexingyanglou",
@@ -3928,7 +4145,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000007",
   "caseId": "20030331000007",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/135f4cb3-fded-4013-b0e7-9a123c7ee003/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-31/135f4cb3-fded-4013-b0e7-9a123c7ee003/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenmingyougucuo",
@@ -3946,7 +4164,8 @@
   "open": "白天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000005",
   "caseId": "20030331000005",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/fe644dd1-d440-45f9-ae14-58bf25840a2d/陳明侑古厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/fe644dd1-d440-45f9-ae14-58bf25840a2d/陳明侑古厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenjingchengyang",
@@ -3964,7 +4183,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20071213000002",
   "caseId": "20071213000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-29/ee60a527-4ca3-41b2-9cb9-affac5281e74/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-29/ee60a527-4ca3-41b2-9cb9-affac5281e74/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenshiyiluosiju",
@@ -3982,7 +4202,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000002",
   "caseId": "20030331000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/e84bc19f-eaa6-420e-9352-867114a9de6c/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-29/e84bc19f-eaa6-420e-9352-867114a9de6c/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenshiyiluosiju2",
@@ -4000,7 +4221,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000001",
   "caseId": "20030331000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/c8f4cdd6-0560-4a23-a4bf-16395afe458c/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-23/c8f4cdd6-0560-4a23-a4bf-16395afe458c/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenshierluodacuo",
@@ -4018,7 +4240,8 @@
   "open": "白天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000006",
   "caseId": "20030331000006",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/324f88a6-312e-4e65-938e-a569cb07be3b/陳氏二落大厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/324f88a6-312e-4e65-938e-a569cb07be3b/陳氏二落大厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenshixiaozong",
@@ -4036,7 +4259,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000008",
   "caseId": "20030331000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/ef67deba-19e8-4c40-a748-a3da48454f5e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-26/ef67deba-19e8-4c40-a748-a3da48454f5e/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenqingjiyanglou",
@@ -4054,7 +4278,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20051219000001",
   "caseId": "20051219000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/e605e517-e21c-40f9-9563-6b4125ed000a/陳清吉洋樓封面.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/e605e517-e21c-40f9-9563-6b4125ed000a/陳清吉洋樓封面.png",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenduqingucuo",
@@ -4072,7 +4297,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000025",
   "caseId": "20031201000025",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/2648d791-b250-4aab-883b-990756b05f4e/陳篤欽古厝_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/2648d791-b250-4aab-883b-990756b05f4e/陳篤欽古厝_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-chenweidangucuo",
@@ -4090,7 +4316,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20030331000003",
   "caseId": "20030331000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/b7831cd3-2381-40c2-80e8-db5abcf58727/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-28/b7831cd3-2381-40c2-80e8-db5abcf58727/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangxinjianzhai",
@@ -4108,7 +4335,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000015",
   "caseId": "20031201000015",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/02b0a2cb-b576-4359-8933-706c1c56f39b/黃信堅宅.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-15/02b0a2cb-b576-4359-8933-706c1c56f39b/黃信堅宅.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangchangminggu",
@@ -4126,7 +4354,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061109000002",
   "caseId": "20061109000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/3635838f-a892-4e9a-94bf-a52b7e8f85e2/黃昌命（納）古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-23/3635838f-a892-4e9a-94bf-a52b7e8f85e2/黃昌命（納）古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huanglouyanglou",
@@ -4144,7 +4373,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000008",
   "caseId": "20041216000008",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/4448cb86-cbd3-4730-b445-4c3cad5990b2/黃樓洋樓_代表圖像(壓縮).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-15/4448cb86-cbd3-4730-b445-4c3cad5990b2/黃樓洋樓_代表圖像(壓縮).jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-huangshijiamiao",
@@ -4162,7 +4392,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000017",
   "caseId": "20031201000017",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/c14d576b-8263-4da4-acea-8709175e04cc/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-21/c14d576b-8263-4da4-acea-8709175e04cc/01封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "jinsha-taiwushanwenhua",
@@ -4182,7 +4413,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20240204000001",
   "caseId": "20240204000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-01-25/4c2aacbe-a40e-4f6f-9d26-175cc946d283/太武山文化景觀-以金門海印寺為中心.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-01-25/4c2aacbe-a40e-4f6f-9d26-175cc946d283/太武山文化景觀-以金門海印寺為中心.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-shanglinlinxinping",
@@ -4200,7 +4432,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170126000002",
   "caseId": "20170126000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-10/9ae35350-e4e5-450b-8d66-60f3697d993a/01(封面).jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-10/9ae35350-e4e5-450b-8d66-60f3697d993a/01(封面).jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-wuxiucaicuo",
@@ -4218,7 +4451,8 @@
   "open": "每周一、三、五、六、日\n09:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19990615000011",
   "caseId": "19990615000011",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/f6c58785-c807-4f68-a2ea-0f371b03b0ec/封面01.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-16/f6c58785-c807-4f68-a2ea-0f371b03b0ec/封面01.png",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-donglinsongdaidong",
@@ -4236,7 +4470,8 @@
   "open": "戶外空間，全天候開放",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20070926000002",
   "caseId": "20070926000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/292bda99-6e90-4156-a76a-aae00c31d483/烈嶼東林宋代東井.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/292bda99-6e90-4156-a76a-aae00c31d483/烈嶼東林宋代東井.jpg",
+  "ownership": "公有"
  },
  {
   "id": "lieyu-luocuoluoshixiong",
@@ -4254,7 +4489,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170104000001",
   "caseId": "20170104000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/d278f8a2-69d7-4564-835f-065252332821/2.羅厝羅氏兄弟洋樓-代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/d278f8a2-69d7-4564-835f-065252332821/2.羅厝羅氏兄弟洋樓-代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-xifanglintianlai",
@@ -4272,7 +4508,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170126000003",
   "caseId": "20170126000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/904bf3aa-9bba-4beb-83ff-c5023f28466a/西方林天來洋樓.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-04-29/904bf3aa-9bba-4beb-83ff-c5023f28466a/西方林天來洋樓.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-qingqilantingbie",
@@ -4290,7 +4527,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20170104000003",
   "caseId": "20170104000003",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/dfdcd952-8ffc-41dd-a8cc-0fb98075deba/青岐蘭亭別墅.png"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-07-10/dfdcd952-8ffc-41dd-a8cc-0fb98075deba/青岐蘭亭別墅.png",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-huangcuohongshigu",
@@ -4308,7 +4546,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20161226000001",
   "caseId": "20161226000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/64b049e3-b386-48ab-b54e-0ecde0aa3740/(1)封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-30/64b049e3-b386-48ab-b54e-0ecde0aa3740/(1)封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-qianpubaozhanggong",
@@ -4326,7 +4565,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20160606000001",
   "caseId": "20160606000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-14/39615142-1553-436a-9624-a96794cff800/1 封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-14/39615142-1553-436a-9624-a96794cff800/1 封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-yongshibao",
@@ -4344,7 +4584,8 @@
   "open": "周一至周日08:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000017",
   "caseId": "20041216000017",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/b235f722-1911-4dcb-813b-0735b2f15279/01-封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-21/b235f722-1911-4dcb-813b-0735b2f15279/01-封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "lieyu-jiangjunbao",
@@ -4362,7 +4603,8 @@
   "open": "周一至周日08:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000016",
   "caseId": "20041216000016",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/92c95176-46a6-442a-a659-1131c3faa5df/1.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-07-20/92c95176-46a6-442a-a659-1131c3faa5df/1.jpg",
+  "ownership": "公有"
  },
  {
   "id": "lieyu-fangzhai",
@@ -4380,7 +4622,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000028",
   "caseId": "20031201000028",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/dd417bf1-6d34-4759-b494-bac7da15c0e7/方宅_封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-06-18/dd417bf1-6d34-4759-b494-bac7da15c0e7/方宅_封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-dongkengsunjiatong",
@@ -4398,7 +4641,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20161226000004",
   "caseId": "20161226000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-28/435e726b-1b2b-4131-a02a-735f93d8f6ac/代表圖像.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2024-05-28/435e726b-1b2b-4131-a02a-735f93d8f6ac/代表圖像.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-linshiliuludacuo",
@@ -4416,7 +4660,8 @@
   "open": "依管理人作息時間",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20031201000027",
   "caseId": "20031201000027",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-22/579c6d06-1c31-4892-a9ea-b4df56c4f243/1封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-06-22/579c6d06-1c31-4892-a9ea-b4df56c4f243/1封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-hongshigucuo",
@@ -4434,7 +4679,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20061109000004",
   "caseId": "20061109000004",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-14/6e42b4dd-9bcb-4db6-9ce9-de376be41e80/1.洪氏古厝.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-02-14/6e42b4dd-9bcb-4db6-9ce9-de376be41e80/1.洪氏古厝.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-zhonghuaminguowan",
@@ -4452,7 +4698,8 @@
   "open": "",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20141128000001",
   "caseId": "20141128000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-19/bbcc917e-0afb-4252-99b3-bd1cb0fa581d/烈嶼中華民國萬歲碑封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-19/bbcc917e-0afb-4252-99b3-bd1cb0fa581d/烈嶼中華民國萬歲碑封面.jpg",
+  "ownership": "私有"
  },
  {
   "id": "lieyu-tiehanbao",
@@ -4470,7 +4717,8 @@
   "open": "週一至週日08:00-17:00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20041216000018",
   "caseId": "20041216000018",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/820f9933-172a-4a40-beb1-0aecdce67ea2/鐵漢堡封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-05-27/820f9933-172a-4a40-beb1-0aecdce67ea2/鐵漢堡封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "lieyu-donglinfozumiao",
@@ -4488,7 +4736,8 @@
   "open": "全天",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/commemorativeBuilding/20191013000001",
   "caseId": "20191013000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/ad8dcd43-cc5c-4ffc-b14f-a2c1625de543/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-08-30/ad8dcd43-cc5c-4ffc-b14f-a2c1625de543/01封面.jpg",
+  "ownership": "公有"
  },
  {
   "id": "lieyu-dadanerdanzhandi",
@@ -4506,7 +4755,8 @@
   "open": null,
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/culturalLandscape/20131128000001",
   "caseId": "20131128000001",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-22/cbd36476-9a8d-4413-8b0a-6c65d617879e/01封面.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2022-09-22/cbd36476-9a8d-4413-8b0a-6c65d617879e/01封面.jpg",
+  "ownership": "不明"
  },
  {
   "id": "wuqiu-dengta",
@@ -4524,6 +4774,7 @@
   "open": "無",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20180726000002",
   "caseId": "20180726000002",
-  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-07-26/293b50a1-bc57-4992-ac6e-089f654b53a7/IMG_2722.jpg"
+  "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2018-07-26/293b50a1-bc57-4992-ac6e-089f654b53a7/IMG_2722.jpg",
+  "ownership": "不明"
  }
 ]

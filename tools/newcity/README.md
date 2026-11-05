@@ -417,6 +417,7 @@ GitHub 免費方案的限制（2026/11 查證，見 GitHub Pages limits 文件�
 - **稱呼**：阿拉蕾稱呼導覽員為「Allan」，不用「羅顧問」。`build_data.py` 與 `merge.py` 也會自動轉換。
 - **Email**：使用者的 Email 只用來辨識使用者，**絕不可**放進 User-Agent、網址、檔案或任何對外請求。User-Agent 一律用 `AllanLoCultureSite/1.0 (https://github.com/allanloplus/Cultural_Heritage)`。
 - **個資**：私人宅第只寫到路名或里名；不公開保存者的住家地址、電話、身分證字號。
+  - **詳情頁地址不公開門牌**（2026/11/5 起）：官方類型含「宅第」、而且所有權不是公有的景點（`sites-official.json` 的 `ownership`：私有／公有／不明，不明的視為私人；由 `build_base.py` 寫入，舊縣市用 `tools/newcity/add_ownership.py` 補），`build_data.py` 會把地址截到路名或里名（去掉巷、弄、號、鄰、樓與地號），並在詳情頁加註；導航用地圖座標。例外可在 `sites-content.json` 設 `"privateHome": true`（沒標宅第、但其實是住家）或 `false`（例如所有權不明、但其實已是公有展館）。名稱本身含門牌的（例如「風櫃尾74號古宅」）照官方名稱，但介紹與對話不要另外寫出私人住家的門牌。
 - **版權**：照片只用 CC 或公有領域，並標示作者與授權；有疑慮就用連結。
 - **頁尾署名**：「規劃設計：Allan Lo，https://www.123hi.org，2026年11月｜使用 AI 工具：Claude Opus 5.5」寫在 `tools/city_template.html`、入口頁 `index.html` 與 `assets/js/city/app.js`（關於頁），第二網站的 `index.html`、`README.md` 也有，網址要能點；不要改。
 - **Git**：
