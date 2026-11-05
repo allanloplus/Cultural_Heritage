@@ -73,9 +73,12 @@ def cross_refs(city, skip):
             m = pat_full.search(text) or pat_short.search(text)
             if not m:
                 continue
-            seen.add(x["caseId"])
-            reg = "、".join(sorted({ad.get("cityName") for ad in x.get("addresses") or [] if isinstance(ad, dict) and ad.get("cityName")}))
+            regs = {ad.get("cityName") for ad in x.get("addresses") or [] if isinstance(ad, dict) and ad.get("cityName")}
             sure = "高" if pat_full.search(text) else "低"
+            if sure == "低" and any(r[:-1] in short for r in regs):  # 新竹市與新竹縣、嘉義市與嘉義縣：簡稱相同，只比對到簡稱的不列
+                continue
+            seen.add(x["caseId"])
+            reg = "、".join(sorted(regs))
             out.append((sure, x.get("caseName", ""), reg or "？", x["caseId"], text[max(0, m.start() - 12):m.end() + 12].strip()))
     return sorted(out)
 
