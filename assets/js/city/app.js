@@ -383,11 +383,14 @@
       '<div class="d-body" style="padding-top:20px"><div class="d-title"><h2>' + esc(v.name) + '</h2><p class="sub">' + esc(v.address || "") + '</p>' +
       '<div class="d-badges"><span class="tag badge-cat" style="--c:' + CAT["無形文資"].hex + '">無形文資・古物展示點</span></div></div>' +
       (rel ? '<p><a class="btn btn-sm btn-teal" href="#map/' + rel.id + '">這裡也是「' + esc(rel.name) + '」，看建築介紹</a></p>' : "") +
+      '<a class="visit-cta" href="' + VISIT_BASE + '#venue/' + encodeURIComponent(CFG.slug) + '/' + encodeURIComponent(v.id) + '" target="_blank" rel="noopener">' +
+      '<b>達人實地紀錄・現況與推薦 ↗</b><span>祭典與演出的參與心得、傳承現況，古物的展示與保存情形</span></a>' +
       items.map(function (it, k) {
         return '<div class="d-sec card" style="padding:12px"><h3>' + esc(it.name) + ' <span class="tag">' + esc(it.type) + '</span></h3><p class="hint">' + esc(it.holder || "") + (it.registered ? "・登錄 " + esc(it.registered) : "") + '</p>' +
           '<p style="margin:6px 0">' + esc(it.intro) + '</p>' + (it.whereToSee ? '<p class="funfact"><b>哪裡看｜</b>' + esc(it.whereToSee) + '</p>' : "") +
           (it.dialogue && it.dialogue.length ? '<div class="ich-player" data-k="' + k + '" style="margin-top:8px"></div>' : "") +
-          (it.url ? '<p style="margin-top:6px"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">文資局官方資料</a></p>' : "") + '</div>';
+          '<p style="margin-top:6px">' + (it.url ? '<a href="' + esc(it.url) + '" target="_blank" rel="noopener">文資局官方資料</a>　' : "") +
+          '<a href="' + VISIT_BASE + '#site/' + encodeURIComponent(CFG.slug) + '/' + encodeURIComponent(it.id) + '" target="_blank" rel="noopener">達人參與紀錄 ↗</a></p></div>';
       }).join("") +
       ((v.antiquities || []).length ? '<div class="d-sec"><h3>收藏的古物</h3><ul>' + v.antiquities.map(function (a) { return '<li><b>' + esc(a.name) + '</b>' + (a.level ? '（' + esc(a.level) + '）' : "") + (a.note ? '：' + esc(a.note) : "") + '</li>'; }).join("") + '</ul></div>' : "") +
       '<div class="d-actions">' + (v.lat != null ? '<a class="btn btn-sm btn-teal" href="https://www.google.com/maps/dir/?api=1&destination=' + v.lat + ',' + v.lng + '" target="_blank" rel="noopener">導航前往</a>' : '<span class="hint">此地點座標未能核對，請依地址前往。</span>') + '</div></div>';
