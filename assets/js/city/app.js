@@ -10,6 +10,9 @@
     return i >= 0 ? src.slice(0, i) : "../";
   })();
   var FALLBACK = ROOT + "assets/img-fallback.svg";
+  /* 姊妹站「文資達人訪查」（allanloplus/Cultural_Heritage_Master）：每處文資的實地現況、心得、照片與推薦指數。
+   * 景點詳情的「達人實地訪查」按鈕連到 VISIT_BASE + "#site/<縣市>/<景點 id>"；改用自訂網域時只要改這一行 */
+  var VISIT_BASE = "https://cultural-visit.123hi.org/";
   var SITES = CY.sites, byId = {};
   SITES.forEach(function (s) { byId[s.id] = s; });
 
@@ -330,6 +333,7 @@
       '<a class="btn btn-sm btn-teal" href="https://www.google.com/maps/dir/?api=1&destination=' + s.lat + ',' + s.lng + '" target="_blank" rel="noopener">導航前往</a>' +
       '<button class="btn btn-sm" type="button" id="dAdd">加入自選行程</button>' +
       '<button class="btn btn-sm" type="button" id="dVisit">我到過這裡</button>' +
+      '<a class="btn btn-sm btn-teal" href="' + VISIT_BASE + '#site/' + encodeURIComponent(CFG.slug) + '/' + encodeURIComponent(s.id) + '" target="_blank" rel="noopener">達人實地訪查・現況與推薦</a>' +
       '<a class="btn btn-sm" href="' + esc(s.url) + '" target="_blank" rel="noopener">文資局官方資料</a>' +
       (s.extraLinks || []).map(function (x) { return '<a class="btn btn-sm" href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a>'; }).join("") +
       '</div>' +
