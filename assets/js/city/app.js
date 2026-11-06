@@ -317,6 +317,8 @@
       '<div class="d-title"><h2>' + esc(s.name) + '</h2><p class="sub">' + esc(s.yearText) + '</p>' +
       '<div class="d-badges"><span class="tag badge-cat" style="--c:' + c.hex + '">' + s.category + (s.level && s.level.indexOf("重要") === 0 ? "・" + esc(s.level) : "") + '</span>' + (s.town ? '<span class="tag">' + esc(s.town) + '</span>' : "") + '<span class="tag">' + esc(ERA[s.era] || "") + '</span>' + s.themes.map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join("") + '</div></div>' +
       '<p class="d-sum">' + esc(s.summary) + '</p>' +
+      '<a class="visit-cta" href="' + VISIT_BASE + '#site/' + encodeURIComponent(CFG.slug) + '/' + encodeURIComponent(s.id) + '" target="_blank" rel="noopener">' +
+      '<b>達人實地訪查・現況與推薦 ↗</b><span>到訪日期、保存現況、心得照片、推薦指數與附近美食</span></a>' +
       '<div id="dPlayer"></div>' +
       '<div class="d-sec"><h3>認識這裡</h3><p>' + esc(s.intro) + '</p></div>' +
       '<div class="d-sec"><h3>到現場必看</h3><ul>' + s.highlights.map(function (h) { return '<li>' + esc(h) + '</li>'; }).join("") + '</ul></div>' +
