@@ -124,7 +124,7 @@ python3 tools/serve.py
 
 護照、造訪紀錄、自選景點只存在使用者自己的瀏覽器（localStorage），不會上傳。
 
-**姊妹站「文資達人訪查」**（[Cultural_Heritage_Master](https://github.com/allanloplus/Cultural_Heritage_Master)）：經審查核准的文資達人記錄每處文資的實地現況、心得、照片與推薦指數。各縣市景點詳情的「達人實地訪查・現況與推薦」按鈕連到該站同一處文資（網址設定在 `assets/js/city/app.js` 的 `VISIT_BASE`；第二網站的縣市共用這支程式，不需另外修改）。
+**姊妹站「文資達人訪查」**（https://cultural-visit.123hi.org/，repo [Cultural_Heritage_Master](https://github.com/allanloplus/Cultural_Heritage_Master)）：經審查核准的文資達人記錄每處文資的實地現況、心得、照片與推薦指數。各縣市景點詳情的「達人實地訪查・現況與推薦」按鈕連到該站同一處文資（網址設定在 `assets/js/city/app.js` 的 `VISIT_BASE`；第二網站的縣市共用這支程式，不需另外修改）。
 
 ---
 

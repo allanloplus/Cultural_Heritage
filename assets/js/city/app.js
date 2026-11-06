@@ -12,7 +12,7 @@
   var FALLBACK = ROOT + "assets/img-fallback.svg";
   /* 姊妹站「文資達人訪查」（allanloplus/Cultural_Heritage_Master）：每處文資的實地現況、心得、照片與推薦指數。
    * 景點詳情的「達人實地訪查」按鈕連到 VISIT_BASE + "#site/<縣市>/<景點 id>"；改用自訂網域時只要改這一行 */
-  var VISIT_BASE = "https://allanloplus.github.io/Cultural_Heritage_Master/";
+  var VISIT_BASE = "https://cultural-visit.123hi.org/";
   var SITES = CY.sites, byId = {};
   SITES.forEach(function (s) { byId[s.id] = s; });
 
