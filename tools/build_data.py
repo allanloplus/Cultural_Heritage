@@ -15,7 +15,7 @@
 兩個網站：放第二網站的縣市（assets/js/cities.js 的 site: 2）資料夾在 Cultural_Heritage2 的 clone（tools/sites.py），
 這支程式會一併處理，頁面的共用資源改用第一網站的網址 https://cultural.123hi.org/assets/…（範本的 {{root}}，見 cities.js 的 SITES）。
 """
-import json, os, re, sys
+import json, os, re, sys, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
@@ -139,7 +139,13 @@ def build_city(slug, site=1):
 
     # 頁面
     tpl = open(os.path.join(ROOT, "tools", "city_template.html"), encoding="utf-8").read()
-    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug, root=SITES.ASSET_ROOT[site])
+    # 版本戳記：共用程式與樣式（ver）、本縣市資料與字幕（dver）的內容雜湊，內容一改網址就變，瀏覽器不會用到舊的快取
+    dhash = hashlib.sha1()
+    for fp in (os.path.join(city, "js", "data.js"), os.path.join(city, "audio", "cues.js")):
+        if os.path.exists(fp):
+            dhash.update(open(fp, "rb").read())
+    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug, root=SITES.ASSET_ROOT[site],
+                ver=asset_version(), dver=dhash.hexdigest()[:8])
     html = re.sub(r"\{\{(\w+)\}\}", lambda m: vals[m.group(1)], tpl)
     with open(os.path.join(city, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
@@ -160,6 +166,24 @@ def build_city(slug, site=1):
     if site != 1:
         g["site"] = site  # gen_audio.py 依這個欄位寫到第二網站的 clone
     return g
+
+
+_ASSET_VER = None
+
+
+def asset_version():
+    """共用 CSS／JS（assets/css、assets/js）內容的雜湊。改了共用程式或樣式之後重新執行 build_data.py，各縣市頁的網址就會換新"""
+    global _ASSET_VER
+    if _ASSET_VER is None:
+        h = hashlib.sha1()
+        for d in ("css", "js"):
+            for dp, dn, fn in sorted(os.walk(os.path.join(ROOT, "assets", d))):
+                dn.sort()
+                for n in sorted(fn):
+                    if n.endswith((".css", ".js")):
+                        h.update(n.encode()); h.update(open(os.path.join(dp, n), "rb").read())
+        _ASSET_VER = h.hexdigest()[:8]
+    return _ASSET_VER
 
 
 def main():

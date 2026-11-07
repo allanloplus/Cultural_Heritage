@@ -11,8 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="{{root}}assets/css/site.css">
-<link rel="stylesheet" href="{{root}}assets/css/city.css">
+<link rel="stylesheet" href="{{root}}assets/css/site.css?v={{ver}}">
+<link rel="stylesheet" href="{{root}}assets/css/city.css?v={{ver}}">
 </head>
 <body>
 
@@ -168,16 +168,16 @@
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="{{root}}assets/js/cities.js"></script>
+<script src="{{root}}assets/js/cities.js?v={{ver}}"></script>
 <script>SiteCities.cityMenu(document.getElementById("cityMenu"), "{{slug}}", "{{root}}");</script>
-<script src="{{root}}assets/js/characters.js"></script>
+<script src="{{root}}assets/js/characters.js?v={{ver}}"></script>
 <script>Characters.setBase("{{root}}assets/characters/");</script>
-<script src="{{root}}assets/js/voice.js"></script>
-<script src="js/data.js"></script>
-<script src="audio/cues.js"></script>
-<script src="{{root}}assets/js/city/app.js"></script>
-<script src="{{root}}assets/js/city/timemap.js"></script>
-<script src="{{root}}assets/js/city/planner.js"></script>
-<script src="{{root}}assets/js/city/games.js"></script>
+<script src="{{root}}assets/js/voice.js?v={{ver}}"></script>
+<script src="js/data.js?v={{dver}}"></script>
+<script src="audio/cues.js?v={{dver}}"></script>
+<script src="{{root}}assets/js/city/app.js?v={{ver}}"></script>
+<script src="{{root}}assets/js/city/timemap.js?v={{ver}}"></script>
+<script src="{{root}}assets/js/city/planner.js?v={{ver}}"></script>
+<script src="{{root}}assets/js/city/games.js?v={{ver}}"></script>
 </body>
 </html>
