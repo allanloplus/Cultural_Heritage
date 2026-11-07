@@ -39,9 +39,11 @@
 
 /* ---------- Split views (map / plan) ---------- */
 .view-split { display: grid; grid-template-columns: 360px 1fr; height: calc(100vh - var(--hdr)); height: calc(100dvh - var(--hdr)); min-height: 480px; position: relative; }
-.side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--paper); position: relative; z-index: 2; }
+.side { display: flex; flex-direction: column; min-height: 0; min-width: 0; border-right: 1px solid var(--line); background: var(--paper); position: relative; z-index: 2; }
 .side-scroll { display: flex; flex-direction: column; flex: 1; min-height: 0; }
-.side-head { padding: 12px 14px 8px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+/* minmax(0, 1fr)：側欄內的任何元素（下拉選單、類別按鈕、加大字級）都不能把側欄撐寬，超出的內容換行或截斷（平板 Safari 也一樣） */
+.side-head { padding: 12px 14px 8px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; min-width: 0; }
+.side-head > * { min-width: 0; max-width: 100%; }
 .search input { width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); }
 .filter-row { display: flex; gap: 8px; font-size: .88rem; color: var(--muted); }
 /* 下拉選單的寬度預設取決於最長的選項（例如金門的時期名稱很長），會把整列撐出側欄；
