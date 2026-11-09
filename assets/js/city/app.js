@@ -435,7 +435,7 @@
     SITES.forEach(function (s) { s.images.forEach(function (im) { imgs.push([s.short, im]); }); });
     $("#aboutBody").innerHTML =
       '<h2 class="sec-title">關於「Allan Lo 和你逛文化」</h2>' +
-      '<div class="credit"><img src="' + ROOT + 'assets/characters/allan-stand.webp" alt="Allan Lo" width="90" height="110"><div><p><b>規劃設計：Allan Lo，<a href="https://www.123hi.org" target="_blank" rel="noopener">https://www.123hi.org</a>，2026年11月</b></p><p><b>使用 AI 工具：Claude Opus 5.5</b></p><p class="muted">導覽角色：Allan Lo（文化導覽員，台灣男聲 zh-TW-YunJheNeural）與 AI 小助手阿拉蕾（台灣小女生 zh-TW-HsiaoYuNeural）。語音由 Microsoft Edge 神經網路語音預先合成。</p></div><img src="' + ROOT + 'assets/characters/arale-stand.webp" alt="阿拉蕾" width="90" height="110"></div>' +
+      '<div class="credit"><img src="' + ROOT + 'assets/characters/allan-stand.webp" alt="Allan Lo" width="90" height="110"><div><p><b>規劃設計：Allan Lo，<a href="https://www.123hi.org" target="_blank" rel="noopener">https://www.123hi.org</a>，2026年11月</b></p><p class="muted">導覽角色：Allan Lo（文化導覽員，台灣男聲 zh-TW-YunJheNeural）與 AI 小助手阿拉蕾（台灣小女生 zh-TW-HsiaoYuNeural）。語音由 Microsoft Edge 神經網路語音預先合成。</p></div><img src="' + ROOT + 'assets/characters/arale-stand.webp" alt="阿拉蕾" width="90" height="110"></div>' +
       '<h2>資料來源</h2><ul>' +
       '<li>文化資產名稱、類別、座標、地址與官方說明：<a href="https://data.boch.gov.tw/" target="_blank" rel="noopener">文化部文化資產局 文化資產開放資料</a>、<a href="https://nchdb.boch.gov.tw/" target="_blank" rel="noopener">國家文化資產網</a>（政府資料開放授權條款）。各景點皆附官方頁面連結。</li>' +
       '<li>清單比對：<a href="' + esc(CFG.wiki.url) + '" target="_blank" rel="noopener">' + esc(CFG.wiki.title) + '</a>。</li>' +
