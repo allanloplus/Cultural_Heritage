@@ -126,11 +126,14 @@
       (current ? '<a class="cm-home" href="' + base + '">回全站首頁（全部縣市）</a>' : "");
   }
 
-  /* 入口頁：右上角功能表（縣市地圖＋選擇縣市下拉選單） */
+  /* 入口頁：右上角功能表（縣市地圖＋兩個姊妹站＋選擇縣市下拉選單） */
   function portalNav(el) {
     if (!el) return;
     el.classList.add("portal-nav");
-    el.innerHTML = '<a href="#cities">縣市地圖</a><details class="city-switch portal-switch"><summary>選擇縣市<span class="caret" aria-hidden="true">▾</span></summary><div class="city-menu"></div></details>';
+    el.innerHTML = '<a href="#cities" class="nav-cities">縣市地圖</a>' +
+      '<a class="sis-link" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener" title="文資達人訪查：實地現況、心得與推薦指數">達人訪查</a>' +
+      '<a class="sis-link" href="https://cultural-atlas.123hi.org/" target="_blank" rel="noopener" title="文資地圖集：時間軸、它挺過了什麼、風險地圖">文資地圖集</a>' +
+      '<details class="city-switch portal-switch"><summary>選擇縣市<span class="caret" aria-hidden="true">▾</span></summary><div class="city-menu"></div></details>';
     cityMenu(el.querySelector(".city-menu"), "", "");
   }
 

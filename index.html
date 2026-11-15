@@ -51,6 +51,17 @@
   .feat div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
   .feat h3 { font-size: 1.1rem; margin-bottom: 4px; }
   .feat p { font-size: .9rem; color: var(--muted); }
+  /* 姊妹站 */
+  .sis-intro { color: var(--muted); max-width: 46em; margin: -6px 0 12px; }
+  .sis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+  .sis > * { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; text-decoration: none; color: inherit; display: block; border-top: 5px solid var(--teal); transition: border-color .15s, box-shadow .15s, transform .15s; }
+  .sis > a:hover, .sis > a:focus-visible { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .sis .visit { border-top-color: var(--peach); }
+  .sis .soon { border-top-color: var(--line); opacity: .75; }
+  .sis small { display: block; font-size: .78rem; font-weight: 700; color: var(--hinoki); letter-spacing: .04em; }
+  .sis h3 { font-size: 1.1rem; margin: 2px 0 4px; display: flex; justify-content: space-between; gap: 6px; }
+  .sis a h3::after { content: "›"; color: var(--peach); }
+  .sis p { font-size: .9rem; color: var(--muted); }
   /* 入口頁地圖：小圓點＋自動避讓的短標籤，點了跳出小卡 */
   .map-hint { font-size: .85rem; color: var(--muted); margin: -6px 0 8px; }
   .dot { display: block; width: 14px; height: 14px; border-radius: 50%; background: #df6f57; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); cursor: pointer; }
@@ -113,12 +124,23 @@
       <div><h3>行程規劃</h3><p>一日、二日、三日或不限天數；開車、機車、自行車、走路、YouBike 都能排，也能自選景點。</p></div>
       <div><h3>知識遊戲</h3><p>問答、排序、猜謎、翻牌、擲骰對戰，玩完還能蓋文資護照。</p></div>
     </div>
+
+    <h2 class="t" id="sisters">姊妹站</h2>
+    <p class="sis-intro">逛完各縣市，還可以到這兩個網站：看達人實地走訪的紀錄，或用全臺灣的地圖看三千多處文化資產的時間與風險。</p>
+    <div class="sis">
+      <a class="visit" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener"><small>文資達人訪查</small><h3>實地訪查紀錄</h3><p>文資達人記錄每一處的現況、心得、照片與推薦指數，出發前先看看現在的樣子。</p></a>
+      <a href="https://cultural-atlas.123hi.org/#timeline" target="_blank" rel="noopener"><small>文資地圖集</small><h3>臺灣是怎麼長出來的</h3><p>拉動年份，全臺文化資產依創建年在地圖上亮起；再用公告日期看保存的歷程。</p></a>
+      <a href="https://cultural-atlas.123hi.org/#survived" target="_blank" rel="noopener"><small>文資地圖集</small><h3>它挺過了什麼</h3><p>對照歷史大地震與颱風，推估每一處文化資產經歷過什麼。</p></a>
+      <a href="https://cultural-atlas.123hi.org/#risk" target="_blank" rel="noopener"><small>文資地圖集</small><h3>文資風險地圖</h3><p>疊上淹水、活動斷層、土石流與大規模崩塌的公開圖資，看各處的災害潛勢。</p></a>
+      <div class="soon"><small>文資地圖集・籌備中</small><h3>3D 文資島</h3><p>立體的臺灣地形上，文化資產化成一根根光柱。</p></div>
+    </div>
   </div>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
     <span>規劃設計：Allan Lo，<a href="https://www.123hi.org" target="_blank" rel="noopener">https://www.123hi.org</a>，2026年11月</span>
+    <span>姊妹站：<a href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener">文資達人訪查</a>・<a href="https://cultural-atlas.123hi.org/" target="_blank" rel="noopener">文資地圖集</a></span>
     <span>底圖：內政部國土測繪中心・OpenStreetMap</span>
   </div>
 </footer>
