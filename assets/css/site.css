@@ -100,6 +100,9 @@ button, input, select { font: inherit; color: inherit; }
 .city-menu .cm-home:hover { background: var(--paper-2); }
 /* 入口頁：選單放在右上角，nav 本身不能裁切下拉選單 */
 .nav.portal-nav { overflow: visible; align-items: center; }
+/* 入口頁功能表上的姊妹站連結（文資達人訪查、文資地圖集） */
+.nav a.sis-link { color: var(--teal); border: 1.5px solid var(--teal); border-radius: 99px; padding: 5px 13px; font-weight: 700; margin: 0 3px; }
+.nav a.sis-link:hover, .nav a.sis-link:focus-visible { background: var(--teal); color: var(--teal-ink); }
 .portal-switch summary { background: none; color: var(--muted); box-shadow: none; font-weight: 500; font-size: .95rem; padding: 8px 12px; border-radius: 10px; }
 .portal-switch summary:hover, .portal-switch[open] summary { color: var(--ink); background: var(--paper-2); }
 .portal-switch .city-menu { left: auto; right: 0; }
@@ -181,4 +184,8 @@ button, input, select { font: inherit; color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media (max-width: 640px) {
+  .nav.portal-nav .nav-cities { display: none; }
+  .nav a.sis-link { font-size: .82rem; padding: 4px 8px; margin: 0 2px; }
 }
