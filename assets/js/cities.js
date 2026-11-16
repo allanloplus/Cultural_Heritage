@@ -130,7 +130,7 @@
   function portalNav(el) {
     if (!el) return;
     el.classList.add("portal-nav");
-    el.innerHTML = '<a href="#cities" class="nav-cities">縣市地圖</a>' +
+    el.innerHTML = '<a href="#search" class="nav-search">搜尋</a><a href="#cities" class="nav-cities">縣市地圖</a>' +
       '<a class="sis-link" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener" title="文資達人訪查：實地現況、心得與推薦指數">達人訪查</a>' +
       '<a class="sis-link" href="https://cultural-rail.123hi.org/" target="_blank" rel="noopener" title="搭火車逛文資：臺鐵各站走路就到的文化資產">搭火車逛文資</a>' +
       '<a class="sis-link" href="https://cultural-town.123hi.org/" target="_blank" rel="noopener" title="鄉鎮文資性格卡：查你家鄉的文資性格">鄉鎮文資性格卡</a>' +

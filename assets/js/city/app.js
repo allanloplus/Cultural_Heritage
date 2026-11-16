@@ -250,15 +250,30 @@
     if (filt.era && s.era !== filt.era) return false;
     if (filt.town && s.town !== filt.town) return false;
     if (filt.theme && s.themes.indexOf(filt.theme) < 0) return false;
-    if (filt.q) { var t = (s.name + s.short + s.address + s.summary + s.intro + s.themes.join("")).toLowerCase(); if (t.indexOf(filt.q.toLowerCase()) < 0) return false; }
+    if (filt.q) {
+      if (s._hay == null) s._hay = qnorm(s.name + s.short + s.town + s.address + s.category + s.summary + s.intro + s.themes.join(""));
+      if (!qhit(s._hay)) return false;
+    }
     return true;
+  }
+  /* 搜尋框：統一大小寫、台／臺、砲／炮／礮、孔子廟／孔廟寫法；空白分開的多個關鍵字要全部符合（與入口頁的全站搜尋 assets/js/search.js 相同） */
+  function qnorm(t) { return String(t || "").toLowerCase().replace(/台/g, "臺").replace(/[炮礮]/g, "砲").replace(/孔子廟/g, "孔廟").replace(/\s+/g, ""); }
+  function qterms() { return String(filt.q || "").split(/[\s,，、　]+/).map(qnorm).filter(Boolean); }
+  function qhit(hay) { return qterms().every(function (t) { return hay.indexOf(t) >= 0; }); }
+  function venueHay(v) {
+    if (v._hay == null) {
+      var names = (CY.ich.items || []).filter(function (i) { return (v.ichIds || []).indexOf(i.id) >= 0; }).map(function (i) { return i.name + i.type + (i.holder || ""); });
+      v._hay = qnorm(v.name + (v.address || "") + names.join("") + (v.antiquities || []).map(function (a) { return a.name + (a.note || ""); }).join(""));
+    }
+    return v._hay;
   }
   function applyFilter() {
     var list = SITES.filter(match);
     SITES.forEach(function (s) { var m = markers[s.id]; if (!m) return; if (match(s)) { if (!map.hasLayer(m)) m.addTo(map); } else if (map.hasLayer(m)) map.removeLayer(m); });
     if (venueLayer) { if (filt.cats["無形文資"] && !filt.era && !filt.theme && !filt.town) { if (!map.hasLayer(venueLayer)) venueLayer.addTo(map); } else if (map.hasLayer(venueLayer)) map.removeLayer(venueLayer); }
-    var venues = (filt.cats["無形文資"] && !filt.era && !filt.theme && !filt.town) ? (CY.ich.venues || []).filter(function (v) { return !filt.q || (v.name + JSON.stringify(v.antiquities || [])).indexOf(filt.q) >= 0; }) : [];
-    $("#count").textContent = "顯示 " + list.length + " 處文化資產" + (venues.length ? "、" + venues.length + " 處無形文資／古物展示點" : "");
+    var venues = (filt.cats["無形文資"] && !filt.era && !filt.theme && !filt.town) ? (CY.ich.venues || []).filter(function (v) { return !filt.q || qhit(venueHay(v)); }) : [];
+    $("#count").innerHTML = esc("顯示 " + list.length + " 處文化資產" + (venues.length ? "、" + venues.length + " 處無形文資／古物展示點" : "")) +
+      (filt.q ? '<a class="count-all" href="' + esc(ROOT + "?q=" + encodeURIComponent(filt.q)) + '">到全臺 22 縣市搜尋「' + esc(filt.q) + '」›</a>' : "");
     $("#siteList").innerHTML = list.map(function (s) {
       var c = CAT[s.category], th = s.images[0] ? '<img class="thumb" src="' + esc(pic(s.images[0], true)) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'' + FALLBACK + '\'">' : '<span class="thumb" style="background:' + c.hex + '">' + c.k + '</span>';
       return '<li class="site-item' + (s.id === openId ? " is-on" : "") + '" data-id="' + s.id + '" tabindex="0">' + th + '<div><h3>' + esc(s.name) + '</h3><p>' + esc(s.summary) + '</p><div class="meta"><span class="tag" style="color:' + c.hex + '">' + s.category + '</span><span class="tag">' + esc(yearLabel(s)) + '</span>' + (s.town ? '<span class="tag">' + esc(s.town) + '</span>' : "") + '</div></div></li>';

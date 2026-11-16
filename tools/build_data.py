@@ -208,6 +208,12 @@ def main():
     with open(os.path.join(ROOT, "tools", "script.json"), "w", encoding="utf-8") as f:
         json.dump({"groups": groups}, f, ensure_ascii=False, indent=1)
     print("lines", sum(len(t["lines"]) for g in groups for t in g["tracks"]))
+    # 入口頁的全站搜尋索引（assets/search/）：兩個網站都有 clone 時才重建，免得只看到一半的縣市
+    if os.path.isdir(SITES.site_dir(2)):
+        import subprocess
+        subprocess.run([sys.executable, os.path.join(ROOT, "tools", "build_search.py")], check=True)
+    else:
+        print("（找不到第二網站的 clone，全站搜尋索引沒有重建）")
     try:  # 容量提醒（GitHub Pages 上限 1 GB；700 MB 時要問使用者是否搬遷，見 tools/newcity/README.md〈容量管理〉）
         sys.path.insert(0, os.path.join(ROOT, "tools", "newcity"))
         import size_report
