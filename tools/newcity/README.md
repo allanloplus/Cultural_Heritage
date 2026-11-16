@@ -350,6 +350,7 @@ NODE_PATH=$(npm root -g) node tools/newcity/tests/portal.js
      1. 請使用者到該次執行按「Re-run all jobs」。
      2. 仍卡在排隊（queued）不動時，開一個小 PR（例如更新第二網站 README 的開放縣市清單）請使用者合併，`main` 有新提交就會觸發全新的部署。
      3. **不要用 API 的 rerun 重跑**：臺中市那次用 API 重跑後一直卡在 queued，也無法取消。
+   - **卡在 build 的 Checkout**：2026/11/17 合併文資旅行地圖（PR #37）後，build 停在「Checkout」17 分鐘沒有進展；使用者在 Actions 的執行列表按「⋯ → Cancel run」取消後，改開一個小 PR 合併到 `main` 觸發新的部署。列表的「⋯」選單取消後只剩「Delete workflow run」，不要刪；重跑要點進該次執行的頁面才有「Re-run all jobs」。
    - **第二網站的縣市**：第二網站部署成功、網址都打得開，再請使用者合併第一網站的 PR。
 
 PR 同時是變更紀錄：每個縣市何時上線、改了什麼，都查得到。
