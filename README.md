@@ -16,6 +16,7 @@ GitHub Pages 每個網站上限 1 GB，所以網站分成兩個 repo：本 repo�
 | 頁面 | 說明 |
 |---|---|
 | `index.html` | 全站首頁（入口頁）。臺灣縣市地圖與縣市卡片，有 Allan 與阿拉蕾的語音開場；右上角功能表列出所有開放的縣市。各縣市頁頂端都有「全站首頁 › 目前縣市」導覽列，可回全站首頁或切換縣市；縣市內的第一個分頁叫「○○總覽」。 |
+| `guide/` | 文資旅行地圖（全系列導覽）：一頁式互動動畫，介紹六個網站的特色與相互關係。手繪風的臺灣地圖上，每個網站是一個地標（環島小火車、濁水溪與越嶺古道、3D 文資島…），Allan 和阿拉蕾在旁邊的導覽面板一站一站說明，可自動導覽；另有六張「車票」、資料與連結的關係圖、四種旅人路線。網址 `guide/#rail` 等可直接打開某一站。首頁上方按鈕、功能表「導覽地圖」與「姊妹站」段落的卡片都連到這裡。 |
 | `index.html?q=關鍵字` | 全站搜尋：一次搜尋兩個網站 22 個縣市的有形文化資產、無形文化資產與古物。可搜名稱、鄉鎮、類別、主題、人物；多個關鍵字用空白分開（要全部符合）；「台／臺」「砲／炮／礮」「孔子廟／孔廟」視為相同。結果可依種類、縣市、鄉鎮市區篩選，點結果會開啟該縣市的文資地圖。先比對名稱、地點、類別、摘要與關鍵字，送出後再於背景載入詳細介紹全文，補上「介紹中提到」的結果。網址帶 `?q=` 可直接分享搜尋結果；各縣市頁的搜尋框打了字之後，也有「到全臺 22 縣市搜尋」的連結。 |
 | `chiayi-city/#home` | 嘉義市首頁。語音介紹、文化資產統計、四種逛法、今日推薦。 |
 | `chiayi-city/#map` | 文資地圖：54 處有形文化資產（國定古蹟 2、市定古蹟 16、歷史建築 33、聚落建築群 1、文化景觀 2），另有 12 處無形文化資產與古物展示點。可依類別、時期、主題篩選或搜尋。點景點會打開詳情，內容包括：照片（附作者與授權）、雙人語音導覽與字幕、介紹、必看重點、冷知識、拍照點、開放資訊、導航、附近的 YouBike 站（可查即時車輛）、小測驗。 |
@@ -87,6 +88,14 @@ python3 tools/gen_audio.py
 改完 JSON 後，執行 `build_data.py` 會產生每個縣市的 `js/data.js` 與 `index.html`、`tools/script.json`（語音腳本），以及全站搜尋的索引 `assets/search/`（兩個網站都有 clone 時才重建；也可以單獨執行 `python3 tools/build_search.py`）。第二網站的縣市也由這裡的工具產生，寫到 `Cultural_Heritage2` 的 clone（預設在本 repo 旁邊，或用環境變數 `CH2_DIR` 指定）。
 
 照片副本用 `python3 tools/fetch_images.py <縣市資料夾>` 下載到該縣市的 `img/`。沒有下載到的照片，網頁會直接連結 Wikimedia Commons。
+
+### 文資旅行地圖（guide/）
+
+| 檔案 | 內容 |
+|---|---|
+| `guide/index.html`、`guide.css`、`guide.js` | 頁面、樣式、互動（六個網站的介紹、對話與關係寫在 `guide.js` 開頭的 `SITES`、`EDGES`、`ROUTES`；姊妹站的數字有變時要一起改，`index.html` 的六張車票也是） |
+| `guide/geo.js` | 地圖圖形：海岸線、四層山、臺鐵、濁水溪與淡水河、五條越嶺古道、22 縣市位置。由 `tools/guide_geo.py` 從 Cultural_Atlas 的地形圖磚、Cultural_Rail 的車站、Cultural_Ascent 的河道與古道產生（需要 numpy、matplotlib、Pillow；用 `ATLAS_DIR`、`RAIL_DIR`、`ASCENT_DIR` 指定三個 repo）。只有要改地圖範圍或線條時才需要重跑 |
+| `guide/og.jpg` | 分享縮圖（1200×630）。原稿是 `tools/guide_og.html`：用 `python3 tools/serve.py` 開啟 `/Cultural_Heritage/tools/guide_og.html`，以 1200×630、淺色模式截圖存成 `guide/og.jpg` |
 
 ### 新增縣市
 

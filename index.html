@@ -101,6 +101,17 @@
   .sr-empty p { margin: 0 0 10px; color: var(--muted); }
   .sr-note { font-size: .8rem; color: var(--muted); margin: 12px 0 0; }
   @media (max-width: 560px) { .sr-list { grid-template-columns: 1fr; } .sr-item { grid-template-columns: 64px minmax(0, 1fr); } .sr-ph { width: 64px; } }
+  .nav a.sis-link.nav-guide { color: var(--peach-ink); background: var(--peach); border-color: var(--peach); }
+  /* 全系列導覽地圖（guide/）的入口卡片 */
+  .guide-banner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 18px; align-items: center; margin: 0 0 14px; padding: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: inherit; box-shadow: var(--shadow); transition: box-shadow .15s, transform .15s, border-color .15s; }
+  .guide-banner:hover, .guide-banner:focus-visible { border-color: var(--peach); box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+  .guide-banner img { width: 100%; height: auto; border-radius: 10px; display: block; }
+  .gb-copy { display: grid; gap: 6px; min-width: 0; }
+  .gb-copy small { font-size: .8rem; font-weight: 700; color: var(--hinoki); letter-spacing: .06em; }
+  .gb-copy b { font-family: var(--f-display); font-size: 1.6rem; line-height: 1.25; }
+  .gb-copy span { color: var(--muted); font-size: .95rem; }
+  .gb-copy em { font-style: normal; font-weight: 700; color: var(--peach); }
+  @media (max-width: 700px) { .guide-banner { grid-template-columns: 1fr; } }
   /* 姊妹站 */
   .sis-intro { color: var(--muted); max-width: 46em; margin: -6px 0 12px; }
   .sis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
@@ -161,7 +172,7 @@
           <p class="p-search-eg"><span>試試：</span><button type="button" class="chip" data-example="鹿港">鹿港</button><button type="button" class="chip" data-example="燈塔">燈塔</button><button type="button" class="chip" data-example="劉銘傳">劉銘傳</button><button type="button" class="chip" data-example="日式宿舍">日式宿舍</button><button type="button" class="chip" data-example="歌仔戲">歌仔戲</button></p>
           <p class="p-search-status" id="searchStatus" aria-live="polite"></p>
         </form>
-        <p style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="chiayi-city/">出發：嘉義市</a><a class="btn" href="#cities">看看有哪些城市</a></p>
+        <p style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-teal" href="guide/">全系列導覽地圖</a><a class="btn" href="chiayi-city/">出發：嘉義市</a><a class="btn" href="#cities">看看有哪些城市</a></p>
       </div>
       <div class="cast" aria-hidden="true"><img class="a" src="assets/characters/allan-wave.webp" alt="" width="560" height="657"><img class="r" src="assets/characters/arale-wave.webp" alt="" width="311" height="640"></div>
     </div>
@@ -187,6 +198,10 @@
 
     <h2 class="t" id="sisters">姊妹站</h2>
     <p class="sis-intro">逛完各縣市，還可以到這幾個網站：看達人實地走訪的紀錄、搭火車一站一站逛、查家鄉的文資性格、從海平面數到山頂，或用全臺灣的地圖看三千多處文化資產的時間與風險。</p>
+    <a class="guide-banner" href="guide/">
+      <img src="guide/og.jpg" alt="" width="1200" height="630" loading="lazy">
+      <span class="gb-copy"><small>全系列導覽</small><b>文資旅行地圖</b><span>一張手繪風的臺灣地圖看懂六個網站：知識網、達人訪查、搭火車、性格卡、海口到山頂、3D 文資島。Allan 和阿拉蕾一站一站帶你逛，還告訴你它們怎麼串在一起。</span><em>打開導覽地圖 ›</em></span>
+    </a>
     <div class="sis">
       <a class="visit" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener"><small>文資達人訪查</small><h3>實地訪查紀錄</h3><p>文資達人記錄每一處的現況、心得、照片與推薦指數，出發前先看看現在的樣子。</p></a>
       <a class="rail" href="https://cultural-rail.123hi.org/" target="_blank" rel="noopener"><small>搭火車逛文資</small><h3>下一站，走路就到</h3><p>沿著臺鐵 16 條路線，看每個車站走路 15 分鐘內的古蹟與歷史建築，排一趟不用開車的小旅行。</p></a>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>文資旅行地圖｜Allan 與阿拉蕾的全系列導覽</title>
+<meta name="description" content="一張地圖看懂「Allan Lo 和你逛文化」全系列：文資知識網、達人訪查、搭火車逛文資、鄉鎮文資性格卡、從海口到山頂、文資地圖集。Allan 和阿拉蕾帶你一站一站逛。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Allan Lo 和你逛文化">
+<meta property="og:title" content="文資旅行地圖｜Allan 與阿拉蕾的全系列導覽">
+<meta property="og:description" content="六個文資網站、一張旅行地圖：知識、現況、火車、鄉鎮、海拔與 3D 文資島，Allan 和阿拉蕾帶你一站一站逛。">
+<meta property="og:url" content="https://cultural.123hi.org/guide/">
+<meta property="og:image" content="https://cultural.123hi.org/guide/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Allan 和阿拉蕾站在手繪風的臺灣文資旅行地圖旁，標題：文資旅行地圖">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cultural.123hi.org/guide/og.jpg">
+<link rel="icon" href="../assets/characters/allan-smile.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="../assets/css/site.css?v=20261117">
+<link rel="stylesheet" href="guide.css?v=20261117">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../"><img src="../assets/characters/allan-smile.webp" alt="" width="36" height="36"><span class="brand-name">Allan Lo <small>和你逛文化</small></span></a>
+    <nav class="nav g-nav" aria-label="本頁">
+      <a href="#map">導覽地圖</a><a href="#tickets">六個網站</a><a href="#links">怎麼串起來</a><a href="#routes">選一種玩法</a>
+    </nav>
+    <a class="btn btn-sm btn-primary g-home" href="../">回知識網首頁</a>
+  </div>
+</header>
+
+<main>
+  <!-- 開場：Allan 與阿拉蕾 -->
+  <section class="g-hero">
+    <div class="wrap g-hero-grid">
+      <div class="g-hero-copy">
+        <p class="g-eyebrow">Allan Lo 和你逛文化・全系列導覽</p>
+        <h1>文資<span>旅行</span>地圖</h1>
+        <p class="g-lede">六個網站，一趟旅程。從 22 個縣市的文資知識出發，看達人回報的現況、搭火車一站一站逛、領一張家鄉的性格卡、從海口爬到山頂，最後在 3D 文資島上看整座臺灣怎麼長出來。</p>
+        <div class="g-cta">
+          <button class="btn btn-primary g-go" type="button" data-tour="start">跟著 Allan 和阿拉蕾出發</button>
+          <a class="btn" href="#map">直接看地圖</a>
+        </div>
+        <ul class="g-stats" aria-label="全系列的規模">
+          <li><b>22</b><span>縣市</span></li>
+          <li><b>3,032</b><span>處有形文資</span></li>
+          <li><b>624</b><span>項無形文資</span></li>
+          <li><b>559</b><span>件古物</span></li>
+          <li><b>6</b><span>個網站</span></li>
+        </ul>
+      </div>
+      <div class="g-cast" aria-hidden="true">
+        <div class="g-bubble" id="heroBubble"><b>Allan</b>嗨！我是導覽員 Allan，這張地圖帶你逛遍我們所有的文資網站。</div>
+        <img class="g-allan" src="../assets/characters/allan-wave.webp" alt="" width="560" height="657">
+        <img class="g-arale" src="../assets/characters/arale-wave.webp" alt="" width="311" height="640">
+      </div>
+    </div>
+    <div class="g-tiles" aria-hidden="true"></div>
+  </section>
+
+  <!-- 導覽地圖 -->
+  <section class="wrap g-sec" id="map" aria-labelledby="mapTitle">
+    <div class="g-sec-h">
+      <h2 id="mapTitle">全系列導覽地圖</h2>
+      <p>點地圖上的地標，或按「下一站」讓 Allan 和阿拉蕾帶路。紅點是知識網的 22 個縣市，點了直接出發。</p>
+    </div>
+    <div class="g-mapwrap">
+      <figure class="g-map" id="gmap">
+        <svg id="mapSvg" role="group" aria-label="臺灣文資旅行地圖：六個網站的地標、臺鐵環島線、濁水溪、越嶺古道與 22 個縣市"></svg>
+        <figcaption class="g-mapnote">海岸線與山脈依 Copernicus DEM 地形、鐵道依臺鐵車站座標、河道與古道依「從海口到山頂」整理的公開資料繪製。金門、馬祖放在左上角的小框。</figcaption>
+      </figure>
+      <aside class="g-panel" id="panel" aria-live="polite">
+        <noscript><p>這張互動地圖需要啟用 JavaScript；下方「六個網站」有每個網站的介紹與連結。</p></noscript>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 六張車票 -->
+  <section class="g-band" id="tickets" aria-labelledby="tkTitle">
+    <div class="wrap g-sec">
+      <div class="g-sec-h">
+        <h2 id="tkTitle">六個網站，六張車票</h2>
+        <p>每張車票是一個網站。知識網是起點也是終點，其他五站都從它長出來。</p>
+      </div>
+      <div class="g-tickets">
+        <a class="ticket k-knowledge" href="https://cultural.123hi.org/" data-stop="knowledge">
+          <span class="tk-top"><span class="tk-no">No. 01</span><span class="tk-kind">核心</span></span>
+          <span class="tk-name">文資知識網</span>
+          <span class="tk-route"><b>好奇</b><i aria-hidden="true">⟶</i><b>懂了</b></span>
+          <span class="tk-desc">22 個縣市的文資百科與旅遊地圖，Allan 和阿拉蕾用雙人語音帶你逛。</span>
+          <span class="tk-feat"><span>文資地圖與語音導覽</span><span>時光地圖：七個時期的老地圖</span><span>行程規劃（含 YouBike）</span><span>知識遊戲與文資護照</span><span>全站搜尋 4,215 筆</span></span>
+          <span class="tk-foot"><span>cultural.123hi.org・cultural2.123hi.org</span><span class="tk-stamp">起點</span></span>
+        </a>
+        <a class="ticket k-visit" href="https://cultural-visit.123hi.org/" data-stop="visit">
+          <span class="tk-top"><span class="tk-no">No. 02</span><span class="tk-kind">現況</span></span>
+          <span class="tk-name">文資達人訪查</span>
+          <span class="tk-route"><b>書上</b><i aria-hidden="true">⟶</i><b>現場</b></span>
+          <span class="tk-desc">核准的文資達人親自到現場，回報每一處現在的樣子。</span>
+          <span class="tk-feat"><span>現況、開放情形、推薦星等</span><span>實地照片與心得</span><span>附近美食、住宿、交通</span><span>查核覆蓋率與訪查行程</span><span>訪查紀錄搜尋</span></span>
+          <span class="tk-foot"><span>cultural-visit.123hi.org</span><span class="tk-stamp">實地</span></span>
+        </a>
+        <a class="ticket k-rail" href="https://cultural-rail.123hi.org/" data-stop="rail">
+          <span class="tk-top"><span class="tk-no">No. 03</span><span class="tk-kind">交通</span></span>
+          <span class="tk-name">搭火車逛文資</span>
+          <span class="tk-route"><b>月臺</b><i aria-hidden="true">⟶</i><b>古蹟</b></span>
+          <span class="tk-desc">臺鐵 16 條路線、242 個車站，看每一站走路 15 分鐘內的文資。</span>
+          <span class="tk-feat"><span>路線圖與車站文資</span><span>下車就有文資排行榜</span><span>一站跨最多時代</span><span>勾選車站排行程</span></span>
+          <span class="tk-foot"><span>cultural-rail.123hi.org</span><span class="tk-stamp">免開車</span></span>
+        </a>
+        <a class="ticket k-town" href="https://cultural-town.123hi.org/" data-stop="town">
+          <span class="tk-top"><span class="tk-no">No. 04</span><span class="tk-kind">家鄉</span></span>
+          <span class="tk-name">鄉鎮文資性格卡</span>
+          <span class="tk-route"><b>家鄉</b><i aria-hidden="true">⟶</i><b>性格</b></span>
+          <span class="tk-desc">全臺 368 個鄉鎮市區，每一個都有一張用文資算出來的性格卡。</span>
+          <span class="tk-feat"><span>19 種性格類型</span><span>意外的事實與排名</span><span>全臺跟你最像的鄉鎮</span><span>下載卡片分享</span></span>
+          <span class="tk-foot"><span>cultural-town.123hi.org</span><span class="tk-stamp">368 張</span></span>
+        </a>
+        <a class="ticket k-ascent" href="https://cultural-ascent.123hi.org/" data-stop="ascent">
+          <span class="tk-top"><span class="tk-no">No. 05</span><span class="tk-kind">高度</span></span>
+          <span class="tk-name">從海口到山頂</span>
+          <span class="tk-route"><b>海口</b><i aria-hidden="true">⟶</i><b>山頂</b></span>
+          <span class="tk-desc">用海拔看文資：住在多高、沿河往上游、翻過越嶺古道。</span>
+          <span class="tk-feat"><span>文資住在多高</span><span>溯河而上：淡水河、濁水溪</span><span>越嶺古道 5 條</span><span>僅供認識歷史，不作導航</span></span>
+          <span class="tk-foot"><span>cultural-ascent.123hi.org</span><span class="tk-stamp">海拔</span></span>
+        </a>
+        <a class="ticket k-atlas" href="https://cultural-atlas.123hi.org/" data-stop="atlas">
+          <span class="tk-top"><span class="tk-no">No. 06</span><span class="tk-kind">全景</span></span>
+          <span class="tk-name">文資地圖集</span>
+          <span class="tk-route"><b>一處</b><i aria-hidden="true">⟶</i><b>全島</b></span>
+          <span class="tk-desc">把三千多處文資放到同一張圖上，看時間、地震與災害潛勢。</span>
+          <span class="tk-feat"><span>3D 文資島與 8 站導覽</span><span>島怎麼長出來</span><span>它挺過了什麼：地震與颱風</span><span>文資風險地圖</span></span>
+          <span class="tk-foot"><span>cultural-atlas.123hi.org</span><span class="tk-stamp">3D</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 關係圖 -->
+  <section class="wrap g-sec" id="links" aria-labelledby="lkTitle">
+    <div class="g-sec-h">
+      <h2 id="lkTitle">它們怎麼串在一起</h2>
+      <p>資料從知識網流出去，連結再從各站流回來。切換看看兩種線。</p>
+    </div>
+    <div class="g-links">
+      <div class="g-linkfig">
+        <div class="chips" role="group" aria-label="顯示哪一種線" id="linkMode">
+          <button type="button" class="chip" data-mode="all" aria-pressed="true">全部</button>
+          <button type="button" class="chip" data-mode="data" aria-pressed="false">資料怎麼流</button>
+          <button type="button" class="chip" data-mode="link" aria-pressed="false">連結怎麼走</button>
+        </div>
+        <svg id="linkSvg" viewBox="0 0 520 440" role="img" aria-labelledby="lkTitle"></svg>
+      </div>
+      <div class="g-linkside">
+        <div class="g-duo" id="linkTalk"></div>
+        <ul class="g-linklist" id="linkList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 選一種玩法 -->
+  <section class="g-band g-band-2" id="routes" aria-labelledby="rtTitle">
+    <div class="wrap g-sec">
+      <div class="g-sec-h">
+        <h2 id="rtTitle">你是哪一種旅人？</h2>
+        <p>選一種玩法，Allan 和阿拉蕾幫你排好要逛哪幾站、照什麼順序。</p>
+      </div>
+      <div class="chips g-rtpick" role="group" aria-label="旅人類型" id="routePick"></div>
+      <div class="g-route" id="routeBox"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>規劃設計：Allan Lo，<a href="https://www.123hi.org" target="_blank" rel="noopener">https://www.123hi.org</a>，2026年11月</span>
+    <span>地形：Copernicus DEM（produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA）・鐵道：交通部 PTX 臺鐵車站資料・河道與古道：經濟部水利署、林業及自然保育署、交通部觀光署公開資料</span>
+    <span><a href="../">回到文資知識網首頁</a></span>
+  </div>
+</footer>
+
+<script src="../assets/js/cities.js?v=20261117"></script>
+<script src="geo.js?v=20261117"></script>
+<script src="guide.js?v=20261117"></script>
+</body>
+</html>
