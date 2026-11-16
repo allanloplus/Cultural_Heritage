@@ -97,6 +97,10 @@ python3 tools/gen_audio.py
 5. 在 `assets/js/cities.js` 把該縣市設為開放（`on: true`、`slug`、代表照片），更新入口頁問候語與語音。入口頁的卡片、地圖、右上角功能表，以及各縣市頁的「切換縣市」選單都會自動更新。
 6. 用 `tools/newcity/tests/` 的瀏覽器測試驗收。
 
+## 分享預覽圖
+
+連結貼到通訊軟體時顯示的縮圖（1200×630）：入口頁是 `assets/og.jpg`，每個縣市是 `<縣市>/og.jpg`（第二網站的縣市放在 Cultural_Heritage2）。版面在 `tools/og.html`，meta 標籤在 `index.html` 與 `tools/city_template.html`。新增縣市或想換代表照片時執行 `node tools/og.js`（需要 Node 與 Playwright），兩個 repo 都要提交。
+
 ## 本機預覽與上線
 
 純靜態網站，不需要後端。

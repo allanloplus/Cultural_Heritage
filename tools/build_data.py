@@ -144,7 +144,7 @@ def build_city(slug, site=1):
     for fp in (os.path.join(city, "js", "data.js"), os.path.join(city, "audio", "cues.js")):
         if os.path.exists(fp):
             dhash.update(open(fp, "rb").read())
-    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug, root=SITES.ASSET_ROOT[site],
+    vals = dict(cfg["html"], name=cfg["name"], short=cfg["short"], slug=slug, root=SITES.ASSET_ROOT[site], site_url=SITES.SITES[site]["public"],
                 ver=asset_version(), dver=dhash.hexdigest()[:8])
     html = re.sub(r"\{\{(\w+)\}\}", lambda m: vals[m.group(1)], tpl)
     with open(os.path.join(city, "index.html"), "w", encoding="utf-8") as f:

@@ -1,0 +1,62 @@
+<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
+<!-- 分享連結時的預覽圖（1200×630）原稿，由 tools/og.js 用瀏覽器開啟後截圖：
+     ?mode=portal                      → assets/og.jpg（入口頁）
+     ?slug=<縣市>&base=<縣市資料夾的網址> → <縣市>/og.jpg -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;overflow:hidden;background:#f6f1e7;font-family:"Noto Sans TC",sans-serif;color:#2b2521;position:relative}
+.bg{position:absolute;inset:0;background:radial-gradient(700px 420px at 88% 8%,#cfe8dd,transparent 70%),radial-gradient(500px 300px at 0 100%,#f3dfc0,transparent 70%)}
+.k{position:absolute;left:64px;top:52px;font-size:24px;font-weight:700;letter-spacing:.14em;color:#1d6f73;display:flex;align-items:center;gap:14px}
+.k img{width:50px;height:50px;border-radius:50%;background:#cfe8dd;object-fit:cover;object-position:top}
+h1{position:absolute;left:62px;font-family:"LXGW WenKai TC",serif;font-weight:700;line-height:1.2;letter-spacing:.03em;white-space:nowrap}
+.sub{position:absolute;left:66px;font-family:"LXGW WenKai TC",serif;color:#1d6f73}
+.chars{position:absolute;display:flex;align-items:flex-end;gap:6px}
+.chars img{filter:drop-shadow(0 10px 14px rgba(40,25,10,.2))}
+.url{position:absolute;right:56px;font-size:21px;color:#6c6058;letter-spacing:.04em}
+.chips{position:absolute;left:64px;display:flex;gap:12px;flex-wrap:wrap}
+.chips span{background:#fffdf8;border:1.5px solid #e0d5c3;border-radius:999px;padding:6px 20px;font-size:24px;font-weight:500;box-shadow:0 4px 12px rgba(60,40,20,.08)}
+.chips b{font-family:"LXGW WenKai TC",serif;font-size:30px;color:#b23a3a;margin-right:4px}
+.ph{position:absolute;right:52px;top:64px;width:500px;height:400px;overflow:hidden;border-radius:26px;border:6px solid #fffdf8;box-shadow:0 14px 36px rgba(60,40,20,.24);background:#efe7d8;transform:rotate(1.5deg)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph p{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 10px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.72));font-size:15px;line-height:1.35}
+.ph b{display:block;font-family:"LXGW WenKai TC",serif;font-size:27px}
+.faces{position:absolute;right:52px;bottom:26px;display:flex;gap:12px}
+.faces img{width:128px;height:128px;border-radius:50%;object-fit:cover;object-position:50% 12%;background:#cfe8dd;border:6px solid #fffdf8;box-shadow:0 8px 20px rgba(40,25,10,.22)}
+.faces img+img{background:#f7e2a6}
+</style></head><body><div class="bg"></div>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), C = "../assets/characters/";
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function j(u) { return fetch(u).then(function (r) { return r.json(); }); }
+  function done() { document.fonts.ready.then(function () { return Promise.all([].map.call(document.images, function (im) { return im.complete ? 0 : new Promise(function (ok) { im.onload = im.onerror = ok; }); })); }).then(function () { document.body.dataset.ready = "1"; }); }
+  if (q.get("mode") === "portal") {
+    document.body.insertAdjacentHTML("beforeend",
+      '<div class="k"><img src="' + C + 'allan-smile.webp">臺灣文化資產知性旅遊地圖</div>' +
+      '<h1 style="top:128px;font-size:92px">Allan Lo<br>和你逛文化</h1>' +
+      '<p class="sub" style="top:374px;font-size:29px">地圖、語音故事與遊戲，逛遍 22 個縣市。</p>' +
+      '<div class="chars" style="right:40px;top:76px"><img src="' + C + 'allan-wave.webp" style="height:400px"><img src="' + C + 'arale-wave.webp" style="height:352px"></div>' +
+      '<div class="chips" style="bottom:44px"><span>文資地圖</span><span>語音導覽</span><span>時光地圖</span><span>行程規劃</span><span>知識遊戲</span></div>' +
+      '<p class="url" style="bottom:52px">cultural.123hi.org</p>');
+    return done();
+  }
+  var base = q.get("base"), slug = q.get("slug");
+  Promise.all([j(base + "data/config.json"), j(base + "data/sites-official.json"), j(base + "data/images.json")]).then(function (r) {
+    var cfg = r[0], sites = r[1], im = r[2];
+    var rank = { "國定古蹟": 0, "市定古蹟": 1, "縣定古蹟": 1 };
+    var nat = sites.filter(function (s) { return s.category === "國定古蹟"; }).length;
+    var pick = sites.filter(function (s) { return im[s.id] && im[s.id][0] && im[s.id][0].local; }).sort(function (a, b) { return (rank[a.category] == null ? 2 : rank[a.category]) - (rank[b.category] == null ? 2 : rank[b.category]); })[0];
+    var p = pick && im[pick.id][0];
+    document.body.insertAdjacentHTML("beforeend",
+      '<div class="k"><img src="' + C + 'allan-smile.webp">Allan Lo 和你逛文化</div>' +
+      '<h1 style="top:118px;font-size:' + (cfg.name.length > 3 ? 120 : 150) + 'px">' + esc(cfg.name) + "</h1>" +
+      '<p class="sub" style="top:322px;font-size:34px;max-width:560px;line-height:1.45">文資地圖、語音導覽、<br>時光地圖、行程規劃與知識遊戲</p>' +
+      '<div class="chips" style="bottom:44px"><span><b>' + sites.length + "</b>處文化資產</span>" + (nat ? "<span><b>" + nat + "</b>處國定古蹟</span>" : "") + "</div>" +
+      (p ? '<div class="ph"><img src="' + base + esc(p.local) + '"><p><b>' + esc(pick.name) + "</b>攝影：" + esc(p.artist || "Wikimedia Commons") + "｜" + esc(p.license) + "</p></div>" : "") +
+      '<div class="faces"><img src="' + C + 'allan-point.webp"><img src="' + C + 'arale-thumb.webp"></div>');
+    done();
+  });
+})();
+</script>
+</body></html>
