@@ -126,7 +126,7 @@
       (current ? '<a class="cm-home" href="' + base + '">回全站首頁（全部縣市）</a>' : "");
   }
 
-  /* 入口頁：右上角功能表（縣市地圖＋四個姊妹站＋選擇縣市下拉選單） */
+  /* 入口頁：右上角功能表（縣市地圖＋五個姊妹站＋選擇縣市下拉選單） */
   function portalNav(el) {
     if (!el) return;
     el.classList.add("portal-nav");
@@ -134,6 +134,7 @@
       '<a class="sis-link" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener" title="文資達人訪查：實地現況、心得與推薦指數">達人訪查</a>' +
       '<a class="sis-link" href="https://cultural-rail.123hi.org/" target="_blank" rel="noopener" title="搭火車逛文資：臺鐵各站走路就到的文化資產">搭火車逛文資</a>' +
       '<a class="sis-link" href="https://cultural-town.123hi.org/" target="_blank" rel="noopener" title="鄉鎮文資性格卡：查你家鄉的文資性格">鄉鎮文資性格卡</a>' +
+      '<a class="sis-link" href="https://cultural-ascent.123hi.org/" target="_blank" rel="noopener" title="從海口到山頂：全臺文化資產住在多高">從海口到山頂</a>' +
       '<a class="sis-link" href="https://cultural-atlas.123hi.org/" target="_blank" rel="noopener" title="文資地圖集：時間軸、它挺過了什麼、風險地圖">文資地圖集</a>' +
       '<details class="city-switch portal-switch"><summary>選擇縣市<span class="caret" aria-hidden="true">▾</span></summary><div class="city-menu"></div></details>';
     cityMenu(el.querySelector(".city-menu"), "", "");
