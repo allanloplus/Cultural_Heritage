@@ -110,16 +110,19 @@ body { overflow-x: hidden; }
 .lm { cursor: pointer; transition: opacity .3s, transform .3s; transform-box: fill-box; }
 .lm:focus { outline: none; }
 .lm:focus-visible .lm-sign rect { stroke: var(--sun); stroke-width: 3; }
-.lm-sign rect { fill: var(--card); stroke: var(--lmc); stroke-width: 2; }
-.lm-sign text { font-family: var(--f-display); font-weight: 700; font-size: 12.5px; fill: var(--lmc); }
-.lm-sign .lm-no { font-family: var(--f-body); font-size: 8px; font-weight: 700; fill: var(--card); }
+.lm-sign { filter: drop-shadow(0 1.5px 1.5px rgba(40, 25, 10, .28)); }
+.lm-sign rect { fill: var(--card); stroke: var(--lmc); stroke-width: 2.4; }
+.lm-sign text { font-family: var(--f-display); font-weight: 700; font-size: 13.5px; fill: var(--lmc); }
+.lm-sign .lm-no { font-family: var(--f-body); font-size: 9px; font-weight: 700; fill: var(--card); }
 .lm-sign .lm-dot { fill: var(--lmc); stroke: none; }
 .lm:hover .lm-sign rect { fill: color-mix(in srgb, var(--lmc) 12%, var(--card)); }
 .lm.is-on .lm-sign rect { fill: var(--lmc); }
 .lm.is-on .lm-sign text:not(.lm-no) { fill: var(--card); }
 .lm.is-on .lm-sign .lm-dot { fill: var(--card); }
 .lm.is-on .lm-sign .lm-no { fill: var(--lmc); }
-.mapsvg.has-on .lm:not(.is-on) { opacity: .55; }
+/* 選了一站時，其他地標的圖示變淡，但路牌維持清楚，方便直接點別站 */
+.mapsvg.has-on .lm:not(.is-on) > :not(.lm-sign) { opacity: .45; }
+.lm.is-on .lm-sign { filter: drop-shadow(0 2px 4px rgba(40, 25, 10, .4)); }
 .mapsvg.on-all .lm { opacity: 1; }
 .lm-knowledge { --lmc: var(--k-knowledge); } .lm-visit { --lmc: var(--k-visit); } .lm-rail { --lmc: var(--k-rail); }
 .lm-town { --lmc: var(--k-town); } .lm-ascent { --lmc: var(--k-ascent); } .lm-atlas { --lmc: var(--k-atlas); }

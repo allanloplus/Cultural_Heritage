@@ -76,11 +76,11 @@
   /* 地標：icon＝圖示位置，sign＝路牌中心（連線的端點），lead＝拉一條虛線指到的地方 */
   var LM = {
     knowledge: { icon: [160, 598], sign: [150, 648], lead: [217.5, 605] },
-    visit: { icon: [131, 212], sign: [104, 296] },
+    visit: { icon: [131, 212], sign: [114, 298] },
     rail: { icon: [336, 152], sign: [300, 192], lead: [393.7, 155] },
-    town: { icon: [176, 330], sign: [168, 376], lead: S.lukang },
+    town: { icon: [176, 330], sign: [158, 380], lead: S.lukang },
     ascent: { icon: S.yushan, sign: [470, 525] },
-    atlas: { icon: [570, 592], sign: [560, 654] },
+    atlas: { icon: [570, 592], sign: [552, 656] },
     all: { sign: [330, 450] }
   };
 
@@ -132,10 +132,10 @@
   }
 
   function sign(key, n) {
-    var p = LM[key].sign, name = SITES[key].name, w = name.length * 14 + 34;
-    return '<g class="lm-sign" data-x="' + p[0] + '" data-y="' + p[1] + '"><rect x="' + (-w / 2) + '" y="-13" width="' + w + '" height="26" rx="13"/>' +
+    var p = LM[key].sign, name = SITES[key].name, w = name.length * 14.5 + 36;
+    return '<g class="lm-sign" data-x="' + p[0] + '" data-y="' + p[1] + '" data-w="' + w + '"><rect x="' + (-w / 2) + '" y="-13" width="' + w + '" height="26" rx="13"/>' +
       '<circle class="lm-dot" cx="' + (-w / 2 + 13) + '" cy="0" r="8.5"/><text class="lm-no" x="' + (-w / 2 + 13) + '" y="3" text-anchor="middle">' + n + "</text>" +
-      '<text x="' + (-w / 2 + 26) + '" y="4.5">' + esc(name) + "</text></g>";
+      '<text x="' + (-w / 2 + 27) + '" y="5">' + esc(name) + "</text></g>";
   }
 
   function arcD(a, b, bend) {
@@ -213,8 +213,12 @@
 
   /* 路牌在手機上會縮得太小：依地圖實際寬度放大，維持大約同樣的字級 */
   function placeSigns() {
-    var w = svg.getBoundingClientRect().width || W, k = Math.min(1.7, Math.max(1.25, (W / w) * 1.1));
-    $$(".lm-sign", svg).forEach(function (s) { s.setAttribute("transform", "translate(" + s.dataset.x + " " + s.dataset.y + ") scale(" + k.toFixed(2) + ")"); });
+    var w = svg.getBoundingClientRect().width || W, k = Math.min(1.9, Math.max(1.6, (W / w) * 1.15));
+    $$(".lm-sign", svg).forEach(function (s) {
+      /* 放大後不要超出地圖左右邊緣 */
+      var hw = s.dataset.w * k / 2 + 4, x = Math.min(W - hw, Math.max(hw, +s.dataset.x));
+      s.setAttribute("transform", "translate(" + x.toFixed(1) + " " + s.dataset.y + ") scale(" + k.toFixed(2) + ")");
+    });
   }
 
   /* 環島小火車：三節車廂沿著鐵道跑一圈約 45 秒 */
