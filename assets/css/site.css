@@ -106,7 +106,7 @@ button, input, select { font: inherit; color: inherit; }
 .portal-switch summary { background: none; color: var(--muted); box-shadow: none; font-weight: 500; font-size: .95rem; padding: 8px 12px; border-radius: 10px; }
 .portal-switch summary:hover, .portal-switch[open] summary { color: var(--ink); background: var(--paper-2); }
 .portal-switch .city-menu { left: auto; right: 0; }
-/* 入口頁功能表放了四個姊妹站的全名：畫面不夠寬時先收起「縣市地圖」，再不夠就折成兩行 */
+/* 入口頁功能表放了五個姊妹站的全名：畫面不夠寬時先收起「縣市地圖」，再不夠就折成兩行 */
 @media (max-width: 960px) {
   .nav.portal-nav .nav-cities { display: none; }
   .nav.portal-nav { flex-wrap: wrap; justify-content: flex-end; row-gap: 6px; }
