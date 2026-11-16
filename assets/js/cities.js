@@ -132,8 +132,8 @@
     el.classList.add("portal-nav");
     el.innerHTML = '<a href="#cities" class="nav-cities">縣市地圖</a>' +
       '<a class="sis-link" href="https://cultural-visit.123hi.org/" target="_blank" rel="noopener" title="文資達人訪查：實地現況、心得與推薦指數">達人訪查</a>' +
-      '<a class="sis-link" href="https://cultural-rail.123hi.org/" target="_blank" rel="noopener" title="搭火車逛文資：臺鐵各站走路就到的文化資產">搭火車</a>' +
-      '<a class="sis-link" href="https://cultural-town.123hi.org/" target="_blank" rel="noopener" title="鄉鎮文資性格卡：查你家鄉的文資性格">性格卡</a>' +
+      '<a class="sis-link" href="https://cultural-rail.123hi.org/" target="_blank" rel="noopener" title="搭火車逛文資：臺鐵各站走路就到的文化資產">搭火車逛文資</a>' +
+      '<a class="sis-link" href="https://cultural-town.123hi.org/" target="_blank" rel="noopener" title="鄉鎮文資性格卡：查你家鄉的文資性格">鄉鎮文資性格卡</a>' +
       '<a class="sis-link" href="https://cultural-atlas.123hi.org/" target="_blank" rel="noopener" title="文資地圖集：時間軸、它挺過了什麼、風險地圖">文資地圖集</a>' +
       '<details class="city-switch portal-switch"><summary>選擇縣市<span class="caret" aria-hidden="true">▾</span></summary><div class="city-menu"></div></details>';
     cityMenu(el.querySelector(".city-menu"), "", "");
