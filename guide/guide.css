@@ -31,7 +31,7 @@
 
 body { overflow-x: hidden; }
 .g-nav { margin-left: auto; }
-.g-home { flex: none; }
+.g-home { flex: none; gap: 0; white-space: nowrap; }
 @media (max-width: 860px) { .g-nav { display: none; } .g-home { margin-left: auto; } }
 
 /* ---------- 開場 ---------- */
@@ -53,9 +53,9 @@ body { overflow-x: hidden; }
 .g-stats span { font-size: .76rem; color: var(--muted); }
 .g-cast { position: relative; height: 380px; }
 .g-cast img { position: absolute; bottom: 0; width: auto; filter: drop-shadow(0 10px 18px rgba(60, 40, 20, .18)); }
-.g-allan { height: 360px; right: 120px; transform-origin: 50% 100%; }
-.g-arale { height: 300px; right: 0; transform-origin: 50% 100%; }
-.g-bubble { position: absolute; left: 0; top: 6px; max-width: 290px; background: var(--card); border: 2px solid var(--ink); border-radius: 18px; padding: 10px 14px; font-size: .95rem; line-height: 1.6; box-shadow: 4px 4px 0 color-mix(in srgb, var(--ink) 18%, transparent); z-index: 2; min-height: 3.4em; }
+.g-allan { height: 330px; right: 120px; transform-origin: 50% 100%; }
+.g-arale { height: 280px; right: 0; transform-origin: 50% 100%; }
+.g-bubble { position: absolute; left: 0; top: -22px; max-width: 290px; background: var(--card); border: 2px solid var(--ink); border-radius: 18px; padding: 10px 14px; font-size: .95rem; line-height: 1.6; box-shadow: 4px 4px 0 color-mix(in srgb, var(--ink) 18%, transparent); z-index: 2; min-height: 3.4em; }
 .g-bubble::after { content: ""; position: absolute; right: 54px; bottom: -12px; width: 18px; height: 18px; background: var(--card); border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: rotate(45deg); }
 .g-bubble.r::after { right: 14px; }
 .g-bubble b { display: block; font-family: var(--f-display); color: var(--peach); font-size: .9rem; }
@@ -263,13 +263,16 @@ body { overflow-x: hidden; }
 @media (max-width: 760px) {
   .g-hero-grid { grid-template-columns: 1fr; gap: 0; padding-top: 22px; }
   .g-hero-copy { padding-bottom: 8px; }
-  .g-cast { height: 250px; }
-  .g-allan { height: 235px; right: auto; left: 50%; margin-left: -150px; }
-  .g-arale { height: 200px; right: auto; left: 50%; margin-left: 30px; }
-  .g-bubble { left: 0; right: 0; max-width: none; font-size: .88rem; top: 0; }
-  .g-bubble::after { right: 46%; }
-  .g-bubble.r::after { right: 26%; }
-  .g-cast { margin-top: 70px; }
+  /* 手機：對話框放在人物正上方（一般排版），人物站在下方留好的 230px 裡，不再互相重疊 */
+  .g-cast { height: auto; margin-top: 18px; padding-bottom: 232px; }
+  .g-allan { height: 225px; right: auto; left: 50%; margin-left: -150px; }
+  .g-arale { height: 192px; right: auto; left: 50%; margin-left: 32px; }
+  .g-bubble { position: relative; left: auto; top: auto; max-width: none; font-size: .9rem; min-height: 0; margin-bottom: 16px; }
+  .g-bubble::after { right: auto; left: 30%; }
+  .g-bubble.r::after { right: auto; left: 72%; }
+  /* 頂端：不換行，按鈕縮成「回首頁」 */
+  .topbar-inner { flex-wrap: nowrap; }
+  .g-home-l { display: none; }
   .g-stats { gap: 6px; }
   .g-stats li { padding: 6px 2px; }
   .g-stats b { font-size: 1.1rem; }
