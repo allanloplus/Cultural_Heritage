@@ -108,7 +108,7 @@ button, input, select { font: inherit; color: inherit; }
 .portal-switch .city-menu { left: auto; right: 0; }
 /* 入口頁功能表放了五個姊妹站的全名：畫面不夠寬時先收起「縣市地圖」，再不夠就折成兩行 */
 @media (max-width: 960px) {
-  .nav.portal-nav .nav-cities { display: none; }
+  .nav.portal-nav .nav-cities, .nav.portal-nav .nav-search { display: none; }
   .nav.portal-nav { flex-wrap: wrap; justify-content: flex-end; row-gap: 6px; }
   .topbar:has(.portal-nav) { height: auto; min-height: var(--hdr); }
   .topbar:has(.portal-nav) .topbar-inner { height: auto; min-height: var(--hdr); padding-top: 6px; padding-bottom: 6px; }
@@ -193,7 +193,7 @@ button, input, select { font: inherit; color: inherit; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 @media (max-width: 640px) {
-  .nav.portal-nav .nav-cities { display: none; }
+  .nav.portal-nav .nav-cities, .nav.portal-nav .nav-search { display: none; }
   .nav a.sis-link { font-size: .78rem; padding: 4px 7px; margin: 0 1px; }
 }
 @media (max-width: 640px) { .nav.portal-nav { justify-content: flex-start; } }

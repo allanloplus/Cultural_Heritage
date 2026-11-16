@@ -51,6 +51,7 @@
 .filter-row label { display: flex; align-items: center; gap: 4px; flex: 1 1 0; min-width: 0; white-space: nowrap; }
 .filter-row select { flex: 1 1 0; width: 0; min-width: 0; padding: 4px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); text-overflow: ellipsis; }
 .count { font-size: .82rem; color: var(--muted); }
+.count-all { display: inline-block; margin-left: 8px; color: var(--teal); font-weight: 500; }
 .site-list { list-style: none; margin: 0; padding: 6px 8px 80px; overflow: auto; flex: 1; }
 .site-item { display: grid; grid-template-columns: 64px 1fr; gap: 10px; padding: 8px; border-radius: 12px; cursor: pointer; align-items: center; }
 .site-item:hover, .site-item.is-on { background: var(--card); box-shadow: var(--shadow); }
