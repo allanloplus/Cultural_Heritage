@@ -34,7 +34,7 @@
       desc: "114 處有形文化資產、63 項無形文化資產：恆春古城、鵝鑾鼻燈塔、魯凱族好茶舊社、下淡水溪鐵橋 4 處國定古蹟，還有六堆客家庄與排灣族石板屋聚落。" },
     { slug: "taitung-county", name: "臺東縣", nick: "後山：史前遺址・縱谷・綠島蘭嶼", lat: 22.80, lng: 121.15, on: true,
       img: "taitung-county/img/taidong-jiuzhanjiguancheku-0.webp", credit: "臺東舊站機關車庫／Pbdragonwang，CC BY-SA 3.0",
-      desc: "60 處有形文化資產、22 項無形文化資產：卑南、八仙洞、都蘭考古遺址，日治移民村、鐵道與糖廠，還有綠島人權文化園區與蘭嶼部落。" },
+      desc: "60 處有形文化資產、23 項無形文化資產：卑南、八仙洞、都蘭考古遺址，日治移民村、鐵道與糖廠，還有綠島人權文化園區與蘭嶼部落。" },
     { slug: "kinmen-county", name: "金門縣", nick: "浯島：閩南古厝・僑鄉洋樓・戰地史蹟", lat: 24.44, lng: 118.33, on: true,
       img: "kinmen-county/img/jincheng-wentaibaota-0.webp", credit: "文臺寶塔／寺人孟子，CC BY-SA 4.0",
       desc: "251 處有形文化資產：文臺寶塔、邱良功母節孝坊、瓊林蔡氏祠堂等 10 處國定古蹟，153 處閩南古厝與僑鄉洋樓，還有古寧頭、八二三砲戰的坑道與碉堡；可開上金門大橋到烈嶼。" },

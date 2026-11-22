@@ -181,7 +181,7 @@
   "address": "花蓮市三民街23號",
   "lat": 23.979909,
   "lng": 121.6089,
-  "open": "營業時間為12:00~21:00，每週四為公休日",
+  "open": "開放時間： 每週四至週二 10:00－18:00\n休館日： 每週三\n參觀方式： 外部空間開放民眾參觀，內部空間須事先預約。",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20080723000002",
   "caseId": "20080723000002",
   "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2023-03-27/9b6bcac2-a2c5-4d66-ae85-a1ba50b5f7b7/c花蓮-檢查長宿舍05.jpg",
@@ -200,7 +200,7 @@
   "address": "花蓮市民勤段1426地號",
   "lat": 23.980455,
   "lng": 121.613144,
-  "open": "目前修復工程進行中。",
+  "open": "委外營業中，營業時間：星期一~五：10：00~22：00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/20050223000001",
   "caseId": "20050223000001",
   "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-12/9780addf-b3ea-4d88-b1a0-a3939229e26b/1781247093742_0.jpg",
@@ -561,7 +561,7 @@
   "address": "花蓮市花蓮市中正路618巷及622巷（14間）。(花蓮市民勤段1426、1426-4地號)",
   "lat": 23.9803440150672,
   "lng": 121.613070228448,
-  "open": "目前修復工程進行中。",
+  "open": "星期一~五：10：00~22：00",
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/historicalBuilding/20050329000003",
   "caseId": "20050329000003",
   "officialImg": "https://data.boch.gov.tw/upload/representImageFile/2026-06-12/47595ca1-55a5-4ca1-bd7d-73d4ae253edc/1781247035199_0.jpg",
@@ -1623,7 +1623,7 @@
   "url": "https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19870417000001",
   "caseId": "19870417000001",
   "officialImg": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37604/photo/96b0b3c4-2efd-4817-afeb-67c7479a3efa.jpg",
-  "ownership": "不明"
+  "ownership": "私有"
  },
  {
   "id": "yuli-shenshecanji",
